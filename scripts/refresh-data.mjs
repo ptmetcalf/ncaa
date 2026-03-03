@@ -75,6 +75,10 @@ function rangeYmd(startYmd, endYmd) {
   return out;
 }
 
+function compareYmd(a, b) {
+  return Number(a) - Number(b);
+}
+
 function parseCsvInts(value) {
   if (!value) return [];
   return value
@@ -519,7 +523,10 @@ async function main() {
       : defaultDiscoverDates;
 
   const gameStart = firstNonEmpty(args.gameStart, args.game_start, args.game_start_date, `${year}0317`);
-  const gameEnd = firstNonEmpty(args.gameEnd, args.game_end, args.game_end_date, todayYmd());
+  let gameEnd = firstNonEmpty(args.gameEnd, args.game_end, args.game_end_date, todayYmd());
+  if (compareYmd(gameEnd, gameStart) < 0) {
+    gameEnd = gameStart;
+  }
 
   const gameDates = rangeYmd(gameStart, gameEnd);
 
@@ -544,21 +551,28 @@ async function main() {
     teams = await getTeamsFromScoreboardDates(discoverDates);
   }
 
+  let players = [];
+  let playersWithStats = [];
+  let events = [];
+  let gameLog = [];
+  let playerTotals = [];
+  let note = null;
+
   if (teams.length === 0) {
-    throw new Error(
-      "No teams found. Try setting --selectedTeams=ID1,ID2 or pass valid --discoverDates=YYYYMMDD,..."
-    );
+    note =
+      "No teams discovered for the provided dates yet. This is expected before bracket/team assignment. " +
+      "Run again later or pass --selectedTeams with ESPN team IDs.";
+    console.log(note);
+  } else {
+    console.log(`Teams: ${teams.length}`);
+    players = await getTeamRosters(teams);
+    console.log(`Players from rosters: ${players.length}`);
+
+    playersWithStats = await getSeasonStatsForPlayers(players, year, seasonType);
+    events = await getScoreboardEvents(gameDates);
+    gameLog = await getGameLog(events);
+    playerTotals = aggregatePlayerTotals(gameLog);
   }
-
-  console.log(`Teams: ${teams.length}`);
-
-  const players = await getTeamRosters(teams);
-  console.log(`Players from rosters: ${players.length}`);
-
-  const playersWithStats = await getSeasonStatsForPlayers(players, year, seasonType);
-  const events = await getScoreboardEvents(gameDates);
-  const gameLog = await getGameLog(events);
-  const playerTotals = aggregatePlayerTotals(gameLog);
 
   const now = new Date().toISOString();
   const meta = {
@@ -575,7 +589,8 @@ async function main() {
       final_events: events.filter((e) => e.completed).length,
       game_log_rows: gameLog.length,
       player_totals_rows: playerTotals.length
-    }
+    },
+    note
   };
 
   const root = process.cwd();
