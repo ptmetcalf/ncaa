@@ -283,6 +283,10 @@ function round(n, precision = 2) {
   return Math.round(n * mult) / mult;
 }
 
+function clamp(value, min, max) {
+  return Math.min(max, Math.max(min, value));
+}
+
 function buildDraftScore(player) {
   const points = player.avg_points ?? 0;
   const minutes = player.avg_minutes ?? 0;
@@ -294,18 +298,30 @@ function buildDraftScore(player) {
   const per = player.per ?? 0;
   const shooting = player.shooting_efficiency ?? 0;
   const ppep = player.points_per_estimated_possessions ?? 0;
+  const gamesPlayed = player.games_played ?? 0;
 
-  const score =
-    points * 4.0 +
+  // Downweight volatile tiny-sample lines so bench players do not outrank stars.
+  const minutesSample = clamp(minutes / 24, 0, 1);
+  const gamesSample = clamp(gamesPlayed / 20, 0, 1);
+  const reliability = Math.sqrt(minutesSample * gamesSample);
+
+  const baseScore =
+    points * 4.5 +
     minutes * 0.6 +
-    rebounds * 1.8 +
-    assists * 2.0 +
-    steals * 2.5 +
-    blocks * 2.5 -
-    turnovers * 1.0 +
-    per * 0.6 +
-    shooting * 15 +
-    ppep * 8;
+    rebounds * 2.0 +
+    assists * 2.2 +
+    steals * 3.0 +
+    blocks * 2.8 -
+    turnovers * 1.5;
+
+  // Cap advanced metrics and blend them by reliability.
+  const perClamped = clamp(per, 0, 30);
+  const shootingClamped = clamp(shooting, 0, 1.1);
+  const ppepClamped = clamp(ppep, 0, 1.8);
+  const advancedScore =
+    reliability * (perClamped * 0.35 + shootingClamped * 8 + ppepClamped * 5);
+
+  const score = (baseScore + advancedScore) * (0.55 + 0.45 * reliability);
 
   return round(score, 2);
 }
