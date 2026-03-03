@@ -1,5 +1,9 @@
 const STORAGE_KEY = "ncaa_pool_state_v1";
 const DEFAULT_OWNERS = Array.from({ length: 12 }, (_, i) => `Owner ${i + 1}`);
+const DRAFT_MODES = {
+  MANUAL: "manual",
+  SNAKE: "snake"
+};
 
 const state = {
   meta: null,
@@ -7,6 +11,10 @@ const state = {
   players: [],
   playerTotals: [],
   owners: [...DEFAULT_OWNERS],
+  draft: {
+    mode: DRAFT_MODES.MANUAL,
+    order: [...DEFAULT_OWNERS]
+  },
   picks: [],
   filters: {
     search: "",
@@ -26,6 +34,11 @@ const elements = {
   boardBody: document.querySelector("#draft-board-body"),
   ownersInput: document.querySelector("#owners-input"),
   saveOwnersBtn: document.querySelector("#save-owners"),
+  draftMode: document.querySelector("#draft-mode"),
+  randomizeOrderBtn: document.querySelector("#randomize-order"),
+  resetOrderBtn: document.querySelector("#reset-order"),
+  draftOrderPreview: document.querySelector("#draft-order-preview"),
+  nextPickPreview: document.querySelector("#next-pick-preview"),
   pickOwner: document.querySelector("#pick-owner"),
   pickPlayerSearch: document.querySelector("#pick-player-search"),
   pickPlayer: document.querySelector("#pick-player"),
@@ -85,9 +98,51 @@ function downloadText(filename, text, type = "text/plain") {
 function saveState() {
   const payload = {
     owners: state.owners,
+    draft: state.draft,
     picks: state.picks
   };
   localStorage.setItem(STORAGE_KEY, JSON.stringify(payload));
+}
+
+function normalizeOwnerList(values) {
+  const seen = new Set();
+  const out = [];
+  for (const value of values ?? []) {
+    const owner = String(value ?? "").trim();
+    if (!owner || seen.has(owner)) continue;
+    seen.add(owner);
+    out.push(owner);
+  }
+  return out;
+}
+
+function shuffle(values) {
+  const arr = [...values];
+  for (let i = arr.length - 1; i > 0; i -= 1) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+  return arr;
+}
+
+function syncDraftOrderWithOwners() {
+  const ownerSet = new Set(state.owners);
+  const existing = normalizeOwnerList(state.draft.order).filter((owner) => ownerSet.has(owner));
+  const missing = state.owners.filter((owner) => !existing.includes(owner));
+  state.draft.order = [...existing, ...missing];
+}
+
+function snakeOwnerForPick(pickNo) {
+  if (state.draft.mode !== DRAFT_MODES.SNAKE) return null;
+  if (!Number.isInteger(pickNo) || pickNo <= 0 || state.draft.order.length === 0) return null;
+
+  const owners = state.draft.order;
+  const ownerCount = owners.length;
+  const roundIndex = Math.floor((pickNo - 1) / ownerCount);
+  const indexInRound = (pickNo - 1) % ownerCount;
+  const isReverseRound = roundIndex % 2 === 1;
+  const ownerIndex = isReverseRound ? ownerCount - 1 - indexInRound : indexInRound;
+  return owners[ownerIndex] ?? null;
 }
 
 function loadState() {
@@ -97,7 +152,14 @@ function loadState() {
   try {
     const parsed = JSON.parse(raw);
     if (Array.isArray(parsed.owners) && parsed.owners.length > 0) {
-      state.owners = parsed.owners.map((o) => String(o).trim()).filter(Boolean);
+      state.owners = normalizeOwnerList(parsed.owners);
+    }
+
+    if (parsed.draft && typeof parsed.draft === "object") {
+      state.draft.mode = parsed.draft.mode === DRAFT_MODES.SNAKE ? DRAFT_MODES.SNAKE : DRAFT_MODES.MANUAL;
+      if (Array.isArray(parsed.draft.order)) {
+        state.draft.order = normalizeOwnerList(parsed.draft.order);
+      }
     }
 
     if (Array.isArray(parsed.picks)) {
@@ -111,6 +173,7 @@ function loadState() {
         }))
         .filter((pick) => Number.isInteger(pick.pick_no) && Number.isInteger(pick.player_id) && pick.owner);
     }
+    syncDraftOrderWithOwners();
   } catch {
     console.warn("Unable to parse saved local state.");
   }
@@ -153,6 +216,30 @@ function fillOwnerSelectors() {
   const options = state.owners.map((owner) => `<option value="${escapeHtml(owner)}">${escapeHtml(owner)}</option>`).join("");
   elements.pickOwner.innerHTML = options;
   elements.ownersInput.value = state.owners.join(",");
+}
+
+function renderDraftControls() {
+  syncDraftOrderWithOwners();
+  elements.draftMode.value = state.draft.mode;
+
+  if (state.draft.order.length === 0) {
+    elements.draftOrderPreview.textContent = "Draft order: add owners first.";
+  } else {
+    const sequence = state.draft.order.map((owner, idx) => `${idx + 1}. ${owner}`).join(" -> ");
+    elements.draftOrderPreview.textContent = `Draft order: ${sequence}`;
+  }
+
+  const nextPick = state.picks.length + 1;
+  const expectedOwner = snakeOwnerForPick(nextPick);
+
+  if (state.draft.mode === DRAFT_MODES.SNAKE && expectedOwner) {
+    elements.nextPickPreview.textContent = `Next pick #${nextPick}: ${expectedOwner} (snake mode)`;
+    elements.pickOwner.value = expectedOwner;
+    elements.pickOwner.disabled = true;
+  } else {
+    elements.nextPickPreview.textContent = `Next pick #${nextPick}: choose owner manually`;
+    elements.pickOwner.disabled = false;
+  }
 }
 
 function fillPlayerPickSelector() {
@@ -284,6 +371,7 @@ function renderMetaLine() {
 
 function rerender() {
   renderMetaLine();
+  renderDraftControls();
   renderDraftBoard();
   fillPlayerPickSelector();
   renderPickLog();
@@ -291,7 +379,9 @@ function rerender() {
 }
 
 function onAddPick() {
-  const owner = elements.pickOwner.value;
+  const nextPickNo = state.picks.length + 1;
+  const expectedOwner = snakeOwnerForPick(nextPickNo);
+  const owner = expectedOwner ?? elements.pickOwner.value;
   const playerId = Number(elements.pickPlayer.value);
   if (!owner || !Number.isInteger(playerId)) return;
 
@@ -301,7 +391,7 @@ function onAddPick() {
   if (!player) return;
 
   state.picks.push({
-    pick_no: state.picks.length + 1,
+    pick_no: nextPickNo,
     owner,
     player_id: playerId,
     player_name: player.player_name,
@@ -314,14 +404,16 @@ function onAddPick() {
 }
 
 function onSaveOwners() {
-  const parsed = elements.ownersInput.value
+  const parsed = normalizeOwnerList(
+    elements.ownersInput.value
     .split(",")
     .map((x) => x.trim())
-    .filter(Boolean);
+  );
 
   if (parsed.length === 0) return;
 
   state.owners = parsed;
+  syncDraftOrderWithOwners();
   saveState();
   fillOwnerSelectors();
   rerender();
@@ -377,6 +469,7 @@ function onDownloadPicks() {
   const payload = {
     exported_at: new Date().toISOString(),
     owners: state.owners,
+    draft: state.draft,
     picks: state.picks
   };
   downloadText("pool-picks.json", `${JSON.stringify(payload, null, 2)}\n`, "application/json");
@@ -432,7 +525,14 @@ function onImportPicks(file) {
     try {
       const parsed = JSON.parse(String(reader.result ?? "{}"));
       if (Array.isArray(parsed.owners) && parsed.owners.length > 0) {
-        state.owners = parsed.owners.map((o) => String(o).trim()).filter(Boolean);
+        state.owners = normalizeOwnerList(parsed.owners);
+      }
+
+      if (parsed.draft && typeof parsed.draft === "object") {
+        state.draft.mode = parsed.draft.mode === DRAFT_MODES.SNAKE ? DRAFT_MODES.SNAKE : DRAFT_MODES.MANUAL;
+        if (Array.isArray(parsed.draft.order)) {
+          state.draft.order = normalizeOwnerList(parsed.draft.order);
+        }
       }
 
       if (Array.isArray(parsed.picks)) {
@@ -447,6 +547,7 @@ function onImportPicks(file) {
           .filter((pick) => Number.isInteger(pick.player_id) && pick.owner);
       }
 
+      syncDraftOrderWithOwners();
       saveState();
       fillOwnerSelectors();
       rerender();
@@ -477,6 +578,30 @@ function bindEvents() {
 
   elements.pickPlayerSearch.addEventListener("input", () => {
     fillPlayerPickSelector();
+  });
+
+  elements.draftMode.addEventListener("change", () => {
+    state.draft.mode = elements.draftMode.value === DRAFT_MODES.SNAKE ? DRAFT_MODES.SNAKE : DRAFT_MODES.MANUAL;
+    saveState();
+    rerender();
+  });
+
+  elements.randomizeOrderBtn.addEventListener("click", () => {
+    if (state.owners.length < 2) return;
+    if (state.picks.length > 0) {
+      const ok = window.confirm("Randomizing draft order now affects only future picks. Continue?");
+      if (!ok) return;
+    }
+    syncDraftOrderWithOwners();
+    state.draft.order = shuffle(state.draft.order);
+    saveState();
+    rerender();
+  });
+
+  elements.resetOrderBtn.addEventListener("click", () => {
+    state.draft.order = [...state.owners];
+    saveState();
+    rerender();
   });
 
   elements.clearFiltersBtn.addEventListener("click", () => {
@@ -512,6 +637,7 @@ function bindEvents() {
     const ok = window.confirm("Reset all picks on this device?");
     if (!ok) return;
     state.picks = [];
+    if (elements.pickPlayerSearch) elements.pickPlayerSearch.value = "";
     saveState();
     rerender();
   });

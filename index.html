@@ -87,6 +87,19 @@
         </div>
         <div class="controls-row compact">
           <label>
+            Draft Mode
+            <select id="draft-mode">
+              <option value="manual">Manual</option>
+              <option value="snake">Snake</option>
+            </select>
+          </label>
+          <button id="randomize-order">Randomize Draft Order</button>
+          <button id="reset-order">Use Owner List Order</button>
+        </div>
+        <p id="draft-order-preview" class="draft-meta"></p>
+        <p id="next-pick-preview" class="draft-meta"></p>
+        <div class="controls-row compact">
+          <label>
             Owner
             <select id="pick-owner"></select>
           </label>

@@ -104,6 +104,13 @@ h2 {
   font-size: 0.92rem;
 }
 
+.draft-meta {
+  margin: 0.2rem 0 0.1rem;
+  color: var(--ink-soft);
+  font-size: 0.85rem;
+  font-family: "IBM Plex Mono", monospace;
+}
+
 .controls {
   display: grid;
   gap: 0.7rem;

@@ -60,8 +60,9 @@ Notes:
 4. Export CSV files when needed:
    - `Download Draft Board CSV` for the full board
    - `Export Picks CSV` for each user's private Google Sheet import
-5. After game slates, run **Refresh NCAA Data** workflow.
-6. Reload page, leaderboard updates automatically.
+5. Optional: switch `Draft Mode` to `Snake`, randomize order, and follow the `Next pick` prompt.
+6. After game slates, run **Refresh NCAA Data** workflow.
+7. Reload page, leaderboard updates automatically.
 
 ## Local Run
 
