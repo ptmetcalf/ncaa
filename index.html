@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
@@ -16,8 +16,16 @@
     <div class="ambient"></div>
     <main class="layout">
       <header class="hero card">
-        <p class="kicker">March Madness Pool Tool</p>
+        <div class="hero-top">
+          <p class="kicker">March Madness Pool Tool</p>
+          <nav class="hero-nav" aria-label="Section navigation">
+            <a href="#draft-board">Board</a>
+            <a href="#draft-setup">Draft</a>
+            <a href="#results">Results</a>
+          </nav>
+        </div>
         <h1>Draft Board + Tournament Scoring</h1>
+        <p class="hero-subtitle">Run draft night fast, track every pick, and settle the pool automatically.</p>
         <p id="meta-line">Loading data...</p>
       </header>
 
@@ -53,7 +61,7 @@
         </div>
       </section>
 
-      <section class="card">
+      <section id="draft-board" class="card">
         <div class="section-head">
           <h2>Draft Board</h2>
           <p>Sorted by model rank (higher = better draft value).</p>
@@ -83,7 +91,7 @@
         </div>
       </section>
 
-      <section class="card draft-setup">
+      <section id="draft-setup" class="card draft-setup">
         <div class="section-head">
           <h2>Draft Setup</h2>
           <p>Set owner names once, then assign picks from the dropdowns.</p>
@@ -146,7 +154,7 @@
         </div>
       </section>
 
-      <section class="card two-col">
+      <section id="results" class="card two-col">
         <div>
           <div class="section-head">
             <h2>Pick Log</h2>
