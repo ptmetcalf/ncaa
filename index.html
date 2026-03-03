@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NCAA Pool Draft + Tracker</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="ambient"></div>
+    <main class="layout">
+      <header class="hero card">
+        <p class="kicker">March Madness Pool Tool</p>
+        <h1>Draft Board + Tournament Scoring</h1>
+        <p id="meta-line">Loading data...</p>
+      </header>
+
+      <section class="card controls">
+        <div class="controls-row">
+          <label>
+            Search Player
+            <input id="search-input" type="search" placeholder="Name or team" />
+          </label>
+          <label>
+            Minimum Avg Minutes
+            <input id="min-minutes" type="number" min="0" step="0.1" value="0" />
+          </label>
+          <label>
+            Team Filter
+            <select id="team-filter" multiple></select>
+          </label>
+        </div>
+        <div class="controls-row compact">
+          <button id="clear-filters">Clear Filters</button>
+          <button id="download-board">Download Draft Board CSV</button>
+          <button id="refresh-page">Reload Data</button>
+        </div>
+      </section>
+
+      <section class="card">
+        <div class="section-head">
+          <h2>Draft Board</h2>
+          <p>Sorted by model rank (higher = better draft value).</p>
+        </div>
+        <div class="table-wrap">
+          <table id="draft-board-table">
+            <thead>
+              <tr>
+                <th>Rank</th>
+                <th>Player</th>
+                <th>Team</th>
+                <th>Pos</th>
+                <th>PPG</th>
+                <th>MPG</th>
+                <th>RPG</th>
+                <th>APG</th>
+                <th>SPG</th>
+                <th>BPG</th>
+                <th>PER</th>
+                <th>Draft Score</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody id="draft-board-body"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="card">
+        <div class="section-head">
+          <h2>Draft Setup</h2>
+          <p>Set owner names once, then assign picks from the dropdowns.</p>
+        </div>
+        <div class="controls-row compact">
+          <label class="wide">
+            Owners (comma-separated)
+            <input id="owners-input" type="text" placeholder="Alice,Bob,Charlie,..." />
+          </label>
+          <button id="save-owners">Save Owners</button>
+        </div>
+        <div class="controls-row compact">
+          <label>
+            Owner
+            <select id="pick-owner"></select>
+          </label>
+          <label class="wide">
+            Player
+            <select id="pick-player"></select>
+          </label>
+          <button id="add-pick">Add Pick</button>
+        </div>
+        <div class="controls-row compact">
+          <button id="download-picks">Export Picks JSON</button>
+          <button id="upload-picks">Import Picks JSON</button>
+          <button id="reset-picks" class="danger">Reset Picks</button>
+          <input id="import-file" type="file" accept="application/json" hidden />
+        </div>
+      </section>
+
+      <section class="card two-col">
+        <div>
+          <div class="section-head">
+            <h2>Pick Log</h2>
+          </div>
+          <div class="table-wrap tall">
+            <table>
+              <thead>
+                <tr>
+                  <th>Pick</th>
+                  <th>Owner</th>
+                  <th>Player</th>
+                  <th>Team</th>
+                  <th>Tournament PTS</th>
+                </tr>
+              </thead>
+              <tbody id="pick-log-body"></tbody>
+            </table>
+          </div>
+        </div>
+        <div>
+          <div class="section-head">
+            <h2>Leaderboard</h2>
+          </div>
+          <div class="table-wrap tall">
+            <table>
+              <thead>
+                <tr>
+                  <th>Rank</th>
+                  <th>Owner</th>
+                  <th>Players</th>
+                  <th>Total PTS</th>
+                </tr>
+              </thead>
+              <tbody id="leaderboard-body"></tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <footer class="card footer">
+        <p>
+          Data refresh is handled by GitHub Actions and written to `/data/*.json`.
+          Picks are stored in browser local storage on this device.
+        </p>
+      </footer>
+    </main>
+
+    <script type="module" src="app.js"></script>
+  </body>
+</html>

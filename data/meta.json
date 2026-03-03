@@ -1,0 +1,21 @@
+{
+  "generated_at": "2026-03-03T03:02:15.912Z",
+  "year": 2026,
+  "season_type": 2,
+  "discover_dates": [
+    "20260317",
+    "20260318",
+    "20260319",
+    "20260320"
+  ],
+  "game_start": "20250321",
+  "game_end": "20250321",
+  "totals": {
+    "teams": 2,
+    "players": 27,
+    "events": 16,
+    "final_events": 16,
+    "game_log_rows": 508,
+    "player_totals_rows": 508
+  }
+}

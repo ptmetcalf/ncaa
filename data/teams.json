@@ -1,0 +1,22 @@
+[
+  {
+    "team_id": 150,
+    "team_uid": null,
+    "team_name": "Team 150",
+    "team_short_name": null,
+    "team_abbreviation": null,
+    "conference_id": null,
+    "color": null,
+    "logo": null
+  },
+  {
+    "team_id": 248,
+    "team_uid": null,
+    "team_name": "Team 248",
+    "team_short_name": null,
+    "team_abbreviation": null,
+    "conference_id": null,
+    "color": null,
+    "logo": null
+  }
+]

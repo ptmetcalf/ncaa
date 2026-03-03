@@ -1,0 +1,79 @@
+name: Refresh NCAA Data
+
+on:
+  workflow_dispatch:
+    inputs:
+      year:
+        description: "Season year (e.g., 2026)"
+        required: true
+        default: "2026"
+      season_type:
+        description: "1=pre, 2=reg, 3=post"
+        required: true
+        default: "2"
+      team_ids:
+        description: "Optional comma-separated ESPN team IDs"
+        required: false
+        default: ""
+      team_discovery_dates:
+        description: "Comma-separated dates for discovering teams (YYYYMMDD)"
+        required: true
+        default: "20260317,20260318,20260319,20260320"
+      game_start_date:
+        description: "Tournament game start date (YYYYMMDD)"
+        required: true
+        default: "20260317"
+      game_end_date:
+        description: "Tournament game end date (YYYYMMDD, blank uses today UTC)"
+        required: false
+        default: ""
+  schedule:
+    - cron: "17 * * 3,4 *"
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+
+      - name: Refresh data files
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            node scripts/refresh-data.mjs \
+              --year=${{ inputs.year }} \
+              --seasonType=${{ inputs.season_type }} \
+              --team_ids='${{ inputs.team_ids }}' \
+              --team_discovery_dates='${{ inputs.team_discovery_dates }}' \
+              --game_start_date=${{ inputs.game_start_date }} \
+              --game_end_date='${{ inputs.game_end_date }}'
+          else
+            year=$(date -u +%Y)
+            node scripts/refresh-data.mjs \
+              --year=${year} \
+              --seasonType=2 \
+              --team_discovery_dates="${year}0317,${year}0318,${year}0319,${year}0320" \
+              --game_start_date="${year}0317"
+          fi
+
+      - name: Commit updated data
+        run: |
+          if git diff --quiet -- data/*.json; then
+            echo "No data changes to commit"
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/*.json
+          git commit -m "chore(data): refresh NCAA files"
+          git push

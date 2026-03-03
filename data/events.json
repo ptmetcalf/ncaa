@@ -1,0 +1,162 @@
+[
+  {
+    "event_id": 401745995,
+    "date": "20250321",
+    "name": "North Carolina Tar Heels at Ole Miss Rebels",
+    "short_name": "UNC VS MISS",
+    "completed": true,
+    "status": "Final",
+    "home_team_id": 145,
+    "away_team_id": 153
+  },
+  {
+    "event_id": 401745997,
+    "date": "20250321",
+    "name": "Lipscomb Bisons at Iowa State Cyclones",
+    "short_name": "LIP VS ISU",
+    "completed": true,
+    "status": "Final",
+    "home_team_id": 66,
+    "away_team_id": 288
+  },
+  {
+    "event_id": 401745999,
+    "date": "20250321",
+    "name": "New Mexico Lobos at Marquette Golden Eagles",
+    "short_name": "UNM VS MARQ",
+    "completed": true,
+    "status": "Final",
+    "home_team_id": 269,
+    "away_team_id": 167
+  },
+  {
+    "event_id": 401746001,
+    "date": "20250321",
+    "name": "Bryant Bulldogs at Michigan State Spartans",
+    "short_name": "BRY VS MSU",
+    "completed": true,
+    "status": "Final",
+    "home_team_id": 127,
+    "away_team_id": 2803
+  },
+  {
+    "event_id": 401746003,
+    "date": "20250321",
+    "name": "Mount St. Mary's Mountaineers at Duke Blue Devils",
+    "short_name": "MSM VS DUKE",
+    "completed": true,
+    "status": "Final",
+    "home_team_id": 150,
+    "away_team_id": 116
+  },
+  {
+    "event_id": 401746005,
+    "date": "20250321",
+    "name": "Baylor Bears at Mississippi State Bulldogs",
+    "short_name": "BAY VS MSST",
+    "completed": true,
+    "status": "Final",
+    "home_team_id": 344,
+    "away_team_id": 239
+  },
+  {
+    "event_id": 401746007,
+    "date": "20250321",
+    "name": "Liberty Flames at Oregon Ducks",
+    "short_name": "LIB VS ORE",
+    "completed": true,
+    "status": "Final",
+    "home_team_id": 2483,
+    "away_team_id": 2335
+  },
+  {
+    "event_id": 401746009,
+    "date": "20250321",
+    "name": "Akron Zips at Arizona Wildcats",
+    "short_name": "AKR VS ARIZ",
+    "completed": true,
+    "status": "Final",
+    "home_team_id": 12,
+    "away_team_id": 2006
+  },
+  {
+    "event_id": 401746012,
+    "date": "20250321",
+    "name": "Vanderbilt Commodores at Saint Mary's Gaels",
+    "short_name": "VAN VS SMC",
+    "completed": true,
+    "status": "Final",
+    "home_team_id": 2608,
+    "away_team_id": 238
+  },
+  {
+    "event_id": 401746014,
+    "date": "20250321",
+    "name": "Robert Morris Colonials at Alabama Crimson Tide",
+    "short_name": "RMU VS ALA",
+    "completed": true,
+    "status": "Final",
+    "home_team_id": 333,
+    "away_team_id": 2523
+  },
+  {
+    "event_id": 401746015,
+    "date": "20250321",
+    "name": "Xavier Musketeers at Illinois Fighting Illini",
+    "short_name": "XAV VS ILL",
+    "completed": true,
+    "status": "Final",
+    "home_team_id": 356,
+    "away_team_id": 2752
+  },
+  {
+    "event_id": 401746016,
+    "date": "20250321",
+    "name": "Troy Trojans at Kentucky Wildcats",
+    "short_name": "TROY VS UK",
+    "completed": true,
+    "status": "Final",
+    "home_team_id": 96,
+    "away_team_id": 2653
+  },
+  {
+    "event_id": 401746017,
+    "date": "20250321",
+    "name": "Norfolk State Spartans at Florida Gators",
+    "short_name": "NORF VS FLA",
+    "completed": true,
+    "status": "Final",
+    "home_team_id": 57,
+    "away_team_id": 2450
+  },
+  {
+    "event_id": 401746018,
+    "date": "20250321",
+    "name": "Oklahoma Sooners at UConn Huskies",
+    "short_name": "OU VS CONN",
+    "completed": true,
+    "status": "Final",
+    "home_team_id": 41,
+    "away_team_id": 201
+  },
+  {
+    "event_id": 401746019,
+    "date": "20250321",
+    "name": "Colorado State Rams at Memphis Tigers",
+    "short_name": "CSU VS MEM",
+    "completed": true,
+    "status": "Final",
+    "home_team_id": 235,
+    "away_team_id": 36
+  },
+  {
+    "event_id": 401746021,
+    "date": "20250321",
+    "name": "Grand Canyon Lopes at Maryland Terrapins",
+    "short_name": "GCU VS MD",
+    "completed": true,
+    "status": "Final",
+    "home_team_id": 120,
+    "away_team_id": 2253
+  }
+]
