@@ -1,10 +1,15 @@
 {
-  "generated_at": null,
-  "year": null,
+  "generated_at": "2026-03-03T03:09:47.106Z",
+  "year": 2026,
   "season_type": 2,
-  "discover_dates": [],
-  "game_start": null,
-  "game_end": null,
+  "discover_dates": [
+    "20260317",
+    "20260318",
+    "20260319",
+    "20260320"
+  ],
+  "game_start": "20260317",
+  "game_end": "20260317",
   "totals": {
     "teams": 0,
     "players": 0,
@@ -12,5 +17,6 @@
     "final_events": 0,
     "game_log_rows": 0,
     "player_totals_rows": 0
-  }
+  },
+  "note": "No teams discovered for the provided dates yet. This is expected before bracket/team assignment. Run again later or pass --selectedTeams with ESPN team IDs."
 }
