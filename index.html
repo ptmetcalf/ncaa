@@ -28,23 +28,25 @@
             <input id="search-input" type="search" placeholder="Name or team" />
           </label>
           <label>
+            Team Filter
+            <input id="team-filter" type="search" list="team-options" placeholder="All teams (type to filter)" />
+            <datalist id="team-options"></datalist>
+          </label>
+          <label>
             Minimum Avg Minutes
             <input id="min-minutes" type="number" min="0" step="0.1" value="0" />
           </label>
-          <label>
-            Team Filter
-            <select id="team-filter" multiple></select>
-          </label>
-          <label>
-            Status
-            <select id="status-filter">
-              <option value="all">All</option>
-              <option value="available">Available</option>
-              <option value="picked">Picked</option>
-            </select>
-          </label>
+          <div class="status-filter">
+            <p>Status</p>
+            <div id="status-filter-group" class="filter-pills" role="group" aria-label="Status filter">
+              <button type="button" class="filter-pill is-active" data-status="all">All</button>
+              <button type="button" class="filter-pill" data-status="available">Available</button>
+              <button type="button" class="filter-pill" data-status="picked">Picked</button>
+            </div>
+          </div>
         </div>
         <div class="controls-row compact">
+          <p id="filter-summary" class="filter-summary"></p>
           <button id="clear-filters">Clear Filters</button>
           <button id="download-board">Download Draft Board CSV</button>
           <button id="refresh-page">Reload Data</button>

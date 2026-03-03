@@ -21,7 +21,7 @@ const state = {
   filters: {
     search: "",
     minMinutes: 0,
-    selectedTeams: new Set(),
+    teamQuery: "",
     status: "all"
   }
 };
@@ -31,7 +31,9 @@ const elements = {
   searchInput: document.querySelector("#search-input"),
   minMinutesInput: document.querySelector("#min-minutes"),
   teamFilter: document.querySelector("#team-filter"),
-  statusFilter: document.querySelector("#status-filter"),
+  teamOptions: document.querySelector("#team-options"),
+  statusFilterGroup: document.querySelector("#status-filter-group"),
+  filterSummary: document.querySelector("#filter-summary"),
   clearFiltersBtn: document.querySelector("#clear-filters"),
   downloadBoardBtn: document.querySelector("#download-board"),
   refreshPageBtn: document.querySelector("#refresh-page"),
@@ -252,18 +254,21 @@ function totalsByPlayerId() {
 function getFilteredPlayers({ ignoreStatus = false } = {}) {
   const search = state.filters.search.trim().toLowerCase();
   const minMinutes = Number(state.filters.minMinutes) || 0;
-  const selectedTeams = state.filters.selectedTeams;
+  const teamQuery = String(state.filters.teamQuery ?? "")
+    .trim()
+    .toLowerCase();
   const status = state.filters.status;
   const picked = pickedByPlayerId();
 
   return state.players.filter((player) => {
     const name = String(player.player_name ?? "").toLowerCase();
     const team = String(player.team_name ?? "").toLowerCase();
+    const teamAbbr = String(player.team_abbreviation ?? "").toLowerCase();
     const isPicked = picked.has(Number(player.player_id));
 
     if (search && !name.includes(search) && !team.includes(search)) return false;
     if ((player.avg_minutes ?? 0) < minMinutes) return false;
-    if (selectedTeams.size > 0 && !selectedTeams.has(String(player.team_id))) return false;
+    if (teamQuery && !team.includes(teamQuery) && !teamAbbr.includes(teamQuery)) return false;
     if (!ignoreStatus && status === "available" && isPicked) return false;
     if (!ignoreStatus && status === "picked" && !isPicked) return false;
     return true;
@@ -272,9 +277,28 @@ function getFilteredPlayers({ ignoreStatus = false } = {}) {
 
 function fillTeamFilter() {
   const teams = [...state.teams].sort((a, b) => (a.team_name ?? "").localeCompare(b.team_name ?? ""));
-  elements.teamFilter.innerHTML = teams
-    .map((team) => `<option value="${team.team_id}">${escapeHtml(team.team_name)}</option>`)
-    .join("");
+  const seen = new Set();
+  const options = [];
+  for (const team of teams) {
+    const name = String(team.team_name ?? "").trim();
+    if (!name || seen.has(name)) continue;
+    seen.add(name);
+    options.push(`<option value="${escapeHtml(name)}"></option>`);
+  }
+  elements.teamOptions.innerHTML = options.join("");
+  elements.teamFilter.value = String(state.filters.teamQuery ?? "");
+}
+
+function setStatusFilter(status) {
+  state.filters.status = status === "available" || status === "picked" ? status : "all";
+}
+
+function renderStatusPills() {
+  const pills = elements.statusFilterGroup?.querySelectorAll(".filter-pill") ?? [];
+  for (const pill of pills) {
+    const nextStatus = pill.getAttribute("data-status");
+    pill.classList.toggle("is-active", nextStatus === state.filters.status);
+  }
 }
 
 function fillOwnerSelectors() {
@@ -347,6 +371,11 @@ function fillPlayerPickSelector() {
 function renderDraftBoard() {
   const filtered = getFilteredPlayers().sort((a, b) => (a.draft_rank ?? 999999) - (b.draft_rank ?? 999999));
   const picked = pickedByPlayerId();
+  const pickedCount = picked.size;
+  const visiblePicked = filtered.filter((player) => picked.has(Number(player.player_id))).length;
+  const visibleOpen = filtered.length - visiblePicked;
+
+  elements.filterSummary.textContent = `Showing ${filtered.length} of ${state.players.length} players | Open ${visibleOpen} | Picked ${visiblePicked} (Total picked ${pickedCount})`;
 
   elements.boardBody.innerHTML = filtered
     .map((player) => {
@@ -448,6 +477,7 @@ function renderMetaLine() {
 
 function rerender() {
   renderMetaLine();
+  renderStatusPills();
   renderDraftControls();
   renderDraftBoard();
   fillPlayerPickSelector();
@@ -653,13 +683,21 @@ function bindEvents() {
   });
 
   elements.teamFilter.addEventListener("change", () => {
-    const selected = [...elements.teamFilter.selectedOptions].map((opt) => opt.value);
-    state.filters.selectedTeams = new Set(selected);
+    state.filters.teamQuery = elements.teamFilter.value;
     rerender();
   });
 
-  elements.statusFilter.addEventListener("change", () => {
-    state.filters.status = elements.statusFilter.value;
+  elements.teamFilter.addEventListener("input", () => {
+    state.filters.teamQuery = elements.teamFilter.value;
+    rerender();
+  });
+
+  elements.statusFilterGroup.addEventListener("click", (event) => {
+    const target = event.target;
+    if (!(target instanceof Element)) return;
+    const button = target.closest(".filter-pill[data-status]");
+    if (!button) return;
+    setStatusFilter(button.getAttribute("data-status"));
     rerender();
   });
 
@@ -694,13 +732,12 @@ function bindEvents() {
   elements.clearFiltersBtn.addEventListener("click", () => {
     state.filters.search = "";
     state.filters.minMinutes = 0;
-    state.filters.selectedTeams = new Set();
-    state.filters.status = "all";
+    state.filters.teamQuery = "";
+    setStatusFilter("all");
 
     elements.searchInput.value = "";
     elements.minMinutesInput.value = "0";
-    elements.statusFilter.value = "all";
-    for (const option of elements.teamFilter.options) option.selected = false;
+    elements.teamFilter.value = "";
 
     rerender();
   });
