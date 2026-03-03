@@ -15,6 +15,10 @@ on:
         description: "Optional comma-separated ESPN team IDs"
         required: false
         default: ""
+      team_file:
+        description: "Optional JSON file path with projected/official teams"
+        required: true
+        default: "config/teams.current.json"
       team_discovery_dates:
         description: "Comma-separated dates for discovering teams (YYYYMMDD)"
         required: true
@@ -53,6 +57,7 @@ jobs:
               --year=${{ inputs.year }} \
               --seasonType=${{ inputs.season_type }} \
               --team_ids='${{ inputs.team_ids }}' \
+              --team_file='${{ inputs.team_file }}' \
               --team_discovery_dates='${{ inputs.team_discovery_dates }}' \
               --game_start_date=${{ inputs.game_start_date }} \
               --game_end_date='${{ inputs.game_end_date }}'
@@ -61,6 +66,7 @@ jobs:
             node scripts/refresh-data.mjs \
               --year=${year} \
               --seasonType=2 \
+              --team_file='config/teams.current.json' \
               --team_discovery_dates="${year}0317,${year}0318,${year}0319,${year}0320" \
               --game_start_date="${year}0317"
           fi

@@ -1,4 +1,4 @@
-import { mkdir, writeFile } from "node:fs/promises";
+import { access, mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import process from "node:process";
 
@@ -12,6 +12,8 @@ const CORE_BASE =
   "https://sports.core.api.espn.com/v2/sports/basketball/leagues/mens-college-basketball";
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+
+const DEFAULT_TEAM_FILE = "config/teams.current.json";
 
 function parseArgs(argv) {
   const out = {};
@@ -95,6 +97,90 @@ function parseCsvStrings(value) {
     .split(",")
     .map((s) => s.trim())
     .filter(Boolean);
+}
+
+async function fileExists(filePath) {
+  try {
+    await access(filePath);
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+function normalizeTeamRecord(raw, index = 0) {
+  if (typeof raw === "number" || typeof raw === "string") {
+    const teamId = Number(raw);
+    if (!Number.isInteger(teamId) || teamId <= 0) return null;
+    return {
+      team_id: teamId,
+      team_uid: null,
+      team_name: `Team ${teamId}`,
+      team_short_name: null,
+      team_abbreviation: null,
+      conference_id: null,
+      color: null,
+      logo: null,
+      seed: null,
+      region: null,
+      bid_type: null,
+      projected: true,
+      source_rank: index + 1
+    };
+  }
+
+  if (!raw || typeof raw !== "object") return null;
+  const teamId = Number(raw.team_id ?? raw.id ?? raw.teamId);
+  if (!Number.isInteger(teamId) || teamId <= 0) return null;
+
+  const seedValue = normalizeNumber(raw.seed);
+  const seed = Number.isFinite(seedValue) ? Math.round(seedValue) : null;
+
+  return {
+    team_id: teamId,
+    team_uid: raw.team_uid ?? raw.teamUid ?? null,
+    team_name: raw.team_name ?? raw.teamName ?? raw.name ?? `Team ${teamId}`,
+    team_short_name: raw.team_short_name ?? raw.teamShortName ?? raw.short_name ?? null,
+    team_abbreviation: raw.team_abbreviation ?? raw.teamAbbreviation ?? raw.abbreviation ?? null,
+    conference_id: normalizeNumber(raw.conference_id ?? raw.conferenceId),
+    color: raw.color ?? null,
+    logo: raw.logo ?? null,
+    seed,
+    region: raw.region ?? null,
+    bid_type: raw.bid_type ?? raw.bidType ?? null,
+    projected: raw.projected ?? true,
+    source_rank: normalizeNumber(raw.source_rank ?? raw.sourceRank ?? index + 1)
+  };
+}
+
+async function loadTeamsFromFile(root, fileArg) {
+  const filePath = path.resolve(root, fileArg);
+  if (!(await fileExists(filePath))) {
+    return { teams: [], filePath, found: false };
+  }
+
+  const raw = await readFile(filePath, "utf8");
+  const parsed = JSON.parse(raw);
+  const list = Array.isArray(parsed) ? parsed : parsed?.teams;
+  if (!Array.isArray(list)) {
+    throw new Error(`Invalid team file format in ${filePath}: expected array or { teams: [] }`);
+  }
+
+  const normalized = list
+    .map((team, idx) => normalizeTeamRecord(team, idx))
+    .filter((team) => team !== null);
+
+  const seen = new Set();
+  const deduped = [];
+  for (const team of normalized) {
+    if (seen.has(team.team_id)) continue;
+    seen.add(team.team_id);
+    deduped.push(team);
+  }
+
+  deduped.sort((a, b) => (a.source_rank ?? 9999) - (b.source_rank ?? 9999) || a.team_name.localeCompare(b.team_name));
+
+  return { teams: deduped, filePath, found: true };
 }
 
 async function fetchJson(url, { retries = 3, timeoutMs = 25000 } = {}) {
@@ -246,7 +332,12 @@ async function getTeamsFromScoreboardDates(dates) {
             team_abbreviation: team.abbreviation ?? null,
             conference_id: team.conferenceId ?? null,
             color: team.color ?? null,
-            logo: team.logo ?? null
+            logo: team.logo ?? null,
+            seed: null,
+            region: null,
+            bid_type: null,
+            projected: null,
+            source_rank: null
           });
         }
       }
@@ -283,7 +374,11 @@ async function getTeamRosters(teams) {
         team_id: team.team_id,
         team_name: teamName,
         team_short_name: teamShort,
-        team_abbreviation: teamAbbr
+        team_abbreviation: teamAbbr,
+        team_seed: team.seed ?? null,
+        team_region: team.region ?? null,
+        team_bid_type: team.bid_type ?? null,
+        team_projected: team.projected ?? null
       }));
     } catch (err) {
       console.warn(`Roster fetch failed for team ${team.team_id}: ${err.message}`);
@@ -505,10 +600,12 @@ async function writeJson(filePath, data) {
 
 async function main() {
   const args = parseArgs(process.argv.slice(2));
+  const root = process.cwd();
 
   const year = Number(args.year ?? currentYear());
   const seasonType = Number(args.seasonType ?? args.season_type ?? 2);
   const selectedTeamIds = parseCsvInts(args.selectedTeams ?? args.selected_teams ?? args.team_ids ?? args.teamIds);
+  const teamFileArg = firstNonEmpty(args.teamFile, args.team_file, DEFAULT_TEAM_FILE);
 
   const defaultDiscoverDates = [
     `${year}0317`,
@@ -532,11 +629,20 @@ async function main() {
 
   console.log(`Year: ${year}`);
   console.log(`Season type: ${seasonType}`);
+  console.log(`Team file: ${teamFileArg}`);
   console.log(`Discover dates: ${discoverDates.join(", ")}`);
   console.log(`Game dates: ${gameStart} -> ${gameEnd} (${gameDates.length} days)`);
 
   let teams;
-  if (selectedTeamIds.length > 0) {
+  let teamSource = "discover_dates";
+  let resolvedTeamFile = null;
+
+  const fileSource = await loadTeamsFromFile(root, teamFileArg);
+  if (fileSource.teams.length > 0) {
+    teams = fileSource.teams;
+    teamSource = "team_file";
+    resolvedTeamFile = fileSource.filePath;
+  } else if (selectedTeamIds.length > 0) {
     teams = selectedTeamIds.map((team_id) => ({
       team_id,
       team_uid: null,
@@ -545,10 +651,17 @@ async function main() {
       team_abbreviation: null,
       conference_id: null,
       color: null,
-      logo: null
+      logo: null,
+      seed: null,
+      region: null,
+      bid_type: null,
+      projected: null,
+      source_rank: null
     }));
+    teamSource = "team_ids";
   } else {
     teams = await getTeamsFromScoreboardDates(discoverDates);
+    teamSource = "discover_dates";
   }
 
   let players = [];
@@ -561,9 +674,11 @@ async function main() {
   if (teams.length === 0) {
     note =
       "No teams discovered for the provided dates yet. This is expected before bracket/team assignment. " +
-      "Run again later or pass --selectedTeams with ESPN team IDs.";
+      "Run again later, populate the team file, or pass --selectedTeams with ESPN team IDs.";
     console.log(note);
   } else {
+    console.log(`Team source: ${teamSource}`);
+    if (resolvedTeamFile) console.log(`Using team file: ${resolvedTeamFile}`);
     console.log(`Teams: ${teams.length}`);
     players = await getTeamRosters(teams);
     console.log(`Players from rosters: ${players.length}`);
@@ -579,6 +694,8 @@ async function main() {
     generated_at: now,
     year,
     season_type: seasonType,
+    team_source: teamSource,
+    team_file: resolvedTeamFile,
     discover_dates: discoverDates,
     game_start: gameStart,
     game_end: gameEnd,
@@ -593,7 +710,6 @@ async function main() {
     note
   };
 
-  const root = process.cwd();
   const dataDir = path.join(root, "data");
   await mkdir(dataDir, { recursive: true });
 

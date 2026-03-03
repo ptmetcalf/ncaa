@@ -183,6 +183,7 @@ function renderDraftBoard() {
         <td>${formatInt(player.draft_rank)}</td>
         <td>${escapeHtml(player.player_name)}</td>
         <td>${escapeHtml(player.team_name)}</td>
+        <td>${formatInt(player.team_seed)}</td>
         <td>${escapeHtml(player.position ?? "-")}</td>
         <td>${formatNum(player.avg_points)}</td>
         <td>${formatNum(player.avg_minutes)}</td>
@@ -252,9 +253,10 @@ function renderMetaLine() {
     ? new Date(state.meta.generated_at).toLocaleString()
     : "No generated data yet";
   const totals = state.meta?.totals ?? {};
+  const source = state.meta?.team_source ?? "unknown";
   elements.metaLine.textContent = `Updated: ${generated} | Teams: ${totals.teams ?? 0} | Players: ${
     totals.players ?? 0
-  } | Games: ${totals.final_events ?? 0} finals loaded`;
+  } | Games: ${totals.final_events ?? 0} finals loaded | Team source: ${source}`;
 }
 
 function rerender() {
@@ -309,6 +311,7 @@ function onDownloadBoard() {
     "rank",
     "player",
     "team",
+    "seed",
     "position",
     "ppg",
     "mpg",
@@ -328,6 +331,7 @@ function onDownloadBoard() {
       p.draft_rank,
       p.player_name,
       p.team_name,
+      p.team_seed,
       p.position,
       p.avg_points,
       p.avg_minutes,

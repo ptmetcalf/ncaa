@@ -1,0 +1,414 @@
+{
+  "year": 2026,
+  "source": "Projected placeholder based on 2025 tournament field. Replace with official 2026 field when announced.",
+  "teams": [
+    {
+      "team_id": 116,
+      "team_name": "Mount St. Mary's Mountaineers",
+      "projected": true,
+      "source_rank": 1
+    },
+    {
+      "team_id": 12,
+      "team_name": "Arizona Wildcats",
+      "projected": true,
+      "source_rank": 2
+    },
+    {
+      "team_id": 120,
+      "team_name": "Maryland Terrapins",
+      "projected": true,
+      "source_rank": 3
+    },
+    {
+      "team_id": 127,
+      "team_name": "Michigan State Spartans",
+      "projected": true,
+      "source_rank": 4
+    },
+    {
+      "team_id": 130,
+      "team_name": "Michigan Wolverines",
+      "projected": true,
+      "source_rank": 5
+    },
+    {
+      "team_id": 142,
+      "team_name": "Missouri Tigers",
+      "projected": true,
+      "source_rank": 6
+    },
+    {
+      "team_id": 145,
+      "team_name": "Ole Miss Rebels",
+      "projected": true,
+      "source_rank": 7
+    },
+    {
+      "team_id": 149,
+      "team_name": "Montana Grizzlies",
+      "projected": true,
+      "source_rank": 8
+    },
+    {
+      "team_id": 150,
+      "team_name": "Duke Blue Devils",
+      "projected": true,
+      "source_rank": 9
+    },
+    {
+      "team_id": 153,
+      "team_name": "North Carolina Tar Heels",
+      "projected": true,
+      "source_rank": 10
+    },
+    {
+      "team_id": 156,
+      "team_name": "Creighton Bluejays",
+      "projected": true,
+      "source_rank": 11
+    },
+    {
+      "team_id": 167,
+      "team_name": "New Mexico Lobos",
+      "projected": true,
+      "source_rank": 12
+    },
+    {
+      "team_id": 2,
+      "team_name": "Auburn Tigers",
+      "projected": true,
+      "source_rank": 13
+    },
+    {
+      "team_id": 2006,
+      "team_name": "Akron Zips",
+      "projected": true,
+      "source_rank": 14
+    },
+    {
+      "team_id": 201,
+      "team_name": "Oklahoma Sooners",
+      "projected": true,
+      "source_rank": 15
+    },
+    {
+      "team_id": 2011,
+      "team_name": "Alabama State Hornets",
+      "projected": true,
+      "source_rank": 16
+    },
+    {
+      "team_id": 21,
+      "team_name": "San Diego State Aztecs",
+      "projected": true,
+      "source_rank": 17
+    },
+    {
+      "team_id": 2181,
+      "team_name": "Drake Bulldogs",
+      "projected": true,
+      "source_rank": 18
+    },
+    {
+      "team_id": 2250,
+      "team_name": "Gonzaga Bulldogs",
+      "projected": true,
+      "source_rank": 19
+    },
+    {
+      "team_id": 2253,
+      "team_name": "Grand Canyon Lopes",
+      "projected": true,
+      "source_rank": 20
+    },
+    {
+      "team_id": 2272,
+      "team_name": "High Point Panthers",
+      "projected": true,
+      "source_rank": 21
+    },
+    {
+      "team_id": 228,
+      "team_name": "Clemson Tigers",
+      "projected": true,
+      "source_rank": 22
+    },
+    {
+      "team_id": 2305,
+      "team_name": "Kansas Jayhawks",
+      "projected": true,
+      "source_rank": 23
+    },
+    {
+      "team_id": 2335,
+      "team_name": "Liberty Flames",
+      "projected": true,
+      "source_rank": 24
+    },
+    {
+      "team_id": 235,
+      "team_name": "Memphis Tigers",
+      "projected": true,
+      "source_rank": 25
+    },
+    {
+      "team_id": 2377,
+      "team_name": "McNeese Cowboys",
+      "projected": true,
+      "source_rank": 26
+    },
+    {
+      "team_id": 238,
+      "team_name": "Vanderbilt Commodores",
+      "projected": true,
+      "source_rank": 27
+    },
+    {
+      "team_id": 239,
+      "team_name": "Baylor Bears",
+      "projected": true,
+      "source_rank": 28
+    },
+    {
+      "team_id": 2437,
+      "team_name": "Omaha Mavericks",
+      "projected": true,
+      "source_rank": 29
+    },
+    {
+      "team_id": 245,
+      "team_name": "Texas A&M Aggies",
+      "projected": true,
+      "source_rank": 30
+    },
+    {
+      "team_id": 2450,
+      "team_name": "Norfolk State Spartans",
+      "projected": true,
+      "source_rank": 31
+    },
+    {
+      "team_id": 248,
+      "team_name": "Houston Cougars",
+      "projected": true,
+      "source_rank": 32
+    },
+    {
+      "team_id": 2483,
+      "team_name": "Oregon Ducks",
+      "projected": true,
+      "source_rank": 33
+    },
+    {
+      "team_id": 2509,
+      "team_name": "Purdue Boilermakers",
+      "projected": true,
+      "source_rank": 34
+    },
+    {
+      "team_id": 251,
+      "team_name": "Texas Longhorns",
+      "projected": true,
+      "source_rank": 35
+    },
+    {
+      "team_id": 252,
+      "team_name": "BYU Cougars",
+      "projected": true,
+      "source_rank": 36
+    },
+    {
+      "team_id": 2523,
+      "team_name": "Robert Morris Colonials",
+      "projected": true,
+      "source_rank": 37
+    },
+    {
+      "team_id": 2565,
+      "team_name": "SIU Edwardsville Cougars",
+      "projected": true,
+      "source_rank": 38
+    },
+    {
+      "team_id": 2598,
+      "team_name": "Saint Francis Red Flash",
+      "projected": true,
+      "source_rank": 39
+    },
+    {
+      "team_id": 2599,
+      "team_name": "St. John's Red Storm",
+      "projected": true,
+      "source_rank": 40
+    },
+    {
+      "team_id": 26,
+      "team_name": "UCLA Bruins",
+      "projected": true,
+      "source_rank": 41
+    },
+    {
+      "team_id": 2608,
+      "team_name": "Saint Mary's Gaels",
+      "projected": true,
+      "source_rank": 42
+    },
+    {
+      "team_id": 2633,
+      "team_name": "Tennessee Volunteers",
+      "projected": true,
+      "source_rank": 43
+    },
+    {
+      "team_id": 2641,
+      "team_name": "Texas Tech Red Raiders",
+      "projected": true,
+      "source_rank": 44
+    },
+    {
+      "team_id": 2653,
+      "team_name": "Troy Trojans",
+      "projected": true,
+      "source_rank": 45
+    },
+    {
+      "team_id": 2670,
+      "team_name": "VCU Rams",
+      "projected": true,
+      "source_rank": 46
+    },
+    {
+      "team_id": 269,
+      "team_name": "Marquette Golden Eagles",
+      "projected": true,
+      "source_rank": 47
+    },
+    {
+      "team_id": 2747,
+      "team_name": "Wofford Terriers",
+      "projected": true,
+      "source_rank": 48
+    },
+    {
+      "team_id": 275,
+      "team_name": "Wisconsin Badgers",
+      "projected": true,
+      "source_rank": 49
+    },
+    {
+      "team_id": 2752,
+      "team_name": "Xavier Musketeers",
+      "projected": true,
+      "source_rank": 50
+    },
+    {
+      "team_id": 28,
+      "team_name": "UC San Diego Tritons",
+      "projected": true,
+      "source_rank": 51
+    },
+    {
+      "team_id": 2803,
+      "team_name": "Bryant Bulldogs",
+      "projected": true,
+      "source_rank": 52
+    },
+    {
+      "team_id": 288,
+      "team_name": "Lipscomb Bisons",
+      "projected": true,
+      "source_rank": 53
+    },
+    {
+      "team_id": 328,
+      "team_name": "Utah State Aggies",
+      "projected": true,
+      "source_rank": 54
+    },
+    {
+      "team_id": 333,
+      "team_name": "Alabama Crimson Tide",
+      "projected": true,
+      "source_rank": 55
+    },
+    {
+      "team_id": 344,
+      "team_name": "Mississippi State Bulldogs",
+      "projected": true,
+      "source_rank": 56
+    },
+    {
+      "team_id": 350,
+      "team_name": "UNC Wilmington Seahawks",
+      "projected": true,
+      "source_rank": 57
+    },
+    {
+      "team_id": 356,
+      "team_name": "Illinois Fighting Illini",
+      "projected": true,
+      "source_rank": 58
+    },
+    {
+      "team_id": 36,
+      "team_name": "Colorado State Rams",
+      "projected": true,
+      "source_rank": 59
+    },
+    {
+      "team_id": 41,
+      "team_name": "UConn Huskies",
+      "projected": true,
+      "source_rank": 60
+    },
+    {
+      "team_id": 43,
+      "team_name": "Yale Bulldogs",
+      "projected": true,
+      "source_rank": 61
+    },
+    {
+      "team_id": 44,
+      "team_name": "American University Eagles",
+      "projected": true,
+      "source_rank": 62
+    },
+    {
+      "team_id": 57,
+      "team_name": "Florida Gators",
+      "projected": true,
+      "source_rank": 63
+    },
+    {
+      "team_id": 61,
+      "team_name": "Georgia Bulldogs",
+      "projected": true,
+      "source_rank": 64
+    },
+    {
+      "team_id": 66,
+      "team_name": "Iowa State Cyclones",
+      "projected": true,
+      "source_rank": 65
+    },
+    {
+      "team_id": 8,
+      "team_name": "Arkansas Razorbacks",
+      "projected": true,
+      "source_rank": 66
+    },
+    {
+      "team_id": 96,
+      "team_name": "Kentucky Wildcats",
+      "projected": true,
+      "source_rank": 67
+    },
+    {
+      "team_id": 97,
+      "team_name": "Louisville Cardinals",
+      "projected": true,
+      "source_rank": 68
+    }
+  ]
+}

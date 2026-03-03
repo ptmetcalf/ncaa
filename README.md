@@ -13,6 +13,7 @@ The site is static and works on GitHub Pages. Data is refreshed by GitHub Action
 
 1. GitHub Action runs `scripts/refresh-data.mjs`.
 2. Script pulls:
+   - Team list from `config/teams.current.json` (fallback to ESPN discovery if empty/missing)
    - Team/game data from ESPN scoreboard + summaries
    - Rosters from ESPN team endpoints
    - Season averages from ESPN core athlete stats
@@ -28,12 +29,28 @@ The site is static and works on GitHub Pages. Data is refreshed by GitHub Action
 4. Click **Run workflow** with your season settings.
 5. Open the GitHub Pages URL.
 
-## Ad Hoc Team Selection
+## Team File (Projected Now, Official Later)
 
-Two easy options:
+Edit `config/teams.current.json` and keep it as your source of truth.
 
-1. In the app, use the multi-select team filter during draft night.
-2. In the workflow, pass `team_ids` (comma-separated ESPN team IDs) to limit loaded rosters/stats.
+Format:
+
+```json
+{
+  "year": 2026,
+  "source": "Your notes",
+  "teams": [
+    { "team_id": 150, "team_name": "Duke Blue Devils", "seed": 1, "region": "East", "projected": true },
+    { "team_id": 248, "team_name": "Houston Cougars", "seed": 1, "region": "Midwest", "projected": true }
+  ]
+}
+```
+
+Notes:
+- `team_id` is required.
+- `seed`, `region`, `projected`, `bid_type` are optional.
+- This repo ships with a placeholder projected list in `config/teams.projected.json` (copied into `config/teams.current.json`).
+- When the official field is released, update `config/teams.current.json` and run the workflow again.
 
 ## Daily Use for Non-Coders
 
@@ -57,11 +74,13 @@ Open `http://localhost:4173`.
 npm run refresh -- \
   --year=2026 \
   --seasonType=2 \
+  --team_file=config/teams.current.json \
   --team_discovery_dates=20260317,20260318,20260319,20260320 \
   --game_start_date=20260317
 ```
 
 Optional args:
+- `--team_file=path/to/teams.json`
 - `--team_ids=150,248,...`
 - `--game_end_date=YYYYMMDD`
 
