@@ -57,8 +57,11 @@ Notes:
 1. Open GitHub Pages URL.
 2. Draft from the `Draft Board` section.
 3. Add picks in `Draft Setup`.
-4. After game slates, run **Refresh NCAA Data** workflow.
-5. Reload page, leaderboard updates automatically.
+4. Export CSV files when needed:
+   - `Download Draft Board CSV` for the full board
+   - `Export Picks CSV` for each user's private Google Sheet import
+5. After game slates, run **Refresh NCAA Data** workflow.
+6. Reload page, leaderboard updates automatically.
 
 ## Local Run
 

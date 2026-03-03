@@ -31,6 +31,7 @@ const elements = {
   addPickBtn: document.querySelector("#add-pick"),
   pickLogBody: document.querySelector("#pick-log-body"),
   leaderboardBody: document.querySelector("#leaderboard-body"),
+  downloadPicksCsvBtn: document.querySelector("#download-picks-csv"),
   downloadPicksBtn: document.querySelector("#download-picks"),
   uploadPicksBtn: document.querySelector("#upload-picks"),
   importFile: document.querySelector("#import-file"),
@@ -358,6 +359,50 @@ function onDownloadPicks() {
   downloadText("pool-picks.json", `${JSON.stringify(payload, null, 2)}\n`, "application/json");
 }
 
+function onDownloadPicksCsv() {
+  const totals = totalsByPlayerId();
+  const players = byIdMap(state.players, "player_id");
+  const exportedAt = new Date().toISOString();
+
+  const headers = [
+    "pick_no",
+    "owner",
+    "player_id",
+    "player_name",
+    "team_name",
+    "team_seed",
+    "position",
+    "draft_rank",
+    "tournament_points",
+    "tournament_minutes",
+    "tournament_games_played",
+    "exported_at"
+  ];
+
+  const lines = [headers.join(",")];
+  for (const pick of [...state.picks].sort((a, b) => a.pick_no - b.pick_no)) {
+    const totalsRow = totals.get(Number(pick.player_id));
+    const playerRow = players.get(Number(pick.player_id));
+    const row = [
+      pick.pick_no,
+      pick.owner,
+      pick.player_id,
+      pick.player_name,
+      pick.team_name,
+      playerRow?.team_seed ?? null,
+      playerRow?.position ?? null,
+      playerRow?.draft_rank ?? null,
+      totalsRow?.tournament_points ?? 0,
+      totalsRow?.tournament_minutes ?? 0,
+      totalsRow?.games_played ?? 0,
+      exportedAt
+    ];
+    lines.push(row.map(escapeCsv).join(","));
+  }
+
+  downloadText("pool-picks.csv", `${lines.join("\n")}\n`, "text/csv");
+}
+
 function onImportPicks(file) {
   const reader = new FileReader();
   reader.onload = () => {
@@ -423,6 +468,7 @@ function bindEvents() {
   elements.refreshPageBtn.addEventListener("click", () => window.location.reload());
   elements.saveOwnersBtn.addEventListener("click", onSaveOwners);
   elements.addPickBtn.addEventListener("click", onAddPick);
+  elements.downloadPicksCsvBtn.addEventListener("click", onDownloadPicksCsv);
   elements.downloadPicksBtn.addEventListener("click", onDownloadPicks);
 
   elements.uploadPicksBtn.addEventListener("click", () => {
