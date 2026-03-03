@@ -374,6 +374,7 @@ async function getTeamRosters(teams) {
       const teamName = apiTeam.displayName ?? team.team_name;
       const teamShort = apiTeam.shortDisplayName ?? team.team_short_name;
       const teamAbbr = apiTeam.abbreviation ?? team.team_abbreviation;
+      const teamLogo = apiTeam.logo ?? team.logo ?? null;
 
       return (body.athletes ?? []).map((athlete) => ({
         player_id: Number(athlete.id),
@@ -391,6 +392,7 @@ async function getTeamRosters(teams) {
         team_name: teamName,
         team_short_name: teamShort,
         team_abbreviation: teamAbbr,
+        team_logo: teamLogo,
         team_seed: team.seed ?? null,
         team_region: team.region ?? null,
         team_bid_type: team.bid_type ?? null,

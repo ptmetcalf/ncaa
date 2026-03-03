@@ -4,6 +4,8 @@ const DRAFT_MODES = {
   MANUAL: "manual",
   SNAKE: "snake"
 };
+let cachedTeamMap = null;
+let cachedTeamMapSize = -1;
 
 const state = {
   meta: null,
@@ -70,6 +72,17 @@ function formatInt(n) {
   return String(Math.round(Number(n)));
 }
 
+function firstLetterToken(value) {
+  const token = String(value ?? "")
+    .replace(/[^A-Za-z0-9 ]/g, " ")
+    .split(" ")
+    .map((part) => part.trim())
+    .filter(Boolean);
+  if (token.length === 0) return "TM";
+  if (token.length === 1) return token[0].slice(0, 2).toUpperCase();
+  return `${token[0][0] ?? ""}${token[1][0] ?? ""}`.toUpperCase();
+}
+
 function escapeHtml(value) {
   return String(value ?? "")
     .replaceAll("&", "&amp;")
@@ -77,6 +90,51 @@ function escapeHtml(value) {
     .replaceAll(">", "&gt;")
     .replaceAll('"', "&quot;")
     .replaceAll("'", "&#039;");
+}
+
+function teamByIdMap() {
+  if (!cachedTeamMap || cachedTeamMapSize !== state.teams.length) {
+    cachedTeamMap = byIdMap(state.teams, "team_id");
+    cachedTeamMapSize = state.teams.length;
+  }
+  return cachedTeamMap;
+}
+
+function getTeamLogoUrl(teamId, explicitLogo = null) {
+  if (explicitLogo && String(explicitLogo).trim() !== "") return String(explicitLogo).trim();
+  const team = teamByIdMap().get(Number(teamId));
+  if (team?.logo && String(team.logo).trim() !== "") return String(team.logo).trim();
+  if (Number.isInteger(Number(teamId)) && Number(teamId) > 0) {
+    return `https://a.espncdn.com/i/teamlogos/ncaa/500/${Number(teamId)}.png`;
+  }
+  return null;
+}
+
+function renderTeamCell({ teamId, teamName, teamAbbreviation, teamLogo }) {
+  const logoUrl = getTeamLogoUrl(teamId, teamLogo);
+  const fallback = firstLetterToken(teamAbbreviation || teamName);
+  const imgHtml = logoUrl
+    ? `<img class="team-logo-img" src="${escapeHtml(logoUrl)}" alt="${escapeHtml(teamName ?? "Team")} logo" loading="lazy" />`
+    : `<span class="team-logo-fallback is-visible">${escapeHtml(fallback)}</span>`;
+  const fallbackHtml = logoUrl ? `<span class="team-logo-fallback">${escapeHtml(fallback)}</span>` : "";
+  return `<span class="team-cell"><span class="team-logo-wrap">${imgHtml}${fallbackHtml}</span><span class="team-cell-name">${escapeHtml(
+    teamName ?? "-"
+  )}</span></span>`;
+}
+
+function bindTeamLogoFallbacks() {
+  const images = document.querySelectorAll("img.team-logo-img:not([data-logo-bound])");
+  for (const img of images) {
+    img.setAttribute("data-logo-bound", "1");
+    const wrap = img.closest(".team-logo-wrap");
+    const fallback = wrap?.querySelector(".team-logo-fallback");
+    const showFallback = () => {
+      img.classList.add("is-hidden");
+      if (fallback) fallback.classList.add("is-visible");
+    };
+    img.addEventListener("error", showFallback);
+    if (img.complete && img.naturalWidth === 0) showFallback();
+  }
 }
 
 function escapeCsv(value) {
@@ -299,7 +357,12 @@ function renderDraftBoard() {
       return `<tr>
         <td>${formatInt(player.draft_rank)}</td>
         <td>${escapeHtml(player.player_name)}</td>
-        <td>${escapeHtml(player.team_name)}</td>
+        <td>${renderTeamCell({
+          teamId: player.team_id,
+          teamName: player.team_name,
+          teamAbbreviation: player.team_abbreviation,
+          teamLogo: player.team_logo
+        })}</td>
         <td>${formatInt(player.team_seed)}</td>
         <td>${escapeHtml(player.position ?? "-")}</td>
         <td>${formatNum(player.avg_points)}</td>
@@ -318,17 +381,24 @@ function renderDraftBoard() {
 
 function renderPickLog() {
   const totals = totalsByPlayerId();
+  const players = byIdMap(state.players, "player_id");
 
   elements.pickLogBody.innerHTML = state.picks
     .sort((a, b) => a.pick_no - b.pick_no)
     .map((pick) => {
       const total = totals.get(Number(pick.player_id));
+      const player = players.get(Number(pick.player_id));
       const points = total?.tournament_points ?? 0;
       return `<tr>
         <td>${formatInt(pick.pick_no)}</td>
         <td>${escapeHtml(pick.owner)}</td>
         <td>${escapeHtml(pick.player_name)}</td>
-        <td>${escapeHtml(pick.team_name)}</td>
+        <td>${renderTeamCell({
+          teamId: player?.team_id ?? pick.team_id,
+          teamName: pick.team_name ?? player?.team_name,
+          teamAbbreviation: player?.team_abbreviation,
+          teamLogo: player?.team_logo
+        })}</td>
         <td>${formatNum(points, 1)}</td>
       </tr>`;
     })
@@ -383,6 +453,7 @@ function rerender() {
   fillPlayerPickSelector();
   renderPickLog();
   renderLeaderboard();
+  bindTeamLogoFallbacks();
 }
 
 function onAddPick() {
@@ -402,7 +473,8 @@ function onAddPick() {
     owner,
     player_id: playerId,
     player_name: player.player_name,
-    team_name: player.team_name
+    team_name: player.team_name,
+    team_id: player.team_id
   });
 
   if (elements.pickPlayerSearch) elements.pickPlayerSearch.value = "";
@@ -493,6 +565,7 @@ function onDownloadPicksCsv() {
     "player_id",
     "player_name",
     "team_name",
+    "team_logo_url",
     "team_seed",
     "position",
     "draft_rank",
@@ -512,6 +585,7 @@ function onDownloadPicksCsv() {
       pick.player_id,
       pick.player_name,
       pick.team_name,
+      getTeamLogoUrl(playerRow?.team_id ?? pick.team_id, playerRow?.team_logo),
       playerRow?.team_seed ?? null,
       playerRow?.position ?? null,
       playerRow?.draft_rank ?? null,
@@ -549,7 +623,8 @@ function onImportPicks(file) {
             owner: String(pick.owner ?? "").trim(),
             player_id: Number(pick.player_id),
             player_name: pick.player_name ?? null,
-            team_name: pick.team_name ?? null
+            team_name: pick.team_name ?? null,
+            team_id: Number(pick.team_id) || null
           }))
           .filter((pick) => Number.isInteger(pick.player_id) && pick.owner);
       }
@@ -675,6 +750,8 @@ async function boot() {
   state.teams = Array.isArray(teams) ? teams : [];
   state.players = Array.isArray(players) ? players : [];
   state.playerTotals = Array.isArray(playerTotals) ? playerTotals : [];
+  cachedTeamMap = null;
+  cachedTeamMapSize = -1;
 
   loadState();
   fillTeamFilter();
