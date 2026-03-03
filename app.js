@@ -27,6 +27,7 @@ const elements = {
   ownersInput: document.querySelector("#owners-input"),
   saveOwnersBtn: document.querySelector("#save-owners"),
   pickOwner: document.querySelector("#pick-owner"),
+  pickPlayerSearch: document.querySelector("#pick-player-search"),
   pickPlayer: document.querySelector("#pick-player"),
   addPickBtn: document.querySelector("#add-pick"),
   pickLogBody: document.querySelector("#pick-log-body"),
@@ -156,9 +157,26 @@ function fillOwnerSelectors() {
 
 function fillPlayerPickSelector() {
   const picked = pickedByPlayerId();
-  const candidates = getFilteredPlayers()
+  const search = String(elements.pickPlayerSearch?.value ?? "")
+    .trim()
+    .toLowerCase();
+  const previousSelection = Number(elements.pickPlayer.value);
+
+  let candidates = getFilteredPlayers()
     .filter((player) => !picked.has(Number(player.player_id)))
     .sort((a, b) => (a.draft_rank ?? 999999) - (b.draft_rank ?? 999999));
+
+  if (search) {
+    candidates = candidates.filter((player) => {
+      const blob = `${player.player_name ?? ""} ${player.team_name ?? ""} ${player.team_abbreviation ?? ""}`.toLowerCase();
+      return blob.includes(search);
+    });
+  }
+
+  if (candidates.length === 0) {
+    elements.pickPlayer.innerHTML = `<option value="">No matching players</option>`;
+    return;
+  }
 
   elements.pickPlayer.innerHTML = candidates
     .map(
@@ -168,6 +186,10 @@ function fillPlayerPickSelector() {
         )} (${escapeHtml(player.team_abbreviation ?? player.team_name)})</option>`
     )
     .join("");
+
+  if (Number.isInteger(previousSelection) && candidates.some((p) => Number(p.player_id) === previousSelection)) {
+    elements.pickPlayer.value = String(previousSelection);
+  }
 }
 
 function renderDraftBoard() {
@@ -286,6 +308,7 @@ function onAddPick() {
     team_name: player.team_name
   });
 
+  if (elements.pickPlayerSearch) elements.pickPlayerSearch.value = "";
   saveState();
   rerender();
 }
@@ -450,6 +473,10 @@ function bindEvents() {
     const selected = [...elements.teamFilter.selectedOptions].map((opt) => opt.value);
     state.filters.selectedTeams = new Set(selected);
     rerender();
+  });
+
+  elements.pickPlayerSearch.addEventListener("input", () => {
+    fillPlayerPickSelector();
   });
 
   elements.clearFiltersBtn.addEventListener("click", () => {
