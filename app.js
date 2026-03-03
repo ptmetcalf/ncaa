@@ -19,7 +19,8 @@ const state = {
   filters: {
     search: "",
     minMinutes: 0,
-    selectedTeams: new Set()
+    selectedTeams: new Set(),
+    status: "all"
   }
 };
 
@@ -28,6 +29,7 @@ const elements = {
   searchInput: document.querySelector("#search-input"),
   minMinutesInput: document.querySelector("#min-minutes"),
   teamFilter: document.querySelector("#team-filter"),
+  statusFilter: document.querySelector("#status-filter"),
   clearFiltersBtn: document.querySelector("#clear-filters"),
   downloadBoardBtn: document.querySelector("#download-board"),
   refreshPageBtn: document.querySelector("#refresh-page"),
@@ -189,18 +191,23 @@ function totalsByPlayerId() {
   return byIdMap(state.playerTotals, "player_id");
 }
 
-function getFilteredPlayers() {
+function getFilteredPlayers({ ignoreStatus = false } = {}) {
   const search = state.filters.search.trim().toLowerCase();
   const minMinutes = Number(state.filters.minMinutes) || 0;
   const selectedTeams = state.filters.selectedTeams;
+  const status = state.filters.status;
+  const picked = pickedByPlayerId();
 
   return state.players.filter((player) => {
     const name = String(player.player_name ?? "").toLowerCase();
     const team = String(player.team_name ?? "").toLowerCase();
+    const isPicked = picked.has(Number(player.player_id));
 
     if (search && !name.includes(search) && !team.includes(search)) return false;
     if ((player.avg_minutes ?? 0) < minMinutes) return false;
     if (selectedTeams.size > 0 && !selectedTeams.has(String(player.team_id))) return false;
+    if (!ignoreStatus && status === "available" && isPicked) return false;
+    if (!ignoreStatus && status === "picked" && !isPicked) return false;
     return true;
   });
 }
@@ -249,7 +256,7 @@ function fillPlayerPickSelector() {
     .toLowerCase();
   const previousSelection = Number(elements.pickPlayer.value);
 
-  let candidates = getFilteredPlayers()
+  let candidates = getFilteredPlayers({ ignoreStatus: true })
     .filter((player) => !picked.has(Number(player.player_id)))
     .sort((a, b) => (a.draft_rank ?? 999999) - (b.draft_rank ?? 999999));
 
@@ -576,6 +583,11 @@ function bindEvents() {
     rerender();
   });
 
+  elements.statusFilter.addEventListener("change", () => {
+    state.filters.status = elements.statusFilter.value;
+    rerender();
+  });
+
   elements.pickPlayerSearch.addEventListener("input", () => {
     fillPlayerPickSelector();
   });
@@ -608,9 +620,11 @@ function bindEvents() {
     state.filters.search = "";
     state.filters.minMinutes = 0;
     state.filters.selectedTeams = new Set();
+    state.filters.status = "all";
 
     elements.searchInput.value = "";
     elements.minMinutesInput.value = "0";
+    elements.statusFilter.value = "all";
     for (const option of elements.teamFilter.options) option.selected = false;
 
     rerender();

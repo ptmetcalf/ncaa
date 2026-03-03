@@ -165,7 +165,7 @@ h2 {
 
 .controls-row {
   display: grid;
-  grid-template-columns: repeat(3, minmax(180px, 1fr));
+  grid-template-columns: repeat(4, minmax(160px, 1fr));
   gap: 0.7rem;
 }
 
