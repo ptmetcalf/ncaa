@@ -73,49 +73,66 @@
         </div>
       </section>
 
-      <section class="card">
+      <section class="card draft-setup">
         <div class="section-head">
           <h2>Draft Setup</h2>
           <p>Set owner names once, then assign picks from the dropdowns.</p>
         </div>
-        <div class="controls-row compact">
-          <label class="wide">
-            Owners (comma-separated)
-            <input id="owners-input" type="text" placeholder="Alice,Bob,Charlie,..." />
-          </label>
-          <button id="save-owners">Save Owners</button>
-        </div>
-        <div class="controls-row compact">
-          <label>
-            Draft Mode
-            <select id="draft-mode">
-              <option value="manual">Manual</option>
-              <option value="snake">Snake</option>
-            </select>
-          </label>
-          <button id="randomize-order">Randomize Draft Order</button>
-          <button id="reset-order">Use Owner List Order</button>
-        </div>
-        <p id="draft-order-preview" class="draft-meta"></p>
-        <p id="next-pick-preview" class="draft-meta"></p>
-        <div class="controls-row compact">
-          <label>
-            Owner
-            <select id="pick-owner"></select>
-          </label>
-          <label class="wide">
-            Player
-            <input id="pick-player-search" type="search" placeholder="Search available players..." />
-            <select id="pick-player"></select>
-          </label>
-          <button id="add-pick">Add Pick</button>
-        </div>
-        <div class="controls-row compact">
-          <button id="download-picks-csv">Export Picks CSV</button>
-          <button id="download-picks">Export Picks JSON</button>
-          <button id="upload-picks">Import Picks JSON</button>
-          <button id="reset-picks" class="danger">Reset Picks</button>
-          <input id="import-file" type="file" accept="application/json" hidden />
+        <div class="draft-setup-grid">
+          <div class="draft-panel">
+            <h3>Owners</h3>
+            <div class="draft-row owner-row">
+              <label>
+                Owners (comma-separated)
+                <input id="owners-input" type="text" placeholder="Alice,Bob,Charlie,..." />
+              </label>
+              <button id="save-owners">Save Owners</button>
+            </div>
+          </div>
+
+          <div class="draft-panel">
+            <h3>Draft Order</h3>
+            <div class="draft-row order-row">
+              <label>
+                Draft Mode
+                <select id="draft-mode">
+                  <option value="manual">Manual</option>
+                  <option value="snake">Snake</option>
+                </select>
+              </label>
+              <button id="randomize-order">Randomize Order</button>
+              <button id="reset-order">Use List Order</button>
+            </div>
+            <p id="draft-order-preview" class="draft-meta"></p>
+            <p id="next-pick-preview" class="draft-meta"></p>
+          </div>
+
+          <div class="draft-panel draft-panel-wide">
+            <h3>Make Pick</h3>
+            <div class="draft-row pick-row">
+              <label>
+                Owner
+                <select id="pick-owner"></select>
+              </label>
+              <label>
+                Player
+                <input id="pick-player-search" type="search" placeholder="Search available players..." />
+                <select id="pick-player"></select>
+              </label>
+              <button id="add-pick">Add Pick</button>
+            </div>
+          </div>
+
+          <div class="draft-panel draft-panel-wide">
+            <h3>Data Actions</h3>
+            <div class="draft-row actions-row">
+              <button id="download-picks-csv">Export Picks CSV</button>
+              <button id="download-picks">Export Picks JSON</button>
+              <button id="upload-picks">Import Picks JSON</button>
+              <button id="reset-picks" class="danger">Reset Picks</button>
+              <input id="import-file" type="file" accept="application/json" hidden />
+            </div>
+          </div>
         </div>
       </section>
 

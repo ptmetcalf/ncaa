@@ -111,6 +111,53 @@ h2 {
   font-family: "IBM Plex Mono", monospace;
 }
 
+.draft-setup-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(280px, 1fr));
+  gap: 0.8rem;
+}
+
+.draft-panel {
+  background: rgba(255, 255, 255, 0.68);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 0.75rem;
+}
+
+.draft-panel h3 {
+  margin: 0 0 0.55rem;
+  color: var(--accent-strong);
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+
+.draft-panel-wide {
+  grid-column: span 2;
+}
+
+.draft-row {
+  display: grid;
+  gap: 0.7rem;
+  align-items: end;
+}
+
+.draft-row.owner-row {
+  grid-template-columns: minmax(260px, 1fr) auto;
+}
+
+.draft-row.order-row {
+  grid-template-columns: minmax(160px, 1fr) auto auto;
+}
+
+.draft-row.pick-row {
+  grid-template-columns: minmax(130px, 1fr) minmax(260px, 2fr) auto;
+}
+
+.draft-row.actions-row {
+  grid-template-columns: repeat(4, minmax(150px, 1fr));
+}
+
 .controls {
   display: grid;
   gap: 0.7rem;
@@ -290,5 +337,20 @@ tbody tr:hover {
 
   .controls-row .wide {
     grid-column: auto;
+  }
+
+  .draft-setup-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .draft-panel-wide {
+    grid-column: auto;
+  }
+
+  .draft-row.owner-row,
+  .draft-row.order-row,
+  .draft-row.pick-row,
+  .draft-row.actions-row {
+    grid-template-columns: 1fr;
   }
 }
