@@ -159,6 +159,10 @@ button.danger {
   max-height: 420px;
 }
 
+.table-wrap.board-scroll {
+  max-height: clamp(360px, 64vh, 760px);
+}
+
 table {
   width: 100%;
   border-collapse: collapse;
@@ -207,6 +211,10 @@ tbody tr:hover {
   .controls-row.compact,
   .two-col {
     grid-template-columns: 1fr;
+  }
+
+  .table-wrap.board-scroll {
+    max-height: clamp(300px, 58vh, 620px);
   }
 
   .controls-row .wide {
