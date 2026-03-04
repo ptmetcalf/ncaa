@@ -1,108 +1,96 @@
 # NCAA Pool Draft + Tournament Tracker
 
-Browser-first tool for a March Madness player draft pool.
+Browser-first March Madness player draft pool app.
 
-It gives you:
-- A sortable draft board with season stats (`PPG`, `MPG`, `RPG`, `APG`, etc.)
-- A pick tracker for owners
-- A live leaderboard based on tournament points scored
-- Public read-only pages:
-  - `index.html` / `public-board.html` (eligible player board, elimination tracker, and live bracket)
-  - `public-leaderboard.html` (owner standings + per-player detail + team status + live bracket)
+It provides:
+- Public live draft board (`index.html` / `public-board.html`)
+- Public live standings (`public-leaderboard.html`)
+- Admin draft console (`admin.html`)
+- Automated data refresh pipeline into `data/*.json`
+- Shared live picks/draft state through Supabase
 
-The site is static and works on GitHub Pages. Data is refreshed by GitHub Actions into `data/*.json`.
+## Current Page Structure
 
-## How It Works
+- `index.html` (public):
+  - live pick status (current pick, on clock, latest pick, available players)
+  - draft order table with `On Clock` / `Next Up` highlights
+  - optional/collapsible tournament context (teams, elimination tracker, bracket)
+  - players table with season + tournament stats
 
-1. GitHub Action runs `scripts/refresh-data.mjs`.
-2. Script pulls:
-   - Team list from official ESPN bracket page when available (`team_source_mode=auto`)
-   - Fallback team list from `config/teams.current.json` if official bracket is not available yet
-   - Last-resort fallback to ESPN discovery dates
-   - Live bracket payload (rounds/matchups/seeds/status) from ESPN bracket page
-   - Team/game data from ESPN scoreboard + summaries
-   - Rosters from ESPN team endpoints
-   - Season averages from ESPN core athlete stats
-3. Action commits JSON files to `data/`.
-4. GitHub Pages loads those JSON files in the page scripts (`public-home.js`, `app.js`, `public-leaderboard.js`).
-5. Admin page reads/writes picks from Supabase shared state.
-6. Public pages read live picks directly from Supabase.
+- `public-board.html` (public):
+  - same public board behavior as `index.html`
 
-## One-Time Setup (GitHub)
+- `public-leaderboard.html` (public):
+  - owner leaderboard
+  - per-player drafted details (team status, season stats, tournament production)
+  - live bracket section
 
-1. Push this repo to GitHub.
-2. In repo settings, enable **Pages** from `main` branch root.
-3. Go to **Actions** -> **Refresh NCAA Data**.
-4. Click **Run workflow** with your season settings.
-5. Open the GitHub Pages URL.
+- `admin.html` (admin-only controls after login):
+  - auth gate via Supabase
+  - draft board/stat dashboard for drafting
+  - owner management, snake/manual order, add picks
+  - export picks (PDF/CSV/JSON), import picks, reset picks
+  - sync status cards (source/connection/last sync/write status)
 
-## Team File (Projected Now, Official Later)
+## Architecture
 
-Edit `config/teams.current.json` and keep it as your source of truth.
+### 1) Static frontend
+- Hosted on GitHub Pages
+- Main scripts:
+  - `app.js` (admin)
+  - `public-home.js` (public board)
+  - `public-leaderboard.js` (public leaderboard)
+  - `live-state.js` (shared live-state read helper)
 
-Format:
+### 2) Data refresh pipeline
+- Workflow: `.github/workflows/refresh-data.yml`
+- Script: `scripts/refresh-data.mjs`
+- Generated files:
+  - `data/meta.json`
+  - `data/teams.json`
+  - `data/players.json`
+  - `data/events.json`
+  - `data/game_log.json`
+  - `data/player_totals.json`
+  - `data/bracket.json`
+  - `data/live_state.json` (legacy helper output)
 
-```json
-{
-  "year": 2026,
-  "source": "Your notes",
-  "teams": [
-    { "team_id": 150, "team_name": "Duke Blue Devils", "seed": 1, "region": "East", "projected": true },
-    { "team_id": 248, "team_name": "Houston Cougars", "seed": 1, "region": "Midwest", "projected": true }
-  ]
-}
-```
+### 3) Shared live picks state (Supabase)
+- Config: `supabase-config.js`
+- Client/store logic: `supabase-draft-store.js`
+- SQL + RLS setup: `docs/supabase.sql`
+- Table: `public.pool_state` (`pool_key` default `main`)
 
-Notes:
-- `team_id` is required.
-- `seed`, `region`, `projected`, `bid_type` are optional.
-- This repo ships with a placeholder projected list in `config/teams.projected.json` (copied into `config/teams.current.json`).
-- In `team_source_mode=auto`, official bracket seeds/teams override projected file data automatically once ESPN publishes them.
+Public pages read from Supabase (read policy).
+Admin page writes only when signed-in user is in `admin_users`.
 
-## Daily Use for Non-Coders
-
-1. Open GitHub Pages URL.
-2. Share `index.html` (or `public-board.html`) for public draft viewing.
-3. Share `public-leaderboard.html` for public standings.
-4. Use `admin.html` for draft/admin actions.
-5. Draft from the `Draft Board` section in `admin.html`.
-6. Add picks in `Draft Setup`.
-7. Use `Data Controls` in `admin.html` to verify live team source/seed status and export a team snapshot.
-8. Export CSV files when needed:
-   - `Download Draft Board CSV` for the full board
-   - `Export Picks CSV` for each user's private Google Sheet import
-9. Optional: switch `Draft Mode` to `Snake`, randomize order, and follow the `Next pick` prompt.
-10. After game slates, run **Refresh NCAA Data** workflow.
-11. Reload pages, leaderboard updates automatically.
-
-## Live Public State
-
-Live picks/draft state are read from Supabase `public.pool_state` (`pool_key=main` by default).
-If Supabase is not configured/reachable, pages show empty live picks rather than fallback data.
-
-`data/bracket.json` is generated by the refresh script and drives:
-- elimination tracker on public pages
-- live bracket tables
-- team status labels on leaderboard details
-
-## Supabase Setup (Admin Login + Shared State)
+## Supabase Setup
 
 1. Create a Supabase project.
-2. Run SQL from `docs/supabase.sql` in the Supabase SQL editor.
-3. In this repo, edit `supabase-config.js`:
+2. Run `docs/supabase.sql` in SQL Editor.
+3. Set values in `supabase-config.js`:
    - `SUPABASE_URL`
    - `SUPABASE_ANON_KEY`
-   - `SUPABASE_POOL_KEY` (default `main`)
-4. In Supabase Auth, create user account(s) for admins.
-5. Add those users to `public.admin_users` by `user_id` (UUID from Auth -> Users).
-6. Deploy to GitHub Pages.
+   - `SUPABASE_POOL_KEY` (usually `main`)
+4. Create admin users in Supabase Auth.
+5. Insert those user UUIDs into `public.admin_users`.
 
-Behavior:
-- `admin.html` admin controls are locked unless a signed-in user exists in `admin_users`.
-- `index.html`, `public-board.html`, and `public-leaderboard.html` read shared state directly from Supabase (public read policy).
-- There is no local/browser fallback for live picks.
+Notes:
+- `SUPABASE_ANON_KEY` is safe in client code when RLS is configured correctly.
+- Do not use service-role keys in frontend code.
 
-Without a backend, any front-end-only password gate is not secure.
+## Team Source + Refresh Behavior
+
+`scripts/refresh-data.mjs` supports multiple team source strategies via `--team_source_mode`:
+- `auto` (recommended): official bracket first, then fallback inputs
+- `bracket`
+- `file`
+- `team_ids`
+- `discover_dates`
+
+Common inputs:
+- `config/teams.current.json` as your projected/override team file
+- `--team_discovery_dates` as fallback discovery dates
 
 ## Local Run
 
@@ -110,7 +98,8 @@ Without a backend, any front-end-only password gate is not secure.
 npm run serve
 ```
 
-Open `http://localhost:4173`.
+Default local URL:
+- `http://localhost:4173` (or the next available port)
 
 ## Manual Data Refresh (Local)
 
@@ -124,15 +113,53 @@ npm run refresh -- \
   --game_start_date=20260317
 ```
 
-Optional args:
-- `--team_source_mode=auto|bracket|file|team_ids|discover_dates`
-- `--team_file=path/to/teams.json`
+Useful optional args:
 - `--team_ids=150,248,...`
 - `--game_end_date=YYYYMMDD`
 
-## Notes
+## Daily Usage (Non-Technical)
 
-- If a player has no season stat line yet, the API can return `No stats found.`; the script keeps that player with blank averages.
-- Tournament scoring in this app uses raw points from ESPN game summaries.
-- Draft score now includes seed opportunity weighting (better seed number gets a bounded boost).
-- Export picks CSV/JSON/PDF after drafting as a backup.
+1. Share `index.html` (or `public-board.html`) for the live draft board.
+2. Share `public-leaderboard.html` for standings.
+3. Admin runs draft from `admin.html`.
+4. Use snake/manual order controls and add picks.
+5. Export picks at draft end (PDF/CSV/JSON).
+6. Run `Refresh NCAA Data` workflow during tournament.
+7. Reload pages to see updated stats/standings.
+
+## Export Notes
+
+Admin exports:
+- Draft board CSV
+- Picks CSV
+- Picks JSON
+- Picks PDF
+
+PDF uses a print-window flow. If popup is truly blocked, CSV fallback is used.
+
+## Validation Checklist
+
+Run syntax checks:
+
+```bash
+node --check scripts/refresh-data.mjs
+node --check app.js
+node --check public-home.js
+node --check public-leaderboard.js
+node --check live-state.js
+node --check supabase-draft-store.js
+```
+
+Optional ranking sanity check:
+
+```bash
+node scripts/refresh-data.mjs --year=2026 --seasonType=2 --team_source_mode=auto --team_file=config/teams.current.json --game_start_date=20260317 --game_end_date=20260317
+jq '.[0:15] | map({rank:.draft_rank,name:.player_name,mpg:.avg_minutes,gp:.games_played,score:.draft_score})' data/players.json
+```
+
+## Deployment Notes
+
+- Push to `main` updates GitHub Pages.
+- Scheduled/manual refresh workflow commits updated `data/*.json`.
+- Avoid committing local tool artifacts (for example `.playwright-cli/` snapshots).
+- Public asset cache busting uses query strings on CSS/JS includes.
