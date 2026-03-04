@@ -1,4 +1,5 @@
-const STORAGE_KEY = "ncaa_pool_state_v1";
+import { createSupabaseDraftStore } from "./supabase-draft-store.js";
+
 const DEFAULT_OWNERS = Array.from({ length: 12 }, (_, i) => `Owner ${i + 1}`);
 const DRAFT_MODES = {
   MANUAL: "manual",
@@ -18,6 +19,20 @@ const state = {
     order: [...DEFAULT_OWNERS]
   },
   picks: [],
+  auth: {
+    mode: "supabase",
+    configured: false,
+    isAdmin: false,
+    session: null,
+    source: "supabase",
+    status: "Connecting to Supabase..."
+  },
+  sync: {
+    saving: false,
+    lastRemoteUpdate: null,
+    lastError: null
+  },
+  draftStore: null,
   filters: {
     search: "",
     minMinutes: 0,
@@ -45,12 +60,29 @@ const elements = {
   resetOrderBtn: document.querySelector("#reset-order"),
   draftOrderPreview: document.querySelector("#draft-order-preview"),
   nextPickPreview: document.querySelector("#next-pick-preview"),
+  dataStatusLine: document.querySelector("#data-status-line"),
+  dataStatusNote: document.querySelector("#data-status-note"),
+  syncSource: document.querySelector("#sync-source"),
+  syncConnection: document.querySelector("#sync-connection"),
+  syncLastUpdate: document.querySelector("#sync-last-update"),
+  syncWriteStatus: document.querySelector("#sync-write-status"),
+  syncError: document.querySelector("#sync-error"),
+  downloadTeamsSnapshotBtn: document.querySelector("#download-teams-snapshot"),
+  copyRefreshCommandBtn: document.querySelector("#copy-refresh-command"),
+  authMeta: document.querySelector("#auth-meta"),
+  authStatus: document.querySelector("#auth-status"),
+  adminLockedMessage: document.querySelector("#admin-locked-message"),
+  adminEmail: document.querySelector("#admin-email"),
+  adminPassword: document.querySelector("#admin-password"),
+  adminLoginBtn: document.querySelector("#admin-login"),
+  adminLogoutBtn: document.querySelector("#admin-logout"),
   pickOwner: document.querySelector("#pick-owner"),
   pickPlayerSearch: document.querySelector("#pick-player-search"),
   pickPlayer: document.querySelector("#pick-player"),
   addPickBtn: document.querySelector("#add-pick"),
   pickLogBody: document.querySelector("#pick-log-body"),
   leaderboardBody: document.querySelector("#leaderboard-body"),
+  exportPicksPdfBtn: document.querySelector("#export-picks-pdf"),
   downloadPicksCsvBtn: document.querySelector("#download-picks-csv"),
   downloadPicksBtn: document.querySelector("#download-picks"),
   uploadPicksBtn: document.querySelector("#upload-picks"),
@@ -157,15 +189,6 @@ function downloadText(filename, text, type = "text/plain") {
   URL.revokeObjectURL(url);
 }
 
-function saveState() {
-  const payload = {
-    owners: state.owners,
-    draft: state.draft,
-    picks: state.picks
-  };
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(payload));
-}
-
 function normalizeOwnerList(values) {
   const seen = new Set();
   const out = [];
@@ -176,6 +199,149 @@ function normalizeOwnerList(values) {
     out.push(owner);
   }
   return out;
+}
+
+function normalizePicks(rows) {
+  return (rows ?? [])
+    .map((pick, idx) => ({
+      pick_no: Number(pick.pick_no) || idx + 1,
+      owner: String(pick.owner ?? "").trim(),
+      player_id: Number(pick.player_id),
+      player_name: pick.player_name ?? null,
+      team_name: pick.team_name ?? null,
+      team_id: Number(pick.team_id) || null
+    }))
+    .filter((pick) => Number.isInteger(pick.player_id) && pick.owner);
+}
+
+function applyDraftPayload(payload) {
+  if (!payload || typeof payload !== "object") return;
+
+  if (Array.isArray(payload.owners) && payload.owners.length > 0) {
+    state.owners = normalizeOwnerList(payload.owners);
+  }
+
+  if (payload.draft && typeof payload.draft === "object") {
+    state.draft.mode = payload.draft.mode === DRAFT_MODES.SNAKE ? DRAFT_MODES.SNAKE : DRAFT_MODES.MANUAL;
+    if (Array.isArray(payload.draft.order)) {
+      state.draft.order = normalizeOwnerList(payload.draft.order);
+    }
+  }
+
+  if (Array.isArray(payload.picks)) {
+    state.picks = normalizePicks(payload.picks);
+  }
+
+  syncDraftOrderWithOwners();
+}
+
+function canEditDraft(showAlert = false) {
+  if (!state.auth.configured) {
+    if (showAlert) {
+      alert("Admin tools require Supabase to be configured and reachable.");
+    }
+    return false;
+  }
+  if (state.auth.isAdmin) return true;
+  if (showAlert) {
+    alert("Admin sign-in required for draft controls.");
+  }
+  return false;
+}
+
+function adminOnlySections() {
+  return document.querySelectorAll("[data-admin-only]");
+}
+
+function applyDraftLockState() {
+  const editable = canEditDraft(false);
+  for (const section of adminOnlySections()) {
+    section.classList.toggle("is-locked", !editable);
+    section.hidden = !editable;
+    const controls = section.querySelectorAll("input, select, button");
+    for (const control of controls) {
+      control.disabled = !editable;
+    }
+  }
+
+  if (elements.adminLockedMessage) {
+    elements.adminLockedMessage.hidden = editable;
+  }
+}
+
+function renderAuthState() {
+  if (!elements.authMeta || !elements.authStatus) return;
+
+  if (!state.auth.configured) {
+    elements.authMeta.textContent = state.auth.status ?? "Supabase unavailable";
+    elements.authStatus.textContent = "Admin controls are locked until Supabase config/connectivity is available.";
+    if (elements.adminLoginBtn) elements.adminLoginBtn.disabled = true;
+    if (elements.adminLogoutBtn) elements.adminLogoutBtn.disabled = true;
+    return;
+  }
+
+  const email = state.auth.session?.user?.email ?? "Not signed in";
+  const remoteTime = state.sync.lastRemoteUpdate
+    ? ` | Remote sync: ${new Date(state.sync.lastRemoteUpdate).toLocaleString()}`
+    : "";
+  const errorText = state.sync.lastError ? ` | Last error: ${state.sync.lastError}` : "";
+
+  elements.authMeta.textContent = `Mode: Supabase shared state | Pool: ${state.draftStore?.poolKey ?? "main"}`;
+  elements.authStatus.textContent = `User: ${email} | Admin: ${state.auth.isAdmin ? "yes" : "no"}${remoteTime}${errorText}`;
+  if (elements.adminLoginBtn) elements.adminLoginBtn.disabled = Boolean(state.auth.session) || state.sync.saving;
+  if (elements.adminLogoutBtn) elements.adminLogoutBtn.disabled = !state.auth.session || state.sync.saving;
+}
+
+async function setSession(session) {
+  state.auth.session = session ?? null;
+  if (!state.auth.configured || !state.draftStore) {
+    state.auth.isAdmin = false;
+    return;
+  }
+  try {
+    state.auth.isAdmin = await state.draftStore.isAdminSession(session);
+  } catch (err) {
+    state.auth.isAdmin = false;
+    state.sync.lastError = err.message;
+  }
+}
+
+async function persistDraftState({ showAlertOnError = true } = {}) {
+  if (!state.auth.configured || !state.draftStore || !state.auth.isAdmin) return true;
+
+  state.sync.saving = true;
+  try {
+    const result = await state.draftStore.saveState({
+      owners: state.owners,
+      draft: state.draft,
+      picks: state.picks,
+      updatedBy: state.auth.session?.user?.id ?? null
+    });
+    state.sync.lastRemoteUpdate = result.updated_at ?? new Date().toISOString();
+    state.sync.lastError = null;
+    return true;
+  } catch (err) {
+    state.sync.lastError = err.message;
+    if (showAlertOnError) {
+      alert(`Failed to sync to Supabase: ${err.message}`);
+    }
+    return false;
+  } finally {
+    state.sync.saving = false;
+  }
+}
+
+async function loadRemoteDraftState() {
+  if (!state.auth.configured || !state.draftStore) return;
+  try {
+    const remote = await state.draftStore.fetchState();
+    applyDraftPayload(remote);
+    state.sync.lastRemoteUpdate = remote.updated_at ?? null;
+    state.sync.lastError = null;
+    state.auth.source = "supabase";
+  } catch (err) {
+    state.sync.lastError = err.message;
+  }
 }
 
 function shuffle(values) {
@@ -205,40 +371,6 @@ function snakeOwnerForPick(pickNo) {
   const isReverseRound = roundIndex % 2 === 1;
   const ownerIndex = isReverseRound ? ownerCount - 1 - indexInRound : indexInRound;
   return owners[ownerIndex] ?? null;
-}
-
-function loadState() {
-  const raw = localStorage.getItem(STORAGE_KEY);
-  if (!raw) return;
-
-  try {
-    const parsed = JSON.parse(raw);
-    if (Array.isArray(parsed.owners) && parsed.owners.length > 0) {
-      state.owners = normalizeOwnerList(parsed.owners);
-    }
-
-    if (parsed.draft && typeof parsed.draft === "object") {
-      state.draft.mode = parsed.draft.mode === DRAFT_MODES.SNAKE ? DRAFT_MODES.SNAKE : DRAFT_MODES.MANUAL;
-      if (Array.isArray(parsed.draft.order)) {
-        state.draft.order = normalizeOwnerList(parsed.draft.order);
-      }
-    }
-
-    if (Array.isArray(parsed.picks)) {
-      state.picks = parsed
-        .map((pick) => ({
-          pick_no: Number(pick.pick_no),
-          owner: String(pick.owner ?? "").trim(),
-          player_id: Number(pick.player_id),
-          player_name: pick.player_name ?? null,
-          team_name: pick.team_name ?? null
-        }))
-        .filter((pick) => Number.isInteger(pick.pick_no) && Number.isInteger(pick.player_id) && pick.owner);
-    }
-    syncDraftOrderWithOwners();
-  } catch {
-    console.warn("Unable to parse saved local state.");
-  }
 }
 
 function pickedByPlayerId() {
@@ -475,18 +607,83 @@ function renderMetaLine() {
   } | Games: ${totals.final_events ?? 0} finals loaded | Team source: ${source}`;
 }
 
+function renderDataStatus() {
+  if (!elements.dataStatusLine || !elements.dataStatusNote) return;
+
+  const totals = state.meta?.totals ?? {};
+  const mode = state.meta?.team_source_mode ?? "unknown";
+  const source = state.meta?.team_source ?? "unknown";
+  const detail = state.meta?.team_source_detail ?? "";
+  const seededPlayers = totals.seeded_players ?? 0;
+  const bracketTeams = state.meta?.bracket?.teams ?? 0;
+  const bracketSeason = state.meta?.bracket?.season ?? "n/a";
+
+  elements.dataStatusLine.textContent = `Mode: ${mode} | Source: ${source} ${detail ? `(${detail})` : ""} | Seeded players: ${seededPlayers} | Bracket teams detected: ${bracketTeams} (${bracketSeason})`;
+  elements.dataStatusNote.textContent = state.meta?.note
+    ? state.meta.note
+    : "Auto mode uses official ESPN bracket teams/seeds when available, otherwise falls back to your configured team file.";
+}
+
+function renderSyncStats() {
+  if (
+    !elements.syncSource ||
+    !elements.syncConnection ||
+    !elements.syncLastUpdate ||
+    !elements.syncWriteStatus ||
+    !elements.syncError
+  ) {
+    return;
+  }
+
+  const source = String(state.auth.source ?? "supabase").replaceAll("_", " ");
+  elements.syncSource.textContent = source;
+
+  if (!state.auth.configured) {
+    elements.syncConnection.textContent = "Unavailable";
+  } else if (!state.auth.session) {
+    elements.syncConnection.textContent = "Connected (signed out)";
+  } else if (state.auth.isAdmin) {
+    elements.syncConnection.textContent = "Connected (admin)";
+  } else {
+    elements.syncConnection.textContent = "Connected (read-only user)";
+  }
+
+  elements.syncLastUpdate.textContent = state.sync.lastRemoteUpdate
+    ? new Date(state.sync.lastRemoteUpdate).toLocaleString()
+    : "No successful sync";
+
+  if (state.sync.saving) {
+    elements.syncWriteStatus.textContent = "Saving...";
+  } else if (state.sync.lastError) {
+    elements.syncWriteStatus.textContent = "Error";
+  } else if (state.auth.configured && state.auth.isAdmin) {
+    elements.syncWriteStatus.textContent = "Ready";
+  } else {
+    elements.syncWriteStatus.textContent = "Locked";
+  }
+
+  elements.syncError.textContent = state.sync.lastError ? `Last sync error: ${state.sync.lastError}` : "No sync errors.";
+}
+
 function rerender() {
   renderMetaLine();
+  renderDataStatus();
+  renderSyncStats();
+  renderAuthState();
   renderStatusPills();
+  applyDraftLockState();
   renderDraftControls();
   renderDraftBoard();
   fillPlayerPickSelector();
   renderPickLog();
   renderLeaderboard();
+  if (!canEditDraft(false)) applyDraftLockState();
   bindTeamLogoFallbacks();
 }
 
-function onAddPick() {
+async function onAddPick() {
+  if (!canEditDraft(true)) return;
+
   const nextPickNo = state.picks.length + 1;
   const expectedOwner = snakeOwnerForPick(nextPickNo);
   const owner = expectedOwner ?? elements.pickOwner.value;
@@ -508,11 +705,13 @@ function onAddPick() {
   });
 
   if (elements.pickPlayerSearch) elements.pickPlayerSearch.value = "";
-  saveState();
+  await persistDraftState();
   rerender();
 }
 
-function onSaveOwners() {
+async function onSaveOwners() {
+  if (!canEditDraft(true)) return;
+
   const parsed = normalizeOwnerList(
     elements.ownersInput.value
     .split(",")
@@ -523,7 +722,7 @@ function onSaveOwners() {
 
   state.owners = parsed;
   syncDraftOrderWithOwners();
-  saveState();
+  await persistDraftState();
   fillOwnerSelectors();
   rerender();
 }
@@ -572,6 +771,58 @@ function onDownloadBoard() {
   }
 
   downloadText("draft-board.csv", `${lines.join("\n")}\n`, "text/csv");
+}
+
+function onDownloadTeamsSnapshot() {
+  const payload = {
+    exported_at: new Date().toISOString(),
+    team_source_mode: state.meta?.team_source_mode ?? null,
+    team_source: state.meta?.team_source ?? null,
+    team_source_detail: state.meta?.team_source_detail ?? null,
+    bracket: state.meta?.bracket ?? null,
+    totals: state.meta?.totals ?? null,
+    teams: state.teams
+  };
+  downloadText("teams.snapshot.json", `${JSON.stringify(payload, null, 2)}\n`, "application/json");
+}
+
+function buildRefreshCommand() {
+  const year = state.meta?.year ?? new Date().getUTCFullYear();
+  const seasonType = state.meta?.season_type ?? 2;
+  const teamFile = "config/teams.current.json";
+  const discoverDates = Array.isArray(state.meta?.discover_dates) && state.meta.discover_dates.length > 0
+    ? state.meta.discover_dates.join(",")
+    : `${year}0317,${year}0318,${year}0319,${year}0320`;
+  const gameStart = state.meta?.game_start ?? `${year}0317`;
+  const gameEnd = state.meta?.game_end ?? "";
+
+  const parts = [
+    "npm run refresh --",
+    `--year=${year}`,
+    `--seasonType=${seasonType}`,
+    "--team_source_mode=auto",
+    `--team_file=${teamFile}`,
+    `--team_discovery_dates=${discoverDates}`,
+    `--game_start_date=${gameStart}`
+  ];
+  if (gameEnd) parts.push(`--game_end_date=${gameEnd}`);
+  return parts.join(" ");
+}
+
+async function onCopyRefreshCommand() {
+  const command = buildRefreshCommand();
+  try {
+    if (navigator.clipboard?.writeText) {
+      await navigator.clipboard.writeText(command);
+      alert("Refresh command copied.");
+      return;
+    }
+  } catch {
+    // Ignore and fall back.
+  }
+
+  const accepted = window.prompt("Copy this refresh command:", command);
+  if (accepted === null) return;
 }
 
 function onDownloadPicks() {
@@ -630,37 +881,122 @@ function onDownloadPicksCsv() {
   downloadText("pool-picks.csv", `${lines.join("\n")}\n`, "text/csv");
 }
 
-function onImportPicks(file) {
-  const reader = new FileReader();
-  reader.onload = () => {
-    try {
-      const parsed = JSON.parse(String(reader.result ?? "{}"));
-      if (Array.isArray(parsed.owners) && parsed.owners.length > 0) {
-        state.owners = normalizeOwnerList(parsed.owners);
-      }
+function onExportPicksPdf() {
+  const players = byIdMap(state.players, "player_id");
+  const picks = [...state.picks].sort((a, b) => a.pick_no - b.pick_no);
+  const generatedAt = new Date().toLocaleString();
 
-      if (parsed.draft && typeof parsed.draft === "object") {
-        state.draft.mode = parsed.draft.mode === DRAFT_MODES.SNAKE ? DRAFT_MODES.SNAKE : DRAFT_MODES.MANUAL;
-        if (Array.isArray(parsed.draft.order)) {
-          state.draft.order = normalizeOwnerList(parsed.draft.order);
+  const rowsHtml = picks
+    .map((pick) => {
+      const player = players.get(Number(pick.player_id));
+      const playerName = pick.player_name ?? player?.player_name ?? "Unknown";
+      const teamName = pick.team_name ?? player?.team_name ?? "-";
+      const teamSeed = player?.team_seed ?? "-";
+
+      return `<tr>
+        <td>${formatInt(pick.pick_no)}</td>
+        <td>${escapeHtml(pick.owner)}</td>
+        <td>${escapeHtml(playerName)}</td>
+        <td>${escapeHtml(teamName)}</td>
+        <td>${escapeHtml(formatInt(teamSeed))}</td>
+      </tr>`;
+    })
+    .join("");
+
+  // `noopener,noreferrer` can cause some browsers to return `null` even when a tab opens.
+  // Open plainly so we can reliably write print markup, then detach opener.
+  const popup = window.open("", "_blank");
+  if (!popup) {
+    alert("Popup blocked by browser. Exporting CSV instead.");
+    onDownloadPicksCsv();
+    return;
+  }
+  try {
+    popup.opener = null;
+  } catch {
+    // Ignore if browser disallows setting opener.
+  }
+
+  popup.document.write(`<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NCAA Pool Draft Picks</title>
+    <style>
+      body {
+        margin: 24px;
+        color: #152433;
+        font-family: Arial, sans-serif;
+      }
+      h1 {
+        margin: 0 0 6px;
+        font-size: 24px;
+      }
+      p {
+        margin: 0 0 14px;
+        color: #445566;
+        font-size: 12px;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 12px;
+      }
+      th,
+      td {
+        padding: 7px 8px;
+        border: 1px solid #ccd4dd;
+        text-align: left;
+      }
+      th {
+        background: #f2f6fa;
+      }
+      @media print {
+        body {
+          margin: 10mm;
         }
       }
+    </style>
+  </head>
+  <body>
+    <h1>NCAA Pool Draft Picks</h1>
+    <p>Generated: ${escapeHtml(generatedAt)} | Total picks: ${picks.length}</p>
+    <table>
+      <thead>
+        <tr>
+          <th>Pick</th>
+          <th>Owner</th>
+          <th>Player</th>
+          <th>Team</th>
+          <th>Seed</th>
+        </tr>
+      </thead>
+      <tbody>
+        ${rowsHtml || `<tr><td colspan="5">No picks available.</td></tr>`}
+      </tbody>
+    </table>
+    <script>
+      window.addEventListener("load", () => {
+        setTimeout(() => {
+          window.print();
+        }, 100);
+      });
+    </script>
+  </body>
+</html>`);
+  popup.document.close();
+}
 
-      if (Array.isArray(parsed.picks)) {
-        state.picks = parsed.picks
-          .map((pick, idx) => ({
-            pick_no: Number(pick.pick_no) || idx + 1,
-            owner: String(pick.owner ?? "").trim(),
-            player_id: Number(pick.player_id),
-            player_name: pick.player_name ?? null,
-            team_name: pick.team_name ?? null,
-            team_id: Number(pick.team_id) || null
-          }))
-          .filter((pick) => Number.isInteger(pick.player_id) && pick.owner);
-      }
+async function onImportPicks(file) {
+  if (!canEditDraft(true)) return;
 
-      syncDraftOrderWithOwners();
-      saveState();
+  const reader = new FileReader();
+  reader.onload = async () => {
+    try {
+      const parsed = JSON.parse(String(reader.result ?? "{}"));
+      applyDraftPayload(parsed);
+      await persistDraftState();
       fillOwnerSelectors();
       rerender();
     } catch {
@@ -669,6 +1005,79 @@ function onImportPicks(file) {
   };
 
   reader.readAsText(file);
+}
+
+async function onAdminLogin() {
+  if (!state.auth.configured || !state.draftStore) return;
+  const email = String(elements.adminEmail?.value ?? "").trim();
+  const password = String(elements.adminPassword?.value ?? "");
+  if (!email || !password) {
+    alert("Enter admin email and password.");
+    return;
+  }
+
+  try {
+    state.sync.lastError = null;
+    await state.draftStore.signInWithPassword(email, password);
+    const session = await state.draftStore.getSession();
+    await setSession(session);
+    await loadRemoteDraftState();
+    fillOwnerSelectors();
+    if (elements.adminPassword) elements.adminPassword.value = "";
+    if (!state.auth.isAdmin) {
+      alert("Signed in, but this account is not in admin_users. Ask an existing admin to grant access.");
+    }
+    rerender();
+  } catch (err) {
+    state.sync.lastError = err.message;
+    alert(`Sign-in failed: ${err.message}`);
+    rerender();
+  }
+}
+
+async function onAdminLogout() {
+  if (!state.auth.configured || !state.draftStore) return;
+  try {
+    await state.draftStore.signOut();
+    await setSession(null);
+    rerender();
+  } catch (err) {
+    state.sync.lastError = err.message;
+    alert(`Sign-out failed: ${err.message}`);
+    rerender();
+  }
+}
+
+async function initDraftStore() {
+  try {
+    state.draftStore = await createSupabaseDraftStore();
+    state.auth.configured = Boolean(state.draftStore?.enabled);
+    state.auth.mode = "supabase";
+    state.auth.isAdmin = false;
+    state.auth.status = state.draftStore?.reason ?? "Supabase configured";
+
+    if (!state.auth.configured) return;
+
+    const session = await state.draftStore.getSession();
+    await setSession(session);
+    await loadRemoteDraftState();
+
+    state.draftStore.onAuthStateChange((_, nextSession) => {
+      void (async () => {
+        await setSession(nextSession);
+        await loadRemoteDraftState();
+        fillOwnerSelectors();
+        rerender();
+      })();
+    });
+  } catch (err) {
+    console.warn(`Supabase unavailable: ${err.message}`);
+    state.auth.configured = false;
+    state.auth.mode = "supabase";
+    state.auth.isAdmin = false;
+    state.auth.status = `Supabase unavailable: ${err.message}`;
+    state.draftStore = null;
+  }
 }
 
 function bindEvents() {
@@ -706,12 +1115,16 @@ function bindEvents() {
   });
 
   elements.draftMode.addEventListener("change", () => {
+    if (!canEditDraft(true)) {
+      rerender();
+      return;
+    }
     state.draft.mode = elements.draftMode.value === DRAFT_MODES.SNAKE ? DRAFT_MODES.SNAKE : DRAFT_MODES.MANUAL;
-    saveState();
-    rerender();
+    void persistDraftState().then(() => rerender());
   });
 
   elements.randomizeOrderBtn.addEventListener("click", () => {
+    if (!canEditDraft(true)) return;
     if (state.owners.length < 2) return;
     if (state.picks.length > 0) {
       const ok = window.confirm("Randomizing draft order now affects only future picks. Continue?");
@@ -719,14 +1132,13 @@ function bindEvents() {
     }
     syncDraftOrderWithOwners();
     state.draft.order = shuffle(state.draft.order);
-    saveState();
-    rerender();
+    void persistDraftState().then(() => rerender());
   });
 
   elements.resetOrderBtn.addEventListener("click", () => {
+    if (!canEditDraft(true)) return;
     state.draft.order = [...state.owners];
-    saveState();
-    rerender();
+    void persistDraftState().then(() => rerender());
   });
 
   elements.clearFiltersBtn.addEventListener("click", () => {
@@ -744,8 +1156,17 @@ function bindEvents() {
 
   elements.downloadBoardBtn.addEventListener("click", onDownloadBoard);
   elements.refreshPageBtn.addEventListener("click", () => window.location.reload());
-  elements.saveOwnersBtn.addEventListener("click", onSaveOwners);
-  elements.addPickBtn.addEventListener("click", onAddPick);
+  elements.downloadTeamsSnapshotBtn?.addEventListener("click", onDownloadTeamsSnapshot);
+  elements.copyRefreshCommandBtn?.addEventListener("click", () => {
+    void onCopyRefreshCommand();
+  });
+  elements.saveOwnersBtn.addEventListener("click", () => {
+    void onSaveOwners();
+  });
+  elements.addPickBtn.addEventListener("click", () => {
+    void onAddPick();
+  });
+  elements.exportPicksPdfBtn?.addEventListener("click", onExportPicksPdf);
   elements.downloadPicksCsvBtn.addEventListener("click", onDownloadPicksCsv);
   elements.downloadPicksBtn.addEventListener("click", onDownloadPicks);
 
@@ -756,16 +1177,33 @@ function bindEvents() {
 
   elements.importFile.addEventListener("change", () => {
     const file = elements.importFile.files?.[0];
-    if (file) onImportPicks(file);
+    if (file) {
+      void onImportPicks(file);
+    }
   });
 
   elements.resetPicksBtn.addEventListener("click", () => {
-    const ok = window.confirm("Reset all picks on this device?");
+    if (!canEditDraft(true)) return;
+    const poolKey = state.draftStore?.poolKey ?? "main";
+    const ok = window.confirm(
+      `Reset all picks for shared pool "${poolKey}"?\n\nThis clears picks for everyone using this pool.`
+    );
     if (!ok) return;
     state.picks = [];
     if (elements.pickPlayerSearch) elements.pickPlayerSearch.value = "";
-    saveState();
-    rerender();
+    void persistDraftState().then(() => rerender());
+  });
+
+  elements.adminLoginBtn?.addEventListener("click", () => {
+    void onAdminLogin();
+  });
+  elements.adminLogoutBtn?.addEventListener("click", () => {
+    void onAdminLogout();
+  });
+  elements.adminPassword?.addEventListener("keydown", (event) => {
+    if (event.key !== "Enter") return;
+    event.preventDefault();
+    void onAdminLogin();
   });
 }
 
@@ -790,7 +1228,7 @@ async function boot() {
   cachedTeamMap = null;
   cachedTeamMapSize = -1;
 
-  loadState();
+  await initDraftStore();
   fillTeamFilter();
   fillOwnerSelectors();
   bindEvents();

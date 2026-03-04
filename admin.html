@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NCAA Pool Admin</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css?v=20260303j" />
+  </head>
+  <body>
+    <div class="ambient"></div>
+    <main class="layout">
+      <header class="hero card">
+        <div class="hero-top">
+          <p class="kicker">Admin Draft Console</p>
+          <nav class="hero-nav" aria-label="Page navigation">
+            <a href="./index.html">Home</a>
+            <a href="./public-leaderboard.html">Leaderboard</a>
+            <a href="./admin.html" class="is-active">Admin</a>
+          </nav>
+        </div>
+        <h1>Draft Board + Tournament Scoring</h1>
+        <p class="hero-subtitle">Run draft night fast, track every pick, and settle the pool automatically.</p>
+        <p id="meta-line">Loading data...</p>
+      </header>
+
+      <section id="admin-auth" class="card">
+        <div class="section-head">
+          <h2>Admin Access</h2>
+          <p id="auth-meta">Connecting to Supabase...</p>
+        </div>
+        <div class="draft-row pick-row admin-auth-row">
+          <label>
+            Admin Email
+            <input id="admin-email" type="email" placeholder="admin@email.com" autocomplete="username" />
+          </label>
+          <label>
+            Password
+            <input id="admin-password" type="password" placeholder="Password" autocomplete="current-password" />
+          </label>
+          <button id="admin-login">Sign In</button>
+          <button id="admin-logout">Sign Out</button>
+        </div>
+        <p id="auth-status" class="draft-meta"></p>
+      </section>
+
+      <section id="admin-locked-message" class="card admin-locked-message" hidden>
+        <div class="section-head">
+          <h2>Read Only Until Sign In</h2>
+          <p>Sign in with an approved admin account to open draft controls and dashboards.</p>
+        </div>
+      </section>
+
+      <div id="admin-console" data-admin-only hidden>
+        <section class="card">
+          <div class="section-head">
+            <h2>Team Management</h2>
+            <p id="data-status-line">Loading source status...</p>
+          </div>
+          <div class="draft-row actions-row">
+            <button id="download-teams-snapshot">Export Teams Snapshot</button>
+            <button id="copy-refresh-command">Copy Refresh Command</button>
+          </div>
+          <div class="status-grid admin-sync-grid">
+            <article class="status-tile">
+              <h3>Sync Source</h3>
+              <p id="sync-source">-</p>
+            </article>
+            <article class="status-tile">
+              <h3>Connection</h3>
+              <p id="sync-connection">-</p>
+            </article>
+            <article class="status-tile">
+              <h3>Last Sync</h3>
+              <p id="sync-last-update">-</p>
+            </article>
+            <article class="status-tile">
+              <h3>Write Status</h3>
+              <p id="sync-write-status">-</p>
+            </article>
+          </div>
+          <p id="sync-error" class="draft-meta"></p>
+          <p id="data-status-note" class="draft-meta"></p>
+        </section>
+
+        <section class="card controls">
+          <div class="controls-row">
+            <label>
+              Search Player
+              <input id="search-input" type="search" placeholder="Name or team" />
+            </label>
+            <label>
+              Team Filter
+              <input id="team-filter" type="search" list="team-options" placeholder="All teams (type to filter)" />
+              <datalist id="team-options"></datalist>
+            </label>
+            <label>
+              Minimum Avg Minutes
+              <input id="min-minutes" type="number" min="0" step="0.1" value="0" />
+            </label>
+            <div class="status-filter">
+              <p>Status</p>
+              <div id="status-filter-group" class="filter-pills" role="group" aria-label="Status filter">
+                <button type="button" class="filter-pill is-active" data-status="all">All</button>
+                <button type="button" class="filter-pill" data-status="available">Available</button>
+                <button type="button" class="filter-pill" data-status="picked">Picked</button>
+              </div>
+            </div>
+          </div>
+          <div class="controls-row compact">
+            <p id="filter-summary" class="filter-summary"></p>
+            <button id="clear-filters">Clear Filters</button>
+            <button id="download-board">Download Draft Board CSV</button>
+            <button id="refresh-page">Reload Data</button>
+          </div>
+        </section>
+
+        <section id="draft-board" class="card">
+          <div class="section-head">
+            <h2>Stats Dashboard</h2>
+            <p>Model-ranked player pool with the stat columns used for draft formulas.</p>
+          </div>
+          <div class="table-wrap board-scroll">
+            <table id="draft-board-table">
+              <thead>
+                <tr>
+                  <th>Rank</th>
+                  <th>Player</th>
+                  <th>Team</th>
+                  <th>Seed</th>
+                  <th>Pos</th>
+                  <th>PPG</th>
+                  <th>MPG</th>
+                  <th>RPG</th>
+                  <th>APG</th>
+                  <th>SPG</th>
+                  <th>BPG</th>
+                  <th>PER</th>
+                  <th>Draft Score</th>
+                  <th>Status</th>
+                </tr>
+              </thead>
+              <tbody id="draft-board-body"></tbody>
+            </table>
+          </div>
+        </section>
+
+        <section id="draft-setup" class="card draft-setup">
+          <div class="section-head">
+            <h2>Draft Controls</h2>
+            <p>Owner setup, snake/manual order, pick entry, and import/export actions.</p>
+          </div>
+          <div class="draft-setup-grid">
+            <div class="draft-panel">
+              <h3>Owners</h3>
+              <div class="draft-row owner-row">
+                <label>
+                  Owners (comma-separated)
+                  <input id="owners-input" type="text" placeholder="Alice,Bob,Charlie,..." />
+                </label>
+                <button id="save-owners">Save Owners</button>
+              </div>
+            </div>
+
+            <div class="draft-panel">
+              <h3>Draft Order</h3>
+              <div class="draft-row order-row">
+                <label>
+                  Draft Mode
+                  <select id="draft-mode">
+                    <option value="manual">Manual</option>
+                    <option value="snake">Snake</option>
+                  </select>
+                </label>
+                <button id="randomize-order">Randomize Order</button>
+                <button id="reset-order">Use List Order</button>
+              </div>
+              <p id="draft-order-preview" class="draft-meta"></p>
+              <p id="next-pick-preview" class="draft-meta"></p>
+            </div>
+
+            <div class="draft-panel draft-panel-wide">
+              <h3>Make Pick</h3>
+              <div class="draft-row pick-row">
+                <label>
+                  Owner
+                  <select id="pick-owner"></select>
+                </label>
+                <label>
+                  Player
+                  <input id="pick-player-search" type="search" placeholder="Search available players..." />
+                  <select id="pick-player"></select>
+                </label>
+                <button id="add-pick">Add Pick</button>
+              </div>
+            </div>
+
+            <div class="draft-panel draft-panel-wide">
+              <h3>Data Actions</h3>
+              <div class="draft-row actions-row">
+                <button id="export-picks-pdf">Export Picks PDF</button>
+                <button id="download-picks-csv">Export Picks CSV</button>
+                <button id="download-picks">Export Picks JSON</button>
+                <button id="upload-picks">Import Picks JSON</button>
+                <button id="reset-picks" class="danger">Reset Picks</button>
+                <input id="import-file" type="file" accept="application/json" hidden />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="results" class="card two-col">
+          <div>
+            <div class="section-head">
+              <h2>Pick Log</h2>
+            </div>
+            <div class="table-wrap tall">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Pick</th>
+                    <th>Owner</th>
+                    <th>Player</th>
+                    <th>Team</th>
+                    <th>Tournament PTS</th>
+                  </tr>
+                </thead>
+                <tbody id="pick-log-body"></tbody>
+              </table>
+            </div>
+          </div>
+          <div>
+            <div class="section-head">
+              <h2>Leaderboard</h2>
+            </div>
+            <div class="table-wrap tall">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Rank</th>
+                    <th>Owner</th>
+                    <th>Players</th>
+                    <th>Total PTS</th>
+                  </tr>
+                </thead>
+                <tbody id="leaderboard-body"></tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+
+        <footer class="card footer">
+          <p>
+            Data refresh is handled by GitHub Actions and written to `/data/*.json`.
+            Admin picks sync to Supabase shared state.
+          </p>
+        </footer>
+      </div>
+    </main>
+
+    <script type="module" src="app.js?v=20260303j"></script>
+  </body>
+</html>

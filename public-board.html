@@ -25,7 +25,7 @@
           </nav>
         </div>
         <h1>Live Draft Board</h1>
-        <p class="hero-subtitle">Player board for spectators. This page is read-only.</p>
+        <p class="hero-subtitle">Eligible players only. This page is read-only for spectators.</p>
         <p id="meta-line">Loading data...</p>
         <p id="refresh-indicator" class="live-refresh" data-status="pending">Checking live updates...</p>
       </header>
@@ -143,7 +143,7 @@
           <h2>Players</h2>
           <p>Includes draft status, team status, and season/tournament scoring stats.</p>
         </div>
-        <section class="controls readonly-controls public-sticky-controls">
+        <section class="controls readonly-controls">
           <div class="controls-row readonly-controls-row">
             <label>
               Sort Order
@@ -183,8 +183,8 @@
             <button id="reset-filters" type="button">Reset Filters</button>
           </div>
         </section>
-        <div class="table-wrap board-scroll mobile-card-wrap">
-          <table class="mobile-cards">
+        <div class="table-wrap board-scroll">
+          <table>
             <thead>
               <tr>
                 <th>Player</th>

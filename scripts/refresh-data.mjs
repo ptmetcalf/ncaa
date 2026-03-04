@@ -10,6 +10,7 @@ const SUMMARY_BASE =
   "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/summary";
 const CORE_BASE =
   "https://sports.core.api.espn.com/v2/sports/basketball/leagues/mens-college-basketball";
+const BRACKET_PAGE_BASE = "https://www.espn.com/mens-college-basketball/bracket";
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
@@ -183,6 +184,194 @@ async function loadTeamsFromFile(root, fileArg) {
   return { teams: deduped, filePath, found: true };
 }
 
+function normalizeBracketSeed(seedRaw) {
+  const parsed = normalizeNumber(seedRaw);
+  if (!Number.isFinite(parsed)) return null;
+  return clamp(Math.round(parsed), 1, 16);
+}
+
+function inferRegionId(matchup) {
+  const direct = normalizeNumber(matchup?.regionId);
+  if (Number.isFinite(direct)) return Math.round(direct);
+
+  const bracketLocation = normalizeNumber(matchup?.bracketLocation);
+  if (!Number.isFinite(bracketLocation)) return null;
+
+  // ESPN bracket payload uses 1-32 bracket slots in rounds 0/1.
+  return clamp(Math.floor((Math.round(bracketLocation) - 1) / 8) + 1, 1, 4);
+}
+
+function normalizeBracketTeamCandidate(competitor, matchup, regionMap) {
+  const teamId = Number(competitor?.id);
+  if (!Number.isInteger(teamId) || teamId <= 0) return null;
+
+  const regionId = inferRegionId(matchup);
+  const regionLabel = regionId ? regionMap.get(regionId) ?? null : null;
+
+  const fallbackName =
+    firstNonEmpty(competitor?.location, competitor?.name, competitor?.abbreviation, `Team ${teamId}`) ?? `Team ${teamId}`;
+
+  return {
+    team_id: teamId,
+    team_uid: null,
+    team_name: fallbackName,
+    team_short_name: fallbackName,
+    team_abbreviation: firstNonEmpty(competitor?.abbreviation, null),
+    conference_id: null,
+    color: firstNonEmpty(competitor?.color, null),
+    logo: firstNonEmpty(competitor?.logo, competitor?.logoDark, null),
+    seed: normalizeBracketSeed(competitor?.seed),
+    region: regionLabel,
+    bid_type: "official",
+    projected: false,
+    source_rank: null,
+    _round_id: Number(matchup?.roundId) || 99
+  };
+}
+
+function mergeBracketTeam(existing, incoming) {
+  if (!existing) return incoming;
+
+  const preferIncoming = (incoming?._round_id ?? 99) < (existing?._round_id ?? 99);
+  const merged = preferIncoming ? { ...existing, ...incoming } : { ...incoming, ...existing };
+
+  if (!merged.seed && incoming.seed) merged.seed = incoming.seed;
+  if (!merged.region && incoming.region) merged.region = incoming.region;
+  if (!merged.logo && incoming.logo) merged.logo = incoming.logo;
+  if (!merged.team_abbreviation && incoming.team_abbreviation) merged.team_abbreviation = incoming.team_abbreviation;
+
+  merged._round_id = Math.min(existing?._round_id ?? 99, incoming?._round_id ?? 99);
+  return merged;
+}
+
+function finalizeBracketTeams(teamMap) {
+  const teams = [...teamMap.values()].map((team) => {
+    const clean = { ...team };
+    delete clean._round_id;
+    return clean;
+  });
+
+  teams.sort((a, b) => {
+    const aSeed = Number.isFinite(a.seed) ? a.seed : 99;
+    const bSeed = Number.isFinite(b.seed) ? b.seed : 99;
+    if (aSeed !== bSeed) return aSeed - bSeed;
+    const aRegion = String(a.region ?? "");
+    const bRegion = String(b.region ?? "");
+    if (aRegion !== bRegion) return aRegion.localeCompare(bRegion);
+    return String(a.team_name ?? "").localeCompare(String(b.team_name ?? ""));
+  });
+
+  let rank = 1;
+  for (const team of teams) {
+    team.source_rank = rank;
+    rank += 1;
+  }
+
+  return teams;
+}
+
+function normalizeBracketRegionRow(region) {
+  const id = Number(region?.id);
+  if (!Number.isInteger(id)) return null;
+  return {
+    id,
+    label: firstNonEmpty(region?.labelPrimary, region?.label, region?.slug, `Region ${id}`),
+    slug: firstNonEmpty(region?.slug, null)
+  };
+}
+
+function normalizeBracketRoundRow(round) {
+  const id = Number(round?.id);
+  if (!Number.isInteger(id)) return null;
+  return {
+    id,
+    label: firstNonEmpty(round?.labelPrimary, round?.label, `Round ${id}`),
+    num_matchups: Number(round?.numMatchups) || null,
+    start: firstNonEmpty(round?.start, null),
+    end: firstNonEmpty(round?.end, null)
+  };
+}
+
+function normalizeBracketCompetitorRow(competitor) {
+  if (!competitor || typeof competitor !== "object") return null;
+  const teamId = Number(competitor?.id);
+  if (!Number.isInteger(teamId) || teamId <= 0) return null;
+  return {
+    team_id: teamId,
+    team_name: firstNonEmpty(competitor?.location, competitor?.name, competitor?.abbreviation, `Team ${teamId}`),
+    abbreviation: firstNonEmpty(competitor?.abbreviation, null),
+    seed: normalizeBracketSeed(competitor?.seed),
+    score: normalizeNumber(competitor?.score),
+    winner: competitor?.winner === true ? true : competitor?.winner === false ? false : null,
+    logo: firstNonEmpty(competitor?.logo, competitor?.logoDark, null)
+  };
+}
+
+function normalizeBracketMatchupRow(matchup) {
+  const id = Number(matchup?.id);
+  if (!Number.isInteger(id)) return null;
+  const roundId = Number(matchup?.roundId);
+  const regionId = inferRegionId(matchup);
+  const competitorOne = normalizeBracketCompetitorRow(matchup?.competitorOne);
+  const competitorTwo = normalizeBracketCompetitorRow(matchup?.competitorTwo);
+
+  return {
+    matchup_id: id,
+    round_id: Number.isInteger(roundId) ? roundId : null,
+    region_id: Number.isInteger(regionId) ? regionId : null,
+    bracket_location: Number(matchup?.bracketLocation) || null,
+    date: firstNonEmpty(matchup?.date, null),
+    status_state: firstNonEmpty(matchup?.statusState, null),
+    status_desc: firstNonEmpty(matchup?.statusDesc, null),
+    status_detail: firstNonEmpty(matchup?.statusDetail, null),
+    location: firstNonEmpty(matchup?.location, null),
+    link: firstNonEmpty(matchup?.link, null),
+    competitor_one: competitorOne,
+    competitor_two: competitorTwo
+  };
+}
+
+async function loadTeamsFromOfficialBracket(year) {
+  const url = `${BRACKET_PAGE_BASE}?season=${year}`;
+  const html = await fetchText(url, { retries: 3, timeoutMs: 25000 });
+  const root = parseAssignedJsonObject(html, "window['__espnfitt__']=");
+
+  const bracket = root?.page?.content?.bracket;
+  const rawMatchups = Array.isArray(bracket?.matchups) ? bracket.matchups : [];
+  const regions = (Array.isArray(bracket?.regions) ? bracket.regions : []).map(normalizeBracketRegionRow).filter(Boolean);
+  const rounds = (Array.isArray(bracket?.rounds) ? bracket.rounds : []).map(normalizeBracketRoundRow).filter(Boolean);
+  const matchups = rawMatchups.map(normalizeBracketMatchupRow).filter(Boolean);
+  const regionMap = new Map(
+    regions
+      .map((region) => [Number(region?.id), firstNonEmpty(region?.label, region?.slug, null)])
+      .filter(([id]) => Number.isInteger(id))
+  );
+
+  const teamMap = new Map();
+  for (const matchup of rawMatchups) {
+    const candidates = [
+      normalizeBracketTeamCandidate(matchup?.competitorOne, matchup, regionMap),
+      normalizeBracketTeamCandidate(matchup?.competitorTwo, matchup, regionMap)
+    ].filter(Boolean);
+
+    for (const candidate of candidates) {
+      teamMap.set(candidate.team_id, mergeBracketTeam(teamMap.get(candidate.team_id), candidate));
+    }
+  }
+
+  const teams = finalizeBracketTeams(teamMap);
+  return {
+    teams,
+    season: firstNonEmpty(bracket?.season, null),
+    tournament_name: firstNonEmpty(bracket?.name, null),
+    short_name: firstNonEmpty(bracket?.shortName, null),
+    regions,
+    rounds,
+    matchups,
+    matchup_count: matchups.length
+  };
+}
+
 async function fetchJson(url, { retries = 3, timeoutMs = 25000 } = {}) {
   for (let attempt = 1; attempt <= retries; attempt += 1) {
     const controller = new AbortController();
@@ -193,6 +382,29 @@ async function fetchJson(url, { retries = 3, timeoutMs = 25000 } = {}) {
         throw new Error(`HTTP ${response.status}`);
       }
       return await response.json();
+    } catch (err) {
+      if (attempt === retries) {
+        throw new Error(`Request failed for ${url}: ${err.message}`);
+      }
+      await sleep(250 * attempt);
+    } finally {
+      clearTimeout(timer);
+    }
+  }
+
+  throw new Error(`Request failed for ${url}`);
+}
+
+async function fetchText(url, { retries = 3, timeoutMs = 25000 } = {}) {
+  for (let attempt = 1; attempt <= retries; attempt += 1) {
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), timeoutMs);
+    try {
+      const response = await fetch(url, { signal: controller.signal });
+      if (!response.ok) {
+        throw new Error(`HTTP ${response.status}`);
+      }
+      return await response.text();
     } catch (err) {
       if (attempt === retries) {
         throw new Error(`Request failed for ${url}: ${err.message}`);
@@ -228,6 +440,64 @@ async function fetchJsonOr404(url, { retries = 2, timeoutMs = 15000 } = {}) {
   }
 
   throw new Error(`Request failed for ${url}`);
+}
+
+function parseAssignedJsonObject(source, marker) {
+  const idx = source.indexOf(marker);
+  if (idx < 0) {
+    throw new Error(`Marker not found: ${marker}`);
+  }
+
+  let start = idx + marker.length;
+  while (start < source.length && source[start] !== "{") start += 1;
+  if (start >= source.length) {
+    throw new Error(`JSON object start not found for marker: ${marker}`);
+  }
+
+  let depth = 0;
+  let inString = false;
+  let escaped = false;
+  let end = -1;
+
+  for (let i = start; i < source.length; i += 1) {
+    const ch = source[i];
+
+    if (inString) {
+      if (escaped) {
+        escaped = false;
+        continue;
+      }
+      if (ch === "\\") {
+        escaped = true;
+        continue;
+      }
+      if (ch === '"') {
+        inString = false;
+      }
+      continue;
+    }
+
+    if (ch === '"') {
+      inString = true;
+      continue;
+    }
+
+    if (ch === "{") {
+      depth += 1;
+    } else if (ch === "}") {
+      depth -= 1;
+      if (depth === 0) {
+        end = i + 1;
+        break;
+      }
+    }
+  }
+
+  if (end < 0) {
+    throw new Error(`Could not find JSON object end for marker: ${marker}`);
+  }
+
+  return JSON.parse(source.slice(start, end));
 }
 
 async function mapWithConcurrency(items, limit, worker) {
@@ -287,7 +557,39 @@ function clamp(value, min, max) {
   return Math.min(max, Math.max(min, value));
 }
 
-function buildDraftScore(player) {
+function hasValidSeed(teamSeed) {
+  if (teamSeed === null || teamSeed === undefined || teamSeed === "") return false;
+  return Number.isFinite(Number(teamSeed));
+}
+
+function seedAdjustment(teamSeed) {
+  if (!hasValidSeed(teamSeed)) {
+    return {
+      normalized: 0,
+      multiplier: 1
+    };
+  }
+
+  const numericSeed = Number(teamSeed);
+  if (!Number.isFinite(numericSeed)) {
+    return {
+      normalized: 0,
+      multiplier: 1
+    };
+  }
+
+  // 1-seeds get the strongest boost, 16-seeds the biggest penalty.
+  const seed = clamp(Math.round(numericSeed), 1, 16);
+  const normalized = (8.5 - seed) / 7.5; // roughly [-1, 1]
+  const multiplier = 1 + normalized * 0.12; // cap impact to +/-12%
+
+  return {
+    normalized: round(normalized, 3),
+    multiplier: round(multiplier, 3)
+  };
+}
+
+function buildDraftScore(player, seedWeight = seedAdjustment(player.team_seed)) {
   const points = player.avg_points ?? 0;
   const minutes = player.avg_minutes ?? 0;
   const rebounds = player.avg_rebounds ?? 0;
@@ -321,7 +623,7 @@ function buildDraftScore(player) {
   const advancedScore =
     reliability * (perClamped * 0.35 + shootingClamped * 8 + ppepClamped * 5);
 
-  const score = (baseScore + advancedScore) * (0.55 + 0.45 * reliability);
+  const score = (baseScore + advancedScore) * (0.55 + 0.45 * reliability) * seedWeight.multiplier;
 
   return round(score, 2);
 }
@@ -462,10 +764,15 @@ async function getSeasonStatsForPlayers(players, year, seasonType) {
     }
   });
 
-  const withScores = rows.map((row) => ({
-    ...row,
-    draft_score: buildDraftScore(row)
-  }));
+  const withScores = rows.map((row) => {
+    const weight = seedAdjustment(row.team_seed);
+    return {
+      ...row,
+      draft_seed_normalized: weight.normalized,
+      draft_seed_multiplier: weight.multiplier,
+      draft_score: buildDraftScore(row, weight)
+    };
+  });
 
   withScores.sort((a, b) => {
     const aScore = a.draft_score ?? -Infinity;
@@ -622,6 +929,7 @@ async function main() {
 
   const year = Number(args.year ?? currentYear());
   const seasonType = Number(args.seasonType ?? args.season_type ?? 2);
+  const teamSourceMode = String(firstNonEmpty(args.team_source_mode, args.teamSourceMode, "auto")).toLowerCase();
   const selectedTeamIds = parseCsvInts(args.selectedTeams ?? args.selected_teams ?? args.team_ids ?? args.teamIds);
   const teamFileArg = firstNonEmpty(args.teamFile, args.team_file, DEFAULT_TEAM_FILE);
 
@@ -647,20 +955,58 @@ async function main() {
 
   console.log(`Year: ${year}`);
   console.log(`Season type: ${seasonType}`);
+  console.log(`Team source mode: ${teamSourceMode}`);
   console.log(`Team file: ${teamFileArg}`);
   console.log(`Discover dates: ${discoverDates.join(", ")}`);
   console.log(`Game dates: ${gameStart} -> ${gameEnd} (${gameDates.length} days)`);
 
-  let teams;
-  let teamSource = "discover_dates";
-  let resolvedTeamFile = null;
+  const normalizedMode = ["auto", "bracket", "file", "team_ids", "discover_dates"].includes(teamSourceMode)
+    ? teamSourceMode
+    : "auto";
 
-  const fileSource = await loadTeamsFromFile(root, teamFileArg);
-  if (fileSource.teams.length > 0) {
-    teams = fileSource.teams;
-    teamSource = "team_file";
-    resolvedTeamFile = fileSource.filePath;
-  } else if (selectedTeamIds.length > 0) {
+  let teams = [];
+  let teamSource = "discover_dates";
+  let teamSourceDetail = "Fallback scoreboard discovery";
+  let resolvedTeamFile = null;
+  let bracketMeta = null;
+  let bracketMetaError = null;
+
+  async function ensureBracketMeta() {
+    if (bracketMeta || bracketMetaError) return;
+    try {
+      bracketMeta = await loadTeamsFromOfficialBracket(year);
+    } catch (err) {
+      bracketMetaError = err.message;
+      console.warn(`Official bracket load failed: ${err.message}`);
+    }
+  }
+
+  async function fromBracket() {
+    await ensureBracketMeta();
+    if (!bracketMeta) return false;
+    if ((bracketMeta.teams ?? []).length >= 64) {
+      teams = bracketMeta.teams;
+      teamSource = "official_bracket";
+      teamSourceDetail = `ESPN bracket page (${bracketMeta.season ?? "unknown season"})`;
+      return true;
+    }
+    return false;
+  }
+
+  async function fromFile() {
+    const fileSource = await loadTeamsFromFile(root, teamFileArg);
+    if (fileSource.teams.length > 0) {
+      teams = fileSource.teams;
+      teamSource = "team_file";
+      teamSourceDetail = "config file";
+      resolvedTeamFile = fileSource.filePath;
+      return true;
+    }
+    return false;
+  }
+
+  function fromTeamIds() {
+    if (selectedTeamIds.length === 0) return false;
     teams = selectedTeamIds.map((team_id) => ({
       team_id,
       team_uid: null,
@@ -677,10 +1023,40 @@ async function main() {
       source_rank: null
     }));
     teamSource = "team_ids";
-  } else {
+    teamSourceDetail = "CLI team_ids";
+    return true;
+  }
+
+  async function fromDiscoverDates() {
     teams = await getTeamsFromScoreboardDates(discoverDates);
     teamSource = "discover_dates";
+    teamSourceDetail = "scoreboard discovery dates";
+    return teams.length > 0;
   }
+
+  if (normalizedMode === "bracket") {
+    if (!(await fromBracket())) {
+      await fromFile();
+    }
+  } else if (normalizedMode === "file") {
+    if (!(await fromFile())) {
+      fromTeamIds() || (await fromDiscoverDates());
+    }
+  } else if (normalizedMode === "team_ids") {
+    fromTeamIds() || (await fromDiscoverDates());
+  } else if (normalizedMode === "discover_dates") {
+    await fromDiscoverDates();
+  } else {
+    // auto
+    if (!(await fromBracket())) {
+      if (!(await fromFile())) {
+        fromTeamIds() || (await fromDiscoverDates());
+      }
+    }
+  }
+
+  // Fetch official bracket payload for public bracket/elimination views even when source mode is file/team_ids.
+  await ensureBracketMeta();
 
   let players = [];
   let playersWithStats = [];
@@ -688,6 +1064,7 @@ async function main() {
   let gameLog = [];
   let playerTotals = [];
   let note = null;
+  let seededPlayers = 0;
 
   if (teams.length === 0) {
     note =
@@ -696,12 +1073,26 @@ async function main() {
     console.log(note);
   } else {
     console.log(`Team source: ${teamSource}`);
+    console.log(`Team source detail: ${teamSourceDetail}`);
+    if (bracketMeta) {
+      console.log(
+        `Bracket season: ${bracketMeta.season ?? "unknown"} | matchups: ${bracketMeta.matchup_count ?? 0} | teams: ${
+          bracketMeta.teams?.length ?? 0
+        }`
+      );
+    }
     if (resolvedTeamFile) console.log(`Using team file: ${resolvedTeamFile}`);
     console.log(`Teams: ${teams.length}`);
     players = await getTeamRosters(teams);
     console.log(`Players from rosters: ${players.length}`);
 
     playersWithStats = await getSeasonStatsForPlayers(players, year, seasonType);
+    seededPlayers = playersWithStats.filter((row) => hasValidSeed(row.team_seed)).length;
+    if (seededPlayers === 0) {
+      console.log("Seed weighting is neutral (no team seeds found in current team source).");
+    } else {
+      console.log(`Seed weighting active for ${seededPlayers} players.`);
+    }
     events = await getScoreboardEvents(gameDates);
     gameLog = await getGameLog(events);
     playerTotals = aggregatePlayerTotals(gameLog);
@@ -712,14 +1103,33 @@ async function main() {
     generated_at: now,
     year,
     season_type: seasonType,
+    team_source_mode: normalizedMode,
     team_source: teamSource,
+    team_source_detail: teamSourceDetail,
     team_file: resolvedTeamFile,
+    bracket: bracketMeta
+      ? {
+          season: bracketMeta.season ?? null,
+          tournament_name: bracketMeta.tournament_name ?? null,
+          short_name: bracketMeta.short_name ?? null,
+          matchups: bracketMeta.matchup_count ?? 0,
+          teams: bracketMeta.teams?.length ?? 0
+        }
+      : {
+          season: null,
+          tournament_name: null,
+          short_name: null,
+          matchups: 0,
+          teams: 0,
+          error: bracketMetaError
+        },
     discover_dates: discoverDates,
     game_start: gameStart,
     game_end: gameEnd,
     totals: {
       teams: teams.length,
       players: playersWithStats.length,
+      seeded_players: seededPlayers,
       events: events.length,
       final_events: events.filter((e) => e.completed).length,
       game_log_rows: gameLog.length,
@@ -731,12 +1141,29 @@ async function main() {
   const dataDir = path.join(root, "data");
   await mkdir(dataDir, { recursive: true });
 
+  const bracketData = {
+    generated_at: now,
+    year,
+    available: Boolean(bracketMeta && (bracketMeta.matchup_count ?? 0) > 0),
+    source: bracketMeta ? "espn_bracket_page" : "none",
+    error: bracketMetaError,
+    season: bracketMeta?.season ?? null,
+    tournament_name: bracketMeta?.tournament_name ?? null,
+    short_name: bracketMeta?.short_name ?? null,
+    teams_count: bracketMeta?.teams?.length ?? 0,
+    matchups_count: bracketMeta?.matchup_count ?? 0,
+    regions: bracketMeta?.regions ?? [],
+    rounds: bracketMeta?.rounds ?? [],
+    matchups: bracketMeta?.matchups ?? []
+  };
+
   await writeJson(path.join(dataDir, "meta.json"), meta);
   await writeJson(path.join(dataDir, "teams.json"), teams);
   await writeJson(path.join(dataDir, "players.json"), playersWithStats);
   await writeJson(path.join(dataDir, "events.json"), events);
   await writeJson(path.join(dataDir, "game_log.json"), gameLog);
   await writeJson(path.join(dataDir, "player_totals.json"), playerTotals);
+  await writeJson(path.join(dataDir, "bracket.json"), bracketData);
 
   console.log("Wrote data files:");
   console.log("- data/meta.json");
@@ -745,6 +1172,7 @@ async function main() {
   console.log("- data/events.json");
   console.log("- data/game_log.json");
   console.log("- data/player_totals.json");
+  console.log("- data/bracket.json");
 }
 
 main().catch((err) => {

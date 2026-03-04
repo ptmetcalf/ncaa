@@ -11,6 +11,10 @@ on:
         description: "1=pre, 2=reg, 3=post"
         required: true
         default: "2"
+      team_source_mode:
+        description: "auto=official bracket first, then file fallback"
+        required: true
+        default: "auto"
       team_ids:
         description: "Optional comma-separated ESPN team IDs"
         required: false
@@ -56,6 +60,7 @@ jobs:
             node scripts/refresh-data.mjs \
               --year=${{ inputs.year }} \
               --seasonType=${{ inputs.season_type }} \
+              --team_source_mode=${{ inputs.team_source_mode }} \
               --team_ids='${{ inputs.team_ids }}' \
               --team_file='${{ inputs.team_file }}' \
               --team_discovery_dates='${{ inputs.team_discovery_dates }}' \
@@ -66,6 +71,7 @@ jobs:
             node scripts/refresh-data.mjs \
               --year=${year} \
               --seasonType=2 \
+              --team_source_mode=auto \
               --team_file='config/teams.current.json' \
               --team_discovery_dates="${year}0317,${year}0318,${year}0319,${year}0320" \
               --game_start_date="${year}0317"

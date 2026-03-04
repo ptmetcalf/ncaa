@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NCAA Pool Leaderboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css?v=20260303j" />
+  </head>
+  <body>
+    <div class="ambient"></div>
+    <main class="layout">
+      <header class="hero card">
+        <div class="hero-top">
+          <p class="kicker">Public Pool View</p>
+          <nav class="hero-nav" aria-label="Page navigation">
+            <a href="./index.html">Home</a>
+            <a href="./public-leaderboard.html" class="is-active">Leaderboard</a>
+            <a href="./admin.html">Admin</a>
+          </nav>
+        </div>
+        <h1>Live Leaderboard</h1>
+        <p class="hero-subtitle">Owner standings and per-player tournament production.</p>
+        <p id="meta-line">Loading data...</p>
+        <p id="refresh-indicator" class="live-refresh" data-status="pending">Checking live updates...</p>
+      </header>
+
+      <section class="card two-col leaderboard-layout">
+        <div>
+          <div class="section-head">
+            <h2>Leaderboard</h2>
+            <p id="leaderboard-hint">Click an owner row to filter player details.</p>
+          </div>
+          <div class="table-wrap tall mobile-card-wrap">
+            <table class="mobile-cards pick-details-table">
+              <thead>
+                <tr>
+                  <th>Rank</th>
+                  <th>Owner</th>
+                  <th>Players</th>
+                  <th>Total PTS</th>
+                </tr>
+              </thead>
+              <tbody id="leaderboard-body"></tbody>
+            </table>
+          </div>
+        </div>
+
+        <div>
+          <div class="section-head">
+            <h2>Pick Details</h2>
+            <div class="detail-head-controls">
+              <p id="detail-summary">Loading...</p>
+              <button id="detail-clear-owner" type="button" hidden>Show All Owners</button>
+            </div>
+          </div>
+          <div class="table-wrap tall mobile-card-wrap">
+            <table class="mobile-cards">
+              <thead>
+                <tr>
+                  <th>Owner</th>
+                  <th>Player</th>
+                  <th>Team</th>
+                  <th>Seed</th>
+                  <th>Team Status</th>
+                  <th>Season PPG</th>
+                  <th>Season MPG</th>
+                  <th>Tourn PTS</th>
+                  <th>Tourn GP</th>
+                  <th>Status Detail</th>
+                </tr>
+              </thead>
+              <tbody id="detail-body"></tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <section class="card">
+        <div class="section-head">
+          <h2>Live Bracket</h2>
+          <p id="bracket-summary">Loading bracket...</p>
+        </div>
+        <div class="table-wrap tall">
+          <table>
+            <thead>
+              <tr>
+                <th>Round</th>
+                <th>Matchup</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody id="bracket-body"></tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <script type="module" src="public-leaderboard.js?v=20260303j"></script>
+  </body>
+</html>
