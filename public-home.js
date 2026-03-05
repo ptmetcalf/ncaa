@@ -23,6 +23,7 @@ const state = {
   liveUpdatedAt: null,
   refreshStatus: "pending",
   lastLiveCheckAt: null,
+  refreshInFlight: false,
   filters: {
     sortMode: "seed_then_team",
     seedDirection: "asc",
@@ -134,6 +135,15 @@ function bindTeamLogoFallbacks(root = document) {
     img.addEventListener("error", showFallback);
     if (img.complete && img.naturalWidth === 0) showFallback();
   }
+}
+
+function renderManaged(target, value) {
+  if (!target) return;
+  if (!target.hasAttribute("data-lit-managed")) {
+    target.textContent = "";
+    target.setAttribute("data-lit-managed", "1");
+  }
+  render(value, target);
 }
 
 function normalizePicks(rows) {
@@ -292,6 +302,12 @@ function ownerForPickNo(pickNo) {
   return order[idx] ?? null;
 }
 
+function roundForPickNo(pickNo) {
+  const order = state.draft.order.length > 0 ? state.draft.order : state.owners;
+  if (!Number.isInteger(pickNo) || pickNo <= 0 || order.length === 0) return null;
+  return Math.floor((pickNo - 1) / order.length) + 1;
+}
+
 function nextUpInfo(nextPickNo) {
   const onClockOwner = ownerForPickNo(nextPickNo);
   const immediatePickNo = nextPickNo + 1;
@@ -364,6 +380,7 @@ function renderStatus() {
   const nextPickNo = pickCount + 1;
   const totalPickCap = maxDraftPickCount();
   const draftComplete = isDraftComplete();
+  const liveUnavailable = state.liveSource !== "supabase_rest";
   const nextUp = draftComplete ? { onClockOwner: null, nextUpOwner: null } : nextUpInfo(nextPickNo);
   const onClockOwner = nextUp.onClockOwner;
   const nextOwner = nextUp.nextUpOwner;
@@ -376,18 +393,33 @@ function renderStatus() {
   elements.liveStatusSub.textContent = `Draft mode: ${state.draft.mode} | Picks per owner: ${picksPerOwnerValue()} | Total picks: ${pickCount}${
     totalPickCap > 0 ? `/${totalPickCap}` : ""
   }`;
-  elements.statusPick.textContent = draftComplete ? "Complete" : `#${nextPickNo}`;
+  const currentRound = roundForPickNo(nextPickNo);
   if (draftComplete) {
-    elements.statusOnClock.textContent = "Draft complete";
-  } else if (!onClockOwner) {
-    elements.statusOnClock.textContent = "No order set";
-  } else if (nextOwner) {
-    elements.statusOnClock.textContent = `${onClockOwner} | Next: ${nextOwner}`;
+    elements.statusPick.textContent = `Round ${picksPerOwnerValue()} • Complete`;
+  } else if (currentRound) {
+    elements.statusPick.textContent = `Round ${currentRound} • Pick #${nextPickNo}`;
   } else {
-    elements.statusOnClock.textContent = onClockOwner;
+    elements.statusPick.textContent = `#${nextPickNo}`;
   }
-  if (!lastPick) {
-    elements.statusLatest.textContent = "No picks yet";
+  if (draftComplete) {
+    renderManaged(elements.statusOnClock, html`Draft complete`);
+  } else if (liveUnavailable && pickCount === 0) {
+    renderManaged(elements.statusOnClock, html`Live feed unavailable`);
+  } else if (!onClockOwner) {
+    renderManaged(elements.statusOnClock, html`No order set`);
+  } else if (nextOwner) {
+    renderManaged(
+      elements.statusOnClock,
+      html`<span class="status-on-clock-owner">${onClockOwner}</span>
+        <span class="status-on-clock-next">Next: ${nextOwner}</span>`
+    );
+  } else {
+    renderManaged(elements.statusOnClock, html`${onClockOwner}`);
+  }
+  if (!lastPick && liveUnavailable) {
+    renderManaged(elements.statusLatest, html`Waiting for live picks`);
+  } else if (!lastPick) {
+    renderManaged(elements.statusLatest, html`No picks yet`);
   } else {
     const player = playersById.get(Number(lastPick.player_id));
     const playerName = lastPick.player_name ?? player?.player_name ?? "Unknown";
@@ -396,7 +428,8 @@ function renderStatus() {
     const teamAbbreviation = player?.team_abbreviation ?? null;
     const teamLogo = player?.team_logo ?? null;
 
-    render(
+    renderManaged(
+      elements.statusLatest,
       html`<span class="latest-pick-primary">#${formatInt(lastPick.pick_no)} ${lastPick.owner}: ${playerName}</span>
         <span class="latest-pick-secondary"
           >${renderTeamCell(teamsById, {
@@ -405,8 +438,7 @@ function renderStatus() {
             teamAbbreviation,
             teamLogo
           })}</span
-        >`,
-      elements.statusLatest
+        >`
     );
     bindTeamLogoFallbacks(elements.statusLatest);
   }
@@ -836,11 +868,15 @@ async function boot() {
   await refreshLiveState();
 
   setInterval(async () => {
+    if (state.refreshInFlight) return;
+    state.refreshInFlight = true;
     try {
       await refreshStaticData();
       await refreshLiveState();
     } catch {
       // Keep the last rendered state if refresh fails.
+    } finally {
+      state.refreshInFlight = false;
     }
   }, state.pollIntervalMs);
 }

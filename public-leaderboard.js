@@ -17,7 +17,8 @@ const state = {
   liveSource: "none",
   liveUpdatedAt: null,
   refreshStatus: "pending",
-  lastLiveCheckAt: null
+  lastLiveCheckAt: null,
+  refreshInFlight: false
 };
 
 const elements = {
@@ -506,12 +507,16 @@ async function boot() {
 
   // Keep public standings in sync with picks and new game totals.
   setInterval(async () => {
+    if (state.refreshInFlight) return;
+    state.refreshInFlight = true;
     try {
       state.playerTotals = await loadJson("./data/player_totals.json");
       state.bracket = (await loadJsonIfPresent("./data/bracket.json")) ?? state.bracket;
       await refreshLiveState();
     } catch {
       // Keep rendering existing state if a refresh fails.
+    } finally {
+      state.refreshInFlight = false;
     }
   }, state.pollIntervalMs);
 }

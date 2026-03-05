@@ -239,6 +239,10 @@ function isDraftComplete() {
   return max > 0 && state.picks.length >= max;
 }
 
+function pickOwnerList() {
+  return normalizeOwnerList(state.picks.map((pick) => pick.owner));
+}
+
 function applyDraftPayload(payload) {
   if (!payload || typeof payload !== "object") return;
 
@@ -632,7 +636,8 @@ function renderPickLog() {
 
 function renderLeaderboard() {
   const totals = totalsByPlayerId();
-  const rows = state.owners.map((owner) => {
+  const owners = normalizeOwnerList([...state.owners, ...state.picks.map((pick) => String(pick.owner ?? "").trim())]);
+  const rows = owners.map((owner) => {
     const ownerPicks = state.picks.filter((pick) => pick.owner === owner);
     const totalPts = ownerPicks.reduce((sum, pick) => {
       const row = totals.get(Number(pick.player_id));
@@ -789,6 +794,37 @@ async function onSaveOwners() {
   );
 
   if (parsed.length === 0) return;
+
+  const pickedOwners = pickOwnerList();
+  const missingPickedOwners = pickedOwners.filter((owner) => !parsed.includes(owner));
+  if (missingPickedOwners.length > 0) {
+    alert(
+      `Cannot remove owners with existing picks: ${missingPickedOwners.join(
+        ", "
+      )}. Reset picks first if you want to remove them.`
+    );
+    rerender();
+    return;
+  }
+
+  const projectedMaxPicks = parsed.length * picksPerOwnerValue();
+  if (projectedMaxPicks < state.picks.length) {
+    alert(
+      `Owner count too low for existing picks. Current picks: ${state.picks.length}, max would become ${projectedMaxPicks}.`
+    );
+    rerender();
+    return;
+  }
+
+  if (state.picks.length > 0) {
+    const ok = window.confirm(
+      `Update owner list now? Existing picks (${state.picks.length}) will be kept and future pick order may change.`
+    );
+    if (!ok) {
+      rerender();
+      return;
+    }
+  }
 
   state.owners = parsed;
   syncDraftOrderWithOwners();
@@ -1199,6 +1235,14 @@ function bindEvents() {
       return;
     }
     const nextValue = normalizePicksPerOwner(elements.picksPerOwnerInput.value);
+    const projectedMaxPicks = state.owners.length * nextValue;
+    if (projectedMaxPicks < state.picks.length) {
+      alert(
+        `Picks per owner too low for existing picks. Current picks: ${state.picks.length}, max would become ${projectedMaxPicks}.`
+      );
+      rerender();
+      return;
+    }
     state.draft.picks_per_owner = nextValue;
     elements.picksPerOwnerInput.value = String(nextValue);
     void persistDraftState().then(() => rerender());

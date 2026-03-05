@@ -832,6 +832,19 @@ tbody tr:hover {
   line-height: 1.2;
 }
 
+.status-on-clock-owner {
+  display: block;
+}
+
+.status-on-clock-next {
+  display: block;
+  margin-top: 0.2rem;
+  color: #3f6078;
+  font-size: 0.82rem;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
 #status-latest {
   display: grid;
   gap: 0.26rem;
