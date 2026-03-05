@@ -1,4 +1,5 @@
 import { loadLiveState } from "./live-state.js";
+import { html, nothing, render } from "https://esm.sh/lit-html@3.3.1";
 
 const state = {
   meta: null,
@@ -85,13 +86,14 @@ function getTeamLogoUrl(teamMap, teamId, explicitLogo = null) {
 function renderTeamCell(teamMap, { teamId, teamName, teamAbbreviation, teamLogo }) {
   const logoUrl = getTeamLogoUrl(teamMap, teamId, teamLogo);
   const fallback = firstLetterToken(teamAbbreviation || teamName);
-  const imgHtml = logoUrl
-    ? `<img class="team-logo-img" src="${escapeHtml(logoUrl)}" alt="${escapeHtml(teamName ?? "Team")} logo" loading="lazy" />`
-    : `<span class="team-logo-fallback is-visible">${escapeHtml(fallback)}</span>`;
-  const fallbackHtml = logoUrl ? `<span class="team-logo-fallback">${escapeHtml(fallback)}</span>` : "";
-  return `<span class="team-cell"><span class="team-logo-wrap">${imgHtml}${fallbackHtml}</span><span class="team-cell-name">${escapeHtml(
-    teamName ?? "-"
-  )}</span></span>`;
+  return html`<span class="team-cell"
+    ><span class="team-logo-wrap"
+      >${logoUrl
+        ? html`<img class="team-logo-img" src=${logoUrl} alt="${teamName ?? "Team"} logo" loading="lazy" />`
+        : html`<span class="team-logo-fallback is-visible">${fallback}</span>`}
+      ${logoUrl ? html`<span class="team-logo-fallback">${fallback}</span>` : nothing}</span
+    ><span class="team-cell-name">${teamName ?? "-"}</span></span
+  >`;
 }
 
 function bindTeamLogoFallbacks() {
@@ -235,7 +237,7 @@ function renderLeaderboard() {
   rows.sort((a, b) => b.totalPts - a.totalPts || b.players - a.players || a.owner.localeCompare(b.owner));
 
   if (rows.length === 0) {
-    elements.leaderboardBody.innerHTML = `<tr><td colspan="4">No picks have been published yet.</td></tr>`;
+    render(html`<tr><td colspan="4">No picks have been published yet.</td></tr>`, elements.leaderboardBody);
     if (elements.leaderboardHint) {
       elements.leaderboardHint.textContent = "No owners with picks yet.";
     }
@@ -248,22 +250,23 @@ function renderLeaderboard() {
       : "Click an owner row to filter player details.";
   }
 
-  elements.leaderboardBody.innerHTML = rows
-    .map(
-      (row, index) => `<tr
-      class="leaderboard-owner-row${state.selectedOwner === row.owner ? " is-active" : ""}"
-      data-owner="${encodeURIComponent(row.owner)}"
-      tabindex="0"
-      role="button"
-      aria-label="Show players for ${escapeHtml(row.owner)}"
-    >
-      <td data-label="Rank">${index + 1}</td>
-      <td data-label="Owner">${escapeHtml(row.owner)}</td>
-      <td data-label="Players">${row.players}</td>
-      <td data-label="Total PTS">${formatNum(row.totalPts, 1)}</td>
-    </tr>`
-    )
-    .join("");
+  render(
+    html`${rows.map(
+      (row, index) => html`<tr
+        class=${`leaderboard-owner-row${state.selectedOwner === row.owner ? " is-active" : ""}`}
+        data-owner=${encodeURIComponent(row.owner)}
+        tabindex="0"
+        role="button"
+        aria-label=${`Show players for ${row.owner}`}
+      >
+        <td data-label="Rank">${index + 1}</td>
+        <td data-label="Owner">${row.owner}</td>
+        <td data-label="Players">${row.players}</td>
+        <td data-label="Total PTS">${formatNum(row.totalPts, 1)}</td>
+      </tr>`
+    )}`,
+    elements.leaderboardBody
+  );
 }
 
 function renderPickDetails() {
@@ -285,9 +288,7 @@ function renderPickDetails() {
         team_logo: player?.team_logo ?? null,
         team_seed: player?.team_seed ?? null,
         team_status: teamStatus.get(Number(player?.team_id ?? pick.team_id))?.status ?? "Alive",
-        team_status_detail: teamStatus.get(Number(player?.team_id ?? pick.team_id))?.result ?? "-",
-        season_ppg: player?.avg_points ?? null,
-        season_mpg: player?.avg_minutes ?? null,
+        draft_status: "Picked",
         tourn_pts: total?.tournament_points ?? 0,
         tourn_gp: total?.games_played ?? 0
       };
@@ -314,33 +315,33 @@ function renderPickDetails() {
 
   if (rows.length === 0) {
     const empty = state.selectedOwner
-      ? `No drafted players found for ${escapeHtml(state.selectedOwner)}.`
+      ? `No drafted players found for ${state.selectedOwner}.`
       : "No picks have been published yet.";
-    elements.detailBody.innerHTML = `<tr><td colspan="10">${empty}</td></tr>`;
+    render(html`<tr><td colspan="7">${empty}</td></tr>`, elements.detailBody);
     return;
   }
 
-  elements.detailBody.innerHTML = rows
-    .map((row) => {
-      return `<tr>
-        <td data-label="Owner">${escapeHtml(row.owner)}</td>
-        <td data-label="Player">${escapeHtml(row.player_name)}</td>
-        <td data-label="Team">${renderTeamCell(teamMap, {
-          teamId: row.team_id,
-          teamName: row.team_name,
-          teamAbbreviation: row.team_abbreviation,
-          teamLogo: row.team_logo
-        })}</td>
+  render(
+    html`${rows.map(
+      (row) => html`<tr>
+        <td data-label="Owner">${row.owner}</td>
+        <td data-label="Player">${row.player_name}</td>
+        <td data-label="Team"
+          >${renderTeamCell(teamMap, {
+            teamId: row.team_id,
+            teamName: row.team_name,
+            teamAbbreviation: row.team_abbreviation,
+            teamLogo: row.team_logo
+          })}</td
+        >
         <td data-label="Seed">${formatInt(row.team_seed)}</td>
-        <td data-label="Team Status">${escapeHtml(row.team_status)}</td>
-        <td data-label="Season PPG">${formatNum(row.season_ppg)}</td>
-        <td data-label="Season MPG">${formatNum(row.season_mpg)}</td>
+        <td data-label="Draft Status">${row.draft_status}</td>
         <td data-label="Tourn PTS">${formatNum(row.tourn_pts, 1)}</td>
         <td data-label="Tourn GP">${formatInt(row.tourn_gp)}</td>
-        <td data-label="Status Detail">${escapeHtml(row.team_status_detail)}</td>
-      </tr>`;
-    })
-    .join("");
+      </tr>`
+    )}`,
+    elements.detailBody
+  );
 
   bindTeamLogoFallbacks();
 }
@@ -365,15 +366,15 @@ function renderBracketTable() {
 
   if (rows.length === 0) {
     elements.bracketSummary.textContent = "Bracket not published yet.";
-    elements.bracketBody.innerHTML = `<tr><td colspan="3">No bracket matchups available.</td></tr>`;
+    render(html`<tr><td colspan="3">No bracket matchups available.</td></tr>`, elements.bracketBody);
     return;
   }
 
   const completed = rows.filter((row) => row.status_state === "post").length;
   elements.bracketSummary.textContent = `Matchups: ${rows.length} | Final: ${completed}`;
 
-  elements.bracketBody.innerHTML = rows
-    .map((row) => {
+  render(
+    html`${rows.map((row) => {
       const roundLabel = rounds.get(Number(row.round_id)) ?? `Round ${row.round_id ?? "-"}`;
       const one = row.competitor_one;
       const two = row.competitor_two;
@@ -387,13 +388,14 @@ function renderBracketTable() {
         statusText = row.date ? new Date(row.date).toLocaleString() : "Scheduled";
       }
 
-      return `<tr>
-        <td>${escapeHtml(roundLabel)}</td>
-        <td>${escapeHtml(`${oneLabel} vs ${twoLabel}`)}</td>
-        <td>${escapeHtml(statusText)}</td>
+      return html`<tr>
+        <td>${roundLabel}</td>
+        <td>${`${oneLabel} vs ${twoLabel}`}</td>
+        <td>${statusText}</td>
       </tr>`;
-    })
-    .join("");
+    })}`,
+    elements.bracketBody
+  );
 }
 
 function rerender() {

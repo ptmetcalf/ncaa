@@ -15,20 +15,20 @@ It provides:
   - live pick status (current pick, on clock, latest pick, available players)
   - draft order table with `On Clock` / `Next Up` highlights
   - optional/collapsible tournament context (teams, elimination tracker, bracket)
-  - players table with season + tournament stats
+  - players table with draft status + tournament stats
 
 - `public-board.html` (public):
   - same public board behavior as `index.html`
 
 - `public-leaderboard.html` (public):
   - owner leaderboard
-  - per-player drafted details (team status, season stats, tournament production)
+  - per-player drafted details (draft status + tournament production)
   - live bracket section
 
 - `admin.html` (admin-only controls after login):
   - auth gate via Supabase
   - draft board/stat dashboard for drafting
-  - owner management, snake/manual order, add picks
+  - owner management, snake/manual order, configurable picks per owner (default 6), add picks
   - export picks (PDF/CSV/JSON), import picks, reset picks
   - sync status cards (source/connection/last sync/write status)
 
@@ -37,9 +37,9 @@ It provides:
 ### 1) Static frontend
 - Hosted on GitHub Pages
 - Main scripts:
-  - `app.js` (admin)
-  - `public-home.js` (public board)
-  - `public-leaderboard.js` (public leaderboard)
+  - `app.js` (admin, Lit-rendered UI)
+  - `public-home.js` (public board, Lit-rendered UI)
+  - `public-leaderboard.js` (public leaderboard, Lit-rendered UI)
   - `live-state.js` (shared live-state read helper)
 
 ### 2) Data refresh pipeline

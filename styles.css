@@ -343,7 +343,7 @@ h2 {
 }
 
 .draft-row.order-row {
-  grid-template-columns: minmax(160px, 1fr) auto auto;
+  grid-template-columns: minmax(140px, 1fr) minmax(140px, 1fr) auto auto;
 }
 
 .draft-row.pick-row {
@@ -389,12 +389,32 @@ h2 {
 }
 
 .readonly-controls-row {
-  grid-template-columns: repeat(5, minmax(140px, 1fr));
+  grid-template-columns: repeat(5, minmax(118px, 1fr));
+  gap: 0.5rem;
 }
 
 .readonly-controls-actions {
   grid-template-columns: minmax(260px, 1fr) auto;
   align-items: end;
+}
+
+.readonly-controls label {
+  gap: 0.22rem;
+  font-size: 0.67rem;
+  letter-spacing: 0.06em;
+}
+
+.readonly-controls input,
+.readonly-controls select,
+.readonly-controls button {
+  min-height: 1.88rem;
+  padding: 0.34rem 0.5rem;
+  border-radius: 9px;
+  font-size: 0.8rem;
+}
+
+.readonly-controls .filter-summary {
+  font-size: 0.72rem;
 }
 
 .status-filter {
@@ -772,13 +792,8 @@ tbody tr:hover {
   min-width: 8.5rem;
 }
 
-.pick-details-table th:nth-child(10),
-.pick-details-table td:nth-child(10) {
-  min-width: 11.5rem;
-}
-
 .pick-details-table td[data-label="Team"],
-.pick-details-table td[data-label="Status Detail"] {
+.pick-details-table td[data-label="Draft Status"] {
   white-space: normal;
   line-height: 1.25;
 }
@@ -1026,6 +1041,17 @@ tbody tr:hover {
     grid-template-columns: 1fr;
   }
 
+  .public-sticky-controls label {
+    font-size: 0.66rem;
+  }
+
+  .public-sticky-controls input,
+  .public-sticky-controls select,
+  .public-sticky-controls button {
+    min-height: 2.12rem;
+    font-size: 0.87rem;
+  }
+
   .mobile-card-wrap {
     border: none;
     background: transparent;
@@ -1045,10 +1071,11 @@ tbody tr:hover {
 
   .mobile-cards tbody tr {
     display: block;
-    background: #fffaf2;
-    border: 1px solid #e4cfab;
-    border-radius: 12px;
-    padding: 0.32rem 0.55rem;
+    background: linear-gradient(180deg, #fffdf8 0%, #fff7eb 100%);
+    border: 1px solid #e7d4b3;
+    border-radius: 14px;
+    padding: 0.38rem 0.6rem;
+    box-shadow: 0 10px 22px rgba(20, 39, 56, 0.08);
   }
 
   .mobile-cards tbody tr:nth-child(even) {
@@ -1061,11 +1088,11 @@ tbody tr:hover {
 
   .mobile-cards td {
     display: grid;
-    grid-template-columns: minmax(88px, 34%) 1fr;
+    grid-template-columns: minmax(84px, 31%) 1fr;
     gap: 0.45rem;
     align-items: start;
     white-space: normal;
-    border-bottom: 1px dashed #eedcc1;
+    border-bottom: 1px dashed #ecd9bb;
     padding: 0.43rem 0;
   }
 
@@ -1075,11 +1102,17 @@ tbody tr:hover {
 
   .mobile-cards td::before {
     content: attr(data-label);
-    font-size: 0.67rem;
+    font-size: 0.64rem;
     text-transform: uppercase;
-    letter-spacing: 0.08em;
-    color: #6b7d8f;
+    letter-spacing: 0.07em;
+    color: #65798d;
     font-weight: 700;
+  }
+
+  .mobile-cards td[data-label="Player"],
+  .mobile-cards td[data-label="Owner"] {
+    font-weight: 700;
+    color: #1f3f59;
   }
 
   .mobile-cards td[colspan] {
@@ -1095,5 +1128,29 @@ tbody tr:hover {
 
   .mobile-cards .team-cell {
     max-width: 100%;
+  }
+
+  #draft-board-table {
+    font-size: 0.76rem;
+  }
+
+  #draft-board-table th,
+  #draft-board-table td {
+    padding: 0.46rem 0.48rem;
+  }
+
+  #draft-board-table th:nth-child(n + 5):nth-child(-n + 12),
+  #draft-board-table td:nth-child(n + 5):nth-child(-n + 12) {
+    display: none;
+  }
+
+  #draft-board-table th:nth-child(2),
+  #draft-board-table td:nth-child(2) {
+    min-width: 10rem;
+  }
+
+  #draft-board-table th:nth-child(3),
+  #draft-board-table td:nth-child(3) {
+    min-width: 9.5rem;
   }
 }

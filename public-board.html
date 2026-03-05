@@ -10,7 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css?v=20260303j" />
+    <link rel="stylesheet" href="styles.css?v=20260305d" />
   </head>
   <body>
     <div class="ambient"></div>
@@ -141,7 +141,7 @@
       <section class="card">
         <div class="section-head">
           <h2>Players</h2>
-          <p>Includes draft status, team status, and season/tournament scoring stats.</p>
+          <p>Includes draft status plus tournament scoring stats.</p>
         </div>
         <section class="controls readonly-controls">
           <div class="controls-row readonly-controls-row">
@@ -157,8 +157,8 @@
             <label>
               Seed Direction
               <select id="seed-direction">
-                <option value="asc">Best to worst (1 to 16)</option>
-                <option value="desc">Worst to best (16 to 1)</option>
+                <option value="asc">1 to 16</option>
+                <option value="desc">16 to 1</option>
               </select>
             </label>
             <label>
@@ -170,12 +170,12 @@
               </select>
             </label>
             <label>
-              Team Filter
-              <input id="team-query" type="search" placeholder="Filter by team name" />
+              Team
+              <input id="team-query" type="search" placeholder="Team name" />
             </label>
             <label>
-              Player Filter
-              <input id="player-query" type="search" placeholder="Filter by player name" />
+              Player
+              <input id="player-query" type="search" placeholder="Player name" />
             </label>
           </div>
           <div class="controls-row compact readonly-controls-actions">
@@ -191,12 +191,8 @@
                 <th>Team</th>
                 <th>Seed</th>
                 <th>Draft Status</th>
-                <th>Team Status</th>
-                <th>Season PPG</th>
-                <th>Season MPG</th>
                 <th>Tourn PTS</th>
                 <th>Tourn GP</th>
-                <th>Status Detail</th>
               </tr>
             </thead>
             <tbody id="board-body"></tbody>
@@ -205,6 +201,6 @@
       </section>
     </main>
 
-    <script type="module" src="public-home.js?v=20260303j"></script>
+    <script type="module" src="public-home.js?v=20260305d"></script>
   </body>
 </html>

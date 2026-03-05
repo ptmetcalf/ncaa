@@ -1,4 +1,5 @@
 import { loadLiveState } from "./live-state.js";
+import { html, nothing, render } from "https://esm.sh/lit-html@3.3.1";
 
 const state = {
   meta: null,
@@ -14,7 +15,8 @@ const state = {
   owners: [],
   draft: {
     mode: "manual",
-    order: []
+    order: [],
+    picks_per_owner: 6
   },
   pollIntervalMs: 15000,
   liveSource: "none",
@@ -109,13 +111,14 @@ function getTeamLogoUrl(teamMap, teamId, explicitLogo = null) {
 function renderTeamCell(teamMap, { teamId, teamName, teamAbbreviation, teamLogo }) {
   const logoUrl = getTeamLogoUrl(teamMap, teamId, teamLogo);
   const fallback = firstLetterToken(teamAbbreviation || teamName);
-  const imgHtml = logoUrl
-    ? `<img class="team-logo-img" src="${escapeHtml(logoUrl)}" alt="${escapeHtml(teamName ?? "Team")} logo" loading="lazy" />`
-    : `<span class="team-logo-fallback is-visible">${escapeHtml(fallback)}</span>`;
-  const fallbackHtml = logoUrl ? `<span class="team-logo-fallback">${escapeHtml(fallback)}</span>` : "";
-  return `<span class="team-cell"><span class="team-logo-wrap">${imgHtml}${fallbackHtml}</span><span class="team-cell-name">${escapeHtml(
-    teamName ?? "-"
-  )}</span></span>`;
+  return html`<span class="team-cell"
+    ><span class="team-logo-wrap"
+      >${logoUrl
+        ? html`<img class="team-logo-img" src=${logoUrl} alt="${teamName ?? "Team"} logo" loading="lazy" />`
+        : html`<span class="team-logo-fallback is-visible">${fallback}</span>`}
+      ${logoUrl ? html`<span class="team-logo-fallback">${fallback}</span>` : nothing}</span
+    ><span class="team-cell-name">${teamName ?? "-"}</span></span
+  >`;
 }
 
 function bindTeamLogoFallbacks(root = document) {
@@ -159,10 +162,26 @@ function normalizeOwners(values) {
 }
 
 function normalizeDraft(value) {
-  if (!value || typeof value !== "object") return { mode: "manual", order: [] };
+  if (!value || typeof value !== "object") return { mode: "manual", order: [], picks_per_owner: 6 };
   const mode = value.mode === "snake" ? "snake" : "manual";
   const order = normalizeOwners(value.order);
-  return { mode, order };
+  const picksPerOwner = Math.min(50, Math.max(1, Math.floor(Number(value.picks_per_owner ?? value.picksPerOwner ?? 6) || 6)));
+  return { mode, order, picks_per_owner: picksPerOwner };
+}
+
+function picksPerOwnerValue() {
+  return Math.min(50, Math.max(1, Math.floor(Number(state.draft?.picks_per_owner ?? 6) || 6)));
+}
+
+function maxDraftPickCount() {
+  const owners = state.draft.order.length > 0 ? state.draft.order : state.owners;
+  if (owners.length === 0) return 0;
+  return owners.length * picksPerOwnerValue();
+}
+
+function isDraftComplete() {
+  const max = maxDraftPickCount();
+  return max > 0 && state.picks.length >= max;
 }
 
 function seedValue(playerOrTeam) {
@@ -343,7 +362,9 @@ function renderRefreshIndicator() {
 function renderStatus() {
   const pickCount = state.picks.length;
   const nextPickNo = pickCount + 1;
-  const nextUp = nextUpInfo(nextPickNo);
+  const totalPickCap = maxDraftPickCount();
+  const draftComplete = isDraftComplete();
+  const nextUp = draftComplete ? { onClockOwner: null, nextUpOwner: null } : nextUpInfo(nextPickNo);
   const onClockOwner = nextUp.onClockOwner;
   const nextOwner = nextUp.nextUpOwner;
   const lastPick = [...state.picks].sort((a, b) => a.pick_no - b.pick_no).at(-1) ?? null;
@@ -352,9 +373,13 @@ function renderStatus() {
   const playersById = byIdMap(state.players, "player_id");
   const teamsById = byIdMap(state.teams, "team_id");
 
-  elements.liveStatusSub.textContent = `Draft mode: ${state.draft.mode} | Total picks: ${pickCount}`;
-  elements.statusPick.textContent = `#${nextPickNo}`;
-  if (!onClockOwner) {
+  elements.liveStatusSub.textContent = `Draft mode: ${state.draft.mode} | Picks per owner: ${picksPerOwnerValue()} | Total picks: ${pickCount}${
+    totalPickCap > 0 ? `/${totalPickCap}` : ""
+  }`;
+  elements.statusPick.textContent = draftComplete ? "Complete" : `#${nextPickNo}`;
+  if (draftComplete) {
+    elements.statusOnClock.textContent = "Draft complete";
+  } else if (!onClockOwner) {
     elements.statusOnClock.textContent = "No order set";
   } else if (nextOwner) {
     elements.statusOnClock.textContent = `${onClockOwner} | Next: ${nextOwner}`;
@@ -371,15 +396,18 @@ function renderStatus() {
     const teamAbbreviation = player?.team_abbreviation ?? null;
     const teamLogo = player?.team_logo ?? null;
 
-    elements.statusLatest.innerHTML = `<span class="latest-pick-primary">#${formatInt(lastPick.pick_no)} ${escapeHtml(
-      lastPick.owner
-    )}: ${escapeHtml(playerName)}</span>
-    <span class="latest-pick-secondary">${renderTeamCell(teamsById, {
-      teamId,
-      teamName,
-      teamAbbreviation,
-      teamLogo
-    })}</span>`;
+    render(
+      html`<span class="latest-pick-primary">#${formatInt(lastPick.pick_no)} ${lastPick.owner}: ${playerName}</span>
+        <span class="latest-pick-secondary"
+          >${renderTeamCell(teamsById, {
+            teamId,
+            teamName,
+            teamAbbreviation,
+            teamLogo
+          })}</span
+        >`,
+      elements.statusLatest
+    );
     bindTeamLogoFallbacks(elements.statusLatest);
   }
   elements.statusAvailable.textContent = `${availableCount} of ${state.players.length}`;
@@ -389,44 +417,49 @@ function renderDraftOrder() {
   if (!elements.draftOrderMeta || !elements.draftOrderBody) return;
   const order = state.draft.order.length > 0 ? state.draft.order : state.owners;
   const nextPickNo = state.picks.length + 1;
-  const nextUp = nextUpInfo(nextPickNo);
+  const totalPickCap = maxDraftPickCount();
+  const complete = isDraftComplete();
+  const nextUp = complete ? { onClockOwner: null, nextUpOwner: null, nextUpPickNo: null, immediateOwner: null } : nextUpInfo(nextPickNo);
   const onClockOwner = nextUp.onClockOwner;
   const nextOwner = nextUp.nextUpOwner;
   const nextUpPickNo = nextUp.nextUpPickNo;
   const hasBackToBack = nextUp.immediateOwner === onClockOwner;
   elements.draftOrderMeta.textContent =
     order.length > 0
-      ? `${order.length} owners | Mode: ${state.draft.mode} | On clock: ${onClockOwner ?? "-"} | Next: ${nextOwner ?? "-"}`
+      ? `${order.length} owners | Mode: ${state.draft.mode} | Picks/owner: ${picksPerOwnerValue()} | Total picks: ${state.picks.length}${
+          totalPickCap > 0 ? `/${totalPickCap}` : ""
+        } | ${complete ? "Status: Complete" : `On clock: ${onClockOwner ?? "-"} | Next: ${nextOwner ?? "-"}`}`
       : "No order published";
 
   if (order.length === 0) {
-    elements.draftOrderBody.innerHTML = `<tr><td colspan="3">No draft order available.</td></tr>`;
+    render(html`<tr><td colspan="3">No draft order available.</td></tr>`, elements.draftOrderBody);
     return;
   }
 
-  elements.draftOrderBody.innerHTML = order
-    .map((owner, idx) => {
+  render(
+    html`${order.map((owner, idx) => {
       let rowClass = "";
       let chipClass = "";
-      let statusText = "Waiting";
+      let statusText = complete ? "Complete" : "Waiting";
 
-      if (owner === onClockOwner) {
+      if (!complete && owner === onClockOwner) {
         rowClass = " is-on-clock";
         chipClass = " chip-on-clock";
         statusText = hasBackToBack ? `On Clock + Next Up (#${nextPickNo} + #${nextPickNo + 1})` : `On Clock (#${nextPickNo})`;
-      } else if (owner === nextOwner) {
+      } else if (!complete && owner === nextOwner) {
         rowClass = " is-next-up";
         chipClass = " chip-next-up";
         statusText = `Next Up (#${nextUpPickNo ?? nextPickNo + 1})`;
       }
 
-      return `<tr class="draft-order-row${rowClass}">
+      return html`<tr class=${`draft-order-row${rowClass}`}>
         <td data-label="Spot">${idx + 1}</td>
-        <td data-label="Owner">${escapeHtml(owner)}</td>
-        <td data-label="Draft Status"><span class="order-chip${chipClass}">${escapeHtml(statusText)}</span></td>
+        <td data-label="Owner">${owner}</td>
+        <td data-label="Draft Status"><span class=${`order-chip${chipClass}`}>${statusText}</span></td>
       </tr>`;
-    })
-    .join("");
+    })}`,
+    elements.draftOrderBody
+  );
 }
 
 function renderTeams() {
@@ -440,13 +473,19 @@ function renderTeams() {
   elements.teamCountMeta.textContent = `${teams.length} teams loaded`;
 
   if (teams.length === 0) {
-    elements.teamsBody.innerHTML = `<tr><td colspan="2">No team data loaded.</td></tr>`;
+    render(html`<tr><td colspan="2">No team data loaded.</td></tr>`, elements.teamsBody);
     return;
   }
 
-  elements.teamsBody.innerHTML = teams
-    .map((team) => `<tr><td>${formatInt(seedValue(team))}</td><td>${escapeHtml(team.team_name)}</td></tr>`)
-    .join("");
+  render(
+    html`${teams.map(
+      (team) => html`<tr>
+        <td>${formatInt(seedValue(team))}</td>
+        <td>${team.team_name}</td>
+      </tr>`
+    )}`,
+    elements.teamsBody
+  );
 }
 
 function buildTeamStatusMap() {
@@ -570,20 +609,21 @@ function renderEliminationTracker() {
   elements.eliminationSummary.textContent = `Alive: ${aliveCount} | Eliminated: ${eliminatedCount}${champion ? ` | Champion: ${champion.team_name}` : ""}`;
 
   if (rows.length === 0) {
-    elements.eliminationBody.innerHTML = `<tr><td colspan="4">No elimination data yet.</td></tr>`;
+    render(html`<tr><td colspan="4">No elimination data yet.</td></tr>`, elements.eliminationBody);
     return;
   }
 
-  elements.eliminationBody.innerHTML = rows
-    .map(
-      (row) => `<tr>
-        <td>${escapeHtml(row.team_name)}</td>
+  render(
+    html`${rows.map(
+      (row) => html`<tr>
+        <td>${row.team_name}</td>
         <td>${formatInt(row.seed)}</td>
-        <td>${escapeHtml(row.status)}</td>
-        <td>${escapeHtml(row.result)}</td>
+        <td>${row.status}</td>
+        <td>${row.result}</td>
       </tr>`
-    )
-    .join("");
+    )}`,
+    elements.eliminationBody
+  );
 }
 
 function renderBracketTable() {
@@ -606,15 +646,15 @@ function renderBracketTable() {
 
   if (rows.length === 0) {
     elements.bracketSummary.textContent = "Bracket not published yet.";
-    elements.bracketBody.innerHTML = `<tr><td colspan="3">No bracket matchups available.</td></tr>`;
+    render(html`<tr><td colspan="3">No bracket matchups available.</td></tr>`, elements.bracketBody);
     return;
   }
 
   const completed = rows.filter((row) => row.status_state === "post").length;
   elements.bracketSummary.textContent = `Matchups: ${rows.length} | Final: ${completed}`;
 
-  elements.bracketBody.innerHTML = rows
-    .map((row) => {
+  render(
+    html`${rows.map((row) => {
       const roundLabel = rounds.get(Number(row.round_id)) ?? `Round ${row.round_id ?? "-"}`;
       const one = row.competitor_one;
       const two = row.competitor_two;
@@ -630,18 +670,19 @@ function renderBracketTable() {
         statusText = dateLabel(row.date);
       }
 
-      return `<tr>
-        <td>${escapeHtml(roundLabel)}</td>
-        <td>${escapeHtml(`${oneLabel} vs ${twoLabel}`)}</td>
-        <td>${escapeHtml(statusText)}</td>
+      return html`<tr>
+        <td>${roundLabel}</td>
+        <td>${`${oneLabel} vs ${twoLabel}`}</td>
+        <td>${statusText}</td>
       </tr>`;
-    })
-    .join("");
+    })}`,
+    elements.bracketBody
+  );
 }
 
 function renderBoard(players) {
   const pickedByPlayerId = new Map(state.picks.map((pick) => [Number(pick.player_id), pick.owner]));
-  const teamStatusById = buildTeamStatusMap();
+  const teamsById = byIdMap(state.teams, "team_id");
   const totalsByPlayerId = new Map(state.playerTotals.map((row) => [Number(row.player_id), row]));
   const parts = [`Showing ${players.length} players`, `status: ${state.filters.playerStatus}`, `picked: ${state.picks.length}`];
   if (state.filters.teamQuery.trim()) parts.push(`team filter: "${state.filters.teamQuery.trim()}"`);
@@ -649,30 +690,35 @@ function renderBoard(players) {
   elements.filterSummary.textContent = parts.join(" | ");
 
   if (players.length === 0) {
-    elements.boardBody.innerHTML = `<tr><td colspan="10">No players match this filter.</td></tr>`;
+    render(html`<tr><td colspan="6">No players match this filter.</td></tr>`, elements.boardBody);
     return;
   }
 
-  elements.boardBody.innerHTML = players
-    .map((player) => {
+  render(
+    html`${players.map((player) => {
       const owner = pickedByPlayerId.get(Number(player.player_id));
       const draftStatus = owner ? `Picked (${owner})` : "Eligible";
-      const teamStatus = teamStatusById.get(Number(player.team_id));
       const total = totalsByPlayerId.get(Number(player.player_id));
-      return `<tr>
-        <td data-label="Player">${escapeHtml(player.player_name)}</td>
-        <td data-label="Team">${escapeHtml(player.team_name)}</td>
+      return html`<tr>
+        <td data-label="Player">${player.player_name}</td>
+        <td data-label="Team"
+          >${renderTeamCell(teamsById, {
+            teamId: player.team_id,
+            teamName: player.team_name,
+            teamAbbreviation: player.team_abbreviation,
+            teamLogo: player.team_logo
+          })}</td
+        >
         <td data-label="Seed">${formatInt(seedValue(player))}</td>
-        <td data-label="Draft Status">${escapeHtml(draftStatus)}</td>
-        <td data-label="Team Status">${escapeHtml(teamStatus?.status ?? "Alive")}</td>
-        <td data-label="Season PPG">${formatNum(player.avg_points)}</td>
-        <td data-label="Season MPG">${formatNum(player.avg_minutes)}</td>
+        <td data-label="Draft Status">${draftStatus}</td>
         <td data-label="Tourn PTS">${formatNum(total?.tournament_points ?? 0, 1)}</td>
         <td data-label="Tourn GP">${formatInt(total?.games_played ?? 0)}</td>
-        <td data-label="Status Detail">${escapeHtml(teamStatus?.result ?? "-")}</td>
       </tr>`;
-    })
-    .join("");
+    })}`,
+    elements.boardBody
+  );
+
+  bindTeamLogoFallbacks();
 }
 
 function rerender() {

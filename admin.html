@@ -10,7 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css?v=20260303j" />
+    <link rel="stylesheet" href="styles.css?v=20260305d" />
   </head>
   <body>
     <div class="ambient"></div>
@@ -177,6 +177,10 @@
                     <option value="snake">Snake</option>
                   </select>
                 </label>
+                <label>
+                  Picks Per Owner
+                  <input id="picks-per-owner" type="number" min="1" step="1" value="6" />
+                </label>
                 <button id="randomize-order">Randomize Order</button>
                 <button id="reset-order">Use List Order</button>
               </div>
@@ -219,8 +223,8 @@
             <div class="section-head">
               <h2>Pick Log</h2>
             </div>
-            <div class="table-wrap tall">
-              <table>
+            <div class="table-wrap tall mobile-card-wrap">
+              <table class="mobile-cards">
                 <thead>
                   <tr>
                     <th>Pick</th>
@@ -238,8 +242,8 @@
             <div class="section-head">
               <h2>Leaderboard</h2>
             </div>
-            <div class="table-wrap tall">
-              <table>
+            <div class="table-wrap tall mobile-card-wrap">
+              <table class="mobile-cards">
                 <thead>
                   <tr>
                     <th>Rank</th>
@@ -263,6 +267,6 @@
       </div>
     </main>
 
-    <script type="module" src="app.js?v=20260303j"></script>
+    <script type="module" src="app.js?v=20260305d"></script>
   </body>
 </html>

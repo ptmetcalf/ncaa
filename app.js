@@ -1,6 +1,8 @@
 import { createSupabaseDraftStore } from "./supabase-draft-store.js";
+import { html, nothing, render } from "https://esm.sh/lit-html@3.3.1";
 
 const DEFAULT_OWNERS = Array.from({ length: 12 }, (_, i) => `Owner ${i + 1}`);
+const DEFAULT_PICKS_PER_OWNER = 6;
 const DRAFT_MODES = {
   MANUAL: "manual",
   SNAKE: "snake"
@@ -16,7 +18,8 @@ const state = {
   owners: [...DEFAULT_OWNERS],
   draft: {
     mode: DRAFT_MODES.MANUAL,
-    order: [...DEFAULT_OWNERS]
+    order: [...DEFAULT_OWNERS],
+    picks_per_owner: DEFAULT_PICKS_PER_OWNER
   },
   picks: [],
   auth: {
@@ -56,6 +59,7 @@ const elements = {
   ownersInput: document.querySelector("#owners-input"),
   saveOwnersBtn: document.querySelector("#save-owners"),
   draftMode: document.querySelector("#draft-mode"),
+  picksPerOwnerInput: document.querySelector("#picks-per-owner"),
   randomizeOrderBtn: document.querySelector("#randomize-order"),
   resetOrderBtn: document.querySelector("#reset-order"),
   draftOrderPreview: document.querySelector("#draft-order-preview"),
@@ -147,13 +151,14 @@ function getTeamLogoUrl(teamId, explicitLogo = null) {
 function renderTeamCell({ teamId, teamName, teamAbbreviation, teamLogo }) {
   const logoUrl = getTeamLogoUrl(teamId, teamLogo);
   const fallback = firstLetterToken(teamAbbreviation || teamName);
-  const imgHtml = logoUrl
-    ? `<img class="team-logo-img" src="${escapeHtml(logoUrl)}" alt="${escapeHtml(teamName ?? "Team")} logo" loading="lazy" />`
-    : `<span class="team-logo-fallback is-visible">${escapeHtml(fallback)}</span>`;
-  const fallbackHtml = logoUrl ? `<span class="team-logo-fallback">${escapeHtml(fallback)}</span>` : "";
-  return `<span class="team-cell"><span class="team-logo-wrap">${imgHtml}${fallbackHtml}</span><span class="team-cell-name">${escapeHtml(
-    teamName ?? "-"
-  )}</span></span>`;
+  return html`<span class="team-cell"
+    ><span class="team-logo-wrap"
+      >${logoUrl
+        ? html`<img class="team-logo-img" src=${logoUrl} alt="${teamName ?? "Team"} logo" loading="lazy" />`
+        : html`<span class="team-logo-fallback is-visible">${fallback}</span>`}
+      ${logoUrl ? html`<span class="team-logo-fallback">${fallback}</span>` : nothing}</span
+    ><span class="team-cell-name">${teamName ?? "-"}</span></span
+  >`;
 }
 
 function bindTeamLogoFallbacks() {
@@ -214,6 +219,26 @@ function normalizePicks(rows) {
     .filter((pick) => Number.isInteger(pick.player_id) && pick.owner);
 }
 
+function normalizePicksPerOwner(value) {
+  const n = Math.floor(Number(value));
+  if (!Number.isFinite(n)) return DEFAULT_PICKS_PER_OWNER;
+  return Math.min(50, Math.max(1, n));
+}
+
+function picksPerOwnerValue() {
+  return normalizePicksPerOwner(state.draft?.picks_per_owner);
+}
+
+function maxPickCount() {
+  if (state.owners.length === 0) return 0;
+  return state.owners.length * picksPerOwnerValue();
+}
+
+function isDraftComplete() {
+  const max = maxPickCount();
+  return max > 0 && state.picks.length >= max;
+}
+
 function applyDraftPayload(payload) {
   if (!payload || typeof payload !== "object") return;
 
@@ -226,6 +251,9 @@ function applyDraftPayload(payload) {
     if (Array.isArray(payload.draft.order)) {
       state.draft.order = normalizeOwnerList(payload.draft.order);
     }
+    state.draft.picks_per_owner = normalizePicksPerOwner(
+      payload.draft.picks_per_owner ?? payload.draft.picksPerOwner ?? state.draft.picks_per_owner
+    );
   }
 
   if (Array.isArray(payload.picks)) {
@@ -415,9 +443,12 @@ function fillTeamFilter() {
     const name = String(team.team_name ?? "").trim();
     if (!name || seen.has(name)) continue;
     seen.add(name);
-    options.push(`<option value="${escapeHtml(name)}"></option>`);
+    options.push(name);
   }
-  elements.teamOptions.innerHTML = options.join("");
+  render(
+    html`${options.map((name) => html`<option value=${name}></option>`)}`,
+    elements.teamOptions
+  );
   elements.teamFilter.value = String(state.filters.teamQuery ?? "");
 }
 
@@ -434,33 +465,58 @@ function renderStatusPills() {
 }
 
 function fillOwnerSelectors() {
-  const options = state.owners.map((owner) => `<option value="${escapeHtml(owner)}">${escapeHtml(owner)}</option>`).join("");
-  elements.pickOwner.innerHTML = options;
+  const previousOwner = elements.pickOwner.value;
+  render(
+    html`${state.owners.map((owner) => html`<option value=${owner}>${owner}</option>`)}`,
+    elements.pickOwner
+  );
+  if (state.owners.includes(previousOwner)) {
+    elements.pickOwner.value = previousOwner;
+  }
   elements.ownersInput.value = state.owners.join(",");
 }
 
 function renderDraftControls() {
   syncDraftOrderWithOwners();
+  const picksPerOwner = picksPerOwnerValue();
+  const totalAllowed = maxPickCount();
+  const complete = isDraftComplete();
+  const canEdit = canEditDraft(false);
+
   elements.draftMode.value = state.draft.mode;
+  if (elements.picksPerOwnerInput) {
+    elements.picksPerOwnerInput.value = String(picksPerOwner);
+  }
 
   if (state.draft.order.length === 0) {
     elements.draftOrderPreview.textContent = "Draft order: add owners first.";
   } else {
     const sequence = state.draft.order.map((owner, idx) => `${idx + 1}. ${owner}`).join(" -> ");
-    elements.draftOrderPreview.textContent = `Draft order: ${sequence}`;
+    elements.draftOrderPreview.textContent = `Draft order: ${sequence} | Picks per owner: ${picksPerOwner}`;
   }
 
   const nextPick = state.picks.length + 1;
-  const expectedOwner = snakeOwnerForPick(nextPick);
+  const expectedOwner = complete ? null : snakeOwnerForPick(nextPick);
+  const lockedByDraftLimit = complete || state.owners.length === 0;
 
-  if (state.draft.mode === DRAFT_MODES.SNAKE && expectedOwner) {
-    elements.nextPickPreview.textContent = `Next pick #${nextPick}: ${expectedOwner} (snake mode)`;
+  if (complete) {
+    elements.nextPickPreview.textContent = `Draft complete: ${state.picks.length} of ${totalAllowed} picks made.`;
+  } else if (state.draft.mode === DRAFT_MODES.SNAKE && expectedOwner) {
+    elements.nextPickPreview.textContent = `Next pick #${nextPick}: ${expectedOwner} (snake mode) | Remaining picks: ${Math.max(
+      0,
+      totalAllowed - state.picks.length
+    )}`;
     elements.pickOwner.value = expectedOwner;
-    elements.pickOwner.disabled = true;
   } else {
-    elements.nextPickPreview.textContent = `Next pick #${nextPick}: choose owner manually`;
-    elements.pickOwner.disabled = false;
+    const remaining = totalAllowed > 0 ? ` | Remaining picks: ${Math.max(0, totalAllowed - state.picks.length)}` : "";
+    elements.nextPickPreview.textContent = `Next pick #${nextPick}: choose owner manually${remaining}`;
   }
+
+  const snakeOwnerLocked = state.draft.mode === DRAFT_MODES.SNAKE && Boolean(expectedOwner) && !lockedByDraftLimit;
+  elements.pickOwner.disabled = !canEdit || lockedByDraftLimit || snakeOwnerLocked;
+  elements.pickPlayer.disabled = !canEdit || lockedByDraftLimit;
+  elements.pickPlayerSearch.disabled = !canEdit || lockedByDraftLimit;
+  elements.addPickBtn.disabled = !canEdit || lockedByDraftLimit;
 }
 
 function fillPlayerPickSelector() {
@@ -482,18 +538,19 @@ function fillPlayerPickSelector() {
   }
 
   if (candidates.length === 0) {
-    elements.pickPlayer.innerHTML = `<option value="">No matching players</option>`;
+    render(html`<option value="">No matching players</option>`, elements.pickPlayer);
     return;
   }
 
-  elements.pickPlayer.innerHTML = candidates
-    .map(
+  render(
+    html`${candidates.map(
       (player) =>
-        `<option value="${player.player_id}">#${formatInt(player.draft_rank)} ${escapeHtml(
-          player.player_name
-        )} (${escapeHtml(player.team_abbreviation ?? player.team_name)})</option>`
-    )
-    .join("");
+        html`<option value=${player.player_id}>
+          #${formatInt(player.draft_rank)} ${player.player_name} (${player.team_abbreviation ?? player.team_name})
+        </option>`
+    )}`,
+    elements.pickPlayer
+  );
 
   if (Number.isInteger(previousSelection) && candidates.some((p) => Number(p.player_id) === previousSelection)) {
     elements.pickPlayer.value = String(previousSelection);
@@ -509,61 +566,68 @@ function renderDraftBoard() {
 
   elements.filterSummary.textContent = `Showing ${filtered.length} of ${state.players.length} players | Open ${visibleOpen} | Picked ${visiblePicked} (Total picked ${pickedCount})`;
 
-  elements.boardBody.innerHTML = filtered
-    .map((player) => {
+  render(
+    html`${filtered.map((player) => {
       const owner = picked.get(Number(player.player_id));
       const statusClass = owner ? "status-picked" : "status-open";
       const statusText = owner ? `Picked (${owner})` : "Open";
 
-      return `<tr>
-        <td>${formatInt(player.draft_rank)}</td>
-        <td>${escapeHtml(player.player_name)}</td>
-        <td>${renderTeamCell({
-          teamId: player.team_id,
-          teamName: player.team_name,
-          teamAbbreviation: player.team_abbreviation,
-          teamLogo: player.team_logo
-        })}</td>
-        <td>${formatInt(player.team_seed)}</td>
-        <td>${escapeHtml(player.position ?? "-")}</td>
-        <td>${formatNum(player.avg_points)}</td>
-        <td>${formatNum(player.avg_minutes)}</td>
-        <td>${formatNum(player.avg_rebounds)}</td>
-        <td>${formatNum(player.avg_assists)}</td>
-        <td>${formatNum(player.avg_steals)}</td>
-        <td>${formatNum(player.avg_blocks)}</td>
-        <td>${formatNum(player.per)}</td>
-        <td>${formatNum(player.draft_score, 2)}</td>
-        <td class="${statusClass}">${escapeHtml(statusText)}</td>
+      return html`<tr>
+        <td data-label="Rank">${formatInt(player.draft_rank)}</td>
+        <td data-label="Player">${player.player_name}</td>
+        <td data-label="Team">
+          ${renderTeamCell({
+            teamId: player.team_id,
+            teamName: player.team_name,
+            teamAbbreviation: player.team_abbreviation,
+            teamLogo: player.team_logo
+          })}
+        </td>
+        <td data-label="Seed">${formatInt(player.team_seed)}</td>
+        <td data-label="Pos">${player.position ?? "-"}</td>
+        <td data-label="PPG">${formatNum(player.avg_points)}</td>
+        <td data-label="MPG">${formatNum(player.avg_minutes)}</td>
+        <td data-label="RPG">${formatNum(player.avg_rebounds)}</td>
+        <td data-label="APG">${formatNum(player.avg_assists)}</td>
+        <td data-label="SPG">${formatNum(player.avg_steals)}</td>
+        <td data-label="BPG">${formatNum(player.avg_blocks)}</td>
+        <td data-label="PER">${formatNum(player.per)}</td>
+        <td data-label="Draft Score">${formatNum(player.draft_score, 2)}</td>
+        <td data-label="Status" class=${statusClass}>${statusText}</td>
       </tr>`;
-    })
-    .join("");
+    })}`,
+    elements.boardBody
+  );
 }
 
 function renderPickLog() {
   const totals = totalsByPlayerId();
   const players = byIdMap(state.players, "player_id");
 
-  elements.pickLogBody.innerHTML = state.picks
-    .sort((a, b) => a.pick_no - b.pick_no)
-    .map((pick) => {
-      const total = totals.get(Number(pick.player_id));
-      const player = players.get(Number(pick.player_id));
-      const points = total?.tournament_points ?? 0;
-      return `<tr>
-        <td>${formatInt(pick.pick_no)}</td>
-        <td>${escapeHtml(pick.owner)}</td>
-        <td>${escapeHtml(pick.player_name)}</td>
-        <td>${renderTeamCell({
-          teamId: player?.team_id ?? pick.team_id,
-          teamName: pick.team_name ?? player?.team_name,
-          teamAbbreviation: player?.team_abbreviation,
-          teamLogo: player?.team_logo
-        })}</td>
-        <td>${formatNum(points, 1)}</td>
-      </tr>`;
-    })
-    .join("");
+  render(
+    html`${[...state.picks]
+      .sort((a, b) => a.pick_no - b.pick_no)
+      .map((pick) => {
+        const total = totals.get(Number(pick.player_id));
+        const player = players.get(Number(pick.player_id));
+        const points = total?.tournament_points ?? 0;
+        return html`<tr>
+          <td data-label="Pick">${formatInt(pick.pick_no)}</td>
+          <td data-label="Owner">${pick.owner}</td>
+          <td data-label="Player">${pick.player_name}</td>
+          <td data-label="Team">
+            ${renderTeamCell({
+              teamId: player?.team_id ?? pick.team_id,
+              teamName: pick.team_name ?? player?.team_name,
+              teamAbbreviation: player?.team_abbreviation,
+              teamLogo: player?.team_logo
+            })}
+          </td>
+          <td data-label="Tournament PTS">${formatNum(points, 1)}</td>
+        </tr>`;
+      })}`,
+    elements.pickLogBody
+  );
 }
 
 function renderLeaderboard() {
@@ -584,16 +648,17 @@ function renderLeaderboard() {
 
   rows.sort((a, b) => b.totalPts - a.totalPts || b.players - a.players || a.owner.localeCompare(b.owner));
 
-  elements.leaderboardBody.innerHTML = rows
-    .map(
-      (row, index) => `<tr>
-      <td>${index + 1}</td>
-      <td>${escapeHtml(row.owner)}</td>
-      <td>${row.players}</td>
-      <td>${formatNum(row.totalPts, 1)}</td>
-    </tr>`
-    )
-    .join("");
+  render(
+    html`${rows.map(
+      (row, index) => html`<tr>
+        <td data-label="Rank">${index + 1}</td>
+        <td data-label="Owner">${row.owner}</td>
+        <td data-label="Players">${row.players}</td>
+        <td data-label="Total PTS">${formatNum(row.totalPts, 1)}</td>
+      </tr>`
+    )}`,
+    elements.leaderboardBody
+  );
 }
 
 function renderMetaLine() {
@@ -683,6 +748,11 @@ function rerender() {
 
 async function onAddPick() {
   if (!canEditDraft(true)) return;
+  if (isDraftComplete()) {
+    alert(`Draft is complete at ${maxPickCount()} total picks (${picksPerOwnerValue()} picks per owner).`);
+    rerender();
+    return;
+  }
 
   const nextPickNo = state.picks.length + 1;
   const expectedOwner = snakeOwnerForPick(nextPickNo);
@@ -1120,6 +1190,17 @@ function bindEvents() {
       return;
     }
     state.draft.mode = elements.draftMode.value === DRAFT_MODES.SNAKE ? DRAFT_MODES.SNAKE : DRAFT_MODES.MANUAL;
+    void persistDraftState().then(() => rerender());
+  });
+
+  elements.picksPerOwnerInput?.addEventListener("change", () => {
+    if (!canEditDraft(true)) {
+      rerender();
+      return;
+    }
+    const nextValue = normalizePicksPerOwner(elements.picksPerOwnerInput.value);
+    state.draft.picks_per_owner = nextValue;
+    elements.picksPerOwnerInput.value = String(nextValue);
     void persistDraftState().then(() => rerender());
   });
 
