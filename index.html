@@ -11,32 +11,23 @@
       rel="stylesheet"
     />
     <link rel="icon" href="./favicon.svg?v=20260312b" type="image/svg+xml" />
-    <link rel="stylesheet" href="styles.css?v=20260312f" />
+    <link rel="stylesheet" href="styles.css?v=20260312ah" />
   </head>
   <body>
     <div class="ambient"></div>
     <main class="layout">
-      <header class="hero card">
-        <div class="hero-top">
-          <p class="kicker">Public Pool View</p>
-          <nav class="hero-nav" aria-label="Page navigation">
-            <a href="./index.html" class="is-active">Home</a>
-            <a href="./public-leaderboard.html">Leaderboard</a>
-            <a href="./admin.html">Admin</a>
-          </nav>
-        </div>
-        <h1>Live Draft Board</h1>
-        <p class="hero-subtitle">Player board for spectators. This page is read-only.</p>
-        <p id="meta-line">Loading data...</p>
-        <p id="refresh-indicator" class="live-refresh" data-status="pending">Checking live updates...</p>
-      </header>
+      <pool-page-hero
+        title="Live Draft Board"
+        active-page="home"
+        meta-id="meta-line"
+        action-id="refresh-toggle"
+        action-label="Pause Refresh"
+        action-placement="bottom-right"
+        refresh
+      ></pool-page-hero>
 
-      <section class="card">
-        <div class="section-head">
-          <h2>Live Pick Status</h2>
-          <p id="live-status-sub">Waiting for draft data...</p>
-        </div>
-        <div class="status-grid">
+      <pool-card-section title="Live Pick Status" copy-id="live-status-sub" copy="Waiting for draft data...">
+        <pool-status-grid>
           <article class="status-tile">
             <h3>Current Pick</h3>
             <p id="status-pick">Waiting</p>
@@ -53,16 +44,13 @@
             <h3>Available Players</h3>
             <p id="status-available">Waiting</p>
           </article>
-        </div>
-      </section>
+        </pool-status-grid>
+      </pool-card-section>
 
-      <section class="card">
-        <div class="section-head">
-          <h2>Draft Order</h2>
-          <p id="draft-order-meta">No order published</p>
-        </div>
-        <div class="table-wrap tall mobile-card-wrap">
-          <table class="mobile-cards">
+      <pool-card-section class="draft-order-card" title="Draft Order">
+        <div id="draft-order-meta" class="draft-order-highlights" aria-live="polite"></div>
+        <pool-table-wrap class="tall mobile-card-wrap draft-order-table-wrap">
+          <table class="mobile-cards draft-order-table">
             <thead>
               <tr>
                 <th>Spot</th>
@@ -72,39 +60,31 @@
             </thead>
             <tbody id="draft-order-body"></tbody>
           </table>
-        </div>
-      </section>
+        </pool-table-wrap>
+      </pool-card-section>
 
-      <details class="card context-collapsible">
-        <summary>Tournament Context (Optional)</summary>
-        <div class="context-content">
-          <section class="context-bracket">
-            <div class="section-head">
-              <h2>Live Bracket</h2>
-              <p id="bracket-summary">Loading bracket...</p>
-            </div>
-            <div class="table-wrap tall">
-              <table>
-                <thead>
-                  <tr>
-                    <th>Round</th>
-                    <th>Matchup</th>
-                    <th>Status</th>
-                  </tr>
-                </thead>
-                <tbody id="bracket-body"></tbody>
-              </table>
-            </div>
-          </section>
-        </div>
-      </details>
+      <pool-collapsible-card card class="context-collapsible" summary="Tournament Context (Optional)" content-class="context-content">
+        <section class="context-bracket">
+          <pool-section-head title="Live Bracket" copy-id="bracket-summary" copy="Loading bracket..."></pool-section-head>
+          <pool-table-wrap class="tall">
+            <table>
+              <thead>
+                <tr>
+                  <th>Round</th>
+                  <th>Region</th>
+                  <th>Matchup</th>
+                  <th>Status</th>
+                </tr>
+              </thead>
+              <tbody id="bracket-body"></tbody>
+            </table>
+          </pool-table-wrap>
+        </section>
+      </pool-collapsible-card>
 
-      <section class="card">
-        <div class="section-head">
-          <h2>Players</h2>
-          <p>Draft-night board with seed and current pick status.</p>
-        </div>
-        <section class="controls readonly-controls public-sticky-controls">
+      <pool-card-section title="Players">
+        <pool-table-workspace>
+          <section data-workspace-controls class="controls readonly-controls public-sticky-controls">
           <div class="controls-row readonly-controls-row">
             <label>
               Sort Order
@@ -138,28 +118,31 @@
               Player
               <input id="player-query" type="search" placeholder="Player name" />
             </label>
+            <button id="reset-filters" type="button" class="readonly-reset-btn">Reset Filters</button>
           </div>
           <div class="controls-row compact readonly-controls-actions">
             <p id="filter-summary" class="filter-summary"></p>
-            <button id="reset-filters" type="button">Reset Filters</button>
           </div>
-        </section>
-        <div class="table-wrap board-scroll mobile-card-wrap">
-          <table class="mobile-cards">
-            <thead>
-              <tr>
-                <th>Player</th>
-                <th>Team</th>
-                <th>Seed</th>
-                <th>Draft Status</th>
-              </tr>
-            </thead>
-            <tbody id="board-body"></tbody>
-          </table>
-        </div>
-      </section>
+          </section>
+          <pool-table-wrap data-workspace-table class="board-scroll mobile-card-wrap">
+            <table class="mobile-cards">
+              <thead>
+                <tr>
+                  <th>Player</th>
+                  <th>Team</th>
+                  <th>Region</th>
+                  <th>Seed</th>
+                  <th>Draft Status</th>
+                </tr>
+              </thead>
+              <tbody id="board-body"></tbody>
+            </table>
+          </pool-table-wrap>
+        </pool-table-workspace>
+      </pool-card-section>
     </main>
 
-    <script type="module" src="public-home.js?v=20260312d"></script>
+    <script type="module" src="shared-components.js?v=20260312i"></script>
+    <script type="module" src="public-home.js?v=20260312o"></script>
   </body>
 </html>

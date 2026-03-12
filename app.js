@@ -1,4 +1,13 @@
 import { createSupabaseDraftStore } from "./supabase-draft-store.js";
+import {
+  bindImageFallbacks,
+  byIdMap,
+  escapeHtml,
+  formatInt,
+  formatNum,
+  getTeamLogoUrl,
+  renderTeamCell
+} from "./shared-ui.js";
 import { html, nothing, render } from "https://esm.sh/lit-html@3.3.1";
 
 const DEFAULT_OWNERS = Array.from({ length: 12 }, (_, i) => `Owner ${i + 1}`);
@@ -46,6 +55,7 @@ const state = {
 
 const elements = {
   metaLine: document.querySelector("#meta-line"),
+  heroAuthLine: document.querySelector("#hero-auth-line"),
   searchInput: document.querySelector("#search-input"),
   minMinutesInput: document.querySelector("#min-minutes"),
   teamFilter: document.querySelector("#team-filter"),
@@ -58,12 +68,20 @@ const elements = {
   boardBody: document.querySelector("#draft-board-body"),
   ownersInput: document.querySelector("#owners-input"),
   saveOwnersBtn: document.querySelector("#save-owners"),
+  ownersSummary: document.querySelector("#owners-summary"),
+  ownersPreview: document.querySelector("#owners-preview"),
   draftMode: document.querySelector("#draft-mode"),
   picksPerOwnerInput: document.querySelector("#picks-per-owner"),
   randomizeOrderBtn: document.querySelector("#randomize-order"),
   resetOrderBtn: document.querySelector("#reset-order"),
   draftOrderPreview: document.querySelector("#draft-order-preview"),
+  draftOrderMeta: document.querySelector("#draft-order-meta"),
+  nextPickPreviewTitle: document.querySelector("#next-pick-preview-title"),
   nextPickPreview: document.querySelector("#next-pick-preview"),
+  lastPickPreviewTitle: document.querySelector("#last-pick-preview-title"),
+  lastPickPreview: document.querySelector("#last-pick-preview"),
+  draftFormatPreviewTitle: document.querySelector("#draft-format-preview-title"),
+  draftFormatPreview: document.querySelector("#draft-format-preview"),
   dataStatusLine: document.querySelector("#data-status-line"),
   dataStatusNote: document.querySelector("#data-status-note"),
   syncSource: document.querySelector("#sync-source"),
@@ -75,17 +93,20 @@ const elements = {
   copyRefreshCommandBtn: document.querySelector("#copy-refresh-command"),
   authMeta: document.querySelector("#auth-meta"),
   authStatus: document.querySelector("#auth-status"),
-  adminLockedMessage: document.querySelector("#admin-locked-message"),
+  adminAuthModal: document.querySelector("#admin-auth-modal"),
+  adminAuthToggle: document.querySelector("#admin-auth-toggle"),
+  adminAuthClose: document.querySelector("#admin-auth-close"),
   adminEmail: document.querySelector("#admin-email"),
   adminPassword: document.querySelector("#admin-password"),
   adminLoginBtn: document.querySelector("#admin-login"),
   adminLogoutBtn: document.querySelector("#admin-logout"),
+  pickOwnerDisplay: document.querySelector("#pick-owner-display"),
   pickOwner: document.querySelector("#pick-owner"),
   pickPlayerSearch: document.querySelector("#pick-player-search"),
   pickPlayer: document.querySelector("#pick-player"),
   addPickBtn: document.querySelector("#add-pick"),
+  revertLastPickBtn: document.querySelector("#revert-last-pick"),
   pickLogBody: document.querySelector("#pick-log-body"),
-  leaderboardBody: document.querySelector("#leaderboard-body"),
   exportPicksPdfBtn: document.querySelector("#export-picks-pdf"),
   downloadPicksCsvBtn: document.querySelector("#download-picks-csv"),
   downloadPicksBtn: document.querySelector("#download-picks"),
@@ -93,22 +114,6 @@ const elements = {
   importFile: document.querySelector("#import-file"),
   resetPicksBtn: document.querySelector("#reset-picks")
 };
-
-function byIdMap(rows, idKey = "player_id") {
-  const map = new Map();
-  for (const row of rows) map.set(Number(row[idKey]), row);
-  return map;
-}
-
-function formatNum(n, digits = 1) {
-  if (n === null || n === undefined || Number.isNaN(n)) return "-";
-  return Number(n).toFixed(digits);
-}
-
-function formatInt(n) {
-  if (n === null || n === undefined || Number.isNaN(n)) return "-";
-  return String(Math.round(Number(n)));
-}
 
 const SEED_ROUND_WIN_PROBS = {
   1: [0.99, 0.86, 0.69, 0.52, 0.36, 0.22],
@@ -128,26 +133,6 @@ const SEED_ROUND_WIN_PROBS = {
   15: [0.06, 0.03, 0.01, 0.01, 0, 0],
   16: [0.01, 0.01, 0, 0, 0, 0]
 };
-
-function firstLetterToken(value) {
-  const token = String(value ?? "")
-    .replace(/[^A-Za-z0-9 ]/g, " ")
-    .split(" ")
-    .map((part) => part.trim())
-    .filter(Boolean);
-  if (token.length === 0) return "TM";
-  if (token.length === 1) return token[0].slice(0, 2).toUpperCase();
-  return `${token[0][0] ?? ""}${token[1][0] ?? ""}`.toUpperCase();
-}
-
-function escapeHtml(value) {
-  return String(value ?? "")
-    .replaceAll("&", "&amp;")
-    .replaceAll("<", "&lt;")
-    .replaceAll(">", "&gt;")
-    .replaceAll('"', "&quot;")
-    .replaceAll("'", "&#039;");
-}
 
 function teamByIdMap() {
   if (!cachedTeamMap || cachedTeamMapSize !== state.teams.length) {
@@ -269,44 +254,6 @@ function withPredictedTournamentRanks(players) {
   }));
 }
 
-function getTeamLogoUrl(teamId, explicitLogo = null) {
-  if (explicitLogo && String(explicitLogo).trim() !== "") return String(explicitLogo).trim();
-  const team = teamByIdMap().get(Number(teamId));
-  if (team?.logo && String(team.logo).trim() !== "") return String(team.logo).trim();
-  if (Number.isInteger(Number(teamId)) && Number(teamId) > 0) {
-    return `https://a.espncdn.com/i/teamlogos/ncaa/500/${Number(teamId)}.png`;
-  }
-  return null;
-}
-
-function renderTeamCell({ teamId, teamName, teamAbbreviation, teamLogo }) {
-  const logoUrl = getTeamLogoUrl(teamId, teamLogo);
-  const fallback = firstLetterToken(teamAbbreviation || teamName);
-  return html`<span class="team-cell"
-    ><span class="team-logo-wrap"
-      >${logoUrl
-        ? html`<img class="team-logo-img" src=${logoUrl} alt="${teamName ?? "Team"} logo" loading="lazy" />`
-        : html`<span class="team-logo-fallback is-visible">${fallback}</span>`}
-      ${logoUrl ? html`<span class="team-logo-fallback">${fallback}</span>` : nothing}</span
-    ><span class="team-cell-name">${teamName ?? "-"}</span></span
-  >`;
-}
-
-function bindTeamLogoFallbacks() {
-  const images = document.querySelectorAll("img.team-logo-img:not([data-logo-bound])");
-  for (const img of images) {
-    img.setAttribute("data-logo-bound", "1");
-    const wrap = img.closest(".team-logo-wrap");
-    const fallback = wrap?.querySelector(".team-logo-fallback");
-    const showFallback = () => {
-      img.classList.add("is-hidden");
-      if (fallback) fallback.classList.add("is-visible");
-    };
-    img.addEventListener("error", showFallback);
-    if (img.complete && img.naturalWidth === 0) showFallback();
-  }
-}
-
 function escapeCsv(value) {
   const str = String(value ?? "");
   if (str.includes(",") || str.includes('"') || str.includes("\n")) {
@@ -348,6 +295,15 @@ function normalizePicks(rows) {
       team_id: Number(pick.team_id) || null
     }))
     .filter((pick) => Number.isInteger(pick.player_id) && pick.owner);
+}
+
+function resequencePicks(rows) {
+  return normalizePicks(rows)
+    .sort((a, b) => a.pick_no - b.pick_no || a.player_id - b.player_id)
+    .map((pick, index) => ({
+      ...pick,
+      pick_no: index + 1
+    }));
 }
 
 function normalizePicksPerOwner(value) {
@@ -392,7 +348,7 @@ function applyDraftPayload(payload) {
   }
 
   if (Array.isArray(payload.picks)) {
-    state.picks = normalizePicks(payload.picks);
+    state.picks = resequencePicks(payload.picks);
   }
 
   syncDraftOrderWithOwners();
@@ -427,9 +383,6 @@ function applyDraftLockState() {
     }
   }
 
-  if (elements.adminLockedMessage) {
-    elements.adminLockedMessage.hidden = editable;
-  }
 }
 
 function renderAuthState() {
@@ -438,6 +391,13 @@ function renderAuthState() {
   if (!state.auth.configured) {
     elements.authMeta.textContent = state.auth.status ?? "Supabase unavailable";
     elements.authStatus.textContent = "Admin controls are locked until Supabase config/connectivity is available.";
+    if (elements.heroAuthLine) {
+      elements.heroAuthLine.textContent = "Admin login unavailable until Supabase is configured.";
+    }
+    if (elements.adminAuthToggle) {
+      elements.adminAuthToggle.textContent = "Admin Login";
+      elements.adminAuthToggle.disabled = true;
+    }
     if (elements.adminLoginBtn) elements.adminLoginBtn.disabled = true;
     if (elements.adminLogoutBtn) elements.adminLogoutBtn.disabled = true;
     return;
@@ -448,11 +408,39 @@ function renderAuthState() {
     ? ` | Remote sync: ${new Date(state.sync.lastRemoteUpdate).toLocaleString()}`
     : "";
   const errorText = state.sync.lastError ? ` | Last error: ${state.sync.lastError}` : "";
+  const heroRemoteTime = state.sync.lastRemoteUpdate ? new Date(state.sync.lastRemoteUpdate).toLocaleString() : "none";
 
   elements.authMeta.textContent = `Mode: Supabase shared state | Pool: ${state.draftStore?.poolKey ?? "main"}`;
   elements.authStatus.textContent = `User: ${email} | Admin: ${state.auth.isAdmin ? "yes" : "no"}${remoteTime}${errorText}`;
+  if (elements.heroAuthLine) {
+    elements.heroAuthLine.textContent = `User: ${email} | Admin: ${state.auth.isAdmin ? "yes" : "no"} | Remote sync: ${heroRemoteTime}`;
+  }
+  if (elements.adminAuthToggle) {
+    elements.adminAuthToggle.textContent = state.auth.session ? "Admin Account" : "Admin Login";
+    elements.adminAuthToggle.disabled = state.sync.saving;
+  }
   if (elements.adminLoginBtn) elements.adminLoginBtn.disabled = Boolean(state.auth.session) || state.sync.saving;
   if (elements.adminLogoutBtn) elements.adminLogoutBtn.disabled = !state.auth.session || state.sync.saving;
+}
+
+function openAdminAuthModal() {
+  const modal = elements.adminAuthModal;
+  if (!modal) return;
+  if (typeof modal.showModal === "function") {
+    if (!modal.open) modal.showModal();
+  } else {
+    modal.setAttribute("open", "");
+  }
+}
+
+function closeAdminAuthModal() {
+  const modal = elements.adminAuthModal;
+  if (!modal) return;
+  if (typeof modal.close === "function") {
+    if (modal.open) modal.close();
+  } else {
+    modal.removeAttribute("open");
+  }
 }
 
 async function setSession(session) {
@@ -536,6 +524,26 @@ function snakeOwnerForPick(pickNo) {
   return owners[ownerIndex] ?? null;
 }
 
+function draftOwnerForPick(pickNo) {
+  if (!Number.isInteger(pickNo) || pickNo <= 0 || state.draft.order.length === 0) return null;
+  if (state.draft.mode === DRAFT_MODES.SNAKE) return snakeOwnerForPick(pickNo);
+  const ownerIndex = (pickNo - 1) % state.draft.order.length;
+  return state.draft.order[ownerIndex] ?? null;
+}
+
+function upcomingDraftQueue(startPickNo, count = 10) {
+  if (!Number.isInteger(startPickNo) || startPickNo <= 0 || state.draft.order.length === 0) return [];
+  const queue = [];
+  const max = maxPickCount();
+  const lastPickNo = max > 0 ? Math.min(max, startPickNo + count - 1) : startPickNo + count - 1;
+  for (let pickNo = startPickNo; pickNo <= lastPickNo; pickNo += 1) {
+    const owner = draftOwnerForPick(pickNo);
+    if (!owner) break;
+    queue.push({ pickNo, owner });
+  }
+  return queue;
+}
+
 function pickedByPlayerId() {
   const map = new Map();
   for (const pick of state.picks) map.set(Number(pick.player_id), pick.owner);
@@ -608,7 +616,7 @@ function fillOwnerSelectors() {
   if (state.owners.includes(previousOwner)) {
     elements.pickOwner.value = previousOwner;
   }
-  elements.ownersInput.value = state.owners.join(",");
+  elements.ownersInput.value = state.owners.join("\n");
 }
 
 function renderDraftControls() {
@@ -617,41 +625,100 @@ function renderDraftControls() {
   const totalAllowed = maxPickCount();
   const complete = isDraftComplete();
   const canEdit = canEditDraft(false);
+  const orderedPicks = [...state.picks].sort((a, b) => a.pick_no - b.pick_no);
+  const lastPick = orderedPicks.at(-1) ?? null;
+  const playersById = byIdMap(state.players, "player_id");
 
   elements.draftMode.value = state.draft.mode;
   if (elements.picksPerOwnerInput) {
     elements.picksPerOwnerInput.value = String(picksPerOwner);
   }
 
-  if (state.draft.order.length === 0) {
-    elements.draftOrderPreview.textContent = "Draft order: add owners first.";
-  } else {
-    const sequence = state.draft.order.map((owner, idx) => `${idx + 1}. ${owner}`).join(" -> ");
-    elements.draftOrderPreview.textContent = `Draft order: ${sequence} | Picks per owner: ${picksPerOwner}`;
+  if (elements.ownersSummary) {
+    const totalSlots = totalAllowed > 0 ? ` | ${totalAllowed} total draft slots` : "";
+    elements.ownersSummary.textContent = `${state.owners.length} owners loaded${totalSlots}`;
+  }
+  if (elements.ownersPreview) {
+    render(
+      html`${state.owners.map(
+        (owner, index) => html`<span class="owner-seat-chip"><span>${index + 1}</span>${owner}</span>`
+      )}`,
+      elements.ownersPreview
+    );
   }
 
   const nextPick = state.picks.length + 1;
-  const expectedOwner = complete ? null : snakeOwnerForPick(nextPick);
+  const expectedOwner = complete ? null : draftOwnerForPick(nextPick);
   const lockedByDraftLimit = complete || state.owners.length === 0;
+  const remainingPicks = Math.max(0, totalAllowed - state.picks.length);
+  const modeLabel = state.draft.mode === DRAFT_MODES.SNAKE ? "Snake draft" : "List-order draft";
+  const queue = upcomingDraftQueue(nextPick, 6);
 
-  if (complete) {
-    elements.nextPickPreview.textContent = `Draft complete: ${state.picks.length} of ${totalAllowed} picks made.`;
-  } else if (state.draft.mode === DRAFT_MODES.SNAKE && expectedOwner) {
-    elements.nextPickPreview.textContent = `Next pick #${nextPick}: ${expectedOwner} (snake mode) | Remaining picks: ${Math.max(
-      0,
-      totalAllowed - state.picks.length
-    )}`;
-    elements.pickOwner.value = expectedOwner;
-  } else {
-    const remaining = totalAllowed > 0 ? ` | Remaining picks: ${Math.max(0, totalAllowed - state.picks.length)}` : "";
-    elements.nextPickPreview.textContent = `Next pick #${nextPick}: choose owner manually${remaining}`;
+  if (elements.draftFormatPreviewTitle) {
+    elements.draftFormatPreviewTitle.textContent = modeLabel;
+  }
+  if (elements.draftFormatPreview) {
+    elements.draftFormatPreview.textContent =
+      state.owners.length > 0
+        ? `${state.owners.length} owners | ${picksPerOwner} picks each | ${totalAllowed} total picks`
+        : "Add owners to create the draft field.";
   }
 
-  const snakeOwnerLocked = state.draft.mode === DRAFT_MODES.SNAKE && Boolean(expectedOwner) && !lockedByDraftLimit;
-  elements.pickOwner.disabled = !canEdit || lockedByDraftLimit || snakeOwnerLocked;
+  if (complete) {
+    if (elements.nextPickPreviewTitle) elements.nextPickPreviewTitle.textContent = "Draft complete";
+    elements.nextPickPreview.textContent = `${state.picks.length} of ${totalAllowed} picks are in.`;
+  } else if (expectedOwner) {
+    if (elements.nextPickPreviewTitle) elements.nextPickPreviewTitle.textContent = `Pick #${nextPick}: ${expectedOwner}`;
+    elements.nextPickPreview.textContent = `${remainingPicks} picks left | ${modeLabel}`;
+    elements.pickOwner.value = expectedOwner;
+  } else {
+    if (elements.nextPickPreviewTitle) elements.nextPickPreviewTitle.textContent = "Waiting for draft order";
+    const remaining = totalAllowed > 0 ? `${remainingPicks} picks left` : "No draft slots yet";
+    elements.nextPickPreview.textContent = `Add owners to set the queue | ${remaining}`;
+  }
+
+  if (elements.lastPickPreviewTitle && elements.lastPickPreview) {
+    if (!lastPick) {
+      elements.lastPickPreviewTitle.textContent = "No picks yet";
+      elements.lastPickPreview.textContent = "The first selection will appear here once the draft starts.";
+    } else {
+      const player = playersById.get(Number(lastPick.player_id));
+      const teamName = player?.team_abbreviation ?? lastPick.team_name ?? player?.team_name ?? "-";
+      const region = player?.team_region ? ` | ${player.team_region}` : "";
+      elements.lastPickPreviewTitle.textContent = `Pick #${formatInt(lastPick.pick_no)}: ${lastPick.player_name}`;
+      elements.lastPickPreview.textContent = `${lastPick.owner} drafted ${teamName}${region}`;
+    }
+  }
+
+  if (elements.draftOrderMeta) {
+    elements.draftOrderMeta.textContent =
+      queue.length > 0 ? `Next ${queue.length} picks in the live queue` : "Add owners to build the queue";
+  }
+  if (elements.draftOrderPreview) {
+    render(
+      queue.length > 0
+        ? html`${queue.map(
+            (entry, index) => html`<article class="queue-chip ${index === 0 ? "is-on-clock" : ""}">
+              <span>Pick #${formatInt(entry.pickNo)}</span>
+              <strong>${entry.owner}</strong>
+            </article>`
+          )}`
+        : html`<p class="draft-empty-state">No queue yet. Save owners to create the order.</p>`,
+      elements.draftOrderPreview
+    );
+  }
+
+  if (elements.pickOwnerDisplay) {
+    elements.pickOwnerDisplay.textContent = complete ? "Draft complete" : expectedOwner || "Waiting for draft order";
+  }
+
+  elements.pickOwner.disabled = true;
   elements.pickPlayer.disabled = !canEdit || lockedByDraftLimit;
   elements.pickPlayerSearch.disabled = !canEdit || lockedByDraftLimit;
   elements.addPickBtn.disabled = !canEdit || lockedByDraftLimit;
+  if (elements.revertLastPickBtn) {
+    elements.revertLastPickBtn.disabled = !canEdit || state.picks.length === 0;
+  }
 }
 
 function fillPlayerPickSelector() {
@@ -681,7 +748,7 @@ function fillPlayerPickSelector() {
     html`${candidates.map(
       (player) =>
         html`<option value=${player.player_id}>
-          #${formatInt(rankValue(player))} ${player.player_name} (${player.team_abbreviation ?? player.team_name})${player.team_region ? ` - ${player.team_region}` : ""}
+          ${player.player_name} (${player.team_abbreviation ?? player.team_name})${player.team_region ? ` - ${player.team_region}` : ""}
         </option>`
     )}`,
     elements.pickPlayer
@@ -711,7 +778,7 @@ function renderDraftBoard() {
         <td data-label="Rank">${formatInt(rankValue(player))}</td>
         <td data-label="Player">${player.player_name}</td>
         <td data-label="Team">
-          ${renderTeamCell({
+          ${renderTeamCell(teamByIdMap(), {
             teamId: player.team_id,
             teamName: player.team_name,
             teamAbbreviation: player.team_abbreviation,
@@ -720,15 +787,12 @@ function renderDraftBoard() {
         </td>
         <td data-label="Region">${player.team_region ?? "-"}</td>
         <td data-label="Seed">${formatInt(player.team_seed)}</td>
-        <td data-label="Pos">${player.position ?? "-"}</td>
-        <td data-label="Proj Tourn PTS">${formatNum(player.predicted_tournament_points, 1)}</td>
         <td data-label="Proj Games">${formatNum(player.expected_tournament_games, 2)}</td>
         <td data-label="PPG">${formatNum(player.avg_points)}</td>
         <td data-label="MPG">${formatNum(player.avg_minutes)}</td>
-        <td data-label="RPG">${formatNum(player.avg_rebounds)}</td>
-        <td data-label="APG">${formatNum(player.avg_assists)}</td>
-        <td data-label="SPG">${formatNum(player.avg_steals)}</td>
-        <td data-label="BPG">${formatNum(player.avg_blocks)}</td>
+        <td data-label="GP">${formatInt(player.games_played)}</td>
+        <td data-label="Shoot Eff">${formatNum(player.shooting_efficiency, 3)}</td>
+        <td data-label="Pts/Poss">${formatNum(player.points_per_estimated_possessions, 2)}</td>
         <td data-label="PER">${formatNum(player.per)}</td>
         <td data-label="Status" class=${statusClass}>${statusText}</td>
       </tr>`;
@@ -738,64 +802,30 @@ function renderDraftBoard() {
 }
 
 function renderPickLog() {
-  const totals = totalsByPlayerId();
   const players = byIdMap(state.players, "player_id");
 
   render(
     html`${[...state.picks]
       .sort((a, b) => a.pick_no - b.pick_no)
       .map((pick) => {
-        const total = totals.get(Number(pick.player_id));
         const player = players.get(Number(pick.player_id));
-        const points = total?.tournament_points ?? 0;
         return html`<tr>
           <td data-label="Pick">${formatInt(pick.pick_no)}</td>
           <td data-label="Owner">${pick.owner}</td>
           <td data-label="Player">${pick.player_name}</td>
           <td data-label="Team">
-            ${renderTeamCell({
+            ${renderTeamCell(teamByIdMap(), {
               teamId: player?.team_id ?? pick.team_id,
               teamName: pick.team_name ?? player?.team_name,
               teamAbbreviation: player?.team_abbreviation,
               teamLogo: player?.team_logo
             })}
           </td>
-          <td data-label="Tournament PTS">${formatNum(points, 1)}</td>
+          <td data-label="Region">${player?.team_region ?? "-"}</td>
+          <td data-label="Seed">${formatInt(player?.team_seed)}</td>
         </tr>`;
       })}`,
     elements.pickLogBody
-  );
-}
-
-function renderLeaderboard() {
-  const totals = totalsByPlayerId();
-  const owners = normalizeOwnerList([...state.owners, ...state.picks.map((pick) => String(pick.owner ?? "").trim())]);
-  const rows = owners.map((owner) => {
-    const ownerPicks = state.picks.filter((pick) => pick.owner === owner);
-    const totalPts = ownerPicks.reduce((sum, pick) => {
-      const row = totals.get(Number(pick.player_id));
-      return sum + (Number(row?.tournament_points) || 0);
-    }, 0);
-
-    return {
-      owner,
-      players: ownerPicks.length,
-      totalPts
-    };
-  });
-
-  rows.sort((a, b) => b.totalPts - a.totalPts || b.players - a.players || a.owner.localeCompare(b.owner));
-
-  render(
-    html`${rows.map(
-      (row, index) => html`<tr>
-        <td data-label="Rank">${index + 1}</td>
-        <td data-label="Owner">${row.owner}</td>
-        <td data-label="Players">${row.players}</td>
-        <td data-label="Total PTS">${formatNum(row.totalPts, 1)}</td>
-      </tr>`
-    )}`,
-    elements.leaderboardBody
   );
 }
 
@@ -804,10 +834,7 @@ function renderMetaLine() {
     ? new Date(state.meta.generated_at).toLocaleString()
     : "No generated data yet";
   const totals = state.meta?.totals ?? {};
-  const source = state.meta?.team_source ?? "unknown";
-  elements.metaLine.textContent = `Updated: ${generated} | Teams: ${totals.teams ?? 0} | Players: ${
-    totals.players ?? 0
-  } | Games: ${totals.final_events ?? 0} finals loaded | Team source: ${source}`;
+  elements.metaLine.textContent = `Updated: ${generated} | Teams: ${totals.teams ?? 0} | Players: ${totals.players ?? 0}`;
 }
 
 function renderDataStatus() {
@@ -879,9 +906,8 @@ function rerender() {
   renderDraftBoard();
   fillPlayerPickSelector();
   renderPickLog();
-  renderLeaderboard();
   if (!canEditDraft(false)) applyDraftLockState();
-  bindTeamLogoFallbacks();
+  bindImageFallbacks();
 }
 
 async function onAddPick() {
@@ -893,7 +919,7 @@ async function onAddPick() {
   }
 
   const nextPickNo = state.picks.length + 1;
-  const expectedOwner = snakeOwnerForPick(nextPickNo);
+  const expectedOwner = draftOwnerForPick(nextPickNo);
   const owner = expectedOwner ?? elements.pickOwner.value;
   const playerId = Number(elements.pickPlayer.value);
   if (!owner || !Number.isInteger(playerId)) return;
@@ -917,12 +943,32 @@ async function onAddPick() {
   rerender();
 }
 
+async function onRevertLastPick() {
+  if (!canEditDraft(true)) return;
+  if (state.picks.length === 0) return;
+
+  const orderedPicks = [...state.picks].sort((a, b) => a.pick_no - b.pick_no);
+  const lastPick = orderedPicks.at(-1);
+  if (!lastPick) return;
+
+  const owner = String(lastPick.owner ?? "").trim() || "Unknown owner";
+  const playerName = String(lastPick.player_name ?? "").trim() || "Unknown player";
+  const ok = window.confirm(`Revert last pick #${formatInt(lastPick.pick_no)}: ${owner} -> ${playerName}?`);
+  if (!ok) return;
+
+  orderedPicks.pop();
+  state.picks = resequencePicks(orderedPicks);
+  if (elements.pickPlayerSearch) elements.pickPlayerSearch.value = "";
+  await persistDraftState();
+  rerender();
+}
+
 async function onSaveOwners() {
   if (!canEditDraft(true)) return;
 
   const parsed = normalizeOwnerList(
     elements.ownersInput.value
-    .split(",")
+    .split(/[\n,]/)
     .map((x) => x.trim())
   );
 
@@ -976,15 +1022,12 @@ function onDownloadBoard() {
     "team",
     "region",
     "seed",
-    "position",
-    "predicted_tournament_points",
     "expected_tournament_games",
     "ppg",
     "mpg",
-    "rpg",
-    "apg",
-    "spg",
-    "bpg",
+    "games_played",
+    "shooting_efficiency",
+    "points_per_estimated_possessions",
     "per",
     "status"
   ];
@@ -998,15 +1041,12 @@ function onDownloadBoard() {
       p.team_name,
       p.team_region,
       p.team_seed,
-      p.position,
-      p.predicted_tournament_points,
       p.expected_tournament_games,
       p.avg_points,
       p.avg_minutes,
-      p.avg_rebounds,
-      p.avg_assists,
-      p.avg_steals,
-      p.avg_blocks,
+      p.games_played,
+      p.shooting_efficiency,
+      p.points_per_estimated_possessions,
       p.per,
       owner ? `Picked (${owner})` : "Open"
     ];
@@ -1109,7 +1149,7 @@ function onDownloadPicksCsv() {
       pick.player_id,
       pick.player_name,
       pick.team_name,
-      getTeamLogoUrl(playerRow?.team_id ?? pick.team_id, playerRow?.team_logo),
+      getTeamLogoUrl(teamByIdMap(), playerRow?.team_id ?? pick.team_id, playerRow?.team_logo),
       playerRow?.team_seed ?? null,
       playerRow?.position ?? null,
       playerRow?.draft_rank ?? null,
@@ -1270,6 +1310,7 @@ async function onAdminLogin() {
     if (!state.auth.isAdmin) {
       alert("Signed in, but this account is not in admin_users. Ask an existing admin to grant access.");
     }
+    closeAdminAuthModal();
     rerender();
   } catch (err) {
     state.sync.lastError = err.message;
@@ -1283,6 +1324,7 @@ async function onAdminLogout() {
   try {
     await state.draftStore.signOut();
     await setSession(null);
+    closeAdminAuthModal();
     rerender();
   } catch (err) {
     state.sync.lastError = err.message;
@@ -1428,6 +1470,9 @@ function bindEvents() {
   elements.addPickBtn.addEventListener("click", () => {
     void onAddPick();
   });
+  elements.revertLastPickBtn?.addEventListener("click", () => {
+    void onRevertLastPick();
+  });
   elements.exportPicksPdfBtn?.addEventListener("click", onExportPicksPdf);
   elements.downloadPicksCsvBtn.addEventListener("click", onDownloadPicksCsv);
   elements.downloadPicksBtn.addEventListener("click", onDownloadPicks);
@@ -1461,6 +1506,17 @@ function bindEvents() {
   });
   elements.adminLogoutBtn?.addEventListener("click", () => {
     void onAdminLogout();
+  });
+  elements.adminAuthToggle?.addEventListener("click", () => {
+    openAdminAuthModal();
+  });
+  elements.adminAuthClose?.addEventListener("click", () => {
+    closeAdminAuthModal();
+  });
+  elements.adminAuthModal?.addEventListener("click", (event) => {
+    if (event.target === elements.adminAuthModal) {
+      closeAdminAuthModal();
+    }
   });
   elements.adminPassword?.addEventListener("keydown", (event) => {
     if (event.key !== "Enter") return;

@@ -1,5 +1,18 @@
 import { loadLiveState } from "./live-state.js";
+import { isPreviewBracket, resolveBracketData } from "./bracket-preview.js";
+import { renderBracketTable as renderSharedBracketTable } from "./shared-bracket.js";
+import {
+  bindImageFallbacks,
+  byIdMap,
+  escapeHtml,
+  formatInt,
+  formatNum,
+  renderPlayerCell,
+  renderTeamCell
+} from "./shared-ui.js";
 import { html, nothing, render } from "https://esm.sh/lit-html@3.3.1";
+
+const AUTO_REFRESH_STORAGE_KEY = "pool_public_auto_refresh_enabled";
 
 const state = {
   meta: null,
@@ -18,11 +31,13 @@ const state = {
   liveUpdatedAt: null,
   refreshStatus: "pending",
   lastLiveCheckAt: null,
-  refreshInFlight: false
+  refreshInFlight: false,
+  autoRefreshEnabled: true
 };
 
 const elements = {
   metaLine: document.querySelector("#meta-line"),
+  refreshToggle: document.querySelector("#refresh-toggle"),
   refreshIndicator: document.querySelector("#refresh-indicator"),
   leaderboardHint: document.querySelector("#leaderboard-hint"),
   detailSummary: document.querySelector("#detail-summary"),
@@ -33,131 +48,44 @@ const elements = {
   bracketBody: document.querySelector("#bracket-body")
 };
 
-function byIdMap(rows, idKey = "player_id") {
-  const map = new Map();
-  for (const row of rows) map.set(Number(row[idKey]), row);
-  return map;
-}
-
-function formatNum(n, digits = 1) {
-  if (n === null || n === undefined || Number.isNaN(n)) return "-";
-  return Number(n).toFixed(digits);
-}
-
-function formatInt(n) {
-  if (n === null || n === undefined || Number.isNaN(n)) return "-";
-  return String(Math.round(Number(n)));
-}
-
-function escapeHtml(value) {
-  return String(value ?? "")
-    .replaceAll("&", "&amp;")
-    .replaceAll("<", "&lt;")
-    .replaceAll(">", "&gt;")
-    .replaceAll('"', "&quot;")
-    .replaceAll("'", "&#039;");
-}
-
 function seedValue(playerOrTeam) {
   const seed = Number(playerOrTeam?.team_seed ?? playerOrTeam?.seed);
   return Number.isFinite(seed) && seed > 0 ? seed : null;
 }
 
-function firstLetterToken(value) {
-  const token = String(value ?? "")
-    .replace(/[^A-Za-z0-9 ]/g, " ")
-    .split(" ")
-    .map((part) => part.trim())
-    .filter(Boolean);
-  if (token.length === 0) return "TM";
-  if (token.length === 1) return token[0].slice(0, 2).toUpperCase();
-  return `${token[0][0] ?? ""}${token[1][0] ?? ""}`.toUpperCase();
-}
-
-function getTeamLogoUrl(teamMap, teamId, explicitLogo = null) {
-  if (explicitLogo && String(explicitLogo).trim() !== "") return String(explicitLogo).trim();
-  const team = teamMap.get(Number(teamId));
-  if (team?.logo && String(team.logo).trim() !== "") return String(team.logo).trim();
-  if (Number.isInteger(Number(teamId)) && Number(teamId) > 0) {
-    return `https://a.espncdn.com/i/teamlogos/ncaa/500/${Number(teamId)}.png`;
-  }
-  return null;
-}
-
-function renderTeamCell(teamMap, { teamId, teamName, teamAbbreviation, teamLogo }) {
-  const logoUrl = getTeamLogoUrl(teamMap, teamId, teamLogo);
-  const fallback = firstLetterToken(teamAbbreviation || teamName);
-  return html`<span class="team-cell"
-    ><span class="team-logo-wrap"
-      >${logoUrl
-        ? html`<img class="team-logo-img" src=${logoUrl} alt="${teamName ?? "Team"} logo" loading="lazy" />`
-        : html`<span class="team-logo-fallback is-visible">${fallback}</span>`}
-      ${logoUrl ? html`<span class="team-logo-fallback">${fallback}</span>` : nothing}</span
-    ><span class="team-cell-name">${teamName ?? "-"}</span></span
-  >`;
-}
-
-function renderPlayerCell({ playerName, headshot }) {
-  const fallback = firstLetterToken(playerName);
-  return html`<span class="player-cell"
-    ><span class="player-headshot-wrap"
-      >${headshot
-        ? html`<img class="player-headshot-img" src=${headshot} alt="${playerName ?? "Player"} headshot" loading="lazy" />`
-        : html`<span class="player-headshot-fallback is-visible">${fallback}</span>`}
-      ${headshot ? html`<span class="player-headshot-fallback">${fallback}</span>` : nothing}</span
-    ><span class="player-cell-name">${playerName ?? "-"}</span></span
-  >`;
-}
-
-function bindTeamLogoFallbacks() {
-  const images = document.querySelectorAll(
-    "img.team-logo-img:not([data-logo-bound]), img.player-headshot-img:not([data-logo-bound])"
-  );
-  for (const img of images) {
-    img.setAttribute("data-logo-bound", "1");
-    const wrap = img.closest(".team-logo-wrap, .player-headshot-wrap");
-    const fallback = wrap?.querySelector(".team-logo-fallback, .player-headshot-fallback");
-    const showFallback = () => {
-      img.classList.add("is-hidden");
-      if (fallback) fallback.classList.add("is-visible");
-    };
-    img.addEventListener("error", showFallback);
-    if (img.complete && img.naturalWidth === 0) showFallback();
-  }
-}
-
 function renderMetaLine() {
-  const generated = state.meta?.generated_at
-    ? new Date(state.meta.generated_at).toLocaleString()
-    : "No generated data yet";
-  const liveUpdated = state.liveUpdatedAt ? new Date(state.liveUpdatedAt).toLocaleString() : "unknown";
-  elements.metaLine.textContent = `Stats refresh: ${generated} | Live picks source: ${state.liveSource} | Live picks updated: ${liveUpdated}`;
+  const liveUpdated = state.liveUpdatedAt ?? state.meta?.generated_at ?? null;
+  elements.metaLine.textContent = liveUpdated
+    ? `Standings updated: ${new Date(liveUpdated).toLocaleString()}`
+    : "Standings updated: pending";
+}
+
+function readAutoRefreshPreference() {
+  try {
+    const stored = window.localStorage.getItem(AUTO_REFRESH_STORAGE_KEY);
+    if (stored === null) return true;
+    return stored !== "false";
+  } catch {
+    return true;
+  }
+}
+
+function writeAutoRefreshPreference(value) {
+  try {
+    window.localStorage.setItem(AUTO_REFRESH_STORAGE_KEY, value ? "true" : "false");
+  } catch {
+    // Ignore storage failures.
+  }
+}
+
+function renderRefreshToggle() {
+  if (!elements.refreshToggle) return;
+  elements.refreshToggle.textContent = state.autoRefreshEnabled ? "Pause Refresh" : "Resume Refresh";
 }
 
 function renderRefreshIndicator() {
   if (!elements.refreshIndicator) return;
-
-  const pollSeconds = Math.max(1, Math.round(state.pollIntervalMs / 1000));
-  const checkedAt = state.lastLiveCheckAt ? new Date(state.lastLiveCheckAt).toLocaleTimeString() : "not yet";
-  const status = state.refreshStatus;
-  elements.refreshIndicator.dataset.status = status;
-
-  if (status === "ok") {
-    elements.refreshIndicator.textContent = `Live data connected. Last check: ${checkedAt}. Auto-refresh every ${pollSeconds}s.`;
-    return;
-  }
-
-  if (status === "warn") {
-    elements.refreshIndicator.textContent = `Live feed warning (${state.liveSource}). Last check: ${checkedAt}. Showing latest available picks.`;
-    return;
-  }
-
-  if (status === "error") {
-    elements.refreshIndicator.textContent = `Live refresh failed. Last attempt: ${checkedAt}. Retrying every ${pollSeconds}s.`;
-    return;
-  }
-
-  elements.refreshIndicator.textContent = "Checking live updates...";
+  elements.refreshIndicator.hidden = true;
 }
 
 function buildTeamStatusMap() {
@@ -238,6 +166,8 @@ function buildTeamStatusMap() {
 
 function renderLeaderboard() {
   const totals = byIdMap(state.playerTotals, "player_id");
+  const players = byIdMap(state.players, "player_id");
+  const teamStatus = buildTeamStatusMap();
   const owners = state.owners.length > 0 ? state.owners : [...new Set(state.picks.map((pick) => pick.owner))];
 
   const rows = owners.map((owner) => {
@@ -246,13 +176,21 @@ function renderLeaderboard() {
       const total = totals.get(Number(pick.player_id));
       return sum + (Number(total?.tournament_points) || 0);
     }, 0);
-    return { owner, players: ownerPicks.length, totalPts };
+    const playersRemaining = ownerPicks.reduce((sum, pick) => {
+      const player = players.get(Number(pick.player_id));
+      const status = teamStatus.get(Number(player?.team_id ?? pick.team_id))?.status ?? "Alive";
+      return sum + (status.startsWith("Eliminated") ? 0 : 1);
+    }, 0);
+    return { owner, players: ownerPicks.length, playersRemaining, totalPts };
   });
 
-  rows.sort((a, b) => b.totalPts - a.totalPts || b.players - a.players || a.owner.localeCompare(b.owner));
+  rows.sort(
+    (a, b) =>
+      b.totalPts - a.totalPts || b.playersRemaining - a.playersRemaining || b.players - a.players || a.owner.localeCompare(b.owner)
+  );
 
   if (rows.length === 0) {
-    render(html`<tr><td colspan="4">No picks have been published yet.</td></tr>`, elements.leaderboardBody);
+    render(html`<tr><td colspan="5">No picks have been published yet.</td></tr>`, elements.leaderboardBody);
     if (elements.leaderboardHint) {
       elements.leaderboardHint.textContent = "No owners with picks yet.";
     }
@@ -277,6 +215,7 @@ function renderLeaderboard() {
         <td data-label="Rank">${index + 1}</td>
         <td data-label="Owner">${row.owner}</td>
         <td data-label="Players">${row.players}</td>
+        <td data-label="Remaining">${row.playersRemaining}</td>
         <td data-label="Total PTS">${formatNum(row.totalPts, 1)}</td>
       </tr>`
     )}`,
@@ -304,7 +243,6 @@ function renderPickDetails() {
         team_logo: player?.team_logo ?? null,
         team_seed: player?.team_seed ?? null,
         team_status: teamStatus.get(Number(player?.team_id ?? pick.team_id))?.status ?? "Alive",
-        draft_status: "Picked",
         tourn_pts: total?.tournament_points ?? 0,
         tourn_gp: total?.games_played ?? 0
       };
@@ -318,12 +256,15 @@ function renderPickDetails() {
   const selectedTotal = state.selectedOwner
     ? rows.reduce((sum, row) => sum + (Number(row.tourn_pts) || 0), 0)
     : null;
+  const selectedRemaining = state.selectedOwner
+    ? rows.filter((row) => !row.team_status.startsWith("Eliminated")).length
+    : null;
   const selectedEliminated = state.selectedOwner
     ? rows.filter((row) => row.team_status.startsWith("Eliminated")).length
     : null;
 
   elements.detailSummary.textContent = state.selectedOwner
-    ? `${rows.length} drafted players | ${state.selectedOwner} total points: ${formatNum(selectedTotal, 1)} | Eliminated: ${selectedEliminated}`
+    ? `${rows.length} drafted players | ${state.selectedOwner} total points: ${formatNum(selectedTotal, 1)} | Remaining: ${selectedRemaining} | Eliminated: ${selectedEliminated}`
     : `${rows.length} drafted players`;
   if (elements.detailClearOwner) {
     elements.detailClearOwner.hidden = !state.selectedOwner;
@@ -351,7 +292,7 @@ function renderPickDetails() {
           })}</td
         >
         <td data-label="Seed">${formatInt(row.team_seed)}</td>
-        <td data-label="Draft Status">${row.draft_status}</td>
+        <td data-label="Status">${row.team_status.startsWith("Eliminated") ? "Eliminated" : "Active"}</td>
         <td data-label="Tourn PTS">${formatNum(row.tourn_pts, 1)}</td>
         <td data-label="Tourn GP">${formatInt(row.tourn_gp)}</td>
       </tr>`
@@ -359,59 +300,17 @@ function renderPickDetails() {
     elements.detailBody
   );
 
-  bindTeamLogoFallbacks();
+  bindImageFallbacks();
 }
 
 function renderBracketTable() {
-  if (!elements.bracketSummary || !elements.bracketBody) return;
-
-  const rounds = new Map(
-    (state.bracket?.rounds ?? [])
-      .map((round) => [Number(round.id), String(round.label ?? `Round ${round.id}`)])
-      .filter(([id]) => Number.isInteger(id))
-  );
-  const rows = [...(state.bracket?.matchups ?? [])].sort((a, b) => {
-    const aRound = Number(a.round_id) || 99;
-    const bRound = Number(b.round_id) || 99;
-    if (aRound !== bRound) return aRound - bRound;
-    const aLoc = Number(a.bracket_location) || 999;
-    const bLoc = Number(b.bracket_location) || 999;
-    if (aLoc !== bLoc) return aLoc - bLoc;
-    return String(a.date ?? "").localeCompare(String(b.date ?? ""));
+  renderSharedBracketTable({
+    bracket: state.bracket,
+    summaryElement: elements.bracketSummary,
+    bodyElement: elements.bracketBody,
+    isPreview: isPreviewBracket(state.bracket),
+    includeRegion: true
   });
-
-  if (rows.length === 0) {
-    elements.bracketSummary.textContent = "Bracket not published yet.";
-    render(html`<tr><td colspan="3">No bracket matchups available.</td></tr>`, elements.bracketBody);
-    return;
-  }
-
-  const completed = rows.filter((row) => row.status_state === "post").length;
-  elements.bracketSummary.textContent = `Matchups: ${rows.length} | Final: ${completed}`;
-
-  render(
-    html`${rows.map((row) => {
-      const roundLabel = rounds.get(Number(row.round_id)) ?? `Round ${row.round_id ?? "-"}`;
-      const one = row.competitor_one;
-      const two = row.competitor_two;
-      const oneLabel = one ? `${one.team_name ?? "TBD"} (${formatInt(seedValue(one))})` : "TBD";
-      const twoLabel = two ? `${two.team_name ?? "TBD"} (${formatInt(seedValue(two))})` : "TBD";
-
-      let statusText = row.status_desc ?? row.status_state ?? "-";
-      if (row.status_state === "post") {
-        statusText = `Final ${formatInt(one?.score)}-${formatInt(two?.score)}`;
-      } else if (row.status_state === "pre") {
-        statusText = row.date ? new Date(row.date).toLocaleString() : "Scheduled";
-      }
-
-      return html`<tr>
-        <td>${roundLabel}</td>
-        <td>${`${oneLabel} vs ${twoLabel}`}</td>
-        <td>${statusText}</td>
-      </tr>`;
-    })}`,
-    elements.bracketBody
-  );
 }
 
 function rerender() {
@@ -433,6 +332,12 @@ function setSelectedOwner(owner) {
 }
 
 function bindEvents() {
+  elements.refreshToggle?.addEventListener("click", () => {
+    state.autoRefreshEnabled = !state.autoRefreshEnabled;
+    writeAutoRefreshPreference(state.autoRefreshEnabled);
+    renderRefreshToggle();
+  });
+
   elements.leaderboardBody.addEventListener("click", (event) => {
     const target = event.target;
     if (!(target instanceof Element)) return;
@@ -504,29 +409,39 @@ async function loadJsonIfPresent(file) {
 }
 
 async function boot() {
-  const [meta, teams, players, playerTotals, bracket] = await Promise.all([
+  const [meta, teams, players, playerTotals, bracket, bracketPreview] = await Promise.all([
     loadJson("./data/meta.json"),
     loadJson("./data/teams.json"),
     loadJson("./data/players.json"),
     loadJson("./data/player_totals.json"),
-    loadJsonIfPresent("./data/bracket.json")
+    loadJsonIfPresent("./data/bracket.json"),
+    loadJsonIfPresent("./data/bracket-preview.json")
   ]);
 
   state.meta = meta;
   state.teams = Array.isArray(teams) ? teams : [];
   state.players = Array.isArray(players) ? players : [];
   state.playerTotals = Array.isArray(playerTotals) ? playerTotals : [];
-  state.bracket = bracket && typeof bracket === "object" ? bracket : { rounds: [], matchups: [] };
+  state.bracket = resolveBracketData(
+    bracket && typeof bracket === "object" ? bracket : { rounds: [], matchups: [] },
+    bracketPreview && typeof bracketPreview === "object" ? bracketPreview : null
+  );
+  state.autoRefreshEnabled = readAutoRefreshPreference();
   bindEvents();
+  renderRefreshToggle();
   await refreshLiveState();
 
   // Keep public standings in sync with picks and new game totals.
   setInterval(async () => {
+    if (!state.autoRefreshEnabled) return;
     if (state.refreshInFlight) return;
     state.refreshInFlight = true;
     try {
       state.playerTotals = await loadJson("./data/player_totals.json");
-      state.bracket = (await loadJsonIfPresent("./data/bracket.json")) ?? state.bracket;
+      state.bracket = resolveBracketData(
+        (await loadJsonIfPresent("./data/bracket.json")) ?? state.bracket,
+        await loadJsonIfPresent("./data/bracket-preview.json")
+      );
       await refreshLiveState();
     } catch {
       // Keep rendering existing state if a refresh fails.

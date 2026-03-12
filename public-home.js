@@ -1,5 +1,18 @@
 import { loadLiveState } from "./live-state.js";
+import { isPreviewBracket, resolveBracketData } from "./bracket-preview.js";
+import { renderBracketTable as renderSharedBracketTable } from "./shared-bracket.js";
+import {
+  bindImageFallbacks,
+  byIdMap,
+  dateLabel,
+  escapeHtml,
+  formatInt,
+  formatNum,
+  renderTeamCell
+} from "./shared-ui.js";
 import { html, nothing, render } from "https://esm.sh/lit-html@3.3.1";
+
+const AUTO_REFRESH_STORAGE_KEY = "pool_public_auto_refresh_enabled";
 
 const state = {
   meta: null,
@@ -17,12 +30,13 @@ const state = {
     order: [],
     picks_per_owner: 6
   },
-  pollIntervalMs: 15000,
+  pollIntervalMs: 5000,
   liveSource: "none",
   liveUpdatedAt: null,
   refreshStatus: "pending",
   lastLiveCheckAt: null,
   refreshInFlight: false,
+  autoRefreshEnabled: true,
   filters: {
     sortMode: "seed_then_team",
     seedDirection: "asc",
@@ -34,6 +48,7 @@ const state = {
 
 const elements = {
   metaLine: document.querySelector("#meta-line"),
+  refreshToggle: document.querySelector("#refresh-toggle"),
   refreshIndicator: document.querySelector("#refresh-indicator"),
   filterSummary: document.querySelector("#filter-summary"),
   sortMode: document.querySelector("#sort-mode"),
@@ -53,84 +68,6 @@ const elements = {
   bracketBody: document.querySelector("#bracket-body"),
   boardBody: document.querySelector("#board-body")
 };
-
-function formatInt(n) {
-  if (n === null || n === undefined || Number.isNaN(n)) return "-";
-  return String(Math.round(Number(n)));
-}
-
-function formatNum(n, digits = 1) {
-  if (n === null || n === undefined || Number.isNaN(n)) return "-";
-  return Number(n).toFixed(digits);
-}
-
-function byIdMap(rows, idKey) {
-  const map = new Map();
-  for (const row of rows ?? []) {
-    const id = Number(row?.[idKey]);
-    if (!Number.isInteger(id)) continue;
-    map.set(id, row);
-  }
-  return map;
-}
-
-function escapeHtml(value) {
-  return String(value ?? "")
-    .replaceAll("&", "&amp;")
-    .replaceAll("<", "&lt;")
-    .replaceAll(">", "&gt;")
-    .replaceAll('"', "&quot;")
-    .replaceAll("'", "&#039;");
-}
-
-function firstLetterToken(value) {
-  const token = String(value ?? "")
-    .replace(/[^A-Za-z0-9 ]/g, " ")
-    .split(" ")
-    .map((part) => part.trim())
-    .filter(Boolean);
-  if (token.length === 0) return "TM";
-  if (token.length === 1) return token[0].slice(0, 2).toUpperCase();
-  return `${token[0][0] ?? ""}${token[1][0] ?? ""}`.toUpperCase();
-}
-
-function getTeamLogoUrl(teamMap, teamId, explicitLogo = null) {
-  if (explicitLogo && String(explicitLogo).trim() !== "") return String(explicitLogo).trim();
-  const team = teamMap.get(Number(teamId));
-  if (team?.logo && String(team.logo).trim() !== "") return String(team.logo).trim();
-  if (Number.isInteger(Number(teamId)) && Number(teamId) > 0) {
-    return `https://a.espncdn.com/i/teamlogos/ncaa/500/${Number(teamId)}.png`;
-  }
-  return null;
-}
-
-function renderTeamCell(teamMap, { teamId, teamName, teamAbbreviation, teamLogo }) {
-  const logoUrl = getTeamLogoUrl(teamMap, teamId, teamLogo);
-  const fallback = firstLetterToken(teamAbbreviation || teamName);
-  return html`<span class="team-cell"
-    ><span class="team-logo-wrap"
-      >${logoUrl
-        ? html`<img class="team-logo-img" src=${logoUrl} alt="${teamName ?? "Team"} logo" loading="lazy" />`
-        : html`<span class="team-logo-fallback is-visible">${fallback}</span>`}
-      ${logoUrl ? html`<span class="team-logo-fallback">${fallback}</span>` : nothing}</span
-    ><span class="team-cell-name">${teamName ?? "-"}</span></span
-  >`;
-}
-
-function bindTeamLogoFallbacks(root = document) {
-  const images = root.querySelectorAll("img.team-logo-img:not([data-logo-bound])");
-  for (const img of images) {
-    img.setAttribute("data-logo-bound", "1");
-    const wrap = img.closest(".team-logo-wrap");
-    const fallback = wrap?.querySelector(".team-logo-fallback");
-    const showFallback = () => {
-      img.classList.add("is-hidden");
-      if (fallback) fallback.classList.add("is-visible");
-    };
-    img.addEventListener("error", showFallback);
-    if (img.complete && img.naturalWidth === 0) showFallback();
-  }
-}
 
 function renderManaged(target, value) {
   if (!target) return;
@@ -194,6 +131,11 @@ function seedValue(playerOrTeam) {
   return Number.isFinite(seed) && seed > 0 ? seed : null;
 }
 
+function regionValue(playerOrTeam) {
+  const region = String(playerOrTeam?.team_region ?? playerOrTeam?.region ?? "").trim();
+  return region || null;
+}
+
 function seedSortValue(playerOrTeam) {
   const seed = seedValue(playerOrTeam);
   if (seed === null) return state.filters.seedDirection === "asc" ? 99 : -1;
@@ -214,13 +156,6 @@ function compareTeam(a, b) {
 
 function comparePlayer(a, b) {
   return String(a.player_name ?? "").localeCompare(String(b.player_name ?? ""));
-}
-
-function dateLabel(value) {
-  if (!value) return "-";
-  const date = new Date(value);
-  if (Number.isNaN(date.getTime())) return "-";
-  return date.toLocaleString();
 }
 
 function sortedPlayersForBoard() {
@@ -337,38 +272,38 @@ function nextUpInfo(nextPickNo) {
 }
 
 function renderMetaLine() {
-  const generated = state.meta?.generated_at
-    ? new Date(state.meta.generated_at).toLocaleString()
-    : "No generated data yet";
-  const liveUpdated = state.liveUpdatedAt ? new Date(state.liveUpdatedAt).toLocaleString() : "unknown";
-  const liveStatus = state.liveSource === "supabase_rest" ? "Live picks connected" : "Live picks pending";
-  elements.metaLine.textContent = `Stats refresh: ${generated} | ${liveStatus} | Live picks updated: ${liveUpdated}`;
+  const liveUpdated = state.liveUpdatedAt ?? state.meta?.generated_at ?? null;
+  elements.metaLine.textContent = liveUpdated
+    ? `Live picks updated: ${new Date(liveUpdated).toLocaleString()}`
+    : "Live picks updated: pending";
+}
+
+function readAutoRefreshPreference() {
+  try {
+    const stored = window.localStorage.getItem(AUTO_REFRESH_STORAGE_KEY);
+    if (stored === null) return true;
+    return stored !== "false";
+  } catch {
+    return true;
+  }
+}
+
+function writeAutoRefreshPreference(value) {
+  try {
+    window.localStorage.setItem(AUTO_REFRESH_STORAGE_KEY, value ? "true" : "false");
+  } catch {
+    // Ignore storage failures.
+  }
+}
+
+function renderRefreshToggle() {
+  if (!elements.refreshToggle) return;
+  elements.refreshToggle.textContent = state.autoRefreshEnabled ? "Pause Refresh" : "Resume Refresh";
 }
 
 function renderRefreshIndicator() {
   if (!elements.refreshIndicator) return;
-
-  const pollSeconds = Math.max(1, Math.round(state.pollIntervalMs / 1000));
-  const checkedAt = state.lastLiveCheckAt ? new Date(state.lastLiveCheckAt).toLocaleTimeString() : "not yet";
-  const status = state.refreshStatus;
-  elements.refreshIndicator.dataset.status = status;
-
-  if (status === "ok") {
-    elements.refreshIndicator.textContent = `Live data connected. Last check: ${checkedAt}. Auto-refresh every ${pollSeconds}s.`;
-    return;
-  }
-
-  if (status === "warn") {
-    elements.refreshIndicator.textContent = `Live feed warning. Last check: ${checkedAt}. Showing latest available picks.`;
-    return;
-  }
-
-  if (status === "error") {
-    elements.refreshIndicator.textContent = `Live refresh failed. Last attempt: ${checkedAt}. Retrying every ${pollSeconds}s.`;
-    return;
-  }
-
-  elements.refreshIndicator.textContent = "Checking live updates...";
+  elements.refreshIndicator.hidden = true;
 }
 
 function renderStatus() {
@@ -436,7 +371,7 @@ function renderStatus() {
           })}</span
         >`
     );
-    bindTeamLogoFallbacks(elements.statusLatest);
+    bindImageFallbacks(elements.statusLatest);
   }
   elements.statusAvailable.textContent = `${availableCount} of ${state.players.length}`;
 }
@@ -452,12 +387,35 @@ function renderDraftOrder() {
   const nextOwner = nextUp.nextUpOwner;
   const nextUpPickNo = nextUp.nextUpPickNo;
   const hasBackToBack = nextUp.immediateOwner === onClockOwner;
-  elements.draftOrderMeta.textContent =
+  renderManaged(
+    elements.draftOrderMeta,
     order.length > 0
-      ? `${order.length} owners | Mode: ${state.draft.mode} | Picks/owner: ${picksPerOwnerValue()} | Total picks: ${state.picks.length}${
-          totalPickCap > 0 ? `/${totalPickCap}` : ""
-        } | ${complete ? "Status: Complete" : `On clock: ${onClockOwner ?? "-"} | Next: ${nextOwner ?? "-"}`}`
-      : "No order published";
+      ? html`
+          <article class="draft-order-highlight">
+            <span class="draft-order-highlight-label">Owners</span>
+            <strong>${order.length}</strong>
+          </article>
+          <article class="draft-order-highlight">
+            <span class="draft-order-highlight-label">Mode</span>
+            <strong>${state.draft.mode}</strong>
+          </article>
+          <article class="draft-order-highlight">
+            <span class="draft-order-highlight-label">Picks</span>
+            <strong>${state.picks.length}${totalPickCap > 0 ? `/${totalPickCap}` : ""}</strong>
+          </article>
+          <article class="draft-order-highlight">
+            <span class="draft-order-highlight-label">${complete ? "Status" : "On Clock"}</span>
+            <strong>${complete ? "Complete" : onClockOwner ?? "-"}</strong>
+            ${!complete && nextOwner
+              ? html`<span class="draft-order-highlight-sub">Next: ${nextOwner}${nextUpPickNo ? ` (#${nextUpPickNo})` : ""}</span>`
+              : nothing}
+          </article>
+        `
+      : html`<article class="draft-order-highlight draft-order-highlight-empty">
+          <span class="draft-order-highlight-label">Draft Order</span>
+          <strong>No order published</strong>
+        </article>`
+  );
 
   if (order.length === 0) {
     render(html`<tr><td colspan="3">No draft order available.</td></tr>`, elements.draftOrderBody);
@@ -481,8 +439,8 @@ function renderDraftOrder() {
       }
 
       return html`<tr class=${`draft-order-row${rowClass}`}>
-        <td data-label="Spot">${idx + 1}</td>
-        <td data-label="Owner">${owner}</td>
+        <td data-label="Spot"><span class="draft-order-spot">${idx + 1}</span></td>
+        <td data-label="Owner"><span class="draft-order-owner">${owner}</span></td>
         <td data-label="Draft Status"><span class=${`order-chip${chipClass}`}>${statusText}</span></td>
       </tr>`;
     })}`,
@@ -491,57 +449,14 @@ function renderDraftOrder() {
 }
 
 function renderBracketTable() {
-  if (!elements.bracketSummary || !elements.bracketBody) return;
-
-  const rounds = new Map(
-    (state.bracket?.rounds ?? [])
-      .map((round) => [Number(round.id), String(round.label ?? `Round ${round.id}`)])
-      .filter(([id]) => Number.isInteger(id))
-  );
-  const rows = [...(state.bracket?.matchups ?? [])].sort((a, b) => {
-    const aRound = Number(a.round_id) || 99;
-    const bRound = Number(b.round_id) || 99;
-    if (aRound !== bRound) return aRound - bRound;
-    const aLoc = Number(a.bracket_location) || 999;
-    const bLoc = Number(b.bracket_location) || 999;
-    if (aLoc !== bLoc) return aLoc - bLoc;
-    return String(a.date ?? "").localeCompare(String(b.date ?? ""));
+  renderSharedBracketTable({
+    bracket: state.bracket,
+    summaryElement: elements.bracketSummary,
+    bodyElement: elements.bracketBody,
+    isPreview: isPreviewBracket(state.bracket),
+    includeRegion: true,
+    scheduledLabel: (row) => dateLabel(row?.date)
   });
-
-  if (rows.length === 0) {
-    elements.bracketSummary.textContent = "Bracket not published yet.";
-    render(html`<tr><td colspan="3">No bracket matchups available.</td></tr>`, elements.bracketBody);
-    return;
-  }
-
-  const completed = rows.filter((row) => row.status_state === "post").length;
-  elements.bracketSummary.textContent = `Matchups: ${rows.length} | Final: ${completed}`;
-
-  render(
-    html`${rows.map((row) => {
-      const roundLabel = rounds.get(Number(row.round_id)) ?? `Round ${row.round_id ?? "-"}`;
-      const one = row.competitor_one;
-      const two = row.competitor_two;
-      const oneLabel = one ? `${one.team_name ?? "TBD"} (${formatInt(one.seed)})` : "TBD";
-      const twoLabel = two ? `${two.team_name ?? "TBD"} (${formatInt(two.seed)})` : "TBD";
-
-      let statusText = row.status_desc ?? row.status_state ?? "-";
-      if (row.status_state === "post") {
-        const oneScore = one ? formatInt(one.score) : "-";
-        const twoScore = two ? formatInt(two.score) : "-";
-        statusText = `Final ${oneScore}-${twoScore}`;
-      } else if (row.status_state === "pre") {
-        statusText = dateLabel(row.date);
-      }
-
-      return html`<tr>
-        <td>${roundLabel}</td>
-        <td>${`${oneLabel} vs ${twoLabel}`}</td>
-        <td>${statusText}</td>
-      </tr>`;
-    })}`,
-    elements.bracketBody
-  );
 }
 
 function renderBoard(players) {
@@ -553,7 +468,7 @@ function renderBoard(players) {
   elements.filterSummary.textContent = parts.join(" | ");
 
   if (players.length === 0) {
-    render(html`<tr><td colspan="4">No players match this filter.</td></tr>`, elements.boardBody);
+    render(html`<tr><td colspan="5">No players match this filter.</td></tr>`, elements.boardBody);
     return;
   }
 
@@ -571,6 +486,7 @@ function renderBoard(players) {
             teamLogo: player.team_logo
           })}</td
         >
+        <td data-label="Region">${regionValue(player) ?? "-"}</td>
         <td data-label="Seed">${formatInt(seedValue(player))}</td>
         <td data-label="Draft Status">${draftStatus}</td>
       </tr>`;
@@ -578,7 +494,7 @@ function renderBoard(players) {
     elements.boardBody
   );
 
-  bindTeamLogoFallbacks();
+  bindImageFallbacks();
 }
 
 function rerender() {
@@ -611,6 +527,12 @@ async function refreshLiveState() {
 }
 
 function bindEvents() {
+  elements.refreshToggle?.addEventListener("click", () => {
+    state.autoRefreshEnabled = !state.autoRefreshEnabled;
+    writeAutoRefreshPreference(state.autoRefreshEnabled);
+    renderRefreshToggle();
+  });
+
   elements.sortMode.addEventListener("change", () => {
     state.filters.sortMode = elements.sortMode.value;
     rerender();
@@ -672,26 +594,33 @@ async function loadJsonIfPresent(file) {
 }
 
 async function refreshStaticData() {
-  const [meta, teams, players, bracket] = await Promise.all([
+  const [meta, teams, players, bracket, bracketPreview] = await Promise.all([
     loadJson("./data/meta.json"),
     loadJson("./data/teams.json"),
     loadJson("./data/players.json"),
-    loadJsonIfPresent("./data/bracket.json")
+    loadJsonIfPresent("./data/bracket.json"),
+    loadJsonIfPresent("./data/bracket-preview.json")
   ]);
 
   state.meta = meta;
   state.teams = Array.isArray(teams) ? teams : [];
   state.players = Array.isArray(players) ? players : [];
-  state.bracket = bracket && typeof bracket === "object" ? bracket : { available: false, rounds: [], matchups: [] };
+  state.bracket = resolveBracketData(
+    bracket && typeof bracket === "object" ? bracket : { available: false, rounds: [], matchups: [] },
+    bracketPreview && typeof bracketPreview === "object" ? bracketPreview : null
+  );
 }
 
 async function boot() {
   await refreshStaticData();
+  state.autoRefreshEnabled = readAutoRefreshPreference();
 
   bindEvents();
+  renderRefreshToggle();
   await refreshLiveState();
 
   setInterval(async () => {
+    if (!state.autoRefreshEnabled) return;
     if (state.refreshInFlight) return;
     state.refreshInFlight = true;
     try {

@@ -11,56 +11,46 @@
       rel="stylesheet"
     />
     <link rel="icon" href="./favicon.svg?v=20260312b" type="image/svg+xml" />
-    <link rel="stylesheet" href="styles.css?v=20260312f" />
+    <link rel="stylesheet" href="styles.css?v=20260312ah" />
   </head>
   <body>
     <div class="ambient"></div>
     <main class="layout">
-      <header class="hero card">
-        <div class="hero-top">
-          <p class="kicker">Public Pool View</p>
-          <nav class="hero-nav" aria-label="Page navigation">
-            <a href="./index.html">Home</a>
-            <a href="./public-leaderboard.html" class="is-active">Leaderboard</a>
-            <a href="./admin.html">Admin</a>
-          </nav>
-        </div>
-        <h1>Live Leaderboard</h1>
-        <p class="hero-subtitle">Owner standings and per-player tournament production.</p>
-        <p id="meta-line">Loading data...</p>
-        <p id="refresh-indicator" class="live-refresh" data-status="pending">Checking live updates...</p>
-      </header>
+      <pool-page-hero
+        title="Live Leaderboard"
+        active-page="leaderboard"
+        meta-id="meta-line"
+        action-id="refresh-toggle"
+        action-label="Pause Refresh"
+        action-placement="bottom-right"
+        refresh
+      ></pool-page-hero>
 
-      <section class="card two-col leaderboard-layout">
+      <pool-two-col-section class="leaderboard-layout">
         <div>
-          <div class="section-head">
-            <h2>Leaderboard</h2>
-            <p id="leaderboard-hint">Click an owner row to filter player details.</p>
-          </div>
-          <div class="table-wrap tall mobile-card-wrap">
+          <pool-section-head title="Leaderboard" copy-id="leaderboard-hint" copy="Click an owner row to filter player details."></pool-section-head>
+          <pool-table-wrap class="tall mobile-card-wrap">
             <table class="mobile-cards pick-details-table">
               <thead>
                 <tr>
                   <th>Rank</th>
                   <th>Owner</th>
                   <th>Players</th>
+                  <th>Remaining</th>
                   <th>Total PTS</th>
                 </tr>
               </thead>
               <tbody id="leaderboard-body"></tbody>
             </table>
-          </div>
+          </pool-table-wrap>
         </div>
 
         <div>
-          <div class="section-head">
-            <h2>Pick Details</h2>
-            <div class="detail-head-controls">
-              <p id="detail-summary">Loading...</p>
-              <button id="detail-clear-owner" type="button" hidden>Show All Owners</button>
-            </div>
-          </div>
-          <div class="table-wrap tall mobile-card-wrap">
+          <pool-section-head-actions title="Pick Details">
+            <p id="detail-summary">Loading...</p>
+            <button id="detail-clear-owner" type="button" hidden>Show All Owners</button>
+          </pool-section-head-actions>
+          <pool-table-wrap class="tall mobile-card-wrap">
             <table class="mobile-cards">
               <thead>
                 <tr>
@@ -68,37 +58,35 @@
                   <th>Player</th>
                   <th>Team</th>
                   <th>Seed</th>
-                  <th>Draft Status</th>
+                  <th>Status</th>
                   <th>Tourn PTS</th>
                   <th>Tourn GP</th>
                 </tr>
               </thead>
               <tbody id="detail-body"></tbody>
             </table>
-          </div>
+          </pool-table-wrap>
         </div>
-      </section>
+      </pool-two-col-section>
 
-      <section class="card">
-        <div class="section-head">
-          <h2>Live Bracket</h2>
-          <p id="bracket-summary">Loading bracket...</p>
-        </div>
-        <div class="table-wrap tall">
+      <pool-card-section title="Live Bracket" copy-id="bracket-summary" copy="Loading bracket...">
+        <pool-table-wrap class="tall">
           <table>
             <thead>
               <tr>
                 <th>Round</th>
+                <th>Region</th>
                 <th>Matchup</th>
                 <th>Status</th>
               </tr>
             </thead>
             <tbody id="bracket-body"></tbody>
           </table>
-        </div>
-      </section>
+        </pool-table-wrap>
+      </pool-card-section>
     </main>
 
-    <script type="module" src="public-leaderboard.js?v=20260312a"></script>
+    <script type="module" src="shared-components.js?v=20260312i"></script>
+    <script type="module" src="public-leaderboard.js?v=20260312k"></script>
   </body>
 </html>
