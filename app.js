@@ -224,11 +224,12 @@ function predictedTournamentPpg(player) {
 
 function predictedTournamentPoints(player) {
   const predictedPpg = predictedTournamentPpg(player);
-  const expectedGames = expectedTournamentGames(playerSeed(player));
+  const resolvedSeed = playerSeed(player);
+  const expectedGames = resolvedSeed === null ? null : expectedTournamentGames(resolvedSeed);
   return {
     predictedTournamentPpg: predictedPpg,
     expectedTournamentGames: expectedGames,
-    predictedTournamentPoints: round(predictedPpg * expectedGames, 2)
+    predictedTournamentPoints: round(predictedPpg * (expectedGames ?? 1), 2)
   };
 }
 

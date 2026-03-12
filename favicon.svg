@@ -1,15 +1,45 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
   <defs>
-    <radialGradient id="ball" cx="30%" cy="28%" r="70%">
-      <stop offset="0%" stop-color="#ffcf85" />
-      <stop offset="48%" stop-color="#f39b3d" />
-      <stop offset="100%" stop-color="#bb5a1b" />
+    <radialGradient id="ballFill" cx="30%" cy="26%" r="72%">
+      <stop offset="0%" stop-color="#ffd79a" />
+      <stop offset="42%" stop-color="#f59d3d" />
+      <stop offset="100%" stop-color="#bc5a17" />
     </radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#2b1205" flood-opacity="0.35" />
+    </filter>
   </defs>
-  <rect width="64" height="64" rx="14" fill="#0d1d2d" />
-  <circle cx="32" cy="32" r="23" fill="url(#ball)" stroke="#6f2d0c" stroke-width="2.5" />
-  <path d="M32 9a23 23 0 0 1 0 46" fill="none" stroke="#5a2208" stroke-width="2.5" stroke-linecap="round" />
-  <path d="M32 9a23 23 0 0 0 0 46" fill="none" stroke="#5a2208" stroke-width="2.5" stroke-linecap="round" />
-  <path d="M12 25c7 4 33 4 40 0" fill="none" stroke="#5a2208" stroke-width="2.5" stroke-linecap="round" />
-  <path d="M12 39c7-4 33-4 40 0" fill="none" stroke="#5a2208" stroke-width="2.5" stroke-linecap="round" />
+  <g filter="url(#shadow)">
+    <circle cx="32" cy="32" r="25" fill="#fff4df" opacity="0.92" />
+    <circle cx="32" cy="32" r="22" fill="url(#ballFill)" stroke="#6f300d" stroke-width="2.8" />
+    <path
+      d="M32 10c7 5 11 13 11 22s-4 17-11 22"
+      fill="none"
+      stroke="#5c2409"
+      stroke-width="3"
+      stroke-linecap="round"
+    />
+    <path
+      d="M32 10c-7 5-11 13-11 22s4 17 11 22"
+      fill="none"
+      stroke="#5c2409"
+      stroke-width="3"
+      stroke-linecap="round"
+    />
+    <path
+      d="M14 25c6 3 12 4.5 18 4.5S44 28 50 25"
+      fill="none"
+      stroke="#5c2409"
+      stroke-width="3"
+      stroke-linecap="round"
+    />
+    <path
+      d="M14 39c6-3 12-4.5 18-4.5S44 36 50 39"
+      fill="none"
+      stroke="#5c2409"
+      stroke-width="3"
+      stroke-linecap="round"
+    />
+    <ellipse cx="24" cy="21" rx="7" ry="4.5" fill="#fff2d4" opacity="0.38" transform="rotate(-25 24 21)" />
+  </g>
 </svg>

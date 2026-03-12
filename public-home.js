@@ -341,7 +341,8 @@ function renderMetaLine() {
     ? new Date(state.meta.generated_at).toLocaleString()
     : "No generated data yet";
   const liveUpdated = state.liveUpdatedAt ? new Date(state.liveUpdatedAt).toLocaleString() : "unknown";
-  elements.metaLine.textContent = `Stats refresh: ${generated} | Live picks source: ${state.liveSource} | Live picks updated: ${liveUpdated}`;
+  const liveStatus = state.liveSource === "supabase_rest" ? "Live picks connected" : "Live picks pending";
+  elements.metaLine.textContent = `Stats refresh: ${generated} | ${liveStatus} | Live picks updated: ${liveUpdated}`;
 }
 
 function renderRefreshIndicator() {
@@ -358,7 +359,7 @@ function renderRefreshIndicator() {
   }
 
   if (status === "warn") {
-    elements.refreshIndicator.textContent = `Live feed warning (${state.liveSource}). Last check: ${checkedAt}. Showing latest available picks.`;
+    elements.refreshIndicator.textContent = `Live feed warning. Last check: ${checkedAt}. Showing latest available picks.`;
     return;
   }
 
