@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-04T02:53:30.265Z",
+  "generated_at": "2026-03-12T01:54:43.021Z",
   "year": 2026,
   "available": false,
   "source": "espn_bracket_page",
@@ -31,6 +31,56 @@
       "slug": null
     }
   ],
-  "rounds": [],
+  "rounds": [
+    {
+      "id": 0,
+      "label": "First Four",
+      "num_matchups": 4,
+      "start": null,
+      "end": null
+    },
+    {
+      "id": 1,
+      "label": "1st Round",
+      "num_matchups": 32,
+      "start": null,
+      "end": null
+    },
+    {
+      "id": 2,
+      "label": "2nd Round",
+      "num_matchups": 16,
+      "start": null,
+      "end": null
+    },
+    {
+      "id": 3,
+      "label": "Sweet 16",
+      "num_matchups": 8,
+      "start": null,
+      "end": null
+    },
+    {
+      "id": 4,
+      "label": "Elite 8",
+      "num_matchups": 4,
+      "start": null,
+      "end": null
+    },
+    {
+      "id": 5,
+      "label": "Final Four",
+      "num_matchups": 2,
+      "start": null,
+      "end": null
+    },
+    {
+      "id": 6,
+      "label": "Championship",
+      "num_matchups": 1,
+      "start": null,
+      "end": null
+    }
+  ],
   "matchups": []
 }

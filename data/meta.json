@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-03-04T02:53:30.265Z",
+  "generated_at": "2026-03-12T01:54:43.021Z",
   "year": 2026,
   "season_type": 2,
   "team_source_mode": "auto",
   "team_source": "team_file",
   "team_source_detail": "config file",
-  "team_file": "/home/batman/code/ncaa/config/teams.current.json",
+  "team_file": "/home/runner/work/ncaa/ncaa/config/teams.current.json",
   "bracket": {
     "season": "2025-26",
     "tournament_name": "Men's NCAA Tournament",
@@ -23,7 +23,7 @@
   "game_end": "20260317",
   "totals": {
     "teams": 68,
-    "players": 1053,
+    "players": 1054,
     "seeded_players": 0,
     "events": 2,
     "final_events": 0,
