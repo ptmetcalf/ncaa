@@ -5,7 +5,6 @@ const state = {
   meta: null,
   teams: [],
   players: [],
-  playerTotals: [],
   bracket: {
     available: false,
     rounds: [],
@@ -50,10 +49,6 @@ const elements = {
   statusAvailable: document.querySelector("#status-available"),
   draftOrderMeta: document.querySelector("#draft-order-meta"),
   draftOrderBody: document.querySelector("#draft-order-body"),
-  teamCountMeta: document.querySelector("#team-count-meta"),
-  teamsBody: document.querySelector("#teams-body"),
-  eliminationSummary: document.querySelector("#elimination-summary"),
-  eliminationBody: document.querySelector("#elimination-body"),
   bracketSummary: document.querySelector("#bracket-summary"),
   bracketBody: document.querySelector("#bracket-body"),
   boardBody: document.querySelector("#board-body")
@@ -494,170 +489,6 @@ function renderDraftOrder() {
   );
 }
 
-function renderTeams() {
-  if (!elements.teamCountMeta || !elements.teamsBody) return;
-  const teams = [...state.teams].sort((a, b) => {
-    const seed = compareSeed(a, b);
-    if (seed !== 0) return seed;
-    return compareTeam(a, b);
-  });
-
-  elements.teamCountMeta.textContent = `${teams.length} teams loaded`;
-
-  if (teams.length === 0) {
-    render(html`<tr><td colspan="2">No team data loaded.</td></tr>`, elements.teamsBody);
-    return;
-  }
-
-  render(
-    html`${teams.map(
-      (team) => html`<tr>
-        <td>${formatInt(seedValue(team))}</td>
-        <td>${team.team_name}</td>
-      </tr>`
-    )}`,
-    elements.teamsBody
-  );
-}
-
-function buildTeamStatusMap() {
-  const teamsById = new Map();
-  for (const team of state.teams) {
-    const teamId = Number(team.team_id);
-    if (!Number.isInteger(teamId)) continue;
-    teamsById.set(teamId, {
-      team_id: teamId,
-      team_name: String(team.team_name ?? `Team ${teamId}`),
-      seed: seedValue(team),
-      status: "Alive",
-      result: "No elimination yet",
-      eliminated: false,
-      eliminated_at: null,
-      eliminated_round: null,
-      champion: false
-    });
-  }
-
-  const rounds = new Map(
-    (state.bracket?.rounds ?? [])
-      .map((round) => [Number(round.id), String(round.label ?? `Round ${round.id}`)])
-      .filter(([id]) => Number.isInteger(id))
-  );
-
-  const matchups = Array.isArray(state.bracket?.matchups) ? state.bracket.matchups : [];
-  const byDate = [...matchups].sort((a, b) => String(a.date ?? "").localeCompare(String(b.date ?? "")));
-
-  for (const matchup of byDate) {
-    if (matchup.status_state !== "post") continue;
-    const roundLabel = rounds.get(Number(matchup.round_id)) ?? `Round ${matchup.round_id ?? "-"}`;
-    const one = matchup.competitor_one;
-    const two = matchup.competitor_two;
-    if (!one?.team_id || !two?.team_id) continue;
-
-    const oneRow = teamsById.get(Number(one.team_id)) ?? {
-      team_id: Number(one.team_id),
-      team_name: String(one.team_name ?? `Team ${one.team_id}`),
-      seed: seedValue(one),
-      status: "Alive",
-      result: "No elimination yet",
-      eliminated: false,
-      eliminated_at: null,
-      eliminated_round: null,
-      champion: false
-    };
-    const twoRow = teamsById.get(Number(two.team_id)) ?? {
-      team_id: Number(two.team_id),
-      team_name: String(two.team_name ?? `Team ${two.team_id}`),
-      seed: seedValue(two),
-      status: "Alive",
-      result: "No elimination yet",
-      eliminated: false,
-      eliminated_at: null,
-      eliminated_round: null,
-      champion: false
-    };
-
-    const oneScore = formatInt(one.score);
-    const twoScore = formatInt(two.score);
-
-    oneRow.result = `vs ${two.team_name ?? "Opponent"} (${oneScore}-${twoScore})`;
-    twoRow.result = `vs ${one.team_name ?? "Opponent"} (${twoScore}-${oneScore})`;
-
-    if (one.winner === true && two.winner === false) {
-      twoRow.eliminated = true;
-      twoRow.eliminated_at = matchup.date ?? null;
-      twoRow.eliminated_round = roundLabel;
-      twoRow.status = `Eliminated (${roundLabel})`;
-      twoRow.result = `Lost to ${one.team_name ?? "opponent"} (${twoScore}-${oneScore})`;
-    } else if (two.winner === true && one.winner === false) {
-      oneRow.eliminated = true;
-      oneRow.eliminated_at = matchup.date ?? null;
-      oneRow.eliminated_round = roundLabel;
-      oneRow.status = `Eliminated (${roundLabel})`;
-      oneRow.result = `Lost to ${two.team_name ?? "opponent"} (${oneScore}-${twoScore})`;
-    }
-
-    teamsById.set(oneRow.team_id, oneRow);
-    teamsById.set(twoRow.team_id, twoRow);
-  }
-
-  const finalRound = Math.max(
-    0,
-    ...byDate.filter((row) => row.status_state === "post").map((row) => Number(row.round_id) || 0)
-  );
-  if (finalRound > 0) {
-    const finals = byDate.filter((row) => row.status_state === "post" && Number(row.round_id) === finalRound);
-    for (const matchup of finals) {
-      for (const competitor of [matchup.competitor_one, matchup.competitor_two]) {
-        if (!competitor?.team_id || competitor.winner !== true) continue;
-        const row = teamsById.get(Number(competitor.team_id));
-        if (!row) continue;
-        row.champion = true;
-        row.status = "Champion";
-        row.result = `Won ${rounds.get(finalRound) ?? `Round ${finalRound}`}`;
-      }
-    }
-  }
-
-  return teamsById;
-}
-
-function renderEliminationTracker() {
-  if (!elements.eliminationSummary || !elements.eliminationBody) return;
-  const teamsById = buildTeamStatusMap();
-  const rows = [...teamsById.values()].sort((a, b) => {
-    if (a.champion !== b.champion) return a.champion ? -1 : 1;
-    if (a.eliminated !== b.eliminated) return a.eliminated ? 1 : -1;
-    const aSeed = Number.isFinite(Number(a.seed)) ? Number(a.seed) : 99;
-    const bSeed = Number.isFinite(Number(b.seed)) ? Number(b.seed) : 99;
-    if (aSeed !== bSeed) return aSeed - bSeed;
-    return a.team_name.localeCompare(b.team_name);
-  });
-
-  const eliminatedCount = rows.filter((row) => row.eliminated).length;
-  const aliveCount = rows.filter((row) => !row.eliminated).length;
-  const champion = rows.find((row) => row.champion);
-
-  elements.eliminationSummary.textContent = `Alive: ${aliveCount} | Eliminated: ${eliminatedCount}${champion ? ` | Champion: ${champion.team_name}` : ""}`;
-
-  if (rows.length === 0) {
-    render(html`<tr><td colspan="4">No elimination data yet.</td></tr>`, elements.eliminationBody);
-    return;
-  }
-
-  render(
-    html`${rows.map(
-      (row) => html`<tr>
-        <td>${row.team_name}</td>
-        <td>${formatInt(row.seed)}</td>
-        <td>${row.status}</td>
-        <td>${row.result}</td>
-      </tr>`
-    )}`,
-    elements.eliminationBody
-  );
-}
-
 function renderBracketTable() {
   if (!elements.bracketSummary || !elements.bracketBody) return;
 
@@ -715,14 +546,13 @@ function renderBracketTable() {
 function renderBoard(players) {
   const pickedByPlayerId = new Map(state.picks.map((pick) => [Number(pick.player_id), pick.owner]));
   const teamsById = byIdMap(state.teams, "team_id");
-  const totalsByPlayerId = new Map(state.playerTotals.map((row) => [Number(row.player_id), row]));
   const parts = [`Showing ${players.length} players`, `status: ${state.filters.playerStatus}`, `picked: ${state.picks.length}`];
   if (state.filters.teamQuery.trim()) parts.push(`team filter: "${state.filters.teamQuery.trim()}"`);
   if (state.filters.playerQuery.trim()) parts.push(`player filter: "${state.filters.playerQuery.trim()}"`);
   elements.filterSummary.textContent = parts.join(" | ");
 
   if (players.length === 0) {
-    render(html`<tr><td colspan="6">No players match this filter.</td></tr>`, elements.boardBody);
+    render(html`<tr><td colspan="4">No players match this filter.</td></tr>`, elements.boardBody);
     return;
   }
 
@@ -730,7 +560,6 @@ function renderBoard(players) {
     html`${players.map((player) => {
       const owner = pickedByPlayerId.get(Number(player.player_id));
       const draftStatus = owner ? `Picked (${owner})` : "Eligible";
-      const total = totalsByPlayerId.get(Number(player.player_id));
       return html`<tr>
         <td data-label="Player">${player.player_name}</td>
         <td data-label="Team"
@@ -743,8 +572,6 @@ function renderBoard(players) {
         >
         <td data-label="Seed">${formatInt(seedValue(player))}</td>
         <td data-label="Draft Status">${draftStatus}</td>
-        <td data-label="Tourn PTS">${formatNum(total?.tournament_points ?? 0, 1)}</td>
-        <td data-label="Tourn GP">${formatInt(total?.games_played ?? 0)}</td>
       </tr>`;
     })}`,
     elements.boardBody
@@ -759,8 +586,6 @@ function rerender() {
   renderRefreshIndicator();
   renderStatus();
   renderDraftOrder();
-  renderTeams();
-  renderEliminationTracker();
   renderBracketTable();
   renderBoard(boardPlayers);
 }
@@ -846,18 +671,16 @@ async function loadJsonIfPresent(file) {
 }
 
 async function refreshStaticData() {
-  const [meta, teams, players, playerTotals, bracket] = await Promise.all([
+  const [meta, teams, players, bracket] = await Promise.all([
     loadJson("./data/meta.json"),
     loadJson("./data/teams.json"),
     loadJson("./data/players.json"),
-    loadJsonIfPresent("./data/player_totals.json"),
     loadJsonIfPresent("./data/bracket.json")
   ]);
 
   state.meta = meta;
   state.teams = Array.isArray(teams) ? teams : [];
   state.players = Array.isArray(players) ? players : [];
-  state.playerTotals = Array.isArray(playerTotals) ? playerTotals : [];
   state.bracket = bracket && typeof bracket === "object" ? bracket : { available: false, rounds: [], matchups: [] };
 }
 

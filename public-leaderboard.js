@@ -97,12 +97,26 @@ function renderTeamCell(teamMap, { teamId, teamName, teamAbbreviation, teamLogo 
   >`;
 }
 
+function renderPlayerCell({ playerName, headshot }) {
+  const fallback = firstLetterToken(playerName);
+  return html`<span class="player-cell"
+    ><span class="player-headshot-wrap"
+      >${headshot
+        ? html`<img class="player-headshot-img" src=${headshot} alt="${playerName ?? "Player"} headshot" loading="lazy" />`
+        : html`<span class="player-headshot-fallback is-visible">${fallback}</span>`}
+      ${headshot ? html`<span class="player-headshot-fallback">${fallback}</span>` : nothing}</span
+    ><span class="player-cell-name">${playerName ?? "-"}</span></span
+  >`;
+}
+
 function bindTeamLogoFallbacks() {
-  const images = document.querySelectorAll("img.team-logo-img:not([data-logo-bound])");
+  const images = document.querySelectorAll(
+    "img.team-logo-img:not([data-logo-bound]), img.player-headshot-img:not([data-logo-bound])"
+  );
   for (const img of images) {
     img.setAttribute("data-logo-bound", "1");
-    const wrap = img.closest(".team-logo-wrap");
-    const fallback = wrap?.querySelector(".team-logo-fallback");
+    const wrap = img.closest(".team-logo-wrap, .player-headshot-wrap");
+    const fallback = wrap?.querySelector(".team-logo-fallback, .player-headshot-fallback");
     const showFallback = () => {
       img.classList.add("is-hidden");
       if (fallback) fallback.classList.add("is-visible");
@@ -283,6 +297,7 @@ function renderPickDetails() {
       return {
         owner: pick.owner,
         player_name: pick.player_name ?? player?.player_name ?? "Unknown",
+        headshot: player?.headshot ?? null,
         team_name: pick.team_name ?? player?.team_name ?? "Unknown",
         team_id: player?.team_id ?? pick.team_id,
         team_abbreviation: player?.team_abbreviation ?? null,
@@ -326,7 +341,7 @@ function renderPickDetails() {
     html`${rows.map(
       (row) => html`<tr>
         <td data-label="Owner">${row.owner}</td>
-        <td data-label="Player">${row.player_name}</td>
+        <td data-label="Player">${renderPlayerCell({ playerName: row.player_name, headshot: row.headshot })}</td>
         <td data-label="Team"
           >${renderTeamCell(teamMap, {
             teamId: row.team_id,

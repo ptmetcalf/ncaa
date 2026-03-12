@@ -10,7 +10,8 @@
       href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css?v=20260305l" />
+    <link rel="icon" href="./favicon.svg?v=20260312a" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css?v=20260312e" />
   </head>
   <body>
     <div class="ambient"></div>
@@ -60,8 +61,8 @@
           <h2>Draft Order</h2>
           <p id="draft-order-meta">No order published</p>
         </div>
-        <div class="table-wrap tall">
-          <table>
+        <div class="table-wrap tall mobile-card-wrap">
+          <table class="mobile-cards">
             <thead>
               <tr>
                 <th>Spot</th>
@@ -77,46 +78,6 @@
       <details class="card context-collapsible">
         <summary>Tournament Context (Optional)</summary>
         <div class="context-content">
-          <section class="two-col readonly-grid context-grid">
-            <div>
-              <div class="section-head">
-                <h2>Tournament Teams</h2>
-                <p id="team-count-meta">Loading teams...</p>
-              </div>
-              <div class="table-wrap tall">
-                <table>
-                  <thead>
-                    <tr>
-                      <th>Seed</th>
-                      <th>Team</th>
-                    </tr>
-                  </thead>
-                  <tbody id="teams-body"></tbody>
-                </table>
-              </div>
-            </div>
-
-            <div>
-              <div class="section-head">
-                <h2>Elimination Tracker</h2>
-                <p id="elimination-summary">Loading elimination status...</p>
-              </div>
-              <div class="table-wrap tall">
-                <table>
-                  <thead>
-                    <tr>
-                      <th>Team</th>
-                      <th>Seed</th>
-                      <th>Status</th>
-                      <th>Result</th>
-                    </tr>
-                  </thead>
-                  <tbody id="elimination-body"></tbody>
-                </table>
-              </div>
-            </div>
-          </section>
-
           <section class="context-bracket">
             <div class="section-head">
               <h2>Live Bracket</h2>
@@ -141,7 +102,7 @@
       <section class="card">
         <div class="section-head">
           <h2>Players</h2>
-          <p>Includes draft status plus tournament scoring stats.</p>
+          <p>Draft-night board with seed and current pick status.</p>
         </div>
         <section class="controls readonly-controls">
           <div class="controls-row readonly-controls-row">
@@ -191,8 +152,6 @@
                 <th>Team</th>
                 <th>Seed</th>
                 <th>Draft Status</th>
-                <th>Tourn PTS</th>
-                <th>Tourn GP</th>
               </tr>
             </thead>
             <tbody id="board-body"></tbody>
@@ -201,6 +160,6 @@
       </section>
     </main>
 
-    <script type="module" src="public-home.js?v=20260305l"></script>
+    <script type="module" src="public-home.js?v=20260312c"></script>
   </body>
 </html>

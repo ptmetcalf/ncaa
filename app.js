@@ -110,6 +110,25 @@ function formatInt(n) {
   return String(Math.round(Number(n)));
 }
 
+const SEED_ROUND_WIN_PROBS = {
+  1: [0.99, 0.86, 0.69, 0.52, 0.36, 0.22],
+  2: [0.94, 0.76, 0.55, 0.38, 0.24, 0.13],
+  3: [0.85, 0.64, 0.48, 0.3, 0.17, 0.09],
+  4: [0.79, 0.57, 0.39, 0.24, 0.13, 0.06],
+  5: [0.64, 0.48, 0.29, 0.16, 0.08, 0.04],
+  6: [0.62, 0.42, 0.24, 0.12, 0.06, 0.03],
+  7: [0.6, 0.36, 0.19, 0.09, 0.04, 0.02],
+  8: [0.51, 0.29, 0.13, 0.05, 0.02, 0.01],
+  9: [0.49, 0.24, 0.11, 0.05, 0.02, 0.01],
+  10: [0.4, 0.22, 0.1, 0.04, 0.02, 0.01],
+  11: [0.38, 0.2, 0.09, 0.04, 0.02, 0.01],
+  12: [0.36, 0.18, 0.08, 0.03, 0.01, 0.01],
+  13: [0.21, 0.11, 0.05, 0.02, 0.01, 0],
+  14: [0.15, 0.08, 0.04, 0.02, 0.01, 0],
+  15: [0.06, 0.03, 0.01, 0.01, 0, 0],
+  16: [0.01, 0.01, 0, 0, 0, 0]
+};
+
 function firstLetterToken(value) {
   const token = String(value ?? "")
     .replace(/[^A-Za-z0-9 ]/g, " ")
@@ -136,6 +155,117 @@ function teamByIdMap() {
     cachedTeamMapSize = state.teams.length;
   }
   return cachedTeamMap;
+}
+
+function clamp(value, min, max) {
+  return Math.min(max, Math.max(min, value));
+}
+
+function round(value, digits = 2) {
+  if (value === null || value === undefined || Number.isNaN(value)) return null;
+  const mult = 10 ** digits;
+  return Math.round(Number(value) * mult) / mult;
+}
+
+function playerSeed(player) {
+  const explicitSeed = Number(player?.team_seed);
+  if (Number.isFinite(explicitSeed) && explicitSeed > 0) {
+    return Math.min(16, Math.max(1, Math.round(explicitSeed)));
+  }
+
+  const teamSeed = Number(teamByIdMap().get(Number(player?.team_id))?.seed);
+  if (Number.isFinite(teamSeed) && teamSeed > 0) {
+    return Math.min(16, Math.max(1, Math.round(teamSeed)));
+  }
+
+  return null;
+}
+
+function playerRegion(player) {
+  const direct = String(player?.team_region ?? "").trim();
+  if (direct) return direct;
+  const fallback = String(teamByIdMap().get(Number(player?.team_id))?.region ?? "").trim();
+  return fallback || null;
+}
+
+function expectedTournamentGames(teamSeed) {
+  const probs = SEED_ROUND_WIN_PROBS[playerSeed({ team_seed: teamSeed })];
+  if (!probs) return 1;
+
+  let expectedGames = 1;
+  let pathProbability = 1;
+  for (const prob of probs) {
+    pathProbability *= prob;
+    expectedGames += pathProbability;
+  }
+  return round(expectedGames, 2);
+}
+
+function predictedTournamentPpg(player) {
+  const avgPoints = Number(player?.avg_points) || 0;
+  const avgMinutes = Number(player?.avg_minutes) || 0;
+  const gamesPlayed = Number(player?.games_played) || 0;
+  const shootingEfficiency = Number(player?.shooting_efficiency) || 0;
+  const pointsPerPossession = Number(player?.points_per_estimated_possessions) || 0;
+  const per = Number(player?.per) || 0;
+  const turnovers = Number(player?.avg_turnovers) || 0;
+
+  const roleReliability = Math.sqrt(clamp(avgMinutes / 30, 0, 1) * clamp(gamesPlayed / 25, 0, 1));
+  const stabilityMultiplier = 0.88 + roleReliability * 0.12;
+  const efficiencyMultiplier =
+    1 +
+    clamp((shootingEfficiency - 0.52) * 0.35, -0.08, 0.08) +
+    clamp((pointsPerPossession - 1.0) * 0.12, -0.06, 0.06) +
+    clamp((per - 18) * 0.004, -0.05, 0.05) -
+    clamp(turnovers * 0.015, 0, 0.08);
+
+  return round(avgPoints * stabilityMultiplier * efficiencyMultiplier, 2);
+}
+
+function predictedTournamentPoints(player) {
+  const predictedPpg = predictedTournamentPpg(player);
+  const expectedGames = expectedTournamentGames(playerSeed(player));
+  return {
+    predictedTournamentPpg: predictedPpg,
+    expectedTournamentGames: expectedGames,
+    predictedTournamentPoints: round(predictedPpg * expectedGames, 2)
+  };
+}
+
+function rankValue(player) {
+  return Number(player?.predicted_tournament_rank ?? player?.draft_rank ?? 999999);
+}
+
+function sortPlayersForAdmin(rows) {
+  return [...rows].sort((a, b) => rankValue(a) - rankValue(b));
+}
+
+function withPredictedTournamentRanks(players) {
+  const enhanced = players.map((player) => {
+    const resolvedSeed = playerSeed(player);
+    const resolvedRegion = playerRegion(player);
+    const prediction = predictedTournamentPoints({ ...player, team_seed: resolvedSeed });
+    return {
+      ...player,
+      team_seed: resolvedSeed ?? player.team_seed ?? null,
+      team_region: resolvedRegion,
+      predicted_tournament_ppg: prediction.predictedTournamentPpg,
+      expected_tournament_games: prediction.expectedTournamentGames,
+      predicted_tournament_points: prediction.predictedTournamentPoints
+    };
+  });
+
+  enhanced.sort((a, b) => {
+    const aPoints = Number(a.predicted_tournament_points) || -Infinity;
+    const bPoints = Number(b.predicted_tournament_points) || -Infinity;
+    if (bPoints !== aPoints) return bPoints - aPoints;
+    return String(a.player_name ?? "").localeCompare(String(b.player_name ?? ""));
+  });
+
+  return enhanced.map((player, index) => ({
+    ...player,
+    predicted_tournament_rank: index + 1
+  }));
 }
 
 function getTeamLogoUrl(teamId, explicitLogo = null) {
@@ -532,7 +662,7 @@ function fillPlayerPickSelector() {
 
   let candidates = getFilteredPlayers({ ignoreStatus: true })
     .filter((player) => !picked.has(Number(player.player_id)))
-    .sort((a, b) => (a.draft_rank ?? 999999) - (b.draft_rank ?? 999999));
+    .sort((a, b) => rankValue(a) - rankValue(b));
 
   if (search) {
     candidates = candidates.filter((player) => {
@@ -550,7 +680,7 @@ function fillPlayerPickSelector() {
     html`${candidates.map(
       (player) =>
         html`<option value=${player.player_id}>
-          #${formatInt(player.draft_rank)} ${player.player_name} (${player.team_abbreviation ?? player.team_name})
+          #${formatInt(rankValue(player))} ${player.player_name} (${player.team_abbreviation ?? player.team_name})${player.team_region ? ` - ${player.team_region}` : ""}
         </option>`
     )}`,
     elements.pickPlayer
@@ -562,7 +692,7 @@ function fillPlayerPickSelector() {
 }
 
 function renderDraftBoard() {
-  const filtered = getFilteredPlayers().sort((a, b) => (a.draft_rank ?? 999999) - (b.draft_rank ?? 999999));
+  const filtered = sortPlayersForAdmin(getFilteredPlayers());
   const picked = pickedByPlayerId();
   const pickedCount = picked.size;
   const visiblePicked = filtered.filter((player) => picked.has(Number(player.player_id))).length;
@@ -577,7 +707,7 @@ function renderDraftBoard() {
       const statusText = owner ? `Picked (${owner})` : "Open";
 
       return html`<tr>
-        <td data-label="Rank">${formatInt(player.draft_rank)}</td>
+        <td data-label="Rank">${formatInt(rankValue(player))}</td>
         <td data-label="Player">${player.player_name}</td>
         <td data-label="Team">
           ${renderTeamCell({
@@ -587,8 +717,11 @@ function renderDraftBoard() {
             teamLogo: player.team_logo
           })}
         </td>
+        <td data-label="Region">${player.team_region ?? "-"}</td>
         <td data-label="Seed">${formatInt(player.team_seed)}</td>
         <td data-label="Pos">${player.position ?? "-"}</td>
+        <td data-label="Proj Tourn PTS">${formatNum(player.predicted_tournament_points, 1)}</td>
+        <td data-label="Proj Games">${formatNum(player.expected_tournament_games, 2)}</td>
         <td data-label="PPG">${formatNum(player.avg_points)}</td>
         <td data-label="MPG">${formatNum(player.avg_minutes)}</td>
         <td data-label="RPG">${formatNum(player.avg_rebounds)}</td>
@@ -596,7 +729,6 @@ function renderDraftBoard() {
         <td data-label="SPG">${formatNum(player.avg_steals)}</td>
         <td data-label="BPG">${formatNum(player.avg_blocks)}</td>
         <td data-label="PER">${formatNum(player.per)}</td>
-        <td data-label="Draft Score">${formatNum(player.draft_score, 2)}</td>
         <td data-label="Status" class=${statusClass}>${statusText}</td>
       </tr>`;
     })}`,
@@ -834,15 +966,18 @@ async function onSaveOwners() {
 }
 
 function onDownloadBoard() {
-  const filtered = getFilteredPlayers().sort((a, b) => (a.draft_rank ?? 999999) - (b.draft_rank ?? 999999));
+  const filtered = sortPlayersForAdmin(getFilteredPlayers());
   const picked = pickedByPlayerId();
 
   const headers = [
     "rank",
     "player",
     "team",
+    "region",
     "seed",
     "position",
+    "predicted_tournament_points",
+    "expected_tournament_games",
     "ppg",
     "mpg",
     "rpg",
@@ -850,7 +985,6 @@ function onDownloadBoard() {
     "spg",
     "bpg",
     "per",
-    "draft_score",
     "status"
   ];
 
@@ -858,11 +992,14 @@ function onDownloadBoard() {
   for (const p of filtered) {
     const owner = picked.get(Number(p.player_id));
     const row = [
-      p.draft_rank,
+      rankValue(p),
       p.player_name,
       p.team_name,
+      p.team_region,
       p.team_seed,
       p.position,
+      p.predicted_tournament_points,
+      p.expected_tournament_games,
       p.avg_points,
       p.avg_minutes,
       p.avg_rebounds,
@@ -870,7 +1007,6 @@ function onDownloadBoard() {
       p.avg_steals,
       p.avg_blocks,
       p.per,
-      p.draft_score,
       owner ? `Picked (${owner})` : "Open"
     ];
     lines.push(row.map(escapeCsv).join(","));
@@ -1348,7 +1484,7 @@ async function boot() {
 
   state.meta = meta;
   state.teams = Array.isArray(teams) ? teams : [];
-  state.players = Array.isArray(players) ? players : [];
+  state.players = withPredictedTournamentRanks(Array.isArray(players) ? players : []);
   state.playerTotals = Array.isArray(playerTotals) ? playerTotals : [];
   cachedTeamMap = null;
   cachedTeamMapSize = -1;

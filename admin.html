@@ -10,7 +10,8 @@
       href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css?v=20260305l" />
+    <link rel="icon" href="./favicon.svg?v=20260312a" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css?v=20260312e" />
   </head>
   <body>
     <div class="ambient"></div>
@@ -123,7 +124,7 @@
         <section id="draft-board" class="card">
           <div class="section-head">
             <h2>Stats Dashboard</h2>
-            <p>Model-ranked player pool with the stat columns used for draft formulas.</p>
+            <p>Admin-only ranking by predicted tournament points, with region context for draft balance.</p>
           </div>
           <div class="table-wrap board-scroll">
             <table id="draft-board-table">
@@ -132,8 +133,11 @@
                   <th>Rank</th>
                   <th>Player</th>
                   <th>Team</th>
+                  <th>Region</th>
                   <th>Seed</th>
                   <th>Pos</th>
+                  <th>Proj Tourn PTS</th>
+                  <th>Proj Games</th>
                   <th>PPG</th>
                   <th>MPG</th>
                   <th>RPG</th>
@@ -141,7 +145,6 @@
                   <th>SPG</th>
                   <th>BPG</th>
                   <th>PER</th>
-                  <th>Draft Score</th>
                   <th>Status</th>
                 </tr>
               </thead>
@@ -267,6 +270,6 @@
       </div>
     </main>
 
-    <script type="module" src="app.js?v=20260305l"></script>
+    <script type="module" src="app.js?v=20260312a"></script>
   </body>
 </html>
