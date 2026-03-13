@@ -48349,6 +48349,33 @@
     "draft_rank": 937
   },
   {
+    "player_id": 5341547,
+    "player_uid": "s:40~l:41~a:5341547",
+    "player_name": "Brock Davis",
+    "player_first_name": "Brock",
+    "player_last_name": "Davis",
+    "position": "G",
+    "jersey": "50",
+    "class_year": "SR",
+    "height": "6' 4\"",
+    "weight": "195 lbs",
+    "headshot": null,
+    "team_id": 150,
+    "team_name": "Duke Blue Devils",
+    "team_short_name": "Duke",
+    "team_abbreviation": "DUKE",
+    "team_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/150.png",
+    "team_seed": 1,
+    "team_region": "West",
+    "team_bid_type": "projected",
+    "team_projected": true,
+    "has_season_stats": false,
+    "draft_seed_normalized": 1,
+    "draft_seed_multiplier": 1.12,
+    "draft_score": 0,
+    "draft_rank": 938
+  },
+  {
     "player_id": 5243214,
     "player_uid": "s:40~l:41~a:5243214",
     "player_name": "Brody Kozlowski",
@@ -48373,7 +48400,7 @@
     "draft_seed_normalized": 0.333,
     "draft_seed_multiplier": 1.04,
     "draft_score": 0,
-    "draft_rank": 938
+    "draft_rank": 939
   },
   {
     "player_id": 5254330,
@@ -48400,7 +48427,7 @@
     "draft_seed_normalized": -0.733,
     "draft_seed_multiplier": 0.912,
     "draft_score": 0,
-    "draft_rank": 939
+    "draft_rank": 940
   },
   {
     "player_id": 5144098,
@@ -48427,7 +48454,7 @@
     "draft_seed_normalized": 0.867,
     "draft_seed_multiplier": 1.104,
     "draft_score": 0,
-    "draft_rank": 940
+    "draft_rank": 941
   },
   {
     "player_id": 5082287,
@@ -48454,7 +48481,7 @@
     "draft_seed_normalized": 1,
     "draft_seed_multiplier": 1.12,
     "draft_score": 0,
-    "draft_rank": 941
+    "draft_rank": 942
   },
   {
     "player_id": 5105683,
@@ -48481,7 +48508,7 @@
     "draft_seed_normalized": -1,
     "draft_seed_multiplier": 0.88,
     "draft_score": 0,
-    "draft_rank": 942
+    "draft_rank": 943
   },
   {
     "player_id": 5241410,
@@ -48508,7 +48535,7 @@
     "draft_seed_normalized": -0.6,
     "draft_seed_multiplier": 0.928,
     "draft_score": 0,
-    "draft_rank": 943
+    "draft_rank": 944
   },
   {
     "player_id": 5314504,
@@ -48535,7 +48562,7 @@
     "draft_seed_normalized": -1,
     "draft_seed_multiplier": 0.88,
     "draft_score": 0,
-    "draft_rank": 944
+    "draft_rank": 945
   },
   {
     "player_id": 5177285,
@@ -48562,7 +48589,7 @@
     "draft_seed_normalized": -0.6,
     "draft_seed_multiplier": 0.928,
     "draft_score": 0,
-    "draft_rank": 945
+    "draft_rank": 946
   },
   {
     "player_id": 5183810,
@@ -48589,7 +48616,7 @@
     "draft_seed_normalized": -0.333,
     "draft_seed_multiplier": 0.96,
     "draft_score": 0,
-    "draft_rank": 946
+    "draft_rank": 947
   },
   {
     "player_id": 5240008,
@@ -48641,7 +48668,7 @@
     "draft_seed_normalized": -0.867,
     "draft_seed_multiplier": 0.896,
     "draft_score": 0,
-    "draft_rank": 947
+    "draft_rank": 948
   },
   {
     "player_id": 5311917,
@@ -48668,7 +48695,7 @@
     "draft_seed_normalized": 0.6,
     "draft_seed_multiplier": 1.072,
     "draft_score": 0,
-    "draft_rank": 948
+    "draft_rank": 949
   },
   {
     "player_id": 5314489,
@@ -48695,7 +48722,7 @@
     "draft_seed_normalized": -0.867,
     "draft_seed_multiplier": 0.896,
     "draft_score": 0,
-    "draft_rank": 949
+    "draft_rank": 950
   },
   {
     "player_id": 5255259,
@@ -48722,7 +48749,7 @@
     "draft_seed_normalized": 0.067,
     "draft_seed_multiplier": 1.008,
     "draft_score": 0,
-    "draft_rank": 950
+    "draft_rank": 951
   },
   {
     "player_id": 5107368,
@@ -48749,7 +48776,7 @@
     "draft_seed_normalized": -0.867,
     "draft_seed_multiplier": 0.896,
     "draft_score": 0,
-    "draft_rank": 951
+    "draft_rank": 952
   },
   {
     "player_id": 4684795,
@@ -48776,7 +48803,7 @@
     "draft_seed_normalized": -0.467,
     "draft_seed_multiplier": 0.944,
     "draft_score": 0,
-    "draft_rank": 952
+    "draft_rank": 953
   },
   {
     "player_id": 5314781,
@@ -48803,7 +48830,7 @@
     "draft_seed_normalized": -0.733,
     "draft_seed_multiplier": 0.912,
     "draft_score": 0,
-    "draft_rank": 953
+    "draft_rank": 954
   },
   {
     "player_id": 5313504,
@@ -48830,7 +48857,7 @@
     "draft_seed_normalized": -0.467,
     "draft_seed_multiplier": 0.944,
     "draft_score": 0,
-    "draft_rank": 954
+    "draft_rank": 955
   },
   {
     "player_id": 5061579,
@@ -48857,7 +48884,7 @@
     "draft_seed_normalized": -0.067,
     "draft_seed_multiplier": 0.992,
     "draft_score": 0,
-    "draft_rank": 955
+    "draft_rank": 956
   },
   {
     "player_id": 5105894,
@@ -48884,7 +48911,7 @@
     "draft_seed_normalized": 0.333,
     "draft_seed_multiplier": 1.04,
     "draft_score": 0,
-    "draft_rank": 956
+    "draft_rank": 957
   },
   {
     "player_id": 5242577,
@@ -48911,7 +48938,7 @@
     "draft_seed_normalized": -0.467,
     "draft_seed_multiplier": 0.944,
     "draft_score": 0,
-    "draft_rank": 957
+    "draft_rank": 958
   },
   {
     "player_id": 5105639,
@@ -48938,7 +48965,7 @@
     "draft_seed_normalized": 0.067,
     "draft_seed_multiplier": 1.008,
     "draft_score": 0,
-    "draft_rank": 958
+    "draft_rank": 959
   },
   {
     "player_id": 5243275,
@@ -48965,7 +48992,7 @@
     "draft_seed_normalized": -1,
     "draft_seed_multiplier": 0.88,
     "draft_score": 0,
-    "draft_rank": 959
+    "draft_rank": 960
   },
   {
     "player_id": 5086370,
@@ -48992,7 +49019,7 @@
     "draft_seed_normalized": -0.333,
     "draft_seed_multiplier": 0.96,
     "draft_score": 0,
-    "draft_rank": 960
+    "draft_rank": 961
   },
   {
     "player_id": 5239784,
@@ -49019,7 +49046,7 @@
     "draft_seed_normalized": 0.467,
     "draft_seed_multiplier": 1.056,
     "draft_score": 0,
-    "draft_rank": 961
+    "draft_rank": 962
   },
   {
     "player_id": 5174787,
@@ -49046,7 +49073,7 @@
     "draft_seed_normalized": 1,
     "draft_seed_multiplier": 1.12,
     "draft_score": 0,
-    "draft_rank": 962
+    "draft_rank": 963
   },
   {
     "player_id": 5105828,
@@ -49073,7 +49100,7 @@
     "draft_seed_normalized": 0.733,
     "draft_seed_multiplier": 1.088,
     "draft_score": 0,
-    "draft_rank": 963
+    "draft_rank": 964
   },
   {
     "player_id": 5312303,
@@ -49100,7 +49127,7 @@
     "draft_seed_normalized": 0.467,
     "draft_seed_multiplier": 1.056,
     "draft_score": 0,
-    "draft_rank": 964
+    "draft_rank": 965
   },
   {
     "player_id": 5314629,
@@ -49127,7 +49154,7 @@
     "draft_seed_normalized": -0.733,
     "draft_seed_multiplier": 0.912,
     "draft_score": 0,
-    "draft_rank": 965
+    "draft_rank": 966
   },
   {
     "player_id": 5144145,
@@ -49154,7 +49181,7 @@
     "draft_seed_normalized": 0.067,
     "draft_seed_multiplier": 1.008,
     "draft_score": 0,
-    "draft_rank": 966
+    "draft_rank": 967
   },
   {
     "player_id": 5242609,
@@ -49181,7 +49208,7 @@
     "draft_seed_normalized": -0.6,
     "draft_seed_multiplier": 0.928,
     "draft_score": 0,
-    "draft_rank": 967
+    "draft_rank": 968
   },
   {
     "player_id": 5142624,
@@ -49208,7 +49235,7 @@
     "draft_seed_normalized": 0.867,
     "draft_seed_multiplier": 1.104,
     "draft_score": 0,
-    "draft_rank": 968
+    "draft_rank": 969
   },
   {
     "player_id": 5144119,
@@ -49235,7 +49262,7 @@
     "draft_seed_normalized": -0.6,
     "draft_seed_multiplier": 0.928,
     "draft_score": 0,
-    "draft_rank": 969
+    "draft_rank": 970
   },
   {
     "player_id": 5106739,
@@ -49262,7 +49289,7 @@
     "draft_seed_normalized": -0.333,
     "draft_seed_multiplier": 0.96,
     "draft_score": 0,
-    "draft_rank": 970
+    "draft_rank": 971
   },
   {
     "player_id": 5313366,
@@ -49289,7 +49316,7 @@
     "draft_seed_normalized": -0.733,
     "draft_seed_multiplier": 0.912,
     "draft_score": 0,
-    "draft_rank": 971
+    "draft_rank": 972
   },
   {
     "player_id": 5314811,
@@ -49316,7 +49343,7 @@
     "draft_seed_normalized": -0.6,
     "draft_seed_multiplier": 0.928,
     "draft_score": 0,
-    "draft_rank": 972
+    "draft_rank": 973
   },
   {
     "player_id": 5311994,
@@ -49343,7 +49370,7 @@
     "draft_seed_normalized": -0.2,
     "draft_seed_multiplier": 0.976,
     "draft_score": 0,
-    "draft_rank": 973
+    "draft_rank": 974
   },
   {
     "player_id": 4685682,
@@ -49370,7 +49397,7 @@
     "draft_seed_normalized": 0.2,
     "draft_seed_multiplier": 1.024,
     "draft_score": 0,
-    "draft_rank": 974
+    "draft_rank": 975
   },
   {
     "player_id": 5314492,
@@ -49397,7 +49424,7 @@
     "draft_seed_normalized": -0.867,
     "draft_seed_multiplier": 0.896,
     "draft_score": 0,
-    "draft_rank": 975
+    "draft_rank": 976
   },
   {
     "player_id": 5149079,
@@ -49424,7 +49451,7 @@
     "draft_seed_normalized": -0.333,
     "draft_seed_multiplier": 0.96,
     "draft_score": 0,
-    "draft_rank": 976
+    "draft_rank": 977
   },
   {
     "player_id": 5113383,
@@ -49451,7 +49478,7 @@
     "draft_seed_normalized": -0.333,
     "draft_seed_multiplier": 0.96,
     "draft_score": 0,
-    "draft_rank": 977
+    "draft_rank": 978
   },
   {
     "player_id": 5239996,
@@ -49478,7 +49505,7 @@
     "draft_seed_normalized": -0.333,
     "draft_seed_multiplier": 0.96,
     "draft_score": 0,
-    "draft_rank": 978
+    "draft_rank": 979
   },
   {
     "player_id": 4894236,
@@ -49505,7 +49532,7 @@
     "draft_seed_normalized": -0.067,
     "draft_seed_multiplier": 0.992,
     "draft_score": 0,
-    "draft_rank": 979
+    "draft_rank": 980
   },
   {
     "player_id": 5313008,
@@ -49532,7 +49559,7 @@
     "draft_seed_normalized": -0.733,
     "draft_seed_multiplier": 0.912,
     "draft_score": 0,
-    "draft_rank": 980
+    "draft_rank": 981
   },
   {
     "player_id": 5313568,
@@ -49559,7 +49586,7 @@
     "draft_seed_normalized": -0.467,
     "draft_seed_multiplier": 0.944,
     "draft_score": 0,
-    "draft_rank": 981
+    "draft_rank": 982
   },
   {
     "player_id": 4685668,
@@ -49586,7 +49613,7 @@
     "draft_seed_normalized": 0.867,
     "draft_seed_multiplier": 1.104,
     "draft_score": 0,
-    "draft_rank": 982
+    "draft_rank": 983
   },
   {
     "player_id": 5106205,
@@ -49613,7 +49640,7 @@
     "draft_seed_normalized": -0.067,
     "draft_seed_multiplier": 0.992,
     "draft_score": 0,
-    "draft_rank": 983
+    "draft_rank": 984
   },
   {
     "player_id": 5281348,
@@ -49640,7 +49667,7 @@
     "draft_seed_normalized": 0.467,
     "draft_seed_multiplier": 1.056,
     "draft_score": 0,
-    "draft_rank": 984
+    "draft_rank": 985
   },
   {
     "player_id": 5313505,
@@ -49667,7 +49694,7 @@
     "draft_seed_normalized": -0.467,
     "draft_seed_multiplier": 0.944,
     "draft_score": 0,
-    "draft_rank": 985
+    "draft_rank": 986
   },
   {
     "player_id": 5152734,
@@ -49694,7 +49721,7 @@
     "draft_seed_normalized": 0.067,
     "draft_seed_multiplier": 1.008,
     "draft_score": 0,
-    "draft_rank": 986
+    "draft_rank": 987
   },
   {
     "player_id": 5329424,
@@ -49721,7 +49748,7 @@
     "draft_seed_normalized": 0.333,
     "draft_seed_multiplier": 1.04,
     "draft_score": 0,
-    "draft_rank": 987
+    "draft_rank": 988
   },
   {
     "player_id": 4897677,
@@ -49748,7 +49775,7 @@
     "draft_seed_normalized": -0.733,
     "draft_seed_multiplier": 0.912,
     "draft_score": 0,
-    "draft_rank": 988
+    "draft_rank": 989
   },
   {
     "player_id": 5311931,
@@ -49775,7 +49802,7 @@
     "draft_seed_normalized": 0.6,
     "draft_seed_multiplier": 1.072,
     "draft_score": 0,
-    "draft_rank": 989
+    "draft_rank": 990
   },
   {
     "player_id": 5313372,
@@ -49802,7 +49829,7 @@
     "draft_seed_normalized": -0.333,
     "draft_seed_multiplier": 0.96,
     "draft_score": 0,
-    "draft_rank": 990
+    "draft_rank": 991
   },
   {
     "player_id": 5315805,
@@ -49829,7 +49856,7 @@
     "draft_seed_normalized": -0.6,
     "draft_seed_multiplier": 0.928,
     "draft_score": 0,
-    "draft_rank": 991
+    "draft_rank": 992
   },
   {
     "player_id": 5311529,
@@ -49856,7 +49883,7 @@
     "draft_seed_normalized": -0.333,
     "draft_seed_multiplier": 0.96,
     "draft_score": 0,
-    "draft_rank": 992
+    "draft_rank": 993
   },
   {
     "player_id": 5108710,
@@ -49883,7 +49910,7 @@
     "draft_seed_normalized": -0.467,
     "draft_seed_multiplier": 0.944,
     "draft_score": 0,
-    "draft_rank": 993
+    "draft_rank": 994
   },
   {
     "player_id": 5104203,
@@ -49910,7 +49937,7 @@
     "draft_seed_normalized": 0.333,
     "draft_seed_multiplier": 1.04,
     "draft_score": 0,
-    "draft_rank": 994
+    "draft_rank": 995
   },
   {
     "player_id": 5313009,
@@ -49937,7 +49964,7 @@
     "draft_seed_normalized": -0.733,
     "draft_seed_multiplier": 0.912,
     "draft_score": 0,
-    "draft_rank": 995
+    "draft_rank": 996
   },
   {
     "player_id": 5254324,
@@ -49964,7 +49991,7 @@
     "draft_seed_normalized": -0.067,
     "draft_seed_multiplier": 0.992,
     "draft_score": 0,
-    "draft_rank": 996
+    "draft_rank": 997
   },
   {
     "player_id": 5315597,
@@ -49991,7 +50018,7 @@
     "draft_seed_normalized": -1,
     "draft_seed_multiplier": 0.88,
     "draft_score": 0,
-    "draft_rank": 997
+    "draft_rank": 998
   },
   {
     "player_id": 5311898,
@@ -50018,7 +50045,7 @@
     "draft_seed_normalized": 1,
     "draft_seed_multiplier": 1.12,
     "draft_score": 0,
-    "draft_rank": 998
+    "draft_rank": 999
   },
   {
     "player_id": 5242987,
@@ -50045,7 +50072,7 @@
     "draft_seed_normalized": -0.867,
     "draft_seed_multiplier": 0.896,
     "draft_score": 0,
-    "draft_rank": 999
+    "draft_rank": 1000
   },
   {
     "player_id": 5109788,
@@ -50072,7 +50099,7 @@
     "draft_seed_normalized": -0.333,
     "draft_seed_multiplier": 0.96,
     "draft_score": 0,
-    "draft_rank": 1000
+    "draft_rank": 1001
   },
   {
     "player_id": 5239492,
@@ -50099,7 +50126,7 @@
     "draft_seed_normalized": -0.6,
     "draft_seed_multiplier": 0.928,
     "draft_score": 0,
-    "draft_rank": 1001
+    "draft_rank": 1002
   },
   {
     "player_id": 5312038,
@@ -50126,7 +50153,7 @@
     "draft_seed_normalized": 0.067,
     "draft_seed_multiplier": 1.008,
     "draft_score": 0,
-    "draft_rank": 1002
+    "draft_rank": 1003
   },
   {
     "player_id": 5313010,
@@ -50153,7 +50180,7 @@
     "draft_seed_normalized": -0.733,
     "draft_seed_multiplier": 0.912,
     "draft_score": 0,
-    "draft_rank": 1003
+    "draft_rank": 1004
   },
   {
     "player_id": 5175370,
@@ -50180,7 +50207,7 @@
     "draft_seed_normalized": 0.733,
     "draft_seed_multiplier": 1.088,
     "draft_score": 0,
-    "draft_rank": 1004
+    "draft_rank": 1005
   },
   {
     "player_id": 5314496,
@@ -50207,7 +50234,7 @@
     "draft_seed_normalized": -0.867,
     "draft_seed_multiplier": 0.896,
     "draft_score": 0,
-    "draft_rank": 1005
+    "draft_rank": 1006
   },
   {
     "player_id": 5241597,
@@ -50234,7 +50261,7 @@
     "draft_seed_normalized": -0.467,
     "draft_seed_multiplier": 0.944,
     "draft_score": 0,
-    "draft_rank": 1006
+    "draft_rank": 1007
   },
   {
     "player_id": 5311966,
@@ -50261,7 +50288,7 @@
     "draft_seed_normalized": 0.333,
     "draft_seed_multiplier": 1.04,
     "draft_score": 0,
-    "draft_rank": 1007
+    "draft_rank": 1008
   },
   {
     "player_id": 5290626,
@@ -50288,7 +50315,7 @@
     "draft_seed_normalized": -0.067,
     "draft_seed_multiplier": 0.992,
     "draft_score": 0,
-    "draft_rank": 1008
+    "draft_rank": 1009
   },
   {
     "player_id": 5107152,
@@ -50315,7 +50342,7 @@
     "draft_seed_normalized": 0.333,
     "draft_seed_multiplier": 1.04,
     "draft_score": 0,
-    "draft_rank": 1009
+    "draft_rank": 1010
   },
   {
     "player_id": 5314533,
@@ -50342,7 +50369,7 @@
     "draft_seed_normalized": -0.6,
     "draft_seed_multiplier": 0.928,
     "draft_score": 0,
-    "draft_rank": 1010
+    "draft_rank": 1011
   },
   {
     "player_id": 5281374,
@@ -50369,7 +50396,7 @@
     "draft_seed_normalized": 0.2,
     "draft_seed_multiplier": 1.024,
     "draft_score": 0,
-    "draft_rank": 1011
+    "draft_rank": 1012
   },
   {
     "player_id": 5313101,
@@ -50396,7 +50423,7 @@
     "draft_seed_normalized": -0.333,
     "draft_seed_multiplier": 0.96,
     "draft_score": 0,
-    "draft_rank": 1012
+    "draft_rank": 1013
   },
   {
     "player_id": 5314532,
@@ -50423,7 +50450,7 @@
     "draft_seed_normalized": -0.6,
     "draft_seed_multiplier": 0.928,
     "draft_score": 0,
-    "draft_rank": 1013
+    "draft_rank": 1014
   },
   {
     "player_id": 5106042,
@@ -50450,7 +50477,7 @@
     "draft_seed_normalized": -0.333,
     "draft_seed_multiplier": 0.96,
     "draft_score": 0,
-    "draft_rank": 1014
+    "draft_rank": 1015
   },
   {
     "player_id": 5256521,
@@ -50477,7 +50504,7 @@
     "draft_seed_normalized": -0.867,
     "draft_seed_multiplier": 0.896,
     "draft_score": 0,
-    "draft_rank": 1015
+    "draft_rank": 1016
   },
   {
     "player_id": 5313013,
@@ -50504,7 +50531,7 @@
     "draft_seed_normalized": 0.733,
     "draft_seed_multiplier": 1.088,
     "draft_score": 0,
-    "draft_rank": 1016
+    "draft_rank": 1017
   },
   {
     "player_id": 5258495,
@@ -50531,7 +50558,7 @@
     "draft_seed_normalized": 0.467,
     "draft_seed_multiplier": 1.056,
     "draft_score": 0,
-    "draft_rank": 1017
+    "draft_rank": 1018
   },
   {
     "player_id": 5311840,
@@ -50558,7 +50585,7 @@
     "draft_seed_normalized": -0.067,
     "draft_seed_multiplier": 0.992,
     "draft_score": 0,
-    "draft_rank": 1018
+    "draft_rank": 1019
   },
   {
     "player_id": 5314628,
@@ -50585,7 +50612,7 @@
     "draft_seed_normalized": -0.733,
     "draft_seed_multiplier": 0.912,
     "draft_score": 0,
-    "draft_rank": 1019
+    "draft_rank": 1020
   },
   {
     "player_id": 5254162,
@@ -50612,7 +50639,7 @@
     "draft_seed_normalized": 0.733,
     "draft_seed_multiplier": 1.088,
     "draft_score": 0,
-    "draft_rank": 1020
+    "draft_rank": 1021
   },
   {
     "player_id": 5061582,
@@ -50639,7 +50666,7 @@
     "draft_seed_normalized": 0.733,
     "draft_seed_multiplier": 1.088,
     "draft_score": 0,
-    "draft_rank": 1021
+    "draft_rank": 1022
   },
   {
     "player_id": 5241407,
@@ -50666,7 +50693,7 @@
     "draft_seed_normalized": -0.6,
     "draft_seed_multiplier": 0.928,
     "draft_score": 0,
-    "draft_rank": 1022
+    "draft_rank": 1023
   },
   {
     "player_id": 5176217,
@@ -50693,7 +50720,7 @@
     "draft_seed_normalized": 0.2,
     "draft_seed_multiplier": 1.024,
     "draft_score": 0,
-    "draft_rank": 1023
+    "draft_rank": 1024
   },
   {
     "player_id": 5107238,
@@ -50720,7 +50747,7 @@
     "draft_seed_normalized": -1,
     "draft_seed_multiplier": 0.88,
     "draft_score": 0,
-    "draft_rank": 1024
+    "draft_rank": 1025
   },
   {
     "player_id": 4685660,
@@ -50747,7 +50774,7 @@
     "draft_seed_normalized": -0.867,
     "draft_seed_multiplier": 0.896,
     "draft_score": 0,
-    "draft_rank": 1025
+    "draft_rank": 1026
   },
   {
     "player_id": 5311987,
@@ -50774,7 +50801,7 @@
     "draft_seed_normalized": 1,
     "draft_seed_multiplier": 1.12,
     "draft_score": 0,
-    "draft_rank": 1026
+    "draft_rank": 1027
   },
   {
     "player_id": 5314494,
@@ -50801,7 +50828,7 @@
     "draft_seed_normalized": -0.867,
     "draft_seed_multiplier": 0.896,
     "draft_score": 0,
-    "draft_rank": 1027
+    "draft_rank": 1028
   },
   {
     "player_id": 5105856,
@@ -50828,7 +50855,7 @@
     "draft_seed_normalized": 0.733,
     "draft_seed_multiplier": 1.088,
     "draft_score": 0,
-    "draft_rank": 1028
+    "draft_rank": 1029
   },
   {
     "player_id": 5314495,
@@ -50855,7 +50882,7 @@
     "draft_seed_normalized": -0.867,
     "draft_seed_multiplier": 0.896,
     "draft_score": 0,
-    "draft_rank": 1029
+    "draft_rank": 1030
   },
   {
     "player_id": 5144150,
@@ -50882,7 +50909,7 @@
     "draft_seed_normalized": 1,
     "draft_seed_multiplier": 1.12,
     "draft_score": 0,
-    "draft_rank": 1030
+    "draft_rank": 1031
   },
   {
     "player_id": 5144157,
@@ -50909,7 +50936,7 @@
     "draft_seed_normalized": 0.6,
     "draft_seed_multiplier": 1.072,
     "draft_score": 0,
-    "draft_rank": 1031
+    "draft_rank": 1032
   },
   {
     "player_id": 4845366,
@@ -50936,7 +50963,7 @@
     "draft_seed_normalized": -0.467,
     "draft_seed_multiplier": 0.944,
     "draft_score": 0,
-    "draft_rank": 1032
+    "draft_rank": 1033
   },
   {
     "player_id": 5311933,
@@ -50963,7 +50990,7 @@
     "draft_seed_normalized": -0.2,
     "draft_seed_multiplier": 0.976,
     "draft_score": 0,
-    "draft_rank": 1033
+    "draft_rank": 1034
   },
   {
     "player_id": 5241929,
@@ -50990,7 +51017,7 @@
     "draft_seed_normalized": -0.733,
     "draft_seed_multiplier": 0.912,
     "draft_score": 0,
-    "draft_rank": 1034
+    "draft_rank": 1035
   },
   {
     "player_id": 5313032,
@@ -51017,7 +51044,7 @@
     "draft_seed_normalized": 0.2,
     "draft_seed_multiplier": 1.024,
     "draft_score": 0,
-    "draft_rank": 1035
+    "draft_rank": 1036
   },
   {
     "player_id": 5312162,
@@ -51044,7 +51071,7 @@
     "draft_seed_normalized": -0.6,
     "draft_seed_multiplier": 0.928,
     "draft_score": 0,
-    "draft_rank": 1036
+    "draft_rank": 1037
   },
   {
     "player_id": 5311841,
@@ -51071,7 +51098,7 @@
     "draft_seed_normalized": -0.067,
     "draft_seed_multiplier": 0.992,
     "draft_score": 0,
-    "draft_rank": 1037
+    "draft_rank": 1038
   },
   {
     "player_id": 5101821,
@@ -51098,7 +51125,7 @@
     "draft_seed_normalized": 0.2,
     "draft_seed_multiplier": 1.024,
     "draft_score": 0,
-    "draft_rank": 1038
+    "draft_rank": 1039
   },
   {
     "player_id": 5105792,
@@ -51125,7 +51152,7 @@
     "draft_seed_normalized": 0.867,
     "draft_seed_multiplier": 1.104,
     "draft_score": 0,
-    "draft_rank": 1039
+    "draft_rank": 1040
   },
   {
     "player_id": 5248172,
@@ -51152,7 +51179,7 @@
     "draft_seed_normalized": 0.733,
     "draft_seed_multiplier": 1.088,
     "draft_score": 0,
-    "draft_rank": 1040
+    "draft_rank": 1041
   },
   {
     "player_id": 5101858,
@@ -51179,7 +51206,7 @@
     "draft_seed_normalized": -0.2,
     "draft_seed_multiplier": 0.976,
     "draft_score": 0,
-    "draft_rank": 1041
+    "draft_rank": 1042
   },
   {
     "player_id": 5238183,
@@ -51231,7 +51258,7 @@
     "draft_seed_normalized": -0.333,
     "draft_seed_multiplier": 0.96,
     "draft_score": -0.25,
-    "draft_rank": 1042
+    "draft_rank": 1043
   },
   {
     "player_id": 5174664,
@@ -51283,6 +51310,6 @@
     "draft_seed_normalized": 0.067,
     "draft_seed_multiplier": 1.008,
     "draft_score": -0.52,
-    "draft_rank": 1043
+    "draft_rank": 1044
   }
 ]
