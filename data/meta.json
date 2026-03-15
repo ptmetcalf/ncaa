@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-15T21:28:21.077Z",
+  "generated_at": "2026-03-15T22:28:36.244Z",
   "year": 2026,
   "season_type": 2,
   "team_source_mode": "auto",
@@ -10,8 +10,8 @@
     "season": "2025-26",
     "tournament_name": "Men's NCAA Tournament",
     "short_name": "NCAA",
-    "matchups": 0,
-    "teams": 0
+    "matchups": 17,
+    "teams": 33
   },
   "discover_dates": [
     "20260317",

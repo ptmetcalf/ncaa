@@ -2,12 +2,12 @@
   {
     "event_id": 401856434,
     "date": "20260317",
-    "name": "TBD at TBD",
-    "short_name": "TBD VS TBD",
+    "name": "NC State Wolfpack at Texas Longhorns",
+    "short_name": "NCSU VS TEX",
     "completed": false,
     "status": "Scheduled",
-    "home_team_id": -1,
-    "away_team_id": -2
+    "home_team_id": 251,
+    "away_team_id": 152
   },
   {
     "event_id": 401856435,
