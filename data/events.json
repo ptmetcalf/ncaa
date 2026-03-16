@@ -2,21 +2,21 @@
   {
     "event_id": 401856434,
     "date": "20260317",
-    "name": "NC State Wolfpack at Texas Longhorns",
-    "short_name": "NCSU VS TEX",
+    "name": "Texas Longhorns at NC State Wolfpack",
+    "short_name": "TEX VS NCSU",
     "completed": false,
     "status": "Scheduled",
-    "home_team_id": 251,
-    "away_team_id": 152
+    "home_team_id": 152,
+    "away_team_id": 251
   },
   {
     "event_id": 401856435,
     "date": "20260317",
-    "name": "Howard Bison at UMBC Retrievers",
-    "short_name": "HOW VS UMBC",
+    "name": "UMBC Retrievers at Howard Bison",
+    "short_name": "UMBC VS HOW",
     "completed": false,
     "status": "Scheduled",
-    "home_team_id": 2378,
-    "away_team_id": 47
+    "home_team_id": 47,
+    "away_team_id": 2378
   }
 ]
