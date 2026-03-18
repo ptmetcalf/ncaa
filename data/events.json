@@ -4,8 +4,8 @@
     "date": "20260317",
     "name": "Texas Longhorns at NC State Wolfpack",
     "short_name": "TEX VS NCSU",
-    "completed": false,
-    "status": "In Progress",
+    "completed": true,
+    "status": "Final",
     "home_team_id": 152,
     "away_team_id": 251
   },

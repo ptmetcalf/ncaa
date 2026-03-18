@@ -9,6 +9,15 @@
     "tournament_minutes": 34
   },
   {
+    "player_id": 4937074,
+    "player_name": "Darrion Williams",
+    "team_id": 152,
+    "team_name": "NC State Wolfpack",
+    "games_played": 1,
+    "tournament_points": 21,
+    "tournament_minutes": 39
+  },
+  {
     "player_id": 5313186,
     "player_name": "Jah'Likai King",
     "team_id": 2378,
@@ -27,6 +36,15 @@
     "tournament_minutes": 36
   },
   {
+    "player_id": 4432243,
+    "player_name": "Tramon Mark",
+    "team_id": 251,
+    "team_name": "Texas Longhorns",
+    "games_played": 1,
+    "tournament_points": 17,
+    "tournament_minutes": 33
+  },
+  {
     "player_id": 5252505,
     "player_name": "DJ Armstrong Jr.",
     "team_id": 2378,
@@ -34,6 +52,15 @@
     "games_played": 1,
     "tournament_points": 17,
     "tournament_minutes": 36
+  },
+  {
+    "player_id": 4683860,
+    "player_name": "Quadir Copeland",
+    "team_id": 152,
+    "team_name": "NC State Wolfpack",
+    "games_played": 1,
+    "tournament_points": 16,
+    "tournament_minutes": 35
   },
   {
     "player_id": 5192142,
@@ -45,6 +72,15 @@
     "tournament_minutes": 31
   },
   {
+    "player_id": 5239838,
+    "player_name": "Matas Vokietaitis",
+    "team_id": 251,
+    "team_name": "Texas Longhorns",
+    "games_played": 1,
+    "tournament_points": 15,
+    "tournament_minutes": 26
+  },
+  {
     "player_id": 5196866,
     "player_name": "Caden Diggs",
     "team_id": 2378,
@@ -52,6 +88,33 @@
     "games_played": 1,
     "tournament_points": 15,
     "tournament_minutes": 31
+  },
+  {
+    "player_id": 4848625,
+    "player_name": "Dailyn Swain",
+    "team_id": 251,
+    "team_name": "Texas Longhorns",
+    "games_played": 1,
+    "tournament_points": 13,
+    "tournament_minutes": 38
+  },
+  {
+    "player_id": 5105486,
+    "player_name": "Chendall Weaver",
+    "team_id": 251,
+    "team_name": "Texas Longhorns",
+    "games_played": 1,
+    "tournament_points": 11,
+    "tournament_minutes": 27
+  },
+  {
+    "player_id": 4873151,
+    "player_name": "Paul McNeil Jr.",
+    "team_id": 152,
+    "team_name": "NC State Wolfpack",
+    "games_played": 1,
+    "tournament_points": 11,
+    "tournament_minutes": 32
   },
   {
     "player_id": 5174860,
@@ -81,6 +144,15 @@
     "tournament_minutes": 14
   },
   {
+    "player_id": 5105816,
+    "player_name": "Tre Holloman",
+    "team_id": 152,
+    "team_name": "NC State Wolfpack",
+    "games_played": 1,
+    "tournament_points": 8,
+    "tournament_minutes": 25
+  },
+  {
     "player_id": 5176075,
     "player_name": "Cam Gillus",
     "team_id": 47,
@@ -108,6 +180,42 @@
     "tournament_minutes": 21
   },
   {
+    "player_id": 4684799,
+    "player_name": "Ven-Allen Lubin",
+    "team_id": 152,
+    "team_name": "NC State Wolfpack",
+    "games_played": 1,
+    "tournament_points": 6,
+    "tournament_minutes": 23
+  },
+  {
+    "player_id": 5105624,
+    "player_name": "Jordan Pope",
+    "team_id": 251,
+    "team_name": "Texas Longhorns",
+    "games_played": 1,
+    "tournament_points": 5,
+    "tournament_minutes": 37
+  },
+  {
+    "player_id": 5196877,
+    "player_name": "Matt Able",
+    "team_id": 152,
+    "team_name": "NC State Wolfpack",
+    "games_played": 1,
+    "tournament_points": 4,
+    "tournament_minutes": 25
+  },
+  {
+    "player_id": 5105855,
+    "player_name": "Camden Heide",
+    "team_id": 251,
+    "team_name": "Texas Longhorns",
+    "games_played": 1,
+    "tournament_points": 3,
+    "tournament_minutes": 14
+  },
+  {
     "player_id": 5313189,
     "player_name": "Riley Jacobs",
     "team_id": 2378,
@@ -115,6 +223,24 @@
     "games_played": 1,
     "tournament_points": 3,
     "tournament_minutes": 7
+  },
+  {
+    "player_id": 5149083,
+    "player_name": "Nic Codie",
+    "team_id": 251,
+    "team_name": "Texas Longhorns",
+    "games_played": 1,
+    "tournament_points": 2,
+    "tournament_minutes": 14
+  },
+  {
+    "player_id": 4683785,
+    "player_name": "Simeon Wilcher",
+    "team_id": 251,
+    "team_name": "Texas Longhorns",
+    "games_played": 1,
+    "tournament_points": 2,
+    "tournament_minutes": 11
   },
   {
     "player_id": 4702976,
@@ -133,6 +259,150 @@
     "games_played": 1,
     "tournament_points": 1,
     "tournament_minutes": 6
+  },
+  {
+    "player_id": 5311528,
+    "player_name": "Declan Duru Jr.",
+    "team_id": 251,
+    "team_name": "Texas Longhorns",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5149079,
+    "player_name": "John Clark",
+    "team_id": 251,
+    "team_name": "Texas Longhorns",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 4897760,
+    "player_name": "Cole Bott",
+    "team_id": 251,
+    "team_name": "Texas Longhorns",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 4897052,
+    "player_name": "Lassina Traore",
+    "team_id": 251,
+    "team_name": "Texas Longhorns",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5311529,
+    "player_name": "Lewis Obiorah",
+    "team_id": 251,
+    "team_name": "Texas Longhorns",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5191718,
+    "player_name": "Anthon McDermott",
+    "team_id": 251,
+    "team_name": "Texas Longhorns",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5176687,
+    "player_name": "Brandon Taylor",
+    "team_id": 251,
+    "team_name": "Texas Longhorns",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5311995,
+    "player_name": "Musa Sagnia",
+    "team_id": 152,
+    "team_name": "NC State Wolfpack",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 10
+  },
+  {
+    "player_id": 4897482,
+    "player_name": "Scottie Ebube",
+    "team_id": 152,
+    "team_name": "NC State Wolfpack",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 4
+  },
+  {
+    "player_id": 5106059,
+    "player_name": "Terrance Arceneaux",
+    "team_id": 152,
+    "team_name": "NC State Wolfpack",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 7
+  },
+  {
+    "player_id": 5174958,
+    "player_name": "Jerry Deng",
+    "team_id": 152,
+    "team_name": "NC State Wolfpack",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5142707,
+    "player_name": "Colt Langdon",
+    "team_id": 152,
+    "team_name": "NC State Wolfpack",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5101858,
+    "player_name": "Zymicah Wilkins",
+    "team_id": 152,
+    "team_name": "NC State Wolfpack",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5311994,
+    "player_name": "Jayme Kontuniemi",
+    "team_id": 152,
+    "team_name": "NC State Wolfpack",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5105430,
+    "player_name": "Jordan Snell",
+    "team_id": 152,
+    "team_name": "NC State Wolfpack",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 4585590,
+    "player_name": "Alyn Breed",
+    "team_id": 152,
+    "team_name": "NC State Wolfpack",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
   },
   {
     "player_id": 5313187,
