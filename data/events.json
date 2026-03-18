@@ -18,5 +18,25 @@
     "status": "In Progress",
     "home_team_id": 47,
     "away_team_id": 2378
+  },
+  {
+    "event_id": 401856436,
+    "date": "20260318",
+    "name": "Miami (OH) RedHawks at SMU Mustangs",
+    "short_name": "M-OH VS SMU",
+    "completed": false,
+    "status": "Scheduled",
+    "home_team_id": 2567,
+    "away_team_id": 193
+  },
+  {
+    "event_id": 401856437,
+    "date": "20260318",
+    "name": "Prairie View A&M Panthers at Lehigh Mountain Hawks",
+    "short_name": "PV VS LEH",
+    "completed": false,
+    "status": "Scheduled",
+    "home_team_id": 2329,
+    "away_team_id": 2504
   }
 ]

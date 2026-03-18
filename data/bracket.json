@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-17T23:28:50.623Z",
+  "generated_at": "2026-03-18T00:54:23.172Z",
   "year": 2026,
   "available": true,
   "source": "espn_bracket_page",
@@ -151,7 +151,7 @@
       "date": "2026-03-17T22:40:00Z",
       "status_state": "in",
       "status_desc": "In Progress",
-      "status_detail": "2:12 - 1st",
+      "status_detail": "0:13 - 2nd",
       "location": "Dayton, OH",
       "link": "/mens-college-basketball/game/_/gameId/401856435",
       "competitor_one": {
@@ -159,7 +159,7 @@
         "team_name": "Howard",
         "abbreviation": "HOW",
         "seed": 16,
-        "score": 45,
+        "score": 85,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/47.png"
       },
@@ -168,7 +168,7 @@
         "team_name": "UMBC",
         "abbreviation": "UMBC",
         "seed": 16,
-        "score": 37,
+        "score": 81,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2378.png"
       }
