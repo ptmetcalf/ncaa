@@ -5,7 +5,7 @@
     "name": "Texas Longhorns at NC State Wolfpack",
     "short_name": "TEX VS NCSU",
     "completed": false,
-    "status": "Scheduled",
+    "status": "In Progress",
     "home_team_id": 152,
     "away_team_id": 251
   },
@@ -14,8 +14,8 @@
     "date": "20260317",
     "name": "UMBC Retrievers at Howard Bison",
     "short_name": "UMBC VS HOW",
-    "completed": false,
-    "status": "In Progress",
+    "completed": true,
+    "status": "Final",
     "home_team_id": 47,
     "away_team_id": 2378
   },

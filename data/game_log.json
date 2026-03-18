@@ -1,1 +1,312 @@
-[]
+[
+  {
+    "event_id": 401856435,
+    "date": "20260317",
+    "player_id": 5182581,
+    "player_name": "Jose Roberto Tanchyn",
+    "team_id": 2378,
+    "team_name": "UMBC Retrievers",
+    "minutes": 21,
+    "points": 7
+  },
+  {
+    "event_id": 401856435,
+    "date": "20260317",
+    "player_id": 4702976,
+    "player_name": "Josh Odunowo",
+    "team_id": 2378,
+    "team_name": "UMBC Retrievers",
+    "minutes": 21,
+    "points": 2
+  },
+  {
+    "event_id": 401856435,
+    "date": "20260317",
+    "player_id": 5313186,
+    "player_name": "Jah'Likai King",
+    "team_id": 2378,
+    "team_name": "UMBC Retrievers",
+    "minutes": 33,
+    "points": 19
+  },
+  {
+    "event_id": 401856435,
+    "date": "20260317",
+    "player_id": 5252505,
+    "player_name": "DJ Armstrong Jr.",
+    "team_id": 2378,
+    "team_name": "UMBC Retrievers",
+    "minutes": 36,
+    "points": 17
+  },
+  {
+    "event_id": 401856435,
+    "date": "20260317",
+    "player_id": 5174860,
+    "player_name": "Ace Valentine",
+    "team_id": 2378,
+    "team_name": "UMBC Retrievers",
+    "minutes": 36,
+    "points": 11
+  },
+  {
+    "event_id": 401856435,
+    "date": "20260317",
+    "player_id": 5313189,
+    "player_name": "Riley Jacobs",
+    "team_id": 2378,
+    "team_name": "UMBC Retrievers",
+    "minutes": 7,
+    "points": 3
+  },
+  {
+    "event_id": 401856435,
+    "date": "20260317",
+    "player_id": 5313187,
+    "player_name": "Paul Greene",
+    "team_id": 2378,
+    "team_name": "UMBC Retrievers",
+    "minutes": 1,
+    "points": 0
+  },
+  {
+    "event_id": 401856435,
+    "date": "20260317",
+    "player_id": 5196866,
+    "player_name": "Caden Diggs",
+    "team_id": 2378,
+    "team_name": "UMBC Retrievers",
+    "minutes": 31,
+    "points": 15
+  },
+  {
+    "event_id": 401856435,
+    "date": "20260317",
+    "player_id": 5177355,
+    "player_name": "Cougar Downing",
+    "team_id": 2378,
+    "team_name": "UMBC Retrievers",
+    "minutes": 14,
+    "points": 9
+  },
+  {
+    "event_id": 401856435,
+    "date": "20260317",
+    "player_id": 5239818,
+    "player_name": "Jake Stout",
+    "team_id": 2378,
+    "team_name": "UMBC Retrievers",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856435,
+    "date": "20260317",
+    "player_id": 5239817,
+    "player_name": "Tim Eze",
+    "team_id": 2378,
+    "team_name": "UMBC Retrievers",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856435,
+    "date": "20260317",
+    "player_id": 5239816,
+    "player_name": "Daylon Dickerson",
+    "team_id": 2378,
+    "team_name": "UMBC Retrievers",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856435,
+    "date": "20260317",
+    "player_id": 5107238,
+    "player_name": "Regimantas Ciunys",
+    "team_id": 2378,
+    "team_name": "UMBC Retrievers",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856435,
+    "date": "20260317",
+    "player_id": 5313190,
+    "player_name": "Saahil Thakkar",
+    "team_id": 2378,
+    "team_name": "UMBC Retrievers",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856435,
+    "date": "20260317",
+    "player_id": 4888718,
+    "player_name": "Devin Ceaser",
+    "team_id": 2378,
+    "team_name": "UMBC Retrievers",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856435,
+    "date": "20260317",
+    "player_id": 5192142,
+    "player_name": "Cedric Taylor III",
+    "team_id": 47,
+    "team_name": "Howard Bison",
+    "minutes": 31,
+    "points": 16
+  },
+  {
+    "event_id": 401856435,
+    "date": "20260317",
+    "player_id": 5176075,
+    "player_name": "Cam Gillus",
+    "team_id": 47,
+    "team_name": "Howard Bison",
+    "minutes": 38,
+    "points": 8
+  },
+  {
+    "event_id": 401856435,
+    "date": "20260317",
+    "player_id": 5175065,
+    "player_name": "Alex Cotton",
+    "team_id": 47,
+    "team_name": "Howard Bison",
+    "minutes": 36,
+    "points": 8
+  },
+  {
+    "event_id": 401856435,
+    "date": "20260317",
+    "player_id": 5107986,
+    "player_name": "Ose Okojie",
+    "team_id": 47,
+    "team_name": "Howard Bison",
+    "minutes": 34,
+    "points": 23
+  },
+  {
+    "event_id": 401856435,
+    "date": "20260317",
+    "player_id": 4897768,
+    "player_name": "Bryce Harris",
+    "team_id": 47,
+    "team_name": "Howard Bison",
+    "minutes": 36,
+    "points": 19
+  },
+  {
+    "event_id": 401856435,
+    "date": "20260317",
+    "player_id": 5316220,
+    "player_name": "Travelle Bryson",
+    "team_id": 47,
+    "team_name": "Howard Bison",
+    "minutes": 10,
+    "points": 11
+  },
+  {
+    "event_id": 401856435,
+    "date": "20260317",
+    "player_id": 5250600,
+    "player_name": "Calvin Robins Jr.",
+    "team_id": 47,
+    "team_name": "Howard Bison",
+    "minutes": 5,
+    "points": 0
+  },
+  {
+    "event_id": 401856435,
+    "date": "20260317",
+    "player_id": 5316219,
+    "player_name": "Danas Kazakevicius",
+    "team_id": 47,
+    "team_name": "Howard Bison",
+    "minutes": 4,
+    "points": 0
+  },
+  {
+    "event_id": 401856435,
+    "date": "20260317",
+    "player_id": 5243100,
+    "player_name": "Isaiah Brown",
+    "team_id": 47,
+    "team_name": "Howard Bison",
+    "minutes": 6,
+    "points": 1
+  },
+  {
+    "event_id": 401856435,
+    "date": "20260317",
+    "player_id": 5316216,
+    "player_name": "Julian Johnson",
+    "team_id": 47,
+    "team_name": "Howard Bison",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856435,
+    "date": "20260317",
+    "player_id": 5316213,
+    "player_name": "Stefan Isailovic",
+    "team_id": 47,
+    "team_name": "Howard Bison",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856435,
+    "date": "20260317",
+    "player_id": 5316218,
+    "player_name": "Jeremiah Johnson",
+    "team_id": 47,
+    "team_name": "Howard Bison",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856435,
+    "date": "20260317",
+    "player_id": 5316217,
+    "player_name": "River Smith",
+    "team_id": 47,
+    "team_name": "Howard Bison",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856435,
+    "date": "20260317",
+    "player_id": 5316215,
+    "player_name": "Shane Frazier",
+    "team_id": 47,
+    "team_name": "Howard Bison",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856435,
+    "date": "20260317",
+    "player_id": 5316214,
+    "player_name": "BJ Powell",
+    "team_id": 47,
+    "team_name": "Howard Bison",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856435,
+    "date": "20260317",
+    "player_id": 4898226,
+    "player_name": "Ed Holland III",
+    "team_id": 47,
+    "team_name": "Howard Bison",
+    "minutes": null,
+    "points": 0
+  }
+]

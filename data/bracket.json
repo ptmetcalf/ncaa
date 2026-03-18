@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-18T00:54:23.172Z",
+  "generated_at": "2026-03-18T01:59:03.706Z",
   "year": 2026,
   "available": true,
   "source": "espn_bracket_page",
@@ -88,18 +88,18 @@
       "round_id": 0,
       "region_id": 3,
       "bracket_location": 1,
-      "date": "2026-03-18T01:15:00Z",
-      "status_state": "pre",
-      "status_desc": "Scheduled",
-      "status_detail": "3/17 - 9:15 PM EDT",
+      "date": "2026-03-18T01:29:00Z",
+      "status_state": "in",
+      "status_desc": "In Progress",
+      "status_detail": "5:40 - 1st",
       "location": "Dayton, OH",
-      "link": "/mens-college-basketball/game/_/gameId/401856434/texas-nc-state",
+      "link": "/mens-college-basketball/game/_/gameId/401856434",
       "competitor_one": {
         "team_id": 152,
         "team_name": "NC State",
         "abbreviation": "NCSU",
         "seed": 11,
-        "score": 0,
+        "score": 19,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/152.png"
       },
@@ -108,7 +108,7 @@
         "team_name": "Texas",
         "abbreviation": "TEX",
         "seed": 11,
-        "score": 0,
+        "score": 25,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/251.png"
       }
@@ -149,18 +149,18 @@
       "region_id": 4,
       "bracket_location": 3,
       "date": "2026-03-17T22:40:00Z",
-      "status_state": "in",
-      "status_desc": "In Progress",
-      "status_detail": "0:13 - 2nd",
+      "status_state": "post",
+      "status_desc": "Final",
+      "status_detail": "Final",
       "location": "Dayton, OH",
-      "link": "/mens-college-basketball/game/_/gameId/401856435",
+      "link": "/mens-college-basketball/game/_/gameId/401856435/umbc-howard",
       "competitor_one": {
         "team_id": 47,
         "team_name": "Howard",
         "abbreviation": "HOW",
         "seed": 16,
-        "score": 85,
-        "winner": false,
+        "score": 86,
+        "winner": true,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/47.png"
       },
       "competitor_two": {
@@ -168,7 +168,7 @@
         "team_name": "UMBC",
         "abbreviation": "UMBC",
         "seed": 16,
-        "score": 81,
+        "score": 83,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2378.png"
       }
@@ -917,7 +917,7 @@
       "status_desc": "Scheduled",
       "status_detail": "3/19 - 7:10 PM EDT",
       "location": "Buffalo, NY",
-      "link": "/mens-college-basketball/game/_/gameId/401856486",
+      "link": "/mens-college-basketball/game/_/gameId/401856486/howard-michigan",
       "competitor_one": {
         "team_id": 130,
         "team_name": "Michigan",
@@ -927,7 +927,15 @@
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/130.png"
       },
-      "competitor_two": null
+      "competitor_two": {
+        "team_id": 47,
+        "team_name": "Howard",
+        "abbreviation": "HOW",
+        "seed": 16,
+        "score": 0,
+        "winner": false,
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/47.png"
+      }
     },
     {
       "matchup_id": 401856487,

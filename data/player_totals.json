@@ -1,1 +1,281 @@
-[]
+[
+  {
+    "player_id": 5107986,
+    "player_name": "Ose Okojie",
+    "team_id": 47,
+    "team_name": "Howard Bison",
+    "games_played": 1,
+    "tournament_points": 23,
+    "tournament_minutes": 34
+  },
+  {
+    "player_id": 5313186,
+    "player_name": "Jah'Likai King",
+    "team_id": 2378,
+    "team_name": "UMBC Retrievers",
+    "games_played": 1,
+    "tournament_points": 19,
+    "tournament_minutes": 33
+  },
+  {
+    "player_id": 4897768,
+    "player_name": "Bryce Harris",
+    "team_id": 47,
+    "team_name": "Howard Bison",
+    "games_played": 1,
+    "tournament_points": 19,
+    "tournament_minutes": 36
+  },
+  {
+    "player_id": 5252505,
+    "player_name": "DJ Armstrong Jr.",
+    "team_id": 2378,
+    "team_name": "UMBC Retrievers",
+    "games_played": 1,
+    "tournament_points": 17,
+    "tournament_minutes": 36
+  },
+  {
+    "player_id": 5192142,
+    "player_name": "Cedric Taylor III",
+    "team_id": 47,
+    "team_name": "Howard Bison",
+    "games_played": 1,
+    "tournament_points": 16,
+    "tournament_minutes": 31
+  },
+  {
+    "player_id": 5196866,
+    "player_name": "Caden Diggs",
+    "team_id": 2378,
+    "team_name": "UMBC Retrievers",
+    "games_played": 1,
+    "tournament_points": 15,
+    "tournament_minutes": 31
+  },
+  {
+    "player_id": 5174860,
+    "player_name": "Ace Valentine",
+    "team_id": 2378,
+    "team_name": "UMBC Retrievers",
+    "games_played": 1,
+    "tournament_points": 11,
+    "tournament_minutes": 36
+  },
+  {
+    "player_id": 5316220,
+    "player_name": "Travelle Bryson",
+    "team_id": 47,
+    "team_name": "Howard Bison",
+    "games_played": 1,
+    "tournament_points": 11,
+    "tournament_minutes": 10
+  },
+  {
+    "player_id": 5177355,
+    "player_name": "Cougar Downing",
+    "team_id": 2378,
+    "team_name": "UMBC Retrievers",
+    "games_played": 1,
+    "tournament_points": 9,
+    "tournament_minutes": 14
+  },
+  {
+    "player_id": 5176075,
+    "player_name": "Cam Gillus",
+    "team_id": 47,
+    "team_name": "Howard Bison",
+    "games_played": 1,
+    "tournament_points": 8,
+    "tournament_minutes": 38
+  },
+  {
+    "player_id": 5175065,
+    "player_name": "Alex Cotton",
+    "team_id": 47,
+    "team_name": "Howard Bison",
+    "games_played": 1,
+    "tournament_points": 8,
+    "tournament_minutes": 36
+  },
+  {
+    "player_id": 5182581,
+    "player_name": "Jose Roberto Tanchyn",
+    "team_id": 2378,
+    "team_name": "UMBC Retrievers",
+    "games_played": 1,
+    "tournament_points": 7,
+    "tournament_minutes": 21
+  },
+  {
+    "player_id": 5313189,
+    "player_name": "Riley Jacobs",
+    "team_id": 2378,
+    "team_name": "UMBC Retrievers",
+    "games_played": 1,
+    "tournament_points": 3,
+    "tournament_minutes": 7
+  },
+  {
+    "player_id": 4702976,
+    "player_name": "Josh Odunowo",
+    "team_id": 2378,
+    "team_name": "UMBC Retrievers",
+    "games_played": 1,
+    "tournament_points": 2,
+    "tournament_minutes": 21
+  },
+  {
+    "player_id": 5243100,
+    "player_name": "Isaiah Brown",
+    "team_id": 47,
+    "team_name": "Howard Bison",
+    "games_played": 1,
+    "tournament_points": 1,
+    "tournament_minutes": 6
+  },
+  {
+    "player_id": 5313187,
+    "player_name": "Paul Greene",
+    "team_id": 2378,
+    "team_name": "UMBC Retrievers",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 1
+  },
+  {
+    "player_id": 5239818,
+    "player_name": "Jake Stout",
+    "team_id": 2378,
+    "team_name": "UMBC Retrievers",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5239817,
+    "player_name": "Tim Eze",
+    "team_id": 2378,
+    "team_name": "UMBC Retrievers",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5239816,
+    "player_name": "Daylon Dickerson",
+    "team_id": 2378,
+    "team_name": "UMBC Retrievers",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5107238,
+    "player_name": "Regimantas Ciunys",
+    "team_id": 2378,
+    "team_name": "UMBC Retrievers",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5313190,
+    "player_name": "Saahil Thakkar",
+    "team_id": 2378,
+    "team_name": "UMBC Retrievers",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 4888718,
+    "player_name": "Devin Ceaser",
+    "team_id": 2378,
+    "team_name": "UMBC Retrievers",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5250600,
+    "player_name": "Calvin Robins Jr.",
+    "team_id": 47,
+    "team_name": "Howard Bison",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 5
+  },
+  {
+    "player_id": 5316219,
+    "player_name": "Danas Kazakevicius",
+    "team_id": 47,
+    "team_name": "Howard Bison",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 4
+  },
+  {
+    "player_id": 5316216,
+    "player_name": "Julian Johnson",
+    "team_id": 47,
+    "team_name": "Howard Bison",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5316213,
+    "player_name": "Stefan Isailovic",
+    "team_id": 47,
+    "team_name": "Howard Bison",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5316218,
+    "player_name": "Jeremiah Johnson",
+    "team_id": 47,
+    "team_name": "Howard Bison",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5316217,
+    "player_name": "River Smith",
+    "team_id": 47,
+    "team_name": "Howard Bison",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5316215,
+    "player_name": "Shane Frazier",
+    "team_id": 47,
+    "team_name": "Howard Bison",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5316214,
+    "player_name": "BJ Powell",
+    "team_id": 47,
+    "team_name": "Howard Bison",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 4898226,
+    "player_name": "Ed Holland III",
+    "team_id": 47,
+    "team_name": "Howard Bison",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  }
+]
