@@ -44,8 +44,8 @@
     "date": "20260319",
     "name": "Siena Saints at Duke Blue Devils",
     "short_name": "SIE VS DUKE",
-    "completed": false,
-    "status": "In Progress",
+    "completed": true,
+    "status": "Final",
     "home_team_id": 150,
     "away_team_id": 2561
   },
@@ -75,7 +75,7 @@
     "name": "Hawai'i Rainbow Warriors at Arkansas Razorbacks",
     "short_name": "HAW VS ARK",
     "completed": false,
-    "status": "In Progress",
+    "status": "Halftime",
     "home_team_id": 8,
     "away_team_id": 62
   },
@@ -95,7 +95,7 @@
     "name": "North Dakota State Bison at Michigan State Spartans",
     "short_name": "NDSU VS MSU",
     "completed": false,
-    "status": "In Progress",
+    "status": "Halftime",
     "home_team_id": 127,
     "away_team_id": 2449
   },
@@ -144,8 +144,8 @@
     "date": "20260319",
     "name": "McNeese Cowboys at Vanderbilt Commodores",
     "short_name": "MCN VS VAN",
-    "completed": false,
-    "status": "In Progress",
+    "completed": true,
+    "status": "Final",
     "home_team_id": 238,
     "away_team_id": 2377
   },

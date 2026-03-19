@@ -1230,6 +1230,316 @@
     "points": 0
   },
   {
+    "event_id": 401856478,
+    "date": "20260319",
+    "player_id": 5314195,
+    "player_name": "Francis Folefac",
+    "team_id": 2561,
+    "team_name": "Siena Saints",
+    "minutes": 40,
+    "points": 18
+  },
+  {
+    "event_id": 401856478,
+    "date": "20260319",
+    "player_id": 5107811,
+    "player_name": "Brendan Coyle",
+    "team_id": 2561,
+    "team_name": "Siena Saints",
+    "minutes": 40,
+    "points": 12
+  },
+  {
+    "event_id": 401856478,
+    "date": "20260319",
+    "player_id": 4685004,
+    "player_name": "Riley Mulvey",
+    "team_id": 2561,
+    "team_name": "Siena Saints",
+    "minutes": 40,
+    "points": 6
+  },
+  {
+    "event_id": 401856478,
+    "date": "20260319",
+    "player_id": 5242926,
+    "player_name": "Gavin Doty",
+    "team_id": 2561,
+    "team_name": "Siena Saints",
+    "minutes": 40,
+    "points": 21
+  },
+  {
+    "event_id": 401856478,
+    "date": "20260319",
+    "player_id": 5242922,
+    "player_name": "Justice Shoats",
+    "team_id": 2561,
+    "team_name": "Siena Saints",
+    "minutes": 40,
+    "points": 8
+  },
+  {
+    "event_id": 401856478,
+    "date": "20260319",
+    "player_id": 5314193,
+    "player_name": "Christian Jones",
+    "team_id": 2561,
+    "team_name": "Siena Saints",
+    "minutes": 0,
+    "points": 0
+  },
+  {
+    "event_id": 401856478,
+    "date": "20260319",
+    "player_id": 5314192,
+    "player_name": "Antonio Chandler",
+    "team_id": 2561,
+    "team_name": "Siena Saints",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856478,
+    "date": "20260319",
+    "player_id": 5314191,
+    "player_name": "Isaiah Henderson",
+    "team_id": 2561,
+    "team_name": "Siena Saints",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856478,
+    "date": "20260319",
+    "player_id": 5242925,
+    "player_name": "Tajae Jones",
+    "team_id": 2561,
+    "team_name": "Siena Saints",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856478,
+    "date": "20260319",
+    "player_id": 5178209,
+    "player_name": "Tasman Goodrick",
+    "team_id": 2561,
+    "team_name": "Siena Saints",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856478,
+    "date": "20260319",
+    "player_id": 5314196,
+    "player_name": "Danny Murray",
+    "team_id": 2561,
+    "team_name": "Siena Saints",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856478,
+    "date": "20260319",
+    "player_id": 5314194,
+    "player_name": "Owen Schlager",
+    "team_id": 2561,
+    "team_name": "Siena Saints",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856478,
+    "date": "20260319",
+    "player_id": 5242929,
+    "player_name": "Cooper Nadler",
+    "team_id": 2561,
+    "team_name": "Siena Saints",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856478,
+    "date": "20260319",
+    "player_id": 5242923,
+    "player_name": "Chris Torres",
+    "team_id": 2561,
+    "team_name": "Siena Saints",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856478,
+    "date": "20260319",
+    "player_id": 5177164,
+    "player_name": "Mosi Clayton",
+    "team_id": 2561,
+    "team_name": "Siena Saints",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856478,
+    "date": "20260319",
+    "player_id": 5106044,
+    "player_name": "Marcus Jackson",
+    "team_id": 2561,
+    "team_name": "Siena Saints",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856478,
+    "date": "20260319",
+    "player_id": 4685660,
+    "player_name": "Reid Ducharme",
+    "team_id": 2561,
+    "team_name": "Siena Saints",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856478,
+    "date": "20260319",
+    "player_id": 5105337,
+    "player_name": "Maliq Brown",
+    "team_id": 150,
+    "team_name": "Duke Blue Devils",
+    "minutes": 26,
+    "points": 6
+  },
+  {
+    "event_id": 401856478,
+    "date": "20260319",
+    "player_id": 5041935,
+    "player_name": "Cameron Boozer",
+    "team_id": 150,
+    "team_name": "Duke Blue Devils",
+    "minutes": 39,
+    "points": 22
+  },
+  {
+    "event_id": 401856478,
+    "date": "20260319",
+    "player_id": 5287474,
+    "player_name": "Dame Sarr",
+    "team_id": 150,
+    "team_name": "Duke Blue Devils",
+    "minutes": 31,
+    "points": 5
+  },
+  {
+    "event_id": 401856478,
+    "date": "20260319",
+    "player_id": 5061585,
+    "player_name": "Isaiah Evans",
+    "team_id": 150,
+    "team_name": "Duke Blue Devils",
+    "minutes": 32,
+    "points": 16
+  },
+  {
+    "event_id": 401856478,
+    "date": "20260319",
+    "player_id": 5041937,
+    "player_name": "Cayden Boozer",
+    "team_id": 150,
+    "team_name": "Duke Blue Devils",
+    "minutes": 39,
+    "points": 19
+  },
+  {
+    "event_id": 401856478,
+    "date": "20260319",
+    "player_id": 5144124,
+    "player_name": "Nikolas Khamenia",
+    "team_id": 150,
+    "team_name": "Duke Blue Devils",
+    "minutes": 24,
+    "points": 3
+  },
+  {
+    "event_id": 401856478,
+    "date": "20260319",
+    "player_id": 4873107,
+    "player_name": "Darren Harris",
+    "team_id": 150,
+    "team_name": "Duke Blue Devils",
+    "minutes": 9,
+    "points": 0
+  },
+  {
+    "event_id": 401856478,
+    "date": "20260319",
+    "player_id": 5107141,
+    "player_name": "Ifeanyi Ufochukwu",
+    "team_id": 150,
+    "team_name": "Duke Blue Devils",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856478,
+    "date": "20260319",
+    "player_id": 4873209,
+    "player_name": "Patrick Ngongba II",
+    "team_id": 150,
+    "team_name": "Duke Blue Devils",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856478,
+    "date": "20260319",
+    "player_id": 5341547,
+    "player_name": "Brock Davis",
+    "team_id": 150,
+    "team_name": "Duke Blue Devils",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856478,
+    "date": "20260319",
+    "player_id": 5144150,
+    "player_name": "Sebastian Wilkins",
+    "team_id": 150,
+    "team_name": "Duke Blue Devils",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856478,
+    "date": "20260319",
+    "player_id": 4888720,
+    "player_name": "Jack Scott",
+    "team_id": 150,
+    "team_name": "Duke Blue Devils",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856478,
+    "date": "20260319",
+    "player_id": 4711256,
+    "player_name": "Caleb Foster",
+    "team_id": 150,
+    "team_name": "Duke Blue Devils",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856478,
+    "date": "20260319",
+    "player_id": 4432321,
+    "player_name": "Cameron Sheffield",
+    "team_id": 150,
+    "team_name": "Duke Blue Devils",
+    "minutes": null,
+    "points": 0
+  },
+  {
     "event_id": 401856479,
     "date": "20260319",
     "player_id": 5311928,
@@ -1556,7 +1866,7 @@
     "player_name": "Braden Hausen",
     "team_id": 2272,
     "team_name": "High Point Panthers",
-    "minutes": 16,
+    "minutes": 17,
     "points": 6
   },
   {
@@ -1796,7 +2106,7 @@
     "player_name": "Braeden Carrington",
     "team_id": 275,
     "team_name": "Wisconsin Badgers",
-    "minutes": 16,
+    "minutes": 15,
     "points": 5
   },
   {
@@ -2186,6 +2496,316 @@
     "player_name": "Mikel Brown Jr.",
     "team_id": 97,
     "team_name": "Louisville Cardinals",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856488,
+    "date": "20260319",
+    "player_id": 4433273,
+    "player_name": "Jerrell Colbert",
+    "team_id": 2377,
+    "team_name": "McNeese Cowboys",
+    "minutes": 31,
+    "points": 0
+  },
+  {
+    "event_id": 401856488,
+    "date": "20260319",
+    "player_id": 5175726,
+    "player_name": "Tyshawn Archie",
+    "team_id": 2377,
+    "team_name": "McNeese Cowboys",
+    "minutes": 30,
+    "points": 13
+  },
+  {
+    "event_id": 401856488,
+    "date": "20260319",
+    "player_id": 5144375,
+    "player_name": "Larry Johnson",
+    "team_id": 2377,
+    "team_name": "McNeese Cowboys",
+    "minutes": 28,
+    "points": 15
+  },
+  {
+    "event_id": 401856488,
+    "date": "20260319",
+    "player_id": 5077373,
+    "player_name": "Garwey Dual",
+    "team_id": 2377,
+    "team_name": "McNeese Cowboys",
+    "minutes": 34,
+    "points": 16
+  },
+  {
+    "event_id": 401856488,
+    "date": "20260319",
+    "player_id": 4701125,
+    "player_name": "Javohn Garcia",
+    "team_id": 2377,
+    "team_name": "McNeese Cowboys",
+    "minutes": 37,
+    "points": 10
+  },
+  {
+    "event_id": 401856488,
+    "date": "20260319",
+    "player_id": 5313569,
+    "player_name": "Peitok Machar",
+    "team_id": 2377,
+    "team_name": "McNeese Cowboys",
+    "minutes": 5,
+    "points": 0
+  },
+  {
+    "event_id": 401856488,
+    "date": "20260319",
+    "player_id": 5238222,
+    "player_name": "Jacolb Fredson-Cole",
+    "team_id": 2377,
+    "team_name": "McNeese Cowboys",
+    "minutes": 12,
+    "points": 5
+  },
+  {
+    "event_id": 401856488,
+    "date": "20260319",
+    "player_id": 5175027,
+    "player_name": "Yanis Ndjonga",
+    "team_id": 2377,
+    "team_name": "McNeese Cowboys",
+    "minutes": 2,
+    "points": 0
+  },
+  {
+    "event_id": 401856488,
+    "date": "20260319",
+    "player_id": 5106843,
+    "player_name": "DJ Richards Jr.",
+    "team_id": 2377,
+    "team_name": "McNeese Cowboys",
+    "minutes": 19,
+    "points": 9
+  },
+  {
+    "event_id": 401856488,
+    "date": "20260319",
+    "player_id": 4711271,
+    "player_name": "Carl Cherenfant",
+    "team_id": 2377,
+    "team_name": "McNeese Cowboys",
+    "minutes": 1,
+    "points": 0
+  },
+  {
+    "event_id": 401856488,
+    "date": "20260319",
+    "player_id": 5313570,
+    "player_name": "Abdou Akim Mazou Tahirou",
+    "team_id": 2377,
+    "team_name": "McNeese Cowboys",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856488,
+    "date": "20260319",
+    "player_id": 5313568,
+    "player_name": "Kaleb Brewer",
+    "team_id": 2377,
+    "team_name": "McNeese Cowboys",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856488,
+    "date": "20260319",
+    "player_id": 5242577,
+    "player_name": "Erik Villarreal",
+    "team_id": 2377,
+    "team_name": "McNeese Cowboys",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856488,
+    "date": "20260319",
+    "player_id": 5186554,
+    "player_name": "JJ Rembert",
+    "team_id": 2377,
+    "team_name": "McNeese Cowboys",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856488,
+    "date": "20260319",
+    "player_id": 4845366,
+    "player_name": "T'Johnn Brown",
+    "team_id": 2377,
+    "team_name": "McNeese Cowboys",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856488,
+    "date": "20260319",
+    "player_id": 5114350,
+    "player_name": "AK Okereke",
+    "team_id": 238,
+    "team_name": "Vanderbilt Commodores",
+    "minutes": 33,
+    "points": 7
+  },
+  {
+    "event_id": 401856488,
+    "date": "20260319",
+    "player_id": 4838721,
+    "player_name": "Tyler Nickel",
+    "team_id": 238,
+    "team_name": "Vanderbilt Commodores",
+    "minutes": 33,
+    "points": 12
+  },
+  {
+    "event_id": 401856488,
+    "date": "20260319",
+    "player_id": 4791227,
+    "player_name": "Devin McGlockton",
+    "team_id": 238,
+    "team_name": "Vanderbilt Commodores",
+    "minutes": 32,
+    "points": 12
+  },
+  {
+    "event_id": 401856488,
+    "date": "20260319",
+    "player_id": 5187600,
+    "player_name": "Tyler Tanner",
+    "team_id": 238,
+    "team_name": "Vanderbilt Commodores",
+    "minutes": 37,
+    "points": 26
+  },
+  {
+    "event_id": 401856488,
+    "date": "20260319",
+    "player_id": 4702049,
+    "player_name": "Duke Miles",
+    "team_id": 238,
+    "team_name": "Vanderbilt Commodores",
+    "minutes": 29,
+    "points": 13
+  },
+  {
+    "event_id": 401856488,
+    "date": "20260319",
+    "player_id": 4433625,
+    "player_name": "Jalen Washington",
+    "team_id": 238,
+    "team_name": "Vanderbilt Commodores",
+    "minutes": 15,
+    "points": 4
+  },
+  {
+    "event_id": 401856488,
+    "date": "20260319",
+    "player_id": 5311759,
+    "player_name": "Chandler Bing",
+    "team_id": 238,
+    "team_name": "Vanderbilt Commodores",
+    "minutes": 22,
+    "points": 4
+  },
+  {
+    "event_id": 401856488,
+    "date": "20260319",
+    "player_id": 5176497,
+    "player_name": "Tyler Harris",
+    "team_id": 238,
+    "team_name": "Vanderbilt Commodores",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856488,
+    "date": "20260319",
+    "player_id": 5106670,
+    "player_name": "Mason Nicholson",
+    "team_id": 238,
+    "team_name": "Vanderbilt Commodores",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856488,
+    "date": "20260319",
+    "player_id": 5254169,
+    "player_name": "Jayden Leverett",
+    "team_id": 238,
+    "team_name": "Vanderbilt Commodores",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856488,
+    "date": "20260319",
+    "player_id": 5239784,
+    "player_name": "George Kimble III",
+    "team_id": 238,
+    "team_name": "Vanderbilt Commodores",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856488,
+    "date": "20260319",
+    "player_id": 5221327,
+    "player_name": "Jaylon Dean-Vines",
+    "team_id": 238,
+    "team_name": "Vanderbilt Commodores",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856488,
+    "date": "20260319",
+    "player_id": 5174287,
+    "player_name": "Coleson Messer",
+    "team_id": 238,
+    "team_name": "Vanderbilt Commodores",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856488,
+    "date": "20260319",
+    "player_id": 5105281,
+    "player_name": "Miles Keeffe",
+    "team_id": 238,
+    "team_name": "Vanderbilt Commodores",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856488,
+    "date": "20260319",
+    "player_id": 4684164,
+    "player_name": "Mike James",
+    "team_id": 238,
+    "team_name": "Vanderbilt Commodores",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856488,
+    "date": "20260319",
+    "player_id": 4433616,
+    "player_name": "Frankie Collins",
+    "team_id": 238,
+    "team_name": "Vanderbilt Commodores",
     "minutes": null,
     "points": 0
   },
