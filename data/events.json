@@ -45,7 +45,7 @@
     "name": "Siena Saints at Duke Blue Devils",
     "short_name": "SIE VS DUKE",
     "completed": false,
-    "status": "Scheduled",
+    "status": "In Progress",
     "home_team_id": 150,
     "away_team_id": 2561
   },
@@ -65,7 +65,7 @@
     "name": "High Point Panthers at Wisconsin Badgers",
     "short_name": "HPU VS WIS",
     "completed": false,
-    "status": "Halftime",
+    "status": "In Progress",
     "home_team_id": 275,
     "away_team_id": 2272
   },
@@ -85,7 +85,7 @@
     "name": "South Florida Bulls at Louisville Cardinals",
     "short_name": "USF VS LOU",
     "completed": false,
-    "status": "Halftime",
+    "status": "In Progress",
     "home_team_id": 97,
     "away_team_id": 58
   },
@@ -145,7 +145,7 @@
     "name": "McNeese Cowboys at Vanderbilt Commodores",
     "short_name": "MCN VS VAN",
     "completed": false,
-    "status": "Scheduled",
+    "status": "In Progress",
     "home_team_id": 238,
     "away_team_id": 2377
   },
@@ -154,8 +154,8 @@
     "date": "20260319",
     "name": "Troy Trojans at Nebraska Cornhuskers",
     "short_name": "TROY VS NEB",
-    "completed": false,
-    "status": "In Progress",
+    "completed": true,
+    "status": "Final",
     "home_team_id": 158,
     "away_team_id": 2653
   },
