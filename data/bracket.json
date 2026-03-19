@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-19T01:59:11.080Z",
+  "generated_at": "2026-03-19T03:20:53.193Z",
   "year": 2026,
   "available": true,
   "source": "espn_bracket_page",
@@ -121,7 +121,7 @@
       "date": "2026-03-19T01:15:00Z",
       "status_state": "in",
       "status_desc": "In Progress",
-      "status_detail": "0:59 - 1st",
+      "status_detail": "0:41 - 2nd",
       "location": "Dayton, OH",
       "link": "/mens-college-basketball/game/_/gameId/401856436",
       "competitor_one": {
@@ -129,7 +129,7 @@
         "team_name": "SMU",
         "abbreviation": "SMU",
         "seed": 11,
-        "score": 32,
+        "score": 76,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2567.png"
       },
@@ -138,7 +138,7 @@
         "team_name": "Miami (OH)",
         "abbreviation": "M-OH",
         "seed": 11,
-        "score": 43,
+        "score": 85,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/193.png"
       }
