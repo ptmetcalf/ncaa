@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-19T17:38:41.177Z",
+  "generated_at": "2026-03-19T18:35:00.939Z",
   "year": 2026,
   "available": true,
   "source": "espn_bracket_page",
@@ -208,10 +208,10 @@
       "round_id": 1,
       "region_id": 1,
       "bracket_location": 1,
-      "date": "2026-03-19T18:50:00Z",
+      "date": "2026-03-19T19:00:00Z",
       "status_state": "pre",
       "status_desc": "Scheduled",
-      "status_detail": "3/19 - 2:50 PM EDT",
+      "status_detail": "3/19 - 3:00 PM EDT",
       "location": "Greenville, SC",
       "link": "/mens-college-basketball/game/_/gameId/401856478/siena-duke",
       "competitor_one": {
@@ -239,17 +239,17 @@
       "region_id": 1,
       "bracket_location": 2,
       "date": "2026-03-19T16:15:00Z",
-      "status_state": "in",
-      "status_desc": "In Progress",
-      "status_detail": "14:10 - 2nd",
+      "status_state": "post",
+      "status_desc": "Final",
+      "status_detail": "Final",
       "location": "Greenville, SC",
-      "link": "/mens-college-basketball/game/_/gameId/401856479",
+      "link": "/mens-college-basketball/game/_/gameId/401856479/tcu-ohio-state",
       "competitor_one": {
         "team_id": 194,
         "team_name": "Ohio State",
         "abbreviation": "OSU",
         "seed": 8,
-        "score": 33,
+        "score": 64,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/194.png"
       },
@@ -258,8 +258,8 @@
         "team_name": "TCU",
         "abbreviation": "TCU",
         "seed": 9,
-        "score": 43,
-        "winner": false,
+        "score": 66,
+        "winner": true,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2628.png"
       }
     },
@@ -330,8 +330,8 @@
       "bracket_location": 5,
       "date": "2026-03-19T17:30:00Z",
       "status_state": "in",
-      "status_desc": "In Progress",
-      "status_detail": "15:03 - 1st",
+      "status_desc": "Halftime",
+      "status_detail": "Halftime",
       "location": "Buffalo, NY",
       "link": "/mens-college-basketball/game/_/gameId/401856482",
       "competitor_one": {
@@ -339,7 +339,7 @@
         "team_name": "Louisville",
         "abbreviation": "LOU",
         "seed": 6,
-        "score": 7,
+        "score": 37,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/97.png"
       },
@@ -348,7 +348,7 @@
         "team_name": "South Florida",
         "abbreviation": "USF",
         "seed": 11,
-        "score": 7,
+        "score": 27,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/58.png"
       }
@@ -540,8 +540,8 @@
       "bracket_location": 12,
       "date": "2026-03-19T16:40:00Z",
       "status_state": "in",
-      "status_desc": "Halftime",
-      "status_detail": "Halftime",
+      "status_desc": "In Progress",
+      "status_detail": "2:12 - 2nd",
       "location": "Oklahoma City, OK",
       "link": "/mens-college-basketball/game/_/gameId/401856489",
       "competitor_one": {
@@ -549,7 +549,7 @@
         "team_name": "Nebraska",
         "abbreviation": "NEB",
         "seed": 4,
-        "score": 41,
+        "score": 76,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png"
       },
@@ -558,7 +558,7 @@
         "team_name": "Troy",
         "abbreviation": "TROY",
         "seed": 13,
-        "score": 25,
+        "score": 47,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2653.png"
       }
@@ -749,17 +749,17 @@
       "region_id": 3,
       "bracket_location": 19,
       "date": "2026-03-19T17:50:00Z",
-      "status_state": "pre",
-      "status_desc": "Scheduled",
-      "status_detail": "3/19 - 1:50 PM EDT",
+      "status_state": "in",
+      "status_desc": "Halftime",
+      "status_detail": "Halftime",
       "location": "Portland, OR",
-      "link": "/mens-college-basketball/game/_/gameId/401856480/high-point-wisconsin",
+      "link": "/mens-college-basketball/game/_/gameId/401856480",
       "competitor_one": {
         "team_id": 275,
         "team_name": "Wisconsin",
         "abbreviation": "WIS",
         "seed": 5,
-        "score": 0,
+        "score": 41,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/275.png"
       },
@@ -768,7 +768,7 @@
         "team_name": "High Point",
         "abbreviation": "HPU",
         "seed": 12,
-        "score": 0,
+        "score": 39,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2272.png"
       }
