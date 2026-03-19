@@ -1,5 +1,23 @@
 [
   {
+    "player_id": 4702654,
+    "player_name": "Nick Boyd",
+    "team_id": 275,
+    "team_name": "Wisconsin Badgers",
+    "games_played": 1,
+    "tournament_points": 27,
+    "tournament_minutes": 35
+  },
+  {
+    "player_id": 4699760,
+    "player_name": "Joseph Pinion",
+    "team_id": 58,
+    "team_name": "South Florida Bulls",
+    "games_played": 1,
+    "tournament_points": 27,
+    "tournament_minutes": 38
+  },
+  {
     "player_id": 5176727,
     "player_name": "Dontae Horne",
     "team_id": 2504,
@@ -36,6 +54,24 @@
     "tournament_minutes": 36
   },
   {
+    "player_id": 5107904,
+    "player_name": "Rob Martin",
+    "team_id": 2272,
+    "team_name": "High Point Panthers",
+    "games_played": 1,
+    "tournament_points": 23,
+    "tournament_minutes": 36
+  },
+  {
+    "player_id": 4712845,
+    "player_name": "Isaac McKneely",
+    "team_id": 97,
+    "team_name": "Louisville Cardinals",
+    "games_played": 1,
+    "tournament_points": 23,
+    "tournament_minutes": 28
+  },
+  {
     "player_id": 4858604,
     "player_name": "Pryce Sandfort",
     "team_id": 158,
@@ -43,6 +79,24 @@
     "games_played": 1,
     "tournament_points": 23,
     "tournament_minutes": 38
+  },
+  {
+    "player_id": 5103630,
+    "player_name": "John Blackwell",
+    "team_id": 275,
+    "team_name": "Wisconsin Badgers",
+    "games_played": 1,
+    "tournament_points": 22,
+    "tournament_minutes": 37
+  },
+  {
+    "player_id": 5107251,
+    "player_name": "Izaiyah Nelson",
+    "team_id": 58,
+    "team_name": "South Florida Bulls",
+    "games_played": 1,
+    "tournament_points": 22,
+    "tournament_minutes": 35
   },
   {
     "player_id": 4937074,
@@ -112,6 +166,15 @@
     "player_name": "Micah Robinson",
     "team_id": 2628,
     "team_name": "TCU Horned Frogs",
+    "games_played": 1,
+    "tournament_points": 18,
+    "tournament_minutes": 37
+  },
+  {
+    "player_id": 5107157,
+    "player_name": "Ryan Conwell",
+    "team_id": 97,
+    "team_name": "Louisville Cardinals",
     "games_played": 1,
     "tournament_points": 18,
     "tournament_minutes": 37
@@ -216,6 +279,15 @@
     "tournament_minutes": 39
   },
   {
+    "player_id": 5241590,
+    "player_name": "Terry Anderson",
+    "team_id": 2272,
+    "team_name": "High Point Panthers",
+    "games_played": 1,
+    "tournament_points": 15,
+    "tournament_minutes": 30
+  },
+  {
     "player_id": 4895776,
     "player_name": "Devin Royal",
     "team_id": 194,
@@ -223,6 +295,24 @@
     "games_played": 1,
     "tournament_points": 14,
     "tournament_minutes": 39
+  },
+  {
+    "player_id": 4432182,
+    "player_name": "Cam'Ron Fletcher",
+    "team_id": 2272,
+    "team_name": "High Point Panthers",
+    "games_played": 1,
+    "tournament_points": 14,
+    "tournament_minutes": 33
+  },
+  {
+    "player_id": 4612709,
+    "player_name": "Chase Johnston",
+    "team_id": 2272,
+    "team_name": "High Point Panthers",
+    "games_played": 1,
+    "tournament_points": 14,
+    "tournament_minutes": 22
   },
   {
     "player_id": 5176736,
@@ -288,6 +378,24 @@
     "tournament_minutes": 35
   },
   {
+    "player_id": 5240971,
+    "player_name": "Austin Rapp",
+    "team_id": 275,
+    "team_name": "Wisconsin Badgers",
+    "games_played": 1,
+    "tournament_points": 12,
+    "tournament_minutes": 33
+  },
+  {
+    "player_id": 5101765,
+    "player_name": "Gavin Hightower",
+    "team_id": 58,
+    "team_name": "South Florida Bulls",
+    "games_played": 1,
+    "tournament_points": 12,
+    "tournament_minutes": 23
+  },
+  {
     "player_id": 5105486,
     "player_name": "Chendall Weaver",
     "team_id": 251,
@@ -324,6 +432,15 @@
     "tournament_minutes": 10
   },
   {
+    "player_id": 5242131,
+    "player_name": "Owen Aquino",
+    "team_id": 2272,
+    "team_name": "High Point Panthers",
+    "games_played": 1,
+    "tournament_points": 11,
+    "tournament_minutes": 36
+  },
+  {
     "player_id": 4592677,
     "player_name": "Rienk Mast",
     "team_id": 158,
@@ -358,6 +475,24 @@
     "games_played": 1,
     "tournament_points": 10,
     "tournament_minutes": 40
+  },
+  {
+    "player_id": 4702784,
+    "player_name": "J'Vonne Hadley",
+    "team_id": 97,
+    "team_name": "Louisville Cardinals",
+    "games_played": 1,
+    "tournament_points": 10,
+    "tournament_minutes": 33
+  },
+  {
+    "player_id": 5311967,
+    "player_name": "Sananda Fru",
+    "team_id": 97,
+    "team_name": "Louisville Cardinals",
+    "games_played": 1,
+    "tournament_points": 10,
+    "tournament_minutes": 25
   },
   {
     "player_id": 5177355,
@@ -477,6 +612,15 @@
     "tournament_minutes": 29
   },
   {
+    "player_id": 4895783,
+    "player_name": "Nolan Winter",
+    "team_id": 275,
+    "team_name": "Wisconsin Badgers",
+    "games_played": 1,
+    "tournament_points": 8,
+    "tournament_minutes": 21
+  },
+  {
     "player_id": 5182581,
     "player_name": "Jose Roberto Tanchyn",
     "team_id": 2378,
@@ -511,6 +655,42 @@
     "games_played": 1,
     "tournament_points": 6,
     "tournament_minutes": 23
+  },
+  {
+    "player_id": 5241592,
+    "player_name": "Braden Hausen",
+    "team_id": 2272,
+    "team_name": "High Point Panthers",
+    "games_played": 1,
+    "tournament_points": 6,
+    "tournament_minutes": 16
+  },
+  {
+    "player_id": 5109019,
+    "player_name": "Andrew Rohde",
+    "team_id": 275,
+    "team_name": "Wisconsin Badgers",
+    "games_played": 1,
+    "tournament_points": 6,
+    "tournament_minutes": 32
+  },
+  {
+    "player_id": 5241690,
+    "player_name": "Josh Omojafo",
+    "team_id": 58,
+    "team_name": "South Florida Bulls",
+    "games_played": 1,
+    "tournament_points": 6,
+    "tournament_minutes": 23
+  },
+  {
+    "player_id": 5311969,
+    "player_name": "Vangelis Zougris",
+    "team_id": 97,
+    "team_name": "Louisville Cardinals",
+    "games_played": 1,
+    "tournament_points": 6,
+    "tournament_minutes": 10
   },
   {
     "player_id": 5240745,
@@ -558,6 +738,24 @@
     "tournament_minutes": 36
   },
   {
+    "player_id": 5105820,
+    "player_name": "Braeden Carrington",
+    "team_id": 275,
+    "team_name": "Wisconsin Badgers",
+    "games_played": 1,
+    "tournament_points": 5,
+    "tournament_minutes": 16
+  },
+  {
+    "player_id": 4873187,
+    "player_name": "Khani Rooths",
+    "team_id": 97,
+    "team_name": "Louisville Cardinals",
+    "games_played": 1,
+    "tournament_points": 5,
+    "tournament_minutes": 11
+  },
+  {
     "player_id": 5196877,
     "player_name": "Matt Able",
     "team_id": 152,
@@ -583,6 +781,51 @@
     "games_played": 1,
     "tournament_points": 4,
     "tournament_minutes": 28
+  },
+  {
+    "player_id": 5313560,
+    "player_name": "Wes Enis",
+    "team_id": 58,
+    "team_name": "South Florida Bulls",
+    "games_played": 1,
+    "tournament_points": 4,
+    "tournament_minutes": 32
+  },
+  {
+    "player_id": 5183925,
+    "player_name": "CJ Brown",
+    "team_id": 58,
+    "team_name": "South Florida Bulls",
+    "games_played": 1,
+    "tournament_points": 4,
+    "tournament_minutes": 19
+  },
+  {
+    "player_id": 4067423,
+    "player_name": "Isaiah Jones",
+    "team_id": 58,
+    "team_name": "South Florida Bulls",
+    "games_played": 1,
+    "tournament_points": 4,
+    "tournament_minutes": 27
+  },
+  {
+    "player_id": 5242127,
+    "player_name": "Adrian Wooley",
+    "team_id": 97,
+    "team_name": "Louisville Cardinals",
+    "games_played": 1,
+    "tournament_points": 4,
+    "tournament_minutes": 30
+  },
+  {
+    "player_id": 5174946,
+    "player_name": "Kobe Rodgers",
+    "team_id": 97,
+    "team_name": "Louisville Cardinals",
+    "games_played": 1,
+    "tournament_points": 4,
+    "tournament_minutes": 20
   },
   {
     "player_id": 5176732,
@@ -637,6 +880,15 @@
     "games_played": 1,
     "tournament_points": 3,
     "tournament_minutes": 5
+  },
+  {
+    "player_id": 4702739,
+    "player_name": "Aly Khalifa",
+    "team_id": 97,
+    "team_name": "Louisville Cardinals",
+    "games_played": 1,
+    "tournament_points": 3,
+    "tournament_minutes": 6
   },
   {
     "player_id": 5176731,
@@ -700,6 +952,15 @@
     "games_played": 1,
     "tournament_points": 2,
     "tournament_minutes": 4
+  },
+  {
+    "player_id": 5312048,
+    "player_name": "Aleksas Bieliauskas",
+    "team_id": 275,
+    "team_name": "Wisconsin Badgers",
+    "games_played": 1,
+    "tournament_points": 2,
+    "tournament_minutes": 27
   },
   {
     "player_id": 5240749,
@@ -1507,6 +1768,330 @@
     "player_name": "Puff Johnson",
     "team_id": 194,
     "team_name": "Ohio State Buckeyes",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 4896852,
+    "player_name": "Scotty Washington",
+    "team_id": 2272,
+    "team_name": "High Point Panthers",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 9
+  },
+  {
+    "player_id": 5102797,
+    "player_name": "Youssouf Singare",
+    "team_id": 2272,
+    "team_name": "High Point Panthers",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 4
+  },
+  {
+    "player_id": 5174957,
+    "player_name": "Conrad Martinez",
+    "team_id": 2272,
+    "team_name": "High Point Panthers",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 13
+  },
+  {
+    "player_id": 5313503,
+    "player_name": "Caden Miller",
+    "team_id": 2272,
+    "team_name": "High Point Panthers",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5241595,
+    "player_name": "Birgir Irving",
+    "team_id": 2272,
+    "team_name": "High Point Panthers",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5241594,
+    "player_name": "Josh Ibukunoluwa",
+    "team_id": 2272,
+    "team_name": "High Point Panthers",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5313505,
+    "player_name": "Kasen Krueger",
+    "team_id": 2272,
+    "team_name": "High Point Panthers",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5313504,
+    "player_name": "Dorian Grosber",
+    "team_id": 2272,
+    "team_name": "High Point Panthers",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5241597,
+    "player_name": "Mavrick Miller",
+    "team_id": 2272,
+    "team_name": "High Point Panthers",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5241591,
+    "player_name": "David Fonville",
+    "team_id": 2272,
+    "team_name": "High Point Panthers",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5108710,
+    "player_name": "Liam Carney",
+    "team_id": 2272,
+    "team_name": "High Point Panthers",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5106755,
+    "player_name": "Vincent Brady II",
+    "team_id": 2272,
+    "team_name": "High Point Panthers",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 4711705,
+    "player_name": "Babacar Diallo",
+    "team_id": 2272,
+    "team_name": "High Point Panthers",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5239655,
+    "player_name": "Riccardo Greppi",
+    "team_id": 275,
+    "team_name": "Wisconsin Badgers",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5215270,
+    "player_name": "Will Garlock",
+    "team_id": 275,
+    "team_name": "Wisconsin Badgers",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5110430,
+    "player_name": "Jack Robison",
+    "team_id": 275,
+    "team_name": "Wisconsin Badgers",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5105894,
+    "player_name": "Elijah Gray",
+    "team_id": 275,
+    "team_name": "Wisconsin Badgers",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5252600,
+    "player_name": "Hayden Jones",
+    "team_id": 275,
+    "team_name": "Wisconsin Badgers",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5174807,
+    "player_name": "Jack Janicki",
+    "team_id": 275,
+    "team_name": "Wisconsin Badgers",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5144103,
+    "player_name": "Zach Kinziger",
+    "team_id": 275,
+    "team_name": "Wisconsin Badgers",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5105863,
+    "player_name": "Isaac Gard",
+    "team_id": 275,
+    "team_name": "Wisconsin Badgers",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 4611412,
+    "player_name": "Daimion Collins",
+    "team_id": 58,
+    "team_name": "South Florida Bulls",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 3
+  },
+  {
+    "player_id": 5313562,
+    "player_name": "Tristan Beckford",
+    "team_id": 58,
+    "team_name": "South Florida Bulls",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5313561,
+    "player_name": "Caleb Sanders",
+    "team_id": 58,
+    "team_name": "South Florida Bulls",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5196957,
+    "player_name": "Onyx Nnani",
+    "team_id": 58,
+    "team_name": "South Florida Bulls",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 4684795,
+    "player_name": "De'Ante Green",
+    "team_id": 58,
+    "team_name": "South Florida Bulls",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5313563,
+    "player_name": "Adriel Nyorha",
+    "team_id": 58,
+    "team_name": "South Florida Bulls",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5241694,
+    "player_name": "Devin Haid",
+    "team_id": 58,
+    "team_name": "South Florida Bulls",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5107222,
+    "player_name": "Xavier Brown",
+    "team_id": 58,
+    "team_name": "South Florida Bulls",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5311966,
+    "player_name": "Mouhamed Camara",
+    "team_id": 97,
+    "team_name": "Louisville Cardinals",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 4589481,
+    "player_name": "Kasean Pryor",
+    "team_id": 97,
+    "team_name": "Louisville Cardinals",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5311968,
+    "player_name": "Will Hanke",
+    "team_id": 97,
+    "team_name": "Louisville Cardinals",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5106779,
+    "player_name": "Cole Sherman",
+    "team_id": 97,
+    "team_name": "Louisville Cardinals",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5105765,
+    "player_name": "Spencer Legg",
+    "team_id": 97,
+    "team_name": "Louisville Cardinals",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5104203,
+    "player_name": "London Johnson",
+    "team_id": 97,
+    "team_name": "Louisville Cardinals",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5101761,
+    "player_name": "Mikel Brown Jr.",
+    "team_id": 97,
+    "team_name": "Louisville Cardinals",
     "games_played": 1,
     "tournament_points": 0,
     "tournament_minutes": 0

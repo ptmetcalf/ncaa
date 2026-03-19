@@ -64,8 +64,8 @@
     "date": "20260319",
     "name": "High Point Panthers at Wisconsin Badgers",
     "short_name": "HPU VS WIS",
-    "completed": false,
-    "status": "In Progress",
+    "completed": true,
+    "status": "Final",
     "home_team_id": 275,
     "away_team_id": 2272
   },
@@ -75,7 +75,7 @@
     "name": "Hawai'i Rainbow Warriors at Arkansas Razorbacks",
     "short_name": "HAW VS ARK",
     "completed": false,
-    "status": "Scheduled",
+    "status": "In Progress",
     "home_team_id": 8,
     "away_team_id": 62
   },
@@ -84,8 +84,8 @@
     "date": "20260319",
     "name": "South Florida Bulls at Louisville Cardinals",
     "short_name": "USF VS LOU",
-    "completed": false,
-    "status": "In Progress",
+    "completed": true,
+    "status": "Final",
     "home_team_id": 97,
     "away_team_id": 58
   },
@@ -95,7 +95,7 @@
     "name": "North Dakota State Bison at Michigan State Spartans",
     "short_name": "NDSU VS MSU",
     "completed": false,
-    "status": "Scheduled",
+    "status": "In Progress",
     "home_team_id": 127,
     "away_team_id": 2449
   },
