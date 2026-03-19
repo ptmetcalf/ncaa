@@ -610,6 +610,326 @@
     "points": 0
   },
   {
+    "event_id": 401856436,
+    "date": "20260318",
+    "player_id": 5105859,
+    "player_name": "Antwone Woolfolk",
+    "team_id": 193,
+    "team_name": "Miami (OH) RedHawks",
+    "minutes": 19,
+    "points": 3
+  },
+  {
+    "event_id": 401856436,
+    "date": "20260318",
+    "player_id": 5243053,
+    "player_name": "Brant Byers",
+    "team_id": 193,
+    "team_name": "Miami (OH) RedHawks",
+    "minutes": 36,
+    "points": 19
+  },
+  {
+    "event_id": 401856436,
+    "date": "20260318",
+    "player_id": 5106674,
+    "player_name": "Peter Suder",
+    "team_id": 193,
+    "team_name": "Miami (OH) RedHawks",
+    "minutes": 36,
+    "points": 7
+  },
+  {
+    "event_id": 401856436,
+    "date": "20260318",
+    "player_id": 5101653,
+    "player_name": "Luke Skaljac",
+    "team_id": 193,
+    "team_name": "Miami (OH) RedHawks",
+    "minutes": 30,
+    "points": 17
+  },
+  {
+    "event_id": 401856436,
+    "date": "20260318",
+    "player_id": 5093252,
+    "player_name": "Eian Elmer",
+    "team_id": 193,
+    "team_name": "Miami (OH) RedHawks",
+    "minutes": 24,
+    "points": 23
+  },
+  {
+    "event_id": 401856436,
+    "date": "20260318",
+    "player_id": 5176313,
+    "player_name": "Almar Atlason",
+    "team_id": 193,
+    "team_name": "Miami (OH) RedHawks",
+    "minutes": 24,
+    "points": 12
+  },
+  {
+    "event_id": 401856436,
+    "date": "20260318",
+    "player_id": 5313370,
+    "player_name": "Justin Kirby",
+    "team_id": 193,
+    "team_name": "Miami (OH) RedHawks",
+    "minutes": 21,
+    "points": 8
+  },
+  {
+    "event_id": 401856436,
+    "date": "20260318",
+    "player_id": 5313368,
+    "player_name": "Trey Perry",
+    "team_id": 193,
+    "team_name": "Miami (OH) RedHawks",
+    "minutes": 10,
+    "points": 0
+  },
+  {
+    "event_id": 401856436,
+    "date": "20260318",
+    "player_id": 5313373,
+    "player_name": "Kyle Waltz",
+    "team_id": 193,
+    "team_name": "Miami (OH) RedHawks",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856436,
+    "date": "20260318",
+    "player_id": 5313371,
+    "player_name": "Tyler Robbins",
+    "team_id": 193,
+    "team_name": "Miami (OH) RedHawks",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856436,
+    "date": "20260318",
+    "player_id": 5243054,
+    "player_name": "Ethan Wright",
+    "team_id": 193,
+    "team_name": "Miami (OH) RedHawks",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856436,
+    "date": "20260318",
+    "player_id": 5176215,
+    "player_name": "Jackson Kotecki",
+    "team_id": 193,
+    "team_name": "Miami (OH) RedHawks",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856436,
+    "date": "20260318",
+    "player_id": 5313372,
+    "player_name": "Leshawn Stowers",
+    "team_id": 193,
+    "team_name": "Miami (OH) RedHawks",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856436,
+    "date": "20260318",
+    "player_id": 5313369,
+    "player_name": "Brady Ganley",
+    "team_id": 193,
+    "team_name": "Miami (OH) RedHawks",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856436,
+    "date": "20260318",
+    "player_id": 5176216,
+    "player_name": "Blake Anderson",
+    "team_id": 193,
+    "team_name": "Miami (OH) RedHawks",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856436,
+    "date": "20260318",
+    "player_id": 5176212,
+    "player_name": "Evan Ipsaro",
+    "team_id": 193,
+    "team_name": "Miami (OH) RedHawks",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856436,
+    "date": "20260318",
+    "player_id": 5108031,
+    "player_name": "Eli Yofan",
+    "team_id": 193,
+    "team_name": "Miami (OH) RedHawks",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856436,
+    "date": "20260318",
+    "player_id": 5110039,
+    "player_name": "Corey Washington",
+    "team_id": 2567,
+    "team_name": "SMU Mustangs",
+    "minutes": 36,
+    "points": 13
+  },
+  {
+    "event_id": 401856436,
+    "date": "20260318",
+    "player_id": 5238184,
+    "player_name": "Samet Yigitoglu",
+    "team_id": 2567,
+    "team_name": "SMU Mustangs",
+    "minutes": 27,
+    "points": 8
+  },
+  {
+    "event_id": 401856436,
+    "date": "20260318",
+    "player_id": 5101840,
+    "player_name": "Jaden Toombs",
+    "team_id": 2567,
+    "team_name": "SMU Mustangs",
+    "minutes": 35,
+    "points": 20
+  },
+  {
+    "event_id": 401856436,
+    "date": "20260318",
+    "player_id": 4898283,
+    "player_name": "Boopie Miller",
+    "team_id": 2567,
+    "team_name": "SMU Mustangs",
+    "minutes": 39,
+    "points": 15
+  },
+  {
+    "event_id": 401856436,
+    "date": "20260318",
+    "player_id": 4703115,
+    "player_name": "Jaron Pierre Jr.",
+    "team_id": 2567,
+    "team_name": "SMU Mustangs",
+    "minutes": 39,
+    "points": 18
+  },
+  {
+    "event_id": 401856436,
+    "date": "20260318",
+    "player_id": 5312289,
+    "player_name": "Jermaine O'Neal Jr.",
+    "team_id": 2567,
+    "team_name": "SMU Mustangs",
+    "minutes": 4,
+    "points": 0
+  },
+  {
+    "event_id": 401856436,
+    "date": "20260318",
+    "player_id": 5238182,
+    "player_name": "Mitchell Holmes",
+    "team_id": 2567,
+    "team_name": "SMU Mustangs",
+    "minutes": 1,
+    "points": 0
+  },
+  {
+    "event_id": 401856436,
+    "date": "20260318",
+    "player_id": 5144391,
+    "player_name": "Chance Puryear",
+    "team_id": 2567,
+    "team_name": "SMU Mustangs",
+    "minutes": 0,
+    "points": 0
+  },
+  {
+    "event_id": 401856436,
+    "date": "20260318",
+    "player_id": 4683781,
+    "player_name": "Sam Walters",
+    "team_id": 2567,
+    "team_name": "SMU Mustangs",
+    "minutes": 17,
+    "points": 5
+  },
+  {
+    "event_id": 401856436,
+    "date": "20260318",
+    "player_id": 5041938,
+    "player_name": "B.J. Davis-Ray",
+    "team_id": 2567,
+    "team_name": "SMU Mustangs",
+    "minutes": 2,
+    "points": 0
+  },
+  {
+    "event_id": 401856436,
+    "date": "20260318",
+    "player_id": 5280896,
+    "player_name": "Billy White III",
+    "team_id": 2567,
+    "team_name": "SMU Mustangs",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856436,
+    "date": "20260318",
+    "player_id": 5101828,
+    "player_name": "Nigel Walls",
+    "team_id": 2567,
+    "team_name": "SMU Mustangs",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856436,
+    "date": "20260318",
+    "player_id": 5238183,
+    "player_name": "Niccolo Kalischer-Stork",
+    "team_id": 2567,
+    "team_name": "SMU Mustangs",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856436,
+    "date": "20260318",
+    "player_id": 5106638,
+    "player_name": "Trey Utter",
+    "team_id": 2567,
+    "team_name": "SMU Mustangs",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856436,
+    "date": "20260318",
+    "player_id": 5105552,
+    "player_name": "B.J. Edwards",
+    "team_id": 2567,
+    "team_name": "SMU Mustangs",
+    "minutes": null,
+    "points": 0
+  },
+  {
     "event_id": 401856437,
     "date": "20260318",
     "player_id": 4904928,

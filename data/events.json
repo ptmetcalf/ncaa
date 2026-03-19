@@ -24,8 +24,8 @@
     "date": "20260318",
     "name": "Miami (OH) RedHawks at SMU Mustangs",
     "short_name": "M-OH VS SMU",
-    "completed": false,
-    "status": "In Progress",
+    "completed": true,
+    "status": "Final",
     "home_team_id": 2567,
     "away_team_id": 193
   },

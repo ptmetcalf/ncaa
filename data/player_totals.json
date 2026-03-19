@@ -18,6 +18,15 @@
     "tournament_minutes": 34
   },
   {
+    "player_id": 5093252,
+    "player_name": "Eian Elmer",
+    "team_id": 193,
+    "team_name": "Miami (OH) RedHawks",
+    "games_played": 1,
+    "tournament_points": 23,
+    "tournament_minutes": 24
+  },
+  {
     "player_id": 5243042,
     "player_name": "Hank Alvey",
     "team_id": 2329,
@@ -34,6 +43,15 @@
     "games_played": 1,
     "tournament_points": 21,
     "tournament_minutes": 39
+  },
+  {
+    "player_id": 5101840,
+    "player_name": "Jaden Toombs",
+    "team_id": 2567,
+    "team_name": "SMU Mustangs",
+    "games_played": 1,
+    "tournament_points": 20,
+    "tournament_minutes": 35
   },
   {
     "player_id": 5313186,
@@ -54,6 +72,15 @@
     "tournament_minutes": 36
   },
   {
+    "player_id": 5243053,
+    "player_name": "Brant Byers",
+    "team_id": 193,
+    "team_name": "Miami (OH) RedHawks",
+    "games_played": 1,
+    "tournament_points": 19,
+    "tournament_minutes": 36
+  },
+  {
     "player_id": 4904928,
     "player_name": "Cory Wells",
     "team_id": 2504,
@@ -61,6 +88,15 @@
     "games_played": 1,
     "tournament_points": 19,
     "tournament_minutes": 40
+  },
+  {
+    "player_id": 4703115,
+    "player_name": "Jaron Pierre Jr.",
+    "team_id": 2567,
+    "team_name": "SMU Mustangs",
+    "games_played": 1,
+    "tournament_points": 18,
+    "tournament_minutes": 39
   },
   {
     "player_id": 4432243,
@@ -79,6 +115,15 @@
     "games_played": 1,
     "tournament_points": 17,
     "tournament_minutes": 36
+  },
+  {
+    "player_id": 5101653,
+    "player_name": "Luke Skaljac",
+    "team_id": 193,
+    "team_name": "Miami (OH) RedHawks",
+    "games_played": 1,
+    "tournament_points": 17,
+    "tournament_minutes": 30
   },
   {
     "player_id": 4683860,
@@ -117,6 +162,15 @@
     "tournament_minutes": 31
   },
   {
+    "player_id": 4898283,
+    "player_name": "Boopie Miller",
+    "team_id": 2567,
+    "team_name": "SMU Mustangs",
+    "games_played": 1,
+    "tournament_points": 15,
+    "tournament_minutes": 39
+  },
+  {
     "player_id": 4848625,
     "player_name": "Dailyn Swain",
     "team_id": 251,
@@ -124,6 +178,24 @@
     "games_played": 1,
     "tournament_points": 13,
     "tournament_minutes": 38
+  },
+  {
+    "player_id": 5110039,
+    "player_name": "Corey Washington",
+    "team_id": 2567,
+    "team_name": "SMU Mustangs",
+    "games_played": 1,
+    "tournament_points": 13,
+    "tournament_minutes": 36
+  },
+  {
+    "player_id": 5176313,
+    "player_name": "Almar Atlason",
+    "team_id": 193,
+    "team_name": "Miami (OH) RedHawks",
+    "games_played": 1,
+    "tournament_points": 12,
+    "tournament_minutes": 24
   },
   {
     "player_id": 5105486,
@@ -207,6 +279,24 @@
     "tournament_minutes": 36
   },
   {
+    "player_id": 5313370,
+    "player_name": "Justin Kirby",
+    "team_id": 193,
+    "team_name": "Miami (OH) RedHawks",
+    "games_played": 1,
+    "tournament_points": 8,
+    "tournament_minutes": 21
+  },
+  {
+    "player_id": 5238184,
+    "player_name": "Samet Yigitoglu",
+    "team_id": 2567,
+    "team_name": "SMU Mustangs",
+    "games_played": 1,
+    "tournament_points": 8,
+    "tournament_minutes": 27
+  },
+  {
     "player_id": 5190922,
     "player_name": "Hassane Diallo",
     "team_id": 2504,
@@ -243,6 +333,15 @@
     "tournament_minutes": 21
   },
   {
+    "player_id": 5106674,
+    "player_name": "Peter Suder",
+    "team_id": 193,
+    "team_name": "Miami (OH) RedHawks",
+    "games_played": 1,
+    "tournament_points": 7,
+    "tournament_minutes": 36
+  },
+  {
     "player_id": 5176077,
     "player_name": "Joshua Ingram",
     "team_id": 2329,
@@ -268,6 +367,15 @@
     "games_played": 1,
     "tournament_points": 5,
     "tournament_minutes": 37
+  },
+  {
+    "player_id": 4683781,
+    "player_name": "Sam Walters",
+    "team_id": 2567,
+    "team_name": "SMU Mustangs",
+    "games_played": 1,
+    "tournament_points": 5,
+    "tournament_minutes": 17
   },
   {
     "player_id": 4703215,
@@ -313,6 +421,15 @@
     "games_played": 1,
     "tournament_points": 3,
     "tournament_minutes": 7
+  },
+  {
+    "player_id": 5105859,
+    "player_name": "Antwone Woolfolk",
+    "team_id": 193,
+    "team_name": "Miami (OH) RedHawks",
+    "games_played": 1,
+    "tournament_points": 3,
+    "tournament_minutes": 19
   },
   {
     "player_id": 5149083,
@@ -652,6 +769,177 @@
     "player_name": "Ed Holland III",
     "team_id": 47,
     "team_name": "Howard Bison",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5313368,
+    "player_name": "Trey Perry",
+    "team_id": 193,
+    "team_name": "Miami (OH) RedHawks",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 10
+  },
+  {
+    "player_id": 5313373,
+    "player_name": "Kyle Waltz",
+    "team_id": 193,
+    "team_name": "Miami (OH) RedHawks",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5313371,
+    "player_name": "Tyler Robbins",
+    "team_id": 193,
+    "team_name": "Miami (OH) RedHawks",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5243054,
+    "player_name": "Ethan Wright",
+    "team_id": 193,
+    "team_name": "Miami (OH) RedHawks",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5176215,
+    "player_name": "Jackson Kotecki",
+    "team_id": 193,
+    "team_name": "Miami (OH) RedHawks",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5313372,
+    "player_name": "Leshawn Stowers",
+    "team_id": 193,
+    "team_name": "Miami (OH) RedHawks",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5313369,
+    "player_name": "Brady Ganley",
+    "team_id": 193,
+    "team_name": "Miami (OH) RedHawks",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5176216,
+    "player_name": "Blake Anderson",
+    "team_id": 193,
+    "team_name": "Miami (OH) RedHawks",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5176212,
+    "player_name": "Evan Ipsaro",
+    "team_id": 193,
+    "team_name": "Miami (OH) RedHawks",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5108031,
+    "player_name": "Eli Yofan",
+    "team_id": 193,
+    "team_name": "Miami (OH) RedHawks",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5312289,
+    "player_name": "Jermaine O'Neal Jr.",
+    "team_id": 2567,
+    "team_name": "SMU Mustangs",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 4
+  },
+  {
+    "player_id": 5238182,
+    "player_name": "Mitchell Holmes",
+    "team_id": 2567,
+    "team_name": "SMU Mustangs",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 1
+  },
+  {
+    "player_id": 5144391,
+    "player_name": "Chance Puryear",
+    "team_id": 2567,
+    "team_name": "SMU Mustangs",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5041938,
+    "player_name": "B.J. Davis-Ray",
+    "team_id": 2567,
+    "team_name": "SMU Mustangs",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 2
+  },
+  {
+    "player_id": 5280896,
+    "player_name": "Billy White III",
+    "team_id": 2567,
+    "team_name": "SMU Mustangs",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5101828,
+    "player_name": "Nigel Walls",
+    "team_id": 2567,
+    "team_name": "SMU Mustangs",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5238183,
+    "player_name": "Niccolo Kalischer-Stork",
+    "team_id": 2567,
+    "team_name": "SMU Mustangs",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5106638,
+    "player_name": "Trey Utter",
+    "team_id": 2567,
+    "team_name": "SMU Mustangs",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5105552,
+    "player_name": "B.J. Edwards",
+    "team_id": 2567,
+    "team_name": "SMU Mustangs",
     "games_played": 1,
     "tournament_points": 0,
     "tournament_minutes": 0
