@@ -36,6 +36,15 @@
     "tournament_minutes": 40
   },
   {
+    "player_id": 5142620,
+    "player_name": "Darius Acuff Jr.",
+    "team_id": 8,
+    "team_name": "Arkansas Razorbacks",
+    "games_played": 1,
+    "tournament_points": 24,
+    "tournament_minutes": 36
+  },
+  {
     "player_id": 5107986,
     "player_name": "Ose Okojie",
     "team_id": 47,
@@ -135,6 +144,24 @@
     "tournament_minutes": 40
   },
   {
+    "player_id": 5106877,
+    "player_name": "Dre Bullock",
+    "team_id": 62,
+    "team_name": "Hawai'i Rainbow Warriors",
+    "games_played": 1,
+    "tournament_points": 21,
+    "tournament_minutes": 36
+  },
+  {
+    "player_id": 5041951,
+    "player_name": "Meleek Thomas",
+    "team_id": 8,
+    "team_name": "Arkansas Razorbacks",
+    "games_played": 1,
+    "tournament_points": 21,
+    "tournament_minutes": 35
+  },
+  {
     "player_id": 5101840,
     "player_name": "Jaden Toombs",
     "team_id": 2567,
@@ -142,6 +169,15 @@
     "games_played": 1,
     "tournament_points": 20,
     "tournament_minutes": 35
+  },
+  {
+    "player_id": 5105817,
+    "player_name": "Carson Cooper",
+    "team_id": 127,
+    "team_name": "Michigan State Spartans",
+    "games_played": 1,
+    "tournament_points": 20,
+    "tournament_minutes": 30
   },
   {
     "player_id": 5313186,
@@ -187,6 +223,15 @@
     "games_played": 1,
     "tournament_points": 19,
     "tournament_minutes": 39
+  },
+  {
+    "player_id": 4698719,
+    "player_name": "Trevon Brazile",
+    "team_id": 8,
+    "team_name": "Arkansas Razorbacks",
+    "games_played": 1,
+    "tournament_points": 19,
+    "tournament_minutes": 35
   },
   {
     "player_id": 4703115,
@@ -252,6 +297,15 @@
     "tournament_minutes": 30
   },
   {
+    "player_id": 4872740,
+    "player_name": "Coen Carr",
+    "team_id": 127,
+    "team_name": "Michigan State Spartans",
+    "games_played": 1,
+    "tournament_points": 17,
+    "tournament_minutes": 28
+  },
+  {
     "player_id": 4683860,
     "player_name": "Quadir Copeland",
     "team_id": 152,
@@ -295,6 +349,24 @@
     "games_played": 1,
     "tournament_points": 16,
     "tournament_minutes": 28
+  },
+  {
+    "player_id": 5105546,
+    "player_name": "Malique Ewin",
+    "team_id": 8,
+    "team_name": "Arkansas Razorbacks",
+    "games_played": 1,
+    "tournament_points": 16,
+    "tournament_minutes": 31
+  },
+  {
+    "player_id": 5107273,
+    "player_name": "Damari Wheeler-Thomas",
+    "team_id": 2449,
+    "team_name": "North Dakota State Bison",
+    "games_played": 1,
+    "tournament_points": 16,
+    "tournament_minutes": 30
   },
   {
     "player_id": 5077373,
@@ -349,6 +421,15 @@
     "games_played": 1,
     "tournament_points": 15,
     "tournament_minutes": 30
+  },
+  {
+    "player_id": 4898118,
+    "player_name": "Isaac Johnson",
+    "team_id": 62,
+    "team_name": "Hawai'i Rainbow Warriors",
+    "games_played": 1,
+    "tournament_points": 15,
+    "tournament_minutes": 24
   },
   {
     "player_id": 5144375,
@@ -412,6 +493,15 @@
     "games_played": 1,
     "tournament_points": 13,
     "tournament_minutes": 36
+  },
+  {
+    "player_id": 5101798,
+    "player_name": "Cam Ward",
+    "team_id": 127,
+    "team_name": "Michigan State Spartans",
+    "games_played": 1,
+    "tournament_points": 13,
+    "tournament_minutes": 16
   },
   {
     "player_id": 5175726,
@@ -486,6 +576,15 @@
     "tournament_minutes": 33
   },
   {
+    "player_id": 5105472,
+    "player_name": "Isaac Finlinson",
+    "team_id": 62,
+    "team_name": "Hawai'i Rainbow Warriors",
+    "games_played": 1,
+    "tournament_points": 12,
+    "tournament_minutes": 31
+  },
+  {
     "player_id": 5101765,
     "player_name": "Gavin Hightower",
     "team_id": 58,
@@ -493,6 +592,15 @@
     "games_played": 1,
     "tournament_points": 12,
     "tournament_minutes": 23
+  },
+  {
+    "player_id": 5105815,
+    "player_name": "Jaxon Kohler",
+    "team_id": 127,
+    "team_name": "Michigan State Spartans",
+    "games_played": 1,
+    "tournament_points": 12,
+    "tournament_minutes": 26
   },
   {
     "player_id": 4838721,
@@ -558,6 +666,24 @@
     "tournament_minutes": 36
   },
   {
+    "player_id": 5107841,
+    "player_name": "Isaiah Kerr",
+    "team_id": 62,
+    "team_name": "Hawai'i Rainbow Warriors",
+    "games_played": 1,
+    "tournament_points": 11,
+    "tournament_minutes": 25
+  },
+  {
+    "player_id": 5314778,
+    "player_name": "Trevian Carson",
+    "team_id": 2449,
+    "team_name": "North Dakota State Bison",
+    "games_played": 1,
+    "tournament_points": 11,
+    "tournament_minutes": 34
+  },
+  {
     "player_id": 4592677,
     "player_name": "Rienk Mast",
     "team_id": 158,
@@ -594,6 +720,15 @@
     "tournament_minutes": 40
   },
   {
+    "player_id": 5060732,
+    "player_name": "Billy Richmond III",
+    "team_id": 8,
+    "team_name": "Arkansas Razorbacks",
+    "games_played": 1,
+    "tournament_points": 10,
+    "tournament_minutes": 31
+  },
+  {
     "player_id": 4702784,
     "player_name": "J'Vonne Hadley",
     "team_id": 97,
@@ -612,6 +747,15 @@
     "tournament_minutes": 25
   },
   {
+    "player_id": 5241642,
+    "player_name": "Treyson Anderson",
+    "team_id": 2449,
+    "team_name": "North Dakota State Bison",
+    "games_played": 1,
+    "tournament_points": 10,
+    "tournament_minutes": 19
+  },
+  {
     "player_id": 4701125,
     "player_name": "Javohn Garcia",
     "team_id": 2377,
@@ -628,6 +772,15 @@
     "games_played": 1,
     "tournament_points": 9,
     "tournament_minutes": 14
+  },
+  {
+    "player_id": 5107204,
+    "player_name": "Harry Rouhliadeff",
+    "team_id": 62,
+    "team_name": "Hawai'i Rainbow Warriors",
+    "games_played": 1,
+    "tournament_points": 9,
+    "tournament_minutes": 33
   },
   {
     "player_id": 5106843,
@@ -792,6 +945,42 @@
     "tournament_minutes": 39
   },
   {
+    "player_id": 4683777,
+    "player_name": "D.J. Wagner",
+    "team_id": 8,
+    "team_name": "Arkansas Razorbacks",
+    "games_played": 1,
+    "tournament_points": 7,
+    "tournament_minutes": 31
+  },
+  {
+    "player_id": 5107278,
+    "player_name": "Noah Feddersen",
+    "team_id": 2449,
+    "team_name": "North Dakota State Bison",
+    "games_played": 1,
+    "tournament_points": 7,
+    "tournament_minutes": 20
+  },
+  {
+    "player_id": 4711255,
+    "player_name": "Jeremy Fears Jr.",
+    "team_id": 127,
+    "team_name": "Michigan State Spartans",
+    "games_played": 1,
+    "tournament_points": 7,
+    "tournament_minutes": 32
+  },
+  {
+    "player_id": 4703411,
+    "player_name": "Trey Fort",
+    "team_id": 127,
+    "team_name": "Michigan State Spartans",
+    "games_played": 1,
+    "tournament_points": 7,
+    "tournament_minutes": 12
+  },
+  {
     "player_id": 5114350,
     "player_name": "AK Okereke",
     "team_id": 238,
@@ -864,6 +1053,42 @@
     "tournament_minutes": 10
   },
   {
+    "player_id": 5241640,
+    "player_name": "Andy Stefonowicz",
+    "team_id": 2449,
+    "team_name": "North Dakota State Bison",
+    "games_played": 1,
+    "tournament_points": 6,
+    "tournament_minutes": 35
+  },
+  {
+    "player_id": 4432494,
+    "player_name": "Markhi Strickland",
+    "team_id": 2449,
+    "team_name": "North Dakota State Bison",
+    "games_played": 1,
+    "tournament_points": 6,
+    "tournament_minutes": 16
+  },
+  {
+    "player_id": 4901166,
+    "player_name": "Tay Smith",
+    "team_id": 2449,
+    "team_name": "North Dakota State Bison",
+    "games_played": 1,
+    "tournament_points": 6,
+    "tournament_minutes": 18
+  },
+  {
+    "player_id": 5196931,
+    "player_name": "Jordan Scott",
+    "team_id": 127,
+    "team_name": "Michigan State Spartans",
+    "games_played": 1,
+    "tournament_points": 6,
+    "tournament_minutes": 24
+  },
+  {
     "player_id": 5240745,
     "player_name": "Cooper Campbell",
     "team_id": 2653,
@@ -927,6 +1152,24 @@
     "tournament_minutes": 15
   },
   {
+    "player_id": 4701217,
+    "player_name": "Hunter Erickson",
+    "team_id": 62,
+    "team_name": "Hawai'i Rainbow Warriors",
+    "games_played": 1,
+    "tournament_points": 5,
+    "tournament_minutes": 26
+  },
+  {
+    "player_id": 5175369,
+    "player_name": "Gytis Nemeiksa",
+    "team_id": 62,
+    "team_name": "Hawai'i Rainbow Warriors",
+    "games_played": 1,
+    "tournament_points": 5,
+    "tournament_minutes": 21
+  },
+  {
     "player_id": 4873187,
     "player_name": "Khani Rooths",
     "team_id": 97,
@@ -934,6 +1177,15 @@
     "games_played": 1,
     "tournament_points": 5,
     "tournament_minutes": 11
+  },
+  {
+    "player_id": 5108046,
+    "player_name": "Emil Skytta",
+    "team_id": 2449,
+    "team_name": "North Dakota State Bison",
+    "games_played": 1,
+    "tournament_points": 5,
+    "tournament_minutes": 14
   },
   {
     "player_id": 5238222,
@@ -1015,6 +1267,15 @@
     "games_played": 1,
     "tournament_points": 4,
     "tournament_minutes": 20
+  },
+  {
+    "player_id": 4610138,
+    "player_name": "Denham Wojcik",
+    "team_id": 127,
+    "team_name": "Michigan State Spartans",
+    "games_played": 1,
+    "tournament_points": 4,
+    "tournament_minutes": 8
   },
   {
     "player_id": 4433625,
@@ -1105,6 +1366,24 @@
     "games_played": 1,
     "tournament_points": 3,
     "tournament_minutes": 6
+  },
+  {
+    "player_id": 5239562,
+    "player_name": "Jesse McCulloch",
+    "team_id": 127,
+    "team_name": "Michigan State Spartans",
+    "games_played": 1,
+    "tournament_points": 3,
+    "tournament_minutes": 3
+  },
+  {
+    "player_id": 4873111,
+    "player_name": "Kur Teng",
+    "team_id": 127,
+    "team_name": "Michigan State Spartans",
+    "games_played": 1,
+    "tournament_points": 3,
+    "tournament_minutes": 18
   },
   {
     "player_id": 5176731,
@@ -2358,6 +2637,141 @@
     "tournament_minutes": 0
   },
   {
+    "player_id": 4702598,
+    "player_name": "Yacine Toumi",
+    "team_id": 62,
+    "team_name": "Hawai'i Rainbow Warriors",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 2
+  },
+  {
+    "player_id": 5254318,
+    "player_name": "Hunter Carter",
+    "team_id": 62,
+    "team_name": "Hawai'i Rainbow Warriors",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 1
+  },
+  {
+    "player_id": 5241895,
+    "player_name": "AJ Economou",
+    "team_id": 62,
+    "team_name": "Hawai'i Rainbow Warriors",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 1
+  },
+  {
+    "player_id": 5107607,
+    "player_name": "Jalen Myers",
+    "team_id": 62,
+    "team_name": "Hawai'i Rainbow Warriors",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5241898,
+    "player_name": "Aaron Hunkin-Claytor",
+    "team_id": 62,
+    "team_name": "Hawai'i Rainbow Warriors",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5177731,
+    "player_name": "Tanner Cuff",
+    "team_id": 62,
+    "team_name": "Hawai'i Rainbow Warriors",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5101797,
+    "player_name": "Isaiah Sealy",
+    "team_id": 8,
+    "team_name": "Arkansas Razorbacks",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 1
+  },
+  {
+    "player_id": 5258495,
+    "player_name": "Paulo Semedo",
+    "team_id": 8,
+    "team_name": "Arkansas Razorbacks",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 4703887,
+    "player_name": "Nick Pringle",
+    "team_id": 8,
+    "team_name": "Arkansas Razorbacks",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5311500,
+    "player_name": "Elmir Džafic",
+    "team_id": 8,
+    "team_name": "Arkansas Razorbacks",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5281348,
+    "player_name": "Karim Rtail",
+    "team_id": 8,
+    "team_name": "Arkansas Razorbacks",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5238196,
+    "player_name": "Ayden Kelley",
+    "team_id": 8,
+    "team_name": "Arkansas Razorbacks",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5238194,
+    "player_name": "Jaden Karuletwa",
+    "team_id": 8,
+    "team_name": "Arkansas Razorbacks",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5144085,
+    "player_name": "Amere Brown",
+    "team_id": 8,
+    "team_name": "Arkansas Razorbacks",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 4869777,
+    "player_name": "Karter Knox",
+    "team_id": 8,
+    "team_name": "Arkansas Razorbacks",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
     "player_id": 4611412,
     "player_name": "Daimion Collins",
     "team_id": 58,
@@ -2488,6 +2902,105 @@
     "player_name": "Mikel Brown Jr.",
     "team_id": 97,
     "team_name": "Louisville Cardinals",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5314782,
+    "player_name": "Caleb Schoenrock",
+    "team_id": 2449,
+    "team_name": "North Dakota State Bison",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 1
+  },
+  {
+    "player_id": 5314780,
+    "player_name": "Riley Saunders",
+    "team_id": 2449,
+    "team_name": "North Dakota State Bison",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 2
+  },
+  {
+    "player_id": 5314779,
+    "player_name": "Riley Massey",
+    "team_id": 2449,
+    "team_name": "North Dakota State Bison",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 9
+  },
+  {
+    "player_id": 5241641,
+    "player_name": "Carson Smith",
+    "team_id": 2449,
+    "team_name": "North Dakota State Bison",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 1
+  },
+  {
+    "player_id": 5108047,
+    "player_name": "Max Majerle",
+    "team_id": 2449,
+    "team_name": "North Dakota State Bison",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 1
+  },
+  {
+    "player_id": 5314781,
+    "player_name": "Dom Clay",
+    "team_id": 2449,
+    "team_name": "North Dakota State Bison",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5239564,
+    "player_name": "Colin Walton",
+    "team_id": 127,
+    "team_name": "Michigan State Spartans",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 1
+  },
+  {
+    "player_id": 5239563,
+    "player_name": "Brennan Walton",
+    "team_id": 127,
+    "team_name": "Michigan State Spartans",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 1
+  },
+  {
+    "player_id": 5105818,
+    "player_name": "Nick Sanders",
+    "team_id": 127,
+    "team_name": "Michigan State Spartans",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 1
+  },
+  {
+    "player_id": 4685668,
+    "player_name": "Kaleb Glenn",
+    "team_id": 127,
+    "team_name": "Michigan State Spartans",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5060733,
+    "player_name": "Divine Ugochukwu",
+    "team_id": 127,
+    "team_name": "Michigan State Spartans",
     "games_played": 1,
     "tournament_points": 0,
     "tournament_minutes": 0

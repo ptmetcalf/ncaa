@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-19T22:28:20.872Z",
+  "generated_at": "2026-03-19T23:28:39.548Z",
   "year": 2026,
   "season_type": 2,
   "team_source_mode": "auto",
@@ -10,7 +10,7 @@
     "season": "2025-26",
     "tournament_name": "Men's NCAA Tournament",
     "short_name": "NCAA",
-    "matchups": 38,
+    "matchups": 40,
     "teams": 68
   },
   "discover_dates": [
@@ -26,9 +26,9 @@
     "players": 1050,
     "seeded_players": 1050,
     "events": 20,
-    "final_events": 10,
-    "game_log_rows": 312,
-    "player_totals_rows": 312
+    "final_events": 12,
+    "game_log_rows": 369,
+    "player_totals_rows": 369
   },
   "note": null
 }

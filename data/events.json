@@ -74,8 +74,8 @@
     "date": "20260319",
     "name": "Hawai'i Rainbow Warriors at Arkansas Razorbacks",
     "short_name": "HAW VS ARK",
-    "completed": false,
-    "status": "In Progress",
+    "completed": true,
+    "status": "Final",
     "home_team_id": 8,
     "away_team_id": 62
   },
@@ -94,8 +94,8 @@
     "date": "20260319",
     "name": "North Dakota State Bison at Michigan State Spartans",
     "short_name": "NDSU VS MSU",
-    "completed": false,
-    "status": "In Progress",
+    "completed": true,
+    "status": "Final",
     "home_team_id": 127,
     "away_team_id": 2449
   },
@@ -165,7 +165,7 @@
     "name": "VCU Rams at North Carolina Tar Heels",
     "short_name": "VCU VS UNC",
     "completed": false,
-    "status": "Scheduled",
+    "status": "In Progress",
     "home_team_id": 153,
     "away_team_id": 2670
   },

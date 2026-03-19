@@ -2190,6 +2190,286 @@
     "points": 0
   },
   {
+    "event_id": 401856481,
+    "date": "20260319",
+    "player_id": 5107204,
+    "player_name": "Harry Rouhliadeff",
+    "team_id": 62,
+    "team_name": "Hawai'i Rainbow Warriors",
+    "minutes": 33,
+    "points": 9
+  },
+  {
+    "event_id": 401856481,
+    "date": "20260319",
+    "player_id": 5105472,
+    "player_name": "Isaac Finlinson",
+    "team_id": 62,
+    "team_name": "Hawai'i Rainbow Warriors",
+    "minutes": 31,
+    "points": 12
+  },
+  {
+    "event_id": 401856481,
+    "date": "20260319",
+    "player_id": 4898118,
+    "player_name": "Isaac Johnson",
+    "team_id": 62,
+    "team_name": "Hawai'i Rainbow Warriors",
+    "minutes": 24,
+    "points": 15
+  },
+  {
+    "event_id": 401856481,
+    "date": "20260319",
+    "player_id": 5106877,
+    "player_name": "Dre Bullock",
+    "team_id": 62,
+    "team_name": "Hawai'i Rainbow Warriors",
+    "minutes": 36,
+    "points": 21
+  },
+  {
+    "event_id": 401856481,
+    "date": "20260319",
+    "player_id": 4701217,
+    "player_name": "Hunter Erickson",
+    "team_id": 62,
+    "team_name": "Hawai'i Rainbow Warriors",
+    "minutes": 26,
+    "points": 5
+  },
+  {
+    "event_id": 401856481,
+    "date": "20260319",
+    "player_id": 5175369,
+    "player_name": "Gytis Nemeiksa",
+    "team_id": 62,
+    "team_name": "Hawai'i Rainbow Warriors",
+    "minutes": 21,
+    "points": 5
+  },
+  {
+    "event_id": 401856481,
+    "date": "20260319",
+    "player_id": 4702598,
+    "player_name": "Yacine Toumi",
+    "team_id": 62,
+    "team_name": "Hawai'i Rainbow Warriors",
+    "minutes": 2,
+    "points": 0
+  },
+  {
+    "event_id": 401856481,
+    "date": "20260319",
+    "player_id": 5254318,
+    "player_name": "Hunter Carter",
+    "team_id": 62,
+    "team_name": "Hawai'i Rainbow Warriors",
+    "minutes": 1,
+    "points": 0
+  },
+  {
+    "event_id": 401856481,
+    "date": "20260319",
+    "player_id": 5241895,
+    "player_name": "AJ Economou",
+    "team_id": 62,
+    "team_name": "Hawai'i Rainbow Warriors",
+    "minutes": 1,
+    "points": 0
+  },
+  {
+    "event_id": 401856481,
+    "date": "20260319",
+    "player_id": 5107841,
+    "player_name": "Isaiah Kerr",
+    "team_id": 62,
+    "team_name": "Hawai'i Rainbow Warriors",
+    "minutes": 25,
+    "points": 11
+  },
+  {
+    "event_id": 401856481,
+    "date": "20260319",
+    "player_id": 5107607,
+    "player_name": "Jalen Myers",
+    "team_id": 62,
+    "team_name": "Hawai'i Rainbow Warriors",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856481,
+    "date": "20260319",
+    "player_id": 5241898,
+    "player_name": "Aaron Hunkin-Claytor",
+    "team_id": 62,
+    "team_name": "Hawai'i Rainbow Warriors",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856481,
+    "date": "20260319",
+    "player_id": 5177731,
+    "player_name": "Tanner Cuff",
+    "team_id": 62,
+    "team_name": "Hawai'i Rainbow Warriors",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856481,
+    "date": "20260319",
+    "player_id": 5105546,
+    "player_name": "Malique Ewin",
+    "team_id": 8,
+    "team_name": "Arkansas Razorbacks",
+    "minutes": 31,
+    "points": 16
+  },
+  {
+    "event_id": 401856481,
+    "date": "20260319",
+    "player_id": 4698719,
+    "player_name": "Trevon Brazile",
+    "team_id": 8,
+    "team_name": "Arkansas Razorbacks",
+    "minutes": 35,
+    "points": 19
+  },
+  {
+    "event_id": 401856481,
+    "date": "20260319",
+    "player_id": 5142620,
+    "player_name": "Darius Acuff Jr.",
+    "team_id": 8,
+    "team_name": "Arkansas Razorbacks",
+    "minutes": 36,
+    "points": 24
+  },
+  {
+    "event_id": 401856481,
+    "date": "20260319",
+    "player_id": 5060732,
+    "player_name": "Billy Richmond III",
+    "team_id": 8,
+    "team_name": "Arkansas Razorbacks",
+    "minutes": 31,
+    "points": 10
+  },
+  {
+    "event_id": 401856481,
+    "date": "20260319",
+    "player_id": 5041951,
+    "player_name": "Meleek Thomas",
+    "team_id": 8,
+    "team_name": "Arkansas Razorbacks",
+    "minutes": 35,
+    "points": 21
+  },
+  {
+    "event_id": 401856481,
+    "date": "20260319",
+    "player_id": 5101797,
+    "player_name": "Isaiah Sealy",
+    "team_id": 8,
+    "team_name": "Arkansas Razorbacks",
+    "minutes": 1,
+    "points": 0
+  },
+  {
+    "event_id": 401856481,
+    "date": "20260319",
+    "player_id": 4683777,
+    "player_name": "D.J. Wagner",
+    "team_id": 8,
+    "team_name": "Arkansas Razorbacks",
+    "minutes": 31,
+    "points": 7
+  },
+  {
+    "event_id": 401856481,
+    "date": "20260319",
+    "player_id": 5258495,
+    "player_name": "Paulo Semedo",
+    "team_id": 8,
+    "team_name": "Arkansas Razorbacks",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856481,
+    "date": "20260319",
+    "player_id": 4703887,
+    "player_name": "Nick Pringle",
+    "team_id": 8,
+    "team_name": "Arkansas Razorbacks",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856481,
+    "date": "20260319",
+    "player_id": 5311500,
+    "player_name": "Elmir Džafic",
+    "team_id": 8,
+    "team_name": "Arkansas Razorbacks",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856481,
+    "date": "20260319",
+    "player_id": 5281348,
+    "player_name": "Karim Rtail",
+    "team_id": 8,
+    "team_name": "Arkansas Razorbacks",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856481,
+    "date": "20260319",
+    "player_id": 5238196,
+    "player_name": "Ayden Kelley",
+    "team_id": 8,
+    "team_name": "Arkansas Razorbacks",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856481,
+    "date": "20260319",
+    "player_id": 5238194,
+    "player_name": "Jaden Karuletwa",
+    "team_id": 8,
+    "team_name": "Arkansas Razorbacks",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856481,
+    "date": "20260319",
+    "player_id": 5144085,
+    "player_name": "Amere Brown",
+    "team_id": 8,
+    "team_name": "Arkansas Razorbacks",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856481,
+    "date": "20260319",
+    "player_id": 4869777,
+    "player_name": "Karter Knox",
+    "team_id": 8,
+    "team_name": "Arkansas Razorbacks",
+    "minutes": null,
+    "points": 0
+  },
+  {
     "event_id": 401856482,
     "date": "20260319",
     "player_id": 5107251,
@@ -2496,6 +2776,296 @@
     "player_name": "Mikel Brown Jr.",
     "team_id": 97,
     "team_name": "Louisville Cardinals",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856483,
+    "date": "20260319",
+    "player_id": 5241642,
+    "player_name": "Treyson Anderson",
+    "team_id": 2449,
+    "team_name": "North Dakota State Bison",
+    "minutes": 19,
+    "points": 10
+  },
+  {
+    "event_id": 401856483,
+    "date": "20260319",
+    "player_id": 5314778,
+    "player_name": "Trevian Carson",
+    "team_id": 2449,
+    "team_name": "North Dakota State Bison",
+    "minutes": 34,
+    "points": 11
+  },
+  {
+    "event_id": 401856483,
+    "date": "20260319",
+    "player_id": 5241640,
+    "player_name": "Andy Stefonowicz",
+    "team_id": 2449,
+    "team_name": "North Dakota State Bison",
+    "minutes": 35,
+    "points": 6
+  },
+  {
+    "event_id": 401856483,
+    "date": "20260319",
+    "player_id": 5107273,
+    "player_name": "Damari Wheeler-Thomas",
+    "team_id": 2449,
+    "team_name": "North Dakota State Bison",
+    "minutes": 30,
+    "points": 16
+  },
+  {
+    "event_id": 401856483,
+    "date": "20260319",
+    "player_id": 4432494,
+    "player_name": "Markhi Strickland",
+    "team_id": 2449,
+    "team_name": "North Dakota State Bison",
+    "minutes": 16,
+    "points": 6
+  },
+  {
+    "event_id": 401856483,
+    "date": "20260319",
+    "player_id": 5314782,
+    "player_name": "Caleb Schoenrock",
+    "team_id": 2449,
+    "team_name": "North Dakota State Bison",
+    "minutes": 1,
+    "points": 0
+  },
+  {
+    "event_id": 401856483,
+    "date": "20260319",
+    "player_id": 5107278,
+    "player_name": "Noah Feddersen",
+    "team_id": 2449,
+    "team_name": "North Dakota State Bison",
+    "minutes": 20,
+    "points": 7
+  },
+  {
+    "event_id": 401856483,
+    "date": "20260319",
+    "player_id": 5314780,
+    "player_name": "Riley Saunders",
+    "team_id": 2449,
+    "team_name": "North Dakota State Bison",
+    "minutes": 2,
+    "points": 0
+  },
+  {
+    "event_id": 401856483,
+    "date": "20260319",
+    "player_id": 5314779,
+    "player_name": "Riley Massey",
+    "team_id": 2449,
+    "team_name": "North Dakota State Bison",
+    "minutes": 9,
+    "points": 0
+  },
+  {
+    "event_id": 401856483,
+    "date": "20260319",
+    "player_id": 5241641,
+    "player_name": "Carson Smith",
+    "team_id": 2449,
+    "team_name": "North Dakota State Bison",
+    "minutes": 1,
+    "points": 0
+  },
+  {
+    "event_id": 401856483,
+    "date": "20260319",
+    "player_id": 5108047,
+    "player_name": "Max Majerle",
+    "team_id": 2449,
+    "team_name": "North Dakota State Bison",
+    "minutes": 1,
+    "points": 0
+  },
+  {
+    "event_id": 401856483,
+    "date": "20260319",
+    "player_id": 5108046,
+    "player_name": "Emil Skytta",
+    "team_id": 2449,
+    "team_name": "North Dakota State Bison",
+    "minutes": 14,
+    "points": 5
+  },
+  {
+    "event_id": 401856483,
+    "date": "20260319",
+    "player_id": 4901166,
+    "player_name": "Tay Smith",
+    "team_id": 2449,
+    "team_name": "North Dakota State Bison",
+    "minutes": 18,
+    "points": 6
+  },
+  {
+    "event_id": 401856483,
+    "date": "20260319",
+    "player_id": 5314781,
+    "player_name": "Dom Clay",
+    "team_id": 2449,
+    "team_name": "North Dakota State Bison",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856483,
+    "date": "20260319",
+    "player_id": 5196931,
+    "player_name": "Jordan Scott",
+    "team_id": 127,
+    "team_name": "Michigan State Spartans",
+    "minutes": 24,
+    "points": 6
+  },
+  {
+    "event_id": 401856483,
+    "date": "20260319",
+    "player_id": 5105815,
+    "player_name": "Jaxon Kohler",
+    "team_id": 127,
+    "team_name": "Michigan State Spartans",
+    "minutes": 26,
+    "points": 12
+  },
+  {
+    "event_id": 401856483,
+    "date": "20260319",
+    "player_id": 4872740,
+    "player_name": "Coen Carr",
+    "team_id": 127,
+    "team_name": "Michigan State Spartans",
+    "minutes": 28,
+    "points": 17
+  },
+  {
+    "event_id": 401856483,
+    "date": "20260319",
+    "player_id": 5105817,
+    "player_name": "Carson Cooper",
+    "team_id": 127,
+    "team_name": "Michigan State Spartans",
+    "minutes": 30,
+    "points": 20
+  },
+  {
+    "event_id": 401856483,
+    "date": "20260319",
+    "player_id": 4711255,
+    "player_name": "Jeremy Fears Jr.",
+    "team_id": 127,
+    "team_name": "Michigan State Spartans",
+    "minutes": 32,
+    "points": 7
+  },
+  {
+    "event_id": 401856483,
+    "date": "20260319",
+    "player_id": 5239564,
+    "player_name": "Colin Walton",
+    "team_id": 127,
+    "team_name": "Michigan State Spartans",
+    "minutes": 1,
+    "points": 0
+  },
+  {
+    "event_id": 401856483,
+    "date": "20260319",
+    "player_id": 5239563,
+    "player_name": "Brennan Walton",
+    "team_id": 127,
+    "team_name": "Michigan State Spartans",
+    "minutes": 1,
+    "points": 0
+  },
+  {
+    "event_id": 401856483,
+    "date": "20260319",
+    "player_id": 5239562,
+    "player_name": "Jesse McCulloch",
+    "team_id": 127,
+    "team_name": "Michigan State Spartans",
+    "minutes": 3,
+    "points": 3
+  },
+  {
+    "event_id": 401856483,
+    "date": "20260319",
+    "player_id": 5101798,
+    "player_name": "Cam Ward",
+    "team_id": 127,
+    "team_name": "Michigan State Spartans",
+    "minutes": 16,
+    "points": 13
+  },
+  {
+    "event_id": 401856483,
+    "date": "20260319",
+    "player_id": 5105818,
+    "player_name": "Nick Sanders",
+    "team_id": 127,
+    "team_name": "Michigan State Spartans",
+    "minutes": 1,
+    "points": 0
+  },
+  {
+    "event_id": 401856483,
+    "date": "20260319",
+    "player_id": 4873111,
+    "player_name": "Kur Teng",
+    "team_id": 127,
+    "team_name": "Michigan State Spartans",
+    "minutes": 18,
+    "points": 3
+  },
+  {
+    "event_id": 401856483,
+    "date": "20260319",
+    "player_id": 4703411,
+    "player_name": "Trey Fort",
+    "team_id": 127,
+    "team_name": "Michigan State Spartans",
+    "minutes": 12,
+    "points": 7
+  },
+  {
+    "event_id": 401856483,
+    "date": "20260319",
+    "player_id": 4610138,
+    "player_name": "Denham Wojcik",
+    "team_id": 127,
+    "team_name": "Michigan State Spartans",
+    "minutes": 8,
+    "points": 4
+  },
+  {
+    "event_id": 401856483,
+    "date": "20260319",
+    "player_id": 4685668,
+    "player_name": "Kaleb Glenn",
+    "team_id": 127,
+    "team_name": "Michigan State Spartans",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856483,
+    "date": "20260319",
+    "player_id": 5060733,
+    "player_name": "Divine Ugochukwu",
+    "team_id": 127,
+    "team_name": "Michigan State Spartans",
     "minutes": null,
     "points": 0
   },
