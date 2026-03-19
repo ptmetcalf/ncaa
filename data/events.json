@@ -75,7 +75,7 @@
     "name": "Hawai'i Rainbow Warriors at Arkansas Razorbacks",
     "short_name": "HAW VS ARK",
     "completed": false,
-    "status": "Halftime",
+    "status": "In Progress",
     "home_team_id": 8,
     "away_team_id": 62
   },
@@ -95,7 +95,7 @@
     "name": "North Dakota State Bison at Michigan State Spartans",
     "short_name": "NDSU VS MSU",
     "completed": false,
-    "status": "Halftime",
+    "status": "In Progress",
     "home_team_id": 127,
     "away_team_id": 2449
   },
