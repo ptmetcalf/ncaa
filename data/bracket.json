@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-20T16:30:33.674Z",
+  "generated_at": "2026-03-20T17:29:51.391Z",
   "year": 2026,
   "available": true,
   "source": "espn_bracket_page",
@@ -989,17 +989,17 @@
       "region_id": 4,
       "bracket_location": 27,
       "date": "2026-03-20T16:40:00Z",
-      "status_state": "pre",
-      "status_desc": "Scheduled",
-      "status_detail": "3/20 - 12:40 PM EDT",
+      "status_state": "in",
+      "status_desc": "In Progress",
+      "status_detail": "1:23 - 1st",
       "location": "Tampa, FL",
-      "link": "/mens-college-basketball/game/_/gameId/401856520/akron-texas-tech",
+      "link": "/mens-college-basketball/game/_/gameId/401856520",
       "competitor_one": {
         "team_id": 2641,
         "team_name": "Texas Tech",
         "abbreviation": "TTU",
         "seed": 5,
-        "score": 0,
+        "score": 40,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2641.png"
       },
@@ -1008,7 +1008,7 @@
         "team_name": "Akron",
         "abbreviation": "AKR",
         "seed": 12,
-        "score": 0,
+        "score": 31,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2006.png"
       }
@@ -1111,7 +1111,7 @@
       "date": "2026-03-20T16:15:00Z",
       "status_state": "in",
       "status_desc": "In Progress",
-      "status_detail": "12:14 - 1st",
+      "status_detail": "19:45 - 2nd",
       "location": "St. Louis, MO",
       "link": "/mens-college-basketball/game/_/gameId/401856525",
       "competitor_one": {
@@ -1119,7 +1119,7 @@
         "team_name": "Kentucky",
         "abbreviation": "UK",
         "seed": 7,
-        "score": 12,
+        "score": 31,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/96.png"
       },
@@ -1128,7 +1128,7 @@
         "team_name": "Santa Clara",
         "abbreviation": "SCU",
         "seed": 10,
-        "score": 11,
+        "score": 31,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2541.png"
       }
