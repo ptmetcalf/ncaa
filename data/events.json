@@ -264,8 +264,8 @@
     "date": "20260320",
     "name": "Akron Zips at Texas Tech Red Raiders",
     "short_name": "AKR VS TTU",
-    "completed": false,
-    "status": "In Progress",
+    "completed": true,
+    "status": "Final",
     "home_team_id": 2641,
     "away_team_id": 2006
   },
@@ -275,7 +275,7 @@
     "name": "Hofstra Pride at Alabama Crimson Tide",
     "short_name": "HOF VS ALA",
     "completed": false,
-    "status": "Scheduled",
+    "status": "In Progress",
     "home_team_id": 333,
     "away_team_id": 2275
   },
@@ -305,7 +305,7 @@
     "name": "Tennessee State Tigers at Iowa State Cyclones",
     "short_name": "TNST VS ISU",
     "completed": false,
-    "status": "Scheduled",
+    "status": "In Progress",
     "home_team_id": 66,
     "away_team_id": 2634
   },
@@ -314,8 +314,8 @@
     "date": "20260320",
     "name": "Santa Clara Broncos at Kentucky Wildcats",
     "short_name": "SCU VS UK",
-    "completed": false,
-    "status": "In Progress",
+    "completed": true,
+    "status": "Final",
     "home_team_id": 96,
     "away_team_id": 2541
   },
@@ -355,7 +355,7 @@
     "name": "Long Island University Sharks at Arizona Wildcats",
     "short_name": "LIU VS ARIZ",
     "completed": false,
-    "status": "Halftime",
+    "status": "In Progress",
     "home_team_id": 12,
     "away_team_id": 112358
   }

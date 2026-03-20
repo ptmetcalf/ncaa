@@ -6228,5 +6228,635 @@
     "team_name": "Houston Cougars",
     "minutes": null,
     "points": 0
+  },
+  {
+    "event_id": 401856520,
+    "date": "20260320",
+    "player_id": 5108060,
+    "player_name": "Amani Lyles",
+    "team_id": 2006,
+    "team_name": "Akron Zips",
+    "minutes": 32,
+    "points": 26
+  },
+  {
+    "event_id": 401856520,
+    "date": "20260320",
+    "player_id": 5176138,
+    "player_name": "Zach Halligan",
+    "team_id": 2006,
+    "team_name": "Akron Zips",
+    "minutes": 5,
+    "points": 1
+  },
+  {
+    "event_id": 401856520,
+    "date": "20260320",
+    "player_id": 5108059,
+    "player_name": "Tavari Johnson",
+    "team_id": 2006,
+    "team_name": "Akron Zips",
+    "minutes": 30,
+    "points": 4
+  },
+  {
+    "event_id": 401856520,
+    "date": "20260320",
+    "player_id": 5105847,
+    "player_name": "Evan Mahaffey",
+    "team_id": 2006,
+    "team_name": "Akron Zips",
+    "minutes": 35,
+    "points": 8
+  },
+  {
+    "event_id": 401856520,
+    "date": "20260320",
+    "player_id": 5105840,
+    "player_name": "Bowen Hardman",
+    "team_id": 2006,
+    "team_name": "Akron Zips",
+    "minutes": 21,
+    "points": 0
+  },
+  {
+    "event_id": 401856520,
+    "date": "20260320",
+    "player_id": 5241469,
+    "player_name": "Rich Brisco",
+    "team_id": 2006,
+    "team_name": "Akron Zips",
+    "minutes": 0,
+    "points": 0
+  },
+  {
+    "event_id": 401856520,
+    "date": "20260320",
+    "player_id": 5105882,
+    "player_name": "Chabi Barre",
+    "team_id": 2006,
+    "team_name": "Akron Zips",
+    "minutes": 1,
+    "points": 0
+  },
+  {
+    "event_id": 401856520,
+    "date": "20260320",
+    "player_id": 5314282,
+    "player_name": "Ognjen Stankovic",
+    "team_id": 2006,
+    "team_name": "Akron Zips",
+    "minutes": 1,
+    "points": 0
+  },
+  {
+    "event_id": 401856520,
+    "date": "20260320",
+    "player_id": 5241472,
+    "player_name": "Conner Groce",
+    "team_id": 2006,
+    "team_name": "Akron Zips",
+    "minutes": 1,
+    "points": 0
+  },
+  {
+    "event_id": 401856520,
+    "date": "20260320",
+    "player_id": 5241471,
+    "player_name": "Eric Mahaffey",
+    "team_id": 2006,
+    "team_name": "Akron Zips",
+    "minutes": 18,
+    "points": 8
+  },
+  {
+    "event_id": 401856520,
+    "date": "20260320",
+    "player_id": 5241470,
+    "player_name": "Sharron Young",
+    "team_id": 2006,
+    "team_name": "Akron Zips",
+    "minutes": 19,
+    "points": 4
+  },
+  {
+    "event_id": 401856520,
+    "date": "20260320",
+    "player_id": 5176139,
+    "player_name": "Marvin Musiime-Kamali",
+    "team_id": 2006,
+    "team_name": "Akron Zips",
+    "minutes": 4,
+    "points": 0
+  },
+  {
+    "event_id": 401856520,
+    "date": "20260320",
+    "player_id": 5106652,
+    "player_name": "Shammah Scott",
+    "team_id": 2006,
+    "team_name": "Akron Zips",
+    "minutes": 33,
+    "points": 20
+  },
+  {
+    "event_id": 401856520,
+    "date": "20260320",
+    "player_id": 5314280,
+    "player_name": "Josh Henderson",
+    "team_id": 2006,
+    "team_name": "Akron Zips",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856520,
+    "date": "20260320",
+    "player_id": 5314279,
+    "player_name": "Tai Perkins",
+    "team_id": 2006,
+    "team_name": "Akron Zips",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856520,
+    "date": "20260320",
+    "player_id": 5176192,
+    "player_name": "Cody Head",
+    "team_id": 2006,
+    "team_name": "Akron Zips",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856520,
+    "date": "20260320",
+    "player_id": 5107312,
+    "player_name": "LeJuan Watts",
+    "team_id": 2641,
+    "team_name": "Texas Tech Red Raiders",
+    "minutes": 24,
+    "points": 14
+  },
+  {
+    "event_id": 401856520,
+    "date": "20260320",
+    "player_id": 5061581,
+    "player_name": "Luke Bamgboye",
+    "team_id": 2641,
+    "team_name": "Texas Tech Red Raiders",
+    "minutes": 14,
+    "points": 2
+  },
+  {
+    "event_id": 401856520,
+    "date": "20260320",
+    "player_id": 5221321,
+    "player_name": "Jaylen Petty",
+    "team_id": 2641,
+    "team_name": "Texas Tech Red Raiders",
+    "minutes": 38,
+    "points": 24
+  },
+  {
+    "event_id": 401856520,
+    "date": "20260320",
+    "player_id": 5107355,
+    "player_name": "Donovan Atwell",
+    "team_id": 2641,
+    "team_name": "Texas Tech Red Raiders",
+    "minutes": 35,
+    "points": 15
+  },
+  {
+    "event_id": 401856520,
+    "date": "20260320",
+    "player_id": 5060701,
+    "player_name": "Christian Anderson",
+    "team_id": 2641,
+    "team_name": "Texas Tech Red Raiders",
+    "minutes": 39,
+    "points": 18
+  },
+  {
+    "event_id": 401856520,
+    "date": "20260320",
+    "player_id": 5311930,
+    "player_name": "Marial Akuentok",
+    "team_id": 2641,
+    "team_name": "Texas Tech Red Raiders",
+    "minutes": 1,
+    "points": 0
+  },
+  {
+    "event_id": 401856520,
+    "date": "20260320",
+    "player_id": 5152656,
+    "player_name": "Josiah Moseley",
+    "team_id": 2641,
+    "team_name": "Texas Tech Red Raiders",
+    "minutes": 25,
+    "points": 16
+  },
+  {
+    "event_id": 401856520,
+    "date": "20260320",
+    "player_id": 5311929,
+    "player_name": "Nolan Groves",
+    "team_id": 2641,
+    "team_name": "Texas Tech Red Raiders",
+    "minutes": 1,
+    "points": 0
+  },
+  {
+    "event_id": 401856520,
+    "date": "20260320",
+    "player_id": 5240271,
+    "player_name": "Leon Horner",
+    "team_id": 2641,
+    "team_name": "Texas Tech Red Raiders",
+    "minutes": 1,
+    "points": 2
+  },
+  {
+    "event_id": 401856520,
+    "date": "20260320",
+    "player_id": 5240270,
+    "player_name": "Jazz Henderson",
+    "team_id": 2641,
+    "team_name": "Texas Tech Red Raiders",
+    "minutes": 1,
+    "points": 0
+  },
+  {
+    "event_id": 401856520,
+    "date": "20260320",
+    "player_id": 5175077,
+    "player_name": "Jack Francis",
+    "team_id": 2641,
+    "team_name": "Texas Tech Red Raiders",
+    "minutes": 1,
+    "points": 0
+  },
+  {
+    "event_id": 401856520,
+    "date": "20260320",
+    "player_id": 5108120,
+    "player_name": "Tyeree Bryan",
+    "team_id": 2641,
+    "team_name": "Texas Tech Red Raiders",
+    "minutes": 20,
+    "points": 0
+  },
+  {
+    "event_id": 401856520,
+    "date": "20260320",
+    "player_id": 5311931,
+    "player_name": "LaTrell Hoover",
+    "team_id": 2641,
+    "team_name": "Texas Tech Red Raiders",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856520,
+    "date": "20260320",
+    "player_id": 5143604,
+    "player_name": "JT Toppin",
+    "team_id": 2641,
+    "team_name": "Texas Tech Red Raiders",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856525,
+    "date": "20260320",
+    "player_id": 5241069,
+    "player_name": "Elijah Mahi",
+    "team_id": 2541,
+    "team_name": "Santa Clara Broncos",
+    "minutes": 39,
+    "points": 20
+  },
+  {
+    "event_id": 401856525,
+    "date": "20260320",
+    "player_id": 5176361,
+    "player_name": "Bukky Oboye",
+    "team_id": 2541,
+    "team_name": "Santa Clara Broncos",
+    "minutes": 17,
+    "points": 6
+  },
+  {
+    "event_id": 401856525,
+    "date": "20260320",
+    "player_id": 5176359,
+    "player_name": "Christian Hammond",
+    "team_id": 2541,
+    "team_name": "Santa Clara Broncos",
+    "minutes": 41,
+    "points": 9
+  },
+  {
+    "event_id": 401856525,
+    "date": "20260320",
+    "player_id": 5109789,
+    "player_name": "Jake Ensminger",
+    "team_id": 2541,
+    "team_name": "Santa Clara Broncos",
+    "minutes": 42,
+    "points": 14
+  },
+  {
+    "event_id": 401856525,
+    "date": "20260320",
+    "player_id": 4897209,
+    "player_name": "Brenton Knapper",
+    "team_id": 2541,
+    "team_name": "Santa Clara Broncos",
+    "minutes": 13,
+    "points": 2
+  },
+  {
+    "event_id": 401856525,
+    "date": "20260320",
+    "player_id": 5149115,
+    "player_name": "Allen Graves",
+    "team_id": 2541,
+    "team_name": "Santa Clara Broncos",
+    "minutes": 27,
+    "points": 17
+  },
+  {
+    "event_id": 401856525,
+    "date": "20260320",
+    "player_id": 5041940,
+    "player_name": "Francis Chukwudebelu",
+    "team_id": 2541,
+    "team_name": "Santa Clara Broncos",
+    "minutes": 2,
+    "points": 0
+  },
+  {
+    "event_id": 401856525,
+    "date": "20260320",
+    "player_id": 5215425,
+    "player_name": "Sash Gavalyugov",
+    "team_id": 2541,
+    "team_name": "Santa Clara Broncos",
+    "minutes": 32,
+    "points": 16
+  },
+  {
+    "event_id": 401856525,
+    "date": "20260320",
+    "player_id": 5196879,
+    "player_name": "KJ Cochran",
+    "team_id": 2541,
+    "team_name": "Santa Clara Broncos",
+    "minutes": 5,
+    "points": 0
+  },
+  {
+    "event_id": 401856525,
+    "date": "20260320",
+    "player_id": 5147928,
+    "player_name": "Thierry Darlan",
+    "team_id": 2541,
+    "team_name": "Santa Clara Broncos",
+    "minutes": 7,
+    "points": 0
+  },
+  {
+    "event_id": 401856525,
+    "date": "20260320",
+    "player_id": 5313101,
+    "player_name": "Noah Badibanga",
+    "team_id": 2541,
+    "team_name": "Santa Clara Broncos",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856525,
+    "date": "20260320",
+    "player_id": 5183810,
+    "player_name": "Chris Tadjo",
+    "team_id": 2541,
+    "team_name": "Santa Clara Broncos",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856525,
+    "date": "20260320",
+    "player_id": 5313100,
+    "player_name": "Brad Longcor III",
+    "team_id": 2541,
+    "team_name": "Santa Clara Broncos",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856525,
+    "date": "20260320",
+    "player_id": 5109791,
+    "player_name": "Brendan Yarusso",
+    "team_id": 2541,
+    "team_name": "Santa Clara Broncos",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856525,
+    "date": "20260320",
+    "player_id": 5109788,
+    "player_name": "Malachi Douyon",
+    "team_id": 2541,
+    "team_name": "Santa Clara Broncos",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856525,
+    "date": "20260320",
+    "player_id": 5086370,
+    "player_name": "Gehrig Normand",
+    "team_id": 2541,
+    "team_name": "Santa Clara Broncos",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856525,
+    "date": "20260320",
+    "player_id": 4897872,
+    "player_name": "Juan Reyna",
+    "team_id": 2541,
+    "team_name": "Santa Clara Broncos",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856525,
+    "date": "20260320",
+    "player_id": 5281347,
+    "player_name": "Andrija Jelavic",
+    "team_id": 96,
+    "team_name": "Kentucky Wildcats",
+    "minutes": 13,
+    "points": 0
+  },
+  {
+    "event_id": 401856525,
+    "date": "20260320",
+    "player_id": 5101849,
+    "player_name": "Malachi Moreno",
+    "team_id": 96,
+    "team_name": "Kentucky Wildcats",
+    "minutes": 20,
+    "points": 3
+  },
+  {
+    "event_id": 401856525,
+    "date": "20260320",
+    "player_id": 5238207,
+    "player_name": "Collin Chandler",
+    "team_id": 96,
+    "team_name": "Kentucky Wildcats",
+    "minutes": 42,
+    "points": 5
+  },
+  {
+    "event_id": 401856525,
+    "date": "20260320",
+    "player_id": 5106270,
+    "player_name": "Otega Oweh",
+    "team_id": 96,
+    "team_name": "Kentucky Wildcats",
+    "minutes": 43,
+    "points": 35
+  },
+  {
+    "event_id": 401856525,
+    "date": "20260320",
+    "player_id": 5105527,
+    "player_name": "Denzel Aberdeen",
+    "team_id": 96,
+    "team_name": "Kentucky Wildcats",
+    "minutes": 38,
+    "points": 16
+  },
+  {
+    "event_id": 401856525,
+    "date": "20260320",
+    "player_id": 4895780,
+    "player_name": "Mouhamed Dioubate",
+    "team_id": 96,
+    "team_name": "Kentucky Wildcats",
+    "minutes": 32,
+    "points": 17
+  },
+  {
+    "event_id": 401856525,
+    "date": "20260320",
+    "player_id": 4711306,
+    "player_name": "Brandon Garrison",
+    "team_id": 96,
+    "team_name": "Kentucky Wildcats",
+    "minutes": 25,
+    "points": 10
+  },
+  {
+    "event_id": 401856525,
+    "date": "20260320",
+    "player_id": 5095153,
+    "player_name": "Jasper Johnson",
+    "team_id": 96,
+    "team_name": "Kentucky Wildcats",
+    "minutes": 2,
+    "points": 0
+  },
+  {
+    "event_id": 401856525,
+    "date": "20260320",
+    "player_id": 4873183,
+    "player_name": "Kam Williams",
+    "team_id": 96,
+    "team_name": "Kentucky Wildcats",
+    "minutes": 10,
+    "points": 3
+  },
+  {
+    "event_id": 401856525,
+    "date": "20260320",
+    "player_id": 5252266,
+    "player_name": "Zach Tow",
+    "team_id": 96,
+    "team_name": "Kentucky Wildcats",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856525,
+    "date": "20260320",
+    "player_id": 5176217,
+    "player_name": "Reece Potter",
+    "team_id": 96,
+    "team_name": "Kentucky Wildcats",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856525,
+    "date": "20260320",
+    "player_id": 5175592,
+    "player_name": "Trent Noah",
+    "team_id": 96,
+    "team_name": "Kentucky Wildcats",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856525,
+    "date": "20260320",
+    "player_id": 5101845,
+    "player_name": "Jayden Quaintance",
+    "team_id": 96,
+    "team_name": "Kentucky Wildcats",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856525,
+    "date": "20260320",
+    "player_id": 5101820,
+    "player_name": "Braydon Hawthorne",
+    "team_id": 96,
+    "team_name": "Kentucky Wildcats",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856525,
+    "date": "20260320",
+    "player_id": 5105283,
+    "player_name": "Walker Horn",
+    "team_id": 96,
+    "team_name": "Kentucky Wildcats",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856525,
+    "date": "20260320",
+    "player_id": 4684270,
+    "player_name": "Jaland Lowe",
+    "team_id": 96,
+    "team_name": "Kentucky Wildcats",
+    "minutes": null,
+    "points": 0
   }
 ]

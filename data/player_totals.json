@@ -45,6 +45,15 @@
     "tournament_minutes": 40
   },
   {
+    "player_id": 5106270,
+    "player_name": "Otega Oweh",
+    "team_id": 96,
+    "team_name": "Kentucky Wildcats",
+    "games_played": 1,
+    "tournament_points": 35,
+    "tournament_minutes": 43
+  },
+  {
     "player_id": 5060712,
     "player_name": "Terrence Hill Jr.",
     "team_id": 2670,
@@ -135,6 +144,15 @@
     "tournament_minutes": 42
   },
   {
+    "player_id": 5108060,
+    "player_name": "Amani Lyles",
+    "team_id": 2006,
+    "team_name": "Akron Zips",
+    "games_played": 1,
+    "tournament_points": 26,
+    "tournament_minutes": 32
+  },
+  {
     "player_id": 5176727,
     "player_name": "Dontae Horne",
     "team_id": 2504,
@@ -151,6 +169,15 @@
     "games_played": 1,
     "tournament_points": 24,
     "tournament_minutes": 36
+  },
+  {
+    "player_id": 5221321,
+    "player_name": "Jaylen Petty",
+    "team_id": 2641,
+    "team_name": "Texas Tech Red Raiders",
+    "games_played": 1,
+    "tournament_points": 24,
+    "tournament_minutes": 38
   },
   {
     "player_id": 5093252,
@@ -306,6 +333,24 @@
     "tournament_minutes": 30
   },
   {
+    "player_id": 5106652,
+    "player_name": "Shammah Scott",
+    "team_id": 2006,
+    "team_name": "Akron Zips",
+    "games_played": 1,
+    "tournament_points": 20,
+    "tournament_minutes": 33
+  },
+  {
+    "player_id": 5241069,
+    "player_name": "Elijah Mahi",
+    "team_id": 2541,
+    "team_name": "Santa Clara Broncos",
+    "games_played": 1,
+    "tournament_points": 20,
+    "tournament_minutes": 39
+  },
+  {
     "player_id": 5313186,
     "player_name": "Jah'Likai King",
     "team_id": 2378,
@@ -450,6 +495,15 @@
     "tournament_minutes": 27
   },
   {
+    "player_id": 5060701,
+    "player_name": "Christian Anderson",
+    "team_id": 2641,
+    "team_name": "Texas Tech Red Raiders",
+    "games_played": 1,
+    "tournament_points": 18,
+    "tournament_minutes": 39
+  },
+  {
     "player_id": 5252505,
     "player_name": "DJ Armstrong Jr.",
     "team_id": 2378,
@@ -484,6 +538,24 @@
     "games_played": 1,
     "tournament_points": 17,
     "tournament_minutes": 25
+  },
+  {
+    "player_id": 5149115,
+    "player_name": "Allen Graves",
+    "team_id": 2541,
+    "team_name": "Santa Clara Broncos",
+    "games_played": 1,
+    "tournament_points": 17,
+    "tournament_minutes": 27
+  },
+  {
+    "player_id": 4895780,
+    "player_name": "Mouhamed Dioubate",
+    "team_id": 96,
+    "team_name": "Kentucky Wildcats",
+    "games_played": 1,
+    "tournament_points": 17,
+    "tournament_minutes": 32
   },
   {
     "player_id": 5105624,
@@ -583,6 +655,33 @@
     "games_played": 1,
     "tournament_points": 16,
     "tournament_minutes": 22
+  },
+  {
+    "player_id": 5152656,
+    "player_name": "Josiah Moseley",
+    "team_id": 2641,
+    "team_name": "Texas Tech Red Raiders",
+    "games_played": 1,
+    "tournament_points": 16,
+    "tournament_minutes": 25
+  },
+  {
+    "player_id": 5215425,
+    "player_name": "Sash Gavalyugov",
+    "team_id": 2541,
+    "team_name": "Santa Clara Broncos",
+    "games_played": 1,
+    "tournament_points": 16,
+    "tournament_minutes": 32
+  },
+  {
+    "player_id": 5105527,
+    "player_name": "Denzel Aberdeen",
+    "team_id": 96,
+    "team_name": "Kentucky Wildcats",
+    "games_played": 1,
+    "tournament_points": 16,
+    "tournament_minutes": 38
   },
   {
     "player_id": 5196866,
@@ -693,6 +792,15 @@
     "tournament_minutes": 28
   },
   {
+    "player_id": 5107355,
+    "player_name": "Donovan Atwell",
+    "team_id": 2641,
+    "team_name": "Texas Tech Red Raiders",
+    "games_played": 1,
+    "tournament_points": 15,
+    "tournament_minutes": 35
+  },
+  {
     "player_id": 4895776,
     "player_name": "Devin Royal",
     "team_id": 194,
@@ -772,6 +880,24 @@
     "games_played": 1,
     "tournament_points": 14,
     "tournament_minutes": 30
+  },
+  {
+    "player_id": 5107312,
+    "player_name": "LeJuan Watts",
+    "team_id": 2641,
+    "team_name": "Texas Tech Red Raiders",
+    "games_played": 1,
+    "tournament_points": 14,
+    "tournament_minutes": 24
+  },
+  {
+    "player_id": 5109789,
+    "player_name": "Jake Ensminger",
+    "team_id": 2541,
+    "team_name": "Santa Clara Broncos",
+    "games_played": 1,
+    "tournament_points": 14,
+    "tournament_minutes": 42
   },
   {
     "player_id": 5110039,
@@ -1206,6 +1332,15 @@
     "tournament_minutes": 24
   },
   {
+    "player_id": 4711306,
+    "player_name": "Brandon Garrison",
+    "team_id": 96,
+    "team_name": "Kentucky Wildcats",
+    "games_played": 1,
+    "tournament_points": 10,
+    "tournament_minutes": 25
+  },
+  {
     "player_id": 5177355,
     "player_name": "Cougar Downing",
     "team_id": 2378,
@@ -1321,6 +1456,15 @@
     "games_played": 1,
     "tournament_points": 9,
     "tournament_minutes": 24
+  },
+  {
+    "player_id": 5176359,
+    "player_name": "Christian Hammond",
+    "team_id": 2541,
+    "team_name": "Santa Clara Broncos",
+    "games_played": 1,
+    "tournament_points": 9,
+    "tournament_minutes": 41
   },
   {
     "player_id": 5105855,
@@ -1465,6 +1609,24 @@
     "games_played": 1,
     "tournament_points": 8,
     "tournament_minutes": 21
+  },
+  {
+    "player_id": 5105847,
+    "player_name": "Evan Mahaffey",
+    "team_id": 2006,
+    "team_name": "Akron Zips",
+    "games_played": 1,
+    "tournament_points": 8,
+    "tournament_minutes": 35
+  },
+  {
+    "player_id": 5241471,
+    "player_name": "Eric Mahaffey",
+    "team_id": 2006,
+    "team_name": "Akron Zips",
+    "games_played": 1,
+    "tournament_points": 8,
+    "tournament_minutes": 18
   },
   {
     "player_id": 5182581,
@@ -1746,6 +1908,15 @@
     "tournament_minutes": 22
   },
   {
+    "player_id": 5176361,
+    "player_name": "Bukky Oboye",
+    "team_id": 2541,
+    "team_name": "Santa Clara Broncos",
+    "games_played": 1,
+    "tournament_points": 6,
+    "tournament_minutes": 17
+  },
+  {
     "player_id": 4683781,
     "player_name": "Sam Walters",
     "team_id": 2567,
@@ -1933,6 +2104,15 @@
     "games_played": 1,
     "tournament_points": 5,
     "tournament_minutes": 32
+  },
+  {
+    "player_id": 5238207,
+    "player_name": "Collin Chandler",
+    "team_id": 96,
+    "team_name": "Kentucky Wildcats",
+    "games_played": 1,
+    "tournament_points": 5,
+    "tournament_minutes": 42
   },
   {
     "player_id": 4683785,
@@ -2133,6 +2313,24 @@
     "tournament_minutes": 28
   },
   {
+    "player_id": 5108059,
+    "player_name": "Tavari Johnson",
+    "team_id": 2006,
+    "team_name": "Akron Zips",
+    "games_played": 1,
+    "tournament_points": 4,
+    "tournament_minutes": 30
+  },
+  {
+    "player_id": 5241470,
+    "player_name": "Sharron Young",
+    "team_id": 2006,
+    "team_name": "Akron Zips",
+    "games_played": 1,
+    "tournament_points": 4,
+    "tournament_minutes": 19
+  },
+  {
     "player_id": 5313189,
     "player_name": "Riley Jacobs",
     "team_id": 2378,
@@ -2266,6 +2464,24 @@
     "games_played": 1,
     "tournament_points": 3,
     "tournament_minutes": 9
+  },
+  {
+    "player_id": 5101849,
+    "player_name": "Malachi Moreno",
+    "team_id": 96,
+    "team_name": "Kentucky Wildcats",
+    "games_played": 1,
+    "tournament_points": 3,
+    "tournament_minutes": 20
+  },
+  {
+    "player_id": 4873183,
+    "player_name": "Kam Williams",
+    "team_id": 96,
+    "team_name": "Kentucky Wildcats",
+    "games_played": 1,
+    "tournament_points": 3,
+    "tournament_minutes": 10
   },
   {
     "player_id": 5149083,
@@ -2439,6 +2655,33 @@
     "tournament_minutes": 15
   },
   {
+    "player_id": 5061581,
+    "player_name": "Luke Bamgboye",
+    "team_id": 2641,
+    "team_name": "Texas Tech Red Raiders",
+    "games_played": 1,
+    "tournament_points": 2,
+    "tournament_minutes": 14
+  },
+  {
+    "player_id": 5240271,
+    "player_name": "Leon Horner",
+    "team_id": 2641,
+    "team_name": "Texas Tech Red Raiders",
+    "games_played": 1,
+    "tournament_points": 2,
+    "tournament_minutes": 1
+  },
+  {
+    "player_id": 4897209,
+    "player_name": "Brenton Knapper",
+    "team_id": 2541,
+    "team_name": "Santa Clara Broncos",
+    "games_played": 1,
+    "tournament_points": 2,
+    "tournament_minutes": 13
+  },
+  {
     "player_id": 5243100,
     "player_name": "Isaiah Brown",
     "team_id": 47,
@@ -2446,6 +2689,15 @@
     "games_played": 2,
     "tournament_points": 1,
     "tournament_minutes": 7
+  },
+  {
+    "player_id": 5176138,
+    "player_name": "Zach Halligan",
+    "team_id": 2006,
+    "team_name": "Akron Zips",
+    "games_played": 1,
+    "tournament_points": 1,
+    "tournament_minutes": 5
   },
   {
     "player_id": 5311528,
@@ -5323,6 +5575,321 @@
     "player_name": "Kordel Jefferson",
     "team_id": 248,
     "team_name": "Houston Cougars",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5105840,
+    "player_name": "Bowen Hardman",
+    "team_id": 2006,
+    "team_name": "Akron Zips",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 21
+  },
+  {
+    "player_id": 5241469,
+    "player_name": "Rich Brisco",
+    "team_id": 2006,
+    "team_name": "Akron Zips",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5105882,
+    "player_name": "Chabi Barre",
+    "team_id": 2006,
+    "team_name": "Akron Zips",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 1
+  },
+  {
+    "player_id": 5314282,
+    "player_name": "Ognjen Stankovic",
+    "team_id": 2006,
+    "team_name": "Akron Zips",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 1
+  },
+  {
+    "player_id": 5241472,
+    "player_name": "Conner Groce",
+    "team_id": 2006,
+    "team_name": "Akron Zips",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 1
+  },
+  {
+    "player_id": 5176139,
+    "player_name": "Marvin Musiime-Kamali",
+    "team_id": 2006,
+    "team_name": "Akron Zips",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 4
+  },
+  {
+    "player_id": 5314280,
+    "player_name": "Josh Henderson",
+    "team_id": 2006,
+    "team_name": "Akron Zips",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5314279,
+    "player_name": "Tai Perkins",
+    "team_id": 2006,
+    "team_name": "Akron Zips",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5176192,
+    "player_name": "Cody Head",
+    "team_id": 2006,
+    "team_name": "Akron Zips",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5311930,
+    "player_name": "Marial Akuentok",
+    "team_id": 2641,
+    "team_name": "Texas Tech Red Raiders",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 1
+  },
+  {
+    "player_id": 5311929,
+    "player_name": "Nolan Groves",
+    "team_id": 2641,
+    "team_name": "Texas Tech Red Raiders",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 1
+  },
+  {
+    "player_id": 5240270,
+    "player_name": "Jazz Henderson",
+    "team_id": 2641,
+    "team_name": "Texas Tech Red Raiders",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 1
+  },
+  {
+    "player_id": 5175077,
+    "player_name": "Jack Francis",
+    "team_id": 2641,
+    "team_name": "Texas Tech Red Raiders",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 1
+  },
+  {
+    "player_id": 5108120,
+    "player_name": "Tyeree Bryan",
+    "team_id": 2641,
+    "team_name": "Texas Tech Red Raiders",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 20
+  },
+  {
+    "player_id": 5311931,
+    "player_name": "LaTrell Hoover",
+    "team_id": 2641,
+    "team_name": "Texas Tech Red Raiders",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5143604,
+    "player_name": "JT Toppin",
+    "team_id": 2641,
+    "team_name": "Texas Tech Red Raiders",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5041940,
+    "player_name": "Francis Chukwudebelu",
+    "team_id": 2541,
+    "team_name": "Santa Clara Broncos",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 2
+  },
+  {
+    "player_id": 5196879,
+    "player_name": "KJ Cochran",
+    "team_id": 2541,
+    "team_name": "Santa Clara Broncos",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 5
+  },
+  {
+    "player_id": 5147928,
+    "player_name": "Thierry Darlan",
+    "team_id": 2541,
+    "team_name": "Santa Clara Broncos",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 7
+  },
+  {
+    "player_id": 5313101,
+    "player_name": "Noah Badibanga",
+    "team_id": 2541,
+    "team_name": "Santa Clara Broncos",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5183810,
+    "player_name": "Chris Tadjo",
+    "team_id": 2541,
+    "team_name": "Santa Clara Broncos",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5313100,
+    "player_name": "Brad Longcor III",
+    "team_id": 2541,
+    "team_name": "Santa Clara Broncos",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5109791,
+    "player_name": "Brendan Yarusso",
+    "team_id": 2541,
+    "team_name": "Santa Clara Broncos",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5109788,
+    "player_name": "Malachi Douyon",
+    "team_id": 2541,
+    "team_name": "Santa Clara Broncos",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5086370,
+    "player_name": "Gehrig Normand",
+    "team_id": 2541,
+    "team_name": "Santa Clara Broncos",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 4897872,
+    "player_name": "Juan Reyna",
+    "team_id": 2541,
+    "team_name": "Santa Clara Broncos",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5281347,
+    "player_name": "Andrija Jelavic",
+    "team_id": 96,
+    "team_name": "Kentucky Wildcats",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 13
+  },
+  {
+    "player_id": 5095153,
+    "player_name": "Jasper Johnson",
+    "team_id": 96,
+    "team_name": "Kentucky Wildcats",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 2
+  },
+  {
+    "player_id": 5252266,
+    "player_name": "Zach Tow",
+    "team_id": 96,
+    "team_name": "Kentucky Wildcats",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5176217,
+    "player_name": "Reece Potter",
+    "team_id": 96,
+    "team_name": "Kentucky Wildcats",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5175592,
+    "player_name": "Trent Noah",
+    "team_id": 96,
+    "team_name": "Kentucky Wildcats",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5101845,
+    "player_name": "Jayden Quaintance",
+    "team_id": 96,
+    "team_name": "Kentucky Wildcats",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5101820,
+    "player_name": "Braydon Hawthorne",
+    "team_id": 96,
+    "team_name": "Kentucky Wildcats",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5105283,
+    "player_name": "Walker Horn",
+    "team_id": 96,
+    "team_name": "Kentucky Wildcats",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 4684270,
+    "player_name": "Jaland Lowe",
+    "team_id": 96,
+    "team_name": "Kentucky Wildcats",
     "games_played": 1,
     "tournament_points": 0,
     "tournament_minutes": 0
