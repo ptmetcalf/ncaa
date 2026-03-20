@@ -189,6 +189,15 @@
     "tournament_minutes": 30
   },
   {
+    "player_id": 5174291,
+    "player_name": "Bryce Lindsay",
+    "team_id": 222,
+    "team_name": "Villanova Wildcats",
+    "games_played": 1,
+    "tournament_points": 25,
+    "tournament_minutes": 37
+  },
+  {
     "player_id": 5142620,
     "player_name": "Darius Acuff Jr.",
     "team_id": 8,
@@ -306,6 +315,15 @@
     "tournament_minutes": 27
   },
   {
+    "player_id": 5107864,
+    "player_name": "Mason Falslev",
+    "team_id": 328,
+    "team_name": "Utah State Aggies",
+    "games_played": 1,
+    "tournament_points": 22,
+    "tournament_minutes": 35
+  },
+  {
     "player_id": 4937074,
     "player_name": "Darrion Williams",
     "team_id": 152,
@@ -412,6 +430,15 @@
     "games_played": 1,
     "tournament_points": 20,
     "tournament_minutes": 39
+  },
+  {
+    "player_id": 5105401,
+    "player_name": "MJ Collins Jr.",
+    "team_id": 328,
+    "team_name": "Utah State Aggies",
+    "games_played": 1,
+    "tournament_points": 20,
+    "tournament_minutes": 36
   },
   {
     "player_id": 5313186,
@@ -927,6 +954,24 @@
     "tournament_minutes": 32
   },
   {
+    "player_id": 4870569,
+    "player_name": "Duke Brennan",
+    "team_id": 222,
+    "team_name": "Villanova Wildcats",
+    "games_played": 1,
+    "tournament_points": 15,
+    "tournament_minutes": 34
+  },
+  {
+    "player_id": 5182412,
+    "player_name": "Tyler Perkins",
+    "team_id": 222,
+    "team_name": "Villanova Wildcats",
+    "games_played": 1,
+    "tournament_points": 15,
+    "tournament_minutes": 38
+  },
+  {
     "player_id": 5314165,
     "player_name": "Mason Porter-Brown",
     "team_id": 112358,
@@ -1177,6 +1222,15 @@
     "games_played": 1,
     "tournament_points": 13,
     "tournament_minutes": 34
+  },
+  {
+    "player_id": 5195079,
+    "player_name": "Adlan Elamin",
+    "team_id": 328,
+    "team_name": "Utah State Aggies",
+    "games_played": 1,
+    "tournament_points": 13,
+    "tournament_minutes": 30
   },
   {
     "player_id": 5176313,
@@ -1498,6 +1552,24 @@
     "player_name": "Malik Thomas",
     "team_id": 258,
     "team_name": "Virginia Cavaliers",
+    "games_played": 1,
+    "tournament_points": 11,
+    "tournament_minutes": 21
+  },
+  {
+    "player_id": 5105494,
+    "player_name": "Drake Allen",
+    "team_id": 328,
+    "team_name": "Utah State Aggies",
+    "games_played": 1,
+    "tournament_points": 11,
+    "tournament_minutes": 34
+  },
+  {
+    "player_id": 5239554,
+    "player_name": "Malachi Palmer",
+    "team_id": 222,
+    "team_name": "Villanova Wildcats",
     "games_played": 1,
     "tournament_points": 11,
     "tournament_minutes": 21
@@ -2115,6 +2187,24 @@
     "tournament_minutes": 25
   },
   {
+    "player_id": 5108973,
+    "player_name": "Garry Clark",
+    "team_id": 328,
+    "team_name": "Utah State Aggies",
+    "games_played": 1,
+    "tournament_points": 7,
+    "tournament_minutes": 15
+  },
+  {
+    "player_id": 5144105,
+    "player_name": "Acaden Lewis",
+    "team_id": 222,
+    "team_name": "Villanova Wildcats",
+    "games_played": 1,
+    "tournament_points": 7,
+    "tournament_minutes": 37
+  },
+  {
     "player_id": 5175939,
     "player_name": "Caleb Johnson",
     "team_id": 112358,
@@ -2502,6 +2592,15 @@
     "tournament_minutes": 17
   },
   {
+    "player_id": 5105604,
+    "player_name": "Kolby King",
+    "team_id": 328,
+    "team_name": "Utah State Aggies",
+    "games_played": 1,
+    "tournament_points": 5,
+    "tournament_minutes": 9
+  },
+  {
     "player_id": 4683785,
     "player_name": "Simeon Wilcher",
     "team_id": 251,
@@ -2725,6 +2824,24 @@
     "games_played": 1,
     "tournament_points": 4,
     "tournament_minutes": 18
+  },
+  {
+    "player_id": 4896363,
+    "player_name": "Zach Keller",
+    "team_id": 328,
+    "team_name": "Utah State Aggies",
+    "games_played": 1,
+    "tournament_points": 4,
+    "tournament_minutes": 12
+  },
+  {
+    "player_id": 5176273,
+    "player_name": "Karson Templin",
+    "team_id": 328,
+    "team_name": "Utah State Aggies",
+    "games_played": 1,
+    "tournament_points": 4,
+    "tournament_minutes": 24
   },
   {
     "player_id": 5243273,
@@ -2968,6 +3085,15 @@
     "games_played": 1,
     "tournament_points": 3,
     "tournament_minutes": 11
+  },
+  {
+    "player_id": 4702467,
+    "player_name": "Devin Askew",
+    "team_id": 222,
+    "team_name": "Villanova Wildcats",
+    "games_played": 1,
+    "tournament_points": 3,
+    "tournament_minutes": 24
   },
   {
     "player_id": 5243274,
@@ -3282,7 +3408,7 @@
     "team_name": "Tennessee State Tigers",
     "games_played": 1,
     "tournament_points": 1,
-    "tournament_minutes": 2
+    "tournament_minutes": 3
   },
   {
     "player_id": 5241700,
@@ -6405,7 +6531,7 @@
     "team_name": "Alabama Crimson Tide",
     "games_played": 1,
     "tournament_points": 0,
-    "tournament_minutes": 4
+    "tournament_minutes": 5
   },
   {
     "player_id": 4709141,
@@ -6871,6 +6997,141 @@
     "player_name": "Elijah Gertrude",
     "team_id": 258,
     "team_name": "Virginia Cavaliers",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5255259,
+    "player_name": "David Iweze",
+    "team_id": 328,
+    "team_name": "Utah State Aggies",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5182081,
+    "player_name": "Luke Kearney",
+    "team_id": 328,
+    "team_name": "Utah State Aggies",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5175860,
+    "player_name": "Tucker Anderson",
+    "team_id": 328,
+    "team_name": "Utah State Aggies",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5152734,
+    "player_name": "Kingston Tosi",
+    "team_id": 328,
+    "team_name": "Utah State Aggies",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5255260,
+    "player_name": "Elijah Perryman",
+    "team_id": 328,
+    "team_name": "Utah State Aggies",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 6
+  },
+  {
+    "player_id": 5241264,
+    "player_name": "Jordy Barnes",
+    "team_id": 328,
+    "team_name": "Utah State Aggies",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5144136,
+    "player_name": "Brayden Boe",
+    "team_id": 328,
+    "team_name": "Utah State Aggies",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5175588,
+    "player_name": "Matt Hodge",
+    "team_id": 222,
+    "team_name": "Villanova Wildcats",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5106034,
+    "player_name": "Tafara Gapare",
+    "team_id": 222,
+    "team_name": "Villanova Wildcats",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5281374,
+    "player_name": "Nico Onyekwere",
+    "team_id": 222,
+    "team_name": "Villanova Wildcats",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5142360,
+    "player_name": "Braden Pierce",
+    "team_id": 222,
+    "team_name": "Villanova Wildcats",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 6
+  },
+  {
+    "player_id": 5240540,
+    "player_name": "Wade Chiddick",
+    "team_id": 222,
+    "team_name": "Villanova Wildcats",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5221332,
+    "player_name": "Chris Jeffrey",
+    "team_id": 222,
+    "team_name": "Villanova Wildcats",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 14
+  },
+  {
+    "player_id": 5175067,
+    "player_name": "Zion Stanford",
+    "team_id": 222,
+    "team_name": "Villanova Wildcats",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5105576,
+    "player_name": "Malcolm Flaggs",
+    "team_id": 222,
+    "team_name": "Villanova Wildcats",
     "games_played": 1,
     "tournament_points": 0,
     "tournament_minutes": 0

@@ -6766,7 +6766,7 @@
     "player_name": "Jalil Bethea",
     "team_id": 333,
     "team_name": "Alabama Crimson Tide",
-    "minutes": 4,
+    "minutes": 5,
     "points": 0
   },
   {
@@ -6916,7 +6916,7 @@
     "player_name": "JC Brooks",
     "team_id": 2634,
     "team_name": "Tennessee State Tigers",
-    "minutes": 2,
+    "minutes": 3,
     "points": 1
   },
   {
@@ -7768,6 +7768,296 @@
     "team_name": "Virginia Cavaliers",
     "minutes": null,
     "points": 0
+  },
+  {
+    "event_id": 401856528,
+    "date": "20260320",
+    "player_id": 5195079,
+    "player_name": "Adlan Elamin",
+    "team_id": 328,
+    "team_name": "Utah State Aggies",
+    "minutes": 30,
+    "points": 13
+  },
+  {
+    "event_id": 401856528,
+    "date": "20260320",
+    "player_id": 4896363,
+    "player_name": "Zach Keller",
+    "team_id": 328,
+    "team_name": "Utah State Aggies",
+    "minutes": 12,
+    "points": 4
+  },
+  {
+    "event_id": 401856528,
+    "date": "20260320",
+    "player_id": 5107864,
+    "player_name": "Mason Falslev",
+    "team_id": 328,
+    "team_name": "Utah State Aggies",
+    "minutes": 35,
+    "points": 22
+  },
+  {
+    "event_id": 401856528,
+    "date": "20260320",
+    "player_id": 5105494,
+    "player_name": "Drake Allen",
+    "team_id": 328,
+    "team_name": "Utah State Aggies",
+    "minutes": 34,
+    "points": 11
+  },
+  {
+    "event_id": 401856528,
+    "date": "20260320",
+    "player_id": 5105401,
+    "player_name": "MJ Collins Jr.",
+    "team_id": 328,
+    "team_name": "Utah State Aggies",
+    "minutes": 36,
+    "points": 20
+  },
+  {
+    "event_id": 401856528,
+    "date": "20260320",
+    "player_id": 5255259,
+    "player_name": "David Iweze",
+    "team_id": 328,
+    "team_name": "Utah State Aggies",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856528,
+    "date": "20260320",
+    "player_id": 5182081,
+    "player_name": "Luke Kearney",
+    "team_id": 328,
+    "team_name": "Utah State Aggies",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856528,
+    "date": "20260320",
+    "player_id": 5176273,
+    "player_name": "Karson Templin",
+    "team_id": 328,
+    "team_name": "Utah State Aggies",
+    "minutes": 24,
+    "points": 4
+  },
+  {
+    "event_id": 401856528,
+    "date": "20260320",
+    "player_id": 5175860,
+    "player_name": "Tucker Anderson",
+    "team_id": 328,
+    "team_name": "Utah State Aggies",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856528,
+    "date": "20260320",
+    "player_id": 5152734,
+    "player_name": "Kingston Tosi",
+    "team_id": 328,
+    "team_name": "Utah State Aggies",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856528,
+    "date": "20260320",
+    "player_id": 5108973,
+    "player_name": "Garry Clark",
+    "team_id": 328,
+    "team_name": "Utah State Aggies",
+    "minutes": 15,
+    "points": 7
+  },
+  {
+    "event_id": 401856528,
+    "date": "20260320",
+    "player_id": 5255260,
+    "player_name": "Elijah Perryman",
+    "team_id": 328,
+    "team_name": "Utah State Aggies",
+    "minutes": 6,
+    "points": 0
+  },
+  {
+    "event_id": 401856528,
+    "date": "20260320",
+    "player_id": 5241264,
+    "player_name": "Jordy Barnes",
+    "team_id": 328,
+    "team_name": "Utah State Aggies",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856528,
+    "date": "20260320",
+    "player_id": 5144136,
+    "player_name": "Brayden Boe",
+    "team_id": 328,
+    "team_name": "Utah State Aggies",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856528,
+    "date": "20260320",
+    "player_id": 5105604,
+    "player_name": "Kolby King",
+    "team_id": 328,
+    "team_name": "Utah State Aggies",
+    "minutes": 9,
+    "points": 5
+  },
+  {
+    "event_id": 401856528,
+    "date": "20260320",
+    "player_id": 4870569,
+    "player_name": "Duke Brennan",
+    "team_id": 222,
+    "team_name": "Villanova Wildcats",
+    "minutes": 34,
+    "points": 15
+  },
+  {
+    "event_id": 401856528,
+    "date": "20260320",
+    "player_id": 5239554,
+    "player_name": "Malachi Palmer",
+    "team_id": 222,
+    "team_name": "Villanova Wildcats",
+    "minutes": 21,
+    "points": 11
+  },
+  {
+    "event_id": 401856528,
+    "date": "20260320",
+    "player_id": 5182412,
+    "player_name": "Tyler Perkins",
+    "team_id": 222,
+    "team_name": "Villanova Wildcats",
+    "minutes": 38,
+    "points": 15
+  },
+  {
+    "event_id": 401856528,
+    "date": "20260320",
+    "player_id": 5174291,
+    "player_name": "Bryce Lindsay",
+    "team_id": 222,
+    "team_name": "Villanova Wildcats",
+    "minutes": 37,
+    "points": 25
+  },
+  {
+    "event_id": 401856528,
+    "date": "20260320",
+    "player_id": 5144105,
+    "player_name": "Acaden Lewis",
+    "team_id": 222,
+    "team_name": "Villanova Wildcats",
+    "minutes": 37,
+    "points": 7
+  },
+  {
+    "event_id": 401856528,
+    "date": "20260320",
+    "player_id": 5175588,
+    "player_name": "Matt Hodge",
+    "team_id": 222,
+    "team_name": "Villanova Wildcats",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856528,
+    "date": "20260320",
+    "player_id": 5106034,
+    "player_name": "Tafara Gapare",
+    "team_id": 222,
+    "team_name": "Villanova Wildcats",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856528,
+    "date": "20260320",
+    "player_id": 5281374,
+    "player_name": "Nico Onyekwere",
+    "team_id": 222,
+    "team_name": "Villanova Wildcats",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856528,
+    "date": "20260320",
+    "player_id": 5142360,
+    "player_name": "Braden Pierce",
+    "team_id": 222,
+    "team_name": "Villanova Wildcats",
+    "minutes": 6,
+    "points": 0
+  },
+  {
+    "event_id": 401856528,
+    "date": "20260320",
+    "player_id": 5240540,
+    "player_name": "Wade Chiddick",
+    "team_id": 222,
+    "team_name": "Villanova Wildcats",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856528,
+    "date": "20260320",
+    "player_id": 5221332,
+    "player_name": "Chris Jeffrey",
+    "team_id": 222,
+    "team_name": "Villanova Wildcats",
+    "minutes": 14,
+    "points": 0
+  },
+  {
+    "event_id": 401856528,
+    "date": "20260320",
+    "player_id": 5175067,
+    "player_name": "Zion Stanford",
+    "team_id": 222,
+    "team_name": "Villanova Wildcats",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856528,
+    "date": "20260320",
+    "player_id": 5105576,
+    "player_name": "Malcolm Flaggs",
+    "team_id": 222,
+    "team_name": "Villanova Wildcats",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856528,
+    "date": "20260320",
+    "player_id": 4702467,
+    "player_name": "Devin Askew",
+    "team_id": 222,
+    "team_name": "Villanova Wildcats",
+    "minutes": 24,
+    "points": 3
   },
   {
     "event_id": 401856529,

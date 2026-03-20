@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-20T21:28:32.147Z",
+  "generated_at": "2026-03-20T22:28:28.283Z",
   "year": 2026,
   "available": true,
   "source": "espn_bracket_page",
@@ -8,7 +8,7 @@
   "tournament_name": "Men's NCAA Tournament",
   "short_name": "NCAA",
   "teams_count": 68,
-  "matchups_count": 47,
+  "matchups_count": 48,
   "regions": [
     {
       "id": 1,
@@ -720,8 +720,8 @@
       "bracket_location": 18,
       "date": "2026-03-20T20:10:00Z",
       "status_state": "in",
-      "status_desc": "Halftime",
-      "status_detail": "Halftime",
+      "status_desc": "In Progress",
+      "status_detail": "0:16 - 2nd",
       "location": "San Diego, CA",
       "link": "/mens-college-basketball/game/_/gameId/401856528",
       "competitor_one": {
@@ -729,7 +729,7 @@
         "team_name": "Villanova",
         "abbreviation": "VILL",
         "seed": 8,
-        "score": 39,
+        "score": 76,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/222.png"
       },
@@ -738,7 +738,7 @@
         "team_name": "Utah State",
         "abbreviation": "USU",
         "seed": 9,
-        "score": 37,
+        "score": 86,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/328.png"
       }
@@ -1050,8 +1050,8 @@
       "bracket_location": 29,
       "date": "2026-03-20T20:25:00Z",
       "status_state": "in",
-      "status_desc": "Halftime",
-      "status_detail": "Halftime",
+      "status_desc": "In Progress",
+      "status_detail": "2:28 - 2nd",
       "location": "Philadelphia, PA",
       "link": "/mens-college-basketball/game/_/gameId/401856527",
       "competitor_one": {
@@ -1059,7 +1059,7 @@
         "team_name": "Tennessee",
         "abbreviation": "TENN",
         "seed": 6,
-        "score": 51,
+        "score": 76,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2633.png"
       },
@@ -1068,7 +1068,7 @@
         "team_name": "Miami (OH)",
         "abbreviation": "M-OH",
         "seed": 11,
-        "score": 32,
+        "score": 54,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/193.png"
       }
@@ -1423,6 +1423,36 @@
         "score": 0,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/139.png"
+      }
+    },
+    {
+      "matchup_id": 401856560,
+      "round_id": 2,
+      "region_id": 2,
+      "bracket_location": 14,
+      "date": "2026-03-22T04:00:00Z",
+      "status_state": "pre",
+      "status_desc": "Scheduled",
+      "status_detail": "3/22 - TBD",
+      "location": "Tampa, FL",
+      "link": "/mens-college-basketball/game/_/gameId/401856560/texas-tech-alabama",
+      "competitor_one": {
+        "team_id": 2641,
+        "team_name": "Texas Tech",
+        "abbreviation": "TTU",
+        "seed": 5,
+        "score": 0,
+        "winner": false,
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2641.png"
+      },
+      "competitor_two": {
+        "team_id": 333,
+        "team_name": "Alabama",
+        "abbreviation": "ALA",
+        "seed": 4,
+        "score": 0,
+        "winner": false,
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/333.png"
       }
     },
     {

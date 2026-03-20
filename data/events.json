@@ -335,7 +335,7 @@
     "name": "Miami (OH) RedHawks at Tennessee Volunteers",
     "short_name": "M-OH VS TENN",
     "completed": false,
-    "status": "Halftime",
+    "status": "In Progress",
     "home_team_id": 2633,
     "away_team_id": 193
   },
@@ -344,8 +344,8 @@
     "date": "20260320",
     "name": "Utah State Aggies at Villanova Wildcats",
     "short_name": "USU VS VILL",
-    "completed": false,
-    "status": "In Progress",
+    "completed": true,
+    "status": "Final",
     "home_team_id": 222,
     "away_team_id": 328
   },
