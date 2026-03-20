@@ -205,7 +205,7 @@
     "name": "Northern Iowa Panthers at St. John's Red Storm",
     "short_name": "UNI VS SJU",
     "completed": false,
-    "status": "Scheduled",
+    "status": "In Progress",
     "home_team_id": 2599,
     "away_team_id": 2460
   },
@@ -285,7 +285,7 @@
     "name": "Iowa Hawkeyes at Clemson Tigers",
     "short_name": "IOWA VS CLEM",
     "completed": false,
-    "status": "Scheduled",
+    "status": "In Progress",
     "home_team_id": 228,
     "away_team_id": 2294
   },
@@ -334,8 +334,8 @@
     "date": "20260320",
     "name": "Miami (OH) RedHawks at Tennessee Volunteers",
     "short_name": "M-OH VS TENN",
-    "completed": false,
-    "status": "In Progress",
+    "completed": true,
+    "status": "Final",
     "home_team_id": 2633,
     "away_team_id": 193
   },

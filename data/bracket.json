@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-20T22:28:28.283Z",
+  "generated_at": "2026-03-20T23:28:21.752Z",
   "year": 2026,
   "available": true,
   "source": "espn_bracket_page",
@@ -268,18 +268,18 @@
       "round_id": 1,
       "region_id": 1,
       "bracket_location": 3,
-      "date": "2026-03-20T23:10:00Z",
-      "status_state": "pre",
-      "status_desc": "Scheduled",
-      "status_detail": "3/20 - 7:10 PM EDT",
+      "date": "2026-03-20T23:25:00Z",
+      "status_state": "in",
+      "status_desc": "In Progress",
+      "status_detail": "19:02 - 1st",
       "location": "San Diego, CA",
-      "link": "/mens-college-basketball/game/_/gameId/401856494/northern-iowa-st-johns",
+      "link": "/mens-college-basketball/game/_/gameId/401856494",
       "competitor_one": {
         "team_id": 2599,
         "team_name": "St. John's",
         "abbreviation": "SJU",
         "seed": 5,
-        "score": 0,
+        "score": 3,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2599.png"
       },
@@ -388,10 +388,10 @@
       "round_id": 1,
       "region_id": 1,
       "bracket_location": 7,
-      "date": "2026-03-20T23:25:00Z",
+      "date": "2026-03-20T23:31:00Z",
       "status_state": "pre",
       "status_desc": "Scheduled",
-      "status_detail": "3/20 - 7:25 PM EDT",
+      "status_detail": "3/20 - 7:31 PM EDT",
       "location": "Philadelphia, PA",
       "link": "/mens-college-basketball/game/_/gameId/401856496/ucf-ucla",
       "competitor_one": {
@@ -479,17 +479,17 @@
       "region_id": 2,
       "bracket_location": 10,
       "date": "2026-03-20T22:50:00Z",
-      "status_state": "pre",
-      "status_desc": "Scheduled",
-      "status_detail": "3/20 - 6:50 PM EDT",
+      "status_state": "in",
+      "status_desc": "In Progress",
+      "status_detail": "3:44 - 1st",
       "location": "Tampa, FL",
-      "link": "/mens-college-basketball/game/_/gameId/401856522/iowa-clemson",
+      "link": "/mens-college-basketball/game/_/gameId/401856522",
       "competitor_one": {
         "team_id": 228,
         "team_name": "Clemson",
         "abbreviation": "CLEM",
         "seed": 8,
-        "score": 0,
+        "score": 16,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/228.png"
       },
@@ -498,7 +498,7 @@
         "team_name": "Iowa",
         "abbreviation": "IOWA",
         "seed": 9,
-        "score": 0,
+        "score": 25,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2294.png"
       }
@@ -719,11 +719,11 @@
       "region_id": 3,
       "bracket_location": 18,
       "date": "2026-03-20T20:10:00Z",
-      "status_state": "in",
-      "status_desc": "In Progress",
-      "status_detail": "0:16 - 2nd",
+      "status_state": "post",
+      "status_desc": "Final",
+      "status_detail": "Final",
       "location": "San Diego, CA",
-      "link": "/mens-college-basketball/game/_/gameId/401856528",
+      "link": "/mens-college-basketball/game/_/gameId/401856528/utah-state-villanova",
       "competitor_one": {
         "team_id": 222,
         "team_name": "Villanova",
@@ -739,7 +739,7 @@
         "abbreviation": "USU",
         "seed": 9,
         "score": 86,
-        "winner": false,
+        "winner": true,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/328.png"
       }
     },
@@ -1049,18 +1049,18 @@
       "region_id": 4,
       "bracket_location": 29,
       "date": "2026-03-20T20:25:00Z",
-      "status_state": "in",
-      "status_desc": "In Progress",
-      "status_detail": "2:28 - 2nd",
+      "status_state": "post",
+      "status_desc": "Final",
+      "status_detail": "Final",
       "location": "Philadelphia, PA",
-      "link": "/mens-college-basketball/game/_/gameId/401856527",
+      "link": "/mens-college-basketball/game/_/gameId/401856527/miami-oh-tennessee",
       "competitor_one": {
         "team_id": 2633,
         "team_name": "Tennessee",
         "abbreviation": "TENN",
         "seed": 6,
-        "score": 76,
-        "winner": false,
+        "score": 78,
+        "winner": true,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2633.png"
       },
       "competitor_two": {
@@ -1068,7 +1068,7 @@
         "team_name": "Miami (OH)",
         "abbreviation": "M-OH",
         "seed": 11,
-        "score": 54,
+        "score": 56,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/193.png"
       }
@@ -1323,7 +1323,7 @@
       "status_desc": "Scheduled",
       "status_detail": "3/22 - TBD",
       "location": "San Diego, CA",
-      "link": "/mens-college-basketball/game/_/gameId/401856565",
+      "link": "/mens-college-basketball/game/_/gameId/401856565/utah-state-arizona",
       "competitor_one": {
         "team_id": 12,
         "team_name": "Arizona",
@@ -1333,7 +1333,15 @@
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/12.png"
       },
-      "competitor_two": null
+      "competitor_two": {
+        "team_id": 328,
+        "team_name": "Utah State",
+        "abbreviation": "USU",
+        "seed": 9,
+        "score": 0,
+        "winner": false,
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/328.png"
+      }
     },
     {
       "matchup_id": 401856536,
@@ -1465,8 +1473,16 @@
       "status_desc": "Scheduled",
       "status_detail": "3/22 - TBD",
       "location": "Philadelphia, PA",
-      "link": "/mens-college-basketball/game/_/gameId/401856562",
-      "competitor_one": null,
+      "link": "/mens-college-basketball/game/_/gameId/401856562/tennessee-virginia",
+      "competitor_one": {
+        "team_id": 2633,
+        "team_name": "Tennessee",
+        "abbreviation": "TENN",
+        "seed": 6,
+        "score": 0,
+        "winner": false,
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2633.png"
+      },
       "competitor_two": {
         "team_id": 258,
         "team_name": "Virginia",
