@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-20T15:31:03.564Z",
+  "generated_at": "2026-03-20T16:30:33.674Z",
   "year": 2026,
   "available": true,
   "source": "espn_bracket_page",
@@ -1109,17 +1109,17 @@
       "region_id": 4,
       "bracket_location": 31,
       "date": "2026-03-20T16:15:00Z",
-      "status_state": "pre",
-      "status_desc": "Scheduled",
-      "status_detail": "3/20 - 12:15 PM EDT",
+      "status_state": "in",
+      "status_desc": "In Progress",
+      "status_detail": "12:14 - 1st",
       "location": "St. Louis, MO",
-      "link": "/mens-college-basketball/game/_/gameId/401856525/santa-clara-kentucky",
+      "link": "/mens-college-basketball/game/_/gameId/401856525",
       "competitor_one": {
         "team_id": 96,
         "team_name": "Kentucky",
         "abbreviation": "UK",
         "seed": 7,
-        "score": 0,
+        "score": 12,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/96.png"
       },
@@ -1128,7 +1128,7 @@
         "team_name": "Santa Clara",
         "abbreviation": "SCU",
         "seed": 10,
-        "score": 0,
+        "score": 11,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2541.png"
       }
