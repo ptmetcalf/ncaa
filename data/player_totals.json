@@ -153,6 +153,15 @@
     "tournament_minutes": 32
   },
   {
+    "player_id": 5107274,
+    "player_name": "Jacari White",
+    "team_id": 258,
+    "team_name": "Virginia Cavaliers",
+    "games_played": 1,
+    "tournament_points": 26,
+    "tournament_minutes": 24
+  },
+  {
     "player_id": 5176727,
     "player_name": "Dontae Horne",
     "team_id": 2504,
@@ -414,6 +423,15 @@
     "tournament_minutes": 21
   },
   {
+    "player_id": 4707481,
+    "player_name": "Michael Imariagbe",
+    "team_id": 2750,
+    "team_name": "Wright State Raiders",
+    "games_played": 1,
+    "tournament_points": 19,
+    "tournament_minutes": 29
+  },
+  {
     "player_id": 5316220,
     "player_name": "Travelle Bryson",
     "team_id": 47,
@@ -502,6 +520,24 @@
     "games_played": 1,
     "tournament_points": 18,
     "tournament_minutes": 39
+  },
+  {
+    "player_id": 5177215,
+    "player_name": "Solomon Callaghan",
+    "team_id": 2750,
+    "team_name": "Wright State Raiders",
+    "games_played": 1,
+    "tournament_points": 18,
+    "tournament_minutes": 28
+  },
+  {
+    "player_id": 5082206,
+    "player_name": "Brayden Burries",
+    "team_id": 12,
+    "team_name": "Arizona Wildcats",
+    "games_played": 1,
+    "tournament_points": 18,
+    "tournament_minutes": 28
   },
   {
     "player_id": 5252505,
@@ -801,6 +837,33 @@
     "tournament_minutes": 35
   },
   {
+    "player_id": 5241483,
+    "player_name": "TJ Burch",
+    "team_id": 2750,
+    "team_name": "Wright State Raiders",
+    "games_played": 1,
+    "tournament_points": 15,
+    "tournament_minutes": 32
+  },
+  {
+    "player_id": 5314165,
+    "player_name": "Mason Porter-Brown",
+    "team_id": 112358,
+    "team_name": "Long Island University Sharks",
+    "games_played": 1,
+    "tournament_points": 15,
+    "tournament_minutes": 28
+  },
+  {
+    "player_id": 5041953,
+    "player_name": "Koa Peat",
+    "team_id": 12,
+    "team_name": "Arizona Wildcats",
+    "games_played": 1,
+    "tournament_points": 15,
+    "tournament_minutes": 28
+  },
+  {
     "player_id": 4895776,
     "player_name": "Devin Royal",
     "team_id": 194,
@@ -900,6 +963,15 @@
     "tournament_minutes": 42
   },
   {
+    "player_id": 5311896,
+    "player_name": "Ivan Kharchenkov",
+    "team_id": 12,
+    "team_name": "Arizona Wildcats",
+    "games_played": 1,
+    "tournament_points": 14,
+    "tournament_minutes": 26
+  },
+  {
     "player_id": 5110039,
     "player_name": "Corey Washington",
     "team_id": 2567,
@@ -997,6 +1069,15 @@
     "games_played": 1,
     "tournament_points": 13,
     "tournament_minutes": 25
+  },
+  {
+    "player_id": 5314630,
+    "player_name": "Michael Cooper",
+    "team_id": 2750,
+    "team_name": "Wright State Raiders",
+    "games_played": 1,
+    "tournament_points": 13,
+    "tournament_minutes": 34
   },
   {
     "player_id": 5176313,
@@ -1134,6 +1215,24 @@
     "tournament_minutes": 33
   },
   {
+    "player_id": 5176232,
+    "player_name": "Sam Lewis",
+    "team_id": 258,
+    "team_name": "Virginia Cavaliers",
+    "games_played": 1,
+    "tournament_points": 12,
+    "tournament_minutes": 29
+  },
+  {
+    "player_id": 5177096,
+    "player_name": "Greg Gordon",
+    "team_id": 112358,
+    "team_name": "Long Island University Sharks",
+    "games_played": 1,
+    "tournament_points": 12,
+    "tournament_minutes": 37
+  },
+  {
     "player_id": 4873151,
     "player_name": "Paul McNeil Jr.",
     "team_id": 152,
@@ -1242,6 +1341,33 @@
     "tournament_minutes": 25
   },
   {
+    "player_id": 4683758,
+    "player_name": "Malik Thomas",
+    "team_id": 258,
+    "team_name": "Virginia Cavaliers",
+    "games_played": 1,
+    "tournament_points": 11,
+    "tournament_minutes": 21
+  },
+  {
+    "player_id": 5122836,
+    "player_name": "Jamal Fuller",
+    "team_id": 112358,
+    "team_name": "Long Island University Sharks",
+    "games_played": 1,
+    "tournament_points": 11,
+    "tournament_minutes": 33
+  },
+  {
+    "player_id": 5105555,
+    "player_name": "Tobe Awaka",
+    "team_id": 12,
+    "team_name": "Arizona Wildcats",
+    "games_played": 1,
+    "tournament_points": 11,
+    "tournament_minutes": 18
+  },
+  {
     "player_id": 4904931,
     "player_name": "Lance Williams",
     "team_id": 2504,
@@ -1339,6 +1465,15 @@
     "games_played": 1,
     "tournament_points": 10,
     "tournament_minutes": 25
+  },
+  {
+    "player_id": 5311846,
+    "player_name": "Thijs De Ridder",
+    "team_id": 258,
+    "team_name": "Virginia Cavaliers",
+    "games_played": 1,
+    "tournament_points": 10,
+    "tournament_minutes": 29
   },
   {
     "player_id": 5177355,
@@ -1465,6 +1600,15 @@
     "games_played": 1,
     "tournament_points": 9,
     "tournament_minutes": 41
+  },
+  {
+    "player_id": 5174954,
+    "player_name": "Motiejus Krivas",
+    "team_id": 12,
+    "team_name": "Arizona Wildcats",
+    "games_played": 1,
+    "tournament_points": 9,
+    "tournament_minutes": 22
   },
   {
     "player_id": 5105855,
@@ -1629,6 +1773,33 @@
     "tournament_minutes": 18
   },
   {
+    "player_id": 5311844,
+    "player_name": "Johann Grunloh",
+    "team_id": 258,
+    "team_name": "Virginia Cavaliers",
+    "games_played": 1,
+    "tournament_points": 8,
+    "tournament_minutes": 20
+  },
+  {
+    "player_id": 5105464,
+    "player_name": "Dallin Hall",
+    "team_id": 258,
+    "team_name": "Virginia Cavaliers",
+    "games_played": 1,
+    "tournament_points": 8,
+    "tournament_minutes": 27
+  },
+  {
+    "player_id": 5108141,
+    "player_name": "Anthony Dell'Orso",
+    "team_id": 12,
+    "team_name": "Arizona Wildcats",
+    "games_played": 1,
+    "tournament_points": 8,
+    "tournament_minutes": 22
+  },
+  {
     "player_id": 5182581,
     "player_name": "Jose Roberto Tanchyn",
     "team_id": 2378,
@@ -1762,6 +1933,24 @@
     "games_played": 1,
     "tournament_points": 7,
     "tournament_minutes": 25
+  },
+  {
+    "player_id": 5175939,
+    "player_name": "Caleb Johnson",
+    "team_id": 112358,
+    "team_name": "Long Island University Sharks",
+    "games_played": 1,
+    "tournament_points": 7,
+    "tournament_minutes": 15
+  },
+  {
+    "player_id": 4432737,
+    "player_name": "Jaden Bradley",
+    "team_id": 12,
+    "team_name": "Arizona Wildcats",
+    "games_played": 1,
+    "tournament_points": 7,
+    "tournament_minutes": 23
   },
   {
     "player_id": 4684799,
@@ -2115,6 +2304,15 @@
     "tournament_minutes": 42
   },
   {
+    "player_id": 5243109,
+    "player_name": "Dominic Pangonis",
+    "team_id": 2750,
+    "team_name": "Wright State Raiders",
+    "games_played": 1,
+    "tournament_points": 5,
+    "tournament_minutes": 17
+  },
+  {
     "player_id": 4683785,
     "player_name": "Simeon Wilcher",
     "team_id": 251,
@@ -2331,6 +2529,42 @@
     "tournament_minutes": 19
   },
   {
+    "player_id": 5243273,
+    "player_name": "Shadrak Lasu",
+    "team_id": 112358,
+    "team_name": "Long Island University Sharks",
+    "games_played": 1,
+    "tournament_points": 4,
+    "tournament_minutes": 15
+  },
+  {
+    "player_id": 5314163,
+    "player_name": "Jomo Goings",
+    "team_id": 112358,
+    "team_name": "Long Island University Sharks",
+    "games_played": 1,
+    "tournament_points": 4,
+    "tournament_minutes": 31
+  },
+  {
+    "player_id": 5311897,
+    "player_name": "Sidi Gueye",
+    "team_id": 12,
+    "team_name": "Arizona Wildcats",
+    "games_played": 1,
+    "tournament_points": 4,
+    "tournament_minutes": 7
+  },
+  {
+    "player_id": 5186456,
+    "player_name": "Dwayne Aristode",
+    "team_id": 12,
+    "team_name": "Arizona Wildcats",
+    "games_played": 1,
+    "tournament_points": 4,
+    "tournament_minutes": 15
+  },
+  {
     "player_id": 5313189,
     "player_name": "Riley Jacobs",
     "team_id": 2378,
@@ -2482,6 +2716,24 @@
     "games_played": 1,
     "tournament_points": 3,
     "tournament_minutes": 10
+  },
+  {
+    "player_id": 4703393,
+    "player_name": "Devin Tillis",
+    "team_id": 258,
+    "team_name": "Virginia Cavaliers",
+    "games_played": 1,
+    "tournament_points": 3,
+    "tournament_minutes": 11
+  },
+  {
+    "player_id": 5243274,
+    "player_name": "Eddie Munyak",
+    "team_id": 112358,
+    "team_name": "Long Island University Sharks",
+    "games_played": 1,
+    "tournament_points": 3,
+    "tournament_minutes": 1
   },
   {
     "player_id": 5149083,
@@ -2682,6 +2934,51 @@
     "tournament_minutes": 13
   },
   {
+    "player_id": 5314627,
+    "player_name": "Kellen Pickett",
+    "team_id": 2750,
+    "team_name": "Wright State Raiders",
+    "games_played": 1,
+    "tournament_points": 2,
+    "tournament_minutes": 33
+  },
+  {
+    "player_id": 5037878,
+    "player_name": "Ugonna Onyenso",
+    "team_id": 258,
+    "team_name": "Virginia Cavaliers",
+    "games_played": 1,
+    "tournament_points": 2,
+    "tournament_minutes": 20
+  },
+  {
+    "player_id": 5150404,
+    "player_name": "Chance Mallory",
+    "team_id": 258,
+    "team_name": "Virginia Cavaliers",
+    "games_played": 1,
+    "tournament_points": 2,
+    "tournament_minutes": 19
+  },
+  {
+    "player_id": 5175029,
+    "player_name": "Malachi Davis",
+    "team_id": 112358,
+    "team_name": "Long Island University Sharks",
+    "games_played": 1,
+    "tournament_points": 2,
+    "tournament_minutes": 22
+  },
+  {
+    "player_id": 4896359,
+    "player_name": "Addison Arnold",
+    "team_id": 12,
+    "team_name": "Arizona Wildcats",
+    "games_played": 1,
+    "tournament_points": 2,
+    "tournament_minutes": 4
+  },
+  {
     "player_id": 5243100,
     "player_name": "Isaiah Brown",
     "team_id": 47,
@@ -2698,6 +2995,15 @@
     "games_played": 1,
     "tournament_points": 1,
     "tournament_minutes": 5
+  },
+  {
+    "player_id": 5241700,
+    "player_name": "Andrea Holden",
+    "team_id": 2750,
+    "team_name": "Wright State Raiders",
+    "games_played": 1,
+    "tournament_points": 1,
+    "tournament_minutes": 12
   },
   {
     "player_id": 5311528,
@@ -5890,6 +6196,240 @@
     "player_name": "Jaland Lowe",
     "team_id": 96,
     "team_name": "Kentucky Wildcats",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5106806,
+    "player_name": "Logan Woods",
+    "team_id": 2750,
+    "team_name": "Wright State Raiders",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 9
+  },
+  {
+    "player_id": 4898006,
+    "player_name": "Sam Alamutu",
+    "team_id": 2750,
+    "team_name": "Wright State Raiders",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 6
+  },
+  {
+    "player_id": 5106602,
+    "player_name": "Bryan Etumnu",
+    "team_id": 2750,
+    "team_name": "Wright State Raiders",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5241701,
+    "player_name": "Ayden Davis",
+    "team_id": 2750,
+    "team_name": "Wright State Raiders",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5314629,
+    "player_name": "Isaiah Williams",
+    "team_id": 2750,
+    "team_name": "Wright State Raiders",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5314628,
+    "player_name": "PJ Douglas",
+    "team_id": 2750,
+    "team_name": "Wright State Raiders",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5241699,
+    "player_name": "Alex Bruskotter",
+    "team_id": 2750,
+    "team_name": "Wright State Raiders",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5144157,
+    "player_name": "Silas Barksdale",
+    "team_id": 258,
+    "team_name": "Virginia Cavaliers",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 4894460,
+    "player_name": "Carter Lang",
+    "team_id": 258,
+    "team_name": "Virginia Cavaliers",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5311845,
+    "player_name": "Owen Odom",
+    "team_id": 258,
+    "team_name": "Virginia Cavaliers",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5239714,
+    "player_name": "Martin Carrere",
+    "team_id": 258,
+    "team_name": "Virginia Cavaliers",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5174572,
+    "player_name": "Desmond Roberts",
+    "team_id": 258,
+    "team_name": "Virginia Cavaliers",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5080790,
+    "player_name": "Elijah Gertrude",
+    "team_id": 258,
+    "team_name": "Virginia Cavaliers",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5181768,
+    "player_name": "Xinyi Li",
+    "team_id": 112358,
+    "team_name": "Long Island University Sharks",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 1
+  },
+  {
+    "player_id": 5121428,
+    "player_name": "Isaiah Miranda",
+    "team_id": 112358,
+    "team_name": "Long Island University Sharks",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 9
+  },
+  {
+    "player_id": 5314164,
+    "player_name": "Max Ndlovu-Fraser",
+    "team_id": 112358,
+    "team_name": "Long Island University Sharks",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 3
+  },
+  {
+    "player_id": 5177262,
+    "player_name": "Tre'shawn Sheppard",
+    "team_id": 112358,
+    "team_name": "Long Island University Sharks",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 3
+  },
+  {
+    "player_id": 4897671,
+    "player_name": "A.J. Neal Jr.",
+    "team_id": 112358,
+    "team_name": "Long Island University Sharks",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 2
+  },
+  {
+    "player_id": 5243275,
+    "player_name": "Gavin Pendergast",
+    "team_id": 112358,
+    "team_name": "Long Island University Sharks",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5109771,
+    "player_name": "Faheim Meran",
+    "team_id": 112358,
+    "team_name": "Long Island University Sharks",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5239487,
+    "player_name": "Sven Djopmo",
+    "team_id": 12,
+    "team_name": "Arizona Wildcats",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 2
+  },
+  {
+    "player_id": 5174956,
+    "player_name": "Jackson Cook",
+    "team_id": 12,
+    "team_name": "Arizona Wildcats",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 1
+  },
+  {
+    "player_id": 5105542,
+    "player_name": "Jackson Francois",
+    "team_id": 12,
+    "team_name": "Arizona Wildcats",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 1
+  },
+  {
+    "player_id": 4702960,
+    "player_name": "Evan Nelson",
+    "team_id": 12,
+    "team_name": "Arizona Wildcats",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 3
+  },
+  {
+    "player_id": 5311898,
+    "player_name": "Mabil Mawut",
+    "team_id": 12,
+    "team_name": "Arizona Wildcats",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5082287,
+    "player_name": "Bryce James",
+    "team_id": 12,
+    "team_name": "Arizona Wildcats",
     "games_played": 1,
     "tournament_points": 0,
     "tournament_minutes": 0

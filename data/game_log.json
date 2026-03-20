@@ -6858,5 +6858,605 @@
     "team_name": "Kentucky Wildcats",
     "minutes": null,
     "points": 0
+  },
+  {
+    "event_id": 401856526,
+    "date": "20260320",
+    "player_id": 5314627,
+    "player_name": "Kellen Pickett",
+    "team_id": 2750,
+    "team_name": "Wright State Raiders",
+    "minutes": 33,
+    "points": 2
+  },
+  {
+    "event_id": 401856526,
+    "date": "20260320",
+    "player_id": 4707481,
+    "player_name": "Michael Imariagbe",
+    "team_id": 2750,
+    "team_name": "Wright State Raiders",
+    "minutes": 29,
+    "points": 19
+  },
+  {
+    "event_id": 401856526,
+    "date": "20260320",
+    "player_id": 5243109,
+    "player_name": "Dominic Pangonis",
+    "team_id": 2750,
+    "team_name": "Wright State Raiders",
+    "minutes": 17,
+    "points": 5
+  },
+  {
+    "event_id": 401856526,
+    "date": "20260320",
+    "player_id": 5241483,
+    "player_name": "TJ Burch",
+    "team_id": 2750,
+    "team_name": "Wright State Raiders",
+    "minutes": 32,
+    "points": 15
+  },
+  {
+    "event_id": 401856526,
+    "date": "20260320",
+    "player_id": 5177215,
+    "player_name": "Solomon Callaghan",
+    "team_id": 2750,
+    "team_name": "Wright State Raiders",
+    "minutes": 28,
+    "points": 18
+  },
+  {
+    "event_id": 401856526,
+    "date": "20260320",
+    "player_id": 5241700,
+    "player_name": "Andrea Holden",
+    "team_id": 2750,
+    "team_name": "Wright State Raiders",
+    "minutes": 12,
+    "points": 1
+  },
+  {
+    "event_id": 401856526,
+    "date": "20260320",
+    "player_id": 5314630,
+    "player_name": "Michael Cooper",
+    "team_id": 2750,
+    "team_name": "Wright State Raiders",
+    "minutes": 34,
+    "points": 13
+  },
+  {
+    "event_id": 401856526,
+    "date": "20260320",
+    "player_id": 5106806,
+    "player_name": "Logan Woods",
+    "team_id": 2750,
+    "team_name": "Wright State Raiders",
+    "minutes": 9,
+    "points": 0
+  },
+  {
+    "event_id": 401856526,
+    "date": "20260320",
+    "player_id": 4898006,
+    "player_name": "Sam Alamutu",
+    "team_id": 2750,
+    "team_name": "Wright State Raiders",
+    "minutes": 6,
+    "points": 0
+  },
+  {
+    "event_id": 401856526,
+    "date": "20260320",
+    "player_id": 5106602,
+    "player_name": "Bryan Etumnu",
+    "team_id": 2750,
+    "team_name": "Wright State Raiders",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856526,
+    "date": "20260320",
+    "player_id": 5241701,
+    "player_name": "Ayden Davis",
+    "team_id": 2750,
+    "team_name": "Wright State Raiders",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856526,
+    "date": "20260320",
+    "player_id": 5314629,
+    "player_name": "Isaiah Williams",
+    "team_id": 2750,
+    "team_name": "Wright State Raiders",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856526,
+    "date": "20260320",
+    "player_id": 5314628,
+    "player_name": "PJ Douglas",
+    "team_id": 2750,
+    "team_name": "Wright State Raiders",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856526,
+    "date": "20260320",
+    "player_id": 5241699,
+    "player_name": "Alex Bruskotter",
+    "team_id": 2750,
+    "team_name": "Wright State Raiders",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856526,
+    "date": "20260320",
+    "player_id": 5311846,
+    "player_name": "Thijs De Ridder",
+    "team_id": 258,
+    "team_name": "Virginia Cavaliers",
+    "minutes": 29,
+    "points": 10
+  },
+  {
+    "event_id": 401856526,
+    "date": "20260320",
+    "player_id": 5311844,
+    "player_name": "Johann Grunloh",
+    "team_id": 258,
+    "team_name": "Virginia Cavaliers",
+    "minutes": 20,
+    "points": 8
+  },
+  {
+    "event_id": 401856526,
+    "date": "20260320",
+    "player_id": 5176232,
+    "player_name": "Sam Lewis",
+    "team_id": 258,
+    "team_name": "Virginia Cavaliers",
+    "minutes": 29,
+    "points": 12
+  },
+  {
+    "event_id": 401856526,
+    "date": "20260320",
+    "player_id": 5105464,
+    "player_name": "Dallin Hall",
+    "team_id": 258,
+    "team_name": "Virginia Cavaliers",
+    "minutes": 27,
+    "points": 8
+  },
+  {
+    "event_id": 401856526,
+    "date": "20260320",
+    "player_id": 4683758,
+    "player_name": "Malik Thomas",
+    "team_id": 258,
+    "team_name": "Virginia Cavaliers",
+    "minutes": 21,
+    "points": 11
+  },
+  {
+    "event_id": 401856526,
+    "date": "20260320",
+    "player_id": 4703393,
+    "player_name": "Devin Tillis",
+    "team_id": 258,
+    "team_name": "Virginia Cavaliers",
+    "minutes": 11,
+    "points": 3
+  },
+  {
+    "event_id": 401856526,
+    "date": "20260320",
+    "player_id": 5037878,
+    "player_name": "Ugonna Onyenso",
+    "team_id": 258,
+    "team_name": "Virginia Cavaliers",
+    "minutes": 20,
+    "points": 2
+  },
+  {
+    "event_id": 401856526,
+    "date": "20260320",
+    "player_id": 5150404,
+    "player_name": "Chance Mallory",
+    "team_id": 258,
+    "team_name": "Virginia Cavaliers",
+    "minutes": 19,
+    "points": 2
+  },
+  {
+    "event_id": 401856526,
+    "date": "20260320",
+    "player_id": 5107274,
+    "player_name": "Jacari White",
+    "team_id": 258,
+    "team_name": "Virginia Cavaliers",
+    "minutes": 24,
+    "points": 26
+  },
+  {
+    "event_id": 401856526,
+    "date": "20260320",
+    "player_id": 5144157,
+    "player_name": "Silas Barksdale",
+    "team_id": 258,
+    "team_name": "Virginia Cavaliers",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856526,
+    "date": "20260320",
+    "player_id": 4894460,
+    "player_name": "Carter Lang",
+    "team_id": 258,
+    "team_name": "Virginia Cavaliers",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856526,
+    "date": "20260320",
+    "player_id": 5311845,
+    "player_name": "Owen Odom",
+    "team_id": 258,
+    "team_name": "Virginia Cavaliers",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856526,
+    "date": "20260320",
+    "player_id": 5239714,
+    "player_name": "Martin Carrere",
+    "team_id": 258,
+    "team_name": "Virginia Cavaliers",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856526,
+    "date": "20260320",
+    "player_id": 5174572,
+    "player_name": "Desmond Roberts",
+    "team_id": 258,
+    "team_name": "Virginia Cavaliers",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856526,
+    "date": "20260320",
+    "player_id": 5080790,
+    "player_name": "Elijah Gertrude",
+    "team_id": 258,
+    "team_name": "Virginia Cavaliers",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856529,
+    "date": "20260320",
+    "player_id": 5243273,
+    "player_name": "Shadrak Lasu",
+    "team_id": 112358,
+    "team_name": "Long Island University Sharks",
+    "minutes": 15,
+    "points": 4
+  },
+  {
+    "event_id": 401856529,
+    "date": "20260320",
+    "player_id": 5314163,
+    "player_name": "Jomo Goings",
+    "team_id": 112358,
+    "team_name": "Long Island University Sharks",
+    "minutes": 31,
+    "points": 4
+  },
+  {
+    "event_id": 401856529,
+    "date": "20260320",
+    "player_id": 5177096,
+    "player_name": "Greg Gordon",
+    "team_id": 112358,
+    "team_name": "Long Island University Sharks",
+    "minutes": 37,
+    "points": 12
+  },
+  {
+    "event_id": 401856529,
+    "date": "20260320",
+    "player_id": 5175029,
+    "player_name": "Malachi Davis",
+    "team_id": 112358,
+    "team_name": "Long Island University Sharks",
+    "minutes": 22,
+    "points": 2
+  },
+  {
+    "event_id": 401856529,
+    "date": "20260320",
+    "player_id": 5122836,
+    "player_name": "Jamal Fuller",
+    "team_id": 112358,
+    "team_name": "Long Island University Sharks",
+    "minutes": 33,
+    "points": 11
+  },
+  {
+    "event_id": 401856529,
+    "date": "20260320",
+    "player_id": 5314165,
+    "player_name": "Mason Porter-Brown",
+    "team_id": 112358,
+    "team_name": "Long Island University Sharks",
+    "minutes": 28,
+    "points": 15
+  },
+  {
+    "event_id": 401856529,
+    "date": "20260320",
+    "player_id": 5181768,
+    "player_name": "Xinyi Li",
+    "team_id": 112358,
+    "team_name": "Long Island University Sharks",
+    "minutes": 1,
+    "points": 0
+  },
+  {
+    "event_id": 401856529,
+    "date": "20260320",
+    "player_id": 5175939,
+    "player_name": "Caleb Johnson",
+    "team_id": 112358,
+    "team_name": "Long Island University Sharks",
+    "minutes": 15,
+    "points": 7
+  },
+  {
+    "event_id": 401856529,
+    "date": "20260320",
+    "player_id": 5121428,
+    "player_name": "Isaiah Miranda",
+    "team_id": 112358,
+    "team_name": "Long Island University Sharks",
+    "minutes": 9,
+    "points": 0
+  },
+  {
+    "event_id": 401856529,
+    "date": "20260320",
+    "player_id": 5314164,
+    "player_name": "Max Ndlovu-Fraser",
+    "team_id": 112358,
+    "team_name": "Long Island University Sharks",
+    "minutes": 3,
+    "points": 0
+  },
+  {
+    "event_id": 401856529,
+    "date": "20260320",
+    "player_id": 5243274,
+    "player_name": "Eddie Munyak",
+    "team_id": 112358,
+    "team_name": "Long Island University Sharks",
+    "minutes": 1,
+    "points": 3
+  },
+  {
+    "event_id": 401856529,
+    "date": "20260320",
+    "player_id": 5177262,
+    "player_name": "Tre'shawn Sheppard",
+    "team_id": 112358,
+    "team_name": "Long Island University Sharks",
+    "minutes": 3,
+    "points": 0
+  },
+  {
+    "event_id": 401856529,
+    "date": "20260320",
+    "player_id": 4897671,
+    "player_name": "A.J. Neal Jr.",
+    "team_id": 112358,
+    "team_name": "Long Island University Sharks",
+    "minutes": 2,
+    "points": 0
+  },
+  {
+    "event_id": 401856529,
+    "date": "20260320",
+    "player_id": 5243275,
+    "player_name": "Gavin Pendergast",
+    "team_id": 112358,
+    "team_name": "Long Island University Sharks",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856529,
+    "date": "20260320",
+    "player_id": 5109771,
+    "player_name": "Faheim Meran",
+    "team_id": 112358,
+    "team_name": "Long Island University Sharks",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856529,
+    "date": "20260320",
+    "player_id": 5311896,
+    "player_name": "Ivan Kharchenkov",
+    "team_id": 12,
+    "team_name": "Arizona Wildcats",
+    "minutes": 26,
+    "points": 14
+  },
+  {
+    "event_id": 401856529,
+    "date": "20260320",
+    "player_id": 5041953,
+    "player_name": "Koa Peat",
+    "team_id": 12,
+    "team_name": "Arizona Wildcats",
+    "minutes": 28,
+    "points": 15
+  },
+  {
+    "event_id": 401856529,
+    "date": "20260320",
+    "player_id": 5174954,
+    "player_name": "Motiejus Krivas",
+    "team_id": 12,
+    "team_name": "Arizona Wildcats",
+    "minutes": 22,
+    "points": 9
+  },
+  {
+    "event_id": 401856529,
+    "date": "20260320",
+    "player_id": 5082206,
+    "player_name": "Brayden Burries",
+    "team_id": 12,
+    "team_name": "Arizona Wildcats",
+    "minutes": 28,
+    "points": 18
+  },
+  {
+    "event_id": 401856529,
+    "date": "20260320",
+    "player_id": 4432737,
+    "player_name": "Jaden Bradley",
+    "team_id": 12,
+    "team_name": "Arizona Wildcats",
+    "minutes": 23,
+    "points": 7
+  },
+  {
+    "event_id": 401856529,
+    "date": "20260320",
+    "player_id": 5311897,
+    "player_name": "Sidi Gueye",
+    "team_id": 12,
+    "team_name": "Arizona Wildcats",
+    "minutes": 7,
+    "points": 4
+  },
+  {
+    "event_id": 401856529,
+    "date": "20260320",
+    "player_id": 5186456,
+    "player_name": "Dwayne Aristode",
+    "team_id": 12,
+    "team_name": "Arizona Wildcats",
+    "minutes": 15,
+    "points": 4
+  },
+  {
+    "event_id": 401856529,
+    "date": "20260320",
+    "player_id": 5105555,
+    "player_name": "Tobe Awaka",
+    "team_id": 12,
+    "team_name": "Arizona Wildcats",
+    "minutes": 18,
+    "points": 11
+  },
+  {
+    "event_id": 401856529,
+    "date": "20260320",
+    "player_id": 5239487,
+    "player_name": "Sven Djopmo",
+    "team_id": 12,
+    "team_name": "Arizona Wildcats",
+    "minutes": 2,
+    "points": 0
+  },
+  {
+    "event_id": 401856529,
+    "date": "20260320",
+    "player_id": 5174956,
+    "player_name": "Jackson Cook",
+    "team_id": 12,
+    "team_name": "Arizona Wildcats",
+    "minutes": 1,
+    "points": 0
+  },
+  {
+    "event_id": 401856529,
+    "date": "20260320",
+    "player_id": 5108141,
+    "player_name": "Anthony Dell'Orso",
+    "team_id": 12,
+    "team_name": "Arizona Wildcats",
+    "minutes": 22,
+    "points": 8
+  },
+  {
+    "event_id": 401856529,
+    "date": "20260320",
+    "player_id": 5105542,
+    "player_name": "Jackson Francois",
+    "team_id": 12,
+    "team_name": "Arizona Wildcats",
+    "minutes": 1,
+    "points": 0
+  },
+  {
+    "event_id": 401856529,
+    "date": "20260320",
+    "player_id": 4896359,
+    "player_name": "Addison Arnold",
+    "team_id": 12,
+    "team_name": "Arizona Wildcats",
+    "minutes": 4,
+    "points": 2
+  },
+  {
+    "event_id": 401856529,
+    "date": "20260320",
+    "player_id": 4702960,
+    "player_name": "Evan Nelson",
+    "team_id": 12,
+    "team_name": "Arizona Wildcats",
+    "minutes": 3,
+    "points": 0
+  },
+  {
+    "event_id": 401856529,
+    "date": "20260320",
+    "player_id": 5311898,
+    "player_name": "Mabil Mawut",
+    "team_id": 12,
+    "team_name": "Arizona Wildcats",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856529,
+    "date": "20260320",
+    "player_id": 5082287,
+    "player_name": "Bryce James",
+    "team_id": 12,
+    "team_name": "Arizona Wildcats",
+    "minutes": null,
+    "points": 0
   }
 ]

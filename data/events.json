@@ -275,7 +275,7 @@
     "name": "Hofstra Pride at Alabama Crimson Tide",
     "short_name": "HOF VS ALA",
     "completed": false,
-    "status": "In Progress",
+    "status": "Halftime",
     "home_team_id": 333,
     "away_team_id": 2275
   },
@@ -324,8 +324,8 @@
     "date": "20260320",
     "name": "Wright State Raiders at Virginia Cavaliers",
     "short_name": "WRST VS UVA",
-    "completed": false,
-    "status": "In Progress",
+    "completed": true,
+    "status": "Final",
     "home_team_id": 258,
     "away_team_id": 2750
   },
@@ -345,7 +345,7 @@
     "name": "Utah State Aggies at Villanova Wildcats",
     "short_name": "USU VS VILL",
     "completed": false,
-    "status": "Scheduled",
+    "status": "In Progress",
     "home_team_id": 222,
     "away_team_id": 328
   },
@@ -354,8 +354,8 @@
     "date": "20260320",
     "name": "Long Island University Sharks at Arizona Wildcats",
     "short_name": "LIU VS ARIZ",
-    "completed": false,
-    "status": "In Progress",
+    "completed": true,
+    "status": "Final",
     "home_team_id": 12,
     "away_team_id": 112358
   }
