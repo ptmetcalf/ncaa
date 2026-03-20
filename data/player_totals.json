@@ -3399,7 +3399,7 @@
     "team_name": "BYU Cougars",
     "games_played": 1,
     "tournament_points": 0,
-    "tournament_minutes": 4
+    "tournament_minutes": 3
   },
   {
     "player_id": 5183975,
@@ -3408,7 +3408,7 @@
     "team_name": "BYU Cougars",
     "games_played": 1,
     "tournament_points": 0,
-    "tournament_minutes": 10
+    "tournament_minutes": 9
   },
   {
     "player_id": 5243214,
@@ -3939,7 +3939,7 @@
     "team_name": "North Carolina Tar Heels",
     "games_played": 1,
     "tournament_points": 0,
-    "tournament_minutes": 3
+    "tournament_minutes": 4
   },
   {
     "player_id": 4711266,
