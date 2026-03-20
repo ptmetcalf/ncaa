@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-20T04:03:39.444Z",
+  "generated_at": "2026-03-20T04:55:45.913Z",
   "year": 2026,
   "available": true,
   "source": "espn_bracket_page",
@@ -8,7 +8,7 @@
   "tournament_name": "Men's NCAA Tournament",
   "short_name": "NCAA",
   "teams_count": 68,
-  "matchups_count": 42,
+  "matchups_count": 44,
   "regions": [
     {
       "id": 1,
@@ -659,18 +659,18 @@
       "region_id": 2,
       "bracket_location": 16,
       "date": "2026-03-20T02:15:00Z",
-      "status_state": "in",
-      "status_desc": "In Progress",
-      "status_detail": "7:12 - 2nd",
+      "status_state": "post",
+      "status_desc": "Final",
+      "status_detail": "Final",
       "location": "Oklahoma City, OK",
-      "link": "/mens-college-basketball/game/_/gameId/401856493",
+      "link": "/mens-college-basketball/game/_/gameId/401856493/idaho-houston",
       "competitor_one": {
         "team_id": 248,
         "team_name": "Houston",
         "abbreviation": "HOU",
         "seed": 2,
-        "score": 67,
-        "winner": false,
+        "score": 78,
+        "winner": true,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/248.png"
       },
       "competitor_two": {
@@ -678,7 +678,7 @@
         "team_name": "Idaho",
         "abbreviation": "IDHO",
         "seed": 15,
-        "score": 38,
+        "score": 47,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/70.png"
       }
@@ -839,18 +839,18 @@
       "region_id": 3,
       "bracket_location": 22,
       "date": "2026-03-20T02:24:00Z",
-      "status_state": "in",
-      "status_desc": "In Progress",
-      "status_detail": "10:37 - 2nd",
+      "status_state": "post",
+      "status_desc": "Final",
+      "status_detail": "Final",
       "location": "Portland, OR",
-      "link": "/mens-college-basketball/game/_/gameId/401856485",
+      "link": "/mens-college-basketball/game/_/gameId/401856485/kennesaw-st-gonzaga",
       "competitor_one": {
         "team_id": 2250,
         "team_name": "Gonzaga",
         "abbreviation": "GONZ",
         "seed": 3,
-        "score": 48,
-        "winner": false,
+        "score": 73,
+        "winner": true,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2250.png"
       },
       "competitor_two": {
@@ -858,7 +858,7 @@
         "team_name": "Kennesaw State",
         "abbreviation": "KENN",
         "seed": 14,
-        "score": 42,
+        "score": 64,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/338.png"
       }
@@ -959,17 +959,17 @@
       "region_id": 4,
       "bracket_location": 26,
       "date": "2026-03-20T02:10:00Z",
-      "status_state": "in",
-      "status_desc": "In Progress",
-      "status_detail": "5:11 - 2nd",
+      "status_state": "post",
+      "status_desc": "Final",
+      "status_detail": "Final",
       "location": "Buffalo, NY",
-      "link": "/mens-college-basketball/game/_/gameId/401856487",
+      "link": "/mens-college-basketball/game/_/gameId/401856487/saint-louis-georgia",
       "competitor_one": {
         "team_id": 61,
         "team_name": "Georgia",
         "abbreviation": "UGA",
         "seed": 8,
-        "score": 57,
+        "score": 77,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/61.png"
       },
@@ -978,8 +978,8 @@
         "team_name": "Saint Louis",
         "abbreviation": "SLU",
         "seed": 9,
-        "score": 95,
-        "winner": false,
+        "score": 102,
+        "winner": true,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/139.png"
       }
     },
@@ -1284,6 +1284,36 @@
       }
     },
     {
+      "matchup_id": 401856535,
+      "round_id": 2,
+      "region_id": 1,
+      "bracket_location": 8,
+      "date": "2026-03-21T22:10:00Z",
+      "status_state": "pre",
+      "status_desc": "Scheduled",
+      "status_detail": "3/21 - 6:10 PM EDT",
+      "location": "Oklahoma City, OK",
+      "link": "/mens-college-basketball/game/_/gameId/401856535/texas-am-houston",
+      "competitor_one": {
+        "team_id": 245,
+        "team_name": "Texas A&M",
+        "abbreviation": "TA&M",
+        "seed": 10,
+        "score": 0,
+        "winner": false,
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/245.png"
+      },
+      "competitor_two": {
+        "team_id": 248,
+        "team_name": "Houston",
+        "abbreviation": "HOU",
+        "seed": 2,
+        "score": 0,
+        "winner": false,
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/248.png"
+      }
+    },
+    {
       "matchup_id": 401856536,
       "round_id": 2,
       "region_id": 2,
@@ -1314,6 +1344,36 @@
       }
     },
     {
+      "matchup_id": 401856537,
+      "round_id": 2,
+      "region_id": 2,
+      "bracket_location": 11,
+      "date": "2026-03-21T23:10:00Z",
+      "status_state": "pre",
+      "status_desc": "Scheduled",
+      "status_detail": "3/21 - 7:10 PM EDT",
+      "location": "Portland, OR",
+      "link": "/mens-college-basketball/game/_/gameId/401856537/texas-gonzaga",
+      "competitor_one": {
+        "team_id": 251,
+        "team_name": "Texas",
+        "abbreviation": "TEX",
+        "seed": 11,
+        "score": 0,
+        "winner": false,
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/251.png"
+      },
+      "competitor_two": {
+        "team_id": 2250,
+        "team_name": "Gonzaga",
+        "abbreviation": "GONZ",
+        "seed": 3,
+        "score": 0,
+        "winner": false,
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2250.png"
+      }
+    },
+    {
       "matchup_id": 401856532,
       "round_id": 2,
       "region_id": 2,
@@ -1323,7 +1383,7 @@
       "status_desc": "Scheduled",
       "status_detail": "3/21 - 12:10 PM EDT",
       "location": "Buffalo, NY",
-      "link": "/mens-college-basketball/game/_/gameId/401856532",
+      "link": "/mens-college-basketball/game/_/gameId/401856532/saint-louis-michigan",
       "competitor_one": {
         "team_id": 130,
         "team_name": "Michigan",
@@ -1333,7 +1393,15 @@
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/130.png"
       },
-      "competitor_two": null
+      "competitor_two": {
+        "team_id": 139,
+        "team_name": "Saint Louis",
+        "abbreviation": "SLU",
+        "seed": 9,
+        "score": 0,
+        "winner": false,
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/139.png"
+      }
     }
   ]
 }

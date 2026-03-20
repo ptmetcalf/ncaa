@@ -63,6 +63,15 @@
     "tournament_minutes": 69
   },
   {
+    "player_id": 5165276,
+    "player_name": "Jeremiah Wilkinson",
+    "team_id": 61,
+    "team_name": "Georgia Bulldogs",
+    "games_played": 1,
+    "tournament_points": 30,
+    "tournament_minutes": 29
+  },
+  {
     "player_id": 5176075,
     "player_name": "Cam Gillus",
     "team_id": 47,
@@ -342,6 +351,15 @@
     "tournament_minutes": 35
   },
   {
+    "player_id": 4703396,
+    "player_name": "Graham Ike",
+    "team_id": 2250,
+    "team_name": "Gonzaga Bulldogs",
+    "games_played": 1,
+    "tournament_points": 19,
+    "tournament_minutes": 36
+  },
+  {
     "player_id": 5174983,
     "player_name": "Aday Mara",
     "team_id": 130,
@@ -396,6 +414,15 @@
     "tournament_minutes": 37
   },
   {
+    "player_id": 5107242,
+    "player_name": "Dion Brown",
+    "team_id": 139,
+    "team_name": "Saint Louis Billikens",
+    "games_played": 1,
+    "tournament_points": 18,
+    "tournament_minutes": 22
+  },
+  {
     "player_id": 5254165,
     "player_name": "Keaton Wagler",
     "team_id": 356,
@@ -412,6 +439,15 @@
     "games_played": 1,
     "tournament_points": 18,
     "tournament_minutes": 36
+  },
+  {
+    "player_id": 5149077,
+    "player_name": "Kingston Flemings",
+    "team_id": 248,
+    "team_name": "Houston Cougars",
+    "games_played": 1,
+    "tournament_points": 18,
+    "tournament_minutes": 27
   },
   {
     "player_id": 5252505,
@@ -439,6 +475,15 @@
     "games_played": 1,
     "tournament_points": 17,
     "tournament_minutes": 28
+  },
+  {
+    "player_id": 5196913,
+    "player_name": "Davis Fogle",
+    "team_id": 2250,
+    "team_name": "Gonzaga Bulldogs",
+    "games_played": 1,
+    "tournament_points": 17,
+    "tournament_minutes": 25
   },
   {
     "player_id": 5105624,
@@ -531,6 +576,15 @@
     "tournament_minutes": 31
   },
   {
+    "player_id": 5106058,
+    "player_name": "Emanuel Sharp",
+    "team_id": 248,
+    "team_name": "Houston Cougars",
+    "games_played": 1,
+    "tournament_points": 16,
+    "tournament_minutes": 22
+  },
+  {
     "player_id": 5196866,
     "player_name": "Caden Diggs",
     "team_id": 2378,
@@ -574,6 +628,24 @@
     "games_played": 1,
     "tournament_points": 15,
     "tournament_minutes": 24
+  },
+  {
+    "player_id": 5312348,
+    "player_name": "Amir Taylor",
+    "team_id": 338,
+    "team_name": "Kennesaw State Owls",
+    "games_played": 1,
+    "tournament_points": 15,
+    "tournament_minutes": 24
+  },
+  {
+    "player_id": 5176186,
+    "player_name": "RJ Johnson",
+    "team_id": 338,
+    "team_name": "Kennesaw State Owls",
+    "games_played": 1,
+    "tournament_points": 15,
+    "tournament_minutes": 35
   },
   {
     "player_id": 4433138,
@@ -657,6 +729,15 @@
     "tournament_minutes": 37
   },
   {
+    "player_id": 5312345,
+    "player_name": "Kaden Rickard",
+    "team_id": 338,
+    "team_name": "Kennesaw State Owls",
+    "games_played": 1,
+    "tournament_points": 14,
+    "tournament_minutes": 22
+  },
+  {
     "player_id": 5105836,
     "player_name": "Roddy Gayle Jr.",
     "team_id": 130,
@@ -684,6 +765,15 @@
     "tournament_minutes": 24
   },
   {
+    "player_id": 5176318,
+    "player_name": "Kolton Mitchell",
+    "team_id": 70,
+    "team_name": "Idaho Vandals",
+    "games_played": 1,
+    "tournament_points": 14,
+    "tournament_minutes": 30
+  },
+  {
     "player_id": 5110039,
     "player_name": "Corey Washington",
     "team_id": 2567,
@@ -700,6 +790,33 @@
     "games_played": 1,
     "tournament_points": 13,
     "tournament_minutes": 16
+  },
+  {
+    "player_id": 5176187,
+    "player_name": "Frankquon Sherman",
+    "team_id": 338,
+    "team_name": "Kennesaw State Owls",
+    "games_played": 1,
+    "tournament_points": 13,
+    "tournament_minutes": 32
+  },
+  {
+    "player_id": 5239707,
+    "player_name": "Amari McCottry",
+    "team_id": 139,
+    "team_name": "Saint Louis Billikens",
+    "games_played": 1,
+    "tournament_points": 13,
+    "tournament_minutes": 27
+  },
+  {
+    "player_id": 5176681,
+    "player_name": "Marcus Millender",
+    "team_id": 61,
+    "team_name": "Georgia Bulldogs",
+    "games_played": 1,
+    "tournament_points": 13,
+    "tournament_minutes": 30
   },
   {
     "player_id": 5175726,
@@ -745,6 +862,15 @@
     "games_played": 1,
     "tournament_points": 13,
     "tournament_minutes": 27
+  },
+  {
+    "player_id": 5060700,
+    "player_name": "Joseph Tugler",
+    "team_id": 248,
+    "team_name": "Houston Cougars",
+    "games_played": 1,
+    "tournament_points": 13,
+    "tournament_minutes": 25
   },
   {
     "player_id": 5176313,
@@ -810,6 +936,33 @@
     "tournament_minutes": 26
   },
   {
+    "player_id": 4683147,
+    "player_name": "Jalen Warley",
+    "team_id": 2250,
+    "team_name": "Gonzaga Bulldogs",
+    "games_played": 1,
+    "tournament_points": 12,
+    "tournament_minutes": 29
+  },
+  {
+    "player_id": 4917097,
+    "player_name": "Robbie Avila",
+    "team_id": 139,
+    "team_name": "Saint Louis Billikens",
+    "games_played": 1,
+    "tournament_points": 12,
+    "tournament_minutes": 28
+  },
+  {
+    "player_id": 5183809,
+    "player_name": "Ishan Sharma",
+    "team_id": 139,
+    "team_name": "Saint Louis Billikens",
+    "games_played": 1,
+    "tournament_points": 12,
+    "tournament_minutes": 22
+  },
+  {
     "player_id": 4838721,
     "player_name": "Tyler Nickel",
     "team_id": 238,
@@ -844,6 +997,15 @@
     "games_played": 1,
     "tournament_points": 12,
     "tournament_minutes": 20
+  },
+  {
+    "player_id": 5106272,
+    "player_name": "Milos Uzan",
+    "team_id": 248,
+    "team_name": "Houston Cougars",
+    "games_played": 1,
+    "tournament_points": 12,
+    "tournament_minutes": 33
   },
   {
     "player_id": 4873151,
@@ -898,6 +1060,24 @@
     "games_played": 1,
     "tournament_points": 11,
     "tournament_minutes": 34
+  },
+  {
+    "player_id": 4685659,
+    "player_name": "Brady Dunlap",
+    "team_id": 139,
+    "team_name": "Saint Louis Billikens",
+    "games_played": 1,
+    "tournament_points": 11,
+    "tournament_minutes": 17
+  },
+  {
+    "player_id": 5105980,
+    "player_name": "Kellen Thames",
+    "team_id": 139,
+    "team_name": "Saint Louis Billikens",
+    "games_played": 1,
+    "tournament_points": 11,
+    "tournament_minutes": 14
   },
   {
     "player_id": 4592677,
@@ -1017,6 +1197,15 @@
     "tournament_minutes": 37
   },
   {
+    "player_id": 4873086,
+    "player_name": "Mercy Miller",
+    "team_id": 248,
+    "team_name": "Houston Cougars",
+    "games_played": 1,
+    "tournament_points": 10,
+    "tournament_minutes": 24
+  },
+  {
     "player_id": 5177355,
     "player_name": "Cougar Downing",
     "team_id": 2378,
@@ -1044,6 +1233,15 @@
     "tournament_minutes": 39
   },
   {
+    "player_id": 4700527,
+    "player_name": "Tyon Grant-Foster",
+    "team_id": 2250,
+    "team_name": "Gonzaga Bulldogs",
+    "games_played": 1,
+    "tournament_points": 9,
+    "tournament_minutes": 21
+  },
+  {
     "player_id": 5175737,
     "player_name": "Yaxel Lendeborg",
     "team_id": 130,
@@ -1051,6 +1249,24 @@
     "games_played": 1,
     "tournament_points": 9,
     "tournament_minutes": 27
+  },
+  {
+    "player_id": 5175171,
+    "player_name": "Quentin Jones",
+    "team_id": 139,
+    "team_name": "Saint Louis Billikens",
+    "games_played": 1,
+    "tournament_points": 9,
+    "tournament_minutes": 26
+  },
+  {
+    "player_id": 5107797,
+    "player_name": "Paul Otieno",
+    "team_id": 139,
+    "team_name": "Saint Louis Billikens",
+    "games_played": 1,
+    "tournament_points": 9,
+    "tournament_minutes": 11
   },
   {
     "player_id": 5106843,
@@ -1233,6 +1449,24 @@
     "tournament_minutes": 35
   },
   {
+    "player_id": 5177021,
+    "player_name": "Biko Johnson",
+    "team_id": 70,
+    "team_name": "Idaho Vandals",
+    "games_played": 1,
+    "tournament_points": 8,
+    "tournament_minutes": 29
+  },
+  {
+    "player_id": 5106590,
+    "player_name": "Trevon Blassingame",
+    "team_id": 70,
+    "team_name": "Idaho Vandals",
+    "games_played": 1,
+    "tournament_points": 8,
+    "tournament_minutes": 21
+  },
+  {
     "player_id": 5182581,
     "player_name": "Jose Roberto Tanchyn",
     "team_id": 2378,
@@ -1296,6 +1530,42 @@
     "tournament_minutes": 12
   },
   {
+    "player_id": 5176787,
+    "player_name": "Emmanuel Innocenti",
+    "team_id": 2250,
+    "team_name": "Gonzaga Bulldogs",
+    "games_played": 1,
+    "tournament_points": 7,
+    "tournament_minutes": 34
+  },
+  {
+    "player_id": 5313012,
+    "player_name": "Mario Saint-Supery",
+    "team_id": 2250,
+    "team_name": "Gonzaga Bulldogs",
+    "games_played": 1,
+    "tournament_points": 7,
+    "tournament_minutes": 36
+  },
+  {
+    "player_id": 4711258,
+    "player_name": "Trey Green",
+    "team_id": 139,
+    "team_name": "Saint Louis Billikens",
+    "games_played": 1,
+    "tournament_points": 7,
+    "tournament_minutes": 25
+  },
+  {
+    "player_id": 4711402,
+    "player_name": "Jordan Ross",
+    "team_id": 61,
+    "team_name": "Georgia Bulldogs",
+    "games_played": 1,
+    "tournament_points": 7,
+    "tournament_minutes": 19
+  },
+  {
     "player_id": 5114350,
     "player_name": "AK Okereke",
     "team_id": 238,
@@ -1321,6 +1591,15 @@
     "games_played": 1,
     "tournament_points": 7,
     "tournament_minutes": 20
+  },
+  {
+    "player_id": 5142621,
+    "player_name": "Chris Cenac Jr.",
+    "team_id": 248,
+    "team_name": "Houston Cougars",
+    "games_played": 1,
+    "tournament_points": 7,
+    "tournament_minutes": 25
   },
   {
     "player_id": 4684799,
@@ -1429,6 +1708,15 @@
     "games_played": 1,
     "tournament_points": 6,
     "tournament_minutes": 20
+  },
+  {
+    "player_id": 5174661,
+    "player_name": "Blue Cain",
+    "team_id": 61,
+    "team_name": "Georgia Bulldogs",
+    "games_played": 1,
+    "tournament_points": 6,
+    "tournament_minutes": 23
   },
   {
     "player_id": 5240745,
@@ -1548,6 +1836,15 @@
     "tournament_minutes": 24
   },
   {
+    "player_id": 5242126,
+    "player_name": "Braedan Lue",
+    "team_id": 338,
+    "team_name": "Kennesaw State Owls",
+    "games_played": 1,
+    "tournament_points": 5,
+    "tournament_minutes": 34
+  },
+  {
     "player_id": 4869764,
     "player_name": "Elliot Cadeau",
     "team_id": 130,
@@ -1555,6 +1852,33 @@
     "games_played": 1,
     "tournament_points": 5,
     "tournament_minutes": 26
+  },
+  {
+    "player_id": 5144153,
+    "player_name": "Kareem Stagg",
+    "team_id": 61,
+    "team_name": "Georgia Bulldogs",
+    "games_played": 1,
+    "tournament_points": 5,
+    "tournament_minutes": 19
+  },
+  {
+    "player_id": 5142622,
+    "player_name": "Jake Wilkins",
+    "team_id": 61,
+    "team_name": "Georgia Bulldogs",
+    "games_played": 1,
+    "tournament_points": 5,
+    "tournament_minutes": 9
+  },
+  {
+    "player_id": 4895794,
+    "player_name": "Dylan James",
+    "team_id": 61,
+    "team_name": "Georgia Bulldogs",
+    "games_played": 1,
+    "tournament_points": 5,
+    "tournament_minutes": 17
   },
   {
     "player_id": 5238222,
@@ -1600,6 +1924,15 @@
     "games_played": 1,
     "tournament_points": 5,
     "tournament_minutes": 22
+  },
+  {
+    "player_id": 5237588,
+    "player_name": "Jackson Rasmussen",
+    "team_id": 70,
+    "team_name": "Idaho Vandals",
+    "games_played": 1,
+    "tournament_points": 5,
+    "tournament_minutes": 32
   },
   {
     "player_id": 4683785,
@@ -1692,6 +2025,15 @@
     "tournament_minutes": 8
   },
   {
+    "player_id": 5107490,
+    "player_name": "Justin Bailey",
+    "team_id": 61,
+    "team_name": "Georgia Bulldogs",
+    "games_played": 1,
+    "tournament_points": 4,
+    "tournament_minutes": 11
+  },
+  {
     "player_id": 4433625,
     "player_name": "Jalen Washington",
     "team_id": 238,
@@ -1780,6 +2122,15 @@
     "games_played": 1,
     "tournament_points": 4,
     "tournament_minutes": 23
+  },
+  {
+    "player_id": 5107768,
+    "player_name": "Isaiah Brickner",
+    "team_id": 70,
+    "team_name": "Idaho Vandals",
+    "games_played": 1,
+    "tournament_points": 4,
+    "tournament_minutes": 28
   },
   {
     "player_id": 5313189,
@@ -1899,6 +2250,24 @@
     "tournament_minutes": 21
   },
   {
+    "player_id": 5108917,
+    "player_name": "Brody Rowbury",
+    "team_id": 70,
+    "team_name": "Idaho Vandals",
+    "games_played": 1,
+    "tournament_points": 3,
+    "tournament_minutes": 29
+  },
+  {
+    "player_id": 5107563,
+    "player_name": "Jack Payne",
+    "team_id": 70,
+    "team_name": "Idaho Vandals",
+    "games_played": 1,
+    "tournament_points": 3,
+    "tournament_minutes": 9
+  },
+  {
     "player_id": 5149083,
     "player_name": "Nic Codie",
     "team_id": 251,
@@ -1953,6 +2322,24 @@
     "tournament_minutes": 27
   },
   {
+    "player_id": 5312350,
+    "player_name": "Trey Simpson",
+    "team_id": 338,
+    "team_name": "Kennesaw State Owls",
+    "games_played": 1,
+    "tournament_points": 2,
+    "tournament_minutes": 28
+  },
+  {
+    "player_id": 4432175,
+    "player_name": "Adam Miller",
+    "team_id": 2250,
+    "team_name": "Gonzaga Bulldogs",
+    "games_played": 1,
+    "tournament_points": 2,
+    "tournament_minutes": 15
+  },
+  {
     "player_id": 5311988,
     "player_name": "Malick Kordel",
     "team_id": 130,
@@ -1960,6 +2347,15 @@
     "games_played": 1,
     "tournament_points": 2,
     "tournament_minutes": 1
+  },
+  {
+    "player_id": 5238204,
+    "player_name": "Justin Abson",
+    "team_id": 61,
+    "team_name": "Georgia Bulldogs",
+    "games_played": 1,
+    "tournament_points": 2,
+    "tournament_minutes": 13
   },
   {
     "player_id": 5240749,
@@ -2023,6 +2419,24 @@
     "games_played": 1,
     "tournament_points": 2,
     "tournament_minutes": 12
+  },
+  {
+    "player_id": 5176305,
+    "player_name": "Miles Klapper",
+    "team_id": 70,
+    "team_name": "Idaho Vandals",
+    "games_played": 1,
+    "tournament_points": 2,
+    "tournament_minutes": 7
+  },
+  {
+    "player_id": 5101660,
+    "player_name": "Chase McCarty",
+    "team_id": 248,
+    "team_name": "Houston Cougars",
+    "games_played": 1,
+    "tournament_points": 2,
+    "tournament_minutes": 15
   },
   {
     "player_id": 5243100,
@@ -3663,6 +4077,204 @@
     "tournament_minutes": 0
   },
   {
+    "player_id": 5107296,
+    "player_name": "Perry Smith Jr.",
+    "team_id": 338,
+    "team_name": "Kennesaw State Owls",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 8
+  },
+  {
+    "player_id": 5176770,
+    "player_name": "Jaden Harris",
+    "team_id": 338,
+    "team_name": "Kennesaw State Owls",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 17
+  },
+  {
+    "player_id": 5312346,
+    "player_name": "Nigel Thomas",
+    "team_id": 338,
+    "team_name": "Kennesaw State Owls",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5242128,
+    "player_name": "Dozie Onyirimba",
+    "team_id": 338,
+    "team_name": "Kennesaw State Owls",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5242125,
+    "player_name": "Jamil Miller",
+    "team_id": 338,
+    "team_name": "Kennesaw State Owls",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5101667,
+    "player_name": "Ramone Seals",
+    "team_id": 338,
+    "team_name": "Kennesaw State Owls",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5312349,
+    "player_name": "Brendan Tousignaut",
+    "team_id": 338,
+    "team_name": "Kennesaw State Owls",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5312344,
+    "player_name": "Darius Washington III",
+    "team_id": 338,
+    "team_name": "Kennesaw State Owls",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5132733,
+    "player_name": "Davin Cosby Jr.",
+    "team_id": 338,
+    "team_name": "Kennesaw State Owls",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5106665,
+    "player_name": "Eric Holland",
+    "team_id": 338,
+    "team_name": "Kennesaw State Owls",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5106664,
+    "player_name": "Charles Stone",
+    "team_id": 338,
+    "team_name": "Kennesaw State Owls",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5106660,
+    "player_name": "Simeon Cottle",
+    "team_id": 338,
+    "team_name": "Kennesaw State Owls",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 4894459,
+    "player_name": "Chase Clemmons",
+    "team_id": 338,
+    "team_name": "Kennesaw State Owls",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5240587,
+    "player_name": "Ismaila Diagne",
+    "team_id": 2250,
+    "team_name": "Gonzaga Bulldogs",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 2
+  },
+  {
+    "player_id": 5105672,
+    "player_name": "Braeden Smith",
+    "team_id": 2250,
+    "team_name": "Gonzaga Bulldogs",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 2
+  },
+  {
+    "player_id": 5313013,
+    "player_name": "Parker Jefferson",
+    "team_id": 2250,
+    "team_name": "Gonzaga Bulldogs",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5240588,
+    "player_name": "Noah Haaland",
+    "team_id": 2250,
+    "team_name": "Gonzaga Bulldogs",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 4894445,
+    "player_name": "Braden Huff",
+    "team_id": 2250,
+    "team_name": "Gonzaga Bulldogs",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5313011,
+    "player_name": "Alonzo Metz",
+    "team_id": 2250,
+    "team_name": "Gonzaga Bulldogs",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5240584,
+    "player_name": "Cade Orness",
+    "team_id": 2250,
+    "team_name": "Gonzaga Bulldogs",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5176259,
+    "player_name": "Joaquim ArauzMoore",
+    "team_id": 2250,
+    "team_name": "Gonzaga Bulldogs",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 4592579,
+    "player_name": "Steele Venters",
+    "team_id": 2250,
+    "team_name": "Gonzaga Bulldogs",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
     "player_id": 5244505,
     "player_name": "Oscar Goodman",
     "team_id": 130,
@@ -3721,6 +4333,132 @@
     "player_name": "Winters Grady",
     "team_id": 130,
     "team_name": "Michigan Wolverines",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5236225,
+    "player_name": "Jax Kerr",
+    "team_id": 139,
+    "team_name": "Saint Louis Billikens",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 3
+  },
+  {
+    "player_id": 5254323,
+    "player_name": "Cam Hutson",
+    "team_id": 139,
+    "team_name": "Saint Louis Billikens",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 3
+  },
+  {
+    "player_id": 5107907,
+    "player_name": "Isaac Holmes",
+    "team_id": 139,
+    "team_name": "Saint Louis Billikens",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 1
+  },
+  {
+    "player_id": 5107905,
+    "player_name": "Jaden Schertz",
+    "team_id": 139,
+    "team_name": "Saint Louis Billikens",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 1
+  },
+  {
+    "player_id": 5311879,
+    "player_name": "Badara Diakite",
+    "team_id": 139,
+    "team_name": "Saint Louis Billikens",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5106205,
+    "player_name": "Kalu Anya",
+    "team_id": 139,
+    "team_name": "Saint Louis Billikens",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5061579,
+    "player_name": "Dylan Warlick",
+    "team_id": 139,
+    "team_name": "Saint Louis Billikens",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5254324,
+    "player_name": "Luke Laczkowski",
+    "team_id": 139,
+    "team_name": "Saint Louis Billikens",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5243212,
+    "player_name": "Kanon Catchings",
+    "team_id": 61,
+    "team_name": "Georgia Bulldogs",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 18
+  },
+  {
+    "player_id": 5238203,
+    "player_name": "Somtochukwu Cyril",
+    "team_id": 61,
+    "team_name": "Georgia Bulldogs",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 12
+  },
+  {
+    "player_id": 5105532,
+    "player_name": "Jaden Newell",
+    "team_id": 61,
+    "team_name": "Georgia Bulldogs",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5144145,
+    "player_name": "Jackson McVey",
+    "team_id": 61,
+    "team_name": "Georgia Bulldogs",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5174664,
+    "player_name": "Markel Jennings",
+    "team_id": 61,
+    "team_name": "Georgia Bulldogs",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5105530,
+    "player_name": "Brandon Klatsky",
+    "team_id": 61,
+    "team_name": "Georgia Bulldogs",
     "games_played": 1,
     "tournament_points": 0,
     "tournament_minutes": 0
@@ -4450,6 +5188,141 @@
     "player_name": "Cade Bennett",
     "team_id": 2608,
     "team_name": "Saint Mary's Gaels",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5241270,
+    "player_name": "Ewan Steele",
+    "team_id": 70,
+    "team_name": "Idaho Vandals",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 1
+  },
+  {
+    "player_id": 5174853,
+    "player_name": "Seth Joba",
+    "team_id": 70,
+    "team_name": "Idaho Vandals",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 11
+  },
+  {
+    "player_id": 4902201,
+    "player_name": "Aidan Sevilla",
+    "team_id": 70,
+    "team_name": "Idaho Vandals",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 3
+  },
+  {
+    "player_id": 5313162,
+    "player_name": "Will Jenson",
+    "team_id": 70,
+    "team_name": "Idaho Vandals",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5105650,
+    "player_name": "Tyler Linhardt",
+    "team_id": 70,
+    "team_name": "Idaho Vandals",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5313161,
+    "player_name": "Talon Jenkins",
+    "team_id": 70,
+    "team_name": "Idaho Vandals",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5176303,
+    "player_name": "Kristian Gonzalez",
+    "team_id": 70,
+    "team_name": "Idaho Vandals",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5107820,
+    "player_name": "Titus Yearout",
+    "team_id": 70,
+    "team_name": "Idaho Vandals",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5176274,
+    "player_name": "Kalifa Sakho",
+    "team_id": 248,
+    "team_name": "Houston Cougars",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 12
+  },
+  {
+    "player_id": 5117524,
+    "player_name": "Cedric Lath",
+    "team_id": 248,
+    "team_name": "Houston Cougars",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 3
+  },
+  {
+    "player_id": 5041942,
+    "player_name": "Isiah Harwell",
+    "team_id": 248,
+    "team_name": "Houston Cougars",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 3
+  },
+  {
+    "player_id": 4708176,
+    "player_name": "Ramon Walker Jr.",
+    "team_id": 248,
+    "team_name": "Houston Cougars",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 11
+  },
+  {
+    "player_id": 5095062,
+    "player_name": "Jacob McFarland",
+    "team_id": 248,
+    "team_name": "Houston Cougars",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5144098,
+    "player_name": "Bryce Jackson",
+    "team_id": 248,
+    "team_name": "Houston Cougars",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5070506,
+    "player_name": "Kordel Jefferson",
+    "team_id": 248,
+    "team_name": "Houston Cougars",
     "games_played": 1,
     "tournament_points": 0,
     "tournament_minutes": 0

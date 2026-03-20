@@ -114,8 +114,8 @@
     "date": "20260319",
     "name": "Kennesaw State Owls at Gonzaga Bulldogs",
     "short_name": "KENN VS GONZ",
-    "completed": false,
-    "status": "In Progress",
+    "completed": true,
+    "status": "Final",
     "home_team_id": 2250,
     "away_team_id": 338
   },
@@ -134,8 +134,8 @@
     "date": "20260319",
     "name": "Saint Louis Billikens at Georgia Bulldogs",
     "short_name": "SLU VS UGA",
-    "completed": false,
-    "status": "In Progress",
+    "completed": true,
+    "status": "Final",
     "home_team_id": 61,
     "away_team_id": 139
   },
@@ -194,8 +194,8 @@
     "date": "20260319",
     "name": "Idaho Vandals at Houston Cougars",
     "short_name": "IDHO VS HOU",
-    "completed": false,
-    "status": "In Progress",
+    "completed": true,
+    "status": "Final",
     "home_team_id": 248,
     "away_team_id": 70
   },
