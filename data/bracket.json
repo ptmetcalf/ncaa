@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-20T20:28:46.871Z",
+  "generated_at": "2026-03-20T21:28:32.147Z",
   "year": 2026,
   "available": true,
   "source": "espn_bracket_page",
@@ -8,7 +8,7 @@
   "tournament_name": "Men's NCAA Tournament",
   "short_name": "NCAA",
   "teams_count": 68,
-  "matchups_count": 46,
+  "matchups_count": 47,
   "regions": [
     {
       "id": 1,
@@ -720,8 +720,8 @@
       "bracket_location": 18,
       "date": "2026-03-20T20:10:00Z",
       "status_state": "in",
-      "status_desc": "In Progress",
-      "status_detail": "14:29 - 1st",
+      "status_desc": "Halftime",
+      "status_detail": "Halftime",
       "location": "San Diego, CA",
       "link": "/mens-college-basketball/game/_/gameId/401856528",
       "competitor_one": {
@@ -729,7 +729,7 @@
         "team_name": "Villanova",
         "abbreviation": "VILL",
         "seed": 8,
-        "score": 8,
+        "score": 39,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/222.png"
       },
@@ -738,7 +738,7 @@
         "team_name": "Utah State",
         "abbreviation": "USU",
         "seed": 9,
-        "score": 13,
+        "score": 37,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/328.png"
       }
@@ -1019,18 +1019,18 @@
       "region_id": 4,
       "bracket_location": 28,
       "date": "2026-03-20T19:15:00Z",
-      "status_state": "in",
-      "status_desc": "Halftime",
-      "status_detail": "Halftime",
+      "status_state": "post",
+      "status_desc": "Final",
+      "status_detail": "Final",
       "location": "Tampa, FL",
-      "link": "/mens-college-basketball/game/_/gameId/401856521",
+      "link": "/mens-college-basketball/game/_/gameId/401856521/hofstra-alabama",
       "competitor_one": {
         "team_id": 333,
         "team_name": "Alabama",
         "abbreviation": "ALA",
         "seed": 4,
-        "score": 37,
-        "winner": false,
+        "score": 90,
+        "winner": true,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/333.png"
       },
       "competitor_two": {
@@ -1038,7 +1038,7 @@
         "team_name": "Hofstra",
         "abbreviation": "HOF",
         "seed": 13,
-        "score": 35,
+        "score": 70,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2275.png"
       }
@@ -1049,17 +1049,17 @@
       "region_id": 4,
       "bracket_location": 29,
       "date": "2026-03-20T20:25:00Z",
-      "status_state": "pre",
-      "status_desc": "Scheduled",
-      "status_detail": "3/20 - 4:25 PM EDT",
+      "status_state": "in",
+      "status_desc": "Halftime",
+      "status_detail": "Halftime",
       "location": "Philadelphia, PA",
-      "link": "/mens-college-basketball/game/_/gameId/401856527/miami-oh-tennessee",
+      "link": "/mens-college-basketball/game/_/gameId/401856527",
       "competitor_one": {
         "team_id": 2633,
         "team_name": "Tennessee",
         "abbreviation": "TENN",
         "seed": 6,
-        "score": 0,
+        "score": 51,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2633.png"
       },
@@ -1068,7 +1068,7 @@
         "team_name": "Miami (OH)",
         "abbreviation": "M-OH",
         "seed": 11,
-        "score": 0,
+        "score": 32,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/193.png"
       }
@@ -1139,18 +1139,18 @@
       "region_id": 4,
       "bracket_location": 32,
       "date": "2026-03-20T19:07:00Z",
-      "status_state": "in",
-      "status_desc": "In Progress",
-      "status_detail": "19:36 - 2nd",
+      "status_state": "post",
+      "status_desc": "Final",
+      "status_detail": "Final",
       "location": "St. Louis, MO",
-      "link": "/mens-college-basketball/game/_/gameId/401856524",
+      "link": "/mens-college-basketball/game/_/gameId/401856524/tennessee-st-iowa-state",
       "competitor_one": {
         "team_id": 66,
         "team_name": "Iowa State",
         "abbreviation": "ISU",
         "seed": 2,
-        "score": 55,
-        "winner": false,
+        "score": 108,
+        "winner": true,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/66.png"
       },
       "competitor_two": {
@@ -1158,7 +1158,7 @@
         "team_name": "Tennessee State",
         "abbreviation": "TNST",
         "seed": 15,
-        "score": 29,
+        "score": 74,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2634.png"
       }
@@ -1445,6 +1445,36 @@
         "score": 0,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/258.png"
+      }
+    },
+    {
+      "matchup_id": 401856561,
+      "round_id": 2,
+      "region_id": 2,
+      "bracket_location": 16,
+      "date": "2026-03-22T04:00:00Z",
+      "status_state": "pre",
+      "status_desc": "Scheduled",
+      "status_detail": "3/22 - TBD",
+      "location": "St. Louis, MO",
+      "link": "/mens-college-basketball/game/_/gameId/401856561/kentucky-iowa-state",
+      "competitor_one": {
+        "team_id": 96,
+        "team_name": "Kentucky",
+        "abbreviation": "UK",
+        "seed": 7,
+        "score": 0,
+        "winner": false,
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/96.png"
+      },
+      "competitor_two": {
+        "team_id": 66,
+        "team_name": "Iowa State",
+        "abbreviation": "ISU",
+        "seed": 2,
+        "score": 0,
+        "winner": false,
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/66.png"
       }
     }
   ]

@@ -99,6 +99,15 @@
     "tournament_minutes": 28
   },
   {
+    "player_id": 4873090,
+    "player_name": "Labaron Philon Jr.",
+    "team_id": 333,
+    "team_name": "Alabama Crimson Tide",
+    "games_played": 1,
+    "tournament_points": 29,
+    "tournament_minutes": 36
+  },
+  {
     "player_id": 4848625,
     "player_name": "Dailyn Swain",
     "team_id": 251,
@@ -171,6 +180,15 @@
     "tournament_minutes": 40
   },
   {
+    "player_id": 5248302,
+    "player_name": "Killyan Toure",
+    "team_id": 66,
+    "team_name": "Iowa State Cyclones",
+    "games_played": 1,
+    "tournament_points": 25,
+    "tournament_minutes": 30
+  },
+  {
     "player_id": 5142620,
     "player_name": "Darius Acuff Jr.",
     "team_id": 8,
@@ -187,6 +205,15 @@
     "games_played": 1,
     "tournament_points": 24,
     "tournament_minutes": 38
+  },
+  {
+    "player_id": 5236222,
+    "player_name": "Preston Edmead",
+    "team_id": 2275,
+    "team_name": "Hofstra Pride",
+    "games_played": 1,
+    "tournament_points": 24,
+    "tournament_minutes": 40
   },
   {
     "player_id": 5093252,
@@ -270,6 +297,15 @@
     "tournament_minutes": 31
   },
   {
+    "player_id": 4703912,
+    "player_name": "Nate Heise",
+    "team_id": 66,
+    "team_name": "Iowa State Cyclones",
+    "games_played": 1,
+    "tournament_points": 22,
+    "tournament_minutes": 27
+  },
+  {
     "player_id": 4937074,
     "player_name": "Darrion Williams",
     "team_id": 152,
@@ -315,6 +351,15 @@
     "tournament_minutes": 26
   },
   {
+    "player_id": 5182573,
+    "player_name": "Aaron Nkrumah",
+    "team_id": 2634,
+    "team_name": "Tennessee State Tigers",
+    "games_played": 1,
+    "tournament_points": 21,
+    "tournament_minutes": 31
+  },
+  {
     "player_id": 5101840,
     "player_name": "Jaden Toombs",
     "team_id": 2567,
@@ -349,6 +394,15 @@
     "games_played": 1,
     "tournament_points": 20,
     "tournament_minutes": 33
+  },
+  {
+    "player_id": 5242989,
+    "player_name": "Antoine Lorick III",
+    "team_id": 2634,
+    "team_name": "Tennessee State Tigers",
+    "games_played": 1,
+    "tournament_points": 20,
+    "tournament_minutes": 31
   },
   {
     "player_id": 5241069,
@@ -574,6 +628,15 @@
     "games_played": 1,
     "tournament_points": 17,
     "tournament_minutes": 25
+  },
+  {
+    "player_id": 4848637,
+    "player_name": "Milan Momcilovic",
+    "team_id": 66,
+    "team_name": "Iowa State Cyclones",
+    "games_played": 1,
+    "tournament_points": 17,
+    "tournament_minutes": 34
   },
   {
     "player_id": 5149115,
@@ -837,6 +900,24 @@
     "tournament_minutes": 35
   },
   {
+    "player_id": 4873184,
+    "player_name": "Aiden Sherrell",
+    "team_id": 333,
+    "team_name": "Alabama Crimson Tide",
+    "games_played": 1,
+    "tournament_points": 15,
+    "tournament_minutes": 30
+  },
+  {
+    "player_id": 4685658,
+    "player_name": "Taylor Bol Bowen",
+    "team_id": 333,
+    "team_name": "Alabama Crimson Tide",
+    "games_played": 1,
+    "tournament_points": 15,
+    "tournament_minutes": 21
+  },
+  {
     "player_id": 5241483,
     "player_name": "TJ Burch",
     "team_id": 2750,
@@ -954,6 +1035,15 @@
     "tournament_minutes": 24
   },
   {
+    "player_id": 5107198,
+    "player_name": "Cruz Davis",
+    "team_id": 2275,
+    "team_name": "Hofstra Pride",
+    "games_played": 1,
+    "tournament_points": 14,
+    "tournament_minutes": 40
+  },
+  {
     "player_id": 5109789,
     "player_name": "Jake Ensminger",
     "team_id": 2541,
@@ -1069,6 +1159,15 @@
     "games_played": 1,
     "tournament_points": 13,
     "tournament_minutes": 25
+  },
+  {
+    "player_id": 5242985,
+    "player_name": "Travis Harper II",
+    "team_id": 2634,
+    "team_name": "Tennessee State Tigers",
+    "games_played": 1,
+    "tournament_points": 13,
+    "tournament_minutes": 35
   },
   {
     "player_id": 5314630,
@@ -1215,6 +1314,15 @@
     "tournament_minutes": 33
   },
   {
+    "player_id": 5105719,
+    "player_name": "German Plotnikov",
+    "team_id": 2275,
+    "team_name": "Hofstra Pride",
+    "games_played": 1,
+    "tournament_points": 12,
+    "tournament_minutes": 35
+  },
+  {
     "player_id": 5176232,
     "player_name": "Sam Lewis",
     "team_id": 258,
@@ -1339,6 +1447,51 @@
     "games_played": 1,
     "tournament_points": 11,
     "tournament_minutes": 25
+  },
+  {
+    "player_id": 5241495,
+    "player_name": "Biggie Patterson",
+    "team_id": 2275,
+    "team_name": "Hofstra Pride",
+    "games_played": 1,
+    "tournament_points": 11,
+    "tournament_minutes": 19
+  },
+  {
+    "player_id": 5101833,
+    "player_name": "Amari Allen",
+    "team_id": 333,
+    "team_name": "Alabama Crimson Tide",
+    "games_played": 1,
+    "tournament_points": 11,
+    "tournament_minutes": 32
+  },
+  {
+    "player_id": 4702484,
+    "player_name": "Latrell Wrightsell",
+    "team_id": 333,
+    "team_name": "Alabama Crimson Tide",
+    "games_played": 1,
+    "tournament_points": 11,
+    "tournament_minutes": 29
+  },
+  {
+    "player_id": 4596531,
+    "player_name": "Dante Harris",
+    "team_id": 2634,
+    "team_name": "Tennessee State Tigers",
+    "games_played": 1,
+    "tournament_points": 11,
+    "tournament_minutes": 37
+  },
+  {
+    "player_id": 5079838,
+    "player_name": "Blake Buchanan",
+    "team_id": 66,
+    "team_name": "Iowa State Cyclones",
+    "games_played": 1,
+    "tournament_points": 11,
+    "tournament_minutes": 27
   },
   {
     "player_id": 4683758,
@@ -1593,6 +1746,24 @@
     "tournament_minutes": 24
   },
   {
+    "player_id": 5281369,
+    "player_name": "Dominykas Pleta",
+    "team_id": 66,
+    "team_name": "Iowa State Cyclones",
+    "games_played": 1,
+    "tournament_points": 9,
+    "tournament_minutes": 12
+  },
+  {
+    "player_id": 5241380,
+    "player_name": "Dominick Nelson",
+    "team_id": 66,
+    "team_name": "Iowa State Cyclones",
+    "games_played": 1,
+    "tournament_points": 9,
+    "tournament_minutes": 19
+  },
+  {
     "player_id": 5176359,
     "player_name": "Christian Hammond",
     "team_id": 2541,
@@ -1771,6 +1942,15 @@
     "games_played": 1,
     "tournament_points": 8,
     "tournament_minutes": 18
+  },
+  {
+    "player_id": 5217196,
+    "player_name": "Jamarion Batemon",
+    "team_id": 66,
+    "team_name": "Iowa State Cyclones",
+    "games_played": 1,
+    "tournament_points": 8,
+    "tournament_minutes": 24
   },
   {
     "player_id": 5311844,
@@ -2095,6 +2275,15 @@
     "games_played": 1,
     "tournament_points": 6,
     "tournament_minutes": 22
+  },
+  {
+    "player_id": 5144139,
+    "player_name": "London Jemison",
+    "team_id": 333,
+    "team_name": "Alabama Crimson Tide",
+    "games_played": 1,
+    "tournament_points": 6,
+    "tournament_minutes": 21
   },
   {
     "player_id": 5176361,
@@ -2529,6 +2718,15 @@
     "tournament_minutes": 19
   },
   {
+    "player_id": 5312163,
+    "player_name": "Victory Onuetu",
+    "team_id": 2275,
+    "team_name": "Hofstra Pride",
+    "games_played": 1,
+    "tournament_points": 4,
+    "tournament_minutes": 18
+  },
+  {
     "player_id": 5243273,
     "player_name": "Shadrak Lasu",
     "team_id": 112358,
@@ -2698,6 +2896,51 @@
     "games_played": 1,
     "tournament_points": 3,
     "tournament_minutes": 9
+  },
+  {
+    "player_id": 4703169,
+    "player_name": "Joshua Aaron Reaves",
+    "team_id": 2275,
+    "team_name": "Hofstra Pride",
+    "games_played": 1,
+    "tournament_points": 3,
+    "tournament_minutes": 6
+  },
+  {
+    "player_id": 5105668,
+    "player_name": "Noah Williamson",
+    "team_id": 333,
+    "team_name": "Alabama Crimson Tide",
+    "games_played": 1,
+    "tournament_points": 3,
+    "tournament_minutes": 4
+  },
+  {
+    "player_id": 5105453,
+    "player_name": "Jalen Pitre",
+    "team_id": 2634,
+    "team_name": "Tennessee State Tigers",
+    "games_played": 1,
+    "tournament_points": 3,
+    "tournament_minutes": 29
+  },
+  {
+    "player_id": 5314352,
+    "player_name": "Damon Howard Jr.",
+    "team_id": 2634,
+    "team_name": "Tennessee State Tigers",
+    "games_played": 1,
+    "tournament_points": 3,
+    "tournament_minutes": 4
+  },
+  {
+    "player_id": 5106254,
+    "player_name": "Tamin Lipsey",
+    "team_id": 66,
+    "team_name": "Iowa State Cyclones",
+    "games_played": 1,
+    "tournament_points": 3,
+    "tournament_minutes": 18
   },
   {
     "player_id": 5101849,
@@ -2925,6 +3168,42 @@
     "tournament_minutes": 1
   },
   {
+    "player_id": 5239632,
+    "player_name": "Joshua DeCady",
+    "team_id": 2275,
+    "team_name": "Hofstra Pride",
+    "games_played": 1,
+    "tournament_points": 2,
+    "tournament_minutes": 20
+  },
+  {
+    "player_id": 5314353,
+    "player_name": "Jabrion Spikes",
+    "team_id": 2634,
+    "team_name": "Tennessee State Tigers",
+    "games_played": 1,
+    "tournament_points": 2,
+    "tournament_minutes": 10
+  },
+  {
+    "player_id": 4870564,
+    "player_name": "Joshua Jefferson",
+    "team_id": 66,
+    "team_name": "Iowa State Cyclones",
+    "games_played": 1,
+    "tournament_points": 2,
+    "tournament_minutes": 3
+  },
+  {
+    "player_id": 5106790,
+    "player_name": "Eric Mulder",
+    "team_id": 66,
+    "team_name": "Iowa State Cyclones",
+    "games_played": 1,
+    "tournament_points": 2,
+    "tournament_minutes": 3
+  },
+  {
     "player_id": 4897209,
     "player_name": "Brenton Knapper",
     "team_id": 2541,
@@ -2995,6 +3274,15 @@
     "games_played": 1,
     "tournament_points": 1,
     "tournament_minutes": 5
+  },
+  {
+    "player_id": 5242986,
+    "player_name": "JC Brooks",
+    "team_id": 2634,
+    "team_name": "Tennessee State Tigers",
+    "games_played": 1,
+    "tournament_points": 1,
+    "tournament_minutes": 2
   },
   {
     "player_id": 5241700,
@@ -6025,6 +6313,276 @@
     "player_name": "JT Toppin",
     "team_id": 2641,
     "team_name": "Texas Tech Red Raiders",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 4684984,
+    "player_name": "Silas Sunday",
+    "team_id": 2275,
+    "team_name": "Hofstra Pride",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 22
+  },
+  {
+    "player_id": 5177536,
+    "player_name": "Alex Tsynkevich",
+    "team_id": 2275,
+    "team_name": "Hofstra Pride",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5312164,
+    "player_name": "Jaeden Roberts",
+    "team_id": 2275,
+    "team_name": "Hofstra Pride",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5312162,
+    "player_name": "Trey Boyd III",
+    "team_id": 2275,
+    "team_name": "Hofstra Pride",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5243267,
+    "player_name": "Brandon Morgan",
+    "team_id": 2275,
+    "team_name": "Hofstra Pride",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5239633,
+    "player_name": "Amir Williams",
+    "team_id": 2275,
+    "team_name": "Hofstra Pride",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5177285,
+    "player_name": "Carlos Lopez",
+    "team_id": 2275,
+    "team_name": "Hofstra Pride",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5176061,
+    "player_name": "A.J. Wills",
+    "team_id": 2275,
+    "team_name": "Hofstra Pride",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5325011,
+    "player_name": "Jacob Martin",
+    "team_id": 333,
+    "team_name": "Alabama Crimson Tide",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 1
+  },
+  {
+    "player_id": 5101656,
+    "player_name": "Jalil Bethea",
+    "team_id": 333,
+    "team_name": "Alabama Crimson Tide",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 4
+  },
+  {
+    "player_id": 4709141,
+    "player_name": "Houston Mallette",
+    "team_id": 333,
+    "team_name": "Alabama Crimson Tide",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 20
+  },
+  {
+    "player_id": 4433289,
+    "player_name": "Preston Murphy Jr.",
+    "team_id": 333,
+    "team_name": "Alabama Crimson Tide",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 1
+  },
+  {
+    "player_id": 5241440,
+    "player_name": "Keitenn Bristow",
+    "team_id": 333,
+    "team_name": "Alabama Crimson Tide",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5311499,
+    "player_name": "Collins Onyejiaka",
+    "team_id": 333,
+    "team_name": "Alabama Crimson Tide",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5325014,
+    "player_name": "Jack Fagan",
+    "team_id": 333,
+    "team_name": "Alabama Crimson Tide",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5325013,
+    "player_name": "Klark James",
+    "team_id": 333,
+    "team_name": "Alabama Crimson Tide",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5101805,
+    "player_name": "Davion Hannah",
+    "team_id": 333,
+    "team_name": "Alabama Crimson Tide",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 4684276,
+    "player_name": "Aden Holloway",
+    "team_id": 333,
+    "team_name": "Alabama Crimson Tide",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5242991,
+    "player_name": "Kavien Jones",
+    "team_id": 2634,
+    "team_name": "Tennessee State Tigers",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 4
+  },
+  {
+    "player_id": 5175727,
+    "player_name": "Carlous Williams",
+    "team_id": 2634,
+    "team_name": "Tennessee State Tigers",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 13
+  },
+  {
+    "player_id": 5106807,
+    "player_name": "Alex Garcia",
+    "team_id": 2634,
+    "team_name": "Tennessee State Tigers",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 3
+  },
+  {
+    "player_id": 5314355,
+    "player_name": "Jean Yvens Lafleur",
+    "team_id": 2634,
+    "team_name": "Tennessee State Tigers",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5256521,
+    "player_name": "Ogien Ayo",
+    "team_id": 2634,
+    "team_name": "Tennessee State Tigers",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5314354,
+    "player_name": "Jayden Jones",
+    "team_id": 2634,
+    "team_name": "Tennessee State Tigers",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5242987,
+    "player_name": "Maddux Bodenhamer",
+    "team_id": 2634,
+    "team_name": "Tennessee State Tigers",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5105760,
+    "player_name": "Khalil London",
+    "team_id": 2634,
+    "team_name": "Tennessee State Tigers",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5311915,
+    "player_name": "Anthony Rise",
+    "team_id": 66,
+    "team_name": "Iowa State Cyclones",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 1
+  },
+  {
+    "player_id": 5175036,
+    "player_name": "Cade Kelderman",
+    "team_id": 66,
+    "team_name": "Iowa State Cyclones",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 2
+  },
+  {
+    "player_id": 5101856,
+    "player_name": "Xzavion Mitchell",
+    "team_id": 66,
+    "team_name": "Iowa State Cyclones",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5175370,
+    "player_name": "Mason Williams",
+    "team_id": 66,
+    "team_name": "Iowa State Cyclones",
     "games_played": 1,
     "tournament_points": 0,
     "tournament_minutes": 0
