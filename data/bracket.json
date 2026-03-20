@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-20T03:14:28.271Z",
+  "generated_at": "2026-03-20T04:03:39.444Z",
   "year": 2026,
   "available": true,
   "source": "espn_bracket_page",
@@ -8,7 +8,7 @@
   "tournament_name": "Men's NCAA Tournament",
   "short_name": "NCAA",
   "teams_count": 68,
-  "matchups_count": 41,
+  "matchups_count": 42,
   "regions": [
     {
       "id": 1,
@@ -599,18 +599,18 @@
       "region_id": 2,
       "bracket_location": 14,
       "date": "2026-03-20T01:55:00Z",
-      "status_state": "in",
-      "status_desc": "In Progress",
-      "status_detail": "15:44 - 2nd",
+      "status_state": "post",
+      "status_desc": "Final",
+      "status_detail": "Final",
       "location": "Greenville, SC",
-      "link": "/mens-college-basketball/game/_/gameId/401856491",
+      "link": "/mens-college-basketball/game/_/gameId/401856491/penn-illinois",
       "competitor_one": {
         "team_id": 356,
         "team_name": "Illinois",
         "abbreviation": "ILL",
         "seed": 3,
-        "score": 52,
-        "winner": false,
+        "score": 105,
+        "winner": true,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/356.png"
       },
       "competitor_two": {
@@ -618,7 +618,7 @@
         "team_name": "Pennsylvania",
         "abbreviation": "PENN",
         "seed": 14,
-        "score": 38,
+        "score": 70,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/219.png"
       }
@@ -660,8 +660,8 @@
       "bracket_location": 16,
       "date": "2026-03-20T02:15:00Z",
       "status_state": "in",
-      "status_desc": "Halftime",
-      "status_detail": "Halftime",
+      "status_desc": "In Progress",
+      "status_detail": "7:12 - 2nd",
       "location": "Oklahoma City, OK",
       "link": "/mens-college-basketball/game/_/gameId/401856493",
       "competitor_one": {
@@ -669,7 +669,7 @@
         "team_name": "Houston",
         "abbreviation": "HOU",
         "seed": 2,
-        "score": 48,
+        "score": 67,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/248.png"
       },
@@ -678,7 +678,7 @@
         "team_name": "Idaho",
         "abbreviation": "IDHO",
         "seed": 15,
-        "score": 24,
+        "score": 38,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/70.png"
       }
@@ -841,7 +841,7 @@
       "date": "2026-03-20T02:24:00Z",
       "status_state": "in",
       "status_desc": "In Progress",
-      "status_detail": "0:47 - 1st",
+      "status_detail": "10:37 - 2nd",
       "location": "Portland, OR",
       "link": "/mens-college-basketball/game/_/gameId/401856485",
       "competitor_one": {
@@ -849,7 +849,7 @@
         "team_name": "Gonzaga",
         "abbreviation": "GONZ",
         "seed": 3,
-        "score": 28,
+        "score": 48,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2250.png"
       },
@@ -858,7 +858,7 @@
         "team_name": "Kennesaw State",
         "abbreviation": "KENN",
         "seed": 14,
-        "score": 27,
+        "score": 42,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/338.png"
       }
@@ -960,8 +960,8 @@
       "bracket_location": 26,
       "date": "2026-03-20T02:10:00Z",
       "status_state": "in",
-      "status_desc": "Halftime",
-      "status_detail": "Halftime",
+      "status_desc": "In Progress",
+      "status_detail": "5:11 - 2nd",
       "location": "Buffalo, NY",
       "link": "/mens-college-basketball/game/_/gameId/401856487",
       "competitor_one": {
@@ -969,7 +969,7 @@
         "team_name": "Georgia",
         "abbreviation": "UGA",
         "seed": 8,
-        "score": 32,
+        "score": 57,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/61.png"
       },
@@ -978,7 +978,7 @@
         "team_name": "Saint Louis",
         "abbreviation": "SLU",
         "seed": 9,
-        "score": 49,
+        "score": 95,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/139.png"
       }
@@ -1168,10 +1168,10 @@
       "round_id": 2,
       "region_id": 1,
       "bracket_location": 1,
-      "date": "2026-03-21T04:00:00Z",
+      "date": "2026-03-21T21:15:00Z",
       "status_state": "pre",
       "status_desc": "Scheduled",
-      "status_detail": "3/21 - TBD",
+      "status_detail": "3/21 - 5:15 PM EDT",
       "location": "Greenville, SC",
       "link": "/mens-college-basketball/game/_/gameId/401856530/tcu-duke",
       "competitor_one": {
@@ -1198,10 +1198,10 @@
       "round_id": 2,
       "region_id": 1,
       "bracket_location": 3,
-      "date": "2026-03-21T04:00:00Z",
+      "date": "2026-03-21T18:45:00Z",
       "status_state": "pre",
       "status_desc": "Scheduled",
-      "status_detail": "3/21 - TBD",
+      "status_detail": "3/21 - 2:45 PM EDT",
       "location": "Buffalo, NY",
       "link": "/mens-college-basketball/game/_/gameId/401856531/louisville-michigan-st",
       "competitor_one": {
@@ -1228,10 +1228,10 @@
       "round_id": 2,
       "region_id": 1,
       "bracket_location": 6,
-      "date": "2026-03-21T04:00:00Z",
+      "date": "2026-03-22T00:45:00Z",
       "status_state": "pre",
       "status_desc": "Scheduled",
-      "status_detail": "3/21 - TBD",
+      "status_detail": "3/21 - 8:45 PM EDT",
       "location": "Oklahoma City, OK",
       "link": "/mens-college-basketball/game/_/gameId/401856534/vanderbilt-nebraska",
       "competitor_one": {
@@ -1254,14 +1254,44 @@
       }
     },
     {
+      "matchup_id": 401856533,
+      "round_id": 2,
+      "region_id": 1,
+      "bracket_location": 7,
+      "date": "2026-03-21T23:50:00Z",
+      "status_state": "pre",
+      "status_desc": "Scheduled",
+      "status_detail": "3/21 - 7:50 PM EDT",
+      "location": "Greenville, SC",
+      "link": "/mens-college-basketball/game/_/gameId/401856533/vcu-illinois",
+      "competitor_one": {
+        "team_id": 2670,
+        "team_name": "VCU",
+        "abbreviation": "VCU",
+        "seed": 11,
+        "score": 0,
+        "winner": false,
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2670.png"
+      },
+      "competitor_two": {
+        "team_id": 356,
+        "team_name": "Illinois",
+        "abbreviation": "ILL",
+        "seed": 3,
+        "score": 0,
+        "winner": false,
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/356.png"
+      }
+    },
+    {
       "matchup_id": 401856536,
       "round_id": 2,
       "region_id": 2,
       "bracket_location": 10,
-      "date": "2026-03-21T04:00:00Z",
+      "date": "2026-03-22T01:45:00Z",
       "status_state": "pre",
       "status_desc": "Scheduled",
-      "status_detail": "3/21 - TBD",
+      "status_detail": "3/21 - 9:45 PM EDT",
       "location": "Portland, OR",
       "link": "/mens-college-basketball/game/_/gameId/401856536/high-point-arkansas",
       "competitor_one": {
@@ -1288,10 +1318,10 @@
       "round_id": 2,
       "region_id": 2,
       "bracket_location": 13,
-      "date": "2026-03-21T04:00:00Z",
+      "date": "2026-03-21T16:10:00Z",
       "status_state": "pre",
       "status_desc": "Scheduled",
-      "status_detail": "3/21 - TBD",
+      "status_detail": "3/21 - 12:10 PM EDT",
       "location": "Buffalo, NY",
       "link": "/mens-college-basketball/game/_/gameId/401856532",
       "competitor_one": {

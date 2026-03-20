@@ -135,7 +135,7 @@
     "name": "Saint Louis Billikens at Georgia Bulldogs",
     "short_name": "SLU VS UGA",
     "completed": false,
-    "status": "Halftime",
+    "status": "In Progress",
     "home_team_id": 61,
     "away_team_id": 139
   },
@@ -174,8 +174,8 @@
     "date": "20260319",
     "name": "Pennsylvania Quakers at Illinois Fighting Illini",
     "short_name": "PENN VS ILL",
-    "completed": false,
-    "status": "In Progress",
+    "completed": true,
+    "status": "Final",
     "home_team_id": 356,
     "away_team_id": 219
   },
@@ -195,7 +195,7 @@
     "name": "Idaho Vandals at Houston Cougars",
     "short_name": "IDHO VS HOU",
     "completed": false,
-    "status": "Halftime",
+    "status": "In Progress",
     "home_team_id": 248,
     "away_team_id": 70
   },
