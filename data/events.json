@@ -265,7 +265,7 @@
     "name": "Akron Zips at Texas Tech Red Raiders",
     "short_name": "AKR VS TTU",
     "completed": false,
-    "status": "Halftime",
+    "status": "In Progress",
     "home_team_id": 2641,
     "away_team_id": 2006
   },
@@ -325,7 +325,7 @@
     "name": "Wright State Raiders at Virginia Cavaliers",
     "short_name": "WRST VS UVA",
     "completed": false,
-    "status": "Scheduled",
+    "status": "In Progress",
     "home_team_id": 258,
     "away_team_id": 2750
   },
@@ -355,7 +355,7 @@
     "name": "Long Island University Sharks at Arizona Wildcats",
     "short_name": "LIU VS ARIZ",
     "completed": false,
-    "status": "Scheduled",
+    "status": "Halftime",
     "home_team_id": 12,
     "away_team_id": 112358
   }
