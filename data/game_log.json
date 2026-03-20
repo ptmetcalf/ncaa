@@ -3070,6 +3070,646 @@
     "points": 0
   },
   {
+    "event_id": 401856484,
+    "date": "20260319",
+    "player_id": 5105855,
+    "player_name": "Camden Heide",
+    "team_id": 251,
+    "team_name": "Texas Longhorns",
+    "minutes": 20,
+    "points": 5
+  },
+  {
+    "event_id": 401856484,
+    "date": "20260319",
+    "player_id": 5239838,
+    "player_name": "Matas Vokietaitis",
+    "team_id": 251,
+    "team_name": "Texas Longhorns",
+    "minutes": 33,
+    "points": 23
+  },
+  {
+    "event_id": 401856484,
+    "date": "20260319",
+    "player_id": 5105624,
+    "player_name": "Jordan Pope",
+    "team_id": 251,
+    "team_name": "Texas Longhorns",
+    "minutes": 32,
+    "points": 11
+  },
+  {
+    "event_id": 401856484,
+    "date": "20260319",
+    "player_id": 4848625,
+    "player_name": "Dailyn Swain",
+    "team_id": 251,
+    "team_name": "Texas Longhorns",
+    "minutes": 37,
+    "points": 14
+  },
+  {
+    "event_id": 401856484,
+    "date": "20260319",
+    "player_id": 4432243,
+    "player_name": "Tramon Mark",
+    "team_id": 251,
+    "team_name": "Texas Longhorns",
+    "minutes": 35,
+    "points": 19
+  },
+  {
+    "event_id": 401856484,
+    "date": "20260319",
+    "player_id": 5149083,
+    "player_name": "Nic Codie",
+    "team_id": 251,
+    "team_name": "Texas Longhorns",
+    "minutes": 13,
+    "points": 0
+  },
+  {
+    "event_id": 401856484,
+    "date": "20260319",
+    "player_id": 5105486,
+    "player_name": "Chendall Weaver",
+    "team_id": 251,
+    "team_name": "Texas Longhorns",
+    "minutes": 20,
+    "points": 5
+  },
+  {
+    "event_id": 401856484,
+    "date": "20260319",
+    "player_id": 4683785,
+    "player_name": "Simeon Wilcher",
+    "team_id": 251,
+    "team_name": "Texas Longhorns",
+    "minutes": 10,
+    "points": 2
+  },
+  {
+    "event_id": 401856484,
+    "date": "20260319",
+    "player_id": 5311528,
+    "player_name": "Declan Duru Jr.",
+    "team_id": 251,
+    "team_name": "Texas Longhorns",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856484,
+    "date": "20260319",
+    "player_id": 5149079,
+    "player_name": "John Clark",
+    "team_id": 251,
+    "team_name": "Texas Longhorns",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856484,
+    "date": "20260319",
+    "player_id": 4897760,
+    "player_name": "Cole Bott",
+    "team_id": 251,
+    "team_name": "Texas Longhorns",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856484,
+    "date": "20260319",
+    "player_id": 4897052,
+    "player_name": "Lassina Traore",
+    "team_id": 251,
+    "team_name": "Texas Longhorns",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856484,
+    "date": "20260319",
+    "player_id": 5311529,
+    "player_name": "Lewis Obiorah",
+    "team_id": 251,
+    "team_name": "Texas Longhorns",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856484,
+    "date": "20260319",
+    "player_id": 5191718,
+    "player_name": "Anthon McDermott",
+    "team_id": 251,
+    "team_name": "Texas Longhorns",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856484,
+    "date": "20260319",
+    "player_id": 5176687,
+    "player_name": "Brandon Taylor",
+    "team_id": 251,
+    "team_name": "Texas Longhorns",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856484,
+    "date": "20260319",
+    "player_id": 5142718,
+    "player_name": "AJ Dybantsa",
+    "team_id": 252,
+    "team_name": "BYU Cougars",
+    "minutes": 40,
+    "points": 35
+  },
+  {
+    "event_id": 401856484,
+    "date": "20260319",
+    "player_id": 5105647,
+    "player_name": "Keba Keita",
+    "team_id": 252,
+    "team_name": "BYU Cougars",
+    "minutes": 24,
+    "points": 5
+  },
+  {
+    "event_id": 401856484,
+    "date": "20260319",
+    "player_id": 4685654,
+    "player_name": "Kennard Davis Jr.",
+    "team_id": 252,
+    "team_name": "BYU Cougars",
+    "minutes": 39,
+    "points": 9
+  },
+  {
+    "event_id": 401856484,
+    "date": "20260319",
+    "player_id": 5311908,
+    "player_name": "Aleksej Kostic",
+    "team_id": 252,
+    "team_name": "BYU Cougars",
+    "minutes": 21,
+    "points": 8
+  },
+  {
+    "event_id": 401856484,
+    "date": "20260319",
+    "player_id": 5060709,
+    "player_name": "Robert Wright III",
+    "team_id": 252,
+    "team_name": "BYU Cougars",
+    "minutes": 37,
+    "points": 14
+  },
+  {
+    "event_id": 401856484,
+    "date": "20260319",
+    "player_id": 5262996,
+    "player_name": "Dominique Diomande",
+    "team_id": 252,
+    "team_name": "BYU Cougars",
+    "minutes": 9,
+    "points": 0
+  },
+  {
+    "event_id": 401856484,
+    "date": "20260319",
+    "player_id": 5262601,
+    "player_name": "Khadim Mboup",
+    "team_id": 252,
+    "team_name": "BYU Cougars",
+    "minutes": 18,
+    "points": 0
+  },
+  {
+    "event_id": 401856484,
+    "date": "20260319",
+    "player_id": 5243211,
+    "player_name": "Mihailo Boškovic",
+    "team_id": 252,
+    "team_name": "BYU Cougars",
+    "minutes": 4,
+    "points": 0
+  },
+  {
+    "event_id": 401856484,
+    "date": "20260319",
+    "player_id": 5183975,
+    "player_name": "Abdullah Ahmed",
+    "team_id": 252,
+    "team_name": "BYU Cougars",
+    "minutes": 10,
+    "points": 0
+  },
+  {
+    "event_id": 401856484,
+    "date": "20260319",
+    "player_id": 5243214,
+    "player_name": "Brody Kozlowski",
+    "team_id": 252,
+    "team_name": "BYU Cougars",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856484,
+    "date": "20260319",
+    "player_id": 5176299,
+    "player_name": "Tyler Mrus",
+    "team_id": 252,
+    "team_name": "BYU Cougars",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856484,
+    "date": "20260319",
+    "player_id": 5143304,
+    "player_name": "Xavion Staton",
+    "team_id": 252,
+    "team_name": "BYU Cougars",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856484,
+    "date": "20260319",
+    "player_id": 5329424,
+    "player_name": "KJ Perry",
+    "team_id": 252,
+    "team_name": "BYU Cougars",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856484,
+    "date": "20260319",
+    "player_id": 5107152,
+    "player_name": "Nate Pickens",
+    "team_id": 252,
+    "team_name": "BYU Cougars",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856484,
+    "date": "20260319",
+    "player_id": 5105466,
+    "player_name": "Jared McGregor",
+    "team_id": 252,
+    "team_name": "BYU Cougars",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856484,
+    "date": "20260319",
+    "player_id": 5105462,
+    "player_name": "Richie Saunders",
+    "team_id": 252,
+    "team_name": "BYU Cougars",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856484,
+    "date": "20260319",
+    "player_id": 4702626,
+    "player_name": "Dawson Baker",
+    "team_id": 252,
+    "team_name": "BYU Cougars",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856486,
+    "date": "20260319",
+    "player_id": 5192142,
+    "player_name": "Cedric Taylor III",
+    "team_id": 47,
+    "team_name": "Howard Bison",
+    "minutes": 34,
+    "points": 19
+  },
+  {
+    "event_id": 401856486,
+    "date": "20260319",
+    "player_id": 5176075,
+    "player_name": "Cam Gillus",
+    "team_id": 47,
+    "team_name": "Howard Bison",
+    "minutes": 39,
+    "points": 21
+  },
+  {
+    "event_id": 401856486,
+    "date": "20260319",
+    "player_id": 5175065,
+    "player_name": "Alex Cotton",
+    "team_id": 47,
+    "team_name": "Howard Bison",
+    "minutes": 28,
+    "points": 3
+  },
+  {
+    "event_id": 401856486,
+    "date": "20260319",
+    "player_id": 5107986,
+    "player_name": "Ose Okojie",
+    "team_id": 47,
+    "team_name": "Howard Bison",
+    "minutes": 35,
+    "points": 7
+  },
+  {
+    "event_id": 401856486,
+    "date": "20260319",
+    "player_id": 4897768,
+    "player_name": "Bryce Harris",
+    "team_id": 47,
+    "team_name": "Howard Bison",
+    "minutes": 39,
+    "points": 21
+  },
+  {
+    "event_id": 401856486,
+    "date": "20260319",
+    "player_id": 5316220,
+    "player_name": "Travelle Bryson",
+    "team_id": 47,
+    "team_name": "Howard Bison",
+    "minutes": 19,
+    "points": 7
+  },
+  {
+    "event_id": 401856486,
+    "date": "20260319",
+    "player_id": 5316216,
+    "player_name": "Julian Johnson",
+    "team_id": 47,
+    "team_name": "Howard Bison",
+    "minutes": 0,
+    "points": 0
+  },
+  {
+    "event_id": 401856486,
+    "date": "20260319",
+    "player_id": 5250600,
+    "player_name": "Calvin Robins Jr.",
+    "team_id": 47,
+    "team_name": "Howard Bison",
+    "minutes": 1,
+    "points": 0
+  },
+  {
+    "event_id": 401856486,
+    "date": "20260319",
+    "player_id": 5316219,
+    "player_name": "Danas Kazakevicius",
+    "team_id": 47,
+    "team_name": "Howard Bison",
+    "minutes": 1,
+    "points": 0
+  },
+  {
+    "event_id": 401856486,
+    "date": "20260319",
+    "player_id": 5316218,
+    "player_name": "Jeremiah Johnson",
+    "team_id": 47,
+    "team_name": "Howard Bison",
+    "minutes": 1,
+    "points": 0
+  },
+  {
+    "event_id": 401856486,
+    "date": "20260319",
+    "player_id": 5316214,
+    "player_name": "BJ Powell",
+    "team_id": 47,
+    "team_name": "Howard Bison",
+    "minutes": 1,
+    "points": 2
+  },
+  {
+    "event_id": 401856486,
+    "date": "20260319",
+    "player_id": 5243100,
+    "player_name": "Isaiah Brown",
+    "team_id": 47,
+    "team_name": "Howard Bison",
+    "minutes": 1,
+    "points": 0
+  },
+  {
+    "event_id": 401856486,
+    "date": "20260319",
+    "player_id": 4898226,
+    "player_name": "Ed Holland III",
+    "team_id": 47,
+    "team_name": "Howard Bison",
+    "minutes": 1,
+    "points": 0
+  },
+  {
+    "event_id": 401856486,
+    "date": "20260319",
+    "player_id": 5316213,
+    "player_name": "Stefan Isailovic",
+    "team_id": 47,
+    "team_name": "Howard Bison",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856486,
+    "date": "20260319",
+    "player_id": 5316217,
+    "player_name": "River Smith",
+    "team_id": 47,
+    "team_name": "Howard Bison",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856486,
+    "date": "20260319",
+    "player_id": 5316215,
+    "player_name": "Shane Frazier",
+    "team_id": 47,
+    "team_name": "Howard Bison",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856486,
+    "date": "20260319",
+    "player_id": 5175737,
+    "player_name": "Yaxel Lendeborg",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": 27,
+    "points": 9
+  },
+  {
+    "event_id": 401856486,
+    "date": "20260319",
+    "player_id": 4873153,
+    "player_name": "Morez Johnson Jr.",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": 26,
+    "points": 21
+  },
+  {
+    "event_id": 401856486,
+    "date": "20260319",
+    "player_id": 5174983,
+    "player_name": "Aday Mara",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": 21,
+    "points": 19
+  },
+  {
+    "event_id": 401856486,
+    "date": "20260319",
+    "player_id": 4869764,
+    "player_name": "Elliot Cadeau",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": 26,
+    "points": 5
+  },
+  {
+    "event_id": 401856486,
+    "date": "20260319",
+    "player_id": 4433138,
+    "player_name": "Nimari Burnett",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": 26,
+    "points": 15
+  },
+  {
+    "event_id": 401856486,
+    "date": "20260319",
+    "player_id": 5244505,
+    "player_name": "Oscar Goodman",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": 3,
+    "points": 0
+  },
+  {
+    "event_id": 401856486,
+    "date": "20260319",
+    "player_id": 4684596,
+    "player_name": "Will Tschetter",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": 20,
+    "points": 6
+  },
+  {
+    "event_id": 401856486,
+    "date": "20260319",
+    "player_id": 5311988,
+    "player_name": "Malick Kordel",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": 1,
+    "points": 2
+  },
+  {
+    "event_id": 401856486,
+    "date": "20260319",
+    "player_id": 5239559,
+    "player_name": "Howard Eisley Jr.",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": 1,
+    "points": 0
+  },
+  {
+    "event_id": 401856486,
+    "date": "20260319",
+    "player_id": 5106648,
+    "player_name": "Charlie May",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": 1,
+    "points": 0
+  },
+  {
+    "event_id": 401856486,
+    "date": "20260319",
+    "player_id": 5105836,
+    "player_name": "Roddy Gayle Jr.",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": 23,
+    "points": 14
+  },
+  {
+    "event_id": 401856486,
+    "date": "20260319",
+    "player_id": 5041954,
+    "player_name": "Trey McKenney",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": 25,
+    "points": 10
+  },
+  {
+    "event_id": 401856486,
+    "date": "20260319",
+    "player_id": 5174787,
+    "player_name": "Harrison Hochberg",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856486,
+    "date": "20260319",
+    "player_id": 5311987,
+    "player_name": "Ricky Liburd",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856486,
+    "date": "20260319",
+    "player_id": 5214641,
+    "player_name": "L.J. Cason",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856486,
+    "date": "20260319",
+    "player_id": 5174808,
+    "player_name": "Winters Grady",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": null,
+    "points": 0
+  },
+  {
     "event_id": 401856488,
     "date": "20260319",
     "player_id": 4433273,
@@ -3686,6 +4326,606 @@
     "player_name": "Connor Essegian",
     "team_id": 158,
     "team_name": "Nebraska Cornhuskers",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856490,
+    "date": "20260319",
+    "player_id": 5175368,
+    "player_name": "Lazar Djokovic",
+    "team_id": 2670,
+    "team_name": "VCU Rams",
+    "minutes": 38,
+    "points": 15
+  },
+  {
+    "event_id": 401856490,
+    "date": "20260319",
+    "player_id": 5105987,
+    "player_name": "Barry Evans",
+    "team_id": 2670,
+    "team_name": "VCU Rams",
+    "minutes": 23,
+    "points": 2
+  },
+  {
+    "event_id": 401856490,
+    "date": "20260319",
+    "player_id": 5311890,
+    "player_name": "Nyk Lewis",
+    "team_id": 2670,
+    "team_name": "VCU Rams",
+    "minutes": 31,
+    "points": 16
+  },
+  {
+    "event_id": 401856490,
+    "date": "20260319",
+    "player_id": 5239713,
+    "player_name": "Brandon Jennings",
+    "team_id": 2670,
+    "team_name": "VCU Rams",
+    "minutes": 34,
+    "points": 7
+  },
+  {
+    "event_id": 401856490,
+    "date": "20260319",
+    "player_id": 4701030,
+    "player_name": "Jadrian Tracey",
+    "team_id": 2670,
+    "team_name": "VCU Rams",
+    "minutes": 15,
+    "points": 0
+  },
+  {
+    "event_id": 401856490,
+    "date": "20260319",
+    "player_id": 5174672,
+    "player_name": "Michael Belle",
+    "team_id": 2670,
+    "team_name": "VCU Rams",
+    "minutes": 31,
+    "points": 8
+  },
+  {
+    "event_id": 401856490,
+    "date": "20260319",
+    "player_id": 5060712,
+    "player_name": "Terrence Hill Jr.",
+    "team_id": 2670,
+    "team_name": "VCU Rams",
+    "minutes": 40,
+    "points": 34
+  },
+  {
+    "event_id": 401856490,
+    "date": "20260319",
+    "player_id": 4684733,
+    "player_name": "Tyrell Ward",
+    "team_id": 2670,
+    "team_name": "VCU Rams",
+    "minutes": 13,
+    "points": 0
+  },
+  {
+    "event_id": 401856490,
+    "date": "20260319",
+    "player_id": 5174851,
+    "player_name": "Keyshawn Mitchell",
+    "team_id": 2670,
+    "team_name": "VCU Rams",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856490,
+    "date": "20260319",
+    "player_id": 5117584,
+    "player_name": "Jordann Dumont",
+    "team_id": 2670,
+    "team_name": "VCU Rams",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856490,
+    "date": "20260319",
+    "player_id": 5106042,
+    "player_name": "Obinnaya Okafor",
+    "team_id": 2670,
+    "team_name": "VCU Rams",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856490,
+    "date": "20260319",
+    "player_id": 5106041,
+    "player_name": "Christian Fermin",
+    "team_id": 2670,
+    "team_name": "VCU Rams",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856490,
+    "date": "20260319",
+    "player_id": 5311892,
+    "player_name": "Jordan Tillery",
+    "team_id": 2670,
+    "team_name": "VCU Rams",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856490,
+    "date": "20260319",
+    "player_id": 4869778,
+    "player_name": "Ahmad Nowell",
+    "team_id": 2670,
+    "team_name": "VCU Rams",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856490,
+    "date": "20260319",
+    "player_id": 4873181,
+    "player_name": "Jarin Stevenson",
+    "team_id": 153,
+    "team_name": "North Carolina Tar Heels",
+    "minutes": 31,
+    "points": 11
+  },
+  {
+    "event_id": 401856490,
+    "date": "20260319",
+    "player_id": 5105571,
+    "player_name": "Henri Veesaar",
+    "team_id": 153,
+    "team_name": "North Carolina Tar Heels",
+    "minutes": 42,
+    "points": 26
+  },
+  {
+    "event_id": 401856490,
+    "date": "20260319",
+    "player_id": 5312014,
+    "player_name": "Luka Bogavac",
+    "team_id": 153,
+    "team_name": "North Carolina Tar Heels",
+    "minutes": 32,
+    "points": 8
+  },
+  {
+    "event_id": 401856490,
+    "date": "20260319",
+    "player_id": 5144097,
+    "player_name": "Derek Dixon",
+    "team_id": 153,
+    "team_name": "North Carolina Tar Heels",
+    "minutes": 41,
+    "points": 11
+  },
+  {
+    "event_id": 401856490,
+    "date": "20260319",
+    "player_id": 4712836,
+    "player_name": "Seth Trimble",
+    "team_id": 153,
+    "team_name": "North Carolina Tar Heels",
+    "minutes": 43,
+    "points": 15
+  },
+  {
+    "event_id": 401856490,
+    "date": "20260319",
+    "player_id": 4895793,
+    "player_name": "Zayden High",
+    "team_id": 153,
+    "team_name": "North Carolina Tar Heels",
+    "minutes": 7,
+    "points": 4
+  },
+  {
+    "event_id": 401856490,
+    "date": "20260319",
+    "player_id": 5101669,
+    "player_name": "Jonathan Powell",
+    "team_id": 153,
+    "team_name": "North Carolina Tar Heels",
+    "minutes": 20,
+    "points": 3
+  },
+  {
+    "event_id": 401856490,
+    "date": "20260319",
+    "player_id": 5093253,
+    "player_name": "Kyan Evans",
+    "team_id": 153,
+    "team_name": "North Carolina Tar Heels",
+    "minutes": 3,
+    "points": 0
+  },
+  {
+    "event_id": 401856490,
+    "date": "20260319",
+    "player_id": 4711266,
+    "player_name": "Jaydon Young",
+    "team_id": 153,
+    "team_name": "North Carolina Tar Heels",
+    "minutes": 5,
+    "points": 0
+  },
+  {
+    "event_id": 401856490,
+    "date": "20260319",
+    "player_id": 5238173,
+    "player_name": "John Holbrook",
+    "team_id": 153,
+    "team_name": "North Carolina Tar Heels",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856490,
+    "date": "20260319",
+    "player_id": 5095151,
+    "player_name": "Caleb Wilson",
+    "team_id": 153,
+    "team_name": "North Carolina Tar Heels",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856490,
+    "date": "20260319",
+    "player_id": 4869763,
+    "player_name": "James Brown",
+    "team_id": 153,
+    "team_name": "North Carolina Tar Heels",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856490,
+    "date": "20260319",
+    "player_id": 5241596,
+    "player_name": "Ivan Matlekovic",
+    "team_id": 153,
+    "team_name": "North Carolina Tar Heels",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856490,
+    "date": "20260319",
+    "player_id": 5312013,
+    "player_name": "Evan Smith",
+    "team_id": 153,
+    "team_name": "North Carolina Tar Heels",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856490,
+    "date": "20260319",
+    "player_id": 5217193,
+    "player_name": "Isaiah Denis",
+    "team_id": 153,
+    "team_name": "North Carolina Tar Heels",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856490,
+    "date": "20260319",
+    "player_id": 5116699,
+    "player_name": "Elijah Davis",
+    "team_id": 153,
+    "team_name": "North Carolina Tar Heels",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856492,
+    "date": "20260319",
+    "player_id": 4593815,
+    "player_name": "Rashaun Agee",
+    "team_id": 245,
+    "team_name": "Texas A&M Aggies",
+    "minutes": 31,
+    "points": 22
+  },
+  {
+    "event_id": 401856492,
+    "date": "20260319",
+    "player_id": 5311530,
+    "player_name": "Rubén Dominguez",
+    "team_id": 245,
+    "team_name": "Texas A&M Aggies",
+    "minutes": 25,
+    "points": 11
+  },
+  {
+    "event_id": 401856492,
+    "date": "20260319",
+    "player_id": 5176153,
+    "player_name": "Marcus Hill",
+    "team_id": 245,
+    "team_name": "Texas A&M Aggies",
+    "minutes": 19,
+    "points": 4
+  },
+  {
+    "event_id": 401856492,
+    "date": "20260319",
+    "player_id": 5106285,
+    "player_name": "Pop Isaacs",
+    "team_id": 245,
+    "team_name": "Texas A&M Aggies",
+    "minutes": 23,
+    "points": 3
+  },
+  {
+    "event_id": 401856492,
+    "date": "20260319",
+    "player_id": 4683682,
+    "player_name": "Rylan Griffen",
+    "team_id": 245,
+    "team_name": "Texas A&M Aggies",
+    "minutes": 24,
+    "points": 4
+  },
+  {
+    "event_id": 401856492,
+    "date": "20260319",
+    "player_id": 5101692,
+    "player_name": "Jamie Vinson",
+    "team_id": 245,
+    "team_name": "Texas A&M Aggies",
+    "minutes": 9,
+    "points": 5
+  },
+  {
+    "event_id": 401856492,
+    "date": "20260319",
+    "player_id": 4683146,
+    "player_name": "Zach Clemence",
+    "team_id": 245,
+    "team_name": "Texas A&M Aggies",
+    "minutes": 21,
+    "points": 3
+  },
+  {
+    "event_id": 401856492,
+    "date": "20260319",
+    "player_id": 5176160,
+    "player_name": "Josh Holloway",
+    "team_id": 245,
+    "team_name": "Texas A&M Aggies",
+    "minutes": 12,
+    "points": 0
+  },
+  {
+    "event_id": 401856492,
+    "date": "20260319",
+    "player_id": 5107078,
+    "player_name": "Jacari Lane",
+    "team_id": 245,
+    "team_name": "Texas A&M Aggies",
+    "minutes": 12,
+    "points": 2
+  },
+  {
+    "event_id": 401856492,
+    "date": "20260319",
+    "player_id": 4896862,
+    "player_name": "Ali Dibba",
+    "team_id": 245,
+    "team_name": "Texas A&M Aggies",
+    "minutes": 24,
+    "points": 9
+  },
+  {
+    "event_id": 401856492,
+    "date": "20260319",
+    "player_id": 5105412,
+    "player_name": "Federiko Federiko",
+    "team_id": 245,
+    "team_name": "Texas A&M Aggies",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856492,
+    "date": "20260319",
+    "player_id": 5061578,
+    "player_name": "Chris McDermott",
+    "team_id": 245,
+    "team_name": "Texas A&M Aggies",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856492,
+    "date": "20260319",
+    "player_id": 4683779,
+    "player_name": "Mackenzie Mgbako",
+    "team_id": 245,
+    "team_name": "Texas A&M Aggies",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856492,
+    "date": "20260319",
+    "player_id": 5041941,
+    "player_name": "Jeremiah Green",
+    "team_id": 245,
+    "team_name": "Texas A&M Aggies",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856492,
+    "date": "20260319",
+    "player_id": 4823977,
+    "player_name": "Noah Shelby",
+    "team_id": 245,
+    "team_name": "Texas A&M Aggies",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856492,
+    "date": "20260319",
+    "player_id": 5105418,
+    "player_name": "Harry Wessels",
+    "team_id": 2608,
+    "team_name": "Saint Mary's Gaels",
+    "minutes": 10,
+    "points": 0
+  },
+  {
+    "event_id": 401856492,
+    "date": "20260319",
+    "player_id": 5313031,
+    "player_name": "Dillan Shaw",
+    "team_id": 2608,
+    "team_name": "Saint Mary's Gaels",
+    "minutes": 35,
+    "points": 8
+  },
+  {
+    "event_id": 401856492,
+    "date": "20260319",
+    "player_id": 5313030,
+    "player_name": "Mantas Juzenas",
+    "team_id": 2608,
+    "team_name": "Saint Mary's Gaels",
+    "minutes": 6,
+    "points": 0
+  },
+  {
+    "event_id": 401856492,
+    "date": "20260319",
+    "player_id": 5240980,
+    "player_name": "Mikey Lewis",
+    "team_id": 2608,
+    "team_name": "Saint Mary's Gaels",
+    "minutes": 22,
+    "points": 5
+  },
+  {
+    "event_id": 401856492,
+    "date": "20260319",
+    "player_id": 5183875,
+    "player_name": "Joshua Dent",
+    "team_id": 2608,
+    "team_name": "Saint Mary's Gaels",
+    "minutes": 36,
+    "points": 18
+  },
+  {
+    "event_id": 401856492,
+    "date": "20260319",
+    "player_id": 5240981,
+    "player_name": "Oliver Faubert",
+    "team_id": 2608,
+    "team_name": "Saint Mary's Gaels",
+    "minutes": 1,
+    "points": 0
+  },
+  {
+    "event_id": 401856492,
+    "date": "20260319",
+    "player_id": 5174955,
+    "player_name": "Paulius Murauskas",
+    "team_id": 2608,
+    "team_name": "Saint Mary's Gaels",
+    "minutes": 23,
+    "points": 4
+  },
+  {
+    "event_id": 401856492,
+    "date": "20260319",
+    "player_id": 5176481,
+    "player_name": "Andrew McKeever",
+    "team_id": 2608,
+    "team_name": "Saint Mary's Gaels",
+    "minutes": 29,
+    "points": 0
+  },
+  {
+    "event_id": 401856492,
+    "date": "20260319",
+    "player_id": 5241001,
+    "player_name": "Tony Duckett",
+    "team_id": 2608,
+    "team_name": "Saint Mary's Gaels",
+    "minutes": 3,
+    "points": 0
+  },
+  {
+    "event_id": 401856492,
+    "date": "20260319",
+    "player_id": 5123978,
+    "player_name": "Rory Hawke",
+    "team_id": 2608,
+    "team_name": "Saint Mary's Gaels",
+    "minutes": 7,
+    "points": 0
+  },
+  {
+    "event_id": 401856492,
+    "date": "20260319",
+    "player_id": 5101655,
+    "player_name": "Liam Campbell",
+    "team_id": 2608,
+    "team_name": "Saint Mary's Gaels",
+    "minutes": 28,
+    "points": 15
+  },
+  {
+    "event_id": 401856492,
+    "date": "20260319",
+    "player_id": 5313032,
+    "player_name": "Trent MacLean",
+    "team_id": 2608,
+    "team_name": "Saint Mary's Gaels",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856492,
+    "date": "20260319",
+    "player_id": 5105421,
+    "player_name": "Kevin Gad",
+    "team_id": 2608,
+    "team_name": "Saint Mary's Gaels",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856492,
+    "date": "20260319",
+    "player_id": 4685682,
+    "player_name": "Jazz Gardner",
+    "team_id": 2608,
+    "team_name": "Saint Mary's Gaels",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856492,
+    "date": "20260319",
+    "player_id": 5105419,
+    "player_name": "Cade Bennett",
+    "team_id": 2608,
+    "team_name": "Saint Mary's Gaels",
     "minutes": null,
     "points": 0
   }

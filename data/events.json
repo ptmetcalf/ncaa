@@ -104,8 +104,8 @@
     "date": "20260319",
     "name": "Texas Longhorns at BYU Cougars",
     "short_name": "TEX VS BYU",
-    "completed": false,
-    "status": "In Progress",
+    "completed": true,
+    "status": "Final",
     "home_team_id": 252,
     "away_team_id": 251
   },
@@ -124,8 +124,8 @@
     "date": "20260319",
     "name": "Howard Bison at Michigan Wolverines",
     "short_name": "HOW VS MICH",
-    "completed": false,
-    "status": "In Progress",
+    "completed": true,
+    "status": "Final",
     "home_team_id": 130,
     "away_team_id": 47
   },
@@ -164,8 +164,8 @@
     "date": "20260319",
     "name": "VCU Rams at North Carolina Tar Heels",
     "short_name": "VCU VS UNC",
-    "completed": false,
-    "status": "In Progress",
+    "completed": true,
+    "status": "Final",
     "home_team_id": 153,
     "away_team_id": 2670
   },
@@ -175,7 +175,7 @@
     "name": "Pennsylvania Quakers at Illinois Fighting Illini",
     "short_name": "PENN VS ILL",
     "completed": false,
-    "status": "Scheduled",
+    "status": "In Progress",
     "home_team_id": 356,
     "away_team_id": 219
   },
@@ -184,8 +184,8 @@
     "date": "20260319",
     "name": "Texas A&M Aggies at Saint Mary's Gaels",
     "short_name": "TA&M VS SMC",
-    "completed": false,
-    "status": "In Progress",
+    "completed": true,
+    "status": "Final",
     "home_team_id": 2608,
     "away_team_id": 245
   },
