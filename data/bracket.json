@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-20T23:28:21.752Z",
+  "generated_at": "2026-03-21T00:49:10.117Z",
   "year": 2026,
   "available": true,
   "source": "espn_bracket_page",
@@ -271,7 +271,7 @@
       "date": "2026-03-20T23:25:00Z",
       "status_state": "in",
       "status_desc": "In Progress",
-      "status_detail": "19:02 - 1st",
+      "status_detail": "16:45 - 2nd",
       "location": "San Diego, CA",
       "link": "/mens-college-basketball/game/_/gameId/401856494",
       "competitor_one": {
@@ -279,7 +279,7 @@
         "team_name": "St. John's",
         "abbreviation": "SJU",
         "seed": 5,
-        "score": 3,
+        "score": 49,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2599.png"
       },
@@ -288,7 +288,7 @@
         "team_name": "Northern Iowa",
         "abbreviation": "UNI",
         "seed": 12,
-        "score": 0,
+        "score": 32,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2460.png"
       }
@@ -389,17 +389,17 @@
       "region_id": 1,
       "bracket_location": 7,
       "date": "2026-03-20T23:31:00Z",
-      "status_state": "pre",
-      "status_desc": "Scheduled",
-      "status_detail": "3/20 - 7:31 PM EDT",
+      "status_state": "in",
+      "status_desc": "In Progress",
+      "status_detail": "17:28 - 2nd",
       "location": "Philadelphia, PA",
-      "link": "/mens-college-basketball/game/_/gameId/401856496/ucf-ucla",
+      "link": "/mens-college-basketball/game/_/gameId/401856496",
       "competitor_one": {
         "team_id": 26,
         "team_name": "UCLA",
         "abbreviation": "UCLA",
         "seed": 7,
-        "score": 0,
+        "score": 42,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/26.png"
       },
@@ -408,7 +408,7 @@
         "team_name": "UCF",
         "abbreviation": "UCF",
         "seed": 10,
-        "score": 0,
+        "score": 32,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2116.png"
       }
@@ -481,7 +481,7 @@
       "date": "2026-03-20T22:50:00Z",
       "status_state": "in",
       "status_desc": "In Progress",
-      "status_detail": "3:44 - 1st",
+      "status_detail": "3:20 - 2nd",
       "location": "Tampa, FL",
       "link": "/mens-college-basketball/game/_/gameId/401856522",
       "competitor_one": {
@@ -489,7 +489,7 @@
         "team_name": "Clemson",
         "abbreviation": "CLEM",
         "seed": 8,
-        "score": 16,
+        "score": 51,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/228.png"
       },
@@ -498,7 +498,7 @@
         "team_name": "Iowa",
         "abbreviation": "IOWA",
         "seed": 9,
-        "score": 25,
+        "score": 59,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2294.png"
       }
@@ -899,17 +899,17 @@
       "region_id": 3,
       "bracket_location": 24,
       "date": "2026-03-20T23:35:00Z",
-      "status_state": "pre",
-      "status_desc": "Scheduled",
-      "status_detail": "3/20 - 7:35 PM EDT",
+      "status_state": "in",
+      "status_desc": "In Progress",
+      "status_detail": "17:54 - 2nd",
       "location": "St. Louis, MO",
-      "link": "/mens-college-basketball/game/_/gameId/401856519/queens-purdue",
+      "link": "/mens-college-basketball/game/_/gameId/401856519",
       "competitor_one": {
         "team_id": 2509,
         "team_name": "Purdue",
         "abbreviation": "PUR",
         "seed": 2,
-        "score": 0,
+        "score": 51,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2509.png"
       },
@@ -918,7 +918,7 @@
         "team_name": "Queens University",
         "abbreviation": "QUC",
         "seed": 15,
-        "score": 0,
+        "score": 36,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2511.png"
       }
