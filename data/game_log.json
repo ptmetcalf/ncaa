@@ -11128,5 +11128,335 @@
     "team_name": "Arizona Wildcats",
     "minutes": null,
     "points": 0
+  },
+  {
+    "event_id": 401856532,
+    "date": "20260321",
+    "player_id": 4917097,
+    "player_name": "Robbie Avila",
+    "team_id": 139,
+    "team_name": "Saint Louis Billikens",
+    "minutes": 30,
+    "points": 9
+  },
+  {
+    "event_id": 401856532,
+    "date": "20260321",
+    "player_id": 5239707,
+    "player_name": "Amari McCottry",
+    "team_id": 139,
+    "team_name": "Saint Louis Billikens",
+    "minutes": 26,
+    "points": 14
+  },
+  {
+    "event_id": 401856532,
+    "date": "20260321",
+    "player_id": 5175171,
+    "player_name": "Quentin Jones",
+    "team_id": 139,
+    "team_name": "Saint Louis Billikens",
+    "minutes": 26,
+    "points": 7
+  },
+  {
+    "event_id": 401856532,
+    "date": "20260321",
+    "player_id": 5107242,
+    "player_name": "Dion Brown",
+    "team_id": 139,
+    "team_name": "Saint Louis Billikens",
+    "minutes": 30,
+    "points": 13
+  },
+  {
+    "event_id": 401856532,
+    "date": "20260321",
+    "player_id": 4711258,
+    "player_name": "Trey Green",
+    "team_id": 139,
+    "team_name": "Saint Louis Billikens",
+    "minutes": 20,
+    "points": 3
+  },
+  {
+    "event_id": 401856532,
+    "date": "20260321",
+    "player_id": 5183809,
+    "player_name": "Ishan Sharma",
+    "team_id": 139,
+    "team_name": "Saint Louis Billikens",
+    "minutes": 22,
+    "points": 8
+  },
+  {
+    "event_id": 401856532,
+    "date": "20260321",
+    "player_id": 5107797,
+    "player_name": "Paul Otieno",
+    "team_id": 139,
+    "team_name": "Saint Louis Billikens",
+    "minutes": 11,
+    "points": 5
+  },
+  {
+    "event_id": 401856532,
+    "date": "20260321",
+    "player_id": 4685659,
+    "player_name": "Brady Dunlap",
+    "team_id": 139,
+    "team_name": "Saint Louis Billikens",
+    "minutes": 21,
+    "points": 9
+  },
+  {
+    "event_id": 401856532,
+    "date": "20260321",
+    "player_id": 5105980,
+    "player_name": "Kellen Thames",
+    "team_id": 139,
+    "team_name": "Saint Louis Billikens",
+    "minutes": 14,
+    "points": 4
+  },
+  {
+    "event_id": 401856532,
+    "date": "20260321",
+    "player_id": 5311879,
+    "player_name": "Badara Diakite",
+    "team_id": 139,
+    "team_name": "Saint Louis Billikens",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856532,
+    "date": "20260321",
+    "player_id": 5236225,
+    "player_name": "Jax Kerr",
+    "team_id": 139,
+    "team_name": "Saint Louis Billikens",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856532,
+    "date": "20260321",
+    "player_id": 5106205,
+    "player_name": "Kalu Anya",
+    "team_id": 139,
+    "team_name": "Saint Louis Billikens",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856532,
+    "date": "20260321",
+    "player_id": 5061579,
+    "player_name": "Dylan Warlick",
+    "team_id": 139,
+    "team_name": "Saint Louis Billikens",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856532,
+    "date": "20260321",
+    "player_id": 5254324,
+    "player_name": "Luke Laczkowski",
+    "team_id": 139,
+    "team_name": "Saint Louis Billikens",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856532,
+    "date": "20260321",
+    "player_id": 5254323,
+    "player_name": "Cam Hutson",
+    "team_id": 139,
+    "team_name": "Saint Louis Billikens",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856532,
+    "date": "20260321",
+    "player_id": 5107907,
+    "player_name": "Isaac Holmes",
+    "team_id": 139,
+    "team_name": "Saint Louis Billikens",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856532,
+    "date": "20260321",
+    "player_id": 5107905,
+    "player_name": "Jaden Schertz",
+    "team_id": 139,
+    "team_name": "Saint Louis Billikens",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856532,
+    "date": "20260321",
+    "player_id": 5175737,
+    "player_name": "Yaxel Lendeborg",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": 32,
+    "points": 25
+  },
+  {
+    "event_id": 401856532,
+    "date": "20260321",
+    "player_id": 4873153,
+    "player_name": "Morez Johnson Jr.",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": 27,
+    "points": 15
+  },
+  {
+    "event_id": 401856532,
+    "date": "20260321",
+    "player_id": 5174983,
+    "player_name": "Aday Mara",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": 26,
+    "points": 16
+  },
+  {
+    "event_id": 401856532,
+    "date": "20260321",
+    "player_id": 4869764,
+    "player_name": "Elliot Cadeau",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": 37,
+    "points": 12
+  },
+  {
+    "event_id": 401856532,
+    "date": "20260321",
+    "player_id": 4433138,
+    "player_name": "Nimari Burnett",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": 24,
+    "points": 11
+  },
+  {
+    "event_id": 401856532,
+    "date": "20260321",
+    "player_id": 5244505,
+    "player_name": "Oscar Goodman",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": 1,
+    "points": 3
+  },
+  {
+    "event_id": 401856532,
+    "date": "20260321",
+    "player_id": 4684596,
+    "player_name": "Will Tschetter",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": 7,
+    "points": 2
+  },
+  {
+    "event_id": 401856532,
+    "date": "20260321",
+    "player_id": 5311988,
+    "player_name": "Malick Kordel",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": 1,
+    "points": 0
+  },
+  {
+    "event_id": 401856532,
+    "date": "20260321",
+    "player_id": 5239559,
+    "player_name": "Howard Eisley Jr.",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": 0,
+    "points": 0
+  },
+  {
+    "event_id": 401856532,
+    "date": "20260321",
+    "player_id": 5106648,
+    "player_name": "Charlie May",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": 0,
+    "points": 0
+  },
+  {
+    "event_id": 401856532,
+    "date": "20260321",
+    "player_id": 5105836,
+    "player_name": "Roddy Gayle Jr.",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": 20,
+    "points": 3
+  },
+  {
+    "event_id": 401856532,
+    "date": "20260321",
+    "player_id": 5041954,
+    "player_name": "Trey McKenney",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": 23,
+    "points": 8
+  },
+  {
+    "event_id": 401856532,
+    "date": "20260321",
+    "player_id": 5174787,
+    "player_name": "Harrison Hochberg",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856532,
+    "date": "20260321",
+    "player_id": 5311987,
+    "player_name": "Ricky Liburd",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856532,
+    "date": "20260321",
+    "player_id": 5214641,
+    "player_name": "L.J. Cason",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856532,
+    "date": "20260321",
+    "player_id": 5174808,
+    "player_name": "Winters Grady",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": null,
+    "points": 0
   }
 ]

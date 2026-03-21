@@ -36,6 +36,15 @@
     "tournament_minutes": 68
   },
   {
+    "player_id": 4873153,
+    "player_name": "Morez Johnson Jr.",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "games_played": 2,
+    "tournament_points": 36,
+    "tournament_minutes": 53
+  },
+  {
     "player_id": 5192142,
     "player_name": "Cedric Taylor III",
     "team_id": 47,
@@ -52,6 +61,15 @@
     "games_played": 1,
     "tournament_points": 35,
     "tournament_minutes": 40
+  },
+  {
+    "player_id": 5174983,
+    "player_name": "Aday Mara",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "games_played": 2,
+    "tournament_points": 35,
+    "tournament_minutes": 47
   },
   {
     "player_id": 5106270,
@@ -72,6 +90,15 @@
     "tournament_minutes": 69
   },
   {
+    "player_id": 5175737,
+    "player_name": "Yaxel Lendeborg",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "games_played": 2,
+    "tournament_points": 34,
+    "tournament_minutes": 59
+  },
+  {
     "player_id": 5060712,
     "player_name": "Terrence Hill Jr.",
     "team_id": 2670,
@@ -79,6 +106,15 @@
     "games_played": 1,
     "tournament_points": 34,
     "tournament_minutes": 40
+  },
+  {
+    "player_id": 5107242,
+    "player_name": "Dion Brown",
+    "team_id": 139,
+    "team_name": "Saint Louis Billikens",
+    "games_played": 2,
+    "tournament_points": 31,
+    "tournament_minutes": 52
   },
   {
     "player_id": 5105809,
@@ -205,6 +241,24 @@
     "games_played": 1,
     "tournament_points": 27,
     "tournament_minutes": 38
+  },
+  {
+    "player_id": 5239707,
+    "player_name": "Amari McCottry",
+    "team_id": 139,
+    "team_name": "Saint Louis Billikens",
+    "games_played": 2,
+    "tournament_points": 27,
+    "tournament_minutes": 53
+  },
+  {
+    "player_id": 4433138,
+    "player_name": "Nimari Burnett",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "games_played": 2,
+    "tournament_points": 26,
+    "tournament_minutes": 50
   },
   {
     "player_id": 5187600,
@@ -486,13 +540,13 @@
     "tournament_minutes": 35
   },
   {
-    "player_id": 4873153,
-    "player_name": "Morez Johnson Jr.",
-    "team_id": 130,
-    "team_name": "Michigan Wolverines",
-    "games_played": 1,
+    "player_id": 4917097,
+    "player_name": "Robbie Avila",
+    "team_id": 139,
+    "team_name": "Saint Louis Billikens",
+    "games_played": 2,
     "tournament_points": 21,
-    "tournament_minutes": 26
+    "tournament_minutes": 58
   },
   {
     "player_id": 5314511,
@@ -547,6 +601,24 @@
     "games_played": 1,
     "tournament_points": 20,
     "tournament_minutes": 30
+  },
+  {
+    "player_id": 5183809,
+    "player_name": "Ishan Sharma",
+    "team_id": 139,
+    "team_name": "Saint Louis Billikens",
+    "games_played": 2,
+    "tournament_points": 20,
+    "tournament_minutes": 44
+  },
+  {
+    "player_id": 4685659,
+    "player_name": "Brady Dunlap",
+    "team_id": 139,
+    "team_name": "Saint Louis Billikens",
+    "games_played": 2,
+    "tournament_points": 20,
+    "tournament_minutes": 38
   },
   {
     "player_id": 5108877,
@@ -639,15 +711,6 @@
     "tournament_minutes": 36
   },
   {
-    "player_id": 5174983,
-    "player_name": "Aday Mara",
-    "team_id": 130,
-    "team_name": "Michigan Wolverines",
-    "games_played": 1,
-    "tournament_points": 19,
-    "tournament_minutes": 21
-  },
-  {
     "player_id": 4433285,
     "player_name": "Mark Mitchell",
     "team_id": 142,
@@ -720,13 +783,13 @@
     "tournament_minutes": 37
   },
   {
-    "player_id": 5107242,
-    "player_name": "Dion Brown",
-    "team_id": 139,
-    "team_name": "Saint Louis Billikens",
-    "games_played": 1,
+    "player_id": 5041954,
+    "player_name": "Trey McKenney",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "games_played": 2,
     "tournament_points": 18,
-    "tournament_minutes": 22
+    "tournament_minutes": 48
   },
   {
     "player_id": 5254165,
@@ -808,6 +871,24 @@
     "games_played": 1,
     "tournament_points": 17,
     "tournament_minutes": 25
+  },
+  {
+    "player_id": 4869764,
+    "player_name": "Elliot Cadeau",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "games_played": 2,
+    "tournament_points": 17,
+    "tournament_minutes": 63
+  },
+  {
+    "player_id": 5105836,
+    "player_name": "Roddy Gayle Jr.",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "games_played": 2,
+    "tournament_points": 17,
+    "tournament_minutes": 43
   },
   {
     "player_id": 4837356,
@@ -916,6 +997,15 @@
     "games_played": 1,
     "tournament_points": 16,
     "tournament_minutes": 30
+  },
+  {
+    "player_id": 5175171,
+    "player_name": "Quentin Jones",
+    "team_id": 139,
+    "team_name": "Saint Louis Billikens",
+    "games_played": 2,
+    "tournament_points": 16,
+    "tournament_minutes": 52
   },
   {
     "player_id": 5077373,
@@ -1062,13 +1152,13 @@
     "tournament_minutes": 35
   },
   {
-    "player_id": 4433138,
-    "player_name": "Nimari Burnett",
-    "team_id": 130,
-    "team_name": "Michigan Wolverines",
-    "games_played": 1,
+    "player_id": 5105980,
+    "player_name": "Kellen Thames",
+    "team_id": 139,
+    "team_name": "Saint Louis Billikens",
+    "games_played": 2,
     "tournament_points": 15,
-    "tournament_minutes": 26
+    "tournament_minutes": 28
   },
   {
     "player_id": 5144375,
@@ -1278,13 +1368,13 @@
     "tournament_minutes": 22
   },
   {
-    "player_id": 5105836,
-    "player_name": "Roddy Gayle Jr.",
-    "team_id": 130,
-    "team_name": "Michigan Wolverines",
-    "games_played": 1,
+    "player_id": 5107797,
+    "player_name": "Paul Otieno",
+    "team_id": 139,
+    "team_name": "Saint Louis Billikens",
+    "games_played": 2,
     "tournament_points": 14,
-    "tournament_minutes": 23
+    "tournament_minutes": 22
   },
   {
     "player_id": 5176736,
@@ -1438,15 +1528,6 @@
     "games_played": 1,
     "tournament_points": 13,
     "tournament_minutes": 32
-  },
-  {
-    "player_id": 5239707,
-    "player_name": "Amari McCottry",
-    "team_id": 139,
-    "team_name": "Saint Louis Billikens",
-    "games_played": 1,
-    "tournament_points": 13,
-    "tournament_minutes": 27
   },
   {
     "player_id": 5176681,
@@ -1638,24 +1719,6 @@
     "tournament_minutes": 29
   },
   {
-    "player_id": 4917097,
-    "player_name": "Robbie Avila",
-    "team_id": 139,
-    "team_name": "Saint Louis Billikens",
-    "games_played": 1,
-    "tournament_points": 12,
-    "tournament_minutes": 28
-  },
-  {
-    "player_id": 5183809,
-    "player_name": "Ishan Sharma",
-    "team_id": 139,
-    "team_name": "Saint Louis Billikens",
-    "games_played": 1,
-    "tournament_points": 12,
-    "tournament_minutes": 22
-  },
-  {
     "player_id": 4838721,
     "player_name": "Tyler Nickel",
     "team_id": 238,
@@ -1816,24 +1879,6 @@
     "games_played": 1,
     "tournament_points": 11,
     "tournament_minutes": 34
-  },
-  {
-    "player_id": 4685659,
-    "player_name": "Brady Dunlap",
-    "team_id": 139,
-    "team_name": "Saint Louis Billikens",
-    "games_played": 1,
-    "tournament_points": 11,
-    "tournament_minutes": 17
-  },
-  {
-    "player_id": 5105980,
-    "player_name": "Kellen Thames",
-    "team_id": 139,
-    "team_name": "Saint Louis Billikens",
-    "games_played": 1,
-    "tournament_points": 11,
-    "tournament_minutes": 14
   },
   {
     "player_id": 4592677,
@@ -2070,13 +2115,13 @@
     "tournament_minutes": 19
   },
   {
-    "player_id": 5041954,
-    "player_name": "Trey McKenney",
-    "team_id": 130,
-    "team_name": "Michigan Wolverines",
-    "games_played": 1,
+    "player_id": 4711258,
+    "player_name": "Trey Green",
+    "team_id": 139,
+    "team_name": "Saint Louis Billikens",
+    "games_played": 2,
     "tournament_points": 10,
-    "tournament_minutes": 25
+    "tournament_minutes": 45
   },
   {
     "player_id": 4701125,
@@ -2230,33 +2275,6 @@
     "games_played": 1,
     "tournament_points": 9,
     "tournament_minutes": 21
-  },
-  {
-    "player_id": 5175737,
-    "player_name": "Yaxel Lendeborg",
-    "team_id": 130,
-    "team_name": "Michigan Wolverines",
-    "games_played": 1,
-    "tournament_points": 9,
-    "tournament_minutes": 27
-  },
-  {
-    "player_id": 5175171,
-    "player_name": "Quentin Jones",
-    "team_id": 139,
-    "team_name": "Saint Louis Billikens",
-    "games_played": 1,
-    "tournament_points": 9,
-    "tournament_minutes": 26
-  },
-  {
-    "player_id": 5107797,
-    "player_name": "Paul Otieno",
-    "team_id": 139,
-    "team_name": "Saint Louis Billikens",
-    "games_played": 1,
-    "tournament_points": 9,
-    "tournament_minutes": 11
   },
   {
     "player_id": 5106843,
@@ -2520,6 +2538,15 @@
     "tournament_minutes": 21
   },
   {
+    "player_id": 4684596,
+    "player_name": "Will Tschetter",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "games_played": 2,
+    "tournament_points": 8,
+    "tournament_minutes": 27
+  },
+  {
     "player_id": 5174672,
     "player_name": "Michael Belle",
     "team_id": 2670,
@@ -2772,15 +2799,6 @@
     "tournament_minutes": 36
   },
   {
-    "player_id": 4711258,
-    "player_name": "Trey Green",
-    "team_id": 139,
-    "team_name": "Saint Louis Billikens",
-    "games_played": 1,
-    "tournament_points": 7,
-    "tournament_minutes": 25
-  },
-  {
     "player_id": 4711402,
     "player_name": "Jordan Ross",
     "team_id": 61,
@@ -3013,15 +3031,6 @@
     "games_played": 1,
     "tournament_points": 6,
     "tournament_minutes": 24
-  },
-  {
-    "player_id": 4684596,
-    "player_name": "Will Tschetter",
-    "team_id": 130,
-    "team_name": "Michigan Wolverines",
-    "games_played": 1,
-    "tournament_points": 6,
-    "tournament_minutes": 20
   },
   {
     "player_id": 5174661,
@@ -3283,15 +3292,6 @@
     "games_played": 1,
     "tournament_points": 5,
     "tournament_minutes": 34
-  },
-  {
-    "player_id": 4869764,
-    "player_name": "Elliot Cadeau",
-    "team_id": 130,
-    "team_name": "Michigan Wolverines",
-    "games_played": 1,
-    "tournament_points": 5,
-    "tournament_minutes": 26
   },
   {
     "player_id": 5144153,
@@ -3897,6 +3897,15 @@
     "tournament_minutes": 18
   },
   {
+    "player_id": 5244505,
+    "player_name": "Oscar Goodman",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "games_played": 2,
+    "tournament_points": 3,
+    "tournament_minutes": 4
+  },
+  {
     "player_id": 5176731,
     "player_name": "Kerrington Kiel",
     "team_id": 2653,
@@ -4207,9 +4216,9 @@
     "player_name": "Malick Kordel",
     "team_id": 130,
     "team_name": "Michigan Wolverines",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 2,
-    "tournament_minutes": 1
+    "tournament_minutes": 2
   },
   {
     "player_id": 5238204,
@@ -6372,20 +6381,11 @@
     "tournament_minutes": 0
   },
   {
-    "player_id": 5244505,
-    "player_name": "Oscar Goodman",
-    "team_id": 130,
-    "team_name": "Michigan Wolverines",
-    "games_played": 1,
-    "tournament_points": 0,
-    "tournament_minutes": 3
-  },
-  {
     "player_id": 5239559,
     "player_name": "Howard Eisley Jr.",
     "team_id": 130,
     "team_name": "Michigan Wolverines",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 1
   },
@@ -6394,7 +6394,7 @@
     "player_name": "Charlie May",
     "team_id": 130,
     "team_name": "Michigan Wolverines",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 1
   },
@@ -6403,7 +6403,7 @@
     "player_name": "Harrison Hochberg",
     "team_id": 130,
     "team_name": "Michigan Wolverines",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -6412,7 +6412,7 @@
     "player_name": "Ricky Liburd",
     "team_id": 130,
     "team_name": "Michigan Wolverines",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -6421,7 +6421,7 @@
     "player_name": "L.J. Cason",
     "team_id": 130,
     "team_name": "Michigan Wolverines",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -6430,7 +6430,7 @@
     "player_name": "Winters Grady",
     "team_id": 130,
     "team_name": "Michigan Wolverines",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -6439,7 +6439,7 @@
     "player_name": "Jax Kerr",
     "team_id": 139,
     "team_name": "Saint Louis Billikens",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 3
   },
@@ -6448,7 +6448,7 @@
     "player_name": "Cam Hutson",
     "team_id": 139,
     "team_name": "Saint Louis Billikens",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 3
   },
@@ -6457,7 +6457,7 @@
     "player_name": "Isaac Holmes",
     "team_id": 139,
     "team_name": "Saint Louis Billikens",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 1
   },
@@ -6466,7 +6466,7 @@
     "player_name": "Jaden Schertz",
     "team_id": 139,
     "team_name": "Saint Louis Billikens",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 1
   },
@@ -6475,7 +6475,7 @@
     "player_name": "Badara Diakite",
     "team_id": 139,
     "team_name": "Saint Louis Billikens",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -6484,7 +6484,7 @@
     "player_name": "Kalu Anya",
     "team_id": 139,
     "team_name": "Saint Louis Billikens",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -6493,7 +6493,7 @@
     "player_name": "Dylan Warlick",
     "team_id": 139,
     "team_name": "Saint Louis Billikens",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -6502,7 +6502,7 @@
     "player_name": "Luke Laczkowski",
     "team_id": 139,
     "team_name": "Saint Louis Billikens",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },

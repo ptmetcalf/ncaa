@@ -384,8 +384,8 @@
     "date": "20260321",
     "name": "Saint Louis Billikens at Michigan Wolverines",
     "short_name": "SLU VS MICH",
-    "completed": false,
-    "status": "Halftime",
+    "completed": true,
+    "status": "Final",
     "home_team_id": 130,
     "away_team_id": 139
   },
