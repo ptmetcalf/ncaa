@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-21T03:59:32.656Z",
+  "generated_at": "2026-03-21T04:48:50.030Z",
   "year": 2026,
   "available": true,
   "source": "espn_bracket_page",
@@ -8,7 +8,7 @@
   "tournament_name": "Men's NCAA Tournament",
   "short_name": "NCAA",
   "teams_count": 68,
-  "matchups_count": 50,
+  "matchups_count": 52,
   "regions": [
     {
       "id": 1,
@@ -299,18 +299,18 @@
       "region_id": 1,
       "bracket_location": 4,
       "date": "2026-03-21T02:07:00Z",
-      "status_state": "in",
-      "status_desc": "In Progress",
-      "status_detail": "3:34 - 2nd",
+      "status_state": "post",
+      "status_desc": "Final",
+      "status_detail": "Final",
       "location": "San Diego, CA",
-      "link": "/mens-college-basketball/game/_/gameId/401856495",
+      "link": "/mens-college-basketball/game/_/gameId/401856495/ca-baptist-kansas",
       "competitor_one": {
         "team_id": 2305,
         "team_name": "Kansas",
         "abbreviation": "KU",
         "seed": 4,
-        "score": 66,
-        "winner": false,
+        "score": 68,
+        "winner": true,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2305.png"
       },
       "competitor_two": {
@@ -318,7 +318,7 @@
         "team_name": "California Baptist",
         "abbreviation": "CBU",
         "seed": 13,
-        "score": 53,
+        "score": 60,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2856.png"
       }
@@ -419,18 +419,18 @@
       "region_id": 1,
       "bracket_location": 8,
       "date": "2026-03-21T02:31:00Z",
-      "status_state": "in",
-      "status_desc": "In Progress",
-      "status_detail": "14:55 - 2nd",
+      "status_state": "post",
+      "status_desc": "Final",
+      "status_detail": "Final",
       "location": "Philadelphia, PA",
-      "link": "/mens-college-basketball/game/_/gameId/401856497",
+      "link": "/mens-college-basketball/game/_/gameId/401856497/furman-uconn",
       "competitor_one": {
         "team_id": 41,
         "team_name": "UConn",
         "abbreviation": "CONN",
         "seed": 2,
-        "score": 54,
-        "winner": false,
+        "score": 82,
+        "winner": true,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/41.png"
       },
       "competitor_two": {
@@ -438,7 +438,7 @@
         "team_name": "Furman",
         "abbreviation": "FUR",
         "seed": 15,
-        "score": 45,
+        "score": 71,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/231.png"
       }
@@ -869,18 +869,18 @@
       "region_id": 3,
       "bracket_location": 23,
       "date": "2026-03-21T02:07:00Z",
-      "status_state": "in",
-      "status_desc": "In Progress",
-      "status_detail": "7:39 - 2nd",
+      "status_state": "post",
+      "status_desc": "Final",
+      "status_detail": "Final",
       "location": "St. Louis, MO",
-      "link": "/mens-college-basketball/game/_/gameId/401856518",
+      "link": "/mens-college-basketball/game/_/gameId/401856518/missouri-miami",
       "competitor_one": {
         "team_id": 2390,
         "team_name": "Miami",
         "abbreviation": "MIA",
         "seed": 7,
-        "score": 52,
-        "winner": false,
+        "score": 80,
+        "winner": true,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2390.png"
       },
       "competitor_two": {
@@ -888,7 +888,7 @@
         "team_name": "Missouri",
         "abbreviation": "MIZ",
         "seed": 10,
-        "score": 54,
+        "score": 66,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/142.png"
       }
@@ -1194,6 +1194,36 @@
       }
     },
     {
+      "matchup_id": 401856558,
+      "round_id": 2,
+      "region_id": 1,
+      "bracket_location": 2,
+      "date": "2026-03-22T04:00:00Z",
+      "status_state": "pre",
+      "status_desc": "Scheduled",
+      "status_detail": "3/22 - TBD",
+      "location": "San Diego, CA",
+      "link": "/mens-college-basketball/game/_/gameId/401856558/st-johns-kansas",
+      "competitor_one": {
+        "team_id": 2599,
+        "team_name": "St. John's",
+        "abbreviation": "SJU",
+        "seed": 5,
+        "score": 0,
+        "winner": false,
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2599.png"
+      },
+      "competitor_two": {
+        "team_id": 2305,
+        "team_name": "Kansas",
+        "abbreviation": "KU",
+        "seed": 4,
+        "score": 0,
+        "winner": false,
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2305.png"
+      }
+    },
+    {
       "matchup_id": 401856531,
       "round_id": 2,
       "region_id": 1,
@@ -1221,6 +1251,36 @@
         "score": 0,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/127.png"
+      }
+    },
+    {
+      "matchup_id": 401856559,
+      "round_id": 2,
+      "region_id": 1,
+      "bracket_location": 4,
+      "date": "2026-03-22T04:00:00Z",
+      "status_state": "pre",
+      "status_desc": "Scheduled",
+      "status_detail": "3/22 - TBD",
+      "location": "Philadelphia, PA",
+      "link": "/mens-college-basketball/game/_/gameId/401856559/ucla-uconn",
+      "competitor_one": {
+        "team_id": 26,
+        "team_name": "UCLA",
+        "abbreviation": "UCLA",
+        "seed": 7,
+        "score": 0,
+        "winner": false,
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/26.png"
+      },
+      "competitor_two": {
+        "team_id": 41,
+        "team_name": "UConn",
+        "abbreviation": "CONN",
+        "seed": 2,
+        "score": 0,
+        "winner": false,
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/41.png"
       }
     },
     {
@@ -1443,8 +1503,16 @@
       "status_desc": "Scheduled",
       "status_detail": "3/22 - TBD",
       "location": "St. Louis, MO",
-      "link": "/mens-college-basketball/game/_/gameId/401856564",
-      "competitor_one": null,
+      "link": "/mens-college-basketball/game/_/gameId/401856564/miami-purdue",
+      "competitor_one": {
+        "team_id": 2390,
+        "team_name": "Miami",
+        "abbreviation": "MIA",
+        "seed": 7,
+        "score": 0,
+        "winner": false,
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2390.png"
+      },
       "competitor_two": {
         "team_id": 2509,
         "team_name": "Purdue",

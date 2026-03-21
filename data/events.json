@@ -214,8 +214,8 @@
     "date": "20260320",
     "name": "California Baptist Lancers at Kansas Jayhawks",
     "short_name": "CBU VS KU",
-    "completed": false,
-    "status": "In Progress",
+    "completed": true,
+    "status": "Final",
     "home_team_id": 2305,
     "away_team_id": 2856
   },
@@ -234,8 +234,8 @@
     "date": "20260320",
     "name": "Furman Paladins at UConn Huskies",
     "short_name": "FUR VS CONN",
-    "completed": false,
-    "status": "In Progress",
+    "completed": true,
+    "status": "Final",
     "home_team_id": 41,
     "away_team_id": 231
   },
@@ -244,8 +244,8 @@
     "date": "20260320",
     "name": "Missouri Tigers at Miami Hurricanes",
     "short_name": "MIZ VS MIA",
-    "completed": false,
-    "status": "In Progress",
+    "completed": true,
+    "status": "Final",
     "home_team_id": 2390,
     "away_team_id": 142
   },

@@ -81,6 +81,15 @@
     "tournament_minutes": 40
   },
   {
+    "player_id": 5105809,
+    "player_name": "Tarris Reed Jr.",
+    "team_id": 41,
+    "team_name": "UConn Huskies",
+    "games_played": 1,
+    "tournament_points": 31,
+    "tournament_minutes": 35
+  },
+  {
     "player_id": 5107986,
     "player_name": "Ose Okojie",
     "team_id": 47,
@@ -151,6 +160,15 @@
     "games_played": 2,
     "tournament_points": 28,
     "tournament_minutes": 71
+  },
+  {
+    "player_id": 5041955,
+    "player_name": "Darryn Peterson",
+    "team_id": 2305,
+    "team_name": "Kansas Jayhawks",
+    "games_played": 1,
+    "tournament_points": 28,
+    "tournament_minutes": 37
   },
   {
     "player_id": 4848625,
@@ -234,6 +252,15 @@
     "tournament_minutes": 24
   },
   {
+    "player_id": 5178207,
+    "player_name": "Dominique Daniels Jr.",
+    "team_id": 2856,
+    "team_name": "California Baptist Lancers",
+    "games_played": 1,
+    "tournament_points": 25,
+    "tournament_minutes": 40
+  },
+  {
     "player_id": 4897438,
     "player_name": "Trey Kaufman-Renn",
     "team_id": 2509,
@@ -268,6 +295,15 @@
     "games_played": 1,
     "tournament_points": 24,
     "tournament_minutes": 36
+  },
+  {
+    "player_id": 5105798,
+    "player_name": "Malik Reneau",
+    "team_id": 2390,
+    "team_name": "Miami Hurricanes",
+    "games_played": 1,
+    "tournament_points": 24,
+    "tournament_minutes": 37
   },
   {
     "player_id": 5221321,
@@ -369,6 +405,15 @@
     "tournament_minutes": 32
   },
   {
+    "player_id": 4917149,
+    "player_name": "Alex Karaban",
+    "team_id": 41,
+    "team_name": "UConn Huskies",
+    "games_played": 1,
+    "tournament_points": 22,
+    "tournament_minutes": 38
+  },
+  {
     "player_id": 4703912,
     "player_name": "Nate Heise",
     "team_id": 66,
@@ -448,6 +493,33 @@
     "games_played": 1,
     "tournament_points": 21,
     "tournament_minutes": 26
+  },
+  {
+    "player_id": 5314511,
+    "player_name": "Alex Wilkins",
+    "team_id": 231,
+    "team_name": "Furman Paladins",
+    "games_played": 1,
+    "tournament_points": 21,
+    "tournament_minutes": 35
+  },
+  {
+    "player_id": 4896557,
+    "player_name": "Tom House",
+    "team_id": 231,
+    "team_name": "Furman Paladins",
+    "games_played": 1,
+    "tournament_points": 21,
+    "tournament_minutes": 36
+  },
+  {
+    "player_id": 4432196,
+    "player_name": "Jayden Stone",
+    "team_id": 142,
+    "team_name": "Missouri Tigers",
+    "games_played": 1,
+    "tournament_points": 21,
+    "tournament_minutes": 34
   },
   {
     "player_id": 5182573,
@@ -574,6 +646,15 @@
     "games_played": 1,
     "tournament_points": 19,
     "tournament_minutes": 21
+  },
+  {
+    "player_id": 4433285,
+    "player_name": "Mark Mitchell",
+    "team_id": 142,
+    "team_name": "Missouri Tigers",
+    "games_played": 1,
+    "tournament_points": 19,
+    "tournament_minutes": 37
   },
   {
     "player_id": 4707481,
@@ -727,6 +808,15 @@
     "games_played": 1,
     "tournament_points": 17,
     "tournament_minutes": 25
+  },
+  {
+    "player_id": 4837356,
+    "player_name": "Tre Donaldson",
+    "team_id": 2390,
+    "team_name": "Miami Hurricanes",
+    "games_played": 1,
+    "tournament_points": 17,
+    "tournament_minutes": 34
   },
   {
     "player_id": 4848637,
@@ -1017,6 +1107,15 @@
     "tournament_minutes": 28
   },
   {
+    "player_id": 4702158,
+    "player_name": "Martel Williams",
+    "team_id": 2856,
+    "team_name": "California Baptist Lancers",
+    "games_played": 1,
+    "tournament_points": 15,
+    "tournament_minutes": 39
+  },
+  {
     "player_id": 4711304,
     "player_name": "Xavier Booker",
     "team_id": 26,
@@ -1030,6 +1129,15 @@
     "player_name": "Trent Perry",
     "team_id": 26,
     "team_name": "UCLA Bruins",
+    "games_played": 1,
+    "tournament_points": 15,
+    "tournament_minutes": 37
+  },
+  {
+    "player_id": 5101809,
+    "player_name": "Shelton Henderson",
+    "team_id": 2390,
+    "team_name": "Miami Hurricanes",
     "games_played": 1,
     "tournament_points": 15,
     "tournament_minutes": 37
@@ -1602,6 +1710,24 @@
     "tournament_minutes": 34
   },
   {
+    "player_id": 5105643,
+    "player_name": "Tre White",
+    "team_id": 2305,
+    "team_name": "Kansas Jayhawks",
+    "games_played": 1,
+    "tournament_points": 12,
+    "tournament_minutes": 32
+  },
+  {
+    "player_id": 5196916,
+    "player_name": "Braylon Mullins",
+    "team_id": 41,
+    "team_name": "UConn Huskies",
+    "games_played": 1,
+    "tournament_points": 12,
+    "tournament_minutes": 37
+  },
+  {
     "player_id": 5105719,
     "player_name": "German Plotnikov",
     "team_id": 2275,
@@ -1753,6 +1879,15 @@
     "games_played": 1,
     "tournament_points": 11,
     "tournament_minutes": 25
+  },
+  {
+    "player_id": 5054085,
+    "player_name": "Anthony Robinson II",
+    "team_id": 142,
+    "team_name": "Missouri Tigers",
+    "games_played": 1,
+    "tournament_points": 11,
+    "tournament_minutes": 29
   },
   {
     "player_id": 5175591,
@@ -1998,6 +2133,15 @@
     "tournament_minutes": 40
   },
   {
+    "player_id": 5243230,
+    "player_name": "Charles Johnston",
+    "team_id": 231,
+    "team_name": "Furman Paladins",
+    "games_played": 1,
+    "tournament_points": 10,
+    "tournament_minutes": 17
+  },
+  {
     "player_id": 5176643,
     "player_name": "Nasir Mann",
     "team_id": 2511,
@@ -2185,6 +2329,42 @@
     "games_played": 1,
     "tournament_points": 9,
     "tournament_minutes": 9
+  },
+  {
+    "player_id": 5176136,
+    "player_name": "Cooper Bowser",
+    "team_id": 231,
+    "team_name": "Furman Paladins",
+    "games_played": 1,
+    "tournament_points": 9,
+    "tournament_minutes": 31
+  },
+  {
+    "player_id": 4895737,
+    "player_name": "Solo Ball",
+    "team_id": 41,
+    "team_name": "UConn Huskies",
+    "games_played": 1,
+    "tournament_points": 9,
+    "tournament_minutes": 25
+  },
+  {
+    "player_id": 5142709,
+    "player_name": "Dante Allen",
+    "team_id": 2390,
+    "team_name": "Miami Hurricanes",
+    "games_played": 1,
+    "tournament_points": 9,
+    "tournament_minutes": 26
+  },
+  {
+    "player_id": 4845368,
+    "player_name": "Tru Washington",
+    "team_id": 2390,
+    "team_name": "Miami Hurricanes",
+    "games_played": 1,
+    "tournament_points": 9,
+    "tournament_minutes": 24
   },
   {
     "player_id": 5240005,
@@ -2392,6 +2572,15 @@
     "games_played": 1,
     "tournament_points": 8,
     "tournament_minutes": 12
+  },
+  {
+    "player_id": 5281379,
+    "player_name": "Paul Mbiya",
+    "team_id": 2305,
+    "team_name": "Kansas Jayhawks",
+    "games_played": 1,
+    "tournament_points": 8,
+    "tournament_minutes": 16
   },
   {
     "player_id": 5105794,
@@ -2646,6 +2835,15 @@
     "tournament_minutes": 32
   },
   {
+    "player_id": 5037881,
+    "player_name": "Trent Pierce",
+    "team_id": 142,
+    "team_name": "Missouri Tigers",
+    "games_played": 1,
+    "tournament_points": 7,
+    "tournament_minutes": 26
+  },
+  {
     "player_id": 5311842,
     "player_name": "Tate Sage",
     "team_id": 2294,
@@ -2889,6 +3087,33 @@
     "tournament_minutes": 18
   },
   {
+    "player_id": 5178211,
+    "player_name": "Jonathan Griman",
+    "team_id": 2856,
+    "team_name": "California Baptist Lancers",
+    "games_played": 1,
+    "tournament_points": 6,
+    "tournament_minutes": 34
+  },
+  {
+    "player_id": 5044426,
+    "player_name": "Flory Bidunga",
+    "team_id": 2305,
+    "team_name": "Kansas Jayhawks",
+    "games_played": 1,
+    "tournament_points": 6,
+    "tournament_minutes": 30
+  },
+  {
+    "player_id": 5041958,
+    "player_name": "Bryson Tiller",
+    "team_id": 2305,
+    "team_name": "Kansas Jayhawks",
+    "games_played": 1,
+    "tournament_points": 6,
+    "tournament_minutes": 24
+  },
+  {
     "player_id": 4567588,
     "player_name": "Devan Cambridge",
     "team_id": 2116,
@@ -2896,6 +3121,24 @@
     "games_played": 1,
     "tournament_points": 6,
     "tournament_minutes": 15
+  },
+  {
+    "player_id": 5314509,
+    "player_name": "Cole Bowser",
+    "team_id": 231,
+    "team_name": "Furman Paladins",
+    "games_played": 1,
+    "tournament_points": 6,
+    "tournament_minutes": 17
+  },
+  {
+    "player_id": 5105537,
+    "player_name": "Shawn Phillips Jr.",
+    "team_id": 142,
+    "team_name": "Missouri Tigers",
+    "games_played": 1,
+    "tournament_points": 6,
+    "tournament_minutes": 26
   },
   {
     "player_id": 5176801,
@@ -3447,6 +3690,60 @@
     "tournament_minutes": 28
   },
   {
+    "player_id": 5241326,
+    "player_name": "Bradey Henige",
+    "team_id": 2856,
+    "team_name": "California Baptist Lancers",
+    "games_played": 1,
+    "tournament_points": 4,
+    "tournament_minutes": 27
+  },
+  {
+    "player_id": 5314830,
+    "player_name": "Miles Daniels",
+    "team_id": 2856,
+    "team_name": "California Baptist Lancers",
+    "games_played": 1,
+    "tournament_points": 4,
+    "tournament_minutes": 18
+  },
+  {
+    "player_id": 5177301,
+    "player_name": "Melvin Council Jr.",
+    "team_id": 2305,
+    "team_name": "Kansas Jayhawks",
+    "games_played": 1,
+    "tournament_points": 4,
+    "tournament_minutes": 31
+  },
+  {
+    "player_id": 4872739,
+    "player_name": "Elmarko Jackson",
+    "team_id": 2305,
+    "team_name": "Kansas Jayhawks",
+    "games_played": 1,
+    "tournament_points": 4,
+    "tournament_minutes": 17
+  },
+  {
+    "player_id": 5107369,
+    "player_name": "Ben Vander Wal",
+    "team_id": 231,
+    "team_name": "Furman Paladins",
+    "games_played": 1,
+    "tournament_points": 4,
+    "tournament_minutes": 20
+  },
+  {
+    "player_id": 4683861,
+    "player_name": "Malachi Smith",
+    "team_id": 41,
+    "team_name": "UConn Huskies",
+    "games_played": 1,
+    "tournament_points": 4,
+    "tournament_minutes": 32
+  },
+  {
     "player_id": 5314491,
     "player_name": "Kam Clark",
     "team_id": 2511,
@@ -3690,6 +3987,24 @@
     "tournament_minutes": 8
   },
   {
+    "player_id": 5106261,
+    "player_name": "Ernest Udeh Jr.",
+    "team_id": 2390,
+    "team_name": "Miami Hurricanes",
+    "games_played": 1,
+    "tournament_points": 3,
+    "tournament_minutes": 36
+  },
+  {
+    "player_id": 5311986,
+    "player_name": "Noam Dovrat",
+    "team_id": 2390,
+    "team_name": "Miami Hurricanes",
+    "games_played": 1,
+    "tournament_points": 3,
+    "tournament_minutes": 4
+  },
+  {
     "player_id": 4702975,
     "player_name": "Liam Murphy",
     "team_id": 2509,
@@ -3840,7 +4155,7 @@
     "team_name": "Prairie View A&M Panthers",
     "games_played": 2,
     "tournament_points": 2,
-    "tournament_minutes": 39
+    "tournament_minutes": 40
   },
   {
     "player_id": 5314506,
@@ -3996,6 +4311,33 @@
     "tournament_minutes": 30
   },
   {
+    "player_id": 4897936,
+    "player_name": "Jayden Jackson",
+    "team_id": 2856,
+    "team_name": "California Baptist Lancers",
+    "games_played": 1,
+    "tournament_points": 2,
+    "tournament_minutes": 19
+  },
+  {
+    "player_id": 5241323,
+    "player_name": "Devon Malcolm",
+    "team_id": 2856,
+    "team_name": "California Baptist Lancers",
+    "games_played": 1,
+    "tournament_points": 2,
+    "tournament_minutes": 7
+  },
+  {
+    "player_id": 5175014,
+    "player_name": "Thomas Ndong",
+    "team_id": 2856,
+    "team_name": "California Baptist Lancers",
+    "games_played": 1,
+    "tournament_points": 2,
+    "tournament_minutes": 13
+  },
+  {
     "player_id": 4915060,
     "player_name": "John Bol",
     "team_id": 2116,
@@ -4012,6 +4354,33 @@
     "games_played": 1,
     "tournament_points": 2,
     "tournament_minutes": 12
+  },
+  {
+    "player_id": 4895753,
+    "player_name": "Jayden Ross",
+    "team_id": 41,
+    "team_name": "UConn Huskies",
+    "games_played": 1,
+    "tournament_points": 2,
+    "tournament_minutes": 21
+  },
+  {
+    "player_id": 5241657,
+    "player_name": "Alec Millender",
+    "team_id": 41,
+    "team_name": "UConn Huskies",
+    "games_played": 1,
+    "tournament_points": 2,
+    "tournament_minutes": 7
+  },
+  {
+    "player_id": 5169569,
+    "player_name": "Trent Burns",
+    "team_id": 142,
+    "team_name": "Missouri Tigers",
+    "games_played": 1,
+    "tournament_points": 2,
+    "tournament_minutes": 11
   },
   {
     "player_id": 5061581,
@@ -7209,6 +7578,159 @@
     "tournament_minutes": 0
   },
   {
+    "player_id": 5314832,
+    "player_name": "Jordan Muller",
+    "team_id": 2856,
+    "team_name": "California Baptist Lancers",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 3
+  },
+  {
+    "player_id": 5314831,
+    "player_name": "Rene D'Amelio",
+    "team_id": 2856,
+    "team_name": "California Baptist Lancers",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5241324,
+    "player_name": "Mouhamadou Dioum",
+    "team_id": 2856,
+    "team_name": "California Baptist Lancers",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5314834,
+    "player_name": "Nate Garcia",
+    "team_id": 2856,
+    "team_name": "California Baptist Lancers",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5314833,
+    "player_name": "OJ Blankson",
+    "team_id": 2856,
+    "team_name": "California Baptist Lancers",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5314829,
+    "player_name": "Chase Mayo Harmon",
+    "team_id": 2856,
+    "team_name": "California Baptist Lancers",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5241322,
+    "player_name": "Jalen Dollar",
+    "team_id": 2856,
+    "team_name": "California Baptist Lancers",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 4591258,
+    "player_name": "Monty Bowser",
+    "team_id": 2856,
+    "team_name": "California Baptist Lancers",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5103571,
+    "player_name": "Jamari McDowell",
+    "team_id": 2305,
+    "team_name": "Kansas Jayhawks",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 13
+  },
+  {
+    "player_id": 5252599,
+    "player_name": "Samis Calderon",
+    "team_id": 2305,
+    "team_name": "Kansas Jayhawks",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5175889,
+    "player_name": "Justin Cross",
+    "team_id": 2305,
+    "team_name": "Kansas Jayhawks",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5311917,
+    "player_name": "Corbin Allen",
+    "team_id": 2305,
+    "team_name": "Kansas Jayhawks",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5311916,
+    "player_name": "Nginyu Ngala",
+    "team_id": 2305,
+    "team_name": "Kansas Jayhawks",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5291864,
+    "player_name": "Kohl Rosario",
+    "team_id": 2305,
+    "team_name": "Kansas Jayhawks",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5240262,
+    "player_name": "Will Thengvall",
+    "team_id": 2305,
+    "team_name": "Kansas Jayhawks",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5106260,
+    "player_name": "Wilder Evers",
+    "team_id": 2305,
+    "team_name": "Kansas Jayhawks",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5105964,
+    "player_name": "Jayden Dawson",
+    "team_id": 2305,
+    "team_name": "Kansas Jayhawks",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
     "player_id": 5108850,
     "player_name": "Elijah Hulsewe",
     "team_id": 2116,
@@ -7339,6 +7861,285 @@
     "player_name": "Jack Seidler",
     "team_id": 26,
     "team_name": "UCLA Bruins",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5176133,
+    "player_name": "Eddrin Bronson",
+    "team_id": 231,
+    "team_name": "Furman Paladins",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 19
+  },
+  {
+    "player_id": 5314508,
+    "player_name": "Abijah Franklin",
+    "team_id": 231,
+    "team_name": "Furman Paladins",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 6
+  },
+  {
+    "player_id": 4895755,
+    "player_name": "Asa Thomas",
+    "team_id": 231,
+    "team_name": "Furman Paladins",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 18
+  },
+  {
+    "player_id": 5314514,
+    "player_name": "Owen Ritger",
+    "team_id": 231,
+    "team_name": "Furman Paladins",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5243231,
+    "player_name": "Mason Smith",
+    "team_id": 231,
+    "team_name": "Furman Paladins",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5176205,
+    "player_name": "Thomas Tillman",
+    "team_id": 231,
+    "team_name": "Furman Paladins",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5107368,
+    "player_name": "Davis Molnar",
+    "team_id": 231,
+    "team_name": "Furman Paladins",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5314512,
+    "player_name": "Gunnar Lewis",
+    "team_id": 231,
+    "team_name": "Furman Paladins",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5314510,
+    "player_name": "Collin O'Neal",
+    "team_id": 231,
+    "team_name": "Furman Paladins",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5152763,
+    "player_name": "Eric Reibe",
+    "team_id": 41,
+    "team_name": "UConn Huskies",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 5
+  },
+  {
+    "player_id": 5142624,
+    "player_name": "Jacob Ross",
+    "team_id": 41,
+    "team_name": "UConn Huskies",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 4703011,
+    "player_name": "Dwayne Koroma",
+    "team_id": 41,
+    "team_name": "UConn Huskies",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 4685647,
+    "player_name": "Jaylin Stewart",
+    "team_id": 41,
+    "team_name": "UConn Huskies",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5312036,
+    "player_name": "Rrezon Elezaj",
+    "team_id": 41,
+    "team_name": "UConn Huskies",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5307570,
+    "player_name": "Uroš Paunovic",
+    "team_id": 41,
+    "team_name": "UConn Huskies",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5248294,
+    "player_name": "Jacob Furphy",
+    "team_id": 41,
+    "team_name": "UConn Huskies",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5054083,
+    "player_name": "Silas Demary Jr.",
+    "team_id": 41,
+    "team_name": "UConn Huskies",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5144166,
+    "player_name": "T.O. Barrett",
+    "team_id": 142,
+    "team_name": "Missouri Tigers",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 15
+  },
+  {
+    "player_id": 5106269,
+    "player_name": "Luke Northweather",
+    "team_id": 142,
+    "team_name": "Missouri Tigers",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 1
+  },
+  {
+    "player_id": 5144151,
+    "player_name": "Nicholas Randall",
+    "team_id": 142,
+    "team_name": "Missouri Tigers",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 1
+  },
+  {
+    "player_id": 4432515,
+    "player_name": "Jacob Crews",
+    "team_id": 142,
+    "team_name": "Missouri Tigers",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 20
+  },
+  {
+    "player_id": 4684798,
+    "player_name": "Jevon Porter",
+    "team_id": 142,
+    "team_name": "Missouri Tigers",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5238218,
+    "player_name": "Annor Boateng",
+    "team_id": 142,
+    "team_name": "Missouri Tigers",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5041957,
+    "player_name": "Aaron Rowe",
+    "team_id": 142,
+    "team_name": "Missouri Tigers",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 4711270,
+    "player_name": "Sebastian Mack",
+    "team_id": 142,
+    "team_name": "Missouri Tigers",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5281366,
+    "player_name": "Timotej Malovec",
+    "team_id": 2390,
+    "team_name": "Miami Hurricanes",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 2
+  },
+  {
+    "player_id": 5311984,
+    "player_name": "Salih Altuntas",
+    "team_id": 2390,
+    "team_name": "Miami Hurricanes",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5101821,
+    "player_name": "Treyvon Maddox",
+    "team_id": 2390,
+    "team_name": "Miami Hurricanes",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5311985,
+    "player_name": "John Laboy II",
+    "team_id": 2390,
+    "team_name": "Miami Hurricanes",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5214525,
+    "player_name": "Jordyn Kee",
+    "team_id": 2390,
+    "team_name": "Miami Hurricanes",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 4869762,
+    "player_name": "Marcus Allen",
+    "team_id": 2390,
+    "team_name": "Miami Hurricanes",
     "games_played": 1,
     "tournament_points": 0,
     "tournament_minutes": 0
