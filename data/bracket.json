@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-21T19:27:33.480Z",
+  "generated_at": "2026-03-21T20:28:05.303Z",
   "year": 2026,
   "available": true,
   "source": "espn_bracket_page",
@@ -1231,7 +1231,7 @@
       "date": "2026-03-21T18:45:00Z",
       "status_state": "in",
       "status_desc": "In Progress",
-      "status_detail": "2:17 - 1st",
+      "status_detail": "9:09 - 2nd",
       "location": "Buffalo, NY",
       "link": "/mens-college-basketball/game/_/gameId/401856531",
       "competitor_one": {
@@ -1239,7 +1239,7 @@
         "team_name": "Louisville",
         "abbreviation": "LOU",
         "seed": 6,
-        "score": 28,
+        "score": 47,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/97.png"
       },
@@ -1248,7 +1248,7 @@
         "team_name": "Michigan State",
         "abbreviation": "MSU",
         "seed": 3,
-        "score": 36,
+        "score": 53,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/127.png"
       }
