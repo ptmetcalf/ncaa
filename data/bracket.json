@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-21T22:27:48.808Z",
+  "generated_at": "2026-03-21T23:27:54.004Z",
   "year": 2026,
   "available": true,
   "source": "espn_bracket_page",
@@ -1170,8 +1170,8 @@
       "bracket_location": 1,
       "date": "2026-03-21T21:25:00Z",
       "status_state": "in",
-      "status_desc": "Halftime",
-      "status_detail": "Halftime",
+      "status_desc": "In Progress",
+      "status_detail": "6:00 - 2nd",
       "location": "Greenville, SC",
       "link": "/mens-college-basketball/game/_/gameId/401856530",
       "competitor_one": {
@@ -1179,7 +1179,7 @@
         "team_name": "Duke",
         "abbreviation": "DUKE",
         "seed": 1,
-        "score": 38,
+        "score": 68,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/150.png"
       },
@@ -1188,7 +1188,7 @@
         "team_name": "TCU",
         "abbreviation": "TCU",
         "seed": 9,
-        "score": 34,
+        "score": 50,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2628.png"
       }
@@ -1380,8 +1380,8 @@
       "bracket_location": 8,
       "date": "2026-03-21T22:10:00Z",
       "status_state": "in",
-      "status_desc": "In Progress",
-      "status_detail": "12:06 - 1st",
+      "status_desc": "Halftime",
+      "status_detail": "Halftime",
       "location": "Oklahoma City, OK",
       "link": "/mens-college-basketball/game/_/gameId/401856535",
       "competitor_one": {
@@ -1389,7 +1389,7 @@
         "team_name": "Texas A&M",
         "abbreviation": "TA&M",
         "seed": 10,
-        "score": 13,
+        "score": 28,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/245.png"
       },
@@ -1398,7 +1398,7 @@
         "team_name": "Houston",
         "abbreviation": "HOU",
         "seed": 2,
-        "score": 15,
+        "score": 46,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/248.png"
       }
@@ -1469,17 +1469,17 @@
       "region_id": 2,
       "bracket_location": 11,
       "date": "2026-03-21T23:10:00Z",
-      "status_state": "pre",
-      "status_desc": "Scheduled",
-      "status_detail": "3/21 - 7:10 PM EDT",
+      "status_state": "in",
+      "status_desc": "In Progress",
+      "status_detail": "9:37 - 1st",
       "location": "Portland, OR",
-      "link": "/mens-college-basketball/game/_/gameId/401856537/texas-gonzaga",
+      "link": "/mens-college-basketball/game/_/gameId/401856537",
       "competitor_one": {
         "team_id": 251,
         "team_name": "Texas",
         "abbreviation": "TEX",
         "seed": 11,
-        "score": 0,
+        "score": 15,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/251.png"
       },
@@ -1488,7 +1488,7 @@
         "team_name": "Gonzaga",
         "abbreviation": "GONZ",
         "seed": 3,
-        "score": 0,
+        "score": 18,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2250.png"
       }
