@@ -11130,6 +11130,316 @@
     "points": 0
   },
   {
+    "event_id": 401856531,
+    "date": "20260321",
+    "player_id": 5311969,
+    "player_name": "Vangelis Zougris",
+    "team_id": 97,
+    "team_name": "Louisville Cardinals",
+    "minutes": 14,
+    "points": 8
+  },
+  {
+    "event_id": 401856531,
+    "date": "20260321",
+    "player_id": 5242127,
+    "player_name": "Adrian Wooley",
+    "team_id": 97,
+    "team_name": "Louisville Cardinals",
+    "minutes": 26,
+    "points": 17
+  },
+  {
+    "event_id": 401856531,
+    "date": "20260321",
+    "player_id": 5107157,
+    "player_name": "Ryan Conwell",
+    "team_id": 97,
+    "team_name": "Louisville Cardinals",
+    "minutes": 34,
+    "points": 21
+  },
+  {
+    "event_id": 401856531,
+    "date": "20260321",
+    "player_id": 4712845,
+    "player_name": "Isaac McKneely",
+    "team_id": 97,
+    "team_name": "Louisville Cardinals",
+    "minutes": 35,
+    "points": 9
+  },
+  {
+    "event_id": 401856531,
+    "date": "20260321",
+    "player_id": 4702784,
+    "player_name": "J'Vonne Hadley",
+    "team_id": 97,
+    "team_name": "Louisville Cardinals",
+    "minutes": 30,
+    "points": 2
+  },
+  {
+    "event_id": 401856531,
+    "date": "20260321",
+    "player_id": 5311967,
+    "player_name": "Sananda Fru",
+    "team_id": 97,
+    "team_name": "Louisville Cardinals",
+    "minutes": 18,
+    "points": 2
+  },
+  {
+    "event_id": 401856531,
+    "date": "20260321",
+    "player_id": 4873187,
+    "player_name": "Khani Rooths",
+    "team_id": 97,
+    "team_name": "Louisville Cardinals",
+    "minutes": 4,
+    "points": 0
+  },
+  {
+    "event_id": 401856531,
+    "date": "20260321",
+    "player_id": 4589481,
+    "player_name": "Kasean Pryor",
+    "team_id": 97,
+    "team_name": "Louisville Cardinals",
+    "minutes": 1,
+    "points": 0
+  },
+  {
+    "event_id": 401856531,
+    "date": "20260321",
+    "player_id": 4702739,
+    "player_name": "Aly Khalifa",
+    "team_id": 97,
+    "team_name": "Louisville Cardinals",
+    "minutes": 14,
+    "points": 8
+  },
+  {
+    "event_id": 401856531,
+    "date": "20260321",
+    "player_id": 5174946,
+    "player_name": "Kobe Rodgers",
+    "team_id": 97,
+    "team_name": "Louisville Cardinals",
+    "minutes": 24,
+    "points": 2
+  },
+  {
+    "event_id": 401856531,
+    "date": "20260321",
+    "player_id": 5311966,
+    "player_name": "Mouhamed Camara",
+    "team_id": 97,
+    "team_name": "Louisville Cardinals",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856531,
+    "date": "20260321",
+    "player_id": 5311968,
+    "player_name": "Will Hanke",
+    "team_id": 97,
+    "team_name": "Louisville Cardinals",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856531,
+    "date": "20260321",
+    "player_id": 5106779,
+    "player_name": "Cole Sherman",
+    "team_id": 97,
+    "team_name": "Louisville Cardinals",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856531,
+    "date": "20260321",
+    "player_id": 5105765,
+    "player_name": "Spencer Legg",
+    "team_id": 97,
+    "team_name": "Louisville Cardinals",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856531,
+    "date": "20260321",
+    "player_id": 5104203,
+    "player_name": "London Johnson",
+    "team_id": 97,
+    "team_name": "Louisville Cardinals",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856531,
+    "date": "20260321",
+    "player_id": 5101761,
+    "player_name": "Mikel Brown Jr.",
+    "team_id": 97,
+    "team_name": "Louisville Cardinals",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856531,
+    "date": "20260321",
+    "player_id": 5196931,
+    "player_name": "Jordan Scott",
+    "team_id": 127,
+    "team_name": "Michigan State Spartans",
+    "minutes": 20,
+    "points": 4
+  },
+  {
+    "event_id": 401856531,
+    "date": "20260321",
+    "player_id": 5105815,
+    "player_name": "Jaxon Kohler",
+    "team_id": 127,
+    "team_name": "Michigan State Spartans",
+    "minutes": 28,
+    "points": 10
+  },
+  {
+    "event_id": 401856531,
+    "date": "20260321",
+    "player_id": 4872740,
+    "player_name": "Coen Carr",
+    "team_id": 127,
+    "team_name": "Michigan State Spartans",
+    "minutes": 33,
+    "points": 21
+  },
+  {
+    "event_id": 401856531,
+    "date": "20260321",
+    "player_id": 5105817,
+    "player_name": "Carson Cooper",
+    "team_id": 127,
+    "team_name": "Michigan State Spartans",
+    "minutes": 30,
+    "points": 9
+  },
+  {
+    "event_id": 401856531,
+    "date": "20260321",
+    "player_id": 4711255,
+    "player_name": "Jeremy Fears Jr.",
+    "team_id": 127,
+    "team_name": "Michigan State Spartans",
+    "minutes": 37,
+    "points": 12
+  },
+  {
+    "event_id": 401856531,
+    "date": "20260321",
+    "player_id": 5101798,
+    "player_name": "Cam Ward",
+    "team_id": 127,
+    "team_name": "Michigan State Spartans",
+    "minutes": 17,
+    "points": 2
+  },
+  {
+    "event_id": 401856531,
+    "date": "20260321",
+    "player_id": 4873111,
+    "player_name": "Kur Teng",
+    "team_id": 127,
+    "team_name": "Michigan State Spartans",
+    "minutes": 13,
+    "points": 7
+  },
+  {
+    "event_id": 401856531,
+    "date": "20260321",
+    "player_id": 4703411,
+    "player_name": "Trey Fort",
+    "team_id": 127,
+    "team_name": "Michigan State Spartans",
+    "minutes": 19,
+    "points": 12
+  },
+  {
+    "event_id": 401856531,
+    "date": "20260321",
+    "player_id": 4610138,
+    "player_name": "Denham Wojcik",
+    "team_id": 127,
+    "team_name": "Michigan State Spartans",
+    "minutes": 3,
+    "points": 0
+  },
+  {
+    "event_id": 401856531,
+    "date": "20260321",
+    "player_id": 5239564,
+    "player_name": "Colin Walton",
+    "team_id": 127,
+    "team_name": "Michigan State Spartans",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856531,
+    "date": "20260321",
+    "player_id": 5239563,
+    "player_name": "Brennan Walton",
+    "team_id": 127,
+    "team_name": "Michigan State Spartans",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856531,
+    "date": "20260321",
+    "player_id": 5239562,
+    "player_name": "Jesse McCulloch",
+    "team_id": 127,
+    "team_name": "Michigan State Spartans",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856531,
+    "date": "20260321",
+    "player_id": 4685668,
+    "player_name": "Kaleb Glenn",
+    "team_id": 127,
+    "team_name": "Michigan State Spartans",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856531,
+    "date": "20260321",
+    "player_id": 5105818,
+    "player_name": "Nick Sanders",
+    "team_id": 127,
+    "team_name": "Michigan State Spartans",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856531,
+    "date": "20260321",
+    "player_id": 5060733,
+    "player_name": "Divine Ugochukwu",
+    "team_id": 127,
+    "team_name": "Michigan State Spartans",
+    "minutes": null,
+    "points": 0
+  },
+  {
     "event_id": 401856532,
     "date": "20260321",
     "player_id": 4917097,

@@ -365,7 +365,7 @@
     "name": "TCU Horned Frogs at Duke Blue Devils",
     "short_name": "TCU VS DUKE",
     "completed": false,
-    "status": "Scheduled",
+    "status": "In Progress",
     "home_team_id": 150,
     "away_team_id": 2628
   },
@@ -374,8 +374,8 @@
     "date": "20260321",
     "name": "Louisville Cardinals at Michigan State Spartans",
     "short_name": "LOU VS MSU",
-    "completed": false,
-    "status": "In Progress",
+    "completed": true,
+    "status": "Final",
     "home_team_id": 127,
     "away_team_id": 97
   },

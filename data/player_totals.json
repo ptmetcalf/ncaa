@@ -9,6 +9,15 @@
     "tournament_minutes": 75
   },
   {
+    "player_id": 5107157,
+    "player_name": "Ryan Conwell",
+    "team_id": 97,
+    "team_name": "Louisville Cardinals",
+    "games_played": 2,
+    "tournament_points": 39,
+    "tournament_minutes": 71
+  },
+  {
     "player_id": 5239838,
     "player_name": "Matas Vokietaitis",
     "team_id": 251,
@@ -16,6 +25,15 @@
     "games_played": 2,
     "tournament_points": 38,
     "tournament_minutes": 59
+  },
+  {
+    "player_id": 4872740,
+    "player_name": "Coen Carr",
+    "team_id": 127,
+    "team_name": "Michigan State Spartans",
+    "games_played": 2,
+    "tournament_points": 38,
+    "tournament_minutes": 61
   },
   {
     "player_id": 5176727,
@@ -108,6 +126,15 @@
     "tournament_minutes": 40
   },
   {
+    "player_id": 4712845,
+    "player_name": "Isaac McKneely",
+    "team_id": 97,
+    "team_name": "Louisville Cardinals",
+    "games_played": 2,
+    "tournament_points": 32,
+    "tournament_minutes": 63
+  },
+  {
     "player_id": 5107242,
     "player_name": "Dion Brown",
     "team_id": 139,
@@ -151,6 +178,15 @@
     "games_played": 2,
     "tournament_points": 29,
     "tournament_minutes": 77
+  },
+  {
+    "player_id": 5105817,
+    "player_name": "Carson Cooper",
+    "team_id": 127,
+    "team_name": "Michigan State Spartans",
+    "games_played": 2,
+    "tournament_points": 29,
+    "tournament_minutes": 60
   },
   {
     "player_id": 5311832,
@@ -396,15 +432,6 @@
     "tournament_minutes": 36
   },
   {
-    "player_id": 4712845,
-    "player_name": "Isaac McKneely",
-    "team_id": 97,
-    "team_name": "Louisville Cardinals",
-    "games_played": 1,
-    "tournament_points": 23,
-    "tournament_minutes": 28
-  },
-  {
     "player_id": 4858604,
     "player_name": "Pryce Sandfort",
     "team_id": 158,
@@ -439,6 +466,15 @@
     "games_played": 1,
     "tournament_points": 22,
     "tournament_minutes": 35
+  },
+  {
+    "player_id": 5105815,
+    "player_name": "Jaxon Kohler",
+    "team_id": 127,
+    "team_name": "Michigan State Spartans",
+    "games_played": 2,
+    "tournament_points": 22,
+    "tournament_minutes": 54
   },
   {
     "player_id": 4593815,
@@ -540,6 +576,15 @@
     "tournament_minutes": 35
   },
   {
+    "player_id": 5242127,
+    "player_name": "Adrian Wooley",
+    "team_id": 97,
+    "team_name": "Louisville Cardinals",
+    "games_played": 2,
+    "tournament_points": 21,
+    "tournament_minutes": 56
+  },
+  {
     "player_id": 4917097,
     "player_name": "Robbie Avila",
     "team_id": 139,
@@ -592,15 +637,6 @@
     "games_played": 1,
     "tournament_points": 20,
     "tournament_minutes": 35
-  },
-  {
-    "player_id": 5105817,
-    "player_name": "Carson Cooper",
-    "team_id": 127,
-    "team_name": "Michigan State Spartans",
-    "games_played": 1,
-    "tournament_points": 20,
-    "tournament_minutes": 30
   },
   {
     "player_id": 5183809,
@@ -702,6 +738,24 @@
     "tournament_minutes": 35
   },
   {
+    "player_id": 4711255,
+    "player_name": "Jeremy Fears Jr.",
+    "team_id": 127,
+    "team_name": "Michigan State Spartans",
+    "games_played": 2,
+    "tournament_points": 19,
+    "tournament_minutes": 69
+  },
+  {
+    "player_id": 4703411,
+    "player_name": "Trey Fort",
+    "team_id": 127,
+    "team_name": "Michigan State Spartans",
+    "games_played": 2,
+    "tournament_points": 19,
+    "tournament_minutes": 31
+  },
+  {
     "player_id": 4703396,
     "player_name": "Graham Ike",
     "team_id": 2250,
@@ -769,15 +823,6 @@
     "player_name": "Micah Robinson",
     "team_id": 2628,
     "team_name": "TCU Horned Frogs",
-    "games_played": 1,
-    "tournament_points": 18,
-    "tournament_minutes": 37
-  },
-  {
-    "player_id": 5107157,
-    "player_name": "Ryan Conwell",
-    "team_id": 97,
-    "team_name": "Louisville Cardinals",
     "games_played": 1,
     "tournament_points": 18,
     "tournament_minutes": 37
@@ -853,15 +898,6 @@
     "games_played": 1,
     "tournament_points": 17,
     "tournament_minutes": 36
-  },
-  {
-    "player_id": 4872740,
-    "player_name": "Coen Carr",
-    "team_id": 127,
-    "team_name": "Michigan State Spartans",
-    "games_played": 1,
-    "tournament_points": 17,
-    "tournament_minutes": 28
   },
   {
     "player_id": 5196913,
@@ -1134,6 +1170,15 @@
     "tournament_minutes": 24
   },
   {
+    "player_id": 5101798,
+    "player_name": "Cam Ward",
+    "team_id": 127,
+    "team_name": "Michigan State Spartans",
+    "games_played": 2,
+    "tournament_points": 15,
+    "tournament_minutes": 33
+  },
+  {
     "player_id": 5312348,
     "player_name": "Amir Taylor",
     "team_id": 338,
@@ -1350,6 +1395,15 @@
     "tournament_minutes": 22
   },
   {
+    "player_id": 5311969,
+    "player_name": "Vangelis Zougris",
+    "team_id": 97,
+    "team_name": "Louisville Cardinals",
+    "games_played": 2,
+    "tournament_points": 14,
+    "tournament_minutes": 24
+  },
+  {
     "player_id": 5060709,
     "player_name": "Robert Wright III",
     "team_id": 252,
@@ -1510,15 +1564,6 @@
     "games_played": 1,
     "tournament_points": 13,
     "tournament_minutes": 36
-  },
-  {
-    "player_id": 5101798,
-    "player_name": "Cam Ward",
-    "team_id": 127,
-    "team_name": "Michigan State Spartans",
-    "games_played": 1,
-    "tournament_points": 13,
-    "tournament_minutes": 16
   },
   {
     "player_id": 5176187,
@@ -1701,13 +1746,22 @@
     "tournament_minutes": 23
   },
   {
-    "player_id": 5105815,
-    "player_name": "Jaxon Kohler",
-    "team_id": 127,
-    "team_name": "Michigan State Spartans",
-    "games_played": 1,
+    "player_id": 4702784,
+    "player_name": "J'Vonne Hadley",
+    "team_id": 97,
+    "team_name": "Louisville Cardinals",
+    "games_played": 2,
     "tournament_points": 12,
-    "tournament_minutes": 26
+    "tournament_minutes": 63
+  },
+  {
+    "player_id": 5311967,
+    "player_name": "Sananda Fru",
+    "team_id": 97,
+    "team_name": "Louisville Cardinals",
+    "games_played": 2,
+    "tournament_points": 12,
+    "tournament_minutes": 43
   },
   {
     "player_id": 4683147,
@@ -1870,6 +1924,15 @@
     "games_played": 1,
     "tournament_points": 11,
     "tournament_minutes": 25
+  },
+  {
+    "player_id": 4702739,
+    "player_name": "Aly Khalifa",
+    "team_id": 97,
+    "team_name": "Louisville Cardinals",
+    "games_played": 2,
+    "tournament_points": 11,
+    "tournament_minutes": 20
   },
   {
     "player_id": 5314778,
@@ -2088,24 +2151,6 @@
     "tournament_minutes": 31
   },
   {
-    "player_id": 4702784,
-    "player_name": "J'Vonne Hadley",
-    "team_id": 97,
-    "team_name": "Louisville Cardinals",
-    "games_played": 1,
-    "tournament_points": 10,
-    "tournament_minutes": 33
-  },
-  {
-    "player_id": 5311967,
-    "player_name": "Sananda Fru",
-    "team_id": 97,
-    "team_name": "Louisville Cardinals",
-    "games_played": 1,
-    "tournament_points": 10,
-    "tournament_minutes": 25
-  },
-  {
     "player_id": 5241642,
     "player_name": "Treyson Anderson",
     "team_id": 2449,
@@ -2113,6 +2158,24 @@
     "games_played": 1,
     "tournament_points": 10,
     "tournament_minutes": 19
+  },
+  {
+    "player_id": 5196931,
+    "player_name": "Jordan Scott",
+    "team_id": 127,
+    "team_name": "Michigan State Spartans",
+    "games_played": 2,
+    "tournament_points": 10,
+    "tournament_minutes": 44
+  },
+  {
+    "player_id": 4873111,
+    "player_name": "Kur Teng",
+    "team_id": 127,
+    "team_name": "Michigan State Spartans",
+    "games_played": 2,
+    "tournament_points": 10,
+    "tournament_minutes": 31
   },
   {
     "player_id": 4711258,
@@ -2763,24 +2826,6 @@
     "tournament_minutes": 20
   },
   {
-    "player_id": 4711255,
-    "player_name": "Jeremy Fears Jr.",
-    "team_id": 127,
-    "team_name": "Michigan State Spartans",
-    "games_played": 1,
-    "tournament_points": 7,
-    "tournament_minutes": 32
-  },
-  {
-    "player_id": 4703411,
-    "player_name": "Trey Fort",
-    "team_id": 127,
-    "team_name": "Michigan State Spartans",
-    "games_played": 1,
-    "tournament_points": 7,
-    "tournament_minutes": 12
-  },
-  {
     "player_id": 5176787,
     "player_name": "Emmanuel Innocenti",
     "team_id": 2250,
@@ -2988,13 +3033,13 @@
     "tournament_minutes": 23
   },
   {
-    "player_id": 5311969,
-    "player_name": "Vangelis Zougris",
+    "player_id": 5174946,
+    "player_name": "Kobe Rodgers",
     "team_id": 97,
     "team_name": "Louisville Cardinals",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 6,
-    "tournament_minutes": 10
+    "tournament_minutes": 44
   },
   {
     "player_id": 5241640,
@@ -3022,15 +3067,6 @@
     "games_played": 1,
     "tournament_points": 6,
     "tournament_minutes": 18
-  },
-  {
-    "player_id": 5196931,
-    "player_name": "Jordan Scott",
-    "team_id": 127,
-    "team_name": "Michigan State Spartans",
-    "games_played": 1,
-    "tournament_points": 6,
-    "tournament_minutes": 24
   },
   {
     "player_id": 5174661,
@@ -3262,9 +3298,9 @@
     "player_name": "Khani Rooths",
     "team_id": 97,
     "team_name": "Louisville Cardinals",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 5,
-    "tournament_minutes": 11
+    "tournament_minutes": 15
   },
   {
     "player_id": 5108046,
@@ -3555,31 +3591,13 @@
     "tournament_minutes": 27
   },
   {
-    "player_id": 5242127,
-    "player_name": "Adrian Wooley",
-    "team_id": 97,
-    "team_name": "Louisville Cardinals",
-    "games_played": 1,
-    "tournament_points": 4,
-    "tournament_minutes": 30
-  },
-  {
-    "player_id": 5174946,
-    "player_name": "Kobe Rodgers",
-    "team_id": 97,
-    "team_name": "Louisville Cardinals",
-    "games_played": 1,
-    "tournament_points": 4,
-    "tournament_minutes": 20
-  },
-  {
     "player_id": 4610138,
     "player_name": "Denham Wojcik",
     "team_id": 127,
     "team_name": "Michigan State Spartans",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 4,
-    "tournament_minutes": 8
+    "tournament_minutes": 11
   },
   {
     "player_id": 5107490,
@@ -3870,31 +3888,13 @@
     "tournament_minutes": 5
   },
   {
-    "player_id": 4702739,
-    "player_name": "Aly Khalifa",
-    "team_id": 97,
-    "team_name": "Louisville Cardinals",
-    "games_played": 1,
-    "tournament_points": 3,
-    "tournament_minutes": 6
-  },
-  {
     "player_id": 5239562,
     "player_name": "Jesse McCulloch",
     "team_id": 127,
     "team_name": "Michigan State Spartans",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 3,
     "tournament_minutes": 3
-  },
-  {
-    "player_id": 4873111,
-    "player_name": "Kur Teng",
-    "team_id": 127,
-    "team_name": "Michigan State Spartans",
-    "games_played": 1,
-    "tournament_points": 3,
-    "tournament_minutes": 18
   },
   {
     "player_id": 5244505,
@@ -5917,7 +5917,7 @@
     "player_name": "Mouhamed Camara",
     "team_id": 97,
     "team_name": "Louisville Cardinals",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -5926,16 +5926,16 @@
     "player_name": "Kasean Pryor",
     "team_id": 97,
     "team_name": "Louisville Cardinals",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
-    "tournament_minutes": 0
+    "tournament_minutes": 1
   },
   {
     "player_id": 5311968,
     "player_name": "Will Hanke",
     "team_id": 97,
     "team_name": "Louisville Cardinals",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -5944,7 +5944,7 @@
     "player_name": "Cole Sherman",
     "team_id": 97,
     "team_name": "Louisville Cardinals",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -5953,7 +5953,7 @@
     "player_name": "Spencer Legg",
     "team_id": 97,
     "team_name": "Louisville Cardinals",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -5962,7 +5962,7 @@
     "player_name": "London Johnson",
     "team_id": 97,
     "team_name": "Louisville Cardinals",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -5971,7 +5971,7 @@
     "player_name": "Mikel Brown Jr.",
     "team_id": 97,
     "team_name": "Louisville Cardinals",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -6034,7 +6034,7 @@
     "player_name": "Colin Walton",
     "team_id": 127,
     "team_name": "Michigan State Spartans",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 1
   },
@@ -6043,7 +6043,7 @@
     "player_name": "Brennan Walton",
     "team_id": 127,
     "team_name": "Michigan State Spartans",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 1
   },
@@ -6052,7 +6052,7 @@
     "player_name": "Nick Sanders",
     "team_id": 127,
     "team_name": "Michigan State Spartans",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 1
   },
@@ -6061,7 +6061,7 @@
     "player_name": "Kaleb Glenn",
     "team_id": 127,
     "team_name": "Michigan State Spartans",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -6070,7 +6070,7 @@
     "player_name": "Divine Ugochukwu",
     "team_id": 127,
     "team_name": "Michigan State Spartans",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
