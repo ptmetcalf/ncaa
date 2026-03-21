@@ -189,6 +189,15 @@
     "tournament_minutes": 42
   },
   {
+    "player_id": 5105854,
+    "player_name": "Braden Smith",
+    "team_id": 2509,
+    "team_name": "Purdue Boilermakers",
+    "games_played": 1,
+    "tournament_points": 26,
+    "tournament_minutes": 32
+  },
+  {
     "player_id": 5108060,
     "player_name": "Amani Lyles",
     "team_id": 2006,
@@ -214,6 +223,15 @@
     "games_played": 1,
     "tournament_points": 25,
     "tournament_minutes": 40
+  },
+  {
+    "player_id": 4897438,
+    "player_name": "Trey Kaufman-Renn",
+    "team_id": 2509,
+    "team_name": "Purdue Boilermakers",
+    "games_played": 1,
+    "tournament_points": 25,
+    "tournament_minutes": 25
   },
   {
     "player_id": 5248302,
@@ -810,6 +828,15 @@
     "tournament_minutes": 25
   },
   {
+    "player_id": 5241364,
+    "player_name": "Bennett Stirtz",
+    "team_id": 2294,
+    "team_name": "Iowa Hawkeyes",
+    "games_played": 1,
+    "tournament_points": 16,
+    "tournament_minutes": 40
+  },
+  {
     "player_id": 5215425,
     "player_name": "Sash Gavalyugov",
     "team_id": 2541,
@@ -972,6 +999,24 @@
     "tournament_minutes": 21
   },
   {
+    "player_id": 5176280,
+    "player_name": "Kael Combs",
+    "team_id": 2294,
+    "team_name": "Iowa Hawkeyes",
+    "games_played": 1,
+    "tournament_points": 15,
+    "tournament_minutes": 30
+  },
+  {
+    "player_id": 5105449,
+    "player_name": "RJ Godfrey",
+    "team_id": 228,
+    "team_name": "Clemson Tigers",
+    "games_played": 1,
+    "tournament_points": 15,
+    "tournament_minutes": 28
+  },
+  {
     "player_id": 5241483,
     "player_name": "TJ Burch",
     "team_id": 2750,
@@ -1098,6 +1143,33 @@
     "tournament_minutes": 30
   },
   {
+    "player_id": 5107887,
+    "player_name": "Trey Campbell",
+    "team_id": 2460,
+    "team_name": "Northern Iowa Panthers",
+    "games_played": 1,
+    "tournament_points": 14,
+    "tournament_minutes": 37
+  },
+  {
+    "player_id": 5106262,
+    "player_name": "Zuby Ejiofor",
+    "team_id": 2599,
+    "team_name": "St. John's Red Storm",
+    "games_played": 1,
+    "tournament_points": 14,
+    "tournament_minutes": 28
+  },
+  {
+    "player_id": 5105853,
+    "player_name": "Fletcher Loyer",
+    "team_id": 2509,
+    "team_name": "Purdue Boilermakers",
+    "games_played": 1,
+    "tournament_points": 14,
+    "tournament_minutes": 25
+  },
+  {
     "player_id": 5107312,
     "player_name": "LeJuan Watts",
     "team_id": 2641,
@@ -1114,6 +1186,15 @@
     "games_played": 1,
     "tournament_points": 14,
     "tournament_minutes": 40
+  },
+  {
+    "player_id": 5177211,
+    "player_name": "Alvaro Folgueiras",
+    "team_id": 2294,
+    "team_name": "Iowa Hawkeyes",
+    "games_played": 1,
+    "tournament_points": 14,
+    "tournament_minutes": 20
   },
   {
     "player_id": 5109789,
@@ -1240,6 +1321,15 @@
     "games_played": 1,
     "tournament_points": 13,
     "tournament_minutes": 25
+  },
+  {
+    "player_id": 4565698,
+    "player_name": "Bryce Hopkins",
+    "team_id": 2599,
+    "team_name": "St. John's Red Storm",
+    "games_played": 1,
+    "tournament_points": 13,
+    "tournament_minutes": 34
   },
   {
     "player_id": 5242985,
@@ -1395,6 +1485,15 @@
     "tournament_minutes": 33
   },
   {
+    "player_id": 4838704,
+    "player_name": "Leon Bond III",
+    "team_id": 2460,
+    "team_name": "Northern Iowa Panthers",
+    "games_played": 1,
+    "tournament_points": 12,
+    "tournament_minutes": 34
+  },
+  {
     "player_id": 5105719,
     "player_name": "German Plotnikov",
     "team_id": 2275,
@@ -1539,6 +1638,24 @@
     "tournament_minutes": 25
   },
   {
+    "player_id": 5105642,
+    "player_name": "Oziyah Sellers",
+    "team_id": 2599,
+    "team_name": "St. John's Red Storm",
+    "games_played": 1,
+    "tournament_points": 11,
+    "tournament_minutes": 25
+  },
+  {
+    "player_id": 5175591,
+    "player_name": "C.J. Cox",
+    "team_id": 2509,
+    "team_name": "Purdue Boilermakers",
+    "games_played": 1,
+    "tournament_points": 11,
+    "tournament_minutes": 25
+  },
+  {
     "player_id": 5241495,
     "player_name": "Biggie Patterson",
     "team_id": 2275,
@@ -1564,6 +1681,15 @@
     "games_played": 1,
     "tournament_points": 11,
     "tournament_minutes": 29
+  },
+  {
+    "player_id": 5107144,
+    "player_name": "Butta Johnson",
+    "team_id": 228,
+    "team_name": "Clemson Tigers",
+    "games_played": 1,
+    "tournament_points": 11,
+    "tournament_minutes": 31
   },
   {
     "player_id": 4596531,
@@ -1728,6 +1854,33 @@
     "tournament_minutes": 24
   },
   {
+    "player_id": 5241409,
+    "player_name": "Will Hornseth",
+    "team_id": 2460,
+    "team_name": "Northern Iowa Panthers",
+    "games_played": 1,
+    "tournament_points": 10,
+    "tournament_minutes": 25
+  },
+  {
+    "player_id": 5176643,
+    "player_name": "Nasir Mann",
+    "team_id": 2511,
+    "team_name": "Queens University Royals",
+    "games_played": 1,
+    "tournament_points": 10,
+    "tournament_minutes": 27
+  },
+  {
+    "player_id": 5144110,
+    "player_name": "Jordan Watford",
+    "team_id": 2511,
+    "team_name": "Queens University Royals",
+    "games_played": 1,
+    "tournament_points": 10,
+    "tournament_minutes": 25
+  },
+  {
     "player_id": 4711306,
     "player_name": "Brandon Garrison",
     "team_id": 96,
@@ -1861,6 +2014,60 @@
     "games_played": 1,
     "tournament_points": 9,
     "tournament_minutes": 24
+  },
+  {
+    "player_id": 5315806,
+    "player_name": "Tristan Smith",
+    "team_id": 2460,
+    "team_name": "Northern Iowa Panthers",
+    "games_played": 1,
+    "tournament_points": 9,
+    "tournament_minutes": 30
+  },
+  {
+    "player_id": 4869770,
+    "player_name": "Ian Jackson",
+    "team_id": 2599,
+    "team_name": "St. John's Red Storm",
+    "games_played": 1,
+    "tournament_points": 9,
+    "tournament_minutes": 9
+  },
+  {
+    "player_id": 5240005,
+    "player_name": "Maban Jabriel",
+    "team_id": 2511,
+    "team_name": "Queens University Royals",
+    "games_played": 1,
+    "tournament_points": 9,
+    "tournament_minutes": 21
+  },
+  {
+    "player_id": 5174973,
+    "player_name": "Oscar Cluff",
+    "team_id": 2509,
+    "team_name": "Purdue Boilermakers",
+    "games_played": 1,
+    "tournament_points": 9,
+    "tournament_minutes": 22
+  },
+  {
+    "player_id": 5312035,
+    "player_name": "Omer Mayer",
+    "team_id": 2509,
+    "team_name": "Purdue Boilermakers",
+    "games_played": 1,
+    "tournament_points": 9,
+    "tournament_minutes": 17
+  },
+  {
+    "player_id": 5106880,
+    "player_name": "Jestin Porter",
+    "team_id": 228,
+    "team_name": "Clemson Tigers",
+    "games_played": 1,
+    "tournament_points": 9,
+    "tournament_minutes": 25
   },
   {
     "player_id": 5281369,
@@ -2034,6 +2241,33 @@
     "tournament_minutes": 21
   },
   {
+    "player_id": 5240539,
+    "player_name": "Ruben Prey",
+    "team_id": 2599,
+    "team_name": "St. John's Red Storm",
+    "games_played": 1,
+    "tournament_points": 8,
+    "tournament_minutes": 12
+  },
+  {
+    "player_id": 5177217,
+    "player_name": "Carson Schwieger",
+    "team_id": 2511,
+    "team_name": "Queens University Royals",
+    "games_played": 1,
+    "tournament_points": 8,
+    "tournament_minutes": 24
+  },
+  {
+    "player_id": 5107088,
+    "player_name": "Chris Ashby",
+    "team_id": 2511,
+    "team_name": "Queens University Royals",
+    "games_played": 1,
+    "tournament_points": 8,
+    "tournament_minutes": 33
+  },
+  {
     "player_id": 5105847,
     "player_name": "Evan Mahaffey",
     "team_id": 2006,
@@ -2050,6 +2284,33 @@
     "games_played": 1,
     "tournament_points": 8,
     "tournament_minutes": 18
+  },
+  {
+    "player_id": 4873203,
+    "player_name": "Cooper Koch",
+    "team_id": 2294,
+    "team_name": "Iowa Hawkeyes",
+    "games_played": 1,
+    "tournament_points": 8,
+    "tournament_minutes": 38
+  },
+  {
+    "player_id": 4699440,
+    "player_name": "Nick Davidson",
+    "team_id": 228,
+    "team_name": "Clemson Tigers",
+    "games_played": 1,
+    "tournament_points": 8,
+    "tournament_minutes": 30
+  },
+  {
+    "player_id": 5105445,
+    "player_name": "Dillon Hunter",
+    "team_id": 228,
+    "team_name": "Clemson Tigers",
+    "games_played": 1,
+    "tournament_points": 8,
+    "tournament_minutes": 31
   },
   {
     "player_id": 5217196,
@@ -2212,6 +2473,24 @@
     "games_played": 1,
     "tournament_points": 7,
     "tournament_minutes": 25
+  },
+  {
+    "player_id": 5106283,
+    "player_name": "Dillon Mitchell",
+    "team_id": 2599,
+    "team_name": "St. John's Red Storm",
+    "games_played": 1,
+    "tournament_points": 7,
+    "tournament_minutes": 32
+  },
+  {
+    "player_id": 5311842,
+    "player_name": "Tate Sage",
+    "team_id": 2294,
+    "team_name": "Iowa Hawkeyes",
+    "games_played": 1,
+    "tournament_points": 7,
+    "tournament_minutes": 13
   },
   {
     "player_id": 5311527,
@@ -2412,6 +2691,51 @@
     "tournament_minutes": 22
   },
   {
+    "player_id": 5241408,
+    "player_name": "Max Weisbrod",
+    "team_id": 2460,
+    "team_name": "Northern Iowa Panthers",
+    "games_played": 1,
+    "tournament_points": 6,
+    "tournament_minutes": 30
+  },
+  {
+    "player_id": 5105658,
+    "player_name": "Dylan Darling",
+    "team_id": 2599,
+    "team_name": "St. John's Red Storm",
+    "games_played": 1,
+    "tournament_points": 6,
+    "tournament_minutes": 33
+  },
+  {
+    "player_id": 5142625,
+    "player_name": "Joson Sanon",
+    "team_id": 2599,
+    "team_name": "St. John's Red Storm",
+    "games_played": 1,
+    "tournament_points": 6,
+    "tournament_minutes": 18
+  },
+  {
+    "player_id": 5176801,
+    "player_name": "Avantae Parker",
+    "team_id": 2511,
+    "team_name": "Queens University Royals",
+    "games_played": 1,
+    "tournament_points": 6,
+    "tournament_minutes": 18
+  },
+  {
+    "player_id": 4898223,
+    "player_name": "Gus Larson",
+    "team_id": 2511,
+    "team_name": "Queens University Royals",
+    "games_played": 1,
+    "tournament_points": 6,
+    "tournament_minutes": 12
+  },
+  {
     "player_id": 5144139,
     "player_name": "London Jemison",
     "team_id": 333,
@@ -2419,6 +2743,15 @@
     "games_played": 1,
     "tournament_points": 6,
     "tournament_minutes": 21
+  },
+  {
+    "player_id": 5241363,
+    "player_name": "Tavion Banks",
+    "team_id": 2294,
+    "team_name": "Iowa Hawkeyes",
+    "games_played": 1,
+    "tournament_points": 6,
+    "tournament_minutes": 26
   },
   {
     "player_id": 5176361,
@@ -2626,6 +2959,42 @@
     "games_played": 1,
     "tournament_points": 5,
     "tournament_minutes": 32
+  },
+  {
+    "player_id": 5145712,
+    "player_name": "Lefteris Liotopoulos",
+    "team_id": 2599,
+    "team_name": "St. John's Red Storm",
+    "games_played": 1,
+    "tournament_points": 5,
+    "tournament_minutes": 7
+  },
+  {
+    "player_id": 5240006,
+    "player_name": "Yoav Berman",
+    "team_id": 2511,
+    "team_name": "Queens University Royals",
+    "games_played": 1,
+    "tournament_points": 5,
+    "tournament_minutes": 28
+  },
+  {
+    "player_id": 5196932,
+    "player_name": "Isaiah Henry",
+    "team_id": 2511,
+    "team_name": "Queens University Royals",
+    "games_played": 1,
+    "tournament_points": 5,
+    "tournament_minutes": 4
+  },
+  {
+    "player_id": 5179085,
+    "player_name": "Ace Buckner",
+    "team_id": 228,
+    "team_name": "Clemson Tigers",
+    "games_played": 1,
+    "tournament_points": 5,
+    "tournament_minutes": 20
   },
   {
     "player_id": 5238207,
@@ -2880,6 +3249,24 @@
     "tournament_minutes": 28
   },
   {
+    "player_id": 5314491,
+    "player_name": "Kam Clark",
+    "team_id": 2511,
+    "team_name": "Queens University Royals",
+    "games_played": 1,
+    "tournament_points": 4,
+    "tournament_minutes": 3
+  },
+  {
+    "player_id": 5144147,
+    "player_name": "Daniel Jacobsen",
+    "team_id": 2509,
+    "team_name": "Purdue Boilermakers",
+    "games_played": 1,
+    "tournament_points": 4,
+    "tournament_minutes": 10
+  },
+  {
     "player_id": 5108059,
     "player_name": "Tavari Johnson",
     "team_id": 2006,
@@ -3087,6 +3474,24 @@
     "tournament_minutes": 9
   },
   {
+    "player_id": 4702975,
+    "player_name": "Liam Murphy",
+    "team_id": 2509,
+    "team_name": "Purdue Boilermakers",
+    "games_played": 1,
+    "tournament_points": 3,
+    "tournament_minutes": 4
+  },
+  {
+    "player_id": 5102618,
+    "player_name": "Jack Benter",
+    "team_id": 2509,
+    "team_name": "Purdue Boilermakers",
+    "games_played": 1,
+    "tournament_points": 3,
+    "tournament_minutes": 20
+  },
+  {
     "player_id": 4703169,
     "player_name": "Joshua Aaron Reaves",
     "team_id": 2275,
@@ -3103,6 +3508,15 @@
     "games_played": 1,
     "tournament_points": 3,
     "tournament_minutes": 4
+  },
+  {
+    "player_id": 4869781,
+    "player_name": "Dallas Thomas",
+    "team_id": 228,
+    "team_name": "Clemson Tigers",
+    "games_played": 1,
+    "tournament_points": 3,
+    "tournament_minutes": 5
   },
   {
     "player_id": 5105453,
@@ -3348,6 +3762,15 @@
     "tournament_minutes": 15
   },
   {
+    "player_id": 4897474,
+    "player_name": "Ben Schwieger",
+    "team_id": 2460,
+    "team_name": "Northern Iowa Panthers",
+    "games_played": 1,
+    "tournament_points": 2,
+    "tournament_minutes": 30
+  },
+  {
     "player_id": 5061581,
     "player_name": "Luke Bamgboye",
     "team_id": 2641,
@@ -3373,6 +3796,15 @@
     "games_played": 1,
     "tournament_points": 2,
     "tournament_minutes": 20
+  },
+  {
+    "player_id": 5196962,
+    "player_name": "Chase Thompson",
+    "team_id": 228,
+    "team_name": "Clemson Tigers",
+    "games_played": 1,
+    "tournament_points": 2,
+    "tournament_minutes": 14
   },
   {
     "player_id": 5314353,
@@ -3472,6 +3904,15 @@
     "games_played": 1,
     "tournament_points": 1,
     "tournament_minutes": 5
+  },
+  {
+    "player_id": 5176283,
+    "player_name": "Cam Manyawu",
+    "team_id": 2294,
+    "team_name": "Iowa Hawkeyes",
+    "games_played": 1,
+    "tournament_points": 1,
+    "tournament_minutes": 23
   },
   {
     "player_id": 5242986,
@@ -6363,6 +6804,303 @@
     "tournament_minutes": 0
   },
   {
+    "player_id": 5238171,
+    "player_name": "Ismael Diouf",
+    "team_id": 2460,
+    "team_name": "Northern Iowa Panthers",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 1
+  },
+  {
+    "player_id": 5176385,
+    "player_name": "Kyle Pock",
+    "team_id": 2460,
+    "team_name": "Northern Iowa Panthers",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 4897480,
+    "player_name": "Chase Courbat",
+    "team_id": 2460,
+    "team_name": "Northern Iowa Panthers",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5315804,
+    "player_name": "Geon Hutchins",
+    "team_id": 2460,
+    "team_name": "Northern Iowa Panthers",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 2
+  },
+  {
+    "player_id": 5176384,
+    "player_name": "RJ Taylor",
+    "team_id": 2460,
+    "team_name": "Northern Iowa Panthers",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 8
+  },
+  {
+    "player_id": 5107889,
+    "player_name": "Hunter Jacobson",
+    "team_id": 2460,
+    "team_name": "Northern Iowa Panthers",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5239492,
+    "player_name": "Marino Dubravcic",
+    "team_id": 2460,
+    "team_name": "Northern Iowa Panthers",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5144119,
+    "player_name": "Jalen Wilson",
+    "team_id": 2460,
+    "team_name": "Northern Iowa Panthers",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5315805,
+    "player_name": "Levi Valdo",
+    "team_id": 2460,
+    "team_name": "Northern Iowa Panthers",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5241410,
+    "player_name": "Cade Courbat",
+    "team_id": 2460,
+    "team_name": "Northern Iowa Panthers",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5241407,
+    "player_name": "Redek Born",
+    "team_id": 2460,
+    "team_name": "Northern Iowa Panthers",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5107197,
+    "player_name": "Sadiku Ibine Ayo",
+    "team_id": 2599,
+    "team_name": "St. John's Red Storm",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 4896480,
+    "player_name": "Handje Tamba",
+    "team_id": 2599,
+    "team_name": "St. John's Red Storm",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5312303,
+    "player_name": "Imran Suljanovic",
+    "team_id": 2599,
+    "team_name": "St. John's Red Storm",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5312302,
+    "player_name": "Fotis Konstantinidis",
+    "team_id": 2599,
+    "team_name": "St. John's Red Storm",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5312301,
+    "player_name": "Casper Pohto",
+    "team_id": 2599,
+    "team_name": "St. John's Red Storm",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5226072,
+    "player_name": "Kelvin Odih",
+    "team_id": 2599,
+    "team_name": "St. John's Red Storm",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5314493,
+    "player_name": "Tyler Crider",
+    "team_id": 2511,
+    "team_name": "Queens University Royals",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5314490,
+    "player_name": "Reid Celestin",
+    "team_id": 2511,
+    "team_name": "Queens University Royals",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 3
+  },
+  {
+    "player_id": 5314496,
+    "player_name": "Matthew Walter",
+    "team_id": 2511,
+    "team_name": "Queens University Royals",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5314495,
+    "player_name": "Seamus Wilson",
+    "team_id": 2511,
+    "team_name": "Queens University Royals",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5314494,
+    "player_name": "Saif-Allah Zatari",
+    "team_id": 2511,
+    "team_name": "Queens University Royals",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5314492,
+    "player_name": "Jimma James",
+    "team_id": 2511,
+    "team_name": "Queens University Royals",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5314489,
+    "player_name": "Danzelle Bullock Coles",
+    "team_id": 2511,
+    "team_name": "Queens University Royals",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5240008,
+    "player_name": "Colby Christiansen",
+    "team_id": 2511,
+    "team_name": "Queens University Royals",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5240007,
+    "player_name": "Jacob Brandly",
+    "team_id": 2511,
+    "team_name": "Queens University Royals",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5101658,
+    "player_name": "Gicarri Harris",
+    "team_id": 2509,
+    "team_name": "Purdue Boilermakers",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 19
+  },
+  {
+    "player_id": 5105856,
+    "player_name": "Sam King",
+    "team_id": 2509,
+    "team_name": "Purdue Boilermakers",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5061582,
+    "player_name": "Raleigh Burgess",
+    "team_id": 2509,
+    "team_name": "Purdue Boilermakers",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5239504,
+    "player_name": "Jack Lusk",
+    "team_id": 2509,
+    "team_name": "Purdue Boilermakers",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5239503,
+    "player_name": "Aaron Fine",
+    "team_id": 2509,
+    "team_name": "Purdue Boilermakers",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5174804,
+    "player_name": "Jace Rayl",
+    "team_id": 2509,
+    "team_name": "Purdue Boilermakers",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5144111,
+    "player_name": "Antione West Jr",
+    "team_id": 2509,
+    "team_name": "Purdue Boilermakers",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
     "player_id": 5105840,
     "player_name": "Bowen Hardman",
     "team_id": 2006,
@@ -6664,6 +7402,114 @@
     "player_name": "Aden Holloway",
     "team_id": 333,
     "team_name": "Alabama Crimson Tide",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5241366,
+    "player_name": "Isaia Howard",
+    "team_id": 2294,
+    "team_name": "Iowa Hawkeyes",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 10
+  },
+  {
+    "player_id": 5311841,
+    "player_name": "Trey Thompson",
+    "team_id": 2294,
+    "team_name": "Iowa Hawkeyes",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5241367,
+    "player_name": "Joey Matteoni",
+    "team_id": 2294,
+    "team_name": "Iowa Hawkeyes",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5311843,
+    "player_name": "Trevin Jirak",
+    "team_id": 2294,
+    "team_name": "Iowa Hawkeyes",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5311840,
+    "player_name": "Peyton McCollum",
+    "team_id": 2294,
+    "team_name": "Iowa Hawkeyes",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5239551,
+    "player_name": "Jacob Koch",
+    "team_id": 2294,
+    "team_name": "Iowa Hawkeyes",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5105589,
+    "player_name": "Brendan Hausen",
+    "team_id": 2294,
+    "team_name": "Iowa Hawkeyes",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5174977,
+    "player_name": "Jake Wahlin",
+    "team_id": 228,
+    "team_name": "Clemson Tigers",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 16
+  },
+  {
+    "player_id": 5311534,
+    "player_name": "Blake Davidson",
+    "team_id": 228,
+    "team_name": "Clemson Tigers",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5196959,
+    "player_name": "Trent Steinour",
+    "team_id": 228,
+    "team_name": "Clemson Tigers",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5176397,
+    "player_name": "Carter Welling",
+    "team_id": 228,
+    "team_name": "Clemson Tigers",
+    "games_played": 1,
+    "tournament_points": 0,
+    "tournament_minutes": 0
+  },
+  {
+    "player_id": 5237299,
+    "player_name": "Zac Foster",
+    "team_id": 228,
+    "team_name": "Clemson Tigers",
     "games_played": 1,
     "tournament_points": 0,
     "tournament_minutes": 0

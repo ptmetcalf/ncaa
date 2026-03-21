@@ -204,8 +204,8 @@
     "date": "20260320",
     "name": "Northern Iowa Panthers at St. John's Red Storm",
     "short_name": "UNI VS SJU",
-    "completed": false,
-    "status": "In Progress",
+    "completed": true,
+    "status": "Final",
     "home_team_id": 2599,
     "away_team_id": 2460
   },
@@ -254,8 +254,8 @@
     "date": "20260320",
     "name": "Queens University Royals at Purdue Boilermakers",
     "short_name": "QUC VS PUR",
-    "completed": false,
-    "status": "In Progress",
+    "completed": true,
+    "status": "Final",
     "home_team_id": 2509,
     "away_team_id": 2511
   },
@@ -284,8 +284,8 @@
     "date": "20260320",
     "name": "Iowa Hawkeyes at Clemson Tigers",
     "short_name": "IOWA VS CLEM",
-    "completed": false,
-    "status": "In Progress",
+    "completed": true,
+    "status": "Final",
     "home_team_id": 228,
     "away_team_id": 2294
   },
@@ -295,7 +295,7 @@
     "name": "Prairie View A&M Panthers at Florida Gators",
     "short_name": "PV VS FLA",
     "completed": false,
-    "status": "Scheduled",
+    "status": "In Progress",
     "home_team_id": 57,
     "away_team_id": 2504
   },
