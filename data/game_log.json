@@ -6296,7 +6296,7 @@
     "player_name": "Kyle Pock",
     "team_id": 2460,
     "team_name": "Northern Iowa Panthers",
-    "minutes": null,
+    "minutes": 1,
     "points": 0
   },
   {
@@ -6306,7 +6306,7 @@
     "player_name": "Chase Courbat",
     "team_id": 2460,
     "team_name": "Northern Iowa Panthers",
-    "minutes": null,
+    "minutes": 1,
     "points": 0
   },
   {
@@ -6346,7 +6346,7 @@
     "player_name": "Hunter Jacobson",
     "team_id": 2460,
     "team_name": "Northern Iowa Panthers",
-    "minutes": null,
+    "minutes": 1,
     "points": 0
   },
   {
@@ -6466,7 +6466,7 @@
     "player_name": "Sadiku Ibine Ayo",
     "team_id": 2599,
     "team_name": "St. John's Red Storm",
-    "minutes": null,
+    "minutes": 1,
     "points": 0
   },
   {
@@ -6476,7 +6476,7 @@
     "player_name": "Handje Tamba",
     "team_id": 2599,
     "team_name": "St. John's Red Storm",
-    "minutes": null,
+    "minutes": 1,
     "points": 0
   },
   {
@@ -6550,13 +6550,313 @@
     "points": 0
   },
   {
+    "event_id": 401856496,
+    "date": "20260320",
+    "player_id": 5241667,
+    "player_name": "Jamichael Stillwell",
+    "team_id": 2116,
+    "team_name": "UCF Knights",
+    "minutes": 28,
+    "points": 10
+  },
+  {
+    "event_id": 401856496,
+    "date": "20260320",
+    "player_id": 5060684,
+    "player_name": "Jordan Burks",
+    "team_id": 2116,
+    "team_name": "UCF Knights",
+    "minutes": 32,
+    "points": 22
+  },
+  {
+    "event_id": 401856496,
+    "date": "20260320",
+    "player_id": 4915060,
+    "player_name": "John Bol",
+    "team_id": 2116,
+    "team_name": "UCF Knights",
+    "minutes": 20,
+    "points": 2
+  },
+  {
+    "event_id": 401856496,
+    "date": "20260320",
+    "player_id": 5105529,
+    "player_name": "Riley Kugel",
+    "team_id": 2116,
+    "team_name": "UCF Knights",
+    "minutes": 28,
+    "points": 13
+  },
+  {
+    "event_id": 401856496,
+    "date": "20260320",
+    "player_id": 4704078,
+    "player_name": "Themus Fulks",
+    "team_id": 2116,
+    "team_name": "UCF Knights",
+    "minutes": 34,
+    "points": 10
+  },
+  {
+    "event_id": 401856496,
+    "date": "20260320",
+    "player_id": 4567588,
+    "player_name": "Devan Cambridge",
+    "team_id": 2116,
+    "team_name": "UCF Knights",
+    "minutes": 15,
+    "points": 6
+  },
+  {
+    "event_id": 401856496,
+    "date": "20260320",
+    "player_id": 5108850,
+    "player_name": "Elijah Hulsewe",
+    "team_id": 2116,
+    "team_name": "UCF Knights",
+    "minutes": 2,
+    "points": 0
+  },
+  {
+    "event_id": 401856496,
+    "date": "20260320",
+    "player_id": 5242634,
+    "player_name": "Carmelo Pacheco",
+    "team_id": 2116,
+    "team_name": "UCF Knights",
+    "minutes": 17,
+    "points": 3
+  },
+  {
+    "event_id": 401856496,
+    "date": "20260320",
+    "player_id": 5175069,
+    "player_name": "Chris Johnson",
+    "team_id": 2116,
+    "team_name": "UCF Knights",
+    "minutes": 14,
+    "points": 0
+  },
+  {
+    "event_id": 401856496,
+    "date": "20260320",
+    "player_id": 5107975,
+    "player_name": "George Beale Jr.",
+    "team_id": 2116,
+    "team_name": "UCF Knights",
+    "minutes": 10,
+    "points": 5
+  },
+  {
+    "event_id": 401856496,
+    "date": "20260320",
+    "player_id": 5105970,
+    "player_name": "Jeremy Foumena",
+    "team_id": 2116,
+    "team_name": "UCF Knights",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856496,
+    "date": "20260320",
+    "player_id": 5311933,
+    "player_name": "Tanner Jones",
+    "team_id": 2116,
+    "team_name": "UCF Knights",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856496,
+    "date": "20260320",
+    "player_id": 5311932,
+    "player_name": "Zach Johnson",
+    "team_id": 2116,
+    "team_name": "UCF Knights",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856496,
+    "date": "20260320",
+    "player_id": 5106645,
+    "player_name": "Poohpha Warakulnukroh",
+    "team_id": 2116,
+    "team_name": "UCF Knights",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856496,
+    "date": "20260320",
+    "player_id": 4848623,
+    "player_name": "Kris Parker",
+    "team_id": 2116,
+    "team_name": "UCF Knights",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856496,
+    "date": "20260320",
+    "player_id": 4711304,
+    "player_name": "Xavier Booker",
+    "team_id": 26,
+    "team_name": "UCLA Bruins",
+    "minutes": 26,
+    "points": 15
+  },
+  {
+    "event_id": 401856496,
+    "date": "20260320",
+    "player_id": 5107782,
+    "player_name": "Donovan Dent",
+    "team_id": 26,
+    "team_name": "UCLA Bruins",
+    "minutes": 40,
+    "points": 10
+  },
+  {
+    "event_id": 401856496,
+    "date": "20260320",
+    "player_id": 5105794,
+    "player_name": "Skyy Clark",
+    "team_id": 26,
+    "team_name": "UCLA Bruins",
+    "minutes": 20,
+    "points": 8
+  },
+  {
+    "event_id": 401856496,
+    "date": "20260320",
+    "player_id": 5060706,
+    "player_name": "Trent Perry",
+    "team_id": 26,
+    "team_name": "UCLA Bruins",
+    "minutes": 37,
+    "points": 15
+  },
+  {
+    "event_id": 401856496,
+    "date": "20260320",
+    "player_id": 4610012,
+    "player_name": "Eric Dailey Jr.",
+    "team_id": 26,
+    "team_name": "UCLA Bruins",
+    "minutes": 32,
+    "points": 20
+  },
+  {
+    "event_id": 401856496,
+    "date": "20260320",
+    "player_id": 5105417,
+    "player_name": "Steven Jamerson II",
+    "team_id": 26,
+    "team_name": "UCLA Bruins",
+    "minutes": 12,
+    "points": 2
+  },
+  {
+    "event_id": 401856496,
+    "date": "20260320",
+    "player_id": 5177743,
+    "player_name": "Jamar Brown",
+    "team_id": 26,
+    "team_name": "UCLA Bruins",
+    "minutes": 8,
+    "points": 3
+  },
+  {
+    "event_id": 401856496,
+    "date": "20260320",
+    "player_id": 5174981,
+    "player_name": "Brandon Williams",
+    "team_id": 26,
+    "team_name": "UCLA Bruins",
+    "minutes": 10,
+    "points": 0
+  },
+  {
+    "event_id": 401856496,
+    "date": "20260320",
+    "player_id": 5149633,
+    "player_name": "Eric Freeny",
+    "team_id": 26,
+    "team_name": "UCLA Bruins",
+    "minutes": 15,
+    "points": 0
+  },
+  {
+    "event_id": 401856496,
+    "date": "20260320",
+    "player_id": 5243402,
+    "player_name": "Anthony Peoples Jr.",
+    "team_id": 26,
+    "team_name": "UCLA Bruins",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856496,
+    "date": "20260320",
+    "player_id": 5105639,
+    "player_name": "Evan Manjikian",
+    "team_id": 26,
+    "team_name": "UCLA Bruins",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856496,
+    "date": "20260320",
+    "player_id": 5105626,
+    "player_name": "Tyler Bilodeau",
+    "team_id": 26,
+    "team_name": "UCLA Bruins",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856496,
+    "date": "20260320",
+    "player_id": 5312038,
+    "player_name": "Markell Alston",
+    "team_id": 26,
+    "team_name": "UCLA Bruins",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856496,
+    "date": "20260320",
+    "player_id": 5239622,
+    "player_name": "Christian Horry",
+    "team_id": 26,
+    "team_name": "UCLA Bruins",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856496,
+    "date": "20260320",
+    "player_id": 5105640,
+    "player_name": "Jack Seidler",
+    "team_id": 26,
+    "team_name": "UCLA Bruins",
+    "minutes": null,
+    "points": 0
+  },
+  {
     "event_id": 401856519,
     "date": "20260320",
     "player_id": 5177217,
     "player_name": "Carson Schwieger",
     "team_id": 2511,
     "team_name": "Queens University Royals",
-    "minutes": 24,
+    "minutes": 25,
     "points": 8
   },
   {
@@ -6636,7 +6936,7 @@
     "player_name": "Tyler Crider",
     "team_id": 2511,
     "team_name": "Queens University Royals",
-    "minutes": null,
+    "minutes": 0,
     "points": 0
   },
   {
@@ -6656,7 +6956,7 @@
     "player_name": "Isaiah Henry",
     "team_id": 2511,
     "team_name": "Queens University Royals",
-    "minutes": 4,
+    "minutes": 5,
     "points": 5
   },
   {
@@ -6796,7 +7096,7 @@
     "player_name": "Liam Murphy",
     "team_id": 2509,
     "team_name": "Purdue Boilermakers",
-    "minutes": 4,
+    "minutes": 5,
     "points": 3
   },
   {
