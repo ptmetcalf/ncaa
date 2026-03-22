@@ -405,7 +405,7 @@
     "name": "Vanderbilt Commodores at Nebraska Cornhuskers",
     "short_name": "VAN VS NEB",
     "completed": false,
-    "status": "Scheduled",
+    "status": "Halftime",
     "home_team_id": 158,
     "away_team_id": 238
   },
@@ -425,7 +425,7 @@
     "name": "High Point Panthers at Arkansas Razorbacks",
     "short_name": "HPU VS ARK",
     "completed": false,
-    "status": "Scheduled",
+    "status": "In Progress",
     "home_team_id": 8,
     "away_team_id": 2272
   },
@@ -434,8 +434,8 @@
     "date": "20260321",
     "name": "Texas Longhorns at Gonzaga Bulldogs",
     "short_name": "TEX VS GONZ",
-    "completed": false,
-    "status": "In Progress",
+    "completed": true,
+    "status": "Final",
     "home_team_id": 2250,
     "away_team_id": 251
   },

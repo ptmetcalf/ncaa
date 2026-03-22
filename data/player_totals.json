@@ -1,5 +1,32 @@
 [
   {
+    "player_id": 5239838,
+    "player_name": "Matas Vokietaitis",
+    "team_id": 251,
+    "team_name": "Texas Longhorns",
+    "games_played": 3,
+    "tournament_points": 55,
+    "tournament_minutes": 90
+  },
+  {
+    "player_id": 4703396,
+    "player_name": "Graham Ike",
+    "team_id": 2250,
+    "team_name": "Gonzaga Bulldogs",
+    "games_played": 2,
+    "tournament_points": 44,
+    "tournament_minutes": 75
+  },
+  {
+    "player_id": 4432243,
+    "player_name": "Tramon Mark",
+    "team_id": 251,
+    "team_name": "Texas Longhorns",
+    "games_played": 3,
+    "tournament_points": 42,
+    "tournament_minutes": 99
+  },
+  {
     "player_id": 5041935,
     "player_name": "Cameron Boozer",
     "team_id": 150,
@@ -27,13 +54,13 @@
     "tournament_minutes": 71
   },
   {
-    "player_id": 5239838,
-    "player_name": "Matas Vokietaitis",
+    "player_id": 4848625,
+    "player_name": "Dailyn Swain",
     "team_id": 251,
     "team_name": "Texas Longhorns",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 38,
-    "tournament_minutes": 59
+    "tournament_minutes": 113
   },
   {
     "player_id": 4872740,
@@ -52,15 +79,6 @@
     "games_played": 2,
     "tournament_points": 37,
     "tournament_minutes": 78
-  },
-  {
-    "player_id": 4432243,
-    "player_name": "Tramon Mark",
-    "team_id": 251,
-    "team_name": "Texas Longhorns",
-    "games_played": 2,
-    "tournament_points": 36,
-    "tournament_minutes": 68
   },
   {
     "player_id": 5037876,
@@ -151,6 +169,15 @@
     "games_played": 2,
     "tournament_points": 34,
     "tournament_minutes": 47
+  },
+  {
+    "player_id": 5105624,
+    "player_name": "Jordan Pope",
+    "team_id": 251,
+    "team_name": "Texas Longhorns",
+    "games_played": 3,
+    "tournament_points": 33,
+    "tournament_minutes": 101
   },
   {
     "player_id": 5061585,
@@ -306,15 +333,6 @@
     "tournament_minutes": 37
   },
   {
-    "player_id": 4848625,
-    "player_name": "Dailyn Swain",
-    "team_id": 251,
-    "team_name": "Texas Longhorns",
-    "games_played": 2,
-    "tournament_points": 27,
-    "tournament_minutes": 75
-  },
-  {
     "player_id": 5093252,
     "player_name": "Eian Elmer",
     "team_id": 193,
@@ -459,6 +477,15 @@
     "tournament_minutes": 37
   },
   {
+    "player_id": 5105486,
+    "player_name": "Chendall Weaver",
+    "team_id": 251,
+    "team_name": "Texas Longhorns",
+    "games_played": 3,
+    "tournament_points": 24,
+    "tournament_minutes": 66
+  },
+  {
     "player_id": 5142620,
     "player_name": "Darius Acuff Jr.",
     "team_id": 8,
@@ -522,6 +549,15 @@
     "tournament_minutes": 36
   },
   {
+    "player_id": 5196913,
+    "player_name": "Davis Fogle",
+    "team_id": 2250,
+    "team_name": "Gonzaga Bulldogs",
+    "games_played": 2,
+    "tournament_points": 23,
+    "tournament_minutes": 49
+  },
+  {
     "player_id": 4858604,
     "player_name": "Pryce Sandfort",
     "team_id": 158,
@@ -556,6 +592,15 @@
     "games_played": 2,
     "tournament_points": 22,
     "tournament_minutes": 54
+  },
+  {
+    "player_id": 4683147,
+    "player_name": "Jalen Warley",
+    "team_id": 2250,
+    "team_name": "Gonzaga Bulldogs",
+    "games_played": 2,
+    "tournament_points": 22,
+    "tournament_minutes": 58
   },
   {
     "player_id": 4873086,
@@ -846,15 +891,6 @@
     "tournament_minutes": 31
   },
   {
-    "player_id": 4703396,
-    "player_name": "Graham Ike",
-    "team_id": 2250,
-    "team_name": "Gonzaga Bulldogs",
-    "games_played": 1,
-    "tournament_points": 19,
-    "tournament_minutes": 36
-  },
-  {
     "player_id": 5060700,
     "player_name": "Joseph Tugler",
     "team_id": 248,
@@ -990,15 +1026,6 @@
     "tournament_minutes": 36
   },
   {
-    "player_id": 5196913,
-    "player_name": "Davis Fogle",
-    "team_id": 2250,
-    "team_name": "Gonzaga Bulldogs",
-    "games_played": 1,
-    "tournament_points": 17,
-    "tournament_minutes": 25
-  },
-  {
     "player_id": 4869764,
     "player_name": "Elliot Cadeau",
     "team_id": 130,
@@ -1053,24 +1080,6 @@
     "tournament_minutes": 32
   },
   {
-    "player_id": 5105624,
-    "player_name": "Jordan Pope",
-    "team_id": 251,
-    "team_name": "Texas Longhorns",
-    "games_played": 2,
-    "tournament_points": 16,
-    "tournament_minutes": 69
-  },
-  {
-    "player_id": 5105486,
-    "player_name": "Chendall Weaver",
-    "team_id": 251,
-    "team_name": "Texas Longhorns",
-    "games_played": 2,
-    "tournament_points": 16,
-    "tournament_minutes": 47
-  },
-  {
     "player_id": 4683860,
     "player_name": "Quadir Copeland",
     "team_id": 152,
@@ -1105,6 +1114,33 @@
     "games_played": 1,
     "tournament_points": 16,
     "tournament_minutes": 30
+  },
+  {
+    "player_id": 5176787,
+    "player_name": "Emmanuel Innocenti",
+    "team_id": 2250,
+    "team_name": "Gonzaga Bulldogs",
+    "games_played": 2,
+    "tournament_points": 16,
+    "tournament_minutes": 73
+  },
+  {
+    "player_id": 5313012,
+    "player_name": "Mario Saint-Supery",
+    "team_id": 2250,
+    "team_name": "Gonzaga Bulldogs",
+    "games_played": 2,
+    "tournament_points": 16,
+    "tournament_minutes": 67
+  },
+  {
+    "player_id": 4700527,
+    "player_name": "Tyon Grant-Foster",
+    "team_id": 2250,
+    "team_name": "Gonzaga Bulldogs",
+    "games_played": 2,
+    "tournament_points": 16,
+    "tournament_minutes": 40
   },
   {
     "player_id": 5175171,
@@ -1447,6 +1483,15 @@
     "games_played": 1,
     "tournament_points": 15,
     "tournament_minutes": 28
+  },
+  {
+    "player_id": 5149083,
+    "player_name": "Nic Codie",
+    "team_id": 251,
+    "team_name": "Texas Longhorns",
+    "games_played": 3,
+    "tournament_points": 14,
+    "tournament_minutes": 53
   },
   {
     "player_id": 4895776,
@@ -1836,15 +1881,6 @@
     "tournament_minutes": 43
   },
   {
-    "player_id": 4683147,
-    "player_name": "Jalen Warley",
-    "team_id": 2250,
-    "team_name": "Gonzaga Bulldogs",
-    "games_played": 1,
-    "tournament_points": 12,
-    "tournament_minutes": 29
-  },
-  {
     "player_id": 4838721,
     "player_name": "Tyler Nickel",
     "team_id": 238,
@@ -1951,6 +1987,15 @@
     "games_played": 1,
     "tournament_points": 12,
     "tournament_minutes": 37
+  },
+  {
+    "player_id": 5105855,
+    "player_name": "Camden Heide",
+    "team_id": 251,
+    "team_name": "Texas Longhorns",
+    "games_played": 3,
+    "tournament_points": 11,
+    "tournament_minutes": 47
   },
   {
     "player_id": 4873151,
@@ -2412,15 +2457,6 @@
     "tournament_minutes": 39
   },
   {
-    "player_id": 4700527,
-    "player_name": "Tyon Grant-Foster",
-    "team_id": 2250,
-    "team_name": "Gonzaga Bulldogs",
-    "games_played": 1,
-    "tournament_points": 9,
-    "tournament_minutes": 21
-  },
-  {
     "player_id": 5106843,
     "player_name": "DJ Richards Jr.",
     "team_id": 2377,
@@ -2608,15 +2644,6 @@
     "games_played": 1,
     "tournament_points": 9,
     "tournament_minutes": 22
-  },
-  {
-    "player_id": 5105855,
-    "player_name": "Camden Heide",
-    "team_id": 251,
-    "team_name": "Texas Longhorns",
-    "games_played": 2,
-    "tournament_points": 8,
-    "tournament_minutes": 34
   },
   {
     "player_id": 5105816,
@@ -2923,24 +2950,6 @@
     "games_played": 1,
     "tournament_points": 7,
     "tournament_minutes": 20
-  },
-  {
-    "player_id": 5176787,
-    "player_name": "Emmanuel Innocenti",
-    "team_id": 2250,
-    "team_name": "Gonzaga Bulldogs",
-    "games_played": 1,
-    "tournament_points": 7,
-    "tournament_minutes": 34
-  },
-  {
-    "player_id": 5313012,
-    "player_name": "Mario Saint-Supery",
-    "team_id": 2250,
-    "team_name": "Gonzaga Bulldogs",
-    "games_played": 1,
-    "tournament_points": 7,
-    "tournament_minutes": 36
   },
   {
     "player_id": 4711402,
@@ -3595,9 +3604,9 @@
     "player_name": "Simeon Wilcher",
     "team_id": 251,
     "team_name": "Texas Longhorns",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 4,
-    "tournament_minutes": 21
+    "tournament_minutes": 31
   },
   {
     "player_id": 5196877,
@@ -3679,6 +3688,15 @@
     "games_played": 2,
     "tournament_points": 4,
     "tournament_minutes": 11
+  },
+  {
+    "player_id": 4432175,
+    "player_name": "Adam Miller",
+    "team_id": 2250,
+    "team_name": "Gonzaga Bulldogs",
+    "games_played": 2,
+    "tournament_points": 4,
+    "tournament_minutes": 24
   },
   {
     "player_id": 5107490,
@@ -4194,15 +4212,6 @@
     "tournament_minutes": 1
   },
   {
-    "player_id": 5149083,
-    "player_name": "Nic Codie",
-    "team_id": 251,
-    "team_name": "Texas Longhorns",
-    "games_played": 2,
-    "tournament_points": 2,
-    "tournament_minutes": 27
-  },
-  {
     "player_id": 4702976,
     "player_name": "Josh Odunowo",
     "team_id": 2378,
@@ -4273,15 +4282,6 @@
     "games_played": 1,
     "tournament_points": 2,
     "tournament_minutes": 28
-  },
-  {
-    "player_id": 4432175,
-    "player_name": "Adam Miller",
-    "team_id": 2250,
-    "team_name": "Gonzaga Bulldogs",
-    "games_played": 1,
-    "tournament_points": 2,
-    "tournament_minutes": 15
   },
   {
     "player_id": 5311988,
@@ -4657,7 +4657,7 @@
     "player_name": "Declan Duru Jr.",
     "team_id": 251,
     "team_name": "Texas Longhorns",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -4666,7 +4666,7 @@
     "player_name": "John Clark",
     "team_id": 251,
     "team_name": "Texas Longhorns",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -4675,7 +4675,7 @@
     "player_name": "Cole Bott",
     "team_id": 251,
     "team_name": "Texas Longhorns",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -4684,7 +4684,7 @@
     "player_name": "Lassina Traore",
     "team_id": 251,
     "team_name": "Texas Longhorns",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -4693,7 +4693,7 @@
     "player_name": "Lewis Obiorah",
     "team_id": 251,
     "team_name": "Texas Longhorns",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -4702,7 +4702,7 @@
     "player_name": "Anthon McDermott",
     "team_id": 251,
     "team_name": "Texas Longhorns",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -4711,7 +4711,7 @@
     "player_name": "Brandon Taylor",
     "team_id": 251,
     "team_name": "Texas Longhorns",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -6340,25 +6340,25 @@
     "player_name": "Ismaila Diagne",
     "team_id": 2250,
     "team_name": "Gonzaga Bulldogs",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
-    "tournament_minutes": 2
+    "tournament_minutes": 3
   },
   {
     "player_id": 5105672,
     "player_name": "Braeden Smith",
     "team_id": 2250,
     "team_name": "Gonzaga Bulldogs",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
-    "tournament_minutes": 2
+    "tournament_minutes": 11
   },
   {
     "player_id": 5313013,
     "player_name": "Parker Jefferson",
     "team_id": 2250,
     "team_name": "Gonzaga Bulldogs",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -6367,7 +6367,7 @@
     "player_name": "Noah Haaland",
     "team_id": 2250,
     "team_name": "Gonzaga Bulldogs",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -6376,7 +6376,7 @@
     "player_name": "Braden Huff",
     "team_id": 2250,
     "team_name": "Gonzaga Bulldogs",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -6385,7 +6385,7 @@
     "player_name": "Alonzo Metz",
     "team_id": 2250,
     "team_name": "Gonzaga Bulldogs",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -6394,7 +6394,7 @@
     "player_name": "Cade Orness",
     "team_id": 2250,
     "team_name": "Gonzaga Bulldogs",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -6403,7 +6403,7 @@
     "player_name": "Joaquim ArauzMoore",
     "team_id": 2250,
     "team_name": "Gonzaga Bulldogs",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -6412,7 +6412,7 @@
     "player_name": "Steele Venters",
     "team_id": 2250,
     "team_name": "Gonzaga Bulldogs",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
