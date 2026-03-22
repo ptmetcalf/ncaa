@@ -364,8 +364,8 @@
     "date": "20260321",
     "name": "TCU Horned Frogs at Duke Blue Devils",
     "short_name": "TCU VS DUKE",
-    "completed": false,
-    "status": "In Progress",
+    "completed": true,
+    "status": "Final",
     "home_team_id": 150,
     "away_team_id": 2628
   },
@@ -395,7 +395,7 @@
     "name": "VCU Rams at Illinois Fighting Illini",
     "short_name": "VCU VS ILL",
     "completed": false,
-    "status": "Scheduled",
+    "status": "In Progress",
     "home_team_id": 356,
     "away_team_id": 2670
   },
@@ -414,8 +414,8 @@
     "date": "20260321",
     "name": "Texas A&M Aggies at Houston Cougars",
     "short_name": "TA&M VS HOU",
-    "completed": false,
-    "status": "Halftime",
+    "completed": true,
+    "status": "Final",
     "home_team_id": 248,
     "away_team_id": 245
   },
@@ -438,5 +438,85 @@
     "status": "In Progress",
     "home_team_id": 2250,
     "away_team_id": 251
+  },
+  {
+    "event_id": 401856558,
+    "date": "20260322",
+    "name": "St. John's Red Storm at Kansas Jayhawks",
+    "short_name": "SJU VS KU",
+    "completed": false,
+    "status": "Scheduled",
+    "home_team_id": 2305,
+    "away_team_id": 2599
+  },
+  {
+    "event_id": 401856559,
+    "date": "20260322",
+    "name": "UCLA Bruins at UConn Huskies",
+    "short_name": "UCLA VS CONN",
+    "completed": false,
+    "status": "Scheduled",
+    "home_team_id": 41,
+    "away_team_id": 26
+  },
+  {
+    "event_id": 401856560,
+    "date": "20260322",
+    "name": "Texas Tech Red Raiders at Alabama Crimson Tide",
+    "short_name": "TTU VS ALA",
+    "completed": false,
+    "status": "Scheduled",
+    "home_team_id": 333,
+    "away_team_id": 2641
+  },
+  {
+    "event_id": 401856561,
+    "date": "20260322",
+    "name": "Kentucky Wildcats at Iowa State Cyclones",
+    "short_name": "UK VS ISU",
+    "completed": false,
+    "status": "Scheduled",
+    "home_team_id": 66,
+    "away_team_id": 96
+  },
+  {
+    "event_id": 401856562,
+    "date": "20260322",
+    "name": "Tennessee Volunteers at Virginia Cavaliers",
+    "short_name": "TENN VS UVA",
+    "completed": false,
+    "status": "Scheduled",
+    "home_team_id": 258,
+    "away_team_id": 2633
+  },
+  {
+    "event_id": 401856563,
+    "date": "20260322",
+    "name": "Iowa Hawkeyes at Florida Gators",
+    "short_name": "IOWA VS FLA",
+    "completed": false,
+    "status": "Scheduled",
+    "home_team_id": 57,
+    "away_team_id": 2294
+  },
+  {
+    "event_id": 401856564,
+    "date": "20260322",
+    "name": "Miami Hurricanes at Purdue Boilermakers",
+    "short_name": "MIA VS PUR",
+    "completed": false,
+    "status": "Scheduled",
+    "home_team_id": 2509,
+    "away_team_id": 2390
+  },
+  {
+    "event_id": 401856565,
+    "date": "20260322",
+    "name": "Utah State Aggies at Arizona Wildcats",
+    "short_name": "USU VS ARIZ",
+    "completed": false,
+    "status": "Scheduled",
+    "home_team_id": 12,
+    "away_team_id": 328
   }
 ]

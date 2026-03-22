@@ -1,5 +1,14 @@
 [
   {
+    "player_id": 5041935,
+    "player_name": "Cameron Boozer",
+    "team_id": 150,
+    "team_name": "Duke Blue Devils",
+    "games_played": 2,
+    "tournament_points": 41,
+    "tournament_minutes": 72
+  },
+  {
     "player_id": 4897768,
     "player_name": "Bryce Harris",
     "team_id": 47,
@@ -52,6 +61,15 @@
     "games_played": 2,
     "tournament_points": 36,
     "tournament_minutes": 68
+  },
+  {
+    "player_id": 5037876,
+    "player_name": "Micah Robinson",
+    "team_id": 2628,
+    "team_name": "TCU Horned Frogs",
+    "games_played": 2,
+    "tournament_points": 36,
+    "tournament_minutes": 74
   },
   {
     "player_id": 4873153,
@@ -126,6 +144,24 @@
     "tournament_minutes": 40
   },
   {
+    "player_id": 5106058,
+    "player_name": "Emanuel Sharp",
+    "team_id": 248,
+    "team_name": "Houston Cougars",
+    "games_played": 2,
+    "tournament_points": 34,
+    "tournament_minutes": 47
+  },
+  {
+    "player_id": 5061585,
+    "player_name": "Isaiah Evans",
+    "team_id": 150,
+    "team_name": "Duke Blue Devils",
+    "games_played": 2,
+    "tournament_points": 33,
+    "tournament_minutes": 61
+  },
+  {
     "player_id": 4712845,
     "player_name": "Isaac McKneely",
     "team_id": 97,
@@ -198,6 +234,15 @@
     "tournament_minutes": 28
   },
   {
+    "player_id": 4593815,
+    "player_name": "Rashaun Agee",
+    "team_id": 245,
+    "team_name": "Texas A&M Aggies",
+    "games_played": 2,
+    "tournament_points": 29,
+    "tournament_minutes": 54
+  },
+  {
     "player_id": 4873090,
     "player_name": "Labaron Philon Jr.",
     "team_id": 333,
@@ -232,6 +277,24 @@
     "games_played": 2,
     "tournament_points": 28,
     "tournament_minutes": 71
+  },
+  {
+    "player_id": 5041937,
+    "player_name": "Cayden Boozer",
+    "team_id": 150,
+    "team_name": "Duke Blue Devils",
+    "games_played": 2,
+    "tournament_points": 28,
+    "tournament_minutes": 75
+  },
+  {
+    "player_id": 5311928,
+    "player_name": "Xavier Edmonds",
+    "team_id": 2628,
+    "team_name": "TCU Horned Frogs",
+    "games_played": 2,
+    "tournament_points": 28,
+    "tournament_minutes": 45
   },
   {
     "player_id": 5041955,
@@ -286,6 +349,24 @@
     "games_played": 2,
     "tournament_points": 27,
     "tournament_minutes": 53
+  },
+  {
+    "player_id": 5149077,
+    "player_name": "Kingston Flemings",
+    "team_id": 248,
+    "team_name": "Houston Cougars",
+    "games_played": 2,
+    "tournament_points": 27,
+    "tournament_minutes": 58
+  },
+  {
+    "player_id": 5106272,
+    "player_name": "Milos Uzan",
+    "team_id": 248,
+    "team_name": "Houston Cougars",
+    "games_played": 2,
+    "tournament_points": 27,
+    "tournament_minutes": 66
   },
   {
     "player_id": 4433138,
@@ -387,6 +468,15 @@
     "tournament_minutes": 36
   },
   {
+    "player_id": 5142621,
+    "player_name": "Chris Cenac Jr.",
+    "team_id": 248,
+    "team_name": "Houston Cougars",
+    "games_played": 2,
+    "tournament_points": 24,
+    "tournament_minutes": 50
+  },
+  {
     "player_id": 5105798,
     "player_name": "Malik Reneau",
     "team_id": 2390,
@@ -441,15 +531,6 @@
     "tournament_minutes": 38
   },
   {
-    "player_id": 5041935,
-    "player_name": "Cameron Boozer",
-    "team_id": 150,
-    "team_name": "Duke Blue Devils",
-    "games_played": 1,
-    "tournament_points": 22,
-    "tournament_minutes": 39
-  },
-  {
     "player_id": 5103630,
     "player_name": "John Blackwell",
     "team_id": 275,
@@ -477,13 +558,13 @@
     "tournament_minutes": 54
   },
   {
-    "player_id": 4593815,
-    "player_name": "Rashaun Agee",
-    "team_id": 245,
-    "team_name": "Texas A&M Aggies",
-    "games_played": 1,
+    "player_id": 4873086,
+    "player_name": "Mercy Miller",
+    "team_id": 248,
+    "team_name": "Houston Cougars",
+    "games_played": 2,
     "tournament_points": 22,
-    "tournament_minutes": 31
+    "tournament_minutes": 46
   },
   {
     "player_id": 5060684,
@@ -639,6 +720,15 @@
     "tournament_minutes": 35
   },
   {
+    "player_id": 5164368,
+    "player_name": "David Punch",
+    "team_id": 2628,
+    "team_name": "TCU Horned Frogs",
+    "games_played": 2,
+    "tournament_points": 20,
+    "tournament_minutes": 58
+  },
+  {
     "player_id": 5183809,
     "player_name": "Ishan Sharma",
     "team_id": 139,
@@ -720,13 +810,13 @@
     "tournament_minutes": 33
   },
   {
-    "player_id": 5041937,
-    "player_name": "Cayden Boozer",
+    "player_id": 5287474,
+    "player_name": "Dame Sarr",
     "team_id": 150,
     "team_name": "Duke Blue Devils",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 19,
-    "tournament_minutes": 39
+    "tournament_minutes": 60
   },
   {
     "player_id": 4698719,
@@ -763,6 +853,15 @@
     "games_played": 1,
     "tournament_points": 19,
     "tournament_minutes": 36
+  },
+  {
+    "player_id": 5060700,
+    "player_name": "Joseph Tugler",
+    "team_id": 248,
+    "team_name": "Houston Cougars",
+    "games_played": 2,
+    "tournament_points": 19,
+    "tournament_minutes": 50
   },
   {
     "player_id": 4433285,
@@ -819,13 +918,13 @@
     "tournament_minutes": 40
   },
   {
-    "player_id": 5037876,
-    "player_name": "Micah Robinson",
-    "team_id": 2628,
-    "team_name": "TCU Horned Frogs",
-    "games_played": 1,
+    "player_id": 5105337,
+    "player_name": "Maliq Brown",
+    "team_id": 150,
+    "team_name": "Duke Blue Devils",
+    "games_played": 2,
     "tournament_points": 18,
-    "tournament_minutes": 37
+    "tournament_minutes": 52
   },
   {
     "player_id": 5041954,
@@ -853,15 +952,6 @@
     "games_played": 1,
     "tournament_points": 18,
     "tournament_minutes": 36
-  },
-  {
-    "player_id": 5149077,
-    "player_name": "Kingston Flemings",
-    "team_id": 248,
-    "team_name": "Houston Cougars",
-    "games_played": 1,
-    "tournament_points": 18,
-    "tournament_minutes": 27
   },
   {
     "player_id": 5060701,
@@ -990,31 +1080,13 @@
     "tournament_minutes": 35
   },
   {
-    "player_id": 5061585,
-    "player_name": "Isaiah Evans",
-    "team_id": 150,
-    "team_name": "Duke Blue Devils",
-    "games_played": 1,
-    "tournament_points": 16,
-    "tournament_minutes": 32
-  },
-  {
-    "player_id": 5311928,
-    "player_name": "Xavier Edmonds",
+    "player_id": 5103589,
+    "player_name": "Brock Harding",
     "team_id": 2628,
     "team_name": "TCU Horned Frogs",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 16,
-    "tournament_minutes": 25
-  },
-  {
-    "player_id": 5164368,
-    "player_name": "David Punch",
-    "team_id": 2628,
-    "team_name": "TCU Horned Frogs",
-    "games_played": 1,
-    "tournament_points": 16,
-    "tournament_minutes": 28
+    "tournament_minutes": 65
   },
   {
     "player_id": 5105546,
@@ -1062,13 +1134,13 @@
     "tournament_minutes": 31
   },
   {
-    "player_id": 5106058,
-    "player_name": "Emanuel Sharp",
-    "team_id": 248,
-    "team_name": "Houston Cougars",
-    "games_played": 1,
+    "player_id": 5311530,
+    "player_name": "Rubén Dominguez",
+    "team_id": 245,
+    "team_name": "Texas A&M Aggies",
+    "games_played": 2,
     "tournament_points": 16,
-    "tournament_minutes": 22
+    "tournament_minutes": 48
   },
   {
     "player_id": 5152656,
@@ -1231,6 +1303,15 @@
     "games_played": 1,
     "tournament_points": 15,
     "tournament_minutes": 43
+  },
+  {
+    "player_id": 4896862,
+    "player_name": "Ali Dibba",
+    "team_id": 245,
+    "team_name": "Texas A&M Aggies",
+    "games_played": 2,
+    "tournament_points": 15,
+    "tournament_minutes": 41
   },
   {
     "player_id": 5101655,
@@ -1629,15 +1710,6 @@
     "tournament_minutes": 27
   },
   {
-    "player_id": 5060700,
-    "player_name": "Joseph Tugler",
-    "team_id": 248,
-    "team_name": "Houston Cougars",
-    "games_played": 1,
-    "tournament_points": 13,
-    "tournament_minutes": 25
-  },
-  {
     "player_id": 4565698,
     "player_name": "Bryce Hopkins",
     "team_id": 2599,
@@ -1809,13 +1881,13 @@
     "tournament_minutes": 20
   },
   {
-    "player_id": 5106272,
-    "player_name": "Milos Uzan",
-    "team_id": 248,
-    "team_name": "Houston Cougars",
-    "games_played": 1,
+    "player_id": 5176160,
+    "player_name": "Josh Holloway",
+    "team_id": 245,
+    "team_name": "Texas A&M Aggies",
+    "games_played": 2,
     "tournament_points": 12,
-    "tournament_minutes": 33
+    "tournament_minutes": 34
   },
   {
     "player_id": 4838704,
@@ -1971,13 +2043,13 @@
     "tournament_minutes": 41
   },
   {
-    "player_id": 5311530,
-    "player_name": "Rubén Dominguez",
+    "player_id": 5106285,
+    "player_name": "Pop Isaacs",
     "team_id": 245,
     "team_name": "Texas A&M Aggies",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 11,
-    "tournament_minutes": 25
+    "tournament_minutes": 45
   },
   {
     "player_id": 5105642,
@@ -2196,13 +2268,13 @@
     "tournament_minutes": 37
   },
   {
-    "player_id": 4873086,
-    "player_name": "Mercy Miller",
-    "team_id": 248,
-    "team_name": "Houston Cougars",
-    "games_played": 1,
+    "player_id": 4683682,
+    "player_name": "Rylan Griffen",
+    "team_id": 245,
+    "team_name": "Texas A&M Aggies",
+    "games_played": 2,
     "tournament_points": 10,
-    "tournament_minutes": 24
+    "tournament_minutes": 51
   },
   {
     "player_id": 5241409,
@@ -2313,6 +2385,15 @@
     "tournament_minutes": 14
   },
   {
+    "player_id": 5144124,
+    "player_name": "Nikolas Khamenia",
+    "team_id": 150,
+    "team_name": "Duke Blue Devils",
+    "games_played": 2,
+    "tournament_points": 9,
+    "tournament_minutes": 50
+  },
+  {
     "player_id": 5107204,
     "player_name": "Harry Rouhliadeff",
     "team_id": 62,
@@ -2385,13 +2466,22 @@
     "tournament_minutes": 20
   },
   {
-    "player_id": 4896862,
-    "player_name": "Ali Dibba",
+    "player_id": 5101692,
+    "player_name": "Jamie Vinson",
     "team_id": 245,
     "team_name": "Texas A&M Aggies",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 9,
-    "tournament_minutes": 24
+    "tournament_minutes": 20
+  },
+  {
+    "player_id": 4683146,
+    "player_name": "Zach Clemence",
+    "team_id": 245,
+    "team_name": "Texas A&M Aggies",
+    "games_played": 2,
+    "tournament_points": 9,
+    "tournament_minutes": 46
   },
   {
     "player_id": 5315806,
@@ -2574,13 +2664,13 @@
     "tournament_minutes": 40
   },
   {
-    "player_id": 5103589,
-    "player_name": "Brock Harding",
+    "player_id": 5105619,
+    "player_name": "Jayden Pierre",
     "team_id": 2628,
     "team_name": "TCU Horned Frogs",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 8,
-    "tournament_minutes": 29
+    "tournament_minutes": 69
   },
   {
     "player_id": 4895783,
@@ -2653,6 +2743,15 @@
     "games_played": 1,
     "tournament_points": 8,
     "tournament_minutes": 21
+  },
+  {
+    "player_id": 5101660,
+    "player_name": "Chase McCarty",
+    "team_id": 248,
+    "team_name": "Houston Cougars",
+    "games_played": 2,
+    "tournament_points": 8,
+    "tournament_minutes": 28
   },
   {
     "player_id": 5240539,
@@ -2880,15 +2979,6 @@
     "tournament_minutes": 20
   },
   {
-    "player_id": 5142621,
-    "player_name": "Chris Cenac Jr.",
-    "team_id": 248,
-    "team_name": "Houston Cougars",
-    "games_played": 1,
-    "tournament_points": 7,
-    "tournament_minutes": 25
-  },
-  {
     "player_id": 5106283,
     "player_name": "Dillon Mitchell",
     "team_id": 2599,
@@ -2995,15 +3085,6 @@
     "games_played": 1,
     "tournament_points": 6,
     "tournament_minutes": 40
-  },
-  {
-    "player_id": 5105337,
-    "player_name": "Maliq Brown",
-    "team_id": 150,
-    "team_name": "Duke Blue Devils",
-    "games_played": 1,
-    "tournament_points": 6,
-    "tournament_minutes": 26
   },
   {
     "player_id": 5241592,
@@ -3258,11 +3339,20 @@
     "tournament_minutes": 36
   },
   {
-    "player_id": 5287474,
-    "player_name": "Dame Sarr",
-    "team_id": 150,
-    "team_name": "Duke Blue Devils",
-    "games_played": 1,
+    "player_id": 5245624,
+    "player_name": "Liutauras Lelevicius",
+    "team_id": 2628,
+    "team_name": "TCU Horned Frogs",
+    "games_played": 2,
+    "tournament_points": 5,
+    "tournament_minutes": 43
+  },
+  {
+    "player_id": 5105461,
+    "player_name": "Tanner Toolson",
+    "team_id": 2628,
+    "team_name": "TCU Horned Frogs",
+    "games_played": 2,
     "tournament_points": 5,
     "tournament_minutes": 31
   },
@@ -3382,15 +3472,6 @@
     "games_played": 1,
     "tournament_points": 5,
     "tournament_minutes": 15
-  },
-  {
-    "player_id": 5101692,
-    "player_name": "Jamie Vinson",
-    "team_id": 245,
-    "team_name": "Texas A&M Aggies",
-    "games_played": 1,
-    "tournament_points": 5,
-    "tournament_minutes": 9
   },
   {
     "player_id": 5240980,
@@ -3546,22 +3627,22 @@
     "tournament_minutes": 40
   },
   {
-    "player_id": 5105619,
-    "player_name": "Jayden Pierre",
-    "team_id": 2628,
-    "team_name": "TCU Horned Frogs",
-    "games_played": 1,
+    "player_id": 4873209,
+    "player_name": "Patrick Ngongba II",
+    "team_id": 150,
+    "team_name": "Duke Blue Devils",
+    "games_played": 2,
     "tournament_points": 4,
-    "tournament_minutes": 36
+    "tournament_minutes": 13
   },
   {
-    "player_id": 5245624,
-    "player_name": "Liutauras Lelevicius",
+    "player_id": 5101654,
+    "player_name": "Jace Posey",
     "team_id": 2628,
     "team_name": "TCU Horned Frogs",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 4,
-    "tournament_minutes": 28
+    "tournament_minutes": 2
   },
   {
     "player_id": 5313560,
@@ -3676,18 +3757,9 @@
     "player_name": "Marcus Hill",
     "team_id": 245,
     "team_name": "Texas A&M Aggies",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 4,
-    "tournament_minutes": 19
-  },
-  {
-    "player_id": 4683682,
-    "player_name": "Rylan Griffen",
-    "team_id": 245,
-    "team_name": "Texas A&M Aggies",
-    "games_played": 1,
-    "tournament_points": 4,
-    "tournament_minutes": 24
+    "tournament_minutes": 37
   },
   {
     "player_id": 5174955,
@@ -3706,6 +3778,15 @@
     "games_played": 1,
     "tournament_points": 4,
     "tournament_minutes": 28
+  },
+  {
+    "player_id": 5176274,
+    "player_name": "Kalifa Sakho",
+    "team_id": 248,
+    "team_name": "Houston Cougars",
+    "games_played": 2,
+    "tournament_points": 4,
+    "tournament_minutes": 25
   },
   {
     "player_id": 5241326,
@@ -3870,15 +3951,6 @@
     "tournament_minutes": 7
   },
   {
-    "player_id": 5144124,
-    "player_name": "Nikolas Khamenia",
-    "team_id": 150,
-    "team_name": "Duke Blue Devils",
-    "games_played": 1,
-    "tournament_points": 3,
-    "tournament_minutes": 24
-  },
-  {
     "player_id": 4845387,
     "player_name": "Gabe Cupps",
     "team_id": 194,
@@ -3942,20 +4014,11 @@
     "tournament_minutes": 5
   },
   {
-    "player_id": 5106285,
-    "player_name": "Pop Isaacs",
+    "player_id": 5107078,
+    "player_name": "Jacari Lane",
     "team_id": 245,
     "team_name": "Texas A&M Aggies",
-    "games_played": 1,
-    "tournament_points": 3,
-    "tournament_minutes": 23
-  },
-  {
-    "player_id": 4683146,
-    "player_name": "Zach Clemence",
-    "team_id": 245,
-    "team_name": "Texas A&M Aggies",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 3,
     "tournament_minutes": 21
   },
@@ -4185,6 +4248,15 @@
     "tournament_minutes": 4
   },
   {
+    "player_id": 5242117,
+    "player_name": "Vianney Salatchoum",
+    "team_id": 2628,
+    "team_name": "TCU Horned Frogs",
+    "games_played": 2,
+    "tournament_points": 2,
+    "tournament_minutes": 8
+  },
+  {
     "player_id": 5312048,
     "player_name": "Aleksas Bieliauskas",
     "team_id": 275,
@@ -4284,13 +4356,13 @@
     "tournament_minutes": 3
   },
   {
-    "player_id": 5107078,
-    "player_name": "Jacari Lane",
+    "player_id": 5061578,
+    "player_name": "Chris McDermott",
     "team_id": 245,
     "team_name": "Texas A&M Aggies",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 2,
-    "tournament_minutes": 12
+    "tournament_minutes": 3
   },
   {
     "player_id": 5176305,
@@ -4300,15 +4372,6 @@
     "games_played": 1,
     "tournament_points": 2,
     "tournament_minutes": 7
-  },
-  {
-    "player_id": 5101660,
-    "player_name": "Chase McCarty",
-    "team_id": 248,
-    "team_name": "Houston Cougars",
-    "games_played": 1,
-    "tournament_points": 2,
-    "tournament_minutes": 15
   },
   {
     "player_id": 4897474,
@@ -4543,6 +4606,15 @@
     "games_played": 2,
     "tournament_points": 1,
     "tournament_minutes": 7
+  },
+  {
+    "player_id": 4708176,
+    "player_name": "Ramon Walker Jr.",
+    "team_id": 248,
+    "team_name": "Houston Cougars",
+    "games_played": 2,
+    "tournament_points": 1,
+    "tournament_minutes": 16
   },
   {
     "player_id": 5176138,
@@ -5278,25 +5350,16 @@
     "player_name": "Darren Harris",
     "team_id": 150,
     "team_name": "Duke Blue Devils",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
-    "tournament_minutes": 9
+    "tournament_minutes": 13
   },
   {
     "player_id": 5107141,
     "player_name": "Ifeanyi Ufochukwu",
     "team_id": 150,
     "team_name": "Duke Blue Devils",
-    "games_played": 1,
-    "tournament_points": 0,
-    "tournament_minutes": 0
-  },
-  {
-    "player_id": 4873209,
-    "player_name": "Patrick Ngongba II",
-    "team_id": 150,
-    "team_name": "Duke Blue Devils",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -5305,7 +5368,7 @@
     "player_name": "Brock Davis",
     "team_id": 150,
     "team_name": "Duke Blue Devils",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -5314,7 +5377,7 @@
     "player_name": "Sebastian Wilkins",
     "team_id": 150,
     "team_name": "Duke Blue Devils",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -5323,16 +5386,16 @@
     "player_name": "Jack Scott",
     "team_id": 150,
     "team_name": "Duke Blue Devils",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
-    "tournament_minutes": 0
+    "tournament_minutes": 2
   },
   {
     "player_id": 4711256,
     "player_name": "Caleb Foster",
     "team_id": 150,
     "team_name": "Duke Blue Devils",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -5341,34 +5404,16 @@
     "player_name": "Cameron Sheffield",
     "team_id": 150,
     "team_name": "Duke Blue Devils",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
-    "tournament_minutes": 0
-  },
-  {
-    "player_id": 5242117,
-    "player_name": "Vianney Salatchoum",
-    "team_id": 2628,
-    "team_name": "TCU Horned Frogs",
-    "games_played": 1,
-    "tournament_points": 0,
-    "tournament_minutes": 1
-  },
-  {
-    "player_id": 5105461,
-    "player_name": "Tanner Toolson",
-    "team_id": 2628,
-    "team_name": "TCU Horned Frogs",
-    "games_played": 1,
-    "tournament_points": 0,
-    "tournament_minutes": 16
+    "tournament_minutes": 2
   },
   {
     "player_id": 5240268,
     "player_name": "Adam Stewart",
     "team_id": 2628,
     "team_name": "TCU Horned Frogs",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -5377,7 +5422,7 @@
     "player_name": "Malick Diallo",
     "team_id": 2628,
     "team_name": "TCU Horned Frogs",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -5386,7 +5431,7 @@
     "player_name": "Drew McElroy",
     "team_id": 2628,
     "team_name": "TCU Horned Frogs",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -5395,25 +5440,25 @@
     "player_name": "Ashton Simmons",
     "team_id": 2628,
     "team_name": "TCU Horned Frogs",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
-    "tournament_minutes": 0
+    "tournament_minutes": 2
   },
   {
     "player_id": 5175042,
     "player_name": "RJ Jones",
     "team_id": 2628,
     "team_name": "TCU Horned Frogs",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
-    "tournament_minutes": 0
+    "tournament_minutes": 1
   },
   {
     "player_id": 5106277,
     "player_name": "Trey Stuart",
     "team_id": 2628,
     "team_name": "TCU Horned Frogs",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -5422,18 +5467,9 @@
     "player_name": "Kayden Edwards",
     "team_id": 2628,
     "team_name": "TCU Horned Frogs",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
-    "tournament_minutes": 0
-  },
-  {
-    "player_id": 5101654,
-    "player_name": "Jace Posey",
-    "team_id": 2628,
-    "team_name": "TCU Horned Frogs",
-    "games_played": 1,
-    "tournament_points": 0,
-    "tournament_minutes": 0
+    "tournament_minutes": 2
   },
   {
     "player_id": 4702994,
@@ -7146,29 +7182,11 @@
     "tournament_minutes": 0
   },
   {
-    "player_id": 5176160,
-    "player_name": "Josh Holloway",
-    "team_id": 245,
-    "team_name": "Texas A&M Aggies",
-    "games_played": 1,
-    "tournament_points": 0,
-    "tournament_minutes": 12
-  },
-  {
     "player_id": 5105412,
     "player_name": "Federiko Federiko",
     "team_id": 245,
     "team_name": "Texas A&M Aggies",
-    "games_played": 1,
-    "tournament_points": 0,
-    "tournament_minutes": 0
-  },
-  {
-    "player_id": 5061578,
-    "player_name": "Chris McDermott",
-    "team_id": 245,
-    "team_name": "Texas A&M Aggies",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -7177,7 +7195,7 @@
     "player_name": "Mackenzie Mgbako",
     "team_id": 245,
     "team_name": "Texas A&M Aggies",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -7186,7 +7204,7 @@
     "player_name": "Jeremiah Green",
     "team_id": 245,
     "team_name": "Texas A&M Aggies",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -7195,7 +7213,7 @@
     "player_name": "Noah Shelby",
     "team_id": 245,
     "team_name": "Texas A&M Aggies",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -7362,56 +7380,38 @@
     "tournament_minutes": 0
   },
   {
-    "player_id": 5176274,
-    "player_name": "Kalifa Sakho",
-    "team_id": 248,
-    "team_name": "Houston Cougars",
-    "games_played": 1,
-    "tournament_points": 0,
-    "tournament_minutes": 12
-  },
-  {
     "player_id": 5117524,
     "player_name": "Cedric Lath",
     "team_id": 248,
     "team_name": "Houston Cougars",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
-    "tournament_minutes": 3
+    "tournament_minutes": 5
   },
   {
     "player_id": 5041942,
     "player_name": "Isiah Harwell",
     "team_id": 248,
     "team_name": "Houston Cougars",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
-    "tournament_minutes": 3
-  },
-  {
-    "player_id": 4708176,
-    "player_name": "Ramon Walker Jr.",
-    "team_id": 248,
-    "team_name": "Houston Cougars",
-    "games_played": 1,
-    "tournament_points": 0,
-    "tournament_minutes": 11
+    "tournament_minutes": 7
   },
   {
     "player_id": 5095062,
     "player_name": "Jacob McFarland",
     "team_id": 248,
     "team_name": "Houston Cougars",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
-    "tournament_minutes": 0
+    "tournament_minutes": 2
   },
   {
     "player_id": 5144098,
     "player_name": "Bryce Jackson",
     "team_id": 248,
     "team_name": "Houston Cougars",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -7420,7 +7420,7 @@
     "player_name": "Kordel Jefferson",
     "team_id": 248,
     "team_name": "Houston Cougars",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
