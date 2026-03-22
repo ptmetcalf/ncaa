@@ -9,6 +9,24 @@
     "tournament_minutes": 90
   },
   {
+    "player_id": 5187600,
+    "player_name": "Tyler Tanner",
+    "team_id": 238,
+    "team_name": "Vanderbilt Commodores",
+    "games_played": 2,
+    "tournament_points": 53,
+    "tournament_minutes": 75
+  },
+  {
+    "player_id": 5060712,
+    "player_name": "Terrence Hill Jr.",
+    "team_id": 2670,
+    "team_name": "VCU Rams",
+    "games_played": 2,
+    "tournament_points": 51,
+    "tournament_minutes": 77
+  },
+  {
     "player_id": 4703396,
     "player_name": "Graham Ike",
     "team_id": 2250,
@@ -72,6 +90,15 @@
     "tournament_minutes": 61
   },
   {
+    "player_id": 4858604,
+    "player_name": "Pryce Sandfort",
+    "team_id": 158,
+    "team_name": "Nebraska Cornhuskers",
+    "games_played": 2,
+    "tournament_points": 38,
+    "tournament_minutes": 75
+  },
+  {
     "player_id": 5176727,
     "player_name": "Dontae Horne",
     "team_id": 2504,
@@ -97,6 +124,15 @@
     "games_played": 2,
     "tournament_points": 36,
     "tournament_minutes": 53
+  },
+  {
+    "player_id": 5311832,
+    "player_name": "David Mirkovic",
+    "team_id": 356,
+    "team_name": "Illinois Fighting Illini",
+    "games_played": 2,
+    "tournament_points": 36,
+    "tournament_minutes": 52
   },
   {
     "player_id": 5192142,
@@ -153,15 +189,6 @@
     "tournament_minutes": 59
   },
   {
-    "player_id": 5060712,
-    "player_name": "Terrence Hill Jr.",
-    "team_id": 2670,
-    "team_name": "VCU Rams",
-    "games_played": 1,
-    "tournament_points": 34,
-    "tournament_minutes": 40
-  },
-  {
     "player_id": 5106058,
     "player_name": "Emanuel Sharp",
     "team_id": 248,
@@ -193,6 +220,15 @@
     "player_name": "Isaac McKneely",
     "team_id": 97,
     "team_name": "Louisville Cardinals",
+    "games_played": 2,
+    "tournament_points": 32,
+    "tournament_minutes": 63
+  },
+  {
+    "player_id": 5254165,
+    "player_name": "Keaton Wagler",
+    "team_id": 356,
+    "team_name": "Illinois Fighting Illini",
     "games_played": 2,
     "tournament_points": 32,
     "tournament_minutes": 63
@@ -234,6 +270,15 @@
     "tournament_minutes": 29
   },
   {
+    "player_id": 5175007,
+    "player_name": "Andrej Stojakovic",
+    "team_id": 356,
+    "team_name": "Illinois Fighting Illini",
+    "games_played": 2,
+    "tournament_points": 30,
+    "tournament_minutes": 46
+  },
+  {
     "player_id": 5176075,
     "player_name": "Cam Gillus",
     "team_id": 47,
@@ -250,15 +295,6 @@
     "games_played": 2,
     "tournament_points": 29,
     "tournament_minutes": 60
-  },
-  {
-    "player_id": 5311832,
-    "player_name": "David Mirkovic",
-    "team_id": 356,
-    "team_name": "Illinois Fighting Illini",
-    "games_played": 1,
-    "tournament_points": 29,
-    "tournament_minutes": 28
   },
   {
     "player_id": 4593815,
@@ -322,6 +358,24 @@
     "games_played": 2,
     "tournament_points": 28,
     "tournament_minutes": 45
+  },
+  {
+    "player_id": 4838721,
+    "player_name": "Tyler Nickel",
+    "team_id": 238,
+    "team_name": "Vanderbilt Commodores",
+    "games_played": 2,
+    "tournament_points": 28,
+    "tournament_minutes": 66
+  },
+  {
+    "player_id": 5239571,
+    "player_name": "Braden Frager",
+    "team_id": 158,
+    "team_name": "Nebraska Cornhuskers",
+    "games_played": 2,
+    "tournament_points": 28,
+    "tournament_minutes": 53
   },
   {
     "player_id": 5041955,
@@ -396,15 +450,6 @@
     "tournament_minutes": 50
   },
   {
-    "player_id": 5187600,
-    "player_name": "Tyler Tanner",
-    "team_id": 238,
-    "team_name": "Vanderbilt Commodores",
-    "games_played": 1,
-    "tournament_points": 26,
-    "tournament_minutes": 37
-  },
-  {
     "player_id": 5105571,
     "player_name": "Henri Veesaar",
     "team_id": 153,
@@ -412,6 +457,15 @@
     "games_played": 1,
     "tournament_points": 26,
     "tournament_minutes": 42
+  },
+  {
+    "player_id": 5214642,
+    "player_name": "Tomislav Ivisic",
+    "team_id": 356,
+    "team_name": "Illinois Fighting Illini",
+    "games_played": 2,
+    "tournament_points": 26,
+    "tournament_minutes": 43
   },
   {
     "player_id": 5105854,
@@ -439,6 +493,15 @@
     "games_played": 1,
     "tournament_points": 26,
     "tournament_minutes": 24
+  },
+  {
+    "player_id": 4684269,
+    "player_name": "Kylan Boswell",
+    "team_id": 356,
+    "team_name": "Illinois Fighting Illini",
+    "games_played": 2,
+    "tournament_points": 25,
+    "tournament_minutes": 61
   },
   {
     "player_id": 5178207,
@@ -493,6 +556,15 @@
     "games_played": 1,
     "tournament_points": 24,
     "tournament_minutes": 36
+  },
+  {
+    "player_id": 4592677,
+    "player_name": "Rienk Mast",
+    "team_id": 158,
+    "team_name": "Nebraska Cornhuskers",
+    "games_played": 2,
+    "tournament_points": 24,
+    "tournament_minutes": 64
   },
   {
     "player_id": 5142621,
@@ -558,15 +630,6 @@
     "tournament_minutes": 49
   },
   {
-    "player_id": 4858604,
-    "player_name": "Pryce Sandfort",
-    "team_id": 158,
-    "team_name": "Nebraska Cornhuskers",
-    "games_played": 1,
-    "tournament_points": 23,
-    "tournament_minutes": 38
-  },
-  {
     "player_id": 5103630,
     "player_name": "John Blackwell",
     "team_id": 275,
@@ -601,6 +664,24 @@
     "games_played": 2,
     "tournament_points": 22,
     "tournament_minutes": 58
+  },
+  {
+    "player_id": 4702049,
+    "player_name": "Duke Miles",
+    "team_id": 238,
+    "team_name": "Vanderbilt Commodores",
+    "games_played": 2,
+    "tournament_points": 22,
+    "tournament_minutes": 60
+  },
+  {
+    "player_id": 5105825,
+    "player_name": "Jamarques Lawrence",
+    "team_id": 158,
+    "team_name": "Nebraska Cornhuskers",
+    "games_played": 2,
+    "tournament_points": 22,
+    "tournament_minutes": 44
   },
   {
     "player_id": 4873086,
@@ -718,6 +799,15 @@
     "games_played": 2,
     "tournament_points": 21,
     "tournament_minutes": 58
+  },
+  {
+    "player_id": 5174982,
+    "player_name": "Berke Buyuktuncel",
+    "team_id": 158,
+    "team_name": "Nebraska Cornhuskers",
+    "games_played": 2,
+    "tournament_points": 21,
+    "tournament_minutes": 54
   },
   {
     "player_id": 5314511,
@@ -972,15 +1062,6 @@
     "tournament_minutes": 48
   },
   {
-    "player_id": 5254165,
-    "player_name": "Keaton Wagler",
-    "team_id": 356,
-    "team_name": "Illinois Fighting Illini",
-    "games_played": 1,
-    "tournament_points": 18,
-    "tournament_minutes": 31
-  },
-  {
     "player_id": 5183875,
     "player_name": "Joshua Dent",
     "team_id": 2608,
@@ -1042,6 +1123,15 @@
     "games_played": 2,
     "tournament_points": 17,
     "tournament_minutes": 43
+  },
+  {
+    "player_id": 5175368,
+    "player_name": "Lazar Djokovic",
+    "team_id": 2670,
+    "team_name": "VCU Rams",
+    "games_played": 2,
+    "tournament_points": 17,
+    "tournament_minutes": 67
   },
   {
     "player_id": 4837356,
@@ -1161,13 +1251,22 @@
     "tournament_minutes": 34
   },
   {
+    "player_id": 5114350,
+    "player_name": "AK Okereke",
+    "team_id": 238,
+    "team_name": "Vanderbilt Commodores",
+    "games_played": 2,
+    "tournament_points": 16,
+    "tournament_minutes": 65
+  },
+  {
     "player_id": 5311890,
     "player_name": "Nyk Lewis",
     "team_id": 2670,
     "team_name": "VCU Rams",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 16,
-    "tournament_minutes": 31
+    "tournament_minutes": 32
   },
   {
     "player_id": 5311530,
@@ -1323,13 +1422,13 @@
     "tournament_minutes": 28
   },
   {
-    "player_id": 5175368,
-    "player_name": "Lazar Djokovic",
-    "team_id": 2670,
-    "team_name": "VCU Rams",
-    "games_played": 1,
+    "player_id": 4791227,
+    "player_name": "Devin McGlockton",
+    "team_id": 238,
+    "team_name": "Vanderbilt Commodores",
+    "games_played": 2,
     "tournament_points": 15,
-    "tournament_minutes": 38
+    "tournament_minutes": 61
   },
   {
     "player_id": 4712836,
@@ -1339,6 +1438,15 @@
     "games_played": 1,
     "tournament_points": 15,
     "tournament_minutes": 43
+  },
+  {
+    "player_id": 5177736,
+    "player_name": "Ben Humrichous",
+    "team_id": 356,
+    "team_name": "Illinois Fighting Illini",
+    "games_played": 2,
+    "tournament_points": 15,
+    "tournament_minutes": 47
   },
   {
     "player_id": 4896862,
@@ -1719,40 +1827,13 @@
     "tournament_minutes": 30
   },
   {
-    "player_id": 4702049,
-    "player_name": "Duke Miles",
-    "team_id": 238,
-    "team_name": "Vanderbilt Commodores",
-    "games_played": 1,
+    "player_id": 5105987,
+    "player_name": "Barry Evans",
+    "team_id": 2670,
+    "team_name": "VCU Rams",
+    "games_played": 2,
     "tournament_points": 13,
-    "tournament_minutes": 28
-  },
-  {
-    "player_id": 5105825,
-    "player_name": "Jamarques Lawrence",
-    "team_id": 158,
-    "team_name": "Nebraska Cornhuskers",
-    "games_played": 1,
-    "tournament_points": 13,
-    "tournament_minutes": 24
-  },
-  {
-    "player_id": 5239571,
-    "player_name": "Braden Frager",
-    "team_id": 158,
-    "team_name": "Nebraska Cornhuskers",
-    "games_played": 1,
-    "tournament_points": 13,
-    "tournament_minutes": 26
-  },
-  {
-    "player_id": 4684269,
-    "player_name": "Kylan Boswell",
-    "team_id": 356,
-    "team_name": "Illinois Fighting Illini",
-    "games_played": 1,
-    "tournament_points": 13,
-    "tournament_minutes": 27
+    "tournament_minutes": 56
   },
   {
     "player_id": 4565698,
@@ -1881,40 +1962,22 @@
     "tournament_minutes": 43
   },
   {
-    "player_id": 4838721,
-    "player_name": "Tyler Nickel",
-    "team_id": 238,
-    "team_name": "Vanderbilt Commodores",
-    "games_played": 1,
+    "player_id": 4897432,
+    "player_name": "Sam Hoiberg",
+    "team_id": 158,
+    "team_name": "Nebraska Cornhuskers",
+    "games_played": 2,
     "tournament_points": 12,
-    "tournament_minutes": 33
+    "tournament_minutes": 69
   },
   {
-    "player_id": 4791227,
-    "player_name": "Devin McGlockton",
-    "team_id": 238,
-    "team_name": "Vanderbilt Commodores",
-    "games_played": 1,
+    "player_id": 5239713,
+    "player_name": "Brandon Jennings",
+    "team_id": 2670,
+    "team_name": "VCU Rams",
+    "games_played": 2,
     "tournament_points": 12,
-    "tournament_minutes": 32
-  },
-  {
-    "player_id": 5214642,
-    "player_name": "Tomislav Ivisic",
-    "team_id": 356,
-    "team_name": "Illinois Fighting Illini",
-    "games_played": 1,
-    "tournament_points": 12,
-    "tournament_minutes": 21
-  },
-  {
-    "player_id": 5177736,
-    "player_name": "Ben Humrichous",
-    "team_id": 356,
-    "team_name": "Illinois Fighting Illini",
-    "games_played": 1,
-    "tournament_points": 12,
-    "tournament_minutes": 20
+    "tournament_minutes": 60
   },
   {
     "player_id": 5176160,
@@ -2061,13 +2124,13 @@
     "tournament_minutes": 34
   },
   {
-    "player_id": 4592677,
-    "player_name": "Rienk Mast",
-    "team_id": 158,
-    "team_name": "Nebraska Cornhuskers",
-    "games_played": 1,
+    "player_id": 4684733,
+    "player_name": "Tyrell Ward",
+    "team_id": 2670,
+    "team_name": "VCU Rams",
+    "games_played": 2,
     "tournament_points": 11,
-    "tournament_minutes": 30
+    "tournament_minutes": 38
   },
   {
     "player_id": 4873181,
@@ -2313,6 +2376,15 @@
     "tournament_minutes": 37
   },
   {
+    "player_id": 4433625,
+    "player_name": "Jalen Washington",
+    "team_id": 238,
+    "team_name": "Vanderbilt Commodores",
+    "games_played": 2,
+    "tournament_points": 10,
+    "tournament_minutes": 30
+  },
+  {
     "player_id": 4683682,
     "player_name": "Rylan Griffen",
     "team_id": 245,
@@ -2482,24 +2554,6 @@
     "games_played": 1,
     "tournament_points": 9,
     "tournament_minutes": 22
-  },
-  {
-    "player_id": 5174982,
-    "player_name": "Berke Buyuktuncel",
-    "team_id": 158,
-    "team_name": "Nebraska Cornhuskers",
-    "games_played": 1,
-    "tournament_points": 9,
-    "tournament_minutes": 27
-  },
-  {
-    "player_id": 5175007,
-    "player_name": "Andrej Stojakovic",
-    "team_id": 356,
-    "team_name": "Illinois Fighting Illini",
-    "games_played": 1,
-    "tournament_points": 9,
-    "tournament_minutes": 20
   },
   {
     "player_id": 5101692,
@@ -2731,9 +2785,9 @@
     "player_name": "Michael Belle",
     "team_id": 2670,
     "team_name": "VCU Rams",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 8,
-    "tournament_minutes": 31
+    "tournament_minutes": 48
   },
   {
     "player_id": 5312014,
@@ -2743,6 +2797,15 @@
     "games_played": 1,
     "tournament_points": 8,
     "tournament_minutes": 32
+  },
+  {
+    "player_id": 5174665,
+    "player_name": "Zvonimir Ivisic",
+    "team_id": 356,
+    "team_name": "Illinois Fighting Illini",
+    "games_played": 2,
+    "tournament_points": 8,
+    "tournament_minutes": 39
   },
   {
     "player_id": 5313031,
@@ -2961,22 +3024,13 @@
     "tournament_minutes": 19
   },
   {
-    "player_id": 5114350,
-    "player_name": "AK Okereke",
-    "team_id": 238,
-    "team_name": "Vanderbilt Commodores",
-    "games_played": 1,
-    "tournament_points": 7,
-    "tournament_minutes": 33
-  },
-  {
-    "player_id": 5239713,
-    "player_name": "Brandon Jennings",
+    "player_id": 4701030,
+    "player_name": "Jadrian Tracey",
     "team_id": 2670,
     "team_name": "VCU Rams",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 7,
-    "tournament_minutes": 34
+    "tournament_minutes": 36
   },
   {
     "player_id": 5314648,
@@ -3168,6 +3222,15 @@
     "tournament_minutes": 23
   },
   {
+    "player_id": 5311759,
+    "player_name": "Chandler Bing",
+    "team_id": 238,
+    "team_name": "Vanderbilt Commodores",
+    "games_played": 2,
+    "tournament_points": 6,
+    "tournament_minutes": 44
+  },
+  {
     "player_id": 5240745,
     "player_name": "Cooper Campbell",
     "team_id": 2653,
@@ -3184,15 +3247,6 @@
     "games_played": 1,
     "tournament_points": 6,
     "tournament_minutes": 30
-  },
-  {
-    "player_id": 5174665,
-    "player_name": "Zvonimir Ivisic",
-    "team_id": 356,
-    "team_name": "Illinois Fighting Illini",
-    "games_played": 1,
-    "tournament_points": 6,
-    "tournament_minutes": 22
   },
   {
     "player_id": 5241408,
@@ -3708,24 +3762,6 @@
     "tournament_minutes": 11
   },
   {
-    "player_id": 4433625,
-    "player_name": "Jalen Washington",
-    "team_id": 238,
-    "team_name": "Vanderbilt Commodores",
-    "games_played": 1,
-    "tournament_points": 4,
-    "tournament_minutes": 15
-  },
-  {
-    "player_id": 5311759,
-    "player_name": "Chandler Bing",
-    "team_id": 238,
-    "team_name": "Vanderbilt Commodores",
-    "games_played": 1,
-    "tournament_points": 4,
-    "tournament_minutes": 22
-  },
-  {
     "player_id": 5176732,
     "player_name": "Thomas Dowd",
     "team_id": 2653,
@@ -3733,15 +3769,6 @@
     "games_played": 1,
     "tournament_points": 4,
     "tournament_minutes": 35
-  },
-  {
-    "player_id": 4897432,
-    "player_name": "Sam Hoiberg",
-    "team_id": 158,
-    "team_name": "Nebraska Cornhuskers",
-    "games_played": 1,
-    "tournament_points": 4,
-    "tournament_minutes": 32
   },
   {
     "player_id": 4895793,
@@ -3766,9 +3793,9 @@
     "player_name": "Brandon Lee",
     "team_id": 356,
     "team_name": "Illinois Fighting Illini",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 4,
-    "tournament_minutes": 4
+    "tournament_minutes": 5
   },
   {
     "player_id": 5176153,
@@ -4009,9 +4036,9 @@
     "player_name": "Cale Jacobsen",
     "team_id": 158,
     "team_name": "Nebraska Cornhuskers",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 3,
-    "tournament_minutes": 15
+    "tournament_minutes": 29
   },
   {
     "player_id": 5101669,
@@ -4030,6 +4057,15 @@
     "games_played": 1,
     "tournament_points": 3,
     "tournament_minutes": 5
+  },
+  {
+    "player_id": 5176150,
+    "player_name": "Jake Davis",
+    "team_id": 356,
+    "team_name": "Illinois Fighting Illini",
+    "games_played": 2,
+    "tournament_points": 3,
+    "tournament_minutes": 31
   },
   {
     "player_id": 5107078,
@@ -4311,13 +4347,22 @@
     "tournament_minutes": 20
   },
   {
-    "player_id": 5105987,
-    "player_name": "Barry Evans",
+    "player_id": 5263670,
+    "player_name": "Leo Curtis",
+    "team_id": 158,
+    "team_name": "Nebraska Cornhuskers",
+    "games_played": 2,
+    "tournament_points": 2,
+    "tournament_minutes": 2
+  },
+  {
+    "player_id": 5311892,
+    "player_name": "Jordan Tillery",
     "team_id": 2670,
     "team_name": "VCU Rams",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 2,
-    "tournament_minutes": 23
+    "tournament_minutes": 2
   },
   {
     "player_id": 5182415,
@@ -4351,9 +4396,9 @@
     "player_name": "AJ Redd",
     "team_id": 356,
     "team_name": "Illinois Fighting Illini",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 2,
-    "tournament_minutes": 3
+    "tournament_minutes": 4
   },
   {
     "player_id": 5061578,
@@ -6682,7 +6727,7 @@
     "player_name": "Tyler Harris",
     "team_id": 238,
     "team_name": "Vanderbilt Commodores",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -6691,7 +6736,7 @@
     "player_name": "Mason Nicholson",
     "team_id": 238,
     "team_name": "Vanderbilt Commodores",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -6700,7 +6745,7 @@
     "player_name": "Jayden Leverett",
     "team_id": 238,
     "team_name": "Vanderbilt Commodores",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -6709,7 +6754,7 @@
     "player_name": "George Kimble III",
     "team_id": 238,
     "team_name": "Vanderbilt Commodores",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -6718,7 +6763,7 @@
     "player_name": "Jaylon Dean-Vines",
     "team_id": 238,
     "team_name": "Vanderbilt Commodores",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -6727,7 +6772,7 @@
     "player_name": "Coleson Messer",
     "team_id": 238,
     "team_name": "Vanderbilt Commodores",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -6736,7 +6781,7 @@
     "player_name": "Miles Keeffe",
     "team_id": 238,
     "team_name": "Vanderbilt Commodores",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -6745,7 +6790,7 @@
     "player_name": "Mike James",
     "team_id": 238,
     "team_name": "Vanderbilt Commodores",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -6754,7 +6799,7 @@
     "player_name": "Frankie Collins",
     "team_id": 238,
     "team_name": "Vanderbilt Commodores",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -6831,20 +6876,11 @@
     "tournament_minutes": 0
   },
   {
-    "player_id": 5263670,
-    "player_name": "Leo Curtis",
-    "team_id": 158,
-    "team_name": "Nebraska Cornhuskers",
-    "games_played": 1,
-    "tournament_points": 0,
-    "tournament_minutes": 1
-  },
-  {
     "player_id": 5239573,
     "player_name": "Justin Bolis",
     "team_id": 158,
     "team_name": "Nebraska Cornhuskers",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 2
   },
@@ -6853,7 +6889,7 @@
     "player_name": "Jared Garcia",
     "team_id": 158,
     "team_name": "Nebraska Cornhuskers",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 3
   },
@@ -6862,7 +6898,7 @@
     "player_name": "Kendall Blue",
     "team_id": 158,
     "team_name": "Nebraska Cornhuskers",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 2
   },
@@ -6871,7 +6907,7 @@
     "player_name": "Will Cooper",
     "team_id": 158,
     "team_name": "Nebraska Cornhuskers",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -6880,7 +6916,7 @@
     "player_name": "Ugnius Jarusevicius",
     "team_id": 158,
     "team_name": "Nebraska Cornhuskers",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -6889,7 +6925,7 @@
     "player_name": "Henry Burt",
     "team_id": 158,
     "team_name": "Nebraska Cornhuskers",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -6898,7 +6934,7 @@
     "player_name": "Quentin Rhymes",
     "team_id": 158,
     "team_name": "Nebraska Cornhuskers",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -6907,52 +6943,34 @@
     "player_name": "Connor Essegian",
     "team_id": 158,
     "team_name": "Nebraska Cornhuskers",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
-  },
-  {
-    "player_id": 4701030,
-    "player_name": "Jadrian Tracey",
-    "team_id": 2670,
-    "team_name": "VCU Rams",
-    "games_played": 1,
-    "tournament_points": 0,
-    "tournament_minutes": 15
-  },
-  {
-    "player_id": 4684733,
-    "player_name": "Tyrell Ward",
-    "team_id": 2670,
-    "team_name": "VCU Rams",
-    "games_played": 1,
-    "tournament_points": 0,
-    "tournament_minutes": 13
   },
   {
     "player_id": 5174851,
     "player_name": "Keyshawn Mitchell",
     "team_id": 2670,
     "team_name": "VCU Rams",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
-    "tournament_minutes": 0
+    "tournament_minutes": 2
   },
   {
     "player_id": 5117584,
     "player_name": "Jordann Dumont",
     "team_id": 2670,
     "team_name": "VCU Rams",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
-    "tournament_minutes": 0
+    "tournament_minutes": 2
   },
   {
     "player_id": 5106042,
     "player_name": "Obinnaya Okafor",
     "team_id": 2670,
     "team_name": "VCU Rams",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -6961,16 +6979,7 @@
     "player_name": "Christian Fermin",
     "team_id": 2670,
     "team_name": "VCU Rams",
-    "games_played": 1,
-    "tournament_points": 0,
-    "tournament_minutes": 0
-  },
-  {
-    "player_id": 5311892,
-    "player_name": "Jordan Tillery",
-    "team_id": 2670,
-    "team_name": "VCU Rams",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -6979,9 +6988,9 @@
     "player_name": "Ahmad Nowell",
     "team_id": 2670,
     "team_name": "VCU Rams",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
-    "tournament_minutes": 0
+    "tournament_minutes": 5
   },
   {
     "player_id": 5093253,
@@ -7137,38 +7146,29 @@
     "tournament_minutes": 0
   },
   {
-    "player_id": 5176150,
-    "player_name": "Jake Davis",
-    "team_id": 356,
-    "team_name": "Illinois Fighting Illini",
-    "games_played": 1,
-    "tournament_points": 0,
-    "tournament_minutes": 17
-  },
-  {
     "player_id": 5311835,
     "player_name": "Mihailo Petrovic",
     "team_id": 356,
     "team_name": "Illinois Fighting Illini",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
-    "tournament_minutes": 4
+    "tournament_minutes": 5
   },
   {
     "player_id": 5311834,
     "player_name": "Blake Fagbemi",
     "team_id": 356,
     "team_name": "Illinois Fighting Illini",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
-    "tournament_minutes": 3
+    "tournament_minutes": 4
   },
   {
     "player_id": 5173645,
     "player_name": "Jason Jakstys",
     "team_id": 356,
     "team_name": "Illinois Fighting Illini",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -7177,7 +7177,7 @@
     "player_name": "Ty Rodgers",
     "team_id": 356,
     "team_name": "Illinois Fighting Illini",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
