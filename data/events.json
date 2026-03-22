@@ -424,8 +424,8 @@
     "date": "20260321",
     "name": "High Point Panthers at Arkansas Razorbacks",
     "short_name": "HPU VS ARK",
-    "completed": false,
-    "status": "In Progress",
+    "completed": true,
+    "status": "Final",
     "home_team_id": 8,
     "away_team_id": 2272
   },

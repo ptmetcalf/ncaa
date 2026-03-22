@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-22T03:21:02.828Z",
+  "generated_at": "2026-03-22T04:57:07.878Z",
   "year": 2026,
   "available": true,
   "source": "espn_bracket_page",
@@ -1439,17 +1439,17 @@
       "region_id": 2,
       "bracket_location": 10,
       "date": "2026-03-22T01:45:00Z",
-      "status_state": "in",
-      "status_desc": "In Progress",
-      "status_detail": "9:12 - 2nd",
+      "status_state": "post",
+      "status_desc": "Final",
+      "status_detail": "Final",
       "location": "Portland, OR",
-      "link": "/mens-college-basketball/game/_/gameId/401856536",
+      "link": "/mens-college-basketball/game/_/gameId/401856536/high-point-arkansas",
       "competitor_one": {
         "team_id": 2272,
         "team_name": "High Point",
         "abbreviation": "HPU",
         "seed": 12,
-        "score": 65,
+        "score": 88,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2272.png"
       },
@@ -1458,8 +1458,8 @@
         "team_name": "Arkansas",
         "abbreviation": "ARK",
         "seed": 4,
-        "score": 67,
-        "winner": false,
+        "score": 94,
+        "winner": true,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/8.png"
       }
     },

@@ -1,5 +1,14 @@
 [
   {
+    "player_id": 5142620,
+    "player_name": "Darius Acuff Jr.",
+    "team_id": 8,
+    "team_name": "Arkansas Razorbacks",
+    "games_played": 2,
+    "tournament_points": 60,
+    "tournament_minutes": 70
+  },
+  {
     "player_id": 5239838,
     "player_name": "Matas Vokietaitis",
     "team_id": 251,
@@ -7,6 +16,15 @@
     "games_played": 3,
     "tournament_points": 55,
     "tournament_minutes": 90
+  },
+  {
+    "player_id": 5107904,
+    "player_name": "Rob Martin",
+    "team_id": 2272,
+    "team_name": "High Point Panthers",
+    "games_played": 2,
+    "tournament_points": 53,
+    "tournament_minutes": 71
   },
   {
     "player_id": 5187600,
@@ -61,6 +79,24 @@
     "games_played": 2,
     "tournament_points": 40,
     "tournament_minutes": 75
+  },
+  {
+    "player_id": 5041951,
+    "player_name": "Meleek Thomas",
+    "team_id": 8,
+    "team_name": "Arkansas Razorbacks",
+    "games_played": 2,
+    "tournament_points": 40,
+    "tournament_minutes": 70
+  },
+  {
+    "player_id": 4432182,
+    "player_name": "Cam'Ron Fletcher",
+    "team_id": 2272,
+    "team_name": "High Point Panthers",
+    "games_played": 2,
+    "tournament_points": 39,
+    "tournament_minutes": 66
   },
   {
     "player_id": 5107157,
@@ -261,6 +297,24 @@
     "tournament_minutes": 69
   },
   {
+    "player_id": 5241590,
+    "player_name": "Terry Anderson",
+    "team_id": 2272,
+    "team_name": "High Point Panthers",
+    "games_played": 2,
+    "tournament_points": 30,
+    "tournament_minutes": 54
+  },
+  {
+    "player_id": 5105546,
+    "player_name": "Malique Ewin",
+    "team_id": 8,
+    "team_name": "Arkansas Razorbacks",
+    "games_played": 2,
+    "tournament_points": 30,
+    "tournament_minutes": 67
+  },
+  {
     "player_id": 5165276,
     "player_name": "Jeremiah Wilkinson",
     "team_id": 61,
@@ -375,7 +429,7 @@
     "team_name": "Nebraska Cornhuskers",
     "games_played": 2,
     "tournament_points": 28,
-    "tournament_minutes": 53
+    "tournament_minutes": 54
   },
   {
     "player_id": 5041955,
@@ -403,6 +457,15 @@
     "games_played": 1,
     "tournament_points": 27,
     "tournament_minutes": 35
+  },
+  {
+    "player_id": 4698719,
+    "player_name": "Trevon Brazile",
+    "team_id": 8,
+    "team_name": "Arkansas Razorbacks",
+    "games_played": 2,
+    "tournament_points": 27,
+    "tournament_minutes": 69
   },
   {
     "player_id": 4699760,
@@ -495,6 +558,15 @@
     "tournament_minutes": 24
   },
   {
+    "player_id": 5060732,
+    "player_name": "Billy Richmond III",
+    "team_id": 8,
+    "team_name": "Arkansas Razorbacks",
+    "games_played": 2,
+    "tournament_points": 25,
+    "tournament_minutes": 69
+  },
+  {
     "player_id": 4684269,
     "player_name": "Kylan Boswell",
     "team_id": 356,
@@ -547,15 +619,6 @@
     "games_played": 3,
     "tournament_points": 24,
     "tournament_minutes": 66
-  },
-  {
-    "player_id": 5142620,
-    "player_name": "Darius Acuff Jr.",
-    "team_id": 8,
-    "team_name": "Arkansas Razorbacks",
-    "games_played": 1,
-    "tournament_points": 24,
-    "tournament_minutes": 36
   },
   {
     "player_id": 4592677,
@@ -612,13 +675,13 @@
     "tournament_minutes": 36
   },
   {
-    "player_id": 5107904,
-    "player_name": "Rob Martin",
+    "player_id": 4612709,
+    "player_name": "Chase Johnston",
     "team_id": 2272,
     "team_name": "High Point Panthers",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 23,
-    "tournament_minutes": 36
+    "tournament_minutes": 53
   },
   {
     "player_id": 5196913,
@@ -772,15 +835,6 @@
     "games_played": 1,
     "tournament_points": 21,
     "tournament_minutes": 36
-  },
-  {
-    "player_id": 5041951,
-    "player_name": "Meleek Thomas",
-    "team_id": 8,
-    "team_name": "Arkansas Razorbacks",
-    "games_played": 1,
-    "tournament_points": 21,
-    "tournament_minutes": 35
   },
   {
     "player_id": 5242127,
@@ -952,15 +1006,6 @@
     "games_played": 2,
     "tournament_points": 19,
     "tournament_minutes": 60
-  },
-  {
-    "player_id": 4698719,
-    "player_name": "Trevon Brazile",
-    "team_id": 8,
-    "team_name": "Arkansas Razorbacks",
-    "games_played": 1,
-    "tournament_points": 19,
-    "tournament_minutes": 35
   },
   {
     "player_id": 4711255,
@@ -1188,15 +1233,6 @@
     "tournament_minutes": 65
   },
   {
-    "player_id": 5105546,
-    "player_name": "Malique Ewin",
-    "team_id": 8,
-    "team_name": "Arkansas Razorbacks",
-    "games_played": 1,
-    "tournament_points": 16,
-    "tournament_minutes": 31
-  },
-  {
     "player_id": 5107273,
     "player_name": "Damari Wheeler-Thomas",
     "team_id": 2449,
@@ -1357,15 +1393,6 @@
     "games_played": 1,
     "tournament_points": 15,
     "tournament_minutes": 39
-  },
-  {
-    "player_id": 5241590,
-    "player_name": "Terry Anderson",
-    "team_id": 2272,
-    "team_name": "High Point Panthers",
-    "games_played": 1,
-    "tournament_points": 15,
-    "tournament_minutes": 30
   },
   {
     "player_id": 4898118,
@@ -1611,24 +1638,6 @@
     "tournament_minutes": 39
   },
   {
-    "player_id": 4432182,
-    "player_name": "Cam'Ron Fletcher",
-    "team_id": 2272,
-    "team_name": "High Point Panthers",
-    "games_played": 1,
-    "tournament_points": 14,
-    "tournament_minutes": 33
-  },
-  {
-    "player_id": 4612709,
-    "player_name": "Chase Johnston",
-    "team_id": 2272,
-    "team_name": "High Point Panthers",
-    "games_played": 1,
-    "tournament_points": 14,
-    "tournament_minutes": 22
-  },
-  {
     "player_id": 5311969,
     "player_name": "Vangelis Zougris",
     "team_id": 97,
@@ -1800,6 +1809,15 @@
     "tournament_minutes": 36
   },
   {
+    "player_id": 5242131,
+    "player_name": "Owen Aquino",
+    "team_id": 2272,
+    "team_name": "High Point Panthers",
+    "games_played": 2,
+    "tournament_points": 13,
+    "tournament_minutes": 67
+  },
+  {
     "player_id": 5176187,
     "player_name": "Frankquon Sherman",
     "team_id": 338,
@@ -1968,7 +1986,7 @@
     "team_name": "Nebraska Cornhuskers",
     "games_played": 2,
     "tournament_points": 12,
-    "tournament_minutes": 69
+    "tournament_minutes": 70
   },
   {
     "player_id": 5239713,
@@ -2086,15 +2104,6 @@
     "games_played": 2,
     "tournament_points": 11,
     "tournament_minutes": 64
-  },
-  {
-    "player_id": 5242131,
-    "player_name": "Owen Aquino",
-    "team_id": 2272,
-    "team_name": "High Point Panthers",
-    "games_played": 1,
-    "tournament_points": 11,
-    "tournament_minutes": 36
   },
   {
     "player_id": 5107841,
@@ -2322,15 +2331,6 @@
     "tournament_minutes": 40
   },
   {
-    "player_id": 5060732,
-    "player_name": "Billy Richmond III",
-    "team_id": 8,
-    "team_name": "Arkansas Razorbacks",
-    "games_played": 1,
-    "tournament_points": 10,
-    "tournament_minutes": 31
-  },
-  {
     "player_id": 5241642,
     "player_name": "Treyson Anderson",
     "team_id": 2449,
@@ -2382,7 +2382,7 @@
     "team_name": "Vanderbilt Commodores",
     "games_played": 2,
     "tournament_points": 10,
-    "tournament_minutes": 30
+    "tournament_minutes": 29
   },
   {
     "player_id": 4683682,
@@ -2511,6 +2511,15 @@
     "tournament_minutes": 50
   },
   {
+    "player_id": 5241592,
+    "player_name": "Braden Hausen",
+    "team_id": 2272,
+    "team_name": "High Point Panthers",
+    "games_played": 2,
+    "tournament_points": 9,
+    "tournament_minutes": 32
+  },
+  {
     "player_id": 5107204,
     "player_name": "Harry Rouhliadeff",
     "team_id": 62,
@@ -2518,6 +2527,15 @@
     "games_played": 1,
     "tournament_points": 9,
     "tournament_minutes": 33
+  },
+  {
+    "player_id": 4683777,
+    "player_name": "D.J. Wagner",
+    "team_id": 8,
+    "team_name": "Arkansas Razorbacks",
+    "games_played": 2,
+    "tournament_points": 9,
+    "tournament_minutes": 53
   },
   {
     "player_id": 4685654,
@@ -2997,15 +3015,6 @@
     "tournament_minutes": 39
   },
   {
-    "player_id": 4683777,
-    "player_name": "D.J. Wagner",
-    "team_id": 8,
-    "team_name": "Arkansas Razorbacks",
-    "games_played": 1,
-    "tournament_points": 7,
-    "tournament_minutes": 31
-  },
-  {
     "player_id": 5107278,
     "player_name": "Noah Feddersen",
     "team_id": 2449,
@@ -3148,15 +3157,6 @@
     "games_played": 1,
     "tournament_points": 6,
     "tournament_minutes": 40
-  },
-  {
-    "player_id": 5241592,
-    "player_name": "Braden Hausen",
-    "team_id": 2272,
-    "team_name": "High Point Panthers",
-    "games_played": 1,
-    "tournament_points": 6,
-    "tournament_minutes": 17
   },
   {
     "player_id": 5109019,
@@ -4302,6 +4302,24 @@
     "tournament_minutes": 8
   },
   {
+    "player_id": 5174957,
+    "player_name": "Conrad Martinez",
+    "team_id": 2272,
+    "team_name": "High Point Panthers",
+    "games_played": 2,
+    "tournament_points": 2,
+    "tournament_minutes": 19
+  },
+  {
+    "player_id": 5106755,
+    "player_name": "Vincent Brady II",
+    "team_id": 2272,
+    "team_name": "High Point Panthers",
+    "games_played": 2,
+    "tournament_points": 2,
+    "tournament_minutes": 9
+  },
+  {
     "player_id": 5312048,
     "player_name": "Aleksas Bieliauskas",
     "team_id": 275,
@@ -4353,7 +4371,7 @@
     "team_name": "Nebraska Cornhuskers",
     "games_played": 2,
     "tournament_points": 2,
-    "tournament_minutes": 2
+    "tournament_minutes": 3
   },
   {
     "player_id": 5311892,
@@ -5602,34 +5620,25 @@
     "player_name": "Scotty Washington",
     "team_id": 2272,
     "team_name": "High Point Panthers",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
-    "tournament_minutes": 9
+    "tournament_minutes": 17
   },
   {
     "player_id": 5102797,
     "player_name": "Youssouf Singare",
     "team_id": 2272,
     "team_name": "High Point Panthers",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
-    "tournament_minutes": 4
-  },
-  {
-    "player_id": 5174957,
-    "player_name": "Conrad Martinez",
-    "team_id": 2272,
-    "team_name": "High Point Panthers",
-    "games_played": 1,
-    "tournament_points": 0,
-    "tournament_minutes": 13
+    "tournament_minutes": 12
   },
   {
     "player_id": 5313503,
     "player_name": "Caden Miller",
     "team_id": 2272,
     "team_name": "High Point Panthers",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -5638,7 +5647,7 @@
     "player_name": "Birgir Irving",
     "team_id": 2272,
     "team_name": "High Point Panthers",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -5647,7 +5656,7 @@
     "player_name": "Josh Ibukunoluwa",
     "team_id": 2272,
     "team_name": "High Point Panthers",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -5656,7 +5665,7 @@
     "player_name": "Kasen Krueger",
     "team_id": 2272,
     "team_name": "High Point Panthers",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -5665,7 +5674,7 @@
     "player_name": "Dorian Grosber",
     "team_id": 2272,
     "team_name": "High Point Panthers",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -5674,7 +5683,7 @@
     "player_name": "Mavrick Miller",
     "team_id": 2272,
     "team_name": "High Point Panthers",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -5683,7 +5692,7 @@
     "player_name": "David Fonville",
     "team_id": 2272,
     "team_name": "High Point Panthers",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -5692,16 +5701,7 @@
     "player_name": "Liam Carney",
     "team_id": 2272,
     "team_name": "High Point Panthers",
-    "games_played": 1,
-    "tournament_points": 0,
-    "tournament_minutes": 0
-  },
-  {
-    "player_id": 5106755,
-    "player_name": "Vincent Brady II",
-    "team_id": 2272,
-    "team_name": "High Point Panthers",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -5710,7 +5710,7 @@
     "player_name": "Babacar Diallo",
     "team_id": 2272,
     "team_name": "High Point Panthers",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -5845,16 +5845,16 @@
     "player_name": "Isaiah Sealy",
     "team_id": 8,
     "team_name": "Arkansas Razorbacks",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
-    "tournament_minutes": 1
+    "tournament_minutes": 2
   },
   {
     "player_id": 5258495,
     "player_name": "Paulo Semedo",
     "team_id": 8,
     "team_name": "Arkansas Razorbacks",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -5863,7 +5863,7 @@
     "player_name": "Nick Pringle",
     "team_id": 8,
     "team_name": "Arkansas Razorbacks",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -5872,7 +5872,7 @@
     "player_name": "Elmir Džafic",
     "team_id": 8,
     "team_name": "Arkansas Razorbacks",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -5881,7 +5881,7 @@
     "player_name": "Karim Rtail",
     "team_id": 8,
     "team_name": "Arkansas Razorbacks",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -5890,7 +5890,7 @@
     "player_name": "Ayden Kelley",
     "team_id": 8,
     "team_name": "Arkansas Razorbacks",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -5899,7 +5899,7 @@
     "player_name": "Jaden Karuletwa",
     "team_id": 8,
     "team_name": "Arkansas Razorbacks",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -5908,7 +5908,7 @@
     "player_name": "Amere Brown",
     "team_id": 8,
     "team_name": "Arkansas Razorbacks",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -5917,7 +5917,7 @@
     "player_name": "Karter Knox",
     "team_id": 8,
     "team_name": "Arkansas Razorbacks",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },

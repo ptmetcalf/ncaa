@@ -12406,7 +12406,7 @@
     "player_name": "Jalen Washington",
     "team_id": 238,
     "team_name": "Vanderbilt Commodores",
-    "minutes": 15,
+    "minutes": 14,
     "points": 6
   },
   {
@@ -12556,7 +12556,7 @@
     "player_name": "Sam Hoiberg",
     "team_id": 158,
     "team_name": "Nebraska Cornhuskers",
-    "minutes": 37,
+    "minutes": 38,
     "points": 8
   },
   {
@@ -12566,7 +12566,7 @@
     "player_name": "Leo Curtis",
     "team_id": 158,
     "team_name": "Nebraska Cornhuskers",
-    "minutes": 1,
+    "minutes": 2,
     "points": 2
   },
   {
@@ -12576,7 +12576,7 @@
     "player_name": "Braden Frager",
     "team_id": 158,
     "team_name": "Nebraska Cornhuskers",
-    "minutes": 27,
+    "minutes": 28,
     "points": 15
   },
   {
@@ -12956,6 +12956,346 @@
     "player_name": "Kordel Jefferson",
     "team_id": 248,
     "team_name": "Houston Cougars",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856536,
+    "date": "20260321",
+    "player_id": 5242131,
+    "player_name": "Owen Aquino",
+    "team_id": 2272,
+    "team_name": "High Point Panthers",
+    "minutes": 31,
+    "points": 2
+  },
+  {
+    "event_id": 401856536,
+    "date": "20260321",
+    "player_id": 5241592,
+    "player_name": "Braden Hausen",
+    "team_id": 2272,
+    "team_name": "High Point Panthers",
+    "minutes": 15,
+    "points": 3
+  },
+  {
+    "event_id": 401856536,
+    "date": "20260321",
+    "player_id": 5241590,
+    "player_name": "Terry Anderson",
+    "team_id": 2272,
+    "team_name": "High Point Panthers",
+    "minutes": 24,
+    "points": 15
+  },
+  {
+    "event_id": 401856536,
+    "date": "20260321",
+    "player_id": 5107904,
+    "player_name": "Rob Martin",
+    "team_id": 2272,
+    "team_name": "High Point Panthers",
+    "minutes": 35,
+    "points": 30
+  },
+  {
+    "event_id": 401856536,
+    "date": "20260321",
+    "player_id": 4896852,
+    "player_name": "Scotty Washington",
+    "team_id": 2272,
+    "team_name": "High Point Panthers",
+    "minutes": 8,
+    "points": 0
+  },
+  {
+    "event_id": 401856536,
+    "date": "20260321",
+    "player_id": 5102797,
+    "player_name": "Youssouf Singare",
+    "team_id": 2272,
+    "team_name": "High Point Panthers",
+    "minutes": 8,
+    "points": 0
+  },
+  {
+    "event_id": 401856536,
+    "date": "20260321",
+    "player_id": 4432182,
+    "player_name": "Cam'Ron Fletcher",
+    "team_id": 2272,
+    "team_name": "High Point Panthers",
+    "minutes": 33,
+    "points": 25
+  },
+  {
+    "event_id": 401856536,
+    "date": "20260321",
+    "player_id": 5174957,
+    "player_name": "Conrad Martinez",
+    "team_id": 2272,
+    "team_name": "High Point Panthers",
+    "minutes": 6,
+    "points": 2
+  },
+  {
+    "event_id": 401856536,
+    "date": "20260321",
+    "player_id": 5106755,
+    "player_name": "Vincent Brady II",
+    "team_id": 2272,
+    "team_name": "High Point Panthers",
+    "minutes": 9,
+    "points": 2
+  },
+  {
+    "event_id": 401856536,
+    "date": "20260321",
+    "player_id": 4612709,
+    "player_name": "Chase Johnston",
+    "team_id": 2272,
+    "team_name": "High Point Panthers",
+    "minutes": 31,
+    "points": 9
+  },
+  {
+    "event_id": 401856536,
+    "date": "20260321",
+    "player_id": 5313503,
+    "player_name": "Caden Miller",
+    "team_id": 2272,
+    "team_name": "High Point Panthers",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856536,
+    "date": "20260321",
+    "player_id": 5241595,
+    "player_name": "Birgir Irving",
+    "team_id": 2272,
+    "team_name": "High Point Panthers",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856536,
+    "date": "20260321",
+    "player_id": 5241594,
+    "player_name": "Josh Ibukunoluwa",
+    "team_id": 2272,
+    "team_name": "High Point Panthers",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856536,
+    "date": "20260321",
+    "player_id": 5313505,
+    "player_name": "Kasen Krueger",
+    "team_id": 2272,
+    "team_name": "High Point Panthers",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856536,
+    "date": "20260321",
+    "player_id": 5313504,
+    "player_name": "Dorian Grosber",
+    "team_id": 2272,
+    "team_name": "High Point Panthers",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856536,
+    "date": "20260321",
+    "player_id": 5241597,
+    "player_name": "Mavrick Miller",
+    "team_id": 2272,
+    "team_name": "High Point Panthers",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856536,
+    "date": "20260321",
+    "player_id": 5241591,
+    "player_name": "David Fonville",
+    "team_id": 2272,
+    "team_name": "High Point Panthers",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856536,
+    "date": "20260321",
+    "player_id": 5108710,
+    "player_name": "Liam Carney",
+    "team_id": 2272,
+    "team_name": "High Point Panthers",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856536,
+    "date": "20260321",
+    "player_id": 4711705,
+    "player_name": "Babacar Diallo",
+    "team_id": 2272,
+    "team_name": "High Point Panthers",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856536,
+    "date": "20260321",
+    "player_id": 5105546,
+    "player_name": "Malique Ewin",
+    "team_id": 8,
+    "team_name": "Arkansas Razorbacks",
+    "minutes": 36,
+    "points": 14
+  },
+  {
+    "event_id": 401856536,
+    "date": "20260321",
+    "player_id": 4698719,
+    "player_name": "Trevon Brazile",
+    "team_id": 8,
+    "team_name": "Arkansas Razorbacks",
+    "minutes": 34,
+    "points": 8
+  },
+  {
+    "event_id": 401856536,
+    "date": "20260321",
+    "player_id": 5142620,
+    "player_name": "Darius Acuff Jr.",
+    "team_id": 8,
+    "team_name": "Arkansas Razorbacks",
+    "minutes": 34,
+    "points": 36
+  },
+  {
+    "event_id": 401856536,
+    "date": "20260321",
+    "player_id": 5060732,
+    "player_name": "Billy Richmond III",
+    "team_id": 8,
+    "team_name": "Arkansas Razorbacks",
+    "minutes": 38,
+    "points": 15
+  },
+  {
+    "event_id": 401856536,
+    "date": "20260321",
+    "player_id": 5041951,
+    "player_name": "Meleek Thomas",
+    "team_id": 8,
+    "team_name": "Arkansas Razorbacks",
+    "minutes": 35,
+    "points": 19
+  },
+  {
+    "event_id": 401856536,
+    "date": "20260321",
+    "player_id": 5101797,
+    "player_name": "Isaiah Sealy",
+    "team_id": 8,
+    "team_name": "Arkansas Razorbacks",
+    "minutes": 1,
+    "points": 0
+  },
+  {
+    "event_id": 401856536,
+    "date": "20260321",
+    "player_id": 4683777,
+    "player_name": "D.J. Wagner",
+    "team_id": 8,
+    "team_name": "Arkansas Razorbacks",
+    "minutes": 22,
+    "points": 2
+  },
+  {
+    "event_id": 401856536,
+    "date": "20260321",
+    "player_id": 5258495,
+    "player_name": "Paulo Semedo",
+    "team_id": 8,
+    "team_name": "Arkansas Razorbacks",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856536,
+    "date": "20260321",
+    "player_id": 4703887,
+    "player_name": "Nick Pringle",
+    "team_id": 8,
+    "team_name": "Arkansas Razorbacks",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856536,
+    "date": "20260321",
+    "player_id": 5311500,
+    "player_name": "Elmir Džafic",
+    "team_id": 8,
+    "team_name": "Arkansas Razorbacks",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856536,
+    "date": "20260321",
+    "player_id": 5281348,
+    "player_name": "Karim Rtail",
+    "team_id": 8,
+    "team_name": "Arkansas Razorbacks",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856536,
+    "date": "20260321",
+    "player_id": 5238196,
+    "player_name": "Ayden Kelley",
+    "team_id": 8,
+    "team_name": "Arkansas Razorbacks",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856536,
+    "date": "20260321",
+    "player_id": 5238194,
+    "player_name": "Jaden Karuletwa",
+    "team_id": 8,
+    "team_name": "Arkansas Razorbacks",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856536,
+    "date": "20260321",
+    "player_id": 5144085,
+    "player_name": "Amere Brown",
+    "team_id": 8,
+    "team_name": "Arkansas Razorbacks",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856536,
+    "date": "20260321",
+    "player_id": 4869777,
+    "player_name": "Karter Knox",
+    "team_id": 8,
+    "team_name": "Arkansas Razorbacks",
     "minutes": null,
     "points": 0
   },
