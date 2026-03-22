@@ -445,7 +445,7 @@
     "name": "St. John's Red Storm at Kansas Jayhawks",
     "short_name": "SJU VS KU",
     "completed": false,
-    "status": "Scheduled",
+    "status": "Halftime",
     "home_team_id": 2305,
     "away_team_id": 2599
   },
@@ -485,7 +485,7 @@
     "name": "Tennessee Volunteers at Virginia Cavaliers",
     "short_name": "TENN VS UVA",
     "completed": false,
-    "status": "Scheduled",
+    "status": "In Progress",
     "home_team_id": 258,
     "away_team_id": 2633
   },
