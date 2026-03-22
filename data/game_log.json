@@ -13610,6 +13610,306 @@
     "points": 0
   },
   {
+    "event_id": 401856561,
+    "date": "20260322",
+    "player_id": 5281347,
+    "player_name": "Andrija Jelavic",
+    "team_id": 96,
+    "team_name": "Kentucky Wildcats",
+    "minutes": 14,
+    "points": 2
+  },
+  {
+    "event_id": 401856561,
+    "date": "20260322",
+    "player_id": 5101849,
+    "player_name": "Malachi Moreno",
+    "team_id": 96,
+    "team_name": "Kentucky Wildcats",
+    "minutes": 18,
+    "points": 4
+  },
+  {
+    "event_id": 401856561,
+    "date": "20260322",
+    "player_id": 5238207,
+    "player_name": "Collin Chandler",
+    "team_id": 96,
+    "team_name": "Kentucky Wildcats",
+    "minutes": 30,
+    "points": 6
+  },
+  {
+    "event_id": 401856561,
+    "date": "20260322",
+    "player_id": 5106270,
+    "player_name": "Otega Oweh",
+    "team_id": 96,
+    "team_name": "Kentucky Wildcats",
+    "minutes": 36,
+    "points": 18
+  },
+  {
+    "event_id": 401856561,
+    "date": "20260322",
+    "player_id": 5105527,
+    "player_name": "Denzel Aberdeen",
+    "team_id": 96,
+    "team_name": "Kentucky Wildcats",
+    "minutes": 37,
+    "points": 20
+  },
+  {
+    "event_id": 401856561,
+    "date": "20260322",
+    "player_id": 4895780,
+    "player_name": "Mouhamed Dioubate",
+    "team_id": 96,
+    "team_name": "Kentucky Wildcats",
+    "minutes": 18,
+    "points": 4
+  },
+  {
+    "event_id": 401856561,
+    "date": "20260322",
+    "player_id": 4711306,
+    "player_name": "Brandon Garrison",
+    "team_id": 96,
+    "team_name": "Kentucky Wildcats",
+    "minutes": 22,
+    "points": 1
+  },
+  {
+    "event_id": 401856561,
+    "date": "20260322",
+    "player_id": 5095153,
+    "player_name": "Jasper Johnson",
+    "team_id": 96,
+    "team_name": "Kentucky Wildcats",
+    "minutes": 6,
+    "points": 3
+  },
+  {
+    "event_id": 401856561,
+    "date": "20260322",
+    "player_id": 4873183,
+    "player_name": "Kam Williams",
+    "team_id": 96,
+    "team_name": "Kentucky Wildcats",
+    "minutes": 19,
+    "points": 5
+  },
+  {
+    "event_id": 401856561,
+    "date": "20260322",
+    "player_id": 5252266,
+    "player_name": "Zach Tow",
+    "team_id": 96,
+    "team_name": "Kentucky Wildcats",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856561,
+    "date": "20260322",
+    "player_id": 5176217,
+    "player_name": "Reece Potter",
+    "team_id": 96,
+    "team_name": "Kentucky Wildcats",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856561,
+    "date": "20260322",
+    "player_id": 5175592,
+    "player_name": "Trent Noah",
+    "team_id": 96,
+    "team_name": "Kentucky Wildcats",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856561,
+    "date": "20260322",
+    "player_id": 5101845,
+    "player_name": "Jayden Quaintance",
+    "team_id": 96,
+    "team_name": "Kentucky Wildcats",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856561,
+    "date": "20260322",
+    "player_id": 5101820,
+    "player_name": "Braydon Hawthorne",
+    "team_id": 96,
+    "team_name": "Kentucky Wildcats",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856561,
+    "date": "20260322",
+    "player_id": 5105283,
+    "player_name": "Walker Horn",
+    "team_id": 96,
+    "team_name": "Kentucky Wildcats",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856561,
+    "date": "20260322",
+    "player_id": 4684270,
+    "player_name": "Jaland Lowe",
+    "team_id": 96,
+    "team_name": "Kentucky Wildcats",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856561,
+    "date": "20260322",
+    "player_id": 5079838,
+    "player_name": "Blake Buchanan",
+    "team_id": 66,
+    "team_name": "Iowa State Cyclones",
+    "minutes": 31,
+    "points": 9
+  },
+  {
+    "event_id": 401856561,
+    "date": "20260322",
+    "player_id": 4848637,
+    "player_name": "Milan Momcilovic",
+    "team_id": 66,
+    "team_name": "Iowa State Cyclones",
+    "minutes": 36,
+    "points": 20
+  },
+  {
+    "event_id": 401856561,
+    "date": "20260322",
+    "player_id": 5248302,
+    "player_name": "Killyan Toure",
+    "team_id": 66,
+    "team_name": "Iowa State Cyclones",
+    "minutes": 31,
+    "points": 10
+  },
+  {
+    "event_id": 401856561,
+    "date": "20260322",
+    "player_id": 5106254,
+    "player_name": "Tamin Lipsey",
+    "team_id": 66,
+    "team_name": "Iowa State Cyclones",
+    "minutes": 37,
+    "points": 26
+  },
+  {
+    "event_id": 401856561,
+    "date": "20260322",
+    "player_id": 4703912,
+    "player_name": "Nate Heise",
+    "team_id": 66,
+    "team_name": "Iowa State Cyclones",
+    "minutes": 36,
+    "points": 12
+  },
+  {
+    "event_id": 401856561,
+    "date": "20260322",
+    "player_id": 5281369,
+    "player_name": "Dominykas Pleta",
+    "team_id": 66,
+    "team_name": "Iowa State Cyclones",
+    "minutes": 9,
+    "points": 1
+  },
+  {
+    "event_id": 401856561,
+    "date": "20260322",
+    "player_id": 5241380,
+    "player_name": "Dominick Nelson",
+    "team_id": 66,
+    "team_name": "Iowa State Cyclones",
+    "minutes": 4,
+    "points": 1
+  },
+  {
+    "event_id": 401856561,
+    "date": "20260322",
+    "player_id": 5217196,
+    "player_name": "Jamarion Batemon",
+    "team_id": 66,
+    "team_name": "Iowa State Cyclones",
+    "minutes": 16,
+    "points": 3
+  },
+  {
+    "event_id": 401856561,
+    "date": "20260322",
+    "player_id": 5106790,
+    "player_name": "Eric Mulder",
+    "team_id": 66,
+    "team_name": "Iowa State Cyclones",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856561,
+    "date": "20260322",
+    "player_id": 5101856,
+    "player_name": "Xzavion Mitchell",
+    "team_id": 66,
+    "team_name": "Iowa State Cyclones",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856561,
+    "date": "20260322",
+    "player_id": 4870564,
+    "player_name": "Joshua Jefferson",
+    "team_id": 66,
+    "team_name": "Iowa State Cyclones",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856561,
+    "date": "20260322",
+    "player_id": 5311915,
+    "player_name": "Anthony Rise",
+    "team_id": 66,
+    "team_name": "Iowa State Cyclones",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856561,
+    "date": "20260322",
+    "player_id": 5175370,
+    "player_name": "Mason Williams",
+    "team_id": 66,
+    "team_name": "Iowa State Cyclones",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856561,
+    "date": "20260322",
+    "player_id": 5175036,
+    "player_name": "Cade Kelderman",
+    "team_id": 66,
+    "team_name": "Iowa State Cyclones",
+    "minutes": null,
+    "points": 0
+  },
+  {
     "event_id": 401856564,
     "date": "20260322",
     "player_id": 5105798,

@@ -474,8 +474,8 @@
     "date": "20260322",
     "name": "Kentucky Wildcats at Iowa State Cyclones",
     "short_name": "UK VS ISU",
-    "completed": false,
-    "status": "In Progress",
+    "completed": true,
+    "status": "Final",
     "home_team_id": 66,
     "away_team_id": 96
   },

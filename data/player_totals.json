@@ -36,6 +36,15 @@
     "tournament_minutes": 75
   },
   {
+    "player_id": 5106270,
+    "player_name": "Otega Oweh",
+    "team_id": 96,
+    "team_name": "Kentucky Wildcats",
+    "games_played": 2,
+    "tournament_points": 53,
+    "tournament_minutes": 79
+  },
+  {
     "player_id": 5060712,
     "player_name": "Terrence Hill Jr.",
     "team_id": 2670,
@@ -180,6 +189,15 @@
     "tournament_minutes": 78
   },
   {
+    "player_id": 4848637,
+    "player_name": "Milan Momcilovic",
+    "team_id": 66,
+    "team_name": "Iowa State Cyclones",
+    "games_played": 2,
+    "tournament_points": 37,
+    "tournament_minutes": 70
+  },
+  {
     "player_id": 5037876,
     "player_name": "Micah Robinson",
     "team_id": 2628,
@@ -205,6 +223,15 @@
     "games_played": 2,
     "tournament_points": 36,
     "tournament_minutes": 52
+  },
+  {
+    "player_id": 5105527,
+    "player_name": "Denzel Aberdeen",
+    "team_id": 96,
+    "team_name": "Kentucky Wildcats",
+    "games_played": 2,
+    "tournament_points": 36,
+    "tournament_minutes": 75
   },
   {
     "player_id": 5192142,
@@ -234,13 +261,13 @@
     "tournament_minutes": 47
   },
   {
-    "player_id": 5106270,
-    "player_name": "Otega Oweh",
-    "team_id": 96,
-    "team_name": "Kentucky Wildcats",
-    "games_played": 1,
+    "player_id": 5248302,
+    "player_name": "Killyan Toure",
+    "team_id": 66,
+    "team_name": "Iowa State Cyclones",
+    "games_played": 2,
     "tournament_points": 35,
-    "tournament_minutes": 43
+    "tournament_minutes": 61
   },
   {
     "player_id": 5106674,
@@ -268,6 +295,15 @@
     "games_played": 2,
     "tournament_points": 34,
     "tournament_minutes": 47
+  },
+  {
+    "player_id": 4703912,
+    "player_name": "Nate Heise",
+    "team_id": 66,
+    "team_name": "Iowa State Cyclones",
+    "games_played": 2,
+    "tournament_points": 34,
+    "tournament_minutes": 63
   },
   {
     "player_id": 5105624,
@@ -421,6 +457,15 @@
     "games_played": 1,
     "tournament_points": 29,
     "tournament_minutes": 36
+  },
+  {
+    "player_id": 5106254,
+    "player_name": "Tamin Lipsey",
+    "team_id": 66,
+    "team_name": "Iowa State Cyclones",
+    "games_played": 2,
+    "tournament_points": 29,
+    "tournament_minutes": 55
   },
   {
     "player_id": 5107968,
@@ -630,15 +675,6 @@
     "tournament_minutes": 40
   },
   {
-    "player_id": 5248302,
-    "player_name": "Killyan Toure",
-    "team_id": 66,
-    "team_name": "Iowa State Cyclones",
-    "games_played": 1,
-    "tournament_points": 25,
-    "tournament_minutes": 30
-  },
-  {
     "player_id": 5174291,
     "player_name": "Bryce Lindsay",
     "team_id": 222,
@@ -810,15 +846,6 @@
     "tournament_minutes": 43
   },
   {
-    "player_id": 4703912,
-    "player_name": "Nate Heise",
-    "team_id": 66,
-    "team_name": "Iowa State Cyclones",
-    "games_played": 1,
-    "tournament_points": 22,
-    "tournament_minutes": 27
-  },
-  {
     "player_id": 5107864,
     "player_name": "Mason Falslev",
     "team_id": 328,
@@ -936,6 +963,15 @@
     "tournament_minutes": 31
   },
   {
+    "player_id": 4895780,
+    "player_name": "Mouhamed Dioubate",
+    "team_id": 96,
+    "team_name": "Kentucky Wildcats",
+    "games_played": 2,
+    "tournament_points": 21,
+    "tournament_minutes": 50
+  },
+  {
     "player_id": 5101840,
     "player_name": "Jaden Toombs",
     "team_id": 2567,
@@ -1015,6 +1051,15 @@
     "games_played": 1,
     "tournament_points": 20,
     "tournament_minutes": 31
+  },
+  {
+    "player_id": 5079838,
+    "player_name": "Blake Buchanan",
+    "team_id": 66,
+    "team_name": "Iowa State Cyclones",
+    "games_played": 2,
+    "tournament_points": 20,
+    "tournament_minutes": 58
   },
   {
     "player_id": 5241069,
@@ -1242,15 +1287,6 @@
     "tournament_minutes": 54
   },
   {
-    "player_id": 4848637,
-    "player_name": "Milan Momcilovic",
-    "team_id": 66,
-    "team_name": "Iowa State Cyclones",
-    "games_played": 1,
-    "tournament_points": 17,
-    "tournament_minutes": 34
-  },
-  {
     "player_id": 5149115,
     "player_name": "Allen Graves",
     "team_id": 2541,
@@ -1258,15 +1294,6 @@
     "games_played": 1,
     "tournament_points": 17,
     "tournament_minutes": 27
-  },
-  {
-    "player_id": 4895780,
-    "player_name": "Mouhamed Dioubate",
-    "team_id": 96,
-    "team_name": "Kentucky Wildcats",
-    "games_played": 1,
-    "tournament_points": 17,
-    "tournament_minutes": 32
   },
   {
     "player_id": 4683860,
@@ -1402,15 +1429,6 @@
     "games_played": 1,
     "tournament_points": 16,
     "tournament_minutes": 32
-  },
-  {
-    "player_id": 5105527,
-    "player_name": "Denzel Aberdeen",
-    "team_id": 96,
-    "team_name": "Kentucky Wildcats",
-    "games_played": 1,
-    "tournament_points": 16,
-    "tournament_minutes": 38
   },
   {
     "player_id": 5196866,
@@ -2277,13 +2295,31 @@
     "tournament_minutes": 37
   },
   {
-    "player_id": 5079838,
-    "player_name": "Blake Buchanan",
+    "player_id": 5217196,
+    "player_name": "Jamarion Batemon",
     "team_id": 66,
     "team_name": "Iowa State Cyclones",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 11,
-    "tournament_minutes": 27
+    "tournament_minutes": 40
+  },
+  {
+    "player_id": 5238207,
+    "player_name": "Collin Chandler",
+    "team_id": 96,
+    "team_name": "Kentucky Wildcats",
+    "games_played": 2,
+    "tournament_points": 11,
+    "tournament_minutes": 72
+  },
+  {
+    "player_id": 4711306,
+    "player_name": "Brandon Garrison",
+    "team_id": 96,
+    "team_name": "Kentucky Wildcats",
+    "games_played": 2,
+    "tournament_points": 11,
+    "tournament_minutes": 47
   },
   {
     "player_id": 4683758,
@@ -2502,13 +2538,22 @@
     "tournament_minutes": 18
   },
   {
-    "player_id": 4711306,
-    "player_name": "Brandon Garrison",
-    "team_id": 96,
-    "team_name": "Kentucky Wildcats",
-    "games_played": 1,
+    "player_id": 5281369,
+    "player_name": "Dominykas Pleta",
+    "team_id": 66,
+    "team_name": "Iowa State Cyclones",
+    "games_played": 2,
     "tournament_points": 10,
-    "tournament_minutes": 25
+    "tournament_minutes": 21
+  },
+  {
+    "player_id": 5241380,
+    "player_name": "Dominick Nelson",
+    "team_id": 66,
+    "team_name": "Iowa State Cyclones",
+    "games_played": 2,
+    "tournament_points": 10,
+    "tournament_minutes": 23
   },
   {
     "player_id": 5311846,
@@ -2680,24 +2725,6 @@
     "games_played": 1,
     "tournament_points": 9,
     "tournament_minutes": 25
-  },
-  {
-    "player_id": 5281369,
-    "player_name": "Dominykas Pleta",
-    "team_id": 66,
-    "team_name": "Iowa State Cyclones",
-    "games_played": 1,
-    "tournament_points": 9,
-    "tournament_minutes": 12
-  },
-  {
-    "player_id": 5241380,
-    "player_name": "Dominick Nelson",
-    "team_id": 66,
-    "team_name": "Iowa State Cyclones",
-    "games_played": 1,
-    "tournament_points": 9,
-    "tournament_minutes": 19
   },
   {
     "player_id": 5176359,
@@ -2961,13 +2988,13 @@
     "tournament_minutes": 7
   },
   {
-    "player_id": 5217196,
-    "player_name": "Jamarion Batemon",
-    "team_id": 66,
-    "team_name": "Iowa State Cyclones",
-    "games_played": 1,
+    "player_id": 4873183,
+    "player_name": "Kam Williams",
+    "team_id": 96,
+    "team_name": "Kentucky Wildcats",
+    "games_played": 2,
     "tournament_points": 8,
-    "tournament_minutes": 24
+    "tournament_minutes": 29
   },
   {
     "player_id": 5311844,
@@ -3085,6 +3112,15 @@
     "games_played": 1,
     "tournament_points": 7,
     "tournament_minutes": 18
+  },
+  {
+    "player_id": 5101849,
+    "player_name": "Malachi Moreno",
+    "team_id": 96,
+    "team_name": "Kentucky Wildcats",
+    "games_played": 2,
+    "tournament_points": 7,
+    "tournament_minutes": 38
   },
   {
     "player_id": 5311527,
@@ -3625,15 +3661,6 @@
     "games_played": 1,
     "tournament_points": 5,
     "tournament_minutes": 6
-  },
-  {
-    "player_id": 5238207,
-    "player_name": "Collin Chandler",
-    "team_id": 96,
-    "team_name": "Kentucky Wildcats",
-    "games_played": 1,
-    "tournament_points": 5,
-    "tournament_minutes": 42
   },
   {
     "player_id": 5243109,
@@ -4203,31 +4230,13 @@
     "tournament_minutes": 4
   },
   {
-    "player_id": 5106254,
-    "player_name": "Tamin Lipsey",
-    "team_id": 66,
-    "team_name": "Iowa State Cyclones",
-    "games_played": 1,
-    "tournament_points": 3,
-    "tournament_minutes": 18
-  },
-  {
-    "player_id": 5101849,
-    "player_name": "Malachi Moreno",
+    "player_id": 5095153,
+    "player_name": "Jasper Johnson",
     "team_id": 96,
     "team_name": "Kentucky Wildcats",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 3,
-    "tournament_minutes": 20
-  },
-  {
-    "player_id": 4873183,
-    "player_name": "Kam Williams",
-    "team_id": 96,
-    "team_name": "Kentucky Wildcats",
-    "games_played": 1,
-    "tournament_points": 3,
-    "tournament_minutes": 10
+    "tournament_minutes": 8
   },
   {
     "player_id": 4703393,
@@ -4603,7 +4612,7 @@
     "player_name": "Joshua Jefferson",
     "team_id": 66,
     "team_name": "Iowa State Cyclones",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 2,
     "tournament_minutes": 3
   },
@@ -4612,7 +4621,7 @@
     "player_name": "Eric Mulder",
     "team_id": 66,
     "team_name": "Iowa State Cyclones",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 2,
     "tournament_minutes": 3
   },
@@ -4624,6 +4633,15 @@
     "games_played": 1,
     "tournament_points": 2,
     "tournament_minutes": 13
+  },
+  {
+    "player_id": 5281347,
+    "player_name": "Andrija Jelavic",
+    "team_id": 96,
+    "team_name": "Kentucky Wildcats",
+    "games_played": 2,
+    "tournament_points": 2,
+    "tournament_minutes": 27
   },
   {
     "player_id": 5314627,
@@ -8797,7 +8815,7 @@
     "player_name": "Anthony Rise",
     "team_id": 66,
     "team_name": "Iowa State Cyclones",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 1
   },
@@ -8806,7 +8824,7 @@
     "player_name": "Cade Kelderman",
     "team_id": 66,
     "team_name": "Iowa State Cyclones",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 2
   },
@@ -8815,7 +8833,7 @@
     "player_name": "Xzavion Mitchell",
     "team_id": 66,
     "team_name": "Iowa State Cyclones",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -8824,7 +8842,7 @@
     "player_name": "Mason Williams",
     "team_id": 66,
     "team_name": "Iowa State Cyclones",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -8919,29 +8937,11 @@
     "tournament_minutes": 0
   },
   {
-    "player_id": 5281347,
-    "player_name": "Andrija Jelavic",
-    "team_id": 96,
-    "team_name": "Kentucky Wildcats",
-    "games_played": 1,
-    "tournament_points": 0,
-    "tournament_minutes": 13
-  },
-  {
-    "player_id": 5095153,
-    "player_name": "Jasper Johnson",
-    "team_id": 96,
-    "team_name": "Kentucky Wildcats",
-    "games_played": 1,
-    "tournament_points": 0,
-    "tournament_minutes": 2
-  },
-  {
     "player_id": 5252266,
     "player_name": "Zach Tow",
     "team_id": 96,
     "team_name": "Kentucky Wildcats",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -8950,7 +8950,7 @@
     "player_name": "Reece Potter",
     "team_id": 96,
     "team_name": "Kentucky Wildcats",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -8959,7 +8959,7 @@
     "player_name": "Trent Noah",
     "team_id": 96,
     "team_name": "Kentucky Wildcats",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -8968,7 +8968,7 @@
     "player_name": "Jayden Quaintance",
     "team_id": 96,
     "team_name": "Kentucky Wildcats",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -8977,7 +8977,7 @@
     "player_name": "Braydon Hawthorne",
     "team_id": 96,
     "team_name": "Kentucky Wildcats",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -8986,7 +8986,7 @@
     "player_name": "Walker Horn",
     "team_id": 96,
     "team_name": "Kentucky Wildcats",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -8995,7 +8995,7 @@
     "player_name": "Jaland Lowe",
     "team_id": 96,
     "team_name": "Kentucky Wildcats",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },

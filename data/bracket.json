@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-22T20:28:18.946Z",
+  "generated_at": "2026-03-22T21:27:56.452Z",
   "year": 2026,
   "available": true,
   "source": "espn_bracket_page",
@@ -8,7 +8,7 @@
   "tournament_name": "Men's NCAA Tournament",
   "short_name": "NCAA",
   "teams_count": 68,
-  "matchups_count": 56,
+  "matchups_count": 57,
   "regions": [
     {
       "id": 1,
@@ -1619,17 +1619,17 @@
       "region_id": 2,
       "bracket_location": 16,
       "date": "2026-03-22T18:45:00Z",
-      "status_state": "in",
-      "status_desc": "In Progress",
-      "status_detail": "12:24 - 2nd",
+      "status_state": "post",
+      "status_desc": "Final",
+      "status_detail": "Final",
       "location": "St. Louis, MO",
-      "link": "/mens-college-basketball/game/_/gameId/401856561",
+      "link": "/mens-college-basketball/game/_/gameId/401856561/kentucky-iowa-state",
       "competitor_one": {
         "team_id": 96,
         "team_name": "Kentucky",
         "abbreviation": "UK",
         "seed": 7,
-        "score": 40,
+        "score": 63,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/96.png"
       },
@@ -1638,8 +1638,8 @@
         "team_name": "Iowa State",
         "abbreviation": "ISU",
         "seed": 2,
-        "score": 48,
-        "winner": false,
+        "score": 82,
+        "winner": true,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/66.png"
       }
     },
@@ -1746,6 +1746,28 @@
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/130.png"
       },
       "competitor_two": null
+    },
+    {
+      "matchup_id": 401856573,
+      "round_id": 3,
+      "region_id": 1,
+      "bracket_location": 8,
+      "date": "2026-03-27T04:00:00Z",
+      "status_state": "pre",
+      "status_desc": "Scheduled",
+      "status_detail": "3/27 - TBD",
+      "location": "Chicago, IL",
+      "link": "/mens-college-basketball/game/_/gameId/401856573",
+      "competitor_one": null,
+      "competitor_two": {
+        "team_id": 66,
+        "team_name": "Iowa State",
+        "abbreviation": "ISU",
+        "seed": 2,
+        "score": 0,
+        "winner": false,
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/66.png"
+      }
     }
   ]
 }
