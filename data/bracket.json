@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-22T18:29:09.851Z",
+  "generated_at": "2026-03-22T19:27:58.118Z",
   "year": 2026,
   "available": true,
   "source": "espn_bracket_page",
@@ -1619,17 +1619,17 @@
       "region_id": 2,
       "bracket_location": 16,
       "date": "2026-03-22T18:45:00Z",
-      "status_state": "pre",
-      "status_desc": "Scheduled",
-      "status_detail": "3/22 - 2:45 PM EDT",
+      "status_state": "in",
+      "status_desc": "In Progress",
+      "status_detail": "5:58 - 1st",
       "location": "St. Louis, MO",
-      "link": "/mens-college-basketball/game/_/gameId/401856561/kentucky-iowa-state",
+      "link": "/mens-college-basketball/game/_/gameId/401856561",
       "competitor_one": {
         "team_id": 96,
         "team_name": "Kentucky",
         "abbreviation": "UK",
         "seed": 7,
-        "score": 0,
+        "score": 22,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/96.png"
       },
@@ -1638,7 +1638,7 @@
         "team_name": "Iowa State",
         "abbreviation": "ISU",
         "seed": 2,
-        "score": 0,
+        "score": 20,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/66.png"
       }
