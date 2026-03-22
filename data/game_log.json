@@ -13608,5 +13608,295 @@
     "team_name": "Gonzaga Bulldogs",
     "minutes": null,
     "points": 0
+  },
+  {
+    "event_id": 401856564,
+    "date": "20260322",
+    "player_id": 5105798,
+    "player_name": "Malik Reneau",
+    "team_id": 2390,
+    "team_name": "Miami Hurricanes",
+    "minutes": 36,
+    "points": 16
+  },
+  {
+    "event_id": 401856564,
+    "date": "20260322",
+    "player_id": 5101809,
+    "player_name": "Shelton Henderson",
+    "team_id": 2390,
+    "team_name": "Miami Hurricanes",
+    "minutes": 40,
+    "points": 18
+  },
+  {
+    "event_id": 401856564,
+    "date": "20260322",
+    "player_id": 5106261,
+    "player_name": "Ernest Udeh Jr.",
+    "team_id": 2390,
+    "team_name": "Miami Hurricanes",
+    "minutes": 33,
+    "points": 3
+  },
+  {
+    "event_id": 401856564,
+    "date": "20260322",
+    "player_id": 5142709,
+    "player_name": "Dante Allen",
+    "team_id": 2390,
+    "team_name": "Miami Hurricanes",
+    "minutes": 24,
+    "points": 8
+  },
+  {
+    "event_id": 401856564,
+    "date": "20260322",
+    "player_id": 4837356,
+    "player_name": "Tre Donaldson",
+    "team_id": 2390,
+    "team_name": "Miami Hurricanes",
+    "minutes": 36,
+    "points": 13
+  },
+  {
+    "event_id": 401856564,
+    "date": "20260322",
+    "player_id": 5281366,
+    "player_name": "Timotej Malovec",
+    "team_id": 2390,
+    "team_name": "Miami Hurricanes",
+    "minutes": 3,
+    "points": 0
+  },
+  {
+    "event_id": 401856564,
+    "date": "20260322",
+    "player_id": 4845368,
+    "player_name": "Tru Washington",
+    "team_id": 2390,
+    "team_name": "Miami Hurricanes",
+    "minutes": 28,
+    "points": 11
+  },
+  {
+    "event_id": 401856564,
+    "date": "20260322",
+    "player_id": 5311984,
+    "player_name": "Salih Altuntas",
+    "team_id": 2390,
+    "team_name": "Miami Hurricanes",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856564,
+    "date": "20260322",
+    "player_id": 5101821,
+    "player_name": "Treyvon Maddox",
+    "team_id": 2390,
+    "team_name": "Miami Hurricanes",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856564,
+    "date": "20260322",
+    "player_id": 5311986,
+    "player_name": "Noam Dovrat",
+    "team_id": 2390,
+    "team_name": "Miami Hurricanes",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856564,
+    "date": "20260322",
+    "player_id": 5311985,
+    "player_name": "John Laboy II",
+    "team_id": 2390,
+    "team_name": "Miami Hurricanes",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856564,
+    "date": "20260322",
+    "player_id": 5214525,
+    "player_name": "Jordyn Kee",
+    "team_id": 2390,
+    "team_name": "Miami Hurricanes",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856564,
+    "date": "20260322",
+    "player_id": 4869762,
+    "player_name": "Marcus Allen",
+    "team_id": 2390,
+    "team_name": "Miami Hurricanes",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856564,
+    "date": "20260322",
+    "player_id": 4897438,
+    "player_name": "Trey Kaufman-Renn",
+    "team_id": 2509,
+    "team_name": "Purdue Boilermakers",
+    "minutes": 35,
+    "points": 19
+  },
+  {
+    "event_id": 401856564,
+    "date": "20260322",
+    "player_id": 5174973,
+    "player_name": "Oscar Cluff",
+    "team_id": 2509,
+    "team_name": "Purdue Boilermakers",
+    "minutes": 32,
+    "points": 8
+  },
+  {
+    "event_id": 401856564,
+    "date": "20260322",
+    "player_id": 5175591,
+    "player_name": "C.J. Cox",
+    "team_id": 2509,
+    "team_name": "Purdue Boilermakers",
+    "minutes": 18,
+    "points": 11
+  },
+  {
+    "event_id": 401856564,
+    "date": "20260322",
+    "player_id": 5105854,
+    "player_name": "Braden Smith",
+    "team_id": 2509,
+    "team_name": "Purdue Boilermakers",
+    "minutes": 38,
+    "points": 12
+  },
+  {
+    "event_id": 401856564,
+    "date": "20260322",
+    "player_id": 5105853,
+    "player_name": "Fletcher Loyer",
+    "team_id": 2509,
+    "team_name": "Purdue Boilermakers",
+    "minutes": 35,
+    "points": 24
+  },
+  {
+    "event_id": 401856564,
+    "date": "20260322",
+    "player_id": 5144147,
+    "player_name": "Daniel Jacobsen",
+    "team_id": 2509,
+    "team_name": "Purdue Boilermakers",
+    "minutes": 2,
+    "points": 0
+  },
+  {
+    "event_id": 401856564,
+    "date": "20260322",
+    "player_id": 5312035,
+    "player_name": "Omer Mayer",
+    "team_id": 2509,
+    "team_name": "Purdue Boilermakers",
+    "minutes": 11,
+    "points": 0
+  },
+  {
+    "event_id": 401856564,
+    "date": "20260322",
+    "player_id": 5102618,
+    "player_name": "Jack Benter",
+    "team_id": 2509,
+    "team_name": "Purdue Boilermakers",
+    "minutes": 11,
+    "points": 0
+  },
+  {
+    "event_id": 401856564,
+    "date": "20260322",
+    "player_id": 5101658,
+    "player_name": "Gicarri Harris",
+    "team_id": 2509,
+    "team_name": "Purdue Boilermakers",
+    "minutes": 18,
+    "points": 5
+  },
+  {
+    "event_id": 401856564,
+    "date": "20260322",
+    "player_id": 5105856,
+    "player_name": "Sam King",
+    "team_id": 2509,
+    "team_name": "Purdue Boilermakers",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856564,
+    "date": "20260322",
+    "player_id": 5061582,
+    "player_name": "Raleigh Burgess",
+    "team_id": 2509,
+    "team_name": "Purdue Boilermakers",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856564,
+    "date": "20260322",
+    "player_id": 4702975,
+    "player_name": "Liam Murphy",
+    "team_id": 2509,
+    "team_name": "Purdue Boilermakers",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856564,
+    "date": "20260322",
+    "player_id": 5239504,
+    "player_name": "Jack Lusk",
+    "team_id": 2509,
+    "team_name": "Purdue Boilermakers",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856564,
+    "date": "20260322",
+    "player_id": 5239503,
+    "player_name": "Aaron Fine",
+    "team_id": 2509,
+    "team_name": "Purdue Boilermakers",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856564,
+    "date": "20260322",
+    "player_id": 5174804,
+    "player_name": "Jace Rayl",
+    "team_id": 2509,
+    "team_name": "Purdue Boilermakers",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856564,
+    "date": "20260322",
+    "player_id": 5144111,
+    "player_name": "Antione West Jr",
+    "team_id": 2509,
+    "team_name": "Purdue Boilermakers",
+    "minutes": null,
+    "points": 0
   }
 ]

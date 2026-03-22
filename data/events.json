@@ -504,8 +504,8 @@
     "date": "20260322",
     "name": "Miami Hurricanes at Purdue Boilermakers",
     "short_name": "MIA VS PUR",
-    "completed": false,
-    "status": "In Progress",
+    "completed": true,
+    "status": "Final",
     "home_team_id": 2509,
     "away_team_id": 2390
   },

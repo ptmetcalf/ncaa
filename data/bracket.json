@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-22T17:28:01.403Z",
+  "generated_at": "2026-03-22T18:29:09.851Z",
   "year": 2026,
   "available": true,
   "source": "espn_bracket_page",
@@ -1499,17 +1499,17 @@
       "region_id": 2,
       "bracket_location": 12,
       "date": "2026-03-22T16:10:00Z",
-      "status_state": "in",
-      "status_desc": "In Progress",
-      "status_detail": "16:29 - 2nd",
+      "status_state": "post",
+      "status_desc": "Final",
+      "status_detail": "Final",
       "location": "St. Louis, MO",
-      "link": "/mens-college-basketball/game/_/gameId/401856564",
+      "link": "/mens-college-basketball/game/_/gameId/401856564/miami-purdue",
       "competitor_one": {
         "team_id": 2390,
         "team_name": "Miami",
         "abbreviation": "MIA",
         "seed": 7,
-        "score": 42,
+        "score": 69,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2390.png"
       },
@@ -1518,8 +1518,8 @@
         "team_name": "Purdue",
         "abbreviation": "PUR",
         "seed": 2,
-        "score": 47,
-        "winner": false,
+        "score": 79,
+        "winner": true,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2509.png"
       }
     },
@@ -1705,7 +1705,7 @@
       "status_desc": "Scheduled",
       "status_detail": "3/26 - TBD",
       "location": "San Jose, CA",
-      "link": "/mens-college-basketball/game/_/gameId/401856568",
+      "link": "/mens-college-basketball/game/_/gameId/401856568/texas-purdue",
       "competitor_one": {
         "team_id": 251,
         "team_name": "Texas",
@@ -1715,7 +1715,15 @@
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/251.png"
       },
-      "competitor_two": null
+      "competitor_two": {
+        "team_id": 2509,
+        "team_name": "Purdue",
+        "abbreviation": "PUR",
+        "seed": 2,
+        "score": 0,
+        "winner": false,
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2509.png"
+      }
     },
     {
       "matchup_id": 401856572,

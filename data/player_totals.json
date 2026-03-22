@@ -54,6 +54,15 @@
     "tournament_minutes": 75
   },
   {
+    "player_id": 4897438,
+    "player_name": "Trey Kaufman-Renn",
+    "team_id": 2509,
+    "team_name": "Purdue Boilermakers",
+    "games_played": 2,
+    "tournament_points": 44,
+    "tournament_minutes": 60
+  },
+  {
     "player_id": 4432243,
     "player_name": "Tramon Mark",
     "team_id": 251,
@@ -88,6 +97,15 @@
     "games_played": 2,
     "tournament_points": 40,
     "tournament_minutes": 70
+  },
+  {
+    "player_id": 5105798,
+    "player_name": "Malik Reneau",
+    "team_id": 2390,
+    "team_name": "Miami Hurricanes",
+    "games_played": 2,
+    "tournament_points": 40,
+    "tournament_minutes": 73
   },
   {
     "player_id": 4432182,
@@ -133,6 +151,24 @@
     "games_played": 2,
     "tournament_points": 38,
     "tournament_minutes": 75
+  },
+  {
+    "player_id": 5105854,
+    "player_name": "Braden Smith",
+    "team_id": 2509,
+    "team_name": "Purdue Boilermakers",
+    "games_played": 2,
+    "tournament_points": 38,
+    "tournament_minutes": 70
+  },
+  {
+    "player_id": 5105853,
+    "player_name": "Fletcher Loyer",
+    "team_id": 2509,
+    "team_name": "Purdue Boilermakers",
+    "games_played": 2,
+    "tournament_points": 38,
+    "tournament_minutes": 60
   },
   {
     "player_id": 5176727,
@@ -252,6 +288,15 @@
     "tournament_minutes": 61
   },
   {
+    "player_id": 5101809,
+    "player_name": "Shelton Henderson",
+    "team_id": 2390,
+    "team_name": "Miami Hurricanes",
+    "games_played": 2,
+    "tournament_points": 33,
+    "tournament_minutes": 77
+  },
+  {
     "player_id": 4712845,
     "player_name": "Isaac McKneely",
     "team_id": 97,
@@ -331,6 +376,15 @@
     "games_played": 2,
     "tournament_points": 30,
     "tournament_minutes": 46
+  },
+  {
+    "player_id": 4837356,
+    "player_name": "Tre Donaldson",
+    "team_id": 2390,
+    "team_name": "Miami Hurricanes",
+    "games_played": 2,
+    "tournament_points": 30,
+    "tournament_minutes": 70
   },
   {
     "player_id": 5176075,
@@ -531,15 +585,6 @@
     "tournament_minutes": 43
   },
   {
-    "player_id": 5105854,
-    "player_name": "Braden Smith",
-    "team_id": 2509,
-    "team_name": "Purdue Boilermakers",
-    "games_played": 1,
-    "tournament_points": 26,
-    "tournament_minutes": 32
-  },
-  {
     "player_id": 5108060,
     "player_name": "Amani Lyles",
     "team_id": 2006,
@@ -585,15 +630,6 @@
     "tournament_minutes": 40
   },
   {
-    "player_id": 4897438,
-    "player_name": "Trey Kaufman-Renn",
-    "team_id": 2509,
-    "team_name": "Purdue Boilermakers",
-    "games_played": 1,
-    "tournament_points": 25,
-    "tournament_minutes": 25
-  },
-  {
     "player_id": 5248302,
     "player_name": "Killyan Toure",
     "team_id": 66,
@@ -637,15 +673,6 @@
     "games_played": 2,
     "tournament_points": 24,
     "tournament_minutes": 50
-  },
-  {
-    "player_id": 5105798,
-    "player_name": "Malik Reneau",
-    "team_id": 2390,
-    "team_name": "Miami Hurricanes",
-    "games_played": 1,
-    "tournament_points": 24,
-    "tournament_minutes": 37
   },
   {
     "player_id": 5221321,
@@ -772,6 +799,15 @@
     "games_played": 1,
     "tournament_points": 22,
     "tournament_minutes": 38
+  },
+  {
+    "player_id": 5175591,
+    "player_name": "C.J. Cox",
+    "team_id": 2509,
+    "team_name": "Purdue Boilermakers",
+    "games_played": 2,
+    "tournament_points": 22,
+    "tournament_minutes": 43
   },
   {
     "player_id": 4703912,
@@ -952,6 +988,15 @@
     "games_played": 1,
     "tournament_points": 20,
     "tournament_minutes": 32
+  },
+  {
+    "player_id": 4845368,
+    "player_name": "Tru Washington",
+    "team_id": 2390,
+    "team_name": "Miami Hurricanes",
+    "games_played": 2,
+    "tournament_points": 20,
+    "tournament_minutes": 52
   },
   {
     "player_id": 5106652,
@@ -1179,13 +1224,22 @@
     "tournament_minutes": 67
   },
   {
-    "player_id": 4837356,
-    "player_name": "Tre Donaldson",
+    "player_id": 5142709,
+    "player_name": "Dante Allen",
     "team_id": 2390,
     "team_name": "Miami Hurricanes",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 17,
-    "tournament_minutes": 34
+    "tournament_minutes": 50
+  },
+  {
+    "player_id": 5174973,
+    "player_name": "Oscar Cluff",
+    "team_id": 2509,
+    "team_name": "Purdue Boilermakers",
+    "games_played": 2,
+    "tournament_points": 17,
+    "tournament_minutes": 54
   },
   {
     "player_id": 4848637,
@@ -1521,15 +1575,6 @@
     "tournament_minutes": 37
   },
   {
-    "player_id": 5101809,
-    "player_name": "Shelton Henderson",
-    "team_id": 2390,
-    "team_name": "Miami Hurricanes",
-    "games_played": 1,
-    "tournament_points": 15,
-    "tournament_minutes": 37
-  },
-  {
     "player_id": 5107355,
     "player_name": "Donovan Atwell",
     "team_id": 2641,
@@ -1717,15 +1762,6 @@
     "games_played": 1,
     "tournament_points": 14,
     "tournament_minutes": 28
-  },
-  {
-    "player_id": 5105853,
-    "player_name": "Fletcher Loyer",
-    "team_id": 2509,
-    "team_name": "Purdue Boilermakers",
-    "games_played": 1,
-    "tournament_points": 14,
-    "tournament_minutes": 25
   },
   {
     "player_id": 5107312,
@@ -2187,15 +2223,6 @@
     "tournament_minutes": 29
   },
   {
-    "player_id": 5175591,
-    "player_name": "C.J. Cox",
-    "team_id": 2509,
-    "team_name": "Purdue Boilermakers",
-    "games_played": 1,
-    "tournament_points": 11,
-    "tournament_minutes": 25
-  },
-  {
     "player_id": 5241495,
     "player_name": "Biggie Patterson",
     "team_id": 2275,
@@ -2628,24 +2655,6 @@
     "tournament_minutes": 25
   },
   {
-    "player_id": 5142709,
-    "player_name": "Dante Allen",
-    "team_id": 2390,
-    "team_name": "Miami Hurricanes",
-    "games_played": 1,
-    "tournament_points": 9,
-    "tournament_minutes": 26
-  },
-  {
-    "player_id": 4845368,
-    "player_name": "Tru Washington",
-    "team_id": 2390,
-    "team_name": "Miami Hurricanes",
-    "games_played": 1,
-    "tournament_points": 9,
-    "tournament_minutes": 24
-  },
-  {
     "player_id": 5240005,
     "player_name": "Maban Jabriel",
     "team_id": 2511,
@@ -2655,22 +2664,13 @@
     "tournament_minutes": 21
   },
   {
-    "player_id": 5174973,
-    "player_name": "Oscar Cluff",
-    "team_id": 2509,
-    "team_name": "Purdue Boilermakers",
-    "games_played": 1,
-    "tournament_points": 9,
-    "tournament_minutes": 22
-  },
-  {
     "player_id": 5312035,
     "player_name": "Omer Mayer",
     "team_id": 2509,
     "team_name": "Purdue Boilermakers",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 9,
-    "tournament_minutes": 17
+    "tournament_minutes": 28
   },
   {
     "player_id": 5106880,
@@ -3330,6 +3330,15 @@
     "tournament_minutes": 26
   },
   {
+    "player_id": 5106261,
+    "player_name": "Ernest Udeh Jr.",
+    "team_id": 2390,
+    "team_name": "Miami Hurricanes",
+    "games_played": 2,
+    "tournament_points": 6,
+    "tournament_minutes": 69
+  },
+  {
     "player_id": 5176801,
     "player_name": "Avantae Parker",
     "team_id": 2511,
@@ -3589,6 +3598,15 @@
     "games_played": 1,
     "tournament_points": 5,
     "tournament_minutes": 5
+  },
+  {
+    "player_id": 5101658,
+    "player_name": "Gicarri Harris",
+    "team_id": 2509,
+    "team_name": "Purdue Boilermakers",
+    "games_played": 2,
+    "tournament_points": 5,
+    "tournament_minutes": 37
   },
   {
     "player_id": 5179085,
@@ -3901,9 +3919,9 @@
     "player_name": "Daniel Jacobsen",
     "team_id": 2509,
     "team_name": "Purdue Boilermakers",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 4,
-    "tournament_minutes": 10
+    "tournament_minutes": 12
   },
   {
     "player_id": 5108059,
@@ -4113,20 +4131,11 @@
     "tournament_minutes": 8
   },
   {
-    "player_id": 5106261,
-    "player_name": "Ernest Udeh Jr.",
-    "team_id": 2390,
-    "team_name": "Miami Hurricanes",
-    "games_played": 1,
-    "tournament_points": 3,
-    "tournament_minutes": 36
-  },
-  {
     "player_id": 5311986,
     "player_name": "Noam Dovrat",
     "team_id": 2390,
     "team_name": "Miami Hurricanes",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 3,
     "tournament_minutes": 4
   },
@@ -4135,7 +4144,7 @@
     "player_name": "Liam Murphy",
     "team_id": 2509,
     "team_name": "Purdue Boilermakers",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 3,
     "tournament_minutes": 5
   },
@@ -4144,9 +4153,9 @@
     "player_name": "Jack Benter",
     "team_id": 2509,
     "team_name": "Purdue Boilermakers",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 3,
-    "tournament_minutes": 20
+    "tournament_minutes": 31
   },
   {
     "player_id": 4703169,
@@ -8095,16 +8104,16 @@
     "player_name": "Timotej Malovec",
     "team_id": 2390,
     "team_name": "Miami Hurricanes",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
-    "tournament_minutes": 2
+    "tournament_minutes": 5
   },
   {
     "player_id": 5311984,
     "player_name": "Salih Altuntas",
     "team_id": 2390,
     "team_name": "Miami Hurricanes",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -8113,7 +8122,7 @@
     "player_name": "Treyvon Maddox",
     "team_id": 2390,
     "team_name": "Miami Hurricanes",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -8122,7 +8131,7 @@
     "player_name": "John Laboy II",
     "team_id": 2390,
     "team_name": "Miami Hurricanes",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -8131,7 +8140,7 @@
     "player_name": "Jordyn Kee",
     "team_id": 2390,
     "team_name": "Miami Hurricanes",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -8140,7 +8149,7 @@
     "player_name": "Marcus Allen",
     "team_id": 2390,
     "team_name": "Miami Hurricanes",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -8226,20 +8235,11 @@
     "tournament_minutes": 0
   },
   {
-    "player_id": 5101658,
-    "player_name": "Gicarri Harris",
-    "team_id": 2509,
-    "team_name": "Purdue Boilermakers",
-    "games_played": 1,
-    "tournament_points": 0,
-    "tournament_minutes": 19
-  },
-  {
     "player_id": 5105856,
     "player_name": "Sam King",
     "team_id": 2509,
     "team_name": "Purdue Boilermakers",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -8248,7 +8248,7 @@
     "player_name": "Raleigh Burgess",
     "team_id": 2509,
     "team_name": "Purdue Boilermakers",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -8257,7 +8257,7 @@
     "player_name": "Jack Lusk",
     "team_id": 2509,
     "team_name": "Purdue Boilermakers",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -8266,7 +8266,7 @@
     "player_name": "Aaron Fine",
     "team_id": 2509,
     "team_name": "Purdue Boilermakers",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -8275,7 +8275,7 @@
     "player_name": "Jace Rayl",
     "team_id": 2509,
     "team_name": "Purdue Boilermakers",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -8284,7 +8284,7 @@
     "player_name": "Antione West Jr",
     "team_id": 2509,
     "team_name": "Purdue Boilermakers",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
