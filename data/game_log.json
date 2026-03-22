@@ -5692,6 +5692,16 @@
   {
     "event_id": 401856492,
     "date": "20260319",
+    "player_id": 5061578,
+    "player_name": "Chris McDermott",
+    "team_id": 245,
+    "team_name": "Texas A&M Aggies",
+    "minutes": 0,
+    "points": 0
+  },
+  {
+    "event_id": 401856492,
+    "date": "20260319",
     "player_id": 4683146,
     "player_name": "Zach Clemence",
     "team_id": 245,
@@ -5734,16 +5744,6 @@
     "date": "20260319",
     "player_id": 5105412,
     "player_name": "Federiko Federiko",
-    "team_id": 245,
-    "team_name": "Texas A&M Aggies",
-    "minutes": null,
-    "points": 0
-  },
-  {
-    "event_id": 401856492,
-    "date": "20260319",
-    "player_id": 5061578,
-    "player_name": "Chris McDermott",
     "team_id": 245,
     "team_name": "Texas A&M Aggies",
     "minutes": null,
