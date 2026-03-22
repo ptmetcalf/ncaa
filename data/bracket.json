@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-22T15:28:00.691Z",
+  "generated_at": "2026-03-22T16:28:37.282Z",
   "year": 2026,
   "available": true,
   "source": "espn_bracket_page",
@@ -1499,17 +1499,17 @@
       "region_id": 2,
       "bracket_location": 12,
       "date": "2026-03-22T16:10:00Z",
-      "status_state": "pre",
-      "status_desc": "Scheduled",
-      "status_detail": "3/22 - 12:10 PM EDT",
+      "status_state": "in",
+      "status_desc": "In Progress",
+      "status_detail": "13:03 - 1st",
       "location": "St. Louis, MO",
-      "link": "/mens-college-basketball/game/_/gameId/401856564/miami-purdue",
+      "link": "/mens-college-basketball/game/_/gameId/401856564",
       "competitor_one": {
         "team_id": 2390,
         "team_name": "Miami",
         "abbreviation": "MIA",
         "seed": 7,
-        "score": 0,
+        "score": 12,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2390.png"
       },
@@ -1518,7 +1518,7 @@
         "team_name": "Purdue",
         "abbreviation": "PUR",
         "seed": 2,
-        "score": 0,
+        "score": 16,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2509.png"
       }
