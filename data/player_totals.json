@@ -342,6 +342,15 @@
     "tournament_minutes": 63
   },
   {
+    "player_id": 5082206,
+    "player_name": "Brayden Burries",
+    "team_id": 12,
+    "team_name": "Arizona Wildcats",
+    "games_played": 2,
+    "tournament_points": 34,
+    "tournament_minutes": 54
+  },
+  {
     "player_id": 5105624,
     "player_name": "Jordan Pope",
     "team_id": 251,
@@ -412,6 +421,15 @@
     "games_played": 2,
     "tournament_points": 32,
     "tournament_minutes": 60
+  },
+  {
+    "player_id": 5105401,
+    "player_name": "MJ Collins Jr.",
+    "team_id": 328,
+    "team_name": "Utah State Aggies",
+    "games_played": 2,
+    "tournament_points": 32,
+    "tournament_minutes": 74
   },
   {
     "player_id": 5107242,
@@ -495,6 +513,15 @@
     "tournament_minutes": 70
   },
   {
+    "player_id": 5107864,
+    "player_name": "Mason Falslev",
+    "team_id": 328,
+    "team_name": "Utah State Aggies",
+    "games_played": 2,
+    "tournament_points": 30,
+    "tournament_minutes": 68
+  },
+  {
     "player_id": 5176075,
     "player_name": "Cam Gillus",
     "team_id": 47,
@@ -547,6 +574,15 @@
     "games_played": 2,
     "tournament_points": 29,
     "tournament_minutes": 55
+  },
+  {
+    "player_id": 5041953,
+    "player_name": "Koa Peat",
+    "team_id": 12,
+    "team_name": "Arizona Wildcats",
+    "games_played": 2,
+    "tournament_points": 29,
+    "tournament_minutes": 60
   },
   {
     "player_id": 5243053,
@@ -765,6 +801,15 @@
     "tournament_minutes": 37
   },
   {
+    "player_id": 4432737,
+    "player_name": "Jaden Bradley",
+    "team_id": 12,
+    "team_name": "Arizona Wildcats",
+    "games_played": 2,
+    "tournament_points": 25,
+    "tournament_minutes": 62
+  },
+  {
     "player_id": 5105486,
     "player_name": "Chendall Weaver",
     "team_id": 251,
@@ -864,6 +909,15 @@
     "tournament_minutes": 36
   },
   {
+    "player_id": 5311896,
+    "player_name": "Ivan Kharchenkov",
+    "team_id": 12,
+    "team_name": "Arizona Wildcats",
+    "games_played": 2,
+    "tournament_points": 23,
+    "tournament_minutes": 63
+  },
+  {
     "player_id": 5103630,
     "player_name": "John Blackwell",
     "team_id": 275,
@@ -954,13 +1008,13 @@
     "tournament_minutes": 43
   },
   {
-    "player_id": 5107864,
-    "player_name": "Mason Falslev",
+    "player_id": 5105494,
+    "player_name": "Drake Allen",
     "team_id": 328,
     "team_name": "Utah State Aggies",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 22,
-    "tournament_minutes": 35
+    "tournament_minutes": 61
   },
   {
     "player_id": 4937074,
@@ -1197,13 +1251,22 @@
     "tournament_minutes": 39
   },
   {
-    "player_id": 5105401,
-    "player_name": "MJ Collins Jr.",
+    "player_id": 5108973,
+    "player_name": "Garry Clark",
     "team_id": 328,
     "team_name": "Utah State Aggies",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 20,
-    "tournament_minutes": 36
+    "tournament_minutes": 33
+  },
+  {
+    "player_id": 5174954,
+    "player_name": "Motiejus Krivas",
+    "team_id": 12,
+    "team_name": "Arizona Wildcats",
+    "games_played": 2,
+    "tournament_points": 20,
+    "tournament_minutes": 54
   },
   {
     "player_id": 5313186,
@@ -1294,6 +1357,15 @@
     "games_played": 2,
     "tournament_points": 19,
     "tournament_minutes": 63
+  },
+  {
+    "player_id": 5195079,
+    "player_name": "Adlan Elamin",
+    "team_id": 328,
+    "team_name": "Utah State Aggies",
+    "games_played": 2,
+    "tournament_points": 19,
+    "tournament_minutes": 55
   },
   {
     "player_id": 5316220,
@@ -1393,15 +1465,6 @@
     "games_played": 2,
     "tournament_points": 18,
     "tournament_minutes": 57
-  },
-  {
-    "player_id": 5082206,
-    "player_name": "Brayden Burries",
-    "team_id": 12,
-    "team_name": "Arizona Wildcats",
-    "games_played": 1,
-    "tournament_points": 18,
-    "tournament_minutes": 28
   },
   {
     "player_id": 5252505,
@@ -1872,13 +1935,13 @@
     "tournament_minutes": 28
   },
   {
-    "player_id": 5041953,
-    "player_name": "Koa Peat",
+    "player_id": 5105555,
+    "player_name": "Tobe Awaka",
     "team_id": 12,
     "team_name": "Arizona Wildcats",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 15,
-    "tournament_minutes": 28
+    "tournament_minutes": 31
   },
   {
     "player_id": 5149083,
@@ -2016,15 +2079,6 @@
     "tournament_minutes": 42
   },
   {
-    "player_id": 5311896,
-    "player_name": "Ivan Kharchenkov",
-    "team_id": 12,
-    "team_name": "Arizona Wildcats",
-    "games_played": 1,
-    "tournament_points": 14,
-    "tournament_minutes": 26
-  },
-  {
     "player_id": 5110039,
     "player_name": "Corey Washington",
     "team_id": 2567,
@@ -2113,15 +2167,6 @@
     "games_played": 1,
     "tournament_points": 13,
     "tournament_minutes": 34
-  },
-  {
-    "player_id": 5195079,
-    "player_name": "Adlan Elamin",
-    "team_id": 328,
-    "team_name": "Utah State Aggies",
-    "games_played": 1,
-    "tournament_points": 13,
-    "tournament_minutes": 30
   },
   {
     "player_id": 5190922,
@@ -2457,15 +2502,6 @@
     "tournament_minutes": 47
   },
   {
-    "player_id": 5105494,
-    "player_name": "Drake Allen",
-    "team_id": 328,
-    "team_name": "Utah State Aggies",
-    "games_played": 1,
-    "tournament_points": 11,
-    "tournament_minutes": 33
-  },
-  {
     "player_id": 5239554,
     "player_name": "Malachi Palmer",
     "team_id": 222,
@@ -2484,13 +2520,13 @@
     "tournament_minutes": 33
   },
   {
-    "player_id": 5105555,
-    "player_name": "Tobe Awaka",
+    "player_id": 5108141,
+    "player_name": "Anthony Dell'Orso",
     "team_id": 12,
     "team_name": "Arizona Wildcats",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 11,
-    "tournament_minutes": 18
+    "tournament_minutes": 40
   },
   {
     "player_id": 5313370,
@@ -2700,6 +2736,15 @@
     "tournament_minutes": 23
   },
   {
+    "player_id": 5105604,
+    "player_name": "Kolby King",
+    "team_id": 328,
+    "team_name": "Utah State Aggies",
+    "games_played": 2,
+    "tournament_points": 10,
+    "tournament_minutes": 21
+  },
+  {
     "player_id": 5177355,
     "player_name": "Cougar Downing",
     "team_id": 2378,
@@ -2880,13 +2925,13 @@
     "tournament_minutes": 41
   },
   {
-    "player_id": 5174954,
-    "player_name": "Motiejus Krivas",
-    "team_id": 12,
-    "team_name": "Arizona Wildcats",
-    "games_played": 1,
+    "player_id": 5176273,
+    "player_name": "Karson Templin",
+    "team_id": 328,
+    "team_name": "Utah State Aggies",
+    "games_played": 2,
     "tournament_points": 9,
-    "tournament_minutes": 22
+    "tournament_minutes": 49
   },
   {
     "player_id": 5105816,
@@ -3141,15 +3186,6 @@
     "tournament_minutes": 41
   },
   {
-    "player_id": 5108141,
-    "player_name": "Anthony Dell'Orso",
-    "team_id": 12,
-    "team_name": "Arizona Wildcats",
-    "games_played": 1,
-    "tournament_points": 8,
-    "tournament_minutes": 22
-  },
-  {
     "player_id": 5182581,
     "player_name": "Jose Roberto Tanchyn",
     "team_id": 2378,
@@ -3240,15 +3276,6 @@
     "tournament_minutes": 29
   },
   {
-    "player_id": 5108973,
-    "player_name": "Garry Clark",
-    "team_id": 328,
-    "team_name": "Utah State Aggies",
-    "games_played": 1,
-    "tournament_points": 7,
-    "tournament_minutes": 15
-  },
-  {
     "player_id": 5144105,
     "player_name": "Acaden Lewis",
     "team_id": 222,
@@ -3267,13 +3294,13 @@
     "tournament_minutes": 15
   },
   {
-    "player_id": 4432737,
-    "player_name": "Jaden Bradley",
+    "player_id": 5186456,
+    "player_name": "Dwayne Aristode",
     "team_id": 12,
     "team_name": "Arizona Wildcats",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 7,
-    "tournament_minutes": 23
+    "tournament_minutes": 18
   },
   {
     "player_id": 4684799,
@@ -3499,6 +3526,15 @@
     "games_played": 2,
     "tournament_points": 6,
     "tournament_minutes": 39
+  },
+  {
+    "player_id": 4896363,
+    "player_name": "Zach Keller",
+    "team_id": 328,
+    "team_name": "Utah State Aggies",
+    "games_played": 2,
+    "tournament_points": 6,
+    "tournament_minutes": 21
   },
   {
     "player_id": 4683781,
@@ -3762,15 +3798,6 @@
     "tournament_minutes": 14
   },
   {
-    "player_id": 5105604,
-    "player_name": "Kolby King",
-    "team_id": 328,
-    "team_name": "Utah State Aggies",
-    "games_played": 1,
-    "tournament_points": 5,
-    "tournament_minutes": 9
-  },
-  {
     "player_id": 4683785,
     "player_name": "Simeon Wilcher",
     "team_id": 251,
@@ -4032,22 +4059,13 @@
     "tournament_minutes": 18
   },
   {
-    "player_id": 4896363,
-    "player_name": "Zach Keller",
+    "player_id": 5255260,
+    "player_name": "Elijah Perryman",
     "team_id": 328,
     "team_name": "Utah State Aggies",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 4,
-    "tournament_minutes": 12
-  },
-  {
-    "player_id": 5176273,
-    "player_name": "Karson Templin",
-    "team_id": 328,
-    "team_name": "Utah State Aggies",
-    "games_played": 1,
-    "tournament_points": 4,
-    "tournament_minutes": 24
+    "tournament_minutes": 18
   },
   {
     "player_id": 5243273,
@@ -4072,18 +4090,9 @@
     "player_name": "Sidi Gueye",
     "team_id": 12,
     "team_name": "Arizona Wildcats",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 4,
     "tournament_minutes": 7
-  },
-  {
-    "player_id": 5186456,
-    "player_name": "Dwayne Aristode",
-    "team_id": 12,
-    "team_name": "Arizona Wildcats",
-    "games_played": 1,
-    "tournament_points": 4,
-    "tournament_minutes": 15
   },
   {
     "player_id": 5313189,
@@ -4720,7 +4729,7 @@
     "player_name": "Addison Arnold",
     "team_id": 12,
     "team_name": "Arizona Wildcats",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 2,
     "tournament_minutes": 4
   },
@@ -9198,20 +9207,11 @@
     "tournament_minutes": 0
   },
   {
-    "player_id": 5255260,
-    "player_name": "Elijah Perryman",
-    "team_id": 328,
-    "team_name": "Utah State Aggies",
-    "games_played": 1,
-    "tournament_points": 0,
-    "tournament_minutes": 6
-  },
-  {
     "player_id": 5255259,
     "player_name": "David Iweze",
     "team_id": 328,
     "team_name": "Utah State Aggies",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -9220,7 +9220,7 @@
     "player_name": "Luke Kearney",
     "team_id": 328,
     "team_name": "Utah State Aggies",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -9229,7 +9229,7 @@
     "player_name": "Tucker Anderson",
     "team_id": 328,
     "team_name": "Utah State Aggies",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -9238,7 +9238,7 @@
     "player_name": "Kingston Tosi",
     "team_id": 328,
     "team_name": "Utah State Aggies",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -9247,7 +9247,7 @@
     "player_name": "Jordy Barnes",
     "team_id": 328,
     "team_name": "Utah State Aggies",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -9256,7 +9256,7 @@
     "player_name": "Brayden Boe",
     "team_id": 328,
     "team_name": "Utah State Aggies",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -9400,7 +9400,7 @@
     "player_name": "Sven Djopmo",
     "team_id": 12,
     "team_name": "Arizona Wildcats",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 2
   },
@@ -9409,7 +9409,7 @@
     "player_name": "Jackson Cook",
     "team_id": 12,
     "team_name": "Arizona Wildcats",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 1
   },
@@ -9418,7 +9418,7 @@
     "player_name": "Jackson Francois",
     "team_id": 12,
     "team_name": "Arizona Wildcats",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 1
   },
@@ -9427,7 +9427,7 @@
     "player_name": "Evan Nelson",
     "team_id": 12,
     "team_name": "Arizona Wildcats",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 3
   },
@@ -9436,7 +9436,7 @@
     "player_name": "Mabil Mawut",
     "team_id": 12,
     "team_name": "Arizona Wildcats",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -9445,7 +9445,7 @@
     "player_name": "Bryce James",
     "team_id": 12,
     "team_name": "Arizona Wildcats",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   }

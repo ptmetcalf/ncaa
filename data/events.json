@@ -465,7 +465,7 @@
     "name": "Texas Tech Red Raiders at Alabama Crimson Tide",
     "short_name": "TTU VS ALA",
     "completed": false,
-    "status": "Scheduled",
+    "status": "In Progress",
     "home_team_id": 333,
     "away_team_id": 2641
   },
@@ -514,8 +514,8 @@
     "date": "20260322",
     "name": "Utah State Aggies at Arizona Wildcats",
     "short_name": "USU VS ARIZ",
-    "completed": false,
-    "status": "In Progress",
+    "completed": true,
+    "status": "Final",
     "home_team_id": 12,
     "away_team_id": 328
   }
