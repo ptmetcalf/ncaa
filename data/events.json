@@ -455,7 +455,7 @@
     "name": "UCLA Bruins at UConn Huskies",
     "short_name": "UCLA VS CONN",
     "completed": false,
-    "status": "Scheduled",
+    "status": "In Progress",
     "home_team_id": 41,
     "away_team_id": 26
   },
@@ -494,8 +494,8 @@
     "date": "20260322",
     "name": "Iowa Hawkeyes at Florida Gators",
     "short_name": "IOWA VS FLA",
-    "completed": false,
-    "status": "In Progress",
+    "completed": true,
+    "status": "Final",
     "home_team_id": 57,
     "away_team_id": 2294
   },

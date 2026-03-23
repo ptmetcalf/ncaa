@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-23T00:56:21.255Z",
+  "generated_at": "2026-03-23T01:59:03.223Z",
   "year": 2026,
   "available": true,
   "source": "espn_bracket_page",
@@ -8,7 +8,7 @@
   "tournament_name": "Men's NCAA Tournament",
   "short_name": "NCAA",
   "teams_count": 68,
-  "matchups_count": 57,
+  "matchups_count": 58,
   "regions": [
     {
       "id": 1,
@@ -1259,17 +1259,17 @@
       "region_id": 1,
       "bracket_location": 4,
       "date": "2026-03-23T01:10:00Z",
-      "status_state": "pre",
-      "status_desc": "Scheduled",
-      "status_detail": "3/22 - 9:10 PM EDT",
+      "status_state": "in",
+      "status_desc": "In Progress",
+      "status_detail": "1:49 - 1st",
       "location": "Philadelphia, PA",
-      "link": "/mens-college-basketball/game/_/gameId/401856559/ucla-uconn",
+      "link": "/mens-college-basketball/game/_/gameId/401856559",
       "competitor_one": {
         "team_id": 26,
         "team_name": "UCLA",
         "abbreviation": "UCLA",
         "seed": 7,
-        "score": 0,
+        "score": 32,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/26.png"
       },
@@ -1278,7 +1278,7 @@
         "team_name": "UConn",
         "abbreviation": "CONN",
         "seed": 2,
-        "score": 0,
+        "score": 35,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/41.png"
       }
@@ -1289,17 +1289,17 @@
       "region_id": 1,
       "bracket_location": 5,
       "date": "2026-03-22T23:10:00Z",
-      "status_state": "in",
-      "status_desc": "In Progress",
-      "status_detail": "11:25 - 2nd",
+      "status_state": "post",
+      "status_desc": "Final",
+      "status_detail": "Final",
       "location": "Tampa, FL",
-      "link": "/mens-college-basketball/game/_/gameId/401856563",
+      "link": "/mens-college-basketball/game/_/gameId/401856563/iowa-florida",
       "competitor_one": {
         "team_id": 57,
         "team_name": "Florida",
         "abbreviation": "FLA",
         "seed": 1,
-        "score": 47,
+        "score": 72,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/57.png"
       },
@@ -1308,8 +1308,8 @@
         "team_name": "Iowa",
         "abbreviation": "IOWA",
         "seed": 9,
-        "score": 55,
-        "winner": false,
+        "score": 73,
+        "winner": true,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2294.png"
       }
     },
@@ -1411,7 +1411,7 @@
       "date": "2026-03-23T00:11:00Z",
       "status_state": "in",
       "status_desc": "In Progress",
-      "status_detail": "3:54 - 1st",
+      "status_detail": "9:43 - 2nd",
       "location": "San Diego, CA",
       "link": "/mens-college-basketball/game/_/gameId/401856565",
       "competitor_one": {
@@ -1419,7 +1419,7 @@
         "team_name": "Arizona",
         "abbreviation": "ARIZ",
         "seed": 1,
-        "score": 27,
+        "score": 55,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/12.png"
       },
@@ -1428,7 +1428,7 @@
         "team_name": "Utah State",
         "abbreviation": "USU",
         "seed": 9,
-        "score": 18,
+        "score": 47,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/328.png"
       }
@@ -1558,10 +1558,10 @@
       "round_id": 2,
       "region_id": 2,
       "bracket_location": 14,
-      "date": "2026-03-23T01:45:00Z",
+      "date": "2026-03-23T02:08:00Z",
       "status_state": "pre",
       "status_desc": "Scheduled",
-      "status_detail": "3/22 - 9:45 PM EDT",
+      "status_detail": "3/22 - 10:08 PM EDT",
       "location": "Tampa, FL",
       "link": "/mens-college-basketball/game/_/gameId/401856560/texas-tech-alabama",
       "competitor_one": {
@@ -1671,6 +1671,36 @@
         "score": 0,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2599.png"
+      }
+    },
+    {
+      "matchup_id": 401856567,
+      "round_id": 3,
+      "region_id": 1,
+      "bracket_location": 3,
+      "date": "2026-03-26T04:00:00Z",
+      "status_state": "pre",
+      "status_desc": "Scheduled",
+      "status_detail": "3/26 - TBD",
+      "location": "Houston, TX",
+      "link": "/mens-college-basketball/game/_/gameId/401856567/iowa-nebraska",
+      "competitor_one": {
+        "team_id": 2294,
+        "team_name": "Iowa",
+        "abbreviation": "IOWA",
+        "seed": 9,
+        "score": 0,
+        "winner": false,
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2294.png"
+      },
+      "competitor_two": {
+        "team_id": 158,
+        "team_name": "Nebraska",
+        "abbreviation": "NEB",
+        "seed": 4,
+        "score": 0,
+        "winner": false,
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png"
       }
     },
     {

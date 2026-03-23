@@ -14286,7 +14286,7 @@
     "player_name": "Jaylen Carey",
     "team_id": 2633,
     "team_name": "Tennessee Volunteers",
-    "minutes": 16,
+    "minutes": 17,
     "points": 10
   },
   {
@@ -14306,7 +14306,7 @@
     "player_name": "Troy Henderson",
     "team_id": 2633,
     "team_name": "Tennessee Volunteers",
-    "minutes": null,
+    "minutes": 1,
     "points": 0
   },
   {
@@ -14526,6 +14526,296 @@
     "player_name": "Elijah Gertrude",
     "team_id": 258,
     "team_name": "Virginia Cavaliers",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856563,
+    "date": "20260322",
+    "player_id": 5176283,
+    "player_name": "Cam Manyawu",
+    "team_id": 2294,
+    "team_name": "Iowa Hawkeyes",
+    "minutes": 21,
+    "points": 6
+  },
+  {
+    "event_id": 401856563,
+    "date": "20260322",
+    "player_id": 4873203,
+    "player_name": "Cooper Koch",
+    "team_id": 2294,
+    "team_name": "Iowa Hawkeyes",
+    "minutes": 28,
+    "points": 12
+  },
+  {
+    "event_id": 401856563,
+    "date": "20260322",
+    "player_id": 5241364,
+    "player_name": "Bennett Stirtz",
+    "team_id": 2294,
+    "team_name": "Iowa Hawkeyes",
+    "minutes": 40,
+    "points": 13
+  },
+  {
+    "event_id": 401856563,
+    "date": "20260322",
+    "player_id": 5241363,
+    "player_name": "Tavion Banks",
+    "team_id": 2294,
+    "team_name": "Iowa Hawkeyes",
+    "minutes": 30,
+    "points": 20
+  },
+  {
+    "event_id": 401856563,
+    "date": "20260322",
+    "player_id": 5176280,
+    "player_name": "Kael Combs",
+    "team_id": 2294,
+    "team_name": "Iowa Hawkeyes",
+    "minutes": 33,
+    "points": 6
+  },
+  {
+    "event_id": 401856563,
+    "date": "20260322",
+    "player_id": 5177211,
+    "player_name": "Alvaro Folgueiras",
+    "team_id": 2294,
+    "team_name": "Iowa Hawkeyes",
+    "minutes": 18,
+    "points": 14
+  },
+  {
+    "event_id": 401856563,
+    "date": "20260322",
+    "player_id": 5311843,
+    "player_name": "Trevin Jirak",
+    "team_id": 2294,
+    "team_name": "Iowa Hawkeyes",
+    "minutes": 3,
+    "points": 0
+  },
+  {
+    "event_id": 401856563,
+    "date": "20260322",
+    "player_id": 5311842,
+    "player_name": "Tate Sage",
+    "team_id": 2294,
+    "team_name": "Iowa Hawkeyes",
+    "minutes": 13,
+    "points": 2
+  },
+  {
+    "event_id": 401856563,
+    "date": "20260322",
+    "player_id": 5241366,
+    "player_name": "Isaia Howard",
+    "team_id": 2294,
+    "team_name": "Iowa Hawkeyes",
+    "minutes": 14,
+    "points": 0
+  },
+  {
+    "event_id": 401856563,
+    "date": "20260322",
+    "player_id": 5311841,
+    "player_name": "Trey Thompson",
+    "team_id": 2294,
+    "team_name": "Iowa Hawkeyes",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856563,
+    "date": "20260322",
+    "player_id": 5241367,
+    "player_name": "Joey Matteoni",
+    "team_id": 2294,
+    "team_name": "Iowa Hawkeyes",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856563,
+    "date": "20260322",
+    "player_id": 5311840,
+    "player_name": "Peyton McCollum",
+    "team_id": 2294,
+    "team_name": "Iowa Hawkeyes",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856563,
+    "date": "20260322",
+    "player_id": 5239551,
+    "player_name": "Jacob Koch",
+    "team_id": 2294,
+    "team_name": "Iowa Hawkeyes",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856563,
+    "date": "20260322",
+    "player_id": 5105589,
+    "player_name": "Brendan Hausen",
+    "team_id": 2294,
+    "team_name": "Iowa Hawkeyes",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856563,
+    "date": "20260322",
+    "player_id": 5174657,
+    "player_name": "Alex Condon",
+    "team_id": 57,
+    "team_name": "Florida Gators",
+    "minutes": 35,
+    "points": 21
+  },
+  {
+    "event_id": 401856563,
+    "date": "20260322",
+    "player_id": 5080489,
+    "player_name": "Thomas Haugh",
+    "team_id": 57,
+    "team_name": "Florida Gators",
+    "minutes": 39,
+    "points": 19
+  },
+  {
+    "event_id": 401856563,
+    "date": "20260322",
+    "player_id": 5174971,
+    "player_name": "Rueben Chinyelu",
+    "team_id": 57,
+    "team_name": "Florida Gators",
+    "minutes": 19,
+    "points": 0
+  },
+  {
+    "event_id": 401856563,
+    "date": "20260322",
+    "player_id": 5238195,
+    "player_name": "Boogie Fland",
+    "team_id": 57,
+    "team_name": "Florida Gators",
+    "minutes": 36,
+    "points": 7
+  },
+  {
+    "event_id": 401856563,
+    "date": "20260322",
+    "player_id": 5107169,
+    "player_name": "Xaivian Lee",
+    "team_id": 57,
+    "team_name": "Florida Gators",
+    "minutes": 29,
+    "points": 17
+  },
+  {
+    "event_id": 401856563,
+    "date": "20260322",
+    "player_id": 5108992,
+    "player_name": "Micah Handlogten",
+    "team_id": 57,
+    "team_name": "Florida Gators",
+    "minutes": 10,
+    "points": 0
+  },
+  {
+    "event_id": 401856563,
+    "date": "20260322",
+    "player_id": 5238200,
+    "player_name": "Urban Klavzar",
+    "team_id": 57,
+    "team_name": "Florida Gators",
+    "minutes": 19,
+    "points": 5
+  },
+  {
+    "event_id": 401856563,
+    "date": "20260322",
+    "player_id": 5144372,
+    "player_name": "Isaiah Brown",
+    "team_id": 57,
+    "team_name": "Florida Gators",
+    "minutes": 13,
+    "points": 3
+  },
+  {
+    "event_id": 401856563,
+    "date": "20260322",
+    "player_id": 5238201,
+    "player_name": "Viktor Mikic",
+    "team_id": 57,
+    "team_name": "Florida Gators",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856563,
+    "date": "20260322",
+    "player_id": 5184753,
+    "player_name": "Olivier Rioux",
+    "team_id": 57,
+    "team_name": "Florida Gators",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856563,
+    "date": "20260322",
+    "player_id": 5217184,
+    "player_name": "CJ Ingram",
+    "team_id": 57,
+    "team_name": "Florida Gators",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856563,
+    "date": "20260322",
+    "player_id": 5175405,
+    "player_name": "Alex Kovatchev",
+    "team_id": 57,
+    "team_name": "Florida Gators",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856563,
+    "date": "20260322",
+    "player_id": 5174660,
+    "player_name": "Cooper Josefsberg",
+    "team_id": 57,
+    "team_name": "Florida Gators",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856563,
+    "date": "20260322",
+    "player_id": 5108014,
+    "player_name": "AJ Brown",
+    "team_id": 57,
+    "team_name": "Florida Gators",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856563,
+    "date": "20260322",
+    "player_id": 5041948,
+    "player_name": "Alex Lloyd",
+    "team_id": 57,
+    "team_name": "Florida Gators",
     "minutes": null,
     "points": 0
   },

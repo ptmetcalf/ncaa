@@ -324,6 +324,15 @@
     "tournament_minutes": 47
   },
   {
+    "player_id": 5174657,
+    "player_name": "Alex Condon",
+    "team_id": 57,
+    "team_name": "Florida Gators",
+    "games_played": 2,
+    "tournament_points": 34,
+    "tournament_minutes": 60
+  },
+  {
     "player_id": 4703912,
     "player_name": "Nate Heise",
     "team_id": 66,
@@ -358,6 +367,15 @@
     "games_played": 2,
     "tournament_points": 33,
     "tournament_minutes": 77
+  },
+  {
+    "player_id": 5080489,
+    "player_name": "Thomas Haugh",
+    "team_id": 57,
+    "team_name": "Florida Gators",
+    "games_played": 2,
+    "tournament_points": 33,
+    "tournament_minutes": 62
   },
   {
     "player_id": 4712845,
@@ -513,6 +531,15 @@
     "tournament_minutes": 36
   },
   {
+    "player_id": 5241364,
+    "player_name": "Bennett Stirtz",
+    "team_id": 2294,
+    "team_name": "Iowa Hawkeyes",
+    "games_played": 2,
+    "tournament_points": 29,
+    "tournament_minutes": 80
+  },
+  {
     "player_id": 5106254,
     "player_name": "Tamin Lipsey",
     "team_id": 66,
@@ -574,6 +601,15 @@
     "games_played": 2,
     "tournament_points": 28,
     "tournament_minutes": 54
+  },
+  {
+    "player_id": 5177211,
+    "player_name": "Alvaro Folgueiras",
+    "team_id": 2294,
+    "team_name": "Iowa Hawkeyes",
+    "games_played": 2,
+    "tournament_points": 28,
+    "tournament_minutes": 38
   },
   {
     "player_id": 5093252,
@@ -639,6 +675,15 @@
     "tournament_minutes": 66
   },
   {
+    "player_id": 5107169,
+    "player_name": "Xaivian Lee",
+    "team_id": 57,
+    "team_name": "Florida Gators",
+    "games_played": 2,
+    "tournament_points": 27,
+    "tournament_minutes": 52
+  },
+  {
     "player_id": 4433138,
     "player_name": "Nimari Burnett",
     "team_id": 130,
@@ -673,6 +718,15 @@
     "games_played": 1,
     "tournament_points": 26,
     "tournament_minutes": 32
+  },
+  {
+    "player_id": 5241363,
+    "player_name": "Tavion Banks",
+    "team_id": 2294,
+    "team_name": "Iowa Hawkeyes",
+    "games_played": 2,
+    "tournament_points": 26,
+    "tournament_minutes": 56
   },
   {
     "player_id": 5060732,
@@ -790,6 +844,15 @@
     "games_played": 2,
     "tournament_points": 23,
     "tournament_minutes": 49
+  },
+  {
+    "player_id": 5238195,
+    "player_name": "Boogie Fland",
+    "team_id": 57,
+    "team_name": "Florida Gators",
+    "games_played": 2,
+    "tournament_points": 23,
+    "tournament_minutes": 61
   },
   {
     "player_id": 4683758,
@@ -999,6 +1062,15 @@
     "tournament_minutes": 34
   },
   {
+    "player_id": 5176280,
+    "player_name": "Kael Combs",
+    "team_id": 2294,
+    "team_name": "Iowa Hawkeyes",
+    "games_played": 2,
+    "tournament_points": 21,
+    "tournament_minutes": 63
+  },
+  {
     "player_id": 5182573,
     "player_name": "Aaron Nkrumah",
     "team_id": 2634,
@@ -1087,6 +1159,15 @@
     "games_played": 1,
     "tournament_points": 20,
     "tournament_minutes": 33
+  },
+  {
+    "player_id": 4873203,
+    "player_name": "Cooper Koch",
+    "team_id": 2294,
+    "team_name": "Iowa Hawkeyes",
+    "games_played": 2,
+    "tournament_points": 20,
+    "tournament_minutes": 66
   },
   {
     "player_id": 5242989,
@@ -1512,22 +1593,13 @@
     "tournament_minutes": 25
   },
   {
-    "player_id": 5241364,
-    "player_name": "Bennett Stirtz",
-    "team_id": 2294,
-    "team_name": "Iowa Hawkeyes",
-    "games_played": 1,
-    "tournament_points": 16,
-    "tournament_minutes": 40
-  },
-  {
-    "player_id": 5238195,
-    "player_name": "Boogie Fland",
+    "player_id": 5238200,
+    "player_name": "Urban Klavzar",
     "team_id": 57,
     "team_name": "Florida Gators",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 16,
-    "tournament_minutes": 25
+    "tournament_minutes": 36
   },
   {
     "player_id": 5215425,
@@ -1746,15 +1818,6 @@
     "tournament_minutes": 21
   },
   {
-    "player_id": 5176280,
-    "player_name": "Kael Combs",
-    "team_id": 2294,
-    "team_name": "Iowa Hawkeyes",
-    "games_played": 1,
-    "tournament_points": 15,
-    "tournament_minutes": 30
-  },
-  {
     "player_id": 5105449,
     "player_name": "RJ Godfrey",
     "team_id": 228,
@@ -1935,31 +1998,13 @@
     "tournament_minutes": 40
   },
   {
-    "player_id": 5177211,
-    "player_name": "Alvaro Folgueiras",
-    "team_id": 2294,
-    "team_name": "Iowa Hawkeyes",
-    "games_played": 1,
-    "tournament_points": 14,
-    "tournament_minutes": 20
-  },
-  {
-    "player_id": 5080489,
-    "player_name": "Thomas Haugh",
-    "team_id": 57,
-    "team_name": "Florida Gators",
-    "games_played": 1,
-    "tournament_points": 14,
-    "tournament_minutes": 23
-  },
-  {
     "player_id": 5174971,
     "player_name": "Rueben Chinyelu",
     "team_id": 57,
     "team_name": "Florida Gators",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 14,
-    "tournament_minutes": 20
+    "tournament_minutes": 39
   },
   {
     "player_id": 5109789,
@@ -2050,15 +2095,6 @@
     "games_played": 1,
     "tournament_points": 13,
     "tournament_minutes": 28
-  },
-  {
-    "player_id": 5174657,
-    "player_name": "Alex Condon",
-    "team_id": 57,
-    "team_name": "Florida Gators",
-    "games_played": 1,
-    "tournament_points": 13,
-    "tournament_minutes": 25
   },
   {
     "player_id": 5242985,
@@ -2385,15 +2421,6 @@
     "tournament_minutes": 31
   },
   {
-    "player_id": 5238200,
-    "player_name": "Urban Klavzar",
-    "team_id": 57,
-    "team_name": "Florida Gators",
-    "games_played": 1,
-    "tournament_points": 11,
-    "tournament_minutes": 17
-  },
-  {
     "player_id": 4596531,
     "player_name": "Dante Harris",
     "team_id": 2634,
@@ -2619,22 +2646,22 @@
     "tournament_minutes": 25
   },
   {
-    "player_id": 5107169,
-    "player_name": "Xaivian Lee",
-    "team_id": 57,
-    "team_name": "Florida Gators",
-    "games_played": 1,
-    "tournament_points": 10,
-    "tournament_minutes": 23
-  },
-  {
     "player_id": 5108992,
     "player_name": "Micah Handlogten",
     "team_id": 57,
     "team_name": "Florida Gators",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 10,
-    "tournament_minutes": 18
+    "tournament_minutes": 28
+  },
+  {
+    "player_id": 5144372,
+    "player_name": "Isaiah Brown",
+    "team_id": 57,
+    "team_name": "Florida Gators",
+    "games_played": 2,
+    "tournament_points": 10,
+    "tournament_minutes": 31
   },
   {
     "player_id": 5281369,
@@ -2670,7 +2697,7 @@
     "team_name": "Tennessee Volunteers",
     "games_played": 2,
     "tournament_points": 10,
-    "tournament_minutes": 22
+    "tournament_minutes": 23
   },
   {
     "player_id": 5177355,
@@ -2824,6 +2851,15 @@
     "games_played": 2,
     "tournament_points": 9,
     "tournament_minutes": 28
+  },
+  {
+    "player_id": 5311842,
+    "player_name": "Tate Sage",
+    "team_id": 2294,
+    "team_name": "Iowa Hawkeyes",
+    "games_played": 2,
+    "tournament_points": 9,
+    "tournament_minutes": 26
   },
   {
     "player_id": 5106880,
@@ -3060,15 +3096,6 @@
     "tournament_minutes": 18
   },
   {
-    "player_id": 4873203,
-    "player_name": "Cooper Koch",
-    "team_id": 2294,
-    "team_name": "Iowa Hawkeyes",
-    "games_played": 1,
-    "tournament_points": 8,
-    "tournament_minutes": 38
-  },
-  {
     "player_id": 4699440,
     "player_name": "Nick Davidson",
     "team_id": 228,
@@ -3091,7 +3118,7 @@
     "player_name": "CJ Ingram",
     "team_id": 57,
     "team_name": "Florida Gators",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 8,
     "tournament_minutes": 7
   },
@@ -3186,22 +3213,13 @@
     "tournament_minutes": 26
   },
   {
-    "player_id": 5311842,
-    "player_name": "Tate Sage",
+    "player_id": 5176283,
+    "player_name": "Cam Manyawu",
     "team_id": 2294,
     "team_name": "Iowa Hawkeyes",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 7,
-    "tournament_minutes": 13
-  },
-  {
-    "player_id": 5144372,
-    "player_name": "Isaiah Brown",
-    "team_id": 57,
-    "team_name": "Florida Gators",
-    "games_played": 1,
-    "tournament_points": 7,
-    "tournament_minutes": 18
+    "tournament_minutes": 44
   },
   {
     "player_id": 5101849,
@@ -3465,15 +3483,6 @@
     "tournament_minutes": 21
   },
   {
-    "player_id": 5241363,
-    "player_name": "Tavion Banks",
-    "team_id": 2294,
-    "team_name": "Iowa Hawkeyes",
-    "games_played": 1,
-    "tournament_points": 6,
-    "tournament_minutes": 26
-  },
-  {
     "player_id": 5176361,
     "player_name": "Bukky Oboye",
     "team_id": 2541,
@@ -3730,7 +3739,7 @@
     "player_name": "Alex Kovatchev",
     "team_id": 57,
     "team_name": "Florida Gators",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 5,
     "tournament_minutes": 6
   },
@@ -4621,7 +4630,7 @@
     "player_name": "Viktor Mikic",
     "team_id": 57,
     "team_name": "Florida Gators",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 2,
     "tournament_minutes": 7
   },
@@ -4630,7 +4639,7 @@
     "player_name": "Olivier Rioux",
     "team_id": 57,
     "team_name": "Florida Gators",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 2,
     "tournament_minutes": 2
   },
@@ -4639,7 +4648,7 @@
     "player_name": "Alex Lloyd",
     "team_id": 57,
     "team_name": "Florida Gators",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 2,
     "tournament_minutes": 7
   },
@@ -4741,15 +4750,6 @@
     "games_played": 1,
     "tournament_points": 1,
     "tournament_minutes": 5
-  },
-  {
-    "player_id": 5176283,
-    "player_name": "Cam Manyawu",
-    "team_id": 2294,
-    "team_name": "Iowa Hawkeyes",
-    "games_played": 1,
-    "tournament_points": 1,
-    "tournament_minutes": 23
   },
   {
     "player_id": 5242986,
@@ -8635,16 +8635,16 @@
     "player_name": "Isaia Howard",
     "team_id": 2294,
     "team_name": "Iowa Hawkeyes",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
-    "tournament_minutes": 10
+    "tournament_minutes": 24
   },
   {
     "player_id": 5311841,
     "player_name": "Trey Thompson",
     "team_id": 2294,
     "team_name": "Iowa Hawkeyes",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -8653,7 +8653,7 @@
     "player_name": "Joey Matteoni",
     "team_id": 2294,
     "team_name": "Iowa Hawkeyes",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -8662,16 +8662,16 @@
     "player_name": "Trevin Jirak",
     "team_id": 2294,
     "team_name": "Iowa Hawkeyes",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
-    "tournament_minutes": 0
+    "tournament_minutes": 3
   },
   {
     "player_id": 5311840,
     "player_name": "Peyton McCollum",
     "team_id": 2294,
     "team_name": "Iowa Hawkeyes",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -8680,7 +8680,7 @@
     "player_name": "Jacob Koch",
     "team_id": 2294,
     "team_name": "Iowa Hawkeyes",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -8689,7 +8689,7 @@
     "player_name": "Brendan Hausen",
     "team_id": 2294,
     "team_name": "Iowa Hawkeyes",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -8743,7 +8743,7 @@
     "player_name": "Cooper Josefsberg",
     "team_id": 57,
     "team_name": "Florida Gators",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 2
   },
@@ -8752,7 +8752,7 @@
     "player_name": "AJ Brown",
     "team_id": 57,
     "team_name": "Florida Gators",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -9141,7 +9141,7 @@
     "team_name": "Tennessee Volunteers",
     "games_played": 2,
     "tournament_points": 0,
-    "tournament_minutes": 1
+    "tournament_minutes": 2
   },
   {
     "player_id": 5196942,
