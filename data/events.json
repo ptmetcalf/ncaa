@@ -454,8 +454,8 @@
     "date": "20260322",
     "name": "UCLA Bruins at UConn Huskies",
     "short_name": "UCLA VS CONN",
-    "completed": false,
-    "status": "In Progress",
+    "completed": true,
+    "status": "Final",
     "home_team_id": 41,
     "away_team_id": 26
   },
@@ -464,8 +464,8 @@
     "date": "20260322",
     "name": "Texas Tech Red Raiders at Alabama Crimson Tide",
     "short_name": "TTU VS ALA",
-    "completed": false,
-    "status": "In Progress",
+    "completed": true,
+    "status": "Final",
     "home_team_id": 333,
     "away_team_id": 2641
   },

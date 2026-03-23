@@ -72,6 +72,15 @@
     "tournament_minutes": 73
   },
   {
+    "player_id": 4917149,
+    "player_name": "Alex Karaban",
+    "team_id": 41,
+    "team_name": "UConn Huskies",
+    "games_played": 2,
+    "tournament_points": 49,
+    "tournament_minutes": 74
+  },
+  {
     "player_id": 4703396,
     "player_name": "Graham Ike",
     "team_id": 2250,
@@ -106,6 +115,15 @@
     "games_played": 2,
     "tournament_points": 41,
     "tournament_minutes": 72
+  },
+  {
+    "player_id": 5105809,
+    "player_name": "Tarris Reed Jr.",
+    "team_id": 41,
+    "team_name": "UConn Huskies",
+    "games_played": 2,
+    "tournament_points": 41,
+    "tournament_minutes": 64
   },
   {
     "player_id": 4897768,
@@ -198,6 +216,15 @@
     "tournament_minutes": 60
   },
   {
+    "player_id": 4873090,
+    "player_name": "Labaron Philon Jr.",
+    "team_id": 333,
+    "team_name": "Alabama Crimson Tide",
+    "games_played": 2,
+    "tournament_points": 38,
+    "tournament_minutes": 71
+  },
+  {
     "player_id": 5176727,
     "player_name": "Dontae Horne",
     "team_id": 2504,
@@ -286,6 +313,15 @@
     "games_played": 2,
     "tournament_points": 35,
     "tournament_minutes": 47
+  },
+  {
+    "player_id": 4702484,
+    "player_name": "Latrell Wrightsell",
+    "team_id": 333,
+    "team_name": "Alabama Crimson Tide",
+    "games_played": 2,
+    "tournament_points": 35,
+    "tournament_minutes": 55
   },
   {
     "player_id": 5248302,
@@ -378,6 +414,15 @@
     "tournament_minutes": 77
   },
   {
+    "player_id": 5221321,
+    "player_name": "Jaylen Petty",
+    "team_id": 2641,
+    "team_name": "Texas Tech Red Raiders",
+    "games_played": 2,
+    "tournament_points": 33,
+    "tournament_minutes": 75
+  },
+  {
     "player_id": 5080489,
     "player_name": "Thomas Haugh",
     "team_id": 57,
@@ -414,6 +459,15 @@
     "tournament_minutes": 62
   },
   {
+    "player_id": 4610012,
+    "player_name": "Eric Dailey Jr.",
+    "team_id": 26,
+    "team_name": "UCLA Bruins",
+    "games_played": 2,
+    "tournament_points": 32,
+    "tournament_minutes": 59
+  },
+  {
     "player_id": 5311846,
     "player_name": "Thijs De Ridder",
     "team_id": 258,
@@ -448,15 +502,6 @@
     "games_played": 2,
     "tournament_points": 31,
     "tournament_minutes": 68
-  },
-  {
-    "player_id": 5105809,
-    "player_name": "Tarris Reed Jr.",
-    "team_id": 41,
-    "team_name": "UConn Huskies",
-    "games_played": 1,
-    "tournament_points": 31,
-    "tournament_minutes": 35
   },
   {
     "player_id": 5107986,
@@ -513,6 +558,15 @@
     "tournament_minutes": 70
   },
   {
+    "player_id": 5107312,
+    "player_name": "LeJuan Watts",
+    "team_id": 2641,
+    "team_name": "Texas Tech Red Raiders",
+    "games_played": 2,
+    "tournament_points": 30,
+    "tournament_minutes": 49
+  },
+  {
     "player_id": 5107864,
     "player_name": "Mason Falslev",
     "team_id": 328,
@@ -549,13 +603,13 @@
     "tournament_minutes": 54
   },
   {
-    "player_id": 4873090,
-    "player_name": "Labaron Philon Jr.",
-    "team_id": 333,
-    "team_name": "Alabama Crimson Tide",
-    "games_played": 1,
+    "player_id": 5196916,
+    "player_name": "Braylon Mullins",
+    "team_id": 41,
+    "team_name": "UConn Huskies",
+    "games_played": 2,
     "tournament_points": 29,
-    "tournament_minutes": 36
+    "tournament_minutes": 69
   },
   {
     "player_id": 5241364,
@@ -639,6 +693,15 @@
     "tournament_minutes": 54
   },
   {
+    "player_id": 4711304,
+    "player_name": "Xavier Booker",
+    "team_id": 26,
+    "team_name": "UCLA Bruins",
+    "games_played": 2,
+    "tournament_points": 28,
+    "tournament_minutes": 59
+  },
+  {
     "player_id": 5177211,
     "player_name": "Alvaro Folgueiras",
     "team_id": 2294,
@@ -706,6 +769,15 @@
     "player_name": "Milos Uzan",
     "team_id": 248,
     "team_name": "Houston Cougars",
+    "games_played": 2,
+    "tournament_points": 27,
+    "tournament_minutes": 66
+  },
+  {
+    "player_id": 5107355,
+    "player_name": "Donovan Atwell",
+    "team_id": 2641,
+    "team_name": "Texas Tech Red Raiders",
     "games_played": 2,
     "tournament_points": 27,
     "tournament_minutes": 66
@@ -792,6 +864,24 @@
     "tournament_minutes": 40
   },
   {
+    "player_id": 5060701,
+    "player_name": "Christian Anderson",
+    "team_id": 2641,
+    "team_name": "Texas Tech Red Raiders",
+    "games_played": 2,
+    "tournament_points": 25,
+    "tournament_minutes": 76
+  },
+  {
+    "player_id": 4873184,
+    "player_name": "Aiden Sherrell",
+    "team_id": 333,
+    "team_name": "Alabama Crimson Tide",
+    "games_played": 2,
+    "tournament_points": 25,
+    "tournament_minutes": 47
+  },
+  {
     "player_id": 5174291,
     "player_name": "Bryce Lindsay",
     "team_id": 222,
@@ -837,15 +927,6 @@
     "tournament_minutes": 50
   },
   {
-    "player_id": 5221321,
-    "player_name": "Jaylen Petty",
-    "team_id": 2641,
-    "team_name": "Texas Tech Red Raiders",
-    "games_played": 1,
-    "tournament_points": 24,
-    "tournament_minutes": 38
-  },
-  {
     "player_id": 5236222,
     "player_name": "Preston Edmead",
     "team_id": 2275,
@@ -889,6 +970,15 @@
     "games_played": 2,
     "tournament_points": 23,
     "tournament_minutes": 49
+  },
+  {
+    "player_id": 5101833,
+    "player_name": "Amari Allen",
+    "team_id": 333,
+    "team_name": "Alabama Crimson Tide",
+    "games_played": 2,
+    "tournament_points": 23,
+    "tournament_minutes": 58
   },
   {
     "player_id": 5238195,
@@ -990,15 +1080,6 @@
     "tournament_minutes": 32
   },
   {
-    "player_id": 4917149,
-    "player_name": "Alex Karaban",
-    "team_id": 41,
-    "team_name": "UConn Huskies",
-    "games_played": 1,
-    "tournament_points": 22,
-    "tournament_minutes": 38
-  },
-  {
     "player_id": 5175591,
     "player_name": "C.J. Cox",
     "team_id": 2509,
@@ -1006,6 +1087,15 @@
     "games_played": 2,
     "tournament_points": 22,
     "tournament_minutes": 43
+  },
+  {
+    "player_id": 5152656,
+    "player_name": "Josiah Moseley",
+    "team_id": 2641,
+    "team_name": "Texas Tech Red Raiders",
+    "games_played": 2,
+    "tournament_points": 22,
+    "tournament_minutes": 40
   },
   {
     "player_id": 5105494,
@@ -1087,6 +1177,15 @@
     "games_played": 2,
     "tournament_points": 21,
     "tournament_minutes": 54
+  },
+  {
+    "player_id": 5107782,
+    "player_name": "Donovan Dent",
+    "team_id": 26,
+    "team_name": "UCLA Bruins",
+    "games_played": 2,
+    "tournament_points": 21,
+    "tournament_minutes": 77
   },
   {
     "player_id": 5314511,
@@ -1188,13 +1287,13 @@
     "tournament_minutes": 30
   },
   {
-    "player_id": 4610012,
-    "player_name": "Eric Dailey Jr.",
+    "player_id": 5060706,
+    "player_name": "Trent Perry",
     "team_id": 26,
     "team_name": "UCLA Bruins",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 20,
-    "tournament_minutes": 32
+    "tournament_minutes": 69
   },
   {
     "player_id": 4845368,
@@ -1213,6 +1312,15 @@
     "games_played": 1,
     "tournament_points": 20,
     "tournament_minutes": 33
+  },
+  {
+    "player_id": 4685658,
+    "player_name": "Taylor Bol Bowen",
+    "team_id": 333,
+    "team_name": "Alabama Crimson Tide",
+    "games_played": 2,
+    "tournament_points": 20,
+    "tournament_minutes": 46
   },
   {
     "player_id": 4873203,
@@ -1332,6 +1440,15 @@
     "tournament_minutes": 70
   },
   {
+    "player_id": 5105794,
+    "player_name": "Skyy Clark",
+    "team_id": 26,
+    "team_name": "UCLA Bruins",
+    "games_played": 2,
+    "tournament_points": 19,
+    "tournament_minutes": 54
+  },
+  {
     "player_id": 4433285,
     "player_name": "Mark Mitchell",
     "team_id": 142,
@@ -1438,15 +1555,6 @@
     "games_played": 2,
     "tournament_points": 18,
     "tournament_minutes": 61
-  },
-  {
-    "player_id": 5060701,
-    "player_name": "Christian Anderson",
-    "team_id": 2641,
-    "team_name": "Texas Tech Red Raiders",
-    "games_played": 1,
-    "tournament_points": 18,
-    "tournament_minutes": 39
   },
   {
     "player_id": 5177215,
@@ -1647,15 +1755,6 @@
     "tournament_minutes": 60
   },
   {
-    "player_id": 5152656,
-    "player_name": "Josiah Moseley",
-    "team_id": 2641,
-    "team_name": "Texas Tech Red Raiders",
-    "games_played": 1,
-    "tournament_points": 16,
-    "tournament_minutes": 25
-  },
-  {
     "player_id": 5238200,
     "player_name": "Urban Klavzar",
     "team_id": 57,
@@ -1836,49 +1935,13 @@
     "tournament_minutes": 39
   },
   {
-    "player_id": 4711304,
-    "player_name": "Xavier Booker",
-    "team_id": 26,
-    "team_name": "UCLA Bruins",
-    "games_played": 1,
-    "tournament_points": 15,
-    "tournament_minutes": 26
-  },
-  {
-    "player_id": 5060706,
-    "player_name": "Trent Perry",
-    "team_id": 26,
-    "team_name": "UCLA Bruins",
-    "games_played": 1,
-    "tournament_points": 15,
-    "tournament_minutes": 37
-  },
-  {
-    "player_id": 5107355,
-    "player_name": "Donovan Atwell",
-    "team_id": 2641,
-    "team_name": "Texas Tech Red Raiders",
-    "games_played": 1,
-    "tournament_points": 15,
-    "tournament_minutes": 35
-  },
-  {
-    "player_id": 4873184,
-    "player_name": "Aiden Sherrell",
+    "player_id": 4709141,
+    "player_name": "Houston Mallette",
     "team_id": 333,
     "team_name": "Alabama Crimson Tide",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 15,
-    "tournament_minutes": 30
-  },
-  {
-    "player_id": 4685658,
-    "player_name": "Taylor Bol Bowen",
-    "team_id": 333,
-    "team_name": "Alabama Crimson Tide",
-    "games_played": 1,
-    "tournament_points": 15,
-    "tournament_minutes": 21
+    "tournament_minutes": 45
   },
   {
     "player_id": 5105449,
@@ -2043,15 +2106,6 @@
     "tournament_minutes": 46
   },
   {
-    "player_id": 5107312,
-    "player_name": "LeJuan Watts",
-    "team_id": 2641,
-    "team_name": "Texas Tech Red Raiders",
-    "games_played": 1,
-    "tournament_points": 14,
-    "tournament_minutes": 24
-  },
-  {
     "player_id": 5107198,
     "player_name": "Cruz Davis",
     "team_id": 2275,
@@ -2149,6 +2203,24 @@
     "games_played": 1,
     "tournament_points": 13,
     "tournament_minutes": 28
+  },
+  {
+    "player_id": 4895753,
+    "player_name": "Jayden Ross",
+    "team_id": 41,
+    "team_name": "UConn Huskies",
+    "games_played": 2,
+    "tournament_points": 13,
+    "tournament_minutes": 43
+  },
+  {
+    "player_id": 5144139,
+    "player_name": "London Jemison",
+    "team_id": 333,
+    "team_name": "Alabama Crimson Tide",
+    "games_played": 2,
+    "tournament_points": 13,
+    "tournament_minutes": 42
   },
   {
     "player_id": 5242985,
@@ -2286,13 +2358,13 @@
     "tournament_minutes": 29
   },
   {
-    "player_id": 5196916,
-    "player_name": "Braylon Mullins",
-    "team_id": 41,
-    "team_name": "UConn Huskies",
-    "games_played": 1,
+    "player_id": 5240271,
+    "player_name": "Leon Horner",
+    "team_id": 2641,
+    "team_name": "Texas Tech Red Raiders",
+    "games_played": 2,
     "tournament_points": 12,
-    "tournament_minutes": 37
+    "tournament_minutes": 22
   },
   {
     "player_id": 5105719,
@@ -2439,22 +2511,13 @@
     "tournament_minutes": 19
   },
   {
-    "player_id": 5101833,
-    "player_name": "Amari Allen",
+    "player_id": 5105668,
+    "player_name": "Noah Williamson",
     "team_id": 333,
     "team_name": "Alabama Crimson Tide",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 11,
-    "tournament_minutes": 32
-  },
-  {
-    "player_id": 4702484,
-    "player_name": "Latrell Wrightsell",
-    "team_id": 333,
-    "team_name": "Alabama Crimson Tide",
-    "games_played": 1,
-    "tournament_points": 11,
-    "tournament_minutes": 29
+    "tournament_minutes": 17
   },
   {
     "player_id": 5107144,
@@ -2644,15 +2707,6 @@
     "games_played": 1,
     "tournament_points": 10,
     "tournament_minutes": 34
-  },
-  {
-    "player_id": 5107782,
-    "player_name": "Donovan Dent",
-    "team_id": 26,
-    "team_name": "UCLA Bruins",
-    "games_played": 1,
-    "tournament_points": 10,
-    "tournament_minutes": 40
   },
   {
     "player_id": 5243230,
@@ -2875,9 +2929,9 @@
     "player_name": "Solo Ball",
     "team_id": 41,
     "team_name": "UConn Huskies",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 9,
-    "tournament_minutes": 25
+    "tournament_minutes": 38
   },
   {
     "player_id": 5240005,
@@ -3094,15 +3148,6 @@
     "games_played": 2,
     "tournament_points": 8,
     "tournament_minutes": 28
-  },
-  {
-    "player_id": 5105794,
-    "player_name": "Skyy Clark",
-    "team_id": 26,
-    "team_name": "UCLA Bruins",
-    "games_played": 1,
-    "tournament_points": 8,
-    "tournament_minutes": 20
   },
   {
     "player_id": 5177217,
@@ -3465,6 +3510,15 @@
     "tournament_minutes": 17
   },
   {
+    "player_id": 4683861,
+    "player_name": "Malachi Smith",
+    "team_id": 41,
+    "team_name": "UConn Huskies",
+    "games_played": 2,
+    "tournament_points": 6,
+    "tournament_minutes": 64
+  },
+  {
     "player_id": 5105537,
     "player_name": "Shawn Phillips Jr.",
     "team_id": 142,
@@ -3499,15 +3553,6 @@
     "games_played": 1,
     "tournament_points": 6,
     "tournament_minutes": 12
-  },
-  {
-    "player_id": 5144139,
-    "player_name": "London Jemison",
-    "team_id": 333,
-    "team_name": "Alabama Crimson Tide",
-    "games_played": 1,
-    "tournament_points": 6,
-    "tournament_minutes": 21
   },
   {
     "player_id": 5176361,
@@ -3996,6 +4041,15 @@
     "tournament_minutes": 18
   },
   {
+    "player_id": 5105417,
+    "player_name": "Steven Jamerson II",
+    "team_id": 26,
+    "team_name": "UCLA Bruins",
+    "games_played": 2,
+    "tournament_points": 4,
+    "tournament_minutes": 19
+  },
+  {
     "player_id": 5107369,
     "player_name": "Ben Vander Wal",
     "team_id": 231,
@@ -4005,13 +4059,13 @@
     "tournament_minutes": 20
   },
   {
-    "player_id": 4683861,
-    "player_name": "Malachi Smith",
+    "player_id": 5152763,
+    "player_name": "Eric Reibe",
     "team_id": 41,
     "team_name": "UConn Huskies",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 4,
-    "tournament_minutes": 32
+    "tournament_minutes": 16
   },
   {
     "player_id": 5314491,
@@ -4048,6 +4102,15 @@
     "games_played": 1,
     "tournament_points": 4,
     "tournament_minutes": 19
+  },
+  {
+    "player_id": 5061581,
+    "player_name": "Luke Bamgboye",
+    "team_id": 2641,
+    "team_name": "Texas Tech Red Raiders",
+    "games_played": 2,
+    "tournament_points": 4,
+    "tournament_minutes": 34
   },
   {
     "player_id": 5312163,
@@ -4216,9 +4279,18 @@
     "player_name": "Jamar Brown",
     "team_id": 26,
     "team_name": "UCLA Bruins",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 3,
-    "tournament_minutes": 8
+    "tournament_minutes": 15
+  },
+  {
+    "player_id": 5174981,
+    "player_name": "Brandon Williams",
+    "team_id": 26,
+    "team_name": "UCLA Bruins",
+    "games_played": 2,
+    "tournament_points": 3,
+    "tournament_minutes": 20
   },
   {
     "player_id": 5311986,
@@ -4255,15 +4327,6 @@
     "games_played": 1,
     "tournament_points": 3,
     "tournament_minutes": 6
-  },
-  {
-    "player_id": 5105668,
-    "player_name": "Noah Williamson",
-    "team_id": 333,
-    "team_name": "Alabama Crimson Tide",
-    "games_played": 1,
-    "tournament_points": 3,
-    "tournament_minutes": 4
   },
   {
     "player_id": 4869781,
@@ -4563,31 +4626,22 @@
     "tournament_minutes": 20
   },
   {
-    "player_id": 5105417,
-    "player_name": "Steven Jamerson II",
-    "team_id": 26,
-    "team_name": "UCLA Bruins",
-    "games_played": 1,
-    "tournament_points": 2,
-    "tournament_minutes": 12
-  },
-  {
-    "player_id": 4895753,
-    "player_name": "Jayden Ross",
-    "team_id": 41,
-    "team_name": "UConn Huskies",
-    "games_played": 1,
-    "tournament_points": 2,
-    "tournament_minutes": 21
-  },
-  {
     "player_id": 5241657,
     "player_name": "Alec Millender",
     "team_id": 41,
     "team_name": "UConn Huskies",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 2,
-    "tournament_minutes": 7
+    "tournament_minutes": 8
+  },
+  {
+    "player_id": 5054083,
+    "player_name": "Silas Demary Jr.",
+    "team_id": 41,
+    "team_name": "UConn Huskies",
+    "games_played": 2,
+    "tournament_points": 2,
+    "tournament_minutes": 21
   },
   {
     "player_id": 5169569,
@@ -4599,22 +4653,13 @@
     "tournament_minutes": 11
   },
   {
-    "player_id": 5061581,
-    "player_name": "Luke Bamgboye",
+    "player_id": 5240270,
+    "player_name": "Jazz Henderson",
     "team_id": 2641,
     "team_name": "Texas Tech Red Raiders",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 2,
-    "tournament_minutes": 14
-  },
-  {
-    "player_id": 5240271,
-    "player_name": "Leon Horner",
-    "team_id": 2641,
-    "team_name": "Texas Tech Red Raiders",
-    "games_played": 1,
-    "tournament_points": 2,
-    "tournament_minutes": 1
+    "tournament_minutes": 6
   },
   {
     "player_id": 5239632,
@@ -4759,6 +4804,15 @@
     "games_played": 1,
     "tournament_points": 1,
     "tournament_minutes": 5
+  },
+  {
+    "player_id": 5311929,
+    "player_name": "Nolan Groves",
+    "team_id": 2641,
+    "team_name": "Texas Tech Red Raiders",
+    "games_played": 2,
+    "tournament_points": 1,
+    "tournament_minutes": 4
   },
   {
     "player_id": 5242986,
@@ -7848,29 +7902,20 @@
     "tournament_minutes": 0
   },
   {
-    "player_id": 5174981,
-    "player_name": "Brandon Williams",
-    "team_id": 26,
-    "team_name": "UCLA Bruins",
-    "games_played": 1,
-    "tournament_points": 0,
-    "tournament_minutes": 10
-  },
-  {
     "player_id": 5149633,
     "player_name": "Eric Freeny",
     "team_id": 26,
     "team_name": "UCLA Bruins",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
-    "tournament_minutes": 15
+    "tournament_minutes": 27
   },
   {
     "player_id": 5243402,
     "player_name": "Anthony Peoples Jr.",
     "team_id": 26,
     "team_name": "UCLA Bruins",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -7879,7 +7924,7 @@
     "player_name": "Evan Manjikian",
     "team_id": 26,
     "team_name": "UCLA Bruins",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -7888,7 +7933,7 @@
     "player_name": "Tyler Bilodeau",
     "team_id": 26,
     "team_name": "UCLA Bruins",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -7897,7 +7942,7 @@
     "player_name": "Markell Alston",
     "team_id": 26,
     "team_name": "UCLA Bruins",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -7906,7 +7951,7 @@
     "player_name": "Christian Horry",
     "team_id": 26,
     "team_name": "UCLA Bruins",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -7915,9 +7960,9 @@
     "player_name": "Jack Seidler",
     "team_id": 26,
     "team_name": "UCLA Bruins",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
-    "tournament_minutes": 0
+    "tournament_minutes": 1
   },
   {
     "player_id": 5176133,
@@ -8001,20 +8046,11 @@
     "tournament_minutes": 0
   },
   {
-    "player_id": 5152763,
-    "player_name": "Eric Reibe",
-    "team_id": 41,
-    "team_name": "UConn Huskies",
-    "games_played": 1,
-    "tournament_points": 0,
-    "tournament_minutes": 5
-  },
-  {
     "player_id": 5142624,
     "player_name": "Jacob Ross",
     "team_id": 41,
     "team_name": "UConn Huskies",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -8023,16 +8059,16 @@
     "player_name": "Dwayne Koroma",
     "team_id": 41,
     "team_name": "UConn Huskies",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
-    "tournament_minutes": 0
+    "tournament_minutes": 1
   },
   {
     "player_id": 4685647,
     "player_name": "Jaylin Stewart",
     "team_id": 41,
     "team_name": "UConn Huskies",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -8041,7 +8077,7 @@
     "player_name": "Rrezon Elezaj",
     "team_id": 41,
     "team_name": "UConn Huskies",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -8050,27 +8086,18 @@
     "player_name": "Uroš Paunovic",
     "team_id": 41,
     "team_name": "UConn Huskies",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
-    "tournament_minutes": 0
+    "tournament_minutes": 1
   },
   {
     "player_id": 5248294,
     "player_name": "Jacob Furphy",
     "team_id": 41,
     "team_name": "UConn Huskies",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
-    "tournament_minutes": 0
-  },
-  {
-    "player_id": 5054083,
-    "player_name": "Silas Demary Jr.",
-    "team_id": 41,
-    "team_name": "UConn Huskies",
-    "games_played": 1,
-    "tournament_points": 0,
-    "tournament_minutes": 0
+    "tournament_minutes": 1
   },
   {
     "player_id": 5144166,
@@ -8419,52 +8446,34 @@
     "player_name": "Marial Akuentok",
     "team_id": 2641,
     "team_name": "Texas Tech Red Raiders",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
-    "tournament_minutes": 1
-  },
-  {
-    "player_id": 5311929,
-    "player_name": "Nolan Groves",
-    "team_id": 2641,
-    "team_name": "Texas Tech Red Raiders",
-    "games_played": 1,
-    "tournament_points": 0,
-    "tournament_minutes": 1
-  },
-  {
-    "player_id": 5240270,
-    "player_name": "Jazz Henderson",
-    "team_id": 2641,
-    "team_name": "Texas Tech Red Raiders",
-    "games_played": 1,
-    "tournament_points": 0,
-    "tournament_minutes": 1
+    "tournament_minutes": 3
   },
   {
     "player_id": 5175077,
     "player_name": "Jack Francis",
     "team_id": 2641,
     "team_name": "Texas Tech Red Raiders",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
-    "tournament_minutes": 1
+    "tournament_minutes": 2
   },
   {
     "player_id": 5108120,
     "player_name": "Tyeree Bryan",
     "team_id": 2641,
     "team_name": "Texas Tech Red Raiders",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
-    "tournament_minutes": 20
+    "tournament_minutes": 23
   },
   {
     "player_id": 5311931,
     "player_name": "LaTrell Hoover",
     "team_id": 2641,
     "team_name": "Texas Tech Red Raiders",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -8473,7 +8482,7 @@
     "player_name": "JT Toppin",
     "team_id": 2641,
     "team_name": "Texas Tech Red Raiders",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -8554,43 +8563,34 @@
     "player_name": "Jacob Martin",
     "team_id": 333,
     "team_name": "Alabama Crimson Tide",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
-    "tournament_minutes": 1
+    "tournament_minutes": 3
   },
   {
     "player_id": 5101656,
     "player_name": "Jalil Bethea",
     "team_id": 333,
     "team_name": "Alabama Crimson Tide",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
-    "tournament_minutes": 5
-  },
-  {
-    "player_id": 4709141,
-    "player_name": "Houston Mallette",
-    "team_id": 333,
-    "team_name": "Alabama Crimson Tide",
-    "games_played": 1,
-    "tournament_points": 0,
-    "tournament_minutes": 20
+    "tournament_minutes": 12
   },
   {
     "player_id": 4433289,
     "player_name": "Preston Murphy Jr.",
     "team_id": 333,
     "team_name": "Alabama Crimson Tide",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
-    "tournament_minutes": 1
+    "tournament_minutes": 4
   },
   {
     "player_id": 5241440,
     "player_name": "Keitenn Bristow",
     "team_id": 333,
     "team_name": "Alabama Crimson Tide",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -8599,7 +8599,7 @@
     "player_name": "Collins Onyejiaka",
     "team_id": 333,
     "team_name": "Alabama Crimson Tide",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -8608,7 +8608,7 @@
     "player_name": "Jack Fagan",
     "team_id": 333,
     "team_name": "Alabama Crimson Tide",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -8617,7 +8617,7 @@
     "player_name": "Klark James",
     "team_id": 333,
     "team_name": "Alabama Crimson Tide",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -8626,7 +8626,7 @@
     "player_name": "Davion Hannah",
     "team_id": 333,
     "team_name": "Alabama Crimson Tide",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -8635,7 +8635,7 @@
     "player_name": "Aden Holloway",
     "team_id": 333,
     "team_name": "Alabama Crimson Tide",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },

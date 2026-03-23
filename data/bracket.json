@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-23T03:22:48.823Z",
+  "generated_at": "2026-03-23T04:59:24.880Z",
   "year": 2026,
   "available": true,
   "source": "espn_bracket_page",
@@ -8,7 +8,7 @@
   "tournament_name": "Men's NCAA Tournament",
   "short_name": "NCAA",
   "teams_count": 68,
-  "matchups_count": 59,
+  "matchups_count": 60,
   "regions": [
     {
       "id": 1,
@@ -1259,11 +1259,11 @@
       "region_id": 1,
       "bracket_location": 4,
       "date": "2026-03-23T01:10:00Z",
-      "status_state": "in",
-      "status_desc": "In Progress",
-      "status_detail": "2:16 - 2nd",
+      "status_state": "post",
+      "status_desc": "Final",
+      "status_detail": "Final",
       "location": "Philadelphia, PA",
-      "link": "/mens-college-basketball/game/_/gameId/401856559",
+      "link": "/mens-college-basketball/game/_/gameId/401856559/ucla-uconn",
       "competitor_one": {
         "team_id": 26,
         "team_name": "UCLA",
@@ -1278,8 +1278,8 @@
         "team_name": "UConn",
         "abbreviation": "CONN",
         "seed": 2,
-        "score": 69,
-        "winner": false,
+        "score": 73,
+        "winner": true,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/41.png"
       }
     },
@@ -1559,17 +1559,17 @@
       "region_id": 2,
       "bracket_location": 14,
       "date": "2026-03-23T02:08:00Z",
-      "status_state": "in",
-      "status_desc": "Halftime",
-      "status_detail": "Halftime",
+      "status_state": "post",
+      "status_desc": "Final",
+      "status_detail": "Final",
       "location": "Tampa, FL",
-      "link": "/mens-college-basketball/game/_/gameId/401856560",
+      "link": "/mens-college-basketball/game/_/gameId/401856560/texas-tech-alabama",
       "competitor_one": {
         "team_id": 2641,
         "team_name": "Texas Tech",
         "abbreviation": "TTU",
         "seed": 5,
-        "score": 25,
+        "score": 65,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2641.png"
       },
@@ -1578,8 +1578,8 @@
         "team_name": "Alabama",
         "abbreviation": "ALA",
         "seed": 4,
-        "score": 49,
-        "winner": false,
+        "score": 90,
+        "winner": true,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/333.png"
       }
     },
@@ -1671,6 +1671,36 @@
         "score": 0,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2599.png"
+      }
+    },
+    {
+      "matchup_id": 401856571,
+      "round_id": 3,
+      "region_id": 1,
+      "bracket_location": 2,
+      "date": "2026-03-28T01:45:00Z",
+      "status_state": "pre",
+      "status_desc": "Scheduled",
+      "status_detail": "3/27 - 9:45 PM EDT",
+      "location": "Washington, DC",
+      "link": "/mens-college-basketball/game/_/gameId/401856571/michigan-st-uconn",
+      "competitor_one": {
+        "team_id": 127,
+        "team_name": "Michigan State",
+        "abbreviation": "MSU",
+        "seed": 3,
+        "score": 0,
+        "winner": false,
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/127.png"
+      },
+      "competitor_two": {
+        "team_id": 41,
+        "team_name": "UConn",
+        "abbreviation": "CONN",
+        "seed": 2,
+        "score": 0,
+        "winner": false,
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/41.png"
       }
     },
     {
@@ -1803,7 +1833,7 @@
       "status_desc": "Scheduled",
       "status_detail": "3/27 - 7:35 PM EDT",
       "location": "Chicago, IL",
-      "link": "/mens-college-basketball/game/_/gameId/401856572",
+      "link": "/mens-college-basketball/game/_/gameId/401856572/alabama-michigan",
       "competitor_one": {
         "team_id": 130,
         "team_name": "Michigan",
@@ -1813,7 +1843,15 @@
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/130.png"
       },
-      "competitor_two": null
+      "competitor_two": {
+        "team_id": 333,
+        "team_name": "Alabama",
+        "abbreviation": "ALA",
+        "seed": 4,
+        "score": 0,
+        "winner": false,
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/333.png"
+      }
     },
     {
       "matchup_id": 401856573,
