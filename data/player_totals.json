@@ -54,6 +54,24 @@
     "tournament_minutes": 77
   },
   {
+    "player_id": 5107968,
+    "player_name": "Ja'Kobi Gillespie",
+    "team_id": 2633,
+    "team_name": "Tennessee Volunteers",
+    "games_played": 2,
+    "tournament_points": 50,
+    "tournament_minutes": 74
+  },
+  {
+    "player_id": 5041955,
+    "player_name": "Darryn Peterson",
+    "team_id": 2305,
+    "team_name": "Kansas Jayhawks",
+    "games_played": 2,
+    "tournament_points": 49,
+    "tournament_minutes": 73
+  },
+  {
     "player_id": 4703396,
     "player_name": "Graham Ike",
     "team_id": 2250,
@@ -234,6 +252,15 @@
     "tournament_minutes": 75
   },
   {
+    "player_id": 5107274,
+    "player_name": "Jacari White",
+    "team_id": 258,
+    "team_name": "Virginia Cavaliers",
+    "games_played": 2,
+    "tournament_points": 36,
+    "tournament_minutes": 52
+  },
+  {
     "player_id": 5192142,
     "player_name": "Cedric Taylor III",
     "team_id": 47,
@@ -351,6 +378,24 @@
     "tournament_minutes": 63
   },
   {
+    "player_id": 5106262,
+    "player_name": "Zuby Ejiofor",
+    "team_id": 2599,
+    "team_name": "St. John's Red Storm",
+    "games_played": 2,
+    "tournament_points": 32,
+    "tournament_minutes": 62
+  },
+  {
+    "player_id": 5311846,
+    "player_name": "Thijs De Ridder",
+    "team_id": 258,
+    "team_name": "Virginia Cavaliers",
+    "games_played": 2,
+    "tournament_points": 32,
+    "tournament_minutes": 60
+  },
+  {
     "player_id": 5107242,
     "player_name": "Dion Brown",
     "team_id": 139,
@@ -358,6 +403,15 @@
     "games_played": 2,
     "tournament_points": 31,
     "tournament_minutes": 52
+  },
+  {
+    "player_id": 4565698,
+    "player_name": "Bryce Hopkins",
+    "team_id": 2599,
+    "team_name": "St. John's Red Storm",
+    "games_played": 2,
+    "tournament_points": 31,
+    "tournament_minutes": 68
   },
   {
     "player_id": 5105809,
@@ -468,15 +522,6 @@
     "tournament_minutes": 55
   },
   {
-    "player_id": 5107968,
-    "player_name": "Ja'Kobi Gillespie",
-    "team_id": 2633,
-    "team_name": "Tennessee Volunteers",
-    "games_played": 1,
-    "tournament_points": 29,
-    "tournament_minutes": 36
-  },
-  {
     "player_id": 5243053,
     "player_name": "Brant Byers",
     "team_id": 193,
@@ -529,15 +574,6 @@
     "games_played": 2,
     "tournament_points": 28,
     "tournament_minutes": 54
-  },
-  {
-    "player_id": 5041955,
-    "player_name": "Darryn Peterson",
-    "team_id": 2305,
-    "team_name": "Kansas Jayhawks",
-    "games_played": 1,
-    "tournament_points": 28,
-    "tournament_minutes": 37
   },
   {
     "player_id": 5093252,
@@ -639,15 +675,6 @@
     "tournament_minutes": 32
   },
   {
-    "player_id": 5107274,
-    "player_name": "Jacari White",
-    "team_id": 258,
-    "team_name": "Virginia Cavaliers",
-    "games_played": 1,
-    "tournament_points": 26,
-    "tournament_minutes": 24
-  },
-  {
     "player_id": 5060732,
     "player_name": "Billy Richmond III",
     "team_id": 8,
@@ -729,6 +756,15 @@
     "tournament_minutes": 40
   },
   {
+    "player_id": 5093142,
+    "player_name": "J.P. Estrella",
+    "team_id": 2633,
+    "team_name": "Tennessee Volunteers",
+    "games_played": 2,
+    "tournament_points": 24,
+    "tournament_minutes": 48
+  },
+  {
     "player_id": 5243042,
     "player_name": "Hank Alvey",
     "team_id": 2329,
@@ -754,6 +790,15 @@
     "games_played": 2,
     "tournament_points": 23,
     "tournament_minutes": 49
+  },
+  {
+    "player_id": 4683758,
+    "player_name": "Malik Thomas",
+    "team_id": 258,
+    "team_name": "Virginia Cavaliers",
+    "games_played": 2,
+    "tournament_points": 23,
+    "tournament_minutes": 36
   },
   {
     "player_id": 5103630,
@@ -1125,6 +1170,24 @@
     "tournament_minutes": 50
   },
   {
+    "player_id": 4869770,
+    "player_name": "Ian Jackson",
+    "team_id": 2599,
+    "team_name": "St. John's Red Storm",
+    "games_played": 2,
+    "tournament_points": 19,
+    "tournament_minutes": 29
+  },
+  {
+    "player_id": 5177301,
+    "player_name": "Melvin Council Jr.",
+    "team_id": 2305,
+    "team_name": "Kansas Jayhawks",
+    "games_played": 2,
+    "tournament_points": 19,
+    "tournament_minutes": 70
+  },
+  {
     "player_id": 4433285,
     "player_name": "Mark Mitchell",
     "team_id": 142,
@@ -1141,6 +1204,15 @@
     "games_played": 1,
     "tournament_points": 19,
     "tournament_minutes": 29
+  },
+  {
+    "player_id": 5105841,
+    "player_name": "Felix Okpara",
+    "team_id": 2633,
+    "team_name": "Tennessee Volunteers",
+    "games_played": 2,
+    "tournament_points": 19,
+    "tournament_minutes": 63
   },
   {
     "player_id": 5316220,
@@ -1206,6 +1278,15 @@
     "tournament_minutes": 36
   },
   {
+    "player_id": 5044426,
+    "player_name": "Flory Bidunga",
+    "team_id": 2305,
+    "team_name": "Kansas Jayhawks",
+    "games_played": 2,
+    "tournament_points": 18,
+    "tournament_minutes": 61
+  },
+  {
     "player_id": 5060701,
     "player_name": "Christian Anderson",
     "team_id": 2641,
@@ -1222,6 +1303,15 @@
     "games_played": 1,
     "tournament_points": 18,
     "tournament_minutes": 28
+  },
+  {
+    "player_id": 5101648,
+    "player_name": "Bishop Boswell",
+    "team_id": 2633,
+    "team_name": "Tennessee Volunteers",
+    "games_played": 2,
+    "tournament_points": 18,
+    "tournament_minutes": 57
   },
   {
     "player_id": 5082206,
@@ -1294,6 +1384,15 @@
     "games_played": 1,
     "tournament_points": 17,
     "tournament_minutes": 27
+  },
+  {
+    "player_id": 5176232,
+    "player_name": "Sam Lewis",
+    "team_id": 258,
+    "team_name": "Virginia Cavaliers",
+    "games_played": 2,
+    "tournament_points": 17,
+    "tournament_minutes": 51
   },
   {
     "player_id": 4683860,
@@ -1395,6 +1494,15 @@
     "tournament_minutes": 48
   },
   {
+    "player_id": 5105643,
+    "player_name": "Tre White",
+    "team_id": 2305,
+    "team_name": "Kansas Jayhawks",
+    "games_played": 2,
+    "tournament_points": 16,
+    "tournament_minutes": 60
+  },
+  {
     "player_id": 5152656,
     "player_name": "Josiah Moseley",
     "team_id": 2641,
@@ -1429,6 +1537,15 @@
     "games_played": 1,
     "tournament_points": 16,
     "tournament_minutes": 32
+  },
+  {
+    "player_id": 5164559,
+    "player_name": "Nate Ament",
+    "team_id": 2633,
+    "team_name": "Tennessee Volunteers",
+    "games_played": 2,
+    "tournament_points": 16,
+    "tournament_minutes": 47
   },
   {
     "player_id": 5196866,
@@ -1566,6 +1683,15 @@
     "tournament_minutes": 28
   },
   {
+    "player_id": 5106283,
+    "player_name": "Dillon Mitchell",
+    "team_id": 2599,
+    "team_name": "St. John's Red Storm",
+    "games_played": 2,
+    "tournament_points": 15,
+    "tournament_minutes": 67
+  },
+  {
     "player_id": 4702158,
     "player_name": "Martel Williams",
     "team_id": 2856,
@@ -1645,6 +1771,15 @@
     "games_played": 1,
     "tournament_points": 15,
     "tournament_minutes": 32
+  },
+  {
+    "player_id": 5105464,
+    "player_name": "Dallin Hall",
+    "team_id": 258,
+    "team_name": "Virginia Cavaliers",
+    "games_played": 2,
+    "tournament_points": 15,
+    "tournament_minutes": 57
   },
   {
     "player_id": 4870569,
@@ -1773,13 +1908,13 @@
     "tournament_minutes": 37
   },
   {
-    "player_id": 5106262,
-    "player_name": "Zuby Ejiofor",
+    "player_id": 5105642,
+    "player_name": "Oziyah Sellers",
     "team_id": 2599,
     "team_name": "St. John's Red Storm",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 14,
-    "tournament_minutes": 28
+    "tournament_minutes": 46
   },
   {
     "player_id": 5107312,
@@ -1834,15 +1969,6 @@
     "games_played": 1,
     "tournament_points": 14,
     "tournament_minutes": 42
-  },
-  {
-    "player_id": 5093142,
-    "player_name": "J.P. Estrella",
-    "team_id": 2633,
-    "team_name": "Tennessee Volunteers",
-    "games_played": 1,
-    "tournament_points": 14,
-    "tournament_minutes": 28
   },
   {
     "player_id": 5311896,
@@ -1908,13 +2034,13 @@
     "tournament_minutes": 56
   },
   {
-    "player_id": 4565698,
-    "player_name": "Bryce Hopkins",
+    "player_id": 5240539,
+    "player_name": "Ruben Prey",
     "team_id": 2599,
     "team_name": "St. John's Red Storm",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 13,
-    "tournament_minutes": 34
+    "tournament_minutes": 25
   },
   {
     "player_id": 5105529,
@@ -2070,13 +2196,13 @@
     "tournament_minutes": 34
   },
   {
-    "player_id": 5105643,
-    "player_name": "Tre White",
+    "player_id": 5281379,
+    "player_name": "Paul Mbiya",
     "team_id": 2305,
     "team_name": "Kansas Jayhawks",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 12,
-    "tournament_minutes": 32
+    "tournament_minutes": 29
   },
   {
     "player_id": 5196916,
@@ -2097,22 +2223,13 @@
     "tournament_minutes": 35
   },
   {
-    "player_id": 5176232,
-    "player_name": "Sam Lewis",
+    "player_id": 5150404,
+    "player_name": "Chance Mallory",
     "team_id": 258,
     "team_name": "Virginia Cavaliers",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 12,
-    "tournament_minutes": 29
-  },
-  {
-    "player_id": 5105841,
-    "player_name": "Felix Okpara",
-    "team_id": 2633,
-    "team_name": "Tennessee Volunteers",
-    "games_played": 1,
-    "tournament_points": 12,
-    "tournament_minutes": 29
+    "tournament_minutes": 44
   },
   {
     "player_id": 5177096,
@@ -2223,15 +2340,6 @@
     "tournament_minutes": 45
   },
   {
-    "player_id": 5105642,
-    "player_name": "Oziyah Sellers",
-    "team_id": 2599,
-    "team_name": "St. John's Red Storm",
-    "games_played": 1,
-    "tournament_points": 11,
-    "tournament_minutes": 25
-  },
-  {
     "player_id": 5054085,
     "player_name": "Anthony Robinson II",
     "team_id": 142,
@@ -2320,15 +2428,6 @@
     "games_played": 2,
     "tournament_points": 11,
     "tournament_minutes": 47
-  },
-  {
-    "player_id": 4683758,
-    "player_name": "Malik Thomas",
-    "team_id": 258,
-    "team_name": "Virginia Cavaliers",
-    "games_played": 1,
-    "tournament_points": 11,
-    "tournament_minutes": 21
   },
   {
     "player_id": 5105494,
@@ -2556,13 +2655,22 @@
     "tournament_minutes": 23
   },
   {
-    "player_id": 5311846,
-    "player_name": "Thijs De Ridder",
+    "player_id": 5311844,
+    "player_name": "Johann Grunloh",
     "team_id": 258,
     "team_name": "Virginia Cavaliers",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 10,
-    "tournament_minutes": 29
+    "tournament_minutes": 41
+  },
+  {
+    "player_id": 4685687,
+    "player_name": "Jaylen Carey",
+    "team_id": 2633,
+    "team_name": "Tennessee Volunteers",
+    "games_played": 2,
+    "tournament_points": 10,
+    "tournament_minutes": 22
   },
   {
     "player_id": 5177355,
@@ -2673,13 +2781,13 @@
     "tournament_minutes": 30
   },
   {
-    "player_id": 4869770,
-    "player_name": "Ian Jackson",
+    "player_id": 5142625,
+    "player_name": "Joson Sanon",
     "team_id": 2599,
     "team_name": "St. John's Red Storm",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 9,
-    "tournament_minutes": 9
+    "tournament_minutes": 35
   },
   {
     "player_id": 5176136,
@@ -2889,22 +2997,22 @@
     "tournament_minutes": 28
   },
   {
-    "player_id": 5240539,
-    "player_name": "Ruben Prey",
+    "player_id": 5105658,
+    "player_name": "Dylan Darling",
     "team_id": 2599,
     "team_name": "St. John's Red Storm",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 8,
-    "tournament_minutes": 12
+    "tournament_minutes": 51
   },
   {
-    "player_id": 5281379,
-    "player_name": "Paul Mbiya",
+    "player_id": 4872739,
+    "player_name": "Elmarko Jackson",
     "team_id": 2305,
     "team_name": "Kansas Jayhawks",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 8,
-    "tournament_minutes": 16
+    "tournament_minutes": 28
   },
   {
     "player_id": 5105794,
@@ -2997,22 +3105,13 @@
     "tournament_minutes": 29
   },
   {
-    "player_id": 5311844,
-    "player_name": "Johann Grunloh",
-    "team_id": 258,
-    "team_name": "Virginia Cavaliers",
-    "games_played": 1,
+    "player_id": 5196914,
+    "player_name": "Amari Evans",
+    "team_id": 2633,
+    "team_name": "Tennessee Volunteers",
+    "games_played": 2,
     "tournament_points": 8,
-    "tournament_minutes": 20
-  },
-  {
-    "player_id": 5105464,
-    "player_name": "Dallin Hall",
-    "team_id": 258,
-    "team_name": "Virginia Cavaliers",
-    "games_played": 1,
-    "tournament_points": 8,
-    "tournament_minutes": 27
+    "tournament_minutes": 41
   },
   {
     "player_id": 5108141,
@@ -3078,15 +3177,6 @@
     "tournament_minutes": 20
   },
   {
-    "player_id": 5106283,
-    "player_name": "Dillon Mitchell",
-    "team_id": 2599,
-    "team_name": "St. John's Red Storm",
-    "games_played": 1,
-    "tournament_points": 7,
-    "tournament_minutes": 32
-  },
-  {
     "player_id": 5037881,
     "player_name": "Trent Pierce",
     "team_id": 142,
@@ -3127,9 +3217,9 @@
     "player_name": "Ethan Burg",
     "team_id": 2633,
     "team_name": "Tennessee Volunteers",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 7,
-    "tournament_minutes": 23
+    "tournament_minutes": 29
   },
   {
     "player_id": 5108973,
@@ -3294,24 +3384,6 @@
     "tournament_minutes": 30
   },
   {
-    "player_id": 5105658,
-    "player_name": "Dylan Darling",
-    "team_id": 2599,
-    "team_name": "St. John's Red Storm",
-    "games_played": 1,
-    "tournament_points": 6,
-    "tournament_minutes": 33
-  },
-  {
-    "player_id": 5142625,
-    "player_name": "Joson Sanon",
-    "team_id": 2599,
-    "team_name": "St. John's Red Storm",
-    "games_played": 1,
-    "tournament_points": 6,
-    "tournament_minutes": 18
-  },
-  {
     "player_id": 5178211,
     "player_name": "Jonathan Griman",
     "team_id": 2856,
@@ -3321,22 +3393,13 @@
     "tournament_minutes": 34
   },
   {
-    "player_id": 5044426,
-    "player_name": "Flory Bidunga",
-    "team_id": 2305,
-    "team_name": "Kansas Jayhawks",
-    "games_played": 1,
-    "tournament_points": 6,
-    "tournament_minutes": 30
-  },
-  {
     "player_id": 5041958,
     "player_name": "Bryson Tiller",
     "team_id": 2305,
     "team_name": "Kansas Jayhawks",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 6,
-    "tournament_minutes": 24
+    "tournament_minutes": 51
   },
   {
     "player_id": 4567588,
@@ -3420,13 +3483,13 @@
     "tournament_minutes": 17
   },
   {
-    "player_id": 5196914,
-    "player_name": "Amari Evans",
-    "team_id": 2633,
-    "team_name": "Tennessee Volunteers",
-    "games_played": 1,
+    "player_id": 5037878,
+    "player_name": "Ugonna Onyenso",
+    "team_id": 258,
+    "team_name": "Virginia Cavaliers",
+    "games_played": 2,
     "tournament_points": 6,
-    "tournament_minutes": 27
+    "tournament_minutes": 39
   },
   {
     "player_id": 4683781,
@@ -3604,9 +3667,18 @@
     "player_name": "Lefteris Liotopoulos",
     "team_id": 2599,
     "team_name": "St. John's Red Storm",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 5,
-    "tournament_minutes": 7
+    "tournament_minutes": 12
+  },
+  {
+    "player_id": 5291864,
+    "player_name": "Kohl Rosario",
+    "team_id": 2305,
+    "team_name": "Kansas Jayhawks",
+    "games_played": 2,
+    "tournament_points": 5,
+    "tournament_minutes": 9
   },
   {
     "player_id": 5107975,
@@ -3672,22 +3744,13 @@
     "tournament_minutes": 17
   },
   {
-    "player_id": 5101648,
-    "player_name": "Bishop Boswell",
-    "team_id": 2633,
-    "team_name": "Tennessee Volunteers",
-    "games_played": 1,
-    "tournament_points": 5,
-    "tournament_minutes": 22
-  },
-  {
     "player_id": 5142710,
     "player_name": "DeWayne Brown II",
     "team_id": 2633,
     "team_name": "Tennessee Volunteers",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 5,
-    "tournament_minutes": 8
+    "tournament_minutes": 14
   },
   {
     "player_id": 5105604,
@@ -3895,24 +3958,6 @@
     "games_played": 1,
     "tournament_points": 4,
     "tournament_minutes": 18
-  },
-  {
-    "player_id": 5177301,
-    "player_name": "Melvin Council Jr.",
-    "team_id": 2305,
-    "team_name": "Kansas Jayhawks",
-    "games_played": 1,
-    "tournament_points": 4,
-    "tournament_minutes": 31
-  },
-  {
-    "player_id": 4872739,
-    "player_name": "Elmarko Jackson",
-    "team_id": 2305,
-    "team_name": "Kansas Jayhawks",
-    "games_played": 1,
-    "tournament_points": 4,
-    "tournament_minutes": 17
   },
   {
     "player_id": 5107369,
@@ -4243,9 +4288,9 @@
     "player_name": "Devin Tillis",
     "team_id": 258,
     "team_name": "Virginia Cavaliers",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 3,
-    "tournament_minutes": 11
+    "tournament_minutes": 20
   },
   {
     "player_id": 4702467,
@@ -4651,24 +4696,6 @@
     "games_played": 1,
     "tournament_points": 2,
     "tournament_minutes": 33
-  },
-  {
-    "player_id": 5037878,
-    "player_name": "Ugonna Onyenso",
-    "team_id": 258,
-    "team_name": "Virginia Cavaliers",
-    "games_played": 1,
-    "tournament_points": 2,
-    "tournament_minutes": 20
-  },
-  {
-    "player_id": 5150404,
-    "player_name": "Chance Mallory",
-    "team_id": 258,
-    "team_name": "Virginia Cavaliers",
-    "games_played": 1,
-    "tournament_points": 2,
-    "tournament_minutes": 19
   },
   {
     "player_id": 5175029,
@@ -7555,16 +7582,16 @@
     "player_name": "Sadiku Ibine Ayo",
     "team_id": 2599,
     "team_name": "St. John's Red Storm",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
-    "tournament_minutes": 1
+    "tournament_minutes": 4
   },
   {
     "player_id": 4896480,
     "player_name": "Handje Tamba",
     "team_id": 2599,
     "team_name": "St. John's Red Storm",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 1
   },
@@ -7573,7 +7600,7 @@
     "player_name": "Imran Suljanovic",
     "team_id": 2599,
     "team_name": "St. John's Red Storm",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -7582,7 +7609,7 @@
     "player_name": "Fotis Konstantinidis",
     "team_id": 2599,
     "team_name": "St. John's Red Storm",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -7591,7 +7618,7 @@
     "player_name": "Casper Pohto",
     "team_id": 2599,
     "team_name": "St. John's Red Storm",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -7600,7 +7627,7 @@
     "player_name": "Kelvin Odih",
     "team_id": 2599,
     "team_name": "St. John's Red Storm",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -7681,16 +7708,16 @@
     "player_name": "Jamari McDowell",
     "team_id": 2305,
     "team_name": "Kansas Jayhawks",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
-    "tournament_minutes": 13
+    "tournament_minutes": 19
   },
   {
     "player_id": 5252599,
     "player_name": "Samis Calderon",
     "team_id": 2305,
     "team_name": "Kansas Jayhawks",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -7699,7 +7726,7 @@
     "player_name": "Justin Cross",
     "team_id": 2305,
     "team_name": "Kansas Jayhawks",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -7708,7 +7735,7 @@
     "player_name": "Corbin Allen",
     "team_id": 2305,
     "team_name": "Kansas Jayhawks",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -7717,16 +7744,7 @@
     "player_name": "Nginyu Ngala",
     "team_id": 2305,
     "team_name": "Kansas Jayhawks",
-    "games_played": 1,
-    "tournament_points": 0,
-    "tournament_minutes": 0
-  },
-  {
-    "player_id": 5291864,
-    "player_name": "Kohl Rosario",
-    "team_id": 2305,
-    "team_name": "Kansas Jayhawks",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -7735,7 +7753,7 @@
     "player_name": "Will Thengvall",
     "team_id": 2305,
     "team_name": "Kansas Jayhawks",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -7744,7 +7762,7 @@
     "player_name": "Wilder Evers",
     "team_id": 2305,
     "team_name": "Kansas Jayhawks",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -7753,7 +7771,7 @@
     "player_name": "Jayden Dawson",
     "team_id": 2305,
     "team_name": "Kansas Jayhawks",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -9067,7 +9085,7 @@
     "player_name": "Silas Barksdale",
     "team_id": 258,
     "team_name": "Virginia Cavaliers",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -9076,7 +9094,7 @@
     "player_name": "Carter Lang",
     "team_id": 258,
     "team_name": "Virginia Cavaliers",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -9085,7 +9103,7 @@
     "player_name": "Owen Odom",
     "team_id": 258,
     "team_name": "Virginia Cavaliers",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -9094,7 +9112,7 @@
     "player_name": "Martin Carrere",
     "team_id": 258,
     "team_name": "Virginia Cavaliers",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -9103,7 +9121,7 @@
     "player_name": "Desmond Roberts",
     "team_id": 258,
     "team_name": "Virginia Cavaliers",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -9112,34 +9130,16 @@
     "player_name": "Elijah Gertrude",
     "team_id": 258,
     "team_name": "Virginia Cavaliers",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
-  },
-  {
-    "player_id": 5164559,
-    "player_name": "Nate Ament",
-    "team_id": 2633,
-    "team_name": "Tennessee Volunteers",
-    "games_played": 1,
-    "tournament_points": 0,
-    "tournament_minutes": 18
-  },
-  {
-    "player_id": 4685687,
-    "player_name": "Jaylen Carey",
-    "team_id": 2633,
-    "team_name": "Tennessee Volunteers",
-    "games_played": 1,
-    "tournament_points": 0,
-    "tournament_minutes": 6
   },
   {
     "player_id": 5311526,
     "player_name": "Troy Henderson",
     "team_id": 2633,
     "team_name": "Tennessee Volunteers",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 1
   },
@@ -9148,7 +9148,7 @@
     "player_name": "Clarence Massamba",
     "team_id": 2633,
     "team_name": "Tennessee Volunteers",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 1
   },
@@ -9157,7 +9157,7 @@
     "player_name": "Amaree Abram",
     "team_id": 2633,
     "team_name": "Tennessee Volunteers",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 1
   },
@@ -9166,7 +9166,7 @@
     "player_name": "Cade Phillips",
     "team_id": 2633,
     "team_name": "Tennessee Volunteers",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -9175,7 +9175,7 @@
     "player_name": "Campbell Duncan",
     "team_id": 2633,
     "team_name": "Tennessee Volunteers",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -9184,7 +9184,7 @@
     "player_name": "Gavin Paull",
     "team_id": 2633,
     "team_name": "Tennessee Volunteers",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -9193,7 +9193,7 @@
     "player_name": "Grant Hurst",
     "team_id": 2633,
     "team_name": "Tennessee Volunteers",
-    "games_played": 1,
+    "games_played": 2,
     "tournament_points": 0,
     "tournament_minutes": 0
   },

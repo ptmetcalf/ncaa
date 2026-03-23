@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-22T23:28:11.384Z",
+  "generated_at": "2026-03-23T00:56:21.255Z",
   "year": 2026,
   "available": true,
   "source": "espn_bracket_page",
@@ -1199,18 +1199,18 @@
       "region_id": 1,
       "bracket_location": 2,
       "date": "2026-03-22T21:15:00Z",
-      "status_state": "in",
-      "status_desc": "In Progress",
-      "status_detail": "3:41 - 2nd",
+      "status_state": "post",
+      "status_desc": "Final",
+      "status_detail": "Final",
       "location": "San Diego, CA",
-      "link": "/mens-college-basketball/game/_/gameId/401856558",
+      "link": "/mens-college-basketball/game/_/gameId/401856558/st-johns-kansas",
       "competitor_one": {
         "team_id": 2599,
         "team_name": "St. John's",
         "abbreviation": "SJU",
         "seed": 5,
-        "score": 62,
-        "winner": false,
+        "score": 67,
+        "winner": true,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2599.png"
       },
       "competitor_two": {
@@ -1218,7 +1218,7 @@
         "team_name": "Kansas",
         "abbreviation": "KU",
         "seed": 4,
-        "score": 55,
+        "score": 65,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2305.png"
       }
@@ -1258,10 +1258,10 @@
       "round_id": 2,
       "region_id": 1,
       "bracket_location": 4,
-      "date": "2026-03-23T00:45:00Z",
+      "date": "2026-03-23T01:10:00Z",
       "status_state": "pre",
       "status_desc": "Scheduled",
-      "status_detail": "3/22 - 8:45 PM EDT",
+      "status_detail": "3/22 - 9:10 PM EDT",
       "location": "Philadelphia, PA",
       "link": "/mens-college-basketball/game/_/gameId/401856559/ucla-uconn",
       "competitor_one": {
@@ -1291,7 +1291,7 @@
       "date": "2026-03-22T23:10:00Z",
       "status_state": "in",
       "status_desc": "In Progress",
-      "status_detail": "11:38 - 1st",
+      "status_detail": "11:25 - 2nd",
       "location": "Tampa, FL",
       "link": "/mens-college-basketball/game/_/gameId/401856563",
       "competitor_one": {
@@ -1299,7 +1299,7 @@
         "team_name": "Florida",
         "abbreviation": "FLA",
         "seed": 1,
-        "score": 12,
+        "score": 47,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/57.png"
       },
@@ -1308,7 +1308,7 @@
         "team_name": "Iowa",
         "abbreviation": "IOWA",
         "seed": 9,
-        "score": 17,
+        "score": 55,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2294.png"
       }
@@ -1408,18 +1408,18 @@
       "round_id": 2,
       "region_id": 2,
       "bracket_location": 9,
-      "date": "2026-03-22T23:50:00Z",
-      "status_state": "pre",
-      "status_desc": "Scheduled",
-      "status_detail": "3/22 - 7:50 PM EDT",
+      "date": "2026-03-23T00:11:00Z",
+      "status_state": "in",
+      "status_desc": "In Progress",
+      "status_detail": "3:54 - 1st",
       "location": "San Diego, CA",
-      "link": "/mens-college-basketball/game/_/gameId/401856565/utah-state-arizona",
+      "link": "/mens-college-basketball/game/_/gameId/401856565",
       "competitor_one": {
         "team_id": 12,
         "team_name": "Arizona",
         "abbreviation": "ARIZ",
         "seed": 1,
-        "score": 0,
+        "score": 27,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/12.png"
       },
@@ -1428,7 +1428,7 @@
         "team_name": "Utah State",
         "abbreviation": "USU",
         "seed": 9,
-        "score": 0,
+        "score": 18,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/328.png"
       }
@@ -1589,18 +1589,18 @@
       "region_id": 2,
       "bracket_location": 15,
       "date": "2026-03-22T22:10:00Z",
-      "status_state": "in",
-      "status_desc": "In Progress",
-      "status_detail": "17:56 - 2nd",
+      "status_state": "post",
+      "status_desc": "Final",
+      "status_detail": "Final",
       "location": "Philadelphia, PA",
-      "link": "/mens-college-basketball/game/_/gameId/401856562",
+      "link": "/mens-college-basketball/game/_/gameId/401856562/tennessee-virginia",
       "competitor_one": {
         "team_id": 2633,
         "team_name": "Tennessee",
         "abbreviation": "TENN",
         "seed": 6,
-        "score": 38,
-        "winner": false,
+        "score": 79,
+        "winner": true,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2633.png"
       },
       "competitor_two": {
@@ -1608,7 +1608,7 @@
         "team_name": "Virginia",
         "abbreviation": "UVA",
         "seed": 3,
-        "score": 34,
+        "score": 72,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/258.png"
       }
@@ -1653,7 +1653,7 @@
       "status_desc": "Scheduled",
       "status_detail": "3/27 - TBD",
       "location": "Washington, DC",
-      "link": "/mens-college-basketball/game/_/gameId/401856570",
+      "link": "/mens-college-basketball/game/_/gameId/401856570/st-johns-duke",
       "competitor_one": {
         "team_id": 150,
         "team_name": "Duke",
@@ -1663,7 +1663,15 @@
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/150.png"
       },
-      "competitor_two": null
+      "competitor_two": {
+        "team_id": 2599,
+        "team_name": "St. John's",
+        "abbreviation": "SJU",
+        "seed": 5,
+        "score": 0,
+        "winner": false,
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2599.png"
+      }
     },
     {
       "matchup_id": 401856566,
@@ -1757,8 +1765,16 @@
       "status_desc": "Scheduled",
       "status_detail": "3/27 - TBD",
       "location": "Chicago, IL",
-      "link": "/mens-college-basketball/game/_/gameId/401856573",
-      "competitor_one": null,
+      "link": "/mens-college-basketball/game/_/gameId/401856573/tennessee-iowa-state",
+      "competitor_one": {
+        "team_id": 2633,
+        "team_name": "Tennessee",
+        "abbreviation": "TENN",
+        "seed": 6,
+        "score": 0,
+        "winner": false,
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2633.png"
+      },
       "competitor_two": {
         "team_id": 66,
         "team_name": "Iowa State",

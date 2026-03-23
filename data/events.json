@@ -444,8 +444,8 @@
     "date": "20260322",
     "name": "St. John's Red Storm at Kansas Jayhawks",
     "short_name": "SJU VS KU",
-    "completed": false,
-    "status": "In Progress",
+    "completed": true,
+    "status": "Final",
     "home_team_id": 2305,
     "away_team_id": 2599
   },
@@ -484,8 +484,8 @@
     "date": "20260322",
     "name": "Tennessee Volunteers at Virginia Cavaliers",
     "short_name": "TENN VS UVA",
-    "completed": false,
-    "status": "In Progress",
+    "completed": true,
+    "status": "Final",
     "home_team_id": 258,
     "away_team_id": 2633
   },
@@ -515,7 +515,7 @@
     "name": "Utah State Aggies at Arizona Wildcats",
     "short_name": "USU VS ARIZ",
     "completed": false,
-    "status": "Scheduled",
+    "status": "In Progress",
     "home_team_id": 12,
     "away_team_id": 328
   }
