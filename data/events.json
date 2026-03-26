@@ -518,5 +518,45 @@
     "status": "Final",
     "home_team_id": 12,
     "away_team_id": 328
+  },
+  {
+    "event_id": 401856566,
+    "date": "20260326",
+    "name": "Illinois Fighting Illini at Houston Cougars",
+    "short_name": "ILL VS HOU",
+    "completed": false,
+    "status": "Scheduled",
+    "home_team_id": 248,
+    "away_team_id": 356
+  },
+  {
+    "event_id": 401856567,
+    "date": "20260326",
+    "name": "Iowa Hawkeyes at Nebraska Cornhuskers",
+    "short_name": "IOWA VS NEB",
+    "completed": false,
+    "status": "Scheduled",
+    "home_team_id": 158,
+    "away_team_id": 2294
+  },
+  {
+    "event_id": 401856568,
+    "date": "20260326",
+    "name": "Texas Longhorns at Purdue Boilermakers",
+    "short_name": "TEX VS PUR",
+    "completed": false,
+    "status": "Scheduled",
+    "home_team_id": 2509,
+    "away_team_id": 251
+  },
+  {
+    "event_id": 401856569,
+    "date": "20260326",
+    "name": "Arkansas Razorbacks at Arizona Wildcats",
+    "short_name": "ARK VS ARIZ",
+    "completed": false,
+    "status": "Scheduled",
+    "home_team_id": 12,
+    "away_team_id": 8
   }
 ]
