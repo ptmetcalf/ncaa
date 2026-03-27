@@ -535,7 +535,7 @@
     "name": "Iowa Hawkeyes at Nebraska Cornhuskers",
     "short_name": "IOWA VS NEB",
     "completed": false,
-    "status": "Scheduled",
+    "status": "In Progress",
     "home_team_id": 158,
     "away_team_id": 2294
   },
@@ -558,5 +558,45 @@
     "status": "Scheduled",
     "home_team_id": 12,
     "away_team_id": 8
+  },
+  {
+    "event_id": 401856570,
+    "date": "20260327",
+    "name": "St. John's Red Storm at Duke Blue Devils",
+    "short_name": "SJU VS DUKE",
+    "completed": false,
+    "status": "Scheduled",
+    "home_team_id": 150,
+    "away_team_id": 2599
+  },
+  {
+    "event_id": 401856571,
+    "date": "20260327",
+    "name": "Michigan State Spartans at UConn Huskies",
+    "short_name": "MSU VS CONN",
+    "completed": false,
+    "status": "Scheduled",
+    "home_team_id": 41,
+    "away_team_id": 127
+  },
+  {
+    "event_id": 401856572,
+    "date": "20260327",
+    "name": "Alabama Crimson Tide at Michigan Wolverines",
+    "short_name": "ALA VS MICH",
+    "completed": false,
+    "status": "Scheduled",
+    "home_team_id": 130,
+    "away_team_id": 333
+  },
+  {
+    "event_id": 401856573,
+    "date": "20260327",
+    "name": "Tennessee Volunteers at Iowa State Cyclones",
+    "short_name": "TENN VS ISU",
+    "completed": false,
+    "status": "Scheduled",
+    "home_team_id": 66,
+    "away_team_id": 2633
   }
 ]
