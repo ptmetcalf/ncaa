@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-27T00:57:23.024Z",
+  "generated_at": "2026-03-27T01:59:29.597Z",
   "year": 2026,
   "available": true,
   "source": "espn_bracket_page",
@@ -8,7 +8,7 @@
   "tournament_name": "Men's NCAA Tournament",
   "short_name": "NCAA",
   "teams_count": 68,
-  "matchups_count": 60,
+  "matchups_count": 61,
   "regions": [
     {
       "id": 1,
@@ -1709,18 +1709,18 @@
       "region_id": 1,
       "bracket_location": 3,
       "date": "2026-03-26T23:30:00Z",
-      "status_state": "in",
-      "status_desc": "In Progress",
-      "status_detail": "11:30 - 2nd",
+      "status_state": "post",
+      "status_desc": "Final",
+      "status_detail": "Final",
       "location": "Houston, TX",
-      "link": "/mens-college-basketball/game/_/gameId/401856567",
+      "link": "/mens-college-basketball/game/_/gameId/401856567/iowa-nebraska",
       "competitor_one": {
         "team_id": 2294,
         "team_name": "Iowa",
         "abbreviation": "IOWA",
         "seed": 9,
-        "score": 55,
-        "winner": false,
+        "score": 77,
+        "winner": true,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2294.png"
       },
       "competitor_two": {
@@ -1728,7 +1728,7 @@
         "team_name": "Nebraska",
         "abbreviation": "NEB",
         "seed": 4,
-        "score": 58,
+        "score": 71,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png"
       }
@@ -1768,10 +1768,10 @@
       "round_id": 3,
       "region_id": 1,
       "bracket_location": 5,
-      "date": "2026-03-27T01:45:00Z",
+      "date": "2026-03-27T02:06:00Z",
       "status_state": "pre",
       "status_desc": "Scheduled",
-      "status_detail": "3/26 - 9:45 PM EDT",
+      "status_detail": "3/26 - 10:06 PM EDT",
       "location": "San Jose, CA",
       "link": "/mens-college-basketball/game/_/gameId/401856569/arkansas-arizona",
       "competitor_one": {
@@ -1799,17 +1799,17 @@
       "region_id": 1,
       "bracket_location": 6,
       "date": "2026-03-26T23:10:00Z",
-      "status_state": "in",
-      "status_desc": "In Progress",
-      "status_detail": "7:39 - 2nd",
+      "status_state": "post",
+      "status_desc": "Final",
+      "status_detail": "Final",
       "location": "San Jose, CA",
-      "link": "/mens-college-basketball/game/_/gameId/401856568",
+      "link": "/mens-college-basketball/game/_/gameId/401856568/texas-purdue",
       "competitor_one": {
         "team_id": 251,
         "team_name": "Texas",
         "abbreviation": "TEX",
         "seed": 11,
-        "score": 65,
+        "score": 77,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/251.png"
       },
@@ -1818,8 +1818,8 @@
         "team_name": "Purdue",
         "abbreviation": "PUR",
         "seed": 2,
-        "score": 63,
-        "winner": false,
+        "score": 79,
+        "winner": true,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2509.png"
       }
     },
@@ -1882,6 +1882,28 @@
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/66.png"
       }
+    },
+    {
+      "matchup_id": 401856574,
+      "round_id": 4,
+      "region_id": 1,
+      "bracket_location": 2,
+      "date": "2026-03-28T04:00:00Z",
+      "status_state": "pre",
+      "status_desc": "Scheduled",
+      "status_detail": "3/28 - TBD",
+      "location": "Houston, TX",
+      "link": "/mens-college-basketball/game/_/gameId/401856574",
+      "competitor_one": {
+        "team_id": 2294,
+        "team_name": "Iowa",
+        "abbreviation": "IOWA",
+        "seed": 9,
+        "score": 0,
+        "winner": false,
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2294.png"
+      },
+      "competitor_two": null
     }
   ]
 }

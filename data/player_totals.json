@@ -1,5 +1,41 @@
 [
   {
+    "player_id": 4432243,
+    "player_name": "Tramon Mark",
+    "team_id": 251,
+    "team_name": "Texas Longhorns",
+    "games_played": 4,
+    "tournament_points": 71,
+    "tournament_minutes": 133
+  },
+  {
+    "player_id": 5239838,
+    "player_name": "Matas Vokietaitis",
+    "team_id": 251,
+    "team_name": "Texas Longhorns",
+    "games_played": 4,
+    "tournament_points": 64,
+    "tournament_minutes": 113
+  },
+  {
+    "player_id": 4897438,
+    "player_name": "Trey Kaufman-Renn",
+    "team_id": 2509,
+    "team_name": "Purdue Boilermakers",
+    "games_played": 3,
+    "tournament_points": 64,
+    "tournament_minutes": 96
+  },
+  {
+    "player_id": 4858604,
+    "player_name": "Pryce Sandfort",
+    "team_id": 158,
+    "team_name": "Nebraska Cornhuskers",
+    "games_played": 3,
+    "tournament_points": 63,
+    "tournament_minutes": 109
+  },
+  {
     "player_id": 5142620,
     "player_name": "Darius Acuff Jr.",
     "team_id": 8,
@@ -9,13 +45,31 @@
     "tournament_minutes": 70
   },
   {
-    "player_id": 5239838,
-    "player_name": "Matas Vokietaitis",
+    "player_id": 5105853,
+    "player_name": "Fletcher Loyer",
+    "team_id": 2509,
+    "team_name": "Purdue Boilermakers",
+    "games_played": 3,
+    "tournament_points": 56,
+    "tournament_minutes": 93
+  },
+  {
+    "player_id": 5105854,
+    "player_name": "Braden Smith",
+    "team_id": 2509,
+    "team_name": "Purdue Boilermakers",
+    "games_played": 3,
+    "tournament_points": 54,
+    "tournament_minutes": 107
+  },
+  {
+    "player_id": 4848625,
+    "player_name": "Dailyn Swain",
     "team_id": 251,
     "team_name": "Texas Longhorns",
-    "games_played": 3,
-    "tournament_points": 55,
-    "tournament_minutes": 90
+    "games_played": 4,
+    "tournament_points": 53,
+    "tournament_minutes": 152
   },
   {
     "player_id": 5107904,
@@ -81,6 +135,24 @@
     "tournament_minutes": 74
   },
   {
+    "player_id": 5241364,
+    "player_name": "Bennett Stirtz",
+    "team_id": 2294,
+    "team_name": "Iowa Hawkeyes",
+    "games_played": 3,
+    "tournament_points": 49,
+    "tournament_minutes": 120
+  },
+  {
+    "player_id": 5105624,
+    "player_name": "Jordan Pope",
+    "team_id": 251,
+    "team_name": "Texas Longhorns",
+    "games_played": 4,
+    "tournament_points": 45,
+    "tournament_minutes": 134
+  },
+  {
     "player_id": 4703396,
     "player_name": "Graham Ike",
     "team_id": 2250,
@@ -90,22 +162,22 @@
     "tournament_minutes": 75
   },
   {
-    "player_id": 4897438,
-    "player_name": "Trey Kaufman-Renn",
-    "team_id": 2509,
-    "team_name": "Purdue Boilermakers",
-    "games_played": 2,
+    "player_id": 5239571,
+    "player_name": "Braden Frager",
+    "team_id": 158,
+    "team_name": "Nebraska Cornhuskers",
+    "games_played": 3,
     "tournament_points": 44,
-    "tournament_minutes": 60
+    "tournament_minutes": 79
   },
   {
-    "player_id": 4432243,
-    "player_name": "Tramon Mark",
-    "team_id": 251,
-    "team_name": "Texas Longhorns",
+    "player_id": 5177211,
+    "player_name": "Alvaro Folgueiras",
+    "team_id": 2294,
+    "team_name": "Iowa Hawkeyes",
     "games_played": 3,
-    "tournament_points": 42,
-    "tournament_minutes": 99
+    "tournament_points": 44,
+    "tournament_minutes": 67
   },
   {
     "player_id": 5041935,
@@ -171,15 +243,6 @@
     "tournament_minutes": 71
   },
   {
-    "player_id": 4848625,
-    "player_name": "Dailyn Swain",
-    "team_id": 251,
-    "team_name": "Texas Longhorns",
-    "games_played": 3,
-    "tournament_points": 38,
-    "tournament_minutes": 113
-  },
-  {
     "player_id": 4872740,
     "player_name": "Coen Carr",
     "team_id": 127,
@@ -187,33 +250,6 @@
     "games_played": 2,
     "tournament_points": 38,
     "tournament_minutes": 61
-  },
-  {
-    "player_id": 4858604,
-    "player_name": "Pryce Sandfort",
-    "team_id": 158,
-    "team_name": "Nebraska Cornhuskers",
-    "games_played": 2,
-    "tournament_points": 38,
-    "tournament_minutes": 75
-  },
-  {
-    "player_id": 5105854,
-    "player_name": "Braden Smith",
-    "team_id": 2509,
-    "team_name": "Purdue Boilermakers",
-    "games_played": 2,
-    "tournament_points": 38,
-    "tournament_minutes": 70
-  },
-  {
-    "player_id": 5105853,
-    "player_name": "Fletcher Loyer",
-    "team_id": 2509,
-    "team_name": "Purdue Boilermakers",
-    "games_played": 2,
-    "tournament_points": 38,
-    "tournament_minutes": 60
   },
   {
     "player_id": 4873090,
@@ -387,15 +423,6 @@
     "tournament_minutes": 54
   },
   {
-    "player_id": 5105624,
-    "player_name": "Jordan Pope",
-    "team_id": 251,
-    "team_name": "Texas Longhorns",
-    "games_played": 3,
-    "tournament_points": 33,
-    "tournament_minutes": 101
-  },
-  {
     "player_id": 5061585,
     "player_name": "Isaiah Evans",
     "team_id": 150,
@@ -403,6 +430,15 @@
     "games_played": 2,
     "tournament_points": 33,
     "tournament_minutes": 61
+  },
+  {
+    "player_id": 4592677,
+    "player_name": "Rienk Mast",
+    "team_id": 158,
+    "team_name": "Nebraska Cornhuskers",
+    "games_played": 3,
+    "tournament_points": 33,
+    "tournament_minutes": 97
   },
   {
     "player_id": 5101809,
@@ -468,6 +504,15 @@
     "tournament_minutes": 59
   },
   {
+    "player_id": 5175591,
+    "player_name": "C.J. Cox",
+    "team_id": 2509,
+    "team_name": "Purdue Boilermakers",
+    "games_played": 3,
+    "tournament_points": 32,
+    "tournament_minutes": 74
+  },
+  {
     "player_id": 5311846,
     "player_name": "Thijs De Ridder",
     "team_id": 258,
@@ -495,6 +540,15 @@
     "tournament_minutes": 52
   },
   {
+    "player_id": 5105825,
+    "player_name": "Jamarques Lawrence",
+    "team_id": 158,
+    "team_name": "Nebraska Cornhuskers",
+    "games_played": 3,
+    "tournament_points": 31,
+    "tournament_minutes": 75
+  },
+  {
     "player_id": 4565698,
     "player_name": "Bryce Hopkins",
     "team_id": 2599,
@@ -502,6 +556,15 @@
     "games_played": 2,
     "tournament_points": 31,
     "tournament_minutes": 68
+  },
+  {
+    "player_id": 4873203,
+    "player_name": "Cooper Koch",
+    "team_id": 2294,
+    "team_name": "Iowa Hawkeyes",
+    "games_played": 3,
+    "tournament_points": 31,
+    "tournament_minutes": 103
   },
   {
     "player_id": 5107986,
@@ -612,15 +675,6 @@
     "tournament_minutes": 69
   },
   {
-    "player_id": 5241364,
-    "player_name": "Bennett Stirtz",
-    "team_id": 2294,
-    "team_name": "Iowa Hawkeyes",
-    "games_played": 2,
-    "tournament_points": 29,
-    "tournament_minutes": 80
-  },
-  {
     "player_id": 5106254,
     "player_name": "Tamin Lipsey",
     "team_id": 66,
@@ -637,6 +691,15 @@
     "games_played": 2,
     "tournament_points": 29,
     "tournament_minutes": 60
+  },
+  {
+    "player_id": 5105486,
+    "player_name": "Chendall Weaver",
+    "team_id": 251,
+    "team_name": "Texas Longhorns",
+    "games_played": 4,
+    "tournament_points": 28,
+    "tournament_minutes": 76
   },
   {
     "player_id": 5243053,
@@ -684,15 +747,6 @@
     "tournament_minutes": 66
   },
   {
-    "player_id": 5239571,
-    "player_name": "Braden Frager",
-    "team_id": 158,
-    "team_name": "Nebraska Cornhuskers",
-    "games_played": 2,
-    "tournament_points": 28,
-    "tournament_minutes": 54
-  },
-  {
     "player_id": 4711304,
     "player_name": "Xavier Booker",
     "team_id": 26,
@@ -702,13 +756,31 @@
     "tournament_minutes": 59
   },
   {
-    "player_id": 5177211,
-    "player_name": "Alvaro Folgueiras",
+    "player_id": 5174973,
+    "player_name": "Oscar Cluff",
+    "team_id": 2509,
+    "team_name": "Purdue Boilermakers",
+    "games_played": 3,
+    "tournament_points": 28,
+    "tournament_minutes": 83
+  },
+  {
+    "player_id": 5241363,
+    "player_name": "Tavion Banks",
     "team_id": 2294,
     "team_name": "Iowa Hawkeyes",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 28,
-    "tournament_minutes": 38
+    "tournament_minutes": 71
+  },
+  {
+    "player_id": 5311842,
+    "player_name": "Tate Sage",
+    "team_id": 2294,
+    "team_name": "Iowa Hawkeyes",
+    "games_played": 3,
+    "tournament_points": 28,
+    "tournament_minutes": 55
   },
   {
     "player_id": 5093252,
@@ -783,6 +855,15 @@
     "tournament_minutes": 66
   },
   {
+    "player_id": 5176280,
+    "player_name": "Kael Combs",
+    "team_id": 2294,
+    "team_name": "Iowa Hawkeyes",
+    "games_played": 3,
+    "tournament_points": 27,
+    "tournament_minutes": 90
+  },
+  {
     "player_id": 5107169,
     "player_name": "Xaivian Lee",
     "team_id": 57,
@@ -826,15 +907,6 @@
     "games_played": 1,
     "tournament_points": 26,
     "tournament_minutes": 32
-  },
-  {
-    "player_id": 5241363,
-    "player_name": "Tavion Banks",
-    "team_id": 2294,
-    "team_name": "Iowa Hawkeyes",
-    "games_played": 2,
-    "tournament_points": 26,
-    "tournament_minutes": 56
   },
   {
     "player_id": 5060732,
@@ -900,24 +972,6 @@
     "tournament_minutes": 62
   },
   {
-    "player_id": 5105486,
-    "player_name": "Chendall Weaver",
-    "team_id": 251,
-    "team_name": "Texas Longhorns",
-    "games_played": 3,
-    "tournament_points": 24,
-    "tournament_minutes": 66
-  },
-  {
-    "player_id": 4592677,
-    "player_name": "Rienk Mast",
-    "team_id": 158,
-    "team_name": "Nebraska Cornhuskers",
-    "games_played": 2,
-    "tournament_points": 24,
-    "tournament_minutes": 64
-  },
-  {
     "player_id": 5142621,
     "player_name": "Chris Cenac Jr.",
     "team_id": 248,
@@ -970,6 +1024,15 @@
     "games_played": 2,
     "tournament_points": 23,
     "tournament_minutes": 49
+  },
+  {
+    "player_id": 5174982,
+    "player_name": "Berke Buyuktuncel",
+    "team_id": 158,
+    "team_name": "Nebraska Cornhuskers",
+    "games_played": 3,
+    "tournament_points": 23,
+    "tournament_minutes": 82
   },
   {
     "player_id": 5101833,
@@ -1053,15 +1116,6 @@
     "tournament_minutes": 60
   },
   {
-    "player_id": 5105825,
-    "player_name": "Jamarques Lawrence",
-    "team_id": 158,
-    "team_name": "Nebraska Cornhuskers",
-    "games_played": 2,
-    "tournament_points": 22,
-    "tournament_minutes": 44
-  },
-  {
     "player_id": 4873086,
     "player_name": "Mercy Miller",
     "team_id": 248,
@@ -1078,15 +1132,6 @@
     "games_played": 1,
     "tournament_points": 22,
     "tournament_minutes": 32
-  },
-  {
-    "player_id": 5175591,
-    "player_name": "C.J. Cox",
-    "team_id": 2509,
-    "team_name": "Purdue Boilermakers",
-    "games_played": 2,
-    "tournament_points": 22,
-    "tournament_minutes": 43
   },
   {
     "player_id": 5152656,
@@ -1170,15 +1215,6 @@
     "tournament_minutes": 58
   },
   {
-    "player_id": 5174982,
-    "player_name": "Berke Buyuktuncel",
-    "team_id": 158,
-    "team_name": "Nebraska Cornhuskers",
-    "games_played": 2,
-    "tournament_points": 21,
-    "tournament_minutes": 54
-  },
-  {
     "player_id": 5107782,
     "player_name": "Donovan Dent",
     "team_id": 26,
@@ -1213,15 +1249,6 @@
     "games_played": 1,
     "tournament_points": 21,
     "tournament_minutes": 34
-  },
-  {
-    "player_id": 5176280,
-    "player_name": "Kael Combs",
-    "team_id": 2294,
-    "team_name": "Iowa Hawkeyes",
-    "games_played": 2,
-    "tournament_points": 21,
-    "tournament_minutes": 63
   },
   {
     "player_id": 5182573,
@@ -1323,15 +1350,6 @@
     "tournament_minutes": 46
   },
   {
-    "player_id": 4873203,
-    "player_name": "Cooper Koch",
-    "team_id": 2294,
-    "team_name": "Iowa Hawkeyes",
-    "games_played": 2,
-    "tournament_points": 20,
-    "tournament_minutes": 66
-  },
-  {
     "player_id": 5242989,
     "player_name": "Antoine Lorick III",
     "team_id": 2634,
@@ -1375,6 +1393,15 @@
     "games_played": 2,
     "tournament_points": 20,
     "tournament_minutes": 54
+  },
+  {
+    "player_id": 5149083,
+    "player_name": "Nic Codie",
+    "team_id": 251,
+    "team_name": "Texas Longhorns",
+    "games_played": 4,
+    "tournament_points": 19,
+    "tournament_minutes": 80
   },
   {
     "player_id": 5313186,
@@ -1539,6 +1566,15 @@
     "tournament_minutes": 48
   },
   {
+    "player_id": 4897432,
+    "player_name": "Sam Hoiberg",
+    "team_id": 158,
+    "team_name": "Nebraska Cornhuskers",
+    "games_played": 3,
+    "tournament_points": 18,
+    "tournament_minutes": 107
+  },
+  {
     "player_id": 5183875,
     "player_name": "Joshua Dent",
     "team_id": 2608,
@@ -1618,15 +1654,6 @@
     "games_played": 2,
     "tournament_points": 17,
     "tournament_minutes": 50
-  },
-  {
-    "player_id": 5174973,
-    "player_name": "Oscar Cluff",
-    "team_id": 2509,
-    "team_name": "Purdue Boilermakers",
-    "games_played": 2,
-    "tournament_points": 17,
-    "tournament_minutes": 54
   },
   {
     "player_id": 5149115,
@@ -2007,13 +2034,13 @@
     "tournament_minutes": 31
   },
   {
-    "player_id": 5149083,
-    "player_name": "Nic Codie",
+    "player_id": 5105855,
+    "player_name": "Camden Heide",
     "team_id": 251,
     "team_name": "Texas Longhorns",
-    "games_played": 3,
+    "games_played": 4,
     "tournament_points": 14,
-    "tournament_minutes": 53
+    "tournament_minutes": 71
   },
   {
     "player_id": 4895776,
@@ -2313,15 +2340,6 @@
     "tournament_minutes": 43
   },
   {
-    "player_id": 4897432,
-    "player_name": "Sam Hoiberg",
-    "team_id": 158,
-    "team_name": "Nebraska Cornhuskers",
-    "games_played": 2,
-    "tournament_points": 12,
-    "tournament_minutes": 70
-  },
-  {
     "player_id": 5239713,
     "player_name": "Brandon Jennings",
     "team_id": 2670,
@@ -2392,15 +2410,6 @@
     "games_played": 1,
     "tournament_points": 12,
     "tournament_minutes": 37
-  },
-  {
-    "player_id": 5105855,
-    "player_name": "Camden Heide",
-    "team_id": 251,
-    "team_name": "Texas Longhorns",
-    "games_played": 3,
-    "tournament_points": 11,
-    "tournament_minutes": 47
   },
   {
     "player_id": 4873151,
@@ -2500,6 +2509,15 @@
     "games_played": 1,
     "tournament_points": 11,
     "tournament_minutes": 29
+  },
+  {
+    "player_id": 5312035,
+    "player_name": "Omer Mayer",
+    "team_id": 2509,
+    "team_name": "Purdue Boilermakers",
+    "games_played": 3,
+    "tournament_points": 11,
+    "tournament_minutes": 38
   },
   {
     "player_id": 5241495,
@@ -2943,24 +2961,6 @@
     "tournament_minutes": 21
   },
   {
-    "player_id": 5312035,
-    "player_name": "Omer Mayer",
-    "team_id": 2509,
-    "team_name": "Purdue Boilermakers",
-    "games_played": 2,
-    "tournament_points": 9,
-    "tournament_minutes": 28
-  },
-  {
-    "player_id": 5311842,
-    "player_name": "Tate Sage",
-    "team_id": 2294,
-    "team_name": "Iowa Hawkeyes",
-    "games_played": 2,
-    "tournament_points": 9,
-    "tournament_minutes": 26
-  },
-  {
     "player_id": 5106880,
     "player_name": "Jestin Porter",
     "team_id": 228,
@@ -3267,6 +3267,15 @@
     "tournament_minutes": 19
   },
   {
+    "player_id": 5105827,
+    "player_name": "Cale Jacobsen",
+    "team_id": 158,
+    "team_name": "Nebraska Cornhuskers",
+    "games_played": 3,
+    "tournament_points": 7,
+    "tournament_minutes": 41
+  },
+  {
     "player_id": 4701030,
     "player_name": "Jadrian Tracey",
     "team_id": 2670,
@@ -3294,13 +3303,22 @@
     "tournament_minutes": 26
   },
   {
+    "player_id": 5101658,
+    "player_name": "Gicarri Harris",
+    "team_id": 2509,
+    "team_name": "Purdue Boilermakers",
+    "games_played": 3,
+    "tournament_points": 7,
+    "tournament_minutes": 46
+  },
+  {
     "player_id": 5176283,
     "player_name": "Cam Manyawu",
     "team_id": 2294,
     "team_name": "Iowa Hawkeyes",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 7,
-    "tournament_minutes": 44
+    "tournament_minutes": 58
   },
   {
     "player_id": 5101849,
@@ -3798,15 +3816,6 @@
     "tournament_minutes": 5
   },
   {
-    "player_id": 5101658,
-    "player_name": "Gicarri Harris",
-    "team_id": 2509,
-    "team_name": "Purdue Boilermakers",
-    "games_played": 2,
-    "tournament_points": 5,
-    "tournament_minutes": 37
-  },
-  {
     "player_id": 5179085,
     "player_name": "Ace Buckner",
     "team_id": 228,
@@ -3847,9 +3856,9 @@
     "player_name": "Simeon Wilcher",
     "team_id": 251,
     "team_name": "Texas Longhorns",
-    "games_played": 3,
+    "games_played": 4,
     "tournament_points": 4,
-    "tournament_minutes": 31
+    "tournament_minutes": 41
   },
   {
     "player_id": 5196877,
@@ -4081,9 +4090,9 @@
     "player_name": "Daniel Jacobsen",
     "team_id": 2509,
     "team_name": "Purdue Boilermakers",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 4,
-    "tournament_minutes": 12
+    "tournament_minutes": 14
   },
   {
     "player_id": 5108059,
@@ -4203,15 +4212,6 @@
     "tournament_minutes": 14
   },
   {
-    "player_id": 5105827,
-    "player_name": "Cale Jacobsen",
-    "team_id": 158,
-    "team_name": "Nebraska Cornhuskers",
-    "games_played": 2,
-    "tournament_points": 3,
-    "tournament_minutes": 29
-  },
-  {
     "player_id": 5101669,
     "player_name": "Jonathan Powell",
     "team_id": 153,
@@ -4306,7 +4306,7 @@
     "player_name": "Liam Murphy",
     "team_id": 2509,
     "team_name": "Purdue Boilermakers",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 3,
     "tournament_minutes": 5
   },
@@ -4315,9 +4315,9 @@
     "player_name": "Jack Benter",
     "team_id": 2509,
     "team_name": "Purdue Boilermakers",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 3,
-    "tournament_minutes": 31
+    "tournament_minutes": 44
   },
   {
     "player_id": 4703169,
@@ -4327,6 +4327,15 @@
     "games_played": 1,
     "tournament_points": 3,
     "tournament_minutes": 6
+  },
+  {
+    "player_id": 5241366,
+    "player_name": "Isaia Howard",
+    "team_id": 2294,
+    "team_name": "Iowa Hawkeyes",
+    "games_played": 3,
+    "tournament_points": 3,
+    "tournament_minutes": 33
   },
   {
     "player_id": 4869781,
@@ -4513,7 +4522,7 @@
     "player_name": "Leo Curtis",
     "team_id": 158,
     "team_name": "Nebraska Cornhuskers",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 2,
     "tournament_minutes": 3
   },
@@ -4837,7 +4846,7 @@
     "player_name": "Declan Duru Jr.",
     "team_id": 251,
     "team_name": "Texas Longhorns",
-    "games_played": 3,
+    "games_played": 4,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -4846,7 +4855,7 @@
     "player_name": "John Clark",
     "team_id": 251,
     "team_name": "Texas Longhorns",
-    "games_played": 3,
+    "games_played": 4,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -4855,7 +4864,7 @@
     "player_name": "Cole Bott",
     "team_id": 251,
     "team_name": "Texas Longhorns",
-    "games_played": 3,
+    "games_played": 4,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -4864,7 +4873,7 @@
     "player_name": "Lassina Traore",
     "team_id": 251,
     "team_name": "Texas Longhorns",
-    "games_played": 3,
+    "games_played": 4,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -4873,7 +4882,7 @@
     "player_name": "Lewis Obiorah",
     "team_id": 251,
     "team_name": "Texas Longhorns",
-    "games_played": 3,
+    "games_played": 4,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -4882,7 +4891,7 @@
     "player_name": "Anthon McDermott",
     "team_id": 251,
     "team_name": "Texas Longhorns",
-    "games_played": 3,
+    "games_played": 4,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -4891,7 +4900,7 @@
     "player_name": "Brandon Taylor",
     "team_id": 251,
     "team_name": "Texas Longhorns",
-    "games_played": 3,
+    "games_played": 4,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -6997,7 +7006,7 @@
     "player_name": "Justin Bolis",
     "team_id": 158,
     "team_name": "Nebraska Cornhuskers",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 0,
     "tournament_minutes": 2
   },
@@ -7006,7 +7015,7 @@
     "player_name": "Jared Garcia",
     "team_id": 158,
     "team_name": "Nebraska Cornhuskers",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 0,
     "tournament_minutes": 3
   },
@@ -7015,7 +7024,7 @@
     "player_name": "Kendall Blue",
     "team_id": 158,
     "team_name": "Nebraska Cornhuskers",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 0,
     "tournament_minutes": 2
   },
@@ -7024,7 +7033,7 @@
     "player_name": "Will Cooper",
     "team_id": 158,
     "team_name": "Nebraska Cornhuskers",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -7033,7 +7042,7 @@
     "player_name": "Ugnius Jarusevicius",
     "team_id": 158,
     "team_name": "Nebraska Cornhuskers",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -7042,7 +7051,7 @@
     "player_name": "Henry Burt",
     "team_id": 158,
     "team_name": "Nebraska Cornhuskers",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -7051,7 +7060,7 @@
     "player_name": "Quentin Rhymes",
     "team_id": 158,
     "team_name": "Nebraska Cornhuskers",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -7060,7 +7069,7 @@
     "player_name": "Connor Essegian",
     "team_id": 158,
     "team_name": "Nebraska Cornhuskers",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -8311,7 +8320,7 @@
     "player_name": "Sam King",
     "team_id": 2509,
     "team_name": "Purdue Boilermakers",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -8320,7 +8329,7 @@
     "player_name": "Raleigh Burgess",
     "team_id": 2509,
     "team_name": "Purdue Boilermakers",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -8329,7 +8338,7 @@
     "player_name": "Jack Lusk",
     "team_id": 2509,
     "team_name": "Purdue Boilermakers",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -8338,7 +8347,7 @@
     "player_name": "Aaron Fine",
     "team_id": 2509,
     "team_name": "Purdue Boilermakers",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -8347,7 +8356,7 @@
     "player_name": "Jace Rayl",
     "team_id": 2509,
     "team_name": "Purdue Boilermakers",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -8356,7 +8365,7 @@
     "player_name": "Antione West Jr",
     "team_id": 2509,
     "team_name": "Purdue Boilermakers",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -8640,20 +8649,11 @@
     "tournament_minutes": 0
   },
   {
-    "player_id": 5241366,
-    "player_name": "Isaia Howard",
-    "team_id": 2294,
-    "team_name": "Iowa Hawkeyes",
-    "games_played": 2,
-    "tournament_points": 0,
-    "tournament_minutes": 24
-  },
-  {
     "player_id": 5311841,
     "player_name": "Trey Thompson",
     "team_id": 2294,
     "team_name": "Iowa Hawkeyes",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -8662,7 +8662,7 @@
     "player_name": "Joey Matteoni",
     "team_id": 2294,
     "team_name": "Iowa Hawkeyes",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -8671,7 +8671,7 @@
     "player_name": "Trevin Jirak",
     "team_id": 2294,
     "team_name": "Iowa Hawkeyes",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 0,
     "tournament_minutes": 3
   },
@@ -8680,7 +8680,7 @@
     "player_name": "Peyton McCollum",
     "team_id": 2294,
     "team_name": "Iowa Hawkeyes",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -8689,7 +8689,7 @@
     "player_name": "Jacob Koch",
     "team_id": 2294,
     "team_name": "Iowa Hawkeyes",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -8698,7 +8698,7 @@
     "player_name": "Brendan Hausen",
     "team_id": 2294,
     "team_name": "Iowa Hawkeyes",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 0,
     "tournament_minutes": 0
   },

@@ -534,8 +534,8 @@
     "date": "20260326",
     "name": "Iowa Hawkeyes at Nebraska Cornhuskers",
     "short_name": "IOWA VS NEB",
-    "completed": false,
-    "status": "In Progress",
+    "completed": true,
+    "status": "Final",
     "home_team_id": 158,
     "away_team_id": 2294
   },
@@ -544,8 +544,8 @@
     "date": "20260326",
     "name": "Texas Longhorns at Purdue Boilermakers",
     "short_name": "TEX VS PUR",
-    "completed": false,
-    "status": "In Progress",
+    "completed": true,
+    "status": "Final",
     "home_team_id": 2509,
     "away_team_id": 251
   },
