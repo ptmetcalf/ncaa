@@ -525,7 +525,7 @@
     "name": "Illinois Fighting Illini at Houston Cougars",
     "short_name": "ILL VS HOU",
     "completed": false,
-    "status": "Scheduled",
+    "status": "In Progress",
     "home_team_id": 248,
     "away_team_id": 356
   },
@@ -555,7 +555,7 @@
     "name": "Arkansas Razorbacks at Arizona Wildcats",
     "short_name": "ARK VS ARIZ",
     "completed": false,
-    "status": "Scheduled",
+    "status": "In Progress",
     "home_team_id": 12,
     "away_team_id": 8
   },
