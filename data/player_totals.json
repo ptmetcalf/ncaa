@@ -27,6 +27,24 @@
     "tournament_minutes": 133
   },
   {
+    "player_id": 4917149,
+    "player_name": "Alex Karaban",
+    "team_id": 41,
+    "team_name": "UConn Huskies",
+    "games_played": 3,
+    "tournament_points": 66,
+    "tournament_minutes": 111
+  },
+  {
+    "player_id": 5107968,
+    "player_name": "Ja'Kobi Gillespie",
+    "team_id": 2633,
+    "team_name": "Tennessee Volunteers",
+    "games_played": 3,
+    "tournament_points": 66,
+    "tournament_minutes": 110
+  },
+  {
     "player_id": 5239838,
     "player_name": "Matas Vokietaitis",
     "team_id": 251,
@@ -61,6 +79,15 @@
     "games_played": 3,
     "tournament_points": 63,
     "tournament_minutes": 109
+  },
+  {
+    "player_id": 5105809,
+    "player_name": "Tarris Reed Jr.",
+    "team_id": 41,
+    "team_name": "UConn Huskies",
+    "games_played": 3,
+    "tournament_points": 61,
+    "tournament_minutes": 97
   },
   {
     "player_id": 5061585,
@@ -153,6 +180,24 @@
     "tournament_minutes": 79
   },
   {
+    "player_id": 4703912,
+    "player_name": "Nate Heise",
+    "team_id": 66,
+    "team_name": "Iowa State Cyclones",
+    "games_played": 3,
+    "tournament_points": 52,
+    "tournament_minutes": 97
+  },
+  {
+    "player_id": 4872740,
+    "player_name": "Coen Carr",
+    "team_id": 127,
+    "team_name": "Michigan State Spartans",
+    "games_played": 3,
+    "tournament_points": 51,
+    "tournament_minutes": 95
+  },
+  {
     "player_id": 5060712,
     "player_name": "Terrence Hill Jr.",
     "team_id": 2670,
@@ -189,15 +234,6 @@
     "tournament_minutes": 92
   },
   {
-    "player_id": 5107968,
-    "player_name": "Ja'Kobi Gillespie",
-    "team_id": 2633,
-    "team_name": "Tennessee Volunteers",
-    "games_played": 2,
-    "tournament_points": 50,
-    "tournament_minutes": 74
-  },
-  {
     "player_id": 5041953,
     "player_name": "Koa Peat",
     "team_id": 12,
@@ -225,15 +261,6 @@
     "tournament_minutes": 73
   },
   {
-    "player_id": 4917149,
-    "player_name": "Alex Karaban",
-    "team_id": 41,
-    "team_name": "UConn Huskies",
-    "games_played": 2,
-    "tournament_points": 49,
-    "tournament_minutes": 74
-  },
-  {
     "player_id": 5241364,
     "player_name": "Bennett Stirtz",
     "team_id": 2294,
@@ -241,6 +268,15 @@
     "games_played": 3,
     "tournament_points": 49,
     "tournament_minutes": 120
+  },
+  {
+    "player_id": 5106254,
+    "player_name": "Tamin Lipsey",
+    "team_id": 66,
+    "team_name": "Iowa State Cyclones",
+    "games_played": 3,
+    "tournament_points": 47,
+    "tournament_minutes": 91
   },
   {
     "player_id": 4565698,
@@ -297,6 +333,24 @@
     "tournament_minutes": 67
   },
   {
+    "player_id": 5248302,
+    "player_name": "Killyan Toure",
+    "team_id": 66,
+    "team_name": "Iowa State Cyclones",
+    "games_played": 3,
+    "tournament_points": 44,
+    "tournament_minutes": 95
+  },
+  {
+    "player_id": 5105817,
+    "player_name": "Carson Cooper",
+    "team_id": 127,
+    "team_name": "Michigan State Spartans",
+    "games_played": 3,
+    "tournament_points": 43,
+    "tournament_minutes": 88
+  },
+  {
     "player_id": 4873153,
     "player_name": "Morez Johnson Jr.",
     "team_id": 130,
@@ -324,13 +378,13 @@
     "tournament_minutes": 74
   },
   {
-    "player_id": 5105809,
-    "player_name": "Tarris Reed Jr.",
-    "team_id": 41,
-    "team_name": "UConn Huskies",
-    "games_played": 2,
-    "tournament_points": 41,
-    "tournament_minutes": 64
+    "player_id": 4848637,
+    "player_name": "Milan Momcilovic",
+    "team_id": 66,
+    "team_name": "Iowa State Cyclones",
+    "games_played": 3,
+    "tournament_points": 43,
+    "tournament_minutes": 103
   },
   {
     "player_id": 4897768,
@@ -396,15 +450,6 @@
     "tournament_minutes": 98
   },
   {
-    "player_id": 4872740,
-    "player_name": "Coen Carr",
-    "team_id": 127,
-    "team_name": "Michigan State Spartans",
-    "games_played": 2,
-    "tournament_points": 38,
-    "tournament_minutes": 61
-  },
-  {
     "player_id": 5149077,
     "player_name": "Kingston Flemings",
     "team_id": 248,
@@ -432,13 +477,13 @@
     "tournament_minutes": 78
   },
   {
-    "player_id": 4848637,
-    "player_name": "Milan Momcilovic",
-    "team_id": 66,
-    "team_name": "Iowa State Cyclones",
-    "games_played": 2,
+    "player_id": 5196916,
+    "player_name": "Braylon Mullins",
+    "team_id": 41,
+    "team_name": "UConn Huskies",
+    "games_played": 3,
     "tournament_points": 37,
-    "tournament_minutes": 70
+    "tournament_minutes": 98
   },
   {
     "player_id": 5037876,
@@ -522,15 +567,6 @@
     "tournament_minutes": 78
   },
   {
-    "player_id": 5248302,
-    "player_name": "Killyan Toure",
-    "team_id": 66,
-    "team_name": "Iowa State Cyclones",
-    "games_played": 2,
-    "tournament_points": 35,
-    "tournament_minutes": 61
-  },
-  {
     "player_id": 5106674,
     "player_name": "Peter Suder",
     "team_id": 193,
@@ -547,6 +583,15 @@
     "games_played": 3,
     "tournament_points": 34,
     "tournament_minutes": 94
+  },
+  {
+    "player_id": 5105815,
+    "player_name": "Jaxon Kohler",
+    "team_id": 127,
+    "team_name": "Michigan State Spartans",
+    "games_played": 3,
+    "tournament_points": 34,
+    "tournament_minutes": 84
   },
   {
     "player_id": 4869764,
@@ -567,13 +612,13 @@
     "tournament_minutes": 60
   },
   {
-    "player_id": 4703912,
-    "player_name": "Nate Heise",
-    "team_id": 66,
-    "team_name": "Iowa State Cyclones",
-    "games_played": 2,
+    "player_id": 5164559,
+    "player_name": "Nate Ament",
+    "team_id": 2633,
+    "team_name": "Tennessee Volunteers",
+    "games_played": 3,
     "tournament_points": 34,
-    "tournament_minutes": 63
+    "tournament_minutes": 72
   },
   {
     "player_id": 5174954,
@@ -648,6 +693,15 @@
     "tournament_minutes": 63
   },
   {
+    "player_id": 4711255,
+    "player_name": "Jeremy Fears Jr.",
+    "team_id": 127,
+    "team_name": "Michigan State Spartans",
+    "games_played": 3,
+    "tournament_points": 32,
+    "tournament_minutes": 105
+  },
+  {
     "player_id": 4610012,
     "player_name": "Eric Dailey Jr.",
     "team_id": 26,
@@ -720,6 +774,15 @@
     "tournament_minutes": 103
   },
   {
+    "player_id": 5105841,
+    "player_name": "Felix Okpara",
+    "team_id": 2633,
+    "team_name": "Tennessee Volunteers",
+    "games_played": 3,
+    "tournament_points": 31,
+    "tournament_minutes": 91
+  },
+  {
     "player_id": 5107986,
     "player_name": "Ose Okojie",
     "team_id": 47,
@@ -774,6 +837,15 @@
     "tournament_minutes": 49
   },
   {
+    "player_id": 5093142,
+    "player_name": "J.P. Estrella",
+    "team_id": 2633,
+    "team_name": "Tennessee Volunteers",
+    "games_played": 3,
+    "tournament_points": 30,
+    "tournament_minutes": 67
+  },
+  {
     "player_id": 5107864,
     "player_name": "Mason Falslev",
     "team_id": 328,
@@ -792,15 +864,6 @@
     "tournament_minutes": 77
   },
   {
-    "player_id": 5105817,
-    "player_name": "Carson Cooper",
-    "team_id": 127,
-    "team_name": "Michigan State Spartans",
-    "games_played": 2,
-    "tournament_points": 29,
-    "tournament_minutes": 60
-  },
-  {
     "player_id": 4593815,
     "player_name": "Rashaun Agee",
     "team_id": 245,
@@ -808,24 +871,6 @@
     "games_played": 2,
     "tournament_points": 29,
     "tournament_minutes": 54
-  },
-  {
-    "player_id": 5196916,
-    "player_name": "Braylon Mullins",
-    "team_id": 41,
-    "team_name": "UConn Huskies",
-    "games_played": 2,
-    "tournament_points": 29,
-    "tournament_minutes": 69
-  },
-  {
-    "player_id": 5106254,
-    "player_name": "Tamin Lipsey",
-    "team_id": 66,
-    "team_name": "Iowa State Cyclones",
-    "games_played": 2,
-    "tournament_points": 29,
-    "tournament_minutes": 55
   },
   {
     "player_id": 5105555,
@@ -934,6 +979,15 @@
     "games_played": 3,
     "tournament_points": 28,
     "tournament_minutes": 55
+  },
+  {
+    "player_id": 5079838,
+    "player_name": "Blake Buchanan",
+    "team_id": 66,
+    "team_name": "Iowa State Cyclones",
+    "games_played": 3,
+    "tournament_points": 28,
+    "tournament_minutes": 88
   },
   {
     "player_id": 5093252,
@@ -1098,15 +1152,6 @@
     "tournament_minutes": 40
   },
   {
-    "player_id": 5093142,
-    "player_name": "J.P. Estrella",
-    "team_id": 2633,
-    "team_name": "Tennessee Volunteers",
-    "games_played": 2,
-    "tournament_points": 24,
-    "tournament_minutes": 48
-  },
-  {
     "player_id": 5243042,
     "player_name": "Hank Alvey",
     "team_id": 2329,
@@ -1123,6 +1168,15 @@
     "games_played": 2,
     "tournament_points": 23,
     "tournament_minutes": 53
+  },
+  {
+    "player_id": 4703411,
+    "player_name": "Trey Fort",
+    "team_id": 127,
+    "team_name": "Michigan State Spartans",
+    "games_played": 3,
+    "tournament_points": 23,
+    "tournament_minutes": 37
   },
   {
     "player_id": 5196913,
@@ -1188,15 +1242,6 @@
     "tournament_minutes": 35
   },
   {
-    "player_id": 5105815,
-    "player_name": "Jaxon Kohler",
-    "team_id": 127,
-    "team_name": "Michigan State Spartans",
-    "games_played": 2,
-    "tournament_points": 22,
-    "tournament_minutes": 54
-  },
-  {
     "player_id": 4683147,
     "player_name": "Jalen Warley",
     "team_id": 2250,
@@ -1240,6 +1285,15 @@
     "games_played": 2,
     "tournament_points": 22,
     "tournament_minutes": 40
+  },
+  {
+    "player_id": 5101648,
+    "player_name": "Bishop Boswell",
+    "team_id": 2633,
+    "team_name": "Tennessee Volunteers",
+    "games_played": 3,
+    "tournament_points": 22,
+    "tournament_minutes": 85
   },
   {
     "player_id": 5105494,
@@ -1350,6 +1404,15 @@
     "tournament_minutes": 36
   },
   {
+    "player_id": 4895737,
+    "player_name": "Solo Ball",
+    "team_id": 41,
+    "team_name": "UConn Huskies",
+    "games_played": 3,
+    "tournament_points": 21,
+    "tournament_minutes": 70
+  },
+  {
     "player_id": 4432196,
     "player_name": "Jayden Stone",
     "team_id": 142,
@@ -1375,6 +1438,15 @@
     "games_played": 2,
     "tournament_points": 21,
     "tournament_minutes": 50
+  },
+  {
+    "player_id": 4685687,
+    "player_name": "Jaylen Carey",
+    "team_id": 2633,
+    "team_name": "Tennessee Volunteers",
+    "games_played": 3,
+    "tournament_points": 21,
+    "tournament_minutes": 45
   },
   {
     "player_id": 5101840,
@@ -1467,15 +1539,6 @@
     "tournament_minutes": 31
   },
   {
-    "player_id": 5079838,
-    "player_name": "Blake Buchanan",
-    "team_id": 66,
-    "team_name": "Iowa State Cyclones",
-    "games_played": 2,
-    "tournament_points": 20,
-    "tournament_minutes": 58
-  },
-  {
     "player_id": 5241069,
     "player_name": "Elijah Mahi",
     "team_id": 2541,
@@ -1510,24 +1573,6 @@
     "games_played": 1,
     "tournament_points": 19,
     "tournament_minutes": 33
-  },
-  {
-    "player_id": 4711255,
-    "player_name": "Jeremy Fears Jr.",
-    "team_id": 127,
-    "team_name": "Michigan State Spartans",
-    "games_played": 2,
-    "tournament_points": 19,
-    "tournament_minutes": 69
-  },
-  {
-    "player_id": 4703411,
-    "player_name": "Trey Fort",
-    "team_id": 127,
-    "team_name": "Michigan State Spartans",
-    "games_played": 2,
-    "tournament_points": 19,
-    "tournament_minutes": 31
   },
   {
     "player_id": 5105642,
@@ -1573,15 +1618,6 @@
     "games_played": 1,
     "tournament_points": 19,
     "tournament_minutes": 29
-  },
-  {
-    "player_id": 5105841,
-    "player_name": "Felix Okpara",
-    "team_id": 2633,
-    "team_name": "Tennessee Volunteers",
-    "games_played": 2,
-    "tournament_points": 19,
-    "tournament_minutes": 63
   },
   {
     "player_id": 5195079,
@@ -1692,15 +1728,6 @@
     "tournament_minutes": 28
   },
   {
-    "player_id": 5101648,
-    "player_name": "Bishop Boswell",
-    "team_id": 2633,
-    "team_name": "Tennessee Volunteers",
-    "games_played": 2,
-    "tournament_points": 18,
-    "tournament_minutes": 57
-  },
-  {
     "player_id": 5252505,
     "player_name": "DJ Armstrong Jr.",
     "team_id": 2378,
@@ -1708,6 +1735,15 @@
     "games_played": 1,
     "tournament_points": 17,
     "tournament_minutes": 36
+  },
+  {
+    "player_id": 5101798,
+    "player_name": "Cam Ward",
+    "team_id": 127,
+    "team_name": "Michigan State Spartans",
+    "games_played": 3,
+    "tournament_points": 17,
+    "tournament_minutes": 52
   },
   {
     "player_id": 5175368,
@@ -1899,15 +1935,6 @@
     "tournament_minutes": 32
   },
   {
-    "player_id": 5164559,
-    "player_name": "Nate Ament",
-    "team_id": 2633,
-    "team_name": "Tennessee Volunteers",
-    "games_played": 2,
-    "tournament_points": 16,
-    "tournament_minutes": 47
-  },
-  {
     "player_id": 5196866,
     "player_name": "Caden Diggs",
     "team_id": 2378,
@@ -1953,13 +1980,13 @@
     "tournament_minutes": 24
   },
   {
-    "player_id": 5101798,
-    "player_name": "Cam Ward",
+    "player_id": 5196931,
+    "player_name": "Jordan Scott",
     "team_id": 127,
     "team_name": "Michigan State Spartans",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 15,
-    "tournament_minutes": 33
+    "tournament_minutes": 67
   },
   {
     "player_id": 5312348,
@@ -2187,6 +2214,15 @@
     "tournament_minutes": 37
   },
   {
+    "player_id": 4895753,
+    "player_name": "Jayden Ross",
+    "team_id": 41,
+    "team_name": "UConn Huskies",
+    "games_played": 3,
+    "tournament_points": 14,
+    "tournament_minutes": 62
+  },
+  {
     "player_id": 5107198,
     "player_name": "Cruz Davis",
     "team_id": 2275,
@@ -2286,15 +2322,6 @@
     "tournament_minutes": 28
   },
   {
-    "player_id": 4895753,
-    "player_name": "Jayden Ross",
-    "team_id": 41,
-    "team_name": "UConn Huskies",
-    "games_played": 2,
-    "tournament_points": 13,
-    "tournament_minutes": 43
-  },
-  {
     "player_id": 5242985,
     "player_name": "Travis Harper II",
     "team_id": 2634,
@@ -2302,6 +2329,15 @@
     "games_played": 1,
     "tournament_points": 13,
     "tournament_minutes": 35
+  },
+  {
+    "player_id": 5217196,
+    "player_name": "Jamarion Batemon",
+    "team_id": 66,
+    "team_name": "Iowa State Cyclones",
+    "games_played": 3,
+    "tournament_points": 13,
+    "tournament_minutes": 58
   },
   {
     "player_id": 5314630,
@@ -2610,13 +2646,13 @@
     "tournament_minutes": 37
   },
   {
-    "player_id": 5217196,
-    "player_name": "Jamarion Batemon",
+    "player_id": 5281369,
+    "player_name": "Dominykas Pleta",
     "team_id": 66,
     "team_name": "Iowa State Cyclones",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 11,
-    "tournament_minutes": 40
+    "tournament_minutes": 32
   },
   {
     "player_id": 5238207,
@@ -2635,6 +2671,15 @@
     "games_played": 2,
     "tournament_points": 11,
     "tournament_minutes": 47
+  },
+  {
+    "player_id": 5196914,
+    "player_name": "Amari Evans",
+    "team_id": 2633,
+    "team_name": "Tennessee Volunteers",
+    "games_played": 3,
+    "tournament_points": 11,
+    "tournament_minutes": 55
   },
   {
     "player_id": 5239554,
@@ -2691,22 +2736,13 @@
     "tournament_minutes": 19
   },
   {
-    "player_id": 5196931,
-    "player_name": "Jordan Scott",
-    "team_id": 127,
-    "team_name": "Michigan State Spartans",
-    "games_played": 2,
-    "tournament_points": 10,
-    "tournament_minutes": 44
-  },
-  {
     "player_id": 4873111,
     "player_name": "Kur Teng",
     "team_id": 127,
     "team_name": "Michigan State Spartans",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 10,
-    "tournament_minutes": 31
+    "tournament_minutes": 51
   },
   {
     "player_id": 4711258,
@@ -2826,22 +2862,13 @@
     "tournament_minutes": 31
   },
   {
-    "player_id": 5281369,
-    "player_name": "Dominykas Pleta",
-    "team_id": 66,
-    "team_name": "Iowa State Cyclones",
-    "games_played": 2,
-    "tournament_points": 10,
-    "tournament_minutes": 21
-  },
-  {
     "player_id": 5241380,
     "player_name": "Dominick Nelson",
     "team_id": 66,
     "team_name": "Iowa State Cyclones",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 10,
-    "tournament_minutes": 23
+    "tournament_minutes": 26
   },
   {
     "player_id": 5311844,
@@ -2851,15 +2878,6 @@
     "games_played": 2,
     "tournament_points": 10,
     "tournament_minutes": 41
-  },
-  {
-    "player_id": 4685687,
-    "player_name": "Jaylen Carey",
-    "team_id": 2633,
-    "team_name": "Tennessee Volunteers",
-    "games_played": 2,
-    "tournament_points": 10,
-    "tournament_minutes": 23
   },
   {
     "player_id": 5105604,
@@ -2979,13 +2997,13 @@
     "tournament_minutes": 31
   },
   {
-    "player_id": 4895737,
-    "player_name": "Solo Ball",
+    "player_id": 4683861,
+    "player_name": "Malachi Smith",
     "team_id": 41,
     "team_name": "UConn Huskies",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 9,
-    "tournament_minutes": 38
+    "tournament_minutes": 81
   },
   {
     "player_id": 5240005,
@@ -3013,6 +3031,24 @@
     "games_played": 1,
     "tournament_points": 9,
     "tournament_minutes": 41
+  },
+  {
+    "player_id": 5142710,
+    "player_name": "DeWayne Brown II",
+    "team_id": 2633,
+    "team_name": "Tennessee Volunteers",
+    "games_played": 3,
+    "tournament_points": 9,
+    "tournament_minutes": 22
+  },
+  {
+    "player_id": 5311527,
+    "player_name": "Ethan Burg",
+    "team_id": 2633,
+    "team_name": "Tennessee Volunteers",
+    "games_played": 3,
+    "tournament_points": 9,
+    "tournament_minutes": 49
   },
   {
     "player_id": 5176273,
@@ -3240,15 +3276,6 @@
     "tournament_minutes": 29
   },
   {
-    "player_id": 5196914,
-    "player_name": "Amari Evans",
-    "team_id": 2633,
-    "team_name": "Tennessee Volunteers",
-    "games_played": 2,
-    "tournament_points": 8,
-    "tournament_minutes": 41
-  },
-  {
     "player_id": 5182581,
     "player_name": "Jose Roberto Tanchyn",
     "team_id": 2378,
@@ -3355,15 +3382,6 @@
     "games_played": 2,
     "tournament_points": 7,
     "tournament_minutes": 38
-  },
-  {
-    "player_id": 5311527,
-    "player_name": "Ethan Burg",
-    "team_id": 2633,
-    "team_name": "Tennessee Volunteers",
-    "games_played": 2,
-    "tournament_points": 7,
-    "tournament_minutes": 29
   },
   {
     "player_id": 5144105,
@@ -3562,15 +3580,6 @@
     "games_played": 1,
     "tournament_points": 6,
     "tournament_minutes": 17
-  },
-  {
-    "player_id": 4683861,
-    "player_name": "Malachi Smith",
-    "team_id": 41,
-    "team_name": "UConn Huskies",
-    "games_played": 2,
-    "tournament_points": 6,
-    "tournament_minutes": 64
   },
   {
     "player_id": 5105537,
@@ -3879,15 +3888,6 @@
     "tournament_minutes": 17
   },
   {
-    "player_id": 5142710,
-    "player_name": "DeWayne Brown II",
-    "team_id": 2633,
-    "team_name": "Tennessee Volunteers",
-    "games_played": 2,
-    "tournament_points": 5,
-    "tournament_minutes": 14
-  },
-  {
     "player_id": 4683785,
     "player_name": "Simeon Wilcher",
     "team_id": 251,
@@ -3964,9 +3964,9 @@
     "player_name": "Denham Wojcik",
     "team_id": 127,
     "team_name": "Michigan State Spartans",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 4,
-    "tournament_minutes": 11
+    "tournament_minutes": 15
   },
   {
     "player_id": 4432175,
@@ -4099,9 +4099,27 @@
     "player_name": "Eric Reibe",
     "team_id": 41,
     "team_name": "UConn Huskies",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 4,
-    "tournament_minutes": 16
+    "tournament_minutes": 23
+  },
+  {
+    "player_id": 4685647,
+    "player_name": "Jaylin Stewart",
+    "team_id": 41,
+    "team_name": "UConn Huskies",
+    "games_played": 3,
+    "tournament_points": 4,
+    "tournament_minutes": 3
+  },
+  {
+    "player_id": 5054083,
+    "player_name": "Silas Demary Jr.",
+    "team_id": 41,
+    "team_name": "UConn Huskies",
+    "games_played": 3,
+    "tournament_points": 4,
+    "tournament_minutes": 44
   },
   {
     "player_id": 5314491,
@@ -4216,7 +4234,7 @@
     "player_name": "Jesse McCulloch",
     "team_id": 127,
     "team_name": "Michigan State Spartans",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 3,
     "tournament_minutes": 3
   },
@@ -4666,18 +4684,9 @@
     "player_name": "Alec Millender",
     "team_id": 41,
     "team_name": "UConn Huskies",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 2,
     "tournament_minutes": 8
-  },
-  {
-    "player_id": 5054083,
-    "player_name": "Silas Demary Jr.",
-    "team_id": 41,
-    "team_name": "UConn Huskies",
-    "games_played": 2,
-    "tournament_points": 2,
-    "tournament_minutes": 21
   },
   {
     "player_id": 5169569,
@@ -4756,7 +4765,7 @@
     "player_name": "Joshua Jefferson",
     "team_id": 66,
     "team_name": "Iowa State Cyclones",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 2,
     "tournament_minutes": 3
   },
@@ -4765,7 +4774,7 @@
     "player_name": "Eric Mulder",
     "team_id": 66,
     "team_name": "Iowa State Cyclones",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 2,
     "tournament_minutes": 3
   },
@@ -6241,7 +6250,7 @@
     "player_name": "Colin Walton",
     "team_id": 127,
     "team_name": "Michigan State Spartans",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 0,
     "tournament_minutes": 1
   },
@@ -6250,7 +6259,7 @@
     "player_name": "Brennan Walton",
     "team_id": 127,
     "team_name": "Michigan State Spartans",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 0,
     "tournament_minutes": 1
   },
@@ -6259,7 +6268,7 @@
     "player_name": "Nick Sanders",
     "team_id": 127,
     "team_name": "Michigan State Spartans",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 0,
     "tournament_minutes": 1
   },
@@ -6268,7 +6277,7 @@
     "player_name": "Kaleb Glenn",
     "team_id": 127,
     "team_name": "Michigan State Spartans",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -6277,7 +6286,7 @@
     "player_name": "Divine Ugochukwu",
     "team_id": 127,
     "team_name": "Michigan State Spartans",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -8059,7 +8068,7 @@
     "player_name": "Jacob Ross",
     "team_id": 41,
     "team_name": "UConn Huskies",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -8068,25 +8077,16 @@
     "player_name": "Dwayne Koroma",
     "team_id": 41,
     "team_name": "UConn Huskies",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 0,
     "tournament_minutes": 1
-  },
-  {
-    "player_id": 4685647,
-    "player_name": "Jaylin Stewart",
-    "team_id": 41,
-    "team_name": "UConn Huskies",
-    "games_played": 2,
-    "tournament_points": 0,
-    "tournament_minutes": 0
   },
   {
     "player_id": 5312036,
     "player_name": "Rrezon Elezaj",
     "team_id": 41,
     "team_name": "UConn Huskies",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -8095,7 +8095,7 @@
     "player_name": "Uroš Paunovic",
     "team_id": 41,
     "team_name": "UConn Huskies",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 0,
     "tournament_minutes": 1
   },
@@ -8104,7 +8104,7 @@
     "player_name": "Jacob Furphy",
     "team_id": 41,
     "team_name": "UConn Huskies",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 0,
     "tournament_minutes": 1
   },
@@ -8842,7 +8842,7 @@
     "player_name": "Anthony Rise",
     "team_id": 66,
     "team_name": "Iowa State Cyclones",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 0,
     "tournament_minutes": 1
   },
@@ -8851,7 +8851,7 @@
     "player_name": "Cade Kelderman",
     "team_id": 66,
     "team_name": "Iowa State Cyclones",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 0,
     "tournament_minutes": 2
   },
@@ -8860,7 +8860,7 @@
     "player_name": "Xzavion Mitchell",
     "team_id": 66,
     "team_name": "Iowa State Cyclones",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -8869,7 +8869,7 @@
     "player_name": "Mason Williams",
     "team_id": 66,
     "team_name": "Iowa State Cyclones",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -9148,7 +9148,7 @@
     "player_name": "Troy Henderson",
     "team_id": 2633,
     "team_name": "Tennessee Volunteers",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 0,
     "tournament_minutes": 2
   },
@@ -9157,7 +9157,7 @@
     "player_name": "Clarence Massamba",
     "team_id": 2633,
     "team_name": "Tennessee Volunteers",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 0,
     "tournament_minutes": 1
   },
@@ -9166,7 +9166,7 @@
     "player_name": "Amaree Abram",
     "team_id": 2633,
     "team_name": "Tennessee Volunteers",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 0,
     "tournament_minutes": 1
   },
@@ -9175,7 +9175,7 @@
     "player_name": "Cade Phillips",
     "team_id": 2633,
     "team_name": "Tennessee Volunteers",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -9184,7 +9184,7 @@
     "player_name": "Campbell Duncan",
     "team_id": 2633,
     "team_name": "Tennessee Volunteers",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -9193,7 +9193,7 @@
     "player_name": "Gavin Paull",
     "team_id": 2633,
     "team_name": "Tennessee Volunteers",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -9202,7 +9202,7 @@
     "player_name": "Grant Hurst",
     "team_id": 2633,
     "team_name": "Tennessee Volunteers",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 0,
     "tournament_minutes": 0
   },

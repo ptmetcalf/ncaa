@@ -574,8 +574,8 @@
     "date": "20260327",
     "name": "Michigan State Spartans at UConn Huskies",
     "short_name": "MSU VS CONN",
-    "completed": false,
-    "status": "In Progress",
+    "completed": true,
+    "status": "Final",
     "home_team_id": 41,
     "away_team_id": 127
   },
@@ -594,8 +594,8 @@
     "date": "20260327",
     "name": "Tennessee Volunteers at Iowa State Cyclones",
     "short_name": "TENN VS ISU",
-    "completed": false,
-    "status": "In Progress",
+    "completed": true,
+    "status": "Final",
     "home_team_id": 66,
     "away_team_id": 2633
   },

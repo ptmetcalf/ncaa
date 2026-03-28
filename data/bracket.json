@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-28T03:18:34.790Z",
+  "generated_at": "2026-03-28T04:57:29.093Z",
   "year": 2026,
   "available": true,
   "source": "espn_bracket_page",
@@ -1679,17 +1679,17 @@
       "region_id": 1,
       "bracket_location": 2,
       "date": "2026-03-28T01:55:00Z",
-      "status_state": "in",
-      "status_desc": "In Progress",
-      "status_detail": "16:52 - 2nd",
+      "status_state": "post",
+      "status_desc": "Final",
+      "status_detail": "Final",
       "location": "Washington, DC",
-      "link": "/mens-college-basketball/game/_/gameId/401856571",
+      "link": "/mens-college-basketball/game/_/gameId/401856571/michigan-st-uconn",
       "competitor_one": {
         "team_id": 127,
         "team_name": "Michigan State",
         "abbreviation": "MSU",
         "seed": 3,
-        "score": 32,
+        "score": 63,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/127.png"
       },
@@ -1698,8 +1698,8 @@
         "team_name": "UConn",
         "abbreviation": "CONN",
         "seed": 2,
-        "score": 35,
-        "winner": false,
+        "score": 67,
+        "winner": true,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/41.png"
       }
     },
@@ -1859,18 +1859,18 @@
       "region_id": 1,
       "bracket_location": 8,
       "date": "2026-03-28T02:35:00Z",
-      "status_state": "in",
-      "status_desc": "In Progress",
-      "status_detail": "2:36 - 1st",
+      "status_state": "post",
+      "status_desc": "Final",
+      "status_detail": "Final",
       "location": "Chicago, IL",
-      "link": "/mens-college-basketball/game/_/gameId/401856573",
+      "link": "/mens-college-basketball/game/_/gameId/401856573/tennessee-iowa-state",
       "competitor_one": {
         "team_id": 2633,
         "team_name": "Tennessee",
         "abbreviation": "TENN",
         "seed": 6,
-        "score": 30,
-        "winner": false,
+        "score": 76,
+        "winner": true,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2633.png"
       },
       "competitor_two": {
@@ -1878,7 +1878,7 @@
         "team_name": "Iowa State",
         "abbreviation": "ISU",
         "seed": 2,
-        "score": 28,
+        "score": 62,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/66.png"
       }
@@ -1888,12 +1888,12 @@
       "round_id": 4,
       "region_id": 1,
       "bracket_location": 1,
-      "date": "2026-03-29T04:00:00Z",
+      "date": "2026-03-29T21:05:00Z",
       "status_state": "pre",
       "status_desc": "Scheduled",
-      "status_detail": "3/29 - TBD",
+      "status_detail": "3/29 - 5:05 PM EDT",
       "location": "Washington, DC",
-      "link": "/mens-college-basketball/game/_/gameId/401856577",
+      "link": "/mens-college-basketball/game/_/gameId/401856577/uconn-duke",
       "competitor_one": {
         "team_id": 150,
         "team_name": "Duke",
@@ -1903,7 +1903,15 @@
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/150.png"
       },
-      "competitor_two": null
+      "competitor_two": {
+        "team_id": 41,
+        "team_name": "UConn",
+        "abbreviation": "CONN",
+        "seed": 2,
+        "score": 0,
+        "winner": false,
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/41.png"
+      }
     },
     {
       "matchup_id": 401856574,
@@ -1970,12 +1978,12 @@
       "round_id": 4,
       "region_id": 1,
       "bracket_location": 4,
-      "date": "2026-03-29T04:00:00Z",
+      "date": "2026-03-29T18:15:00Z",
       "status_state": "pre",
       "status_desc": "Scheduled",
-      "status_detail": "3/29 - TBD",
+      "status_detail": "3/29 - 2:15 PM EDT",
       "location": "Chicago, IL",
-      "link": "/mens-college-basketball/game/_/gameId/401856576",
+      "link": "/mens-college-basketball/game/_/gameId/401856576/tennessee-michigan",
       "competitor_one": {
         "team_id": 130,
         "team_name": "Michigan",
@@ -1985,7 +1993,15 @@
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/130.png"
       },
-      "competitor_two": null
+      "competitor_two": {
+        "team_id": 2633,
+        "team_name": "Tennessee",
+        "abbreviation": "TENN",
+        "seed": 6,
+        "score": 0,
+        "winner": false,
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2633.png"
+      }
     }
   ]
 }
