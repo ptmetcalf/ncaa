@@ -17518,5 +17518,335 @@
     "team_name": "Duke Blue Devils",
     "minutes": null,
     "points": 0
+  },
+  {
+    "event_id": 401856572,
+    "date": "20260327",
+    "player_id": 5144139,
+    "player_name": "London Jemison",
+    "team_id": 333,
+    "team_name": "Alabama Crimson Tide",
+    "minutes": 23,
+    "points": 7
+  },
+  {
+    "event_id": 401856572,
+    "date": "20260327",
+    "player_id": 5101833,
+    "player_name": "Amari Allen",
+    "team_id": 333,
+    "team_name": "Alabama Crimson Tide",
+    "minutes": 22,
+    "points": 4
+  },
+  {
+    "event_id": 401856572,
+    "date": "20260327",
+    "player_id": 4873184,
+    "player_name": "Aiden Sherrell",
+    "team_id": 333,
+    "team_name": "Alabama Crimson Tide",
+    "minutes": 31,
+    "points": 10
+  },
+  {
+    "event_id": 401856572,
+    "date": "20260327",
+    "player_id": 4873090,
+    "player_name": "Labaron Philon Jr.",
+    "team_id": 333,
+    "team_name": "Alabama Crimson Tide",
+    "minutes": 39,
+    "points": 35
+  },
+  {
+    "event_id": 401856572,
+    "date": "20260327",
+    "player_id": 4702484,
+    "player_name": "Latrell Wrightsell",
+    "team_id": 333,
+    "team_name": "Alabama Crimson Tide",
+    "minutes": 37,
+    "points": 15
+  },
+  {
+    "event_id": 401856572,
+    "date": "20260327",
+    "player_id": 4685658,
+    "player_name": "Taylor Bol Bowen",
+    "team_id": 333,
+    "team_name": "Alabama Crimson Tide",
+    "minutes": 19,
+    "points": 3
+  },
+  {
+    "event_id": 401856572,
+    "date": "20260327",
+    "player_id": 5105668,
+    "player_name": "Noah Williamson",
+    "team_id": 333,
+    "team_name": "Alabama Crimson Tide",
+    "minutes": 3,
+    "points": 0
+  },
+  {
+    "event_id": 401856572,
+    "date": "20260327",
+    "player_id": 5101656,
+    "player_name": "Jalil Bethea",
+    "team_id": 333,
+    "team_name": "Alabama Crimson Tide",
+    "minutes": 1,
+    "points": 0
+  },
+  {
+    "event_id": 401856572,
+    "date": "20260327",
+    "player_id": 4709141,
+    "player_name": "Houston Mallette",
+    "team_id": 333,
+    "team_name": "Alabama Crimson Tide",
+    "minutes": 25,
+    "points": 3
+  },
+  {
+    "event_id": 401856572,
+    "date": "20260327",
+    "player_id": 5325011,
+    "player_name": "Jacob Martin",
+    "team_id": 333,
+    "team_name": "Alabama Crimson Tide",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856572,
+    "date": "20260327",
+    "player_id": 5241440,
+    "player_name": "Keitenn Bristow",
+    "team_id": 333,
+    "team_name": "Alabama Crimson Tide",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856572,
+    "date": "20260327",
+    "player_id": 5311499,
+    "player_name": "Collins Onyejiaka",
+    "team_id": 333,
+    "team_name": "Alabama Crimson Tide",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856572,
+    "date": "20260327",
+    "player_id": 5325014,
+    "player_name": "Jack Fagan",
+    "team_id": 333,
+    "team_name": "Alabama Crimson Tide",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856572,
+    "date": "20260327",
+    "player_id": 5325013,
+    "player_name": "Klark James",
+    "team_id": 333,
+    "team_name": "Alabama Crimson Tide",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856572,
+    "date": "20260327",
+    "player_id": 5101805,
+    "player_name": "Davion Hannah",
+    "team_id": 333,
+    "team_name": "Alabama Crimson Tide",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856572,
+    "date": "20260327",
+    "player_id": 4684276,
+    "player_name": "Aden Holloway",
+    "team_id": 333,
+    "team_name": "Alabama Crimson Tide",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856572,
+    "date": "20260327",
+    "player_id": 4433289,
+    "player_name": "Preston Murphy Jr.",
+    "team_id": 333,
+    "team_name": "Alabama Crimson Tide",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856572,
+    "date": "20260327",
+    "player_id": 5175737,
+    "player_name": "Yaxel Lendeborg",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": 34,
+    "points": 23
+  },
+  {
+    "event_id": 401856572,
+    "date": "20260327",
+    "player_id": 4873153,
+    "player_name": "Morez Johnson Jr.",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": 24,
+    "points": 7
+  },
+  {
+    "event_id": 401856572,
+    "date": "20260327",
+    "player_id": 5174983,
+    "player_name": "Aday Mara",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": 27,
+    "points": 8
+  },
+  {
+    "event_id": 401856572,
+    "date": "20260327",
+    "player_id": 4869764,
+    "player_name": "Elliot Cadeau",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": 34,
+    "points": 17
+  },
+  {
+    "event_id": 401856572,
+    "date": "20260327",
+    "player_id": 4433138,
+    "player_name": "Nimari Burnett",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": 17,
+    "points": 2
+  },
+  {
+    "event_id": 401856572,
+    "date": "20260327",
+    "player_id": 4684596,
+    "player_name": "Will Tschetter",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": 9,
+    "points": 0
+  },
+  {
+    "event_id": 401856572,
+    "date": "20260327",
+    "player_id": 5105836,
+    "player_name": "Roddy Gayle Jr.",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": 27,
+    "points": 16
+  },
+  {
+    "event_id": 401856572,
+    "date": "20260327",
+    "player_id": 5041954,
+    "player_name": "Trey McKenney",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": 28,
+    "points": 17
+  },
+  {
+    "event_id": 401856572,
+    "date": "20260327",
+    "player_id": 5244505,
+    "player_name": "Oscar Goodman",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856572,
+    "date": "20260327",
+    "player_id": 5174787,
+    "player_name": "Harrison Hochberg",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856572,
+    "date": "20260327",
+    "player_id": 5311988,
+    "player_name": "Malick Kordel",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856572,
+    "date": "20260327",
+    "player_id": 5311987,
+    "player_name": "Ricky Liburd",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856572,
+    "date": "20260327",
+    "player_id": 5239559,
+    "player_name": "Howard Eisley Jr.",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856572,
+    "date": "20260327",
+    "player_id": 5214641,
+    "player_name": "L.J. Cason",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856572,
+    "date": "20260327",
+    "player_id": 5174808,
+    "player_name": "Winters Grady",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856572,
+    "date": "20260327",
+    "player_id": 5106648,
+    "player_name": "Charlie May",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": null,
+    "points": 0
   }
 ]

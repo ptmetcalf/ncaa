@@ -9,6 +9,15 @@
     "tournament_minutes": 107
   },
   {
+    "player_id": 4873090,
+    "player_name": "Labaron Philon Jr.",
+    "team_id": 333,
+    "team_name": "Alabama Crimson Tide",
+    "games_played": 3,
+    "tournament_points": 73,
+    "tournament_minutes": 110
+  },
+  {
     "player_id": 4432243,
     "player_name": "Tramon Mark",
     "team_id": 251,
@@ -70,6 +79,15 @@
     "games_played": 3,
     "tournament_points": 57,
     "tournament_minutes": 108
+  },
+  {
+    "player_id": 5175737,
+    "player_name": "Yaxel Lendeborg",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "games_played": 3,
+    "tournament_points": 57,
+    "tournament_minutes": 93
   },
   {
     "player_id": 5082206,
@@ -160,6 +178,15 @@
     "games_played": 3,
     "tournament_points": 50,
     "tournament_minutes": 86
+  },
+  {
+    "player_id": 4702484,
+    "player_name": "Latrell Wrightsell",
+    "team_id": 333,
+    "team_name": "Alabama Crimson Tide",
+    "games_played": 3,
+    "tournament_points": 50,
+    "tournament_minutes": 92
   },
   {
     "player_id": 5107968,
@@ -270,6 +297,24 @@
     "tournament_minutes": 67
   },
   {
+    "player_id": 4873153,
+    "player_name": "Morez Johnson Jr.",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "games_played": 3,
+    "tournament_points": 43,
+    "tournament_minutes": 77
+  },
+  {
+    "player_id": 5174983,
+    "player_name": "Aday Mara",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "games_played": 3,
+    "tournament_points": 43,
+    "tournament_minutes": 74
+  },
+  {
     "player_id": 5175007,
     "player_name": "Andrej Stojakovic",
     "team_id": 356,
@@ -369,15 +414,6 @@
     "tournament_minutes": 95
   },
   {
-    "player_id": 4873090,
-    "player_name": "Labaron Philon Jr.",
-    "team_id": 333,
-    "team_name": "Alabama Crimson Tide",
-    "games_played": 2,
-    "tournament_points": 38,
-    "tournament_minutes": 71
-  },
-  {
     "player_id": 5311896,
     "player_name": "Ivan Kharchenkov",
     "team_id": 12,
@@ -412,15 +448,6 @@
     "games_played": 2,
     "tournament_points": 36,
     "tournament_minutes": 74
-  },
-  {
-    "player_id": 4873153,
-    "player_name": "Morez Johnson Jr.",
-    "team_id": 130,
-    "team_name": "Michigan Wolverines",
-    "games_played": 2,
-    "tournament_points": 36,
-    "tournament_minutes": 53
   },
   {
     "player_id": 5105527,
@@ -468,13 +495,13 @@
     "tournament_minutes": 40
   },
   {
-    "player_id": 5174983,
-    "player_name": "Aday Mara",
+    "player_id": 5041954,
+    "player_name": "Trey McKenney",
     "team_id": 130,
     "team_name": "Michigan Wolverines",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 35,
-    "tournament_minutes": 47
+    "tournament_minutes": 76
   },
   {
     "player_id": 5214642,
@@ -486,13 +513,13 @@
     "tournament_minutes": 72
   },
   {
-    "player_id": 4702484,
-    "player_name": "Latrell Wrightsell",
+    "player_id": 4873184,
+    "player_name": "Aiden Sherrell",
     "team_id": 333,
     "team_name": "Alabama Crimson Tide",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 35,
-    "tournament_minutes": 55
+    "tournament_minutes": 78
   },
   {
     "player_id": 5248302,
@@ -522,13 +549,13 @@
     "tournament_minutes": 94
   },
   {
-    "player_id": 5175737,
-    "player_name": "Yaxel Lendeborg",
+    "player_id": 4869764,
+    "player_name": "Elliot Cadeau",
     "team_id": 130,
     "team_name": "Michigan Wolverines",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 34,
-    "tournament_minutes": 59
+    "tournament_minutes": 97
   },
   {
     "player_id": 5174657,
@@ -556,6 +583,15 @@
     "games_played": 3,
     "tournament_points": 34,
     "tournament_minutes": 77
+  },
+  {
+    "player_id": 5105836,
+    "player_name": "Roddy Gayle Jr.",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "games_played": 3,
+    "tournament_points": 33,
+    "tournament_minutes": 70
   },
   {
     "player_id": 4592677,
@@ -837,6 +873,15 @@
     "tournament_minutes": 45
   },
   {
+    "player_id": 4433138,
+    "player_name": "Nimari Burnett",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "games_played": 3,
+    "tournament_points": 28,
+    "tournament_minutes": 67
+  },
+  {
     "player_id": 4838721,
     "player_name": "Tyler Nickel",
     "team_id": 238,
@@ -936,6 +981,15 @@
     "tournament_minutes": 66
   },
   {
+    "player_id": 5101833,
+    "player_name": "Amari Allen",
+    "team_id": 333,
+    "team_name": "Alabama Crimson Tide",
+    "games_played": 3,
+    "tournament_points": 27,
+    "tournament_minutes": 80
+  },
+  {
     "player_id": 5176280,
     "player_name": "Kael Combs",
     "team_id": 2294,
@@ -952,15 +1006,6 @@
     "games_played": 2,
     "tournament_points": 27,
     "tournament_minutes": 52
-  },
-  {
-    "player_id": 4433138,
-    "player_name": "Nimari Burnett",
-    "team_id": 130,
-    "team_name": "Michigan Wolverines",
-    "games_played": 2,
-    "tournament_points": 26,
-    "tournament_minutes": 50
   },
   {
     "player_id": 5105571,
@@ -1015,15 +1060,6 @@
     "games_played": 2,
     "tournament_points": 25,
     "tournament_minutes": 76
-  },
-  {
-    "player_id": 4873184,
-    "player_name": "Aiden Sherrell",
-    "team_id": 333,
-    "team_name": "Alabama Crimson Tide",
-    "games_played": 2,
-    "tournament_points": 25,
-    "tournament_minutes": 47
   },
   {
     "player_id": 5174291,
@@ -1107,13 +1143,13 @@
     "tournament_minutes": 82
   },
   {
-    "player_id": 5101833,
-    "player_name": "Amari Allen",
+    "player_id": 4685658,
+    "player_name": "Taylor Bol Bowen",
     "team_id": 333,
     "team_name": "Alabama Crimson Tide",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 23,
-    "tournament_minutes": 58
+    "tournament_minutes": 65
   },
   {
     "player_id": 5238195,
@@ -1413,13 +1449,13 @@
     "tournament_minutes": 33
   },
   {
-    "player_id": 4685658,
-    "player_name": "Taylor Bol Bowen",
+    "player_id": 5144139,
+    "player_name": "London Jemison",
     "team_id": 333,
     "team_name": "Alabama Crimson Tide",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 20,
-    "tournament_minutes": 46
+    "tournament_minutes": 65
   },
   {
     "player_id": 5242989,
@@ -1602,15 +1638,6 @@
     "tournament_minutes": 40
   },
   {
-    "player_id": 5041954,
-    "player_name": "Trey McKenney",
-    "team_id": 130,
-    "team_name": "Michigan Wolverines",
-    "games_played": 2,
-    "tournament_points": 18,
-    "tournament_minutes": 48
-  },
-  {
     "player_id": 4897432,
     "player_name": "Sam Hoiberg",
     "team_id": 158,
@@ -1647,6 +1674,15 @@
     "tournament_minutes": 61
   },
   {
+    "player_id": 4709141,
+    "player_name": "Houston Mallette",
+    "team_id": 333,
+    "team_name": "Alabama Crimson Tide",
+    "games_played": 3,
+    "tournament_points": 18,
+    "tournament_minutes": 70
+  },
+  {
     "player_id": 5177215,
     "player_name": "Solomon Callaghan",
     "team_id": 2750,
@@ -1672,24 +1708,6 @@
     "games_played": 1,
     "tournament_points": 17,
     "tournament_minutes": 36
-  },
-  {
-    "player_id": 4869764,
-    "player_name": "Elliot Cadeau",
-    "team_id": 130,
-    "team_name": "Michigan Wolverines",
-    "games_played": 2,
-    "tournament_points": 17,
-    "tournament_minutes": 63
-  },
-  {
-    "player_id": 5105836,
-    "player_name": "Roddy Gayle Jr.",
-    "team_id": 130,
-    "team_name": "Michigan Wolverines",
-    "games_played": 2,
-    "tournament_points": 17,
-    "tournament_minutes": 43
   },
   {
     "player_id": 5175368,
@@ -2025,15 +2043,6 @@
     "tournament_minutes": 39
   },
   {
-    "player_id": 4709141,
-    "player_name": "Houston Mallette",
-    "team_id": 333,
-    "team_name": "Alabama Crimson Tide",
-    "games_played": 2,
-    "tournament_points": 15,
-    "tournament_minutes": 45
-  },
-  {
     "player_id": 5105449,
     "player_name": "RJ Godfrey",
     "team_id": 228,
@@ -2284,15 +2293,6 @@
     "games_played": 2,
     "tournament_points": 13,
     "tournament_minutes": 43
-  },
-  {
-    "player_id": 5144139,
-    "player_name": "London Jemison",
-    "team_id": 333,
-    "team_name": "Alabama Crimson Tide",
-    "games_played": 2,
-    "tournament_points": 13,
-    "tournament_minutes": 42
   },
   {
     "player_id": 5242985,
@@ -2587,9 +2587,9 @@
     "player_name": "Noah Williamson",
     "team_id": 333,
     "team_name": "Alabama Crimson Tide",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 11,
-    "tournament_minutes": 17
+    "tournament_minutes": 20
   },
   {
     "player_id": 5107144,
@@ -3100,9 +3100,9 @@
     "player_name": "Will Tschetter",
     "team_id": 130,
     "team_name": "Michigan Wolverines",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 8,
-    "tournament_minutes": 27
+    "tournament_minutes": 36
   },
   {
     "player_id": 5174672,
@@ -4225,7 +4225,7 @@
     "player_name": "Oscar Goodman",
     "team_id": 130,
     "team_name": "Michigan Wolverines",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 3,
     "tournament_minutes": 4
   },
@@ -4522,7 +4522,7 @@
     "player_name": "Malick Kordel",
     "team_id": 130,
     "team_name": "Michigan Wolverines",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 2,
     "tournament_minutes": 2
   },
@@ -6592,7 +6592,7 @@
     "player_name": "Howard Eisley Jr.",
     "team_id": 130,
     "team_name": "Michigan Wolverines",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 0,
     "tournament_minutes": 2
   },
@@ -6601,7 +6601,7 @@
     "player_name": "Charlie May",
     "team_id": 130,
     "team_name": "Michigan Wolverines",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 0,
     "tournament_minutes": 2
   },
@@ -6610,7 +6610,7 @@
     "player_name": "Harrison Hochberg",
     "team_id": 130,
     "team_name": "Michigan Wolverines",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -6619,7 +6619,7 @@
     "player_name": "Ricky Liburd",
     "team_id": 130,
     "team_name": "Michigan Wolverines",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -6628,7 +6628,7 @@
     "player_name": "L.J. Cason",
     "team_id": 130,
     "team_name": "Michigan Wolverines",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -6637,7 +6637,7 @@
     "player_name": "Winters Grady",
     "team_id": 130,
     "team_name": "Michigan Wolverines",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -8572,7 +8572,7 @@
     "player_name": "Jacob Martin",
     "team_id": 333,
     "team_name": "Alabama Crimson Tide",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 0,
     "tournament_minutes": 3
   },
@@ -8581,16 +8581,16 @@
     "player_name": "Jalil Bethea",
     "team_id": 333,
     "team_name": "Alabama Crimson Tide",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 0,
-    "tournament_minutes": 12
+    "tournament_minutes": 13
   },
   {
     "player_id": 4433289,
     "player_name": "Preston Murphy Jr.",
     "team_id": 333,
     "team_name": "Alabama Crimson Tide",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 0,
     "tournament_minutes": 4
   },
@@ -8599,7 +8599,7 @@
     "player_name": "Keitenn Bristow",
     "team_id": 333,
     "team_name": "Alabama Crimson Tide",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -8608,7 +8608,7 @@
     "player_name": "Collins Onyejiaka",
     "team_id": 333,
     "team_name": "Alabama Crimson Tide",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -8617,7 +8617,7 @@
     "player_name": "Jack Fagan",
     "team_id": 333,
     "team_name": "Alabama Crimson Tide",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -8626,7 +8626,7 @@
     "player_name": "Klark James",
     "team_id": 333,
     "team_name": "Alabama Crimson Tide",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -8635,7 +8635,7 @@
     "player_name": "Davion Hannah",
     "team_id": 333,
     "team_name": "Alabama Crimson Tide",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -8644,7 +8644,7 @@
     "player_name": "Aden Holloway",
     "team_id": 333,
     "team_name": "Alabama Crimson Tide",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
