@@ -18212,6 +18212,16 @@
   {
     "event_id": 401856573,
     "date": "20260327",
+    "player_id": 4848640,
+    "player_name": "Cade Phillips",
+    "team_id": 2633,
+    "team_name": "Tennessee Volunteers",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856573,
+    "date": "20260327",
     "player_id": 4685687,
     "player_name": "Jaylen Carey",
     "team_id": 2633,
@@ -18228,26 +18238,6 @@
     "team_name": "Tennessee Volunteers",
     "minutes": 20,
     "points": 2
-  },
-  {
-    "event_id": 401856573,
-    "date": "20260327",
-    "player_id": 5196914,
-    "player_name": "Amari Evans",
-    "team_id": 2633,
-    "team_name": "Tennessee Volunteers",
-    "minutes": 14,
-    "points": 3
-  },
-  {
-    "event_id": 401856573,
-    "date": "20260327",
-    "player_id": 4848640,
-    "player_name": "Cade Phillips",
-    "team_id": 2633,
-    "team_name": "Tennessee Volunteers",
-    "minutes": null,
-    "points": 0
   },
   {
     "event_id": 401856573,
@@ -18288,6 +18278,16 @@
     "team_name": "Tennessee Volunteers",
     "minutes": null,
     "points": 0
+  },
+  {
+    "event_id": 401856573,
+    "date": "20260327",
+    "player_id": 5196914,
+    "player_name": "Amari Evans",
+    "team_id": 2633,
+    "team_name": "Tennessee Volunteers",
+    "minutes": 14,
+    "points": 3
   },
   {
     "event_id": 401856573,
@@ -18372,26 +18372,6 @@
   {
     "event_id": 401856573,
     "date": "20260327",
-    "player_id": 5241380,
-    "player_name": "Dominick Nelson",
-    "team_id": 66,
-    "team_name": "Iowa State Cyclones",
-    "minutes": 4,
-    "points": 0
-  },
-  {
-    "event_id": 401856573,
-    "date": "20260327",
-    "player_id": 5217196,
-    "player_name": "Jamarion Batemon",
-    "team_id": 66,
-    "team_name": "Iowa State Cyclones",
-    "minutes": 18,
-    "points": 2
-  },
-  {
-    "event_id": 401856573,
-    "date": "20260327",
     "player_id": 5106790,
     "player_name": "Eric Mulder",
     "team_id": 66,
@@ -18428,6 +18408,26 @@
     "team_name": "Iowa State Cyclones",
     "minutes": null,
     "points": 0
+  },
+  {
+    "event_id": 401856573,
+    "date": "20260327",
+    "player_id": 5241380,
+    "player_name": "Dominick Nelson",
+    "team_id": 66,
+    "team_name": "Iowa State Cyclones",
+    "minutes": 3,
+    "points": 0
+  },
+  {
+    "event_id": 401856573,
+    "date": "20260327",
+    "player_id": 5217196,
+    "player_name": "Jamarion Batemon",
+    "team_id": 66,
+    "team_name": "Iowa State Cyclones",
+    "minutes": 17,
+    "points": 2
   },
   {
     "event_id": 401856573,
