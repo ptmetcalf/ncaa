@@ -585,7 +585,7 @@
     "name": "Alabama Crimson Tide at Michigan Wolverines",
     "short_name": "ALA VS MICH",
     "completed": false,
-    "status": "Scheduled",
+    "status": "Halftime",
     "home_team_id": 130,
     "away_team_id": 333
   },
@@ -598,5 +598,25 @@
     "status": "Scheduled",
     "home_team_id": 66,
     "away_team_id": 2633
+  },
+  {
+    "event_id": 401856574,
+    "date": "20260328",
+    "name": "Iowa Hawkeyes at Illinois Fighting Illini",
+    "short_name": "IOWA VS ILL",
+    "completed": false,
+    "status": "Scheduled",
+    "home_team_id": 356,
+    "away_team_id": 2294
+  },
+  {
+    "event_id": 401856575,
+    "date": "20260328",
+    "name": "Purdue Boilermakers at Arizona Wildcats",
+    "short_name": "PUR VS ARIZ",
+    "completed": false,
+    "status": "Scheduled",
+    "home_team_id": 12,
+    "away_team_id": 2509
   }
 ]
