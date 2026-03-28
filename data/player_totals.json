@@ -36,6 +36,15 @@
     "tournament_minutes": 96
   },
   {
+    "player_id": 5041935,
+    "player_name": "Cameron Boozer",
+    "team_id": 150,
+    "team_name": "Duke Blue Devils",
+    "games_played": 3,
+    "tournament_points": 63,
+    "tournament_minutes": 111
+  },
+  {
     "player_id": 4858604,
     "player_name": "Pryce Sandfort",
     "team_id": 158,
@@ -43,6 +52,15 @@
     "games_played": 3,
     "tournament_points": 63,
     "tournament_minutes": 109
+  },
+  {
+    "player_id": 5061585,
+    "player_name": "Isaiah Evans",
+    "team_id": 150,
+    "team_name": "Duke Blue Devils",
+    "games_played": 3,
+    "tournament_points": 58,
+    "tournament_minutes": 95
   },
   {
     "player_id": 5041951,
@@ -162,6 +180,15 @@
     "tournament_minutes": 90
   },
   {
+    "player_id": 5106262,
+    "player_name": "Zuby Ejiofor",
+    "team_id": 2599,
+    "team_name": "St. John's Red Storm",
+    "games_played": 3,
+    "tournament_points": 49,
+    "tournament_minutes": 101
+  },
+  {
     "player_id": 5041955,
     "player_name": "Darryn Peterson",
     "team_id": 2305,
@@ -187,6 +214,15 @@
     "games_played": 3,
     "tournament_points": 49,
     "tournament_minutes": 120
+  },
+  {
+    "player_id": 4565698,
+    "player_name": "Bryce Hopkins",
+    "team_id": 2599,
+    "team_name": "St. John's Red Storm",
+    "games_played": 3,
+    "tournament_points": 46,
+    "tournament_minutes": 97
   },
   {
     "player_id": 5105624,
@@ -241,15 +277,6 @@
     "games_played": 3,
     "tournament_points": 43,
     "tournament_minutes": 74
-  },
-  {
-    "player_id": 5041935,
-    "player_name": "Cameron Boozer",
-    "team_id": 150,
-    "team_name": "Duke Blue Devils",
-    "games_played": 2,
-    "tournament_points": 41,
-    "tournament_minutes": 72
   },
   {
     "player_id": 5105809,
@@ -423,6 +450,15 @@
     "tournament_minutes": 65
   },
   {
+    "player_id": 5041937,
+    "player_name": "Cayden Boozer",
+    "team_id": 150,
+    "team_name": "Duke Blue Devils",
+    "games_played": 3,
+    "tournament_points": 35,
+    "tournament_minutes": 98
+  },
+  {
     "player_id": 5142718,
     "player_name": "AJ Dybantsa",
     "team_id": 252,
@@ -522,15 +558,6 @@
     "tournament_minutes": 77
   },
   {
-    "player_id": 5061585,
-    "player_name": "Isaiah Evans",
-    "team_id": 150,
-    "team_name": "Duke Blue Devils",
-    "games_played": 2,
-    "tournament_points": 33,
-    "tournament_minutes": 61
-  },
-  {
     "player_id": 4592677,
     "player_name": "Rienk Mast",
     "team_id": 158,
@@ -583,15 +610,6 @@
     "games_played": 2,
     "tournament_points": 32,
     "tournament_minutes": 63
-  },
-  {
-    "player_id": 5106262,
-    "player_name": "Zuby Ejiofor",
-    "team_id": 2599,
-    "team_name": "St. John's Red Storm",
-    "games_played": 2,
-    "tournament_points": 32,
-    "tournament_minutes": 62
   },
   {
     "player_id": 4610012,
@@ -655,15 +673,6 @@
     "games_played": 3,
     "tournament_points": 31,
     "tournament_minutes": 91
-  },
-  {
-    "player_id": 4565698,
-    "player_name": "Bryce Hopkins",
-    "team_id": 2599,
-    "team_name": "St. John's Red Storm",
-    "games_played": 2,
-    "tournament_points": 31,
-    "tournament_minutes": 68
   },
   {
     "player_id": 4873203,
@@ -819,15 +828,6 @@
     "tournament_minutes": 71
   },
   {
-    "player_id": 5041937,
-    "player_name": "Cayden Boozer",
-    "team_id": 150,
-    "team_name": "Duke Blue Devils",
-    "games_played": 2,
-    "tournament_points": 28,
-    "tournament_minutes": 75
-  },
-  {
     "player_id": 5311928,
     "player_name": "Xavier Edmonds",
     "team_id": 2628,
@@ -844,6 +844,15 @@
     "games_played": 2,
     "tournament_points": 28,
     "tournament_minutes": 66
+  },
+  {
+    "player_id": 5106283,
+    "player_name": "Dillon Mitchell",
+    "team_id": 2599,
+    "team_name": "St. John's Red Storm",
+    "games_played": 3,
+    "tournament_points": 28,
+    "tournament_minutes": 100
   },
   {
     "player_id": 4711304,
@@ -981,6 +990,15 @@
     "tournament_minutes": 75
   },
   {
+    "player_id": 5240539,
+    "player_name": "Ruben Prey",
+    "team_id": 2599,
+    "team_name": "St. John's Red Storm",
+    "games_played": 3,
+    "tournament_points": 25,
+    "tournament_minutes": 38
+  },
+  {
     "player_id": 5178207,
     "player_name": "Dominique Daniels Jr.",
     "team_id": 2856,
@@ -1015,6 +1033,24 @@
     "games_played": 1,
     "tournament_points": 25,
     "tournament_minutes": 37
+  },
+  {
+    "player_id": 5105337,
+    "player_name": "Maliq Brown",
+    "team_id": 150,
+    "team_name": "Duke Blue Devils",
+    "games_played": 3,
+    "tournament_points": 24,
+    "tournament_minutes": 74
+  },
+  {
+    "player_id": 4869770,
+    "player_name": "Ian Jackson",
+    "team_id": 2599,
+    "team_name": "St. John's Red Storm",
+    "games_played": 3,
+    "tournament_points": 24,
+    "tournament_minutes": 45
   },
   {
     "player_id": 5236222,
@@ -1213,6 +1249,15 @@
     "games_played": 1,
     "tournament_points": 21,
     "tournament_minutes": 40
+  },
+  {
+    "player_id": 5287474,
+    "player_name": "Dame Sarr",
+    "team_id": 150,
+    "team_name": "Duke Blue Devils",
+    "games_played": 3,
+    "tournament_points": 21,
+    "tournament_minutes": 86
   },
   {
     "player_id": 5106877,
@@ -1431,15 +1476,6 @@
     "tournament_minutes": 33
   },
   {
-    "player_id": 5287474,
-    "player_name": "Dame Sarr",
-    "team_id": 150,
-    "team_name": "Duke Blue Devils",
-    "games_played": 2,
-    "tournament_points": 19,
-    "tournament_minutes": 60
-  },
-  {
     "player_id": 4711255,
     "player_name": "Jeremy Fears Jr.",
     "team_id": 127,
@@ -1458,13 +1494,13 @@
     "tournament_minutes": 31
   },
   {
-    "player_id": 4869770,
-    "player_name": "Ian Jackson",
+    "player_id": 5105642,
+    "player_name": "Oziyah Sellers",
     "team_id": 2599,
     "team_name": "St. John's Red Storm",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 19,
-    "tournament_minutes": 29
+    "tournament_minutes": 74
   },
   {
     "player_id": 5177301,
@@ -1564,15 +1600,6 @@
     "games_played": 1,
     "tournament_points": 18,
     "tournament_minutes": 40
-  },
-  {
-    "player_id": 5105337,
-    "player_name": "Maliq Brown",
-    "team_id": 150,
-    "team_name": "Duke Blue Devils",
-    "games_played": 2,
-    "tournament_points": 18,
-    "tournament_minutes": 52
   },
   {
     "player_id": 5041954,
@@ -1818,6 +1845,15 @@
     "tournament_minutes": 48
   },
   {
+    "player_id": 5105658,
+    "player_name": "Dylan Darling",
+    "team_id": 2599,
+    "team_name": "St. John's Red Storm",
+    "games_played": 3,
+    "tournament_points": 16,
+    "tournament_minutes": 75
+  },
+  {
     "player_id": 5105643,
     "player_name": "Tre White",
     "team_id": 2305,
@@ -1978,15 +2014,6 @@
     "games_played": 1,
     "tournament_points": 15,
     "tournament_minutes": 28
-  },
-  {
-    "player_id": 5106283,
-    "player_name": "Dillon Mitchell",
-    "team_id": 2599,
-    "team_name": "St. John's Red Storm",
-    "games_played": 2,
-    "tournament_points": 15,
-    "tournament_minutes": 67
   },
   {
     "player_id": 4702158,
@@ -2151,15 +2178,6 @@
     "tournament_minutes": 37
   },
   {
-    "player_id": 5105642,
-    "player_name": "Oziyah Sellers",
-    "team_id": 2599,
-    "team_name": "St. John's Red Storm",
-    "games_played": 2,
-    "tournament_points": 14,
-    "tournament_minutes": 46
-  },
-  {
     "player_id": 5107198,
     "player_name": "Cruz Davis",
     "team_id": 2275,
@@ -2194,6 +2212,15 @@
     "games_played": 1,
     "tournament_points": 13,
     "tournament_minutes": 36
+  },
+  {
+    "player_id": 5144124,
+    "player_name": "Nikolas Khamenia",
+    "team_id": 150,
+    "team_name": "Duke Blue Devils",
+    "games_played": 3,
+    "tournament_points": 13,
+    "tournament_minutes": 66
   },
   {
     "player_id": 5242131,
@@ -2239,15 +2266,6 @@
     "games_played": 2,
     "tournament_points": 13,
     "tournament_minutes": 56
-  },
-  {
-    "player_id": 5240539,
-    "player_name": "Ruben Prey",
-    "team_id": 2599,
-    "team_name": "St. John's Red Storm",
-    "games_played": 2,
-    "tournament_points": 13,
-    "tournament_minutes": 25
   },
   {
     "player_id": 5105529,
@@ -2464,6 +2482,15 @@
     "games_played": 2,
     "tournament_points": 11,
     "tournament_minutes": 64
+  },
+  {
+    "player_id": 4711256,
+    "player_name": "Caleb Foster",
+    "team_id": 150,
+    "team_name": "Duke Blue Devils",
+    "games_played": 3,
+    "tournament_points": 11,
+    "tournament_minutes": 19
   },
   {
     "player_id": 5107841,
@@ -2853,15 +2880,6 @@
     "tournament_minutes": 14
   },
   {
-    "player_id": 5144124,
-    "player_name": "Nikolas Khamenia",
-    "team_id": 150,
-    "team_name": "Duke Blue Devils",
-    "games_played": 2,
-    "tournament_points": 9,
-    "tournament_minutes": 50
-  },
-  {
     "player_id": 5241592,
     "player_name": "Braden Hausen",
     "team_id": 2272,
@@ -2947,9 +2965,9 @@
     "player_name": "Joson Sanon",
     "team_id": 2599,
     "team_name": "St. John's Red Storm",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 9,
-    "tournament_minutes": 35
+    "tournament_minutes": 50
   },
   {
     "player_id": 5176136,
@@ -3141,15 +3159,6 @@
     "tournament_minutes": 21
   },
   {
-    "player_id": 5105658,
-    "player_name": "Dylan Darling",
-    "team_id": 2599,
-    "team_name": "St. John's Red Storm",
-    "games_played": 2,
-    "tournament_points": 8,
-    "tournament_minutes": 51
-  },
-  {
     "player_id": 4872739,
     "player_name": "Elmarko Jackson",
     "team_id": 2305,
@@ -3256,6 +3265,15 @@
     "games_played": 1,
     "tournament_points": 7,
     "tournament_minutes": 39
+  },
+  {
+    "player_id": 4873209,
+    "player_name": "Patrick Ngongba II",
+    "team_id": 150,
+    "team_name": "Duke Blue Devils",
+    "games_played": 3,
+    "tournament_points": 7,
+    "tournament_minutes": 30
   },
   {
     "player_id": 5107278,
@@ -3793,9 +3811,9 @@
     "player_name": "Lefteris Liotopoulos",
     "team_id": 2599,
     "team_name": "St. John's Red Storm",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 5,
-    "tournament_minutes": 12
+    "tournament_minutes": 15
   },
   {
     "player_id": 5291864,
@@ -3904,15 +3922,6 @@
     "games_played": 2,
     "tournament_points": 4,
     "tournament_minutes": 40
-  },
-  {
-    "player_id": 4873209,
-    "player_name": "Patrick Ngongba II",
-    "team_id": 150,
-    "team_name": "Duke Blue Devils",
-    "games_played": 2,
-    "tournament_points": 4,
-    "tournament_minutes": 13
   },
   {
     "player_id": 5101654,
@@ -5557,16 +5566,16 @@
     "player_name": "Darren Harris",
     "team_id": 150,
     "team_name": "Duke Blue Devils",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 0,
-    "tournament_minutes": 13
+    "tournament_minutes": 17
   },
   {
     "player_id": 5107141,
     "player_name": "Ifeanyi Ufochukwu",
     "team_id": 150,
     "team_name": "Duke Blue Devils",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -5575,7 +5584,7 @@
     "player_name": "Brock Davis",
     "team_id": 150,
     "team_name": "Duke Blue Devils",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -5584,7 +5593,7 @@
     "player_name": "Sebastian Wilkins",
     "team_id": 150,
     "team_name": "Duke Blue Devils",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -5593,25 +5602,16 @@
     "player_name": "Jack Scott",
     "team_id": 150,
     "team_name": "Duke Blue Devils",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 0,
     "tournament_minutes": 2
-  },
-  {
-    "player_id": 4711256,
-    "player_name": "Caleb Foster",
-    "team_id": 150,
-    "team_name": "Duke Blue Devils",
-    "games_played": 2,
-    "tournament_points": 0,
-    "tournament_minutes": 0
   },
   {
     "player_id": 4432321,
     "player_name": "Cameron Sheffield",
     "team_id": 150,
     "team_name": "Duke Blue Devils",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 0,
     "tournament_minutes": 2
   },
@@ -7654,7 +7654,7 @@
     "player_name": "Sadiku Ibine Ayo",
     "team_id": 2599,
     "team_name": "St. John's Red Storm",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 0,
     "tournament_minutes": 4
   },
@@ -7663,7 +7663,7 @@
     "player_name": "Handje Tamba",
     "team_id": 2599,
     "team_name": "St. John's Red Storm",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 0,
     "tournament_minutes": 1
   },
@@ -7672,7 +7672,7 @@
     "player_name": "Imran Suljanovic",
     "team_id": 2599,
     "team_name": "St. John's Red Storm",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -7681,7 +7681,7 @@
     "player_name": "Fotis Konstantinidis",
     "team_id": 2599,
     "team_name": "St. John's Red Storm",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -7690,7 +7690,7 @@
     "player_name": "Casper Pohto",
     "team_id": 2599,
     "team_name": "St. John's Red Storm",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -7699,7 +7699,7 @@
     "player_name": "Kelvin Odih",
     "team_id": 2599,
     "team_name": "St. John's Red Storm",
-    "games_played": 2,
+    "games_played": 3,
     "tournament_points": 0,
     "tournament_minutes": 0
   },

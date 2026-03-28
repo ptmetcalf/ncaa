@@ -17228,5 +17228,295 @@
     "team_name": "Arizona Wildcats",
     "minutes": null,
     "points": 0
+  },
+  {
+    "event_id": 401856570,
+    "date": "20260327",
+    "player_id": 5106283,
+    "player_name": "Dillon Mitchell",
+    "team_id": 2599,
+    "team_name": "St. John's Red Storm",
+    "minutes": 33,
+    "points": 13
+  },
+  {
+    "event_id": 401856570,
+    "date": "20260327",
+    "player_id": 5106262,
+    "player_name": "Zuby Ejiofor",
+    "team_id": 2599,
+    "team_name": "St. John's Red Storm",
+    "minutes": 39,
+    "points": 17
+  },
+  {
+    "event_id": 401856570,
+    "date": "20260327",
+    "player_id": 4565698,
+    "player_name": "Bryce Hopkins",
+    "team_id": 2599,
+    "team_name": "St. John's Red Storm",
+    "minutes": 29,
+    "points": 15
+  },
+  {
+    "event_id": 401856570,
+    "date": "20260327",
+    "player_id": 5105658,
+    "player_name": "Dylan Darling",
+    "team_id": 2599,
+    "team_name": "St. John's Red Storm",
+    "minutes": 24,
+    "points": 8
+  },
+  {
+    "event_id": 401856570,
+    "date": "20260327",
+    "player_id": 5105642,
+    "player_name": "Oziyah Sellers",
+    "team_id": 2599,
+    "team_name": "St. John's Red Storm",
+    "minutes": 28,
+    "points": 5
+  },
+  {
+    "event_id": 401856570,
+    "date": "20260327",
+    "player_id": 5240539,
+    "player_name": "Ruben Prey",
+    "team_id": 2599,
+    "team_name": "St. John's Red Storm",
+    "minutes": 13,
+    "points": 12
+  },
+  {
+    "event_id": 401856570,
+    "date": "20260327",
+    "player_id": 5145712,
+    "player_name": "Lefteris Liotopoulos",
+    "team_id": 2599,
+    "team_name": "St. John's Red Storm",
+    "minutes": 3,
+    "points": 0
+  },
+  {
+    "event_id": 401856570,
+    "date": "20260327",
+    "player_id": 5142625,
+    "player_name": "Joson Sanon",
+    "team_id": 2599,
+    "team_name": "St. John's Red Storm",
+    "minutes": 15,
+    "points": 0
+  },
+  {
+    "event_id": 401856570,
+    "date": "20260327",
+    "player_id": 4869770,
+    "player_name": "Ian Jackson",
+    "team_id": 2599,
+    "team_name": "St. John's Red Storm",
+    "minutes": 16,
+    "points": 5
+  },
+  {
+    "event_id": 401856570,
+    "date": "20260327",
+    "player_id": 5312303,
+    "player_name": "Imran Suljanovic",
+    "team_id": 2599,
+    "team_name": "St. John's Red Storm",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856570,
+    "date": "20260327",
+    "player_id": 5107197,
+    "player_name": "Sadiku Ibine Ayo",
+    "team_id": 2599,
+    "team_name": "St. John's Red Storm",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856570,
+    "date": "20260327",
+    "player_id": 4896480,
+    "player_name": "Handje Tamba",
+    "team_id": 2599,
+    "team_name": "St. John's Red Storm",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856570,
+    "date": "20260327",
+    "player_id": 5312302,
+    "player_name": "Fotis Konstantinidis",
+    "team_id": 2599,
+    "team_name": "St. John's Red Storm",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856570,
+    "date": "20260327",
+    "player_id": 5312301,
+    "player_name": "Casper Pohto",
+    "team_id": 2599,
+    "team_name": "St. John's Red Storm",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856570,
+    "date": "20260327",
+    "player_id": 5226072,
+    "player_name": "Kelvin Odih",
+    "team_id": 2599,
+    "team_name": "St. John's Red Storm",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856570,
+    "date": "20260327",
+    "player_id": 5105337,
+    "player_name": "Maliq Brown",
+    "team_id": 150,
+    "team_name": "Duke Blue Devils",
+    "minutes": 22,
+    "points": 6
+  },
+  {
+    "event_id": 401856570,
+    "date": "20260327",
+    "player_id": 5041935,
+    "player_name": "Cameron Boozer",
+    "team_id": 150,
+    "team_name": "Duke Blue Devils",
+    "minutes": 39,
+    "points": 22
+  },
+  {
+    "event_id": 401856570,
+    "date": "20260327",
+    "player_id": 5287474,
+    "player_name": "Dame Sarr",
+    "team_id": 150,
+    "team_name": "Duke Blue Devils",
+    "minutes": 26,
+    "points": 2
+  },
+  {
+    "event_id": 401856570,
+    "date": "20260327",
+    "player_id": 5061585,
+    "player_name": "Isaiah Evans",
+    "team_id": 150,
+    "team_name": "Duke Blue Devils",
+    "minutes": 34,
+    "points": 25
+  },
+  {
+    "event_id": 401856570,
+    "date": "20260327",
+    "player_id": 5041937,
+    "player_name": "Cayden Boozer",
+    "team_id": 150,
+    "team_name": "Duke Blue Devils",
+    "minutes": 23,
+    "points": 7
+  },
+  {
+    "event_id": 401856570,
+    "date": "20260327",
+    "player_id": 4873209,
+    "player_name": "Patrick Ngongba II",
+    "team_id": 150,
+    "team_name": "Duke Blue Devils",
+    "minutes": 17,
+    "points": 3
+  },
+  {
+    "event_id": 401856570,
+    "date": "20260327",
+    "player_id": 5144124,
+    "player_name": "Nikolas Khamenia",
+    "team_id": 150,
+    "team_name": "Duke Blue Devils",
+    "minutes": 16,
+    "points": 4
+  },
+  {
+    "event_id": 401856570,
+    "date": "20260327",
+    "player_id": 4873107,
+    "player_name": "Darren Harris",
+    "team_id": 150,
+    "team_name": "Duke Blue Devils",
+    "minutes": 4,
+    "points": 0
+  },
+  {
+    "event_id": 401856570,
+    "date": "20260327",
+    "player_id": 4711256,
+    "player_name": "Caleb Foster",
+    "team_id": 150,
+    "team_name": "Duke Blue Devils",
+    "minutes": 19,
+    "points": 11
+  },
+  {
+    "event_id": 401856570,
+    "date": "20260327",
+    "player_id": 5107141,
+    "player_name": "Ifeanyi Ufochukwu",
+    "team_id": 150,
+    "team_name": "Duke Blue Devils",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856570,
+    "date": "20260327",
+    "player_id": 5341547,
+    "player_name": "Brock Davis",
+    "team_id": 150,
+    "team_name": "Duke Blue Devils",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856570,
+    "date": "20260327",
+    "player_id": 5144150,
+    "player_name": "Sebastian Wilkins",
+    "team_id": 150,
+    "team_name": "Duke Blue Devils",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856570,
+    "date": "20260327",
+    "player_id": 4888720,
+    "player_name": "Jack Scott",
+    "team_id": 150,
+    "team_name": "Duke Blue Devils",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856570,
+    "date": "20260327",
+    "player_id": 4432321,
+    "player_name": "Cameron Sheffield",
+    "team_id": 150,
+    "team_name": "Duke Blue Devils",
+    "minutes": null,
+    "points": 0
   }
 ]

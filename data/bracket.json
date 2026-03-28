@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-28T00:53:42.162Z",
+  "generated_at": "2026-03-28T01:58:52.547Z",
   "year": 2026,
   "available": true,
   "source": "espn_bracket_page",
@@ -8,7 +8,7 @@
   "tournament_name": "Men's NCAA Tournament",
   "short_name": "NCAA",
   "teams_count": 68,
-  "matchups_count": 62,
+  "matchups_count": 63,
   "regions": [
     {
       "id": 1,
@@ -1649,18 +1649,18 @@
       "region_id": 1,
       "bracket_location": 1,
       "date": "2026-03-27T23:10:00Z",
-      "status_state": "in",
-      "status_desc": "In Progress",
-      "status_detail": "10:10 - 2nd",
+      "status_state": "post",
+      "status_desc": "Final",
+      "status_detail": "Final",
       "location": "Washington, DC",
-      "link": "/mens-college-basketball/game/_/gameId/401856570",
+      "link": "/mens-college-basketball/game/_/gameId/401856570/st-johns-duke",
       "competitor_one": {
         "team_id": 150,
         "team_name": "Duke",
         "abbreviation": "DUKE",
         "seed": 1,
-        "score": 58,
-        "winner": false,
+        "score": 80,
+        "winner": true,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/150.png"
       },
       "competitor_two": {
@@ -1668,7 +1668,7 @@
         "team_name": "St. John's",
         "abbreviation": "SJU",
         "seed": 5,
-        "score": 60,
+        "score": 75,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2599.png"
       }
@@ -1678,10 +1678,10 @@
       "round_id": 3,
       "region_id": 1,
       "bracket_location": 2,
-      "date": "2026-03-28T01:45:00Z",
+      "date": "2026-03-28T01:55:00Z",
       "status_state": "pre",
       "status_desc": "Scheduled",
-      "status_detail": "3/27 - 9:45 PM EDT",
+      "status_detail": "3/27 - 9:55 PM EDT",
       "location": "Washington, DC",
       "link": "/mens-college-basketball/game/_/gameId/401856571/michigan-st-uconn",
       "competitor_one": {
@@ -1830,8 +1830,8 @@
       "bracket_location": 7,
       "date": "2026-03-27T23:35:00Z",
       "status_state": "in",
-      "status_desc": "Halftime",
-      "status_detail": "Halftime",
+      "status_desc": "In Progress",
+      "status_detail": "1:44 - 2nd",
       "location": "Chicago, IL",
       "link": "/mens-college-basketball/game/_/gameId/401856572",
       "competitor_one": {
@@ -1839,7 +1839,7 @@
         "team_name": "Michigan",
         "abbreviation": "MICH",
         "seed": 1,
-        "score": 47,
+        "score": 87,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/130.png"
       },
@@ -1848,7 +1848,7 @@
         "team_name": "Alabama",
         "abbreviation": "ALA",
         "seed": 4,
-        "score": 49,
+        "score": 74,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/333.png"
       }
@@ -1882,6 +1882,28 @@
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/66.png"
       }
+    },
+    {
+      "matchup_id": 401856577,
+      "round_id": 4,
+      "region_id": 1,
+      "bracket_location": 1,
+      "date": "2026-03-29T04:00:00Z",
+      "status_state": "pre",
+      "status_desc": "Scheduled",
+      "status_detail": "3/29 - TBD",
+      "location": "Washington, DC",
+      "link": "/mens-college-basketball/game/_/gameId/401856577",
+      "competitor_one": {
+        "team_id": 150,
+        "team_name": "Duke",
+        "abbreviation": "DUKE",
+        "seed": 1,
+        "score": 0,
+        "winner": false,
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/150.png"
+      },
+      "competitor_two": null
     },
     {
       "matchup_id": 401856574,

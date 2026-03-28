@@ -564,8 +564,8 @@
     "date": "20260327",
     "name": "St. John's Red Storm at Duke Blue Devils",
     "short_name": "SJU VS DUKE",
-    "completed": false,
-    "status": "In Progress",
+    "completed": true,
+    "status": "Final",
     "home_team_id": 150,
     "away_team_id": 2599
   },
@@ -585,7 +585,7 @@
     "name": "Alabama Crimson Tide at Michigan Wolverines",
     "short_name": "ALA VS MICH",
     "completed": false,
-    "status": "Halftime",
+    "status": "In Progress",
     "home_team_id": 130,
     "away_team_id": 333
   },
