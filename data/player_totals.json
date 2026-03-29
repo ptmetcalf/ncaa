@@ -9,6 +9,24 @@
     "tournament_minutes": 107
   },
   {
+    "player_id": 5107968,
+    "player_name": "Ja'Kobi Gillespie",
+    "team_id": 2633,
+    "team_name": "Tennessee Volunteers",
+    "games_played": 4,
+    "tournament_points": 87,
+    "tournament_minutes": 148
+  },
+  {
+    "player_id": 5175737,
+    "player_name": "Yaxel Lendeborg",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "games_played": 4,
+    "tournament_points": 84,
+    "tournament_minutes": 128
+  },
+  {
     "player_id": 4897438,
     "player_name": "Trey Kaufman-Renn",
     "team_id": 2509,
@@ -88,15 +106,6 @@
     "games_played": 3,
     "tournament_points": 66,
     "tournament_minutes": 111
-  },
-  {
-    "player_id": 5107968,
-    "player_name": "Ja'Kobi Gillespie",
-    "team_id": 2633,
-    "team_name": "Tennessee Volunteers",
-    "games_played": 3,
-    "tournament_points": 66,
-    "tournament_minutes": 110
   },
   {
     "player_id": 5239838,
@@ -180,15 +189,6 @@
     "tournament_minutes": 108
   },
   {
-    "player_id": 5175737,
-    "player_name": "Yaxel Lendeborg",
-    "team_id": 130,
-    "team_name": "Michigan Wolverines",
-    "games_played": 3,
-    "tournament_points": 57,
-    "tournament_minutes": 93
-  },
-  {
     "player_id": 5311896,
     "player_name": "Ivan Kharchenkov",
     "team_id": 12,
@@ -196,6 +196,24 @@
     "games_played": 4,
     "tournament_points": 56,
     "tournament_minutes": 136
+  },
+  {
+    "player_id": 4873153,
+    "player_name": "Morez Johnson Jr.",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "games_played": 4,
+    "tournament_points": 55,
+    "tournament_minutes": 100
+  },
+  {
+    "player_id": 5174983,
+    "player_name": "Aday Mara",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "games_played": 4,
+    "tournament_points": 54,
+    "tournament_minutes": 92
   },
   {
     "player_id": 4848625,
@@ -315,6 +333,15 @@
     "tournament_minutes": 99
   },
   {
+    "player_id": 5041954,
+    "player_name": "Trey McKenney",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "games_played": 4,
+    "tournament_points": 47,
+    "tournament_minutes": 95
+  },
+  {
     "player_id": 5106254,
     "player_name": "Tamin Lipsey",
     "team_id": 66,
@@ -387,24 +414,6 @@
     "tournament_minutes": 88
   },
   {
-    "player_id": 4873153,
-    "player_name": "Morez Johnson Jr.",
-    "team_id": 130,
-    "team_name": "Michigan Wolverines",
-    "games_played": 3,
-    "tournament_points": 43,
-    "tournament_minutes": 77
-  },
-  {
-    "player_id": 5174983,
-    "player_name": "Aday Mara",
-    "team_id": 130,
-    "team_name": "Michigan Wolverines",
-    "games_played": 3,
-    "tournament_points": 43,
-    "tournament_minutes": 74
-  },
-  {
     "player_id": 4848637,
     "player_name": "Milan Momcilovic",
     "team_id": 66,
@@ -414,6 +423,15 @@
     "tournament_minutes": 103
   },
   {
+    "player_id": 4869764,
+    "player_name": "Elliot Cadeau",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "games_played": 4,
+    "tournament_points": 42,
+    "tournament_minutes": 131
+  },
+  {
     "player_id": 5174973,
     "player_name": "Oscar Cluff",
     "team_id": 2509,
@@ -421,6 +439,33 @@
     "games_played": 4,
     "tournament_points": 42,
     "tournament_minutes": 122
+  },
+  {
+    "player_id": 5105836,
+    "player_name": "Roddy Gayle Jr.",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "games_played": 4,
+    "tournament_points": 41,
+    "tournament_minutes": 92
+  },
+  {
+    "player_id": 5164559,
+    "player_name": "Nate Ament",
+    "team_id": 2633,
+    "team_name": "Tennessee Volunteers",
+    "games_played": 4,
+    "tournament_points": 41,
+    "tournament_minutes": 103
+  },
+  {
+    "player_id": 5105841,
+    "player_name": "Felix Okpara",
+    "team_id": 2633,
+    "team_name": "Tennessee Volunteers",
+    "games_played": 4,
+    "tournament_points": 41,
+    "tournament_minutes": 115
   },
   {
     "player_id": 4897768,
@@ -495,6 +540,15 @@
     "tournament_minutes": 98
   },
   {
+    "player_id": 4433138,
+    "player_name": "Nimari Burnett",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "games_played": 4,
+    "tournament_points": 38,
+    "tournament_minutes": 93
+  },
+  {
     "player_id": 5149077,
     "player_name": "Kingston Flemings",
     "team_id": 248,
@@ -538,6 +592,15 @@
     "games_played": 4,
     "tournament_points": 37,
     "tournament_minutes": 142
+  },
+  {
+    "player_id": 5093142,
+    "player_name": "J.P. Estrella",
+    "team_id": 2633,
+    "team_name": "Tennessee Volunteers",
+    "games_played": 4,
+    "tournament_points": 37,
+    "tournament_minutes": 92
   },
   {
     "player_id": 5037876,
@@ -594,15 +657,6 @@
     "tournament_minutes": 40
   },
   {
-    "player_id": 5041954,
-    "player_name": "Trey McKenney",
-    "team_id": 130,
-    "team_name": "Michigan Wolverines",
-    "games_played": 3,
-    "tournament_points": 35,
-    "tournament_minutes": 76
-  },
-  {
     "player_id": 4873184,
     "player_name": "Aiden Sherrell",
     "team_id": 333,
@@ -639,15 +693,6 @@
     "tournament_minutes": 84
   },
   {
-    "player_id": 4869764,
-    "player_name": "Elliot Cadeau",
-    "team_id": 130,
-    "team_name": "Michigan Wolverines",
-    "games_played": 3,
-    "tournament_points": 34,
-    "tournament_minutes": 97
-  },
-  {
     "player_id": 5174657,
     "player_name": "Alex Condon",
     "team_id": 57,
@@ -655,24 +700,6 @@
     "games_played": 2,
     "tournament_points": 34,
     "tournament_minutes": 60
-  },
-  {
-    "player_id": 5164559,
-    "player_name": "Nate Ament",
-    "team_id": 2633,
-    "team_name": "Tennessee Volunteers",
-    "games_played": 3,
-    "tournament_points": 34,
-    "tournament_minutes": 72
-  },
-  {
-    "player_id": 5105836,
-    "player_name": "Roddy Gayle Jr.",
-    "team_id": 130,
-    "team_name": "Michigan Wolverines",
-    "games_played": 3,
-    "tournament_points": 33,
-    "tournament_minutes": 70
   },
   {
     "player_id": 4592677,
@@ -819,15 +846,6 @@
     "tournament_minutes": 75
   },
   {
-    "player_id": 5105841,
-    "player_name": "Felix Okpara",
-    "team_id": 2633,
-    "team_name": "Tennessee Volunteers",
-    "games_played": 3,
-    "tournament_points": 31,
-    "tournament_minutes": 91
-  },
-  {
     "player_id": 5107986,
     "player_name": "Ose Okojie",
     "team_id": 47,
@@ -882,15 +900,6 @@
     "tournament_minutes": 49
   },
   {
-    "player_id": 5093142,
-    "player_name": "J.P. Estrella",
-    "team_id": 2633,
-    "team_name": "Tennessee Volunteers",
-    "games_played": 3,
-    "tournament_points": 30,
-    "tournament_minutes": 67
-  },
-  {
     "player_id": 5107864,
     "player_name": "Mason Falslev",
     "team_id": 328,
@@ -916,6 +925,15 @@
     "games_played": 2,
     "tournament_points": 29,
     "tournament_minutes": 54
+  },
+  {
+    "player_id": 4685687,
+    "player_name": "Jaylen Carey",
+    "team_id": 2633,
+    "team_name": "Tennessee Volunteers",
+    "games_played": 4,
+    "tournament_points": 29,
+    "tournament_minutes": 60
   },
   {
     "player_id": 5105486,
@@ -952,15 +970,6 @@
     "games_played": 2,
     "tournament_points": 28,
     "tournament_minutes": 45
-  },
-  {
-    "player_id": 4433138,
-    "player_name": "Nimari Burnett",
-    "team_id": 130,
-    "team_name": "Michigan Wolverines",
-    "games_played": 3,
-    "tournament_points": 28,
-    "tournament_minutes": 67
   },
   {
     "player_id": 4838721,
@@ -1114,6 +1123,15 @@
     "games_played": 2,
     "tournament_points": 25,
     "tournament_minutes": 76
+  },
+  {
+    "player_id": 5101648,
+    "player_name": "Bishop Boswell",
+    "team_id": 2633,
+    "team_name": "Tennessee Volunteers",
+    "games_played": 4,
+    "tournament_points": 25,
+    "tournament_minutes": 110
   },
   {
     "player_id": 5174291,
@@ -1287,15 +1305,6 @@
     "tournament_minutes": 40
   },
   {
-    "player_id": 5101648,
-    "player_name": "Bishop Boswell",
-    "team_id": 2633,
-    "team_name": "Tennessee Volunteers",
-    "games_played": 3,
-    "tournament_points": 22,
-    "tournament_minutes": 85
-  },
-  {
     "player_id": 5105494,
     "player_name": "Drake Allen",
     "team_id": 328,
@@ -1447,15 +1456,6 @@
     "games_played": 2,
     "tournament_points": 21,
     "tournament_minutes": 50
-  },
-  {
-    "player_id": 4685687,
-    "player_name": "Jaylen Carey",
-    "team_id": 2633,
-    "team_name": "Tennessee Volunteers",
-    "games_played": 3,
-    "tournament_points": 21,
-    "tournament_minutes": 45
   },
   {
     "player_id": 5101840,
@@ -2115,6 +2115,15 @@
     "tournament_minutes": 57
   },
   {
+    "player_id": 5142710,
+    "player_name": "DeWayne Brown II",
+    "team_id": 2633,
+    "team_name": "Tennessee Volunteers",
+    "games_played": 4,
+    "tournament_points": 15,
+    "tournament_minutes": 34
+  },
+  {
     "player_id": 4870569,
     "player_name": "Duke Brennan",
     "team_id": 222,
@@ -2704,9 +2713,9 @@
     "player_name": "Amari Evans",
     "team_id": 2633,
     "team_name": "Tennessee Volunteers",
-    "games_played": 3,
+    "games_played": 4,
     "tournament_points": 11,
-    "tournament_minutes": 55
+    "tournament_minutes": 68
   },
   {
     "player_id": 5239554,
@@ -2770,6 +2779,15 @@
     "games_played": 3,
     "tournament_points": 10,
     "tournament_minutes": 51
+  },
+  {
+    "player_id": 4684596,
+    "player_name": "Will Tschetter",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "games_played": 4,
+    "tournament_points": 10,
+    "tournament_minutes": 52
   },
   {
     "player_id": 4711258,
@@ -3060,22 +3078,13 @@
     "tournament_minutes": 41
   },
   {
-    "player_id": 5142710,
-    "player_name": "DeWayne Brown II",
-    "team_id": 2633,
-    "team_name": "Tennessee Volunteers",
-    "games_played": 3,
-    "tournament_points": 9,
-    "tournament_minutes": 22
-  },
-  {
     "player_id": 5311527,
     "player_name": "Ethan Burg",
     "team_id": 2633,
     "team_name": "Tennessee Volunteers",
-    "games_played": 3,
+    "games_played": 4,
     "tournament_points": 9,
-    "tournament_minutes": 49
+    "tournament_minutes": 59
   },
   {
     "player_id": 5176273,
@@ -3157,15 +3166,6 @@
     "games_played": 1,
     "tournament_points": 8,
     "tournament_minutes": 21
-  },
-  {
-    "player_id": 4684596,
-    "player_name": "Will Tschetter",
-    "team_id": 130,
-    "team_name": "Michigan Wolverines",
-    "games_played": 3,
-    "tournament_points": 8,
-    "tournament_minutes": 36
   },
   {
     "player_id": 5174672,
@@ -3753,6 +3753,15 @@
     "tournament_minutes": 34
   },
   {
+    "player_id": 5244505,
+    "player_name": "Oscar Goodman",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "games_played": 4,
+    "tournament_points": 5,
+    "tournament_minutes": 7
+  },
+  {
     "player_id": 5144153,
     "player_name": "Kareem Stagg",
     "team_id": 61,
@@ -4248,11 +4257,11 @@
     "tournament_minutes": 3
   },
   {
-    "player_id": 5244505,
-    "player_name": "Oscar Goodman",
+    "player_id": 5106648,
+    "player_name": "Charlie May",
     "team_id": 130,
     "team_name": "Michigan Wolverines",
-    "games_played": 3,
+    "games_played": 4,
     "tournament_points": 3,
     "tournament_minutes": 4
   },
@@ -4540,7 +4549,7 @@
     "player_name": "Malick Kordel",
     "team_id": 130,
     "team_name": "Michigan Wolverines",
-    "games_played": 3,
+    "games_played": 4,
     "tournament_points": 2,
     "tournament_minutes": 2
   },
@@ -6601,25 +6610,16 @@
     "player_name": "Howard Eisley Jr.",
     "team_id": 130,
     "team_name": "Michigan Wolverines",
-    "games_played": 3,
+    "games_played": 4,
     "tournament_points": 0,
-    "tournament_minutes": 2
-  },
-  {
-    "player_id": 5106648,
-    "player_name": "Charlie May",
-    "team_id": 130,
-    "team_name": "Michigan Wolverines",
-    "games_played": 3,
-    "tournament_points": 0,
-    "tournament_minutes": 2
+    "tournament_minutes": 4
   },
   {
     "player_id": 5174787,
     "player_name": "Harrison Hochberg",
     "team_id": 130,
     "team_name": "Michigan Wolverines",
-    "games_played": 3,
+    "games_played": 4,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -6628,7 +6628,7 @@
     "player_name": "Ricky Liburd",
     "team_id": 130,
     "team_name": "Michigan Wolverines",
-    "games_played": 3,
+    "games_played": 4,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -6637,7 +6637,7 @@
     "player_name": "L.J. Cason",
     "team_id": 130,
     "team_name": "Michigan Wolverines",
-    "games_played": 3,
+    "games_played": 4,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -6646,7 +6646,7 @@
     "player_name": "Winters Grady",
     "team_id": 130,
     "team_name": "Michigan Wolverines",
-    "games_played": 3,
+    "games_played": 4,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -9148,34 +9148,34 @@
     "player_name": "Troy Henderson",
     "team_id": 2633,
     "team_name": "Tennessee Volunteers",
-    "games_played": 3,
+    "games_played": 4,
     "tournament_points": 0,
-    "tournament_minutes": 2
+    "tournament_minutes": 4
   },
   {
     "player_id": 5196942,
     "player_name": "Clarence Massamba",
     "team_id": 2633,
     "team_name": "Tennessee Volunteers",
-    "games_played": 3,
+    "games_played": 4,
     "tournament_points": 0,
-    "tournament_minutes": 1
+    "tournament_minutes": 4
   },
   {
     "player_id": 5105544,
     "player_name": "Amaree Abram",
     "team_id": 2633,
     "team_name": "Tennessee Volunteers",
-    "games_played": 3,
+    "games_played": 4,
     "tournament_points": 0,
-    "tournament_minutes": 1
+    "tournament_minutes": 3
   },
   {
     "player_id": 4848640,
     "player_name": "Cade Phillips",
     "team_id": 2633,
     "team_name": "Tennessee Volunteers",
-    "games_played": 3,
+    "games_played": 4,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -9184,7 +9184,7 @@
     "player_name": "Campbell Duncan",
     "team_id": 2633,
     "team_name": "Tennessee Volunteers",
-    "games_played": 3,
+    "games_played": 4,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -9193,7 +9193,7 @@
     "player_name": "Gavin Paull",
     "team_id": 2633,
     "team_name": "Tennessee Volunteers",
-    "games_played": 3,
+    "games_played": 4,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -9202,7 +9202,7 @@
     "player_name": "Grant Hurst",
     "team_id": 2633,
     "team_name": "Tennessee Volunteers",
-    "games_played": 3,
+    "games_played": 4,
     "tournament_points": 0,
     "tournament_minutes": 0
   },

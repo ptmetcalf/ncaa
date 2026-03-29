@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-29T20:28:46.160Z",
+  "generated_at": "2026-03-29T21:28:49.699Z",
   "year": 2026,
   "season_type": 2,
   "team_source_mode": "auto",
@@ -26,8 +26,8 @@
     "players": 1050,
     "seeded_players": 1050,
     "events": 64,
-    "final_events": 62,
-    "game_log_rows": 1905,
+    "final_events": 63,
+    "game_log_rows": 1937,
     "player_totals_rows": 1050
   },
   "note": null

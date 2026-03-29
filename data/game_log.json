@@ -19048,5 +19048,325 @@
     "team_name": "Arizona Wildcats",
     "minutes": null,
     "points": 0
+  },
+  {
+    "event_id": 401856576,
+    "date": "20260329",
+    "player_id": 5164559,
+    "player_name": "Nate Ament",
+    "team_id": 2633,
+    "team_name": "Tennessee Volunteers",
+    "minutes": 31,
+    "points": 7
+  },
+  {
+    "event_id": 401856576,
+    "date": "20260329",
+    "player_id": 5105841,
+    "player_name": "Felix Okpara",
+    "team_id": 2633,
+    "team_name": "Tennessee Volunteers",
+    "minutes": 24,
+    "points": 10
+  },
+  {
+    "event_id": 401856576,
+    "date": "20260329",
+    "player_id": 5093142,
+    "player_name": "J.P. Estrella",
+    "team_id": 2633,
+    "team_name": "Tennessee Volunteers",
+    "minutes": 25,
+    "points": 7
+  },
+  {
+    "event_id": 401856576,
+    "date": "20260329",
+    "player_id": 5107968,
+    "player_name": "Ja'Kobi Gillespie",
+    "team_id": 2633,
+    "team_name": "Tennessee Volunteers",
+    "minutes": 38,
+    "points": 21
+  },
+  {
+    "event_id": 401856576,
+    "date": "20260329",
+    "player_id": 5101648,
+    "player_name": "Bishop Boswell",
+    "team_id": 2633,
+    "team_name": "Tennessee Volunteers",
+    "minutes": 25,
+    "points": 3
+  },
+  {
+    "event_id": 401856576,
+    "date": "20260329",
+    "player_id": 5142710,
+    "player_name": "DeWayne Brown II",
+    "team_id": 2633,
+    "team_name": "Tennessee Volunteers",
+    "minutes": 12,
+    "points": 6
+  },
+  {
+    "event_id": 401856576,
+    "date": "20260329",
+    "player_id": 4685687,
+    "player_name": "Jaylen Carey",
+    "team_id": 2633,
+    "team_name": "Tennessee Volunteers",
+    "minutes": 15,
+    "points": 8
+  },
+  {
+    "event_id": 401856576,
+    "date": "20260329",
+    "player_id": 5311527,
+    "player_name": "Ethan Burg",
+    "team_id": 2633,
+    "team_name": "Tennessee Volunteers",
+    "minutes": 10,
+    "points": 0
+  },
+  {
+    "event_id": 401856576,
+    "date": "20260329",
+    "player_id": 5311526,
+    "player_name": "Troy Henderson",
+    "team_id": 2633,
+    "team_name": "Tennessee Volunteers",
+    "minutes": 2,
+    "points": 0
+  },
+  {
+    "event_id": 401856576,
+    "date": "20260329",
+    "player_id": 5196942,
+    "player_name": "Clarence Massamba",
+    "team_id": 2633,
+    "team_name": "Tennessee Volunteers",
+    "minutes": 3,
+    "points": 0
+  },
+  {
+    "event_id": 401856576,
+    "date": "20260329",
+    "player_id": 5196914,
+    "player_name": "Amari Evans",
+    "team_id": 2633,
+    "team_name": "Tennessee Volunteers",
+    "minutes": 13,
+    "points": 0
+  },
+  {
+    "event_id": 401856576,
+    "date": "20260329",
+    "player_id": 5105544,
+    "player_name": "Amaree Abram",
+    "team_id": 2633,
+    "team_name": "Tennessee Volunteers",
+    "minutes": 2,
+    "points": 0
+  },
+  {
+    "event_id": 401856576,
+    "date": "20260329",
+    "player_id": 4848640,
+    "player_name": "Cade Phillips",
+    "team_id": 2633,
+    "team_name": "Tennessee Volunteers",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856576,
+    "date": "20260329",
+    "player_id": 5238229,
+    "player_name": "Campbell Duncan",
+    "team_id": 2633,
+    "team_name": "Tennessee Volunteers",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856576,
+    "date": "20260329",
+    "player_id": 5238228,
+    "player_name": "Gavin Paull",
+    "team_id": 2633,
+    "team_name": "Tennessee Volunteers",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856576,
+    "date": "20260329",
+    "player_id": 4897332,
+    "player_name": "Grant Hurst",
+    "team_id": 2633,
+    "team_name": "Tennessee Volunteers",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856576,
+    "date": "20260329",
+    "player_id": 5175737,
+    "player_name": "Yaxel Lendeborg",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": 35,
+    "points": 27
+  },
+  {
+    "event_id": 401856576,
+    "date": "20260329",
+    "player_id": 4873153,
+    "player_name": "Morez Johnson Jr.",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": 23,
+    "points": 12
+  },
+  {
+    "event_id": 401856576,
+    "date": "20260329",
+    "player_id": 5174983,
+    "player_name": "Aday Mara",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": 18,
+    "points": 11
+  },
+  {
+    "event_id": 401856576,
+    "date": "20260329",
+    "player_id": 4869764,
+    "player_name": "Elliot Cadeau",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": 34,
+    "points": 8
+  },
+  {
+    "event_id": 401856576,
+    "date": "20260329",
+    "player_id": 4433138,
+    "player_name": "Nimari Burnett",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": 26,
+    "points": 10
+  },
+  {
+    "event_id": 401856576,
+    "date": "20260329",
+    "player_id": 5244505,
+    "player_name": "Oscar Goodman",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": 3,
+    "points": 2
+  },
+  {
+    "event_id": 401856576,
+    "date": "20260329",
+    "player_id": 4684596,
+    "player_name": "Will Tschetter",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": 16,
+    "points": 2
+  },
+  {
+    "event_id": 401856576,
+    "date": "20260329",
+    "player_id": 5239559,
+    "player_name": "Howard Eisley Jr.",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": 2,
+    "points": 0
+  },
+  {
+    "event_id": 401856576,
+    "date": "20260329",
+    "player_id": 5106648,
+    "player_name": "Charlie May",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": 2,
+    "points": 3
+  },
+  {
+    "event_id": 401856576,
+    "date": "20260329",
+    "player_id": 5105836,
+    "player_name": "Roddy Gayle Jr.",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": 22,
+    "points": 8
+  },
+  {
+    "event_id": 401856576,
+    "date": "20260329",
+    "player_id": 5041954,
+    "player_name": "Trey McKenney",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": 19,
+    "points": 12
+  },
+  {
+    "event_id": 401856576,
+    "date": "20260329",
+    "player_id": 5174787,
+    "player_name": "Harrison Hochberg",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856576,
+    "date": "20260329",
+    "player_id": 5311988,
+    "player_name": "Malick Kordel",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856576,
+    "date": "20260329",
+    "player_id": 5311987,
+    "player_name": "Ricky Liburd",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856576,
+    "date": "20260329",
+    "player_id": 5214641,
+    "player_name": "L.J. Cason",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856576,
+    "date": "20260329",
+    "player_id": 5174808,
+    "player_name": "Winters Grady",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": null,
+    "points": 0
   }
 ]

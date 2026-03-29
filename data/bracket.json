@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-29T20:28:46.160Z",
+  "generated_at": "2026-03-29T21:28:49.699Z",
   "year": 2026,
   "available": true,
   "source": "espn_bracket_page",
@@ -1889,17 +1889,17 @@
       "region_id": 1,
       "bracket_location": 1,
       "date": "2026-03-29T21:05:00Z",
-      "status_state": "pre",
-      "status_desc": "Scheduled",
-      "status_detail": "3/29 - 5:05 PM EDT",
+      "status_state": "in",
+      "status_desc": "In Progress",
+      "status_detail": "10:37 - 1st",
       "location": "Washington, DC",
-      "link": "/mens-college-basketball/game/_/gameId/401856577/uconn-duke",
+      "link": "/mens-college-basketball/game/_/gameId/401856577",
       "competitor_one": {
         "team_id": 150,
         "team_name": "Duke",
         "abbreviation": "DUKE",
         "seed": 1,
-        "score": 0,
+        "score": 24,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/150.png"
       },
@@ -1908,7 +1908,7 @@
         "team_name": "UConn",
         "abbreviation": "CONN",
         "seed": 2,
-        "score": 0,
+        "score": 16,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/41.png"
       }
@@ -1979,18 +1979,18 @@
       "region_id": 1,
       "bracket_location": 4,
       "date": "2026-03-29T18:15:00Z",
-      "status_state": "in",
-      "status_desc": "In Progress",
-      "status_detail": "3:50 - 2nd",
+      "status_state": "post",
+      "status_desc": "Final",
+      "status_detail": "Final",
       "location": "Chicago, IL",
-      "link": "/mens-college-basketball/game/_/gameId/401856576",
+      "link": "/mens-college-basketball/game/_/gameId/401856576/tennessee-michigan",
       "competitor_one": {
         "team_id": 130,
         "team_name": "Michigan",
         "abbreviation": "MICH",
         "seed": 1,
-        "score": 87,
-        "winner": false,
+        "score": 95,
+        "winner": true,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/130.png"
       },
       "competitor_two": {
@@ -1998,7 +1998,7 @@
         "team_name": "Tennessee",
         "abbreviation": "TENN",
         "seed": 6,
-        "score": 56,
+        "score": 62,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2633.png"
       }
@@ -2035,7 +2035,7 @@
       "status_desc": "Scheduled",
       "status_detail": "4/4 - TBD",
       "location": "Indianapolis, IN",
-      "link": "/mens-college-basketball/game/_/gameId/401856599",
+      "link": "/mens-college-basketball/game/_/gameId/401856599/michigan-arizona",
       "competitor_one": {
         "team_id": 12,
         "team_name": "Arizona",
@@ -2045,7 +2045,15 @@
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/12.png"
       },
-      "competitor_two": null
+      "competitor_two": {
+        "team_id": 130,
+        "team_name": "Michigan",
+        "abbreviation": "MICH",
+        "seed": 1,
+        "score": 0,
+        "winner": false,
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/130.png"
+      }
     }
   ]
 }
