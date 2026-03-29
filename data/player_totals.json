@@ -9,6 +9,15 @@
     "tournament_minutes": 107
   },
   {
+    "player_id": 4897438,
+    "player_name": "Trey Kaufman-Renn",
+    "team_id": 2509,
+    "team_name": "Purdue Boilermakers",
+    "games_played": 4,
+    "tournament_points": 74,
+    "tournament_minutes": 120
+  },
+  {
     "player_id": 4873090,
     "player_name": "Labaron Philon Jr.",
     "team_id": 333,
@@ -36,6 +45,15 @@
     "tournament_minutes": 133
   },
   {
+    "player_id": 5082206,
+    "player_name": "Brayden Burries",
+    "team_id": 12,
+    "team_name": "Arizona Wildcats",
+    "games_played": 4,
+    "tournament_points": 71,
+    "tournament_minutes": 121
+  },
+  {
     "player_id": 5254165,
     "player_name": "Keaton Wagler",
     "team_id": 356,
@@ -43,6 +61,24 @@
     "games_played": 4,
     "tournament_points": 70,
     "tournament_minutes": 139
+  },
+  {
+    "player_id": 5041953,
+    "player_name": "Koa Peat",
+    "team_id": 12,
+    "team_name": "Arizona Wildcats",
+    "games_played": 4,
+    "tournament_points": 70,
+    "tournament_minutes": 124
+  },
+  {
+    "player_id": 5105854,
+    "player_name": "Braden Smith",
+    "team_id": 2509,
+    "team_name": "Purdue Boilermakers",
+    "games_played": 4,
+    "tournament_points": 67,
+    "tournament_minutes": 142
   },
   {
     "player_id": 4917149,
@@ -72,13 +108,13 @@
     "tournament_minutes": 113
   },
   {
-    "player_id": 4897438,
-    "player_name": "Trey Kaufman-Renn",
+    "player_id": 5105853,
+    "player_name": "Fletcher Loyer",
     "team_id": 2509,
     "team_name": "Purdue Boilermakers",
-    "games_played": 3,
+    "games_played": 4,
     "tournament_points": 64,
-    "tournament_minutes": 96
+    "tournament_minutes": 127
   },
   {
     "player_id": 5041935,
@@ -153,31 +189,13 @@
     "tournament_minutes": 93
   },
   {
-    "player_id": 5082206,
-    "player_name": "Brayden Burries",
+    "player_id": 5311896,
+    "player_name": "Ivan Kharchenkov",
     "team_id": 12,
     "team_name": "Arizona Wildcats",
-    "games_played": 3,
-    "tournament_points": 57,
-    "tournament_minutes": 88
-  },
-  {
-    "player_id": 5105853,
-    "player_name": "Fletcher Loyer",
-    "team_id": 2509,
-    "team_name": "Purdue Boilermakers",
-    "games_played": 3,
+    "games_played": 4,
     "tournament_points": 56,
-    "tournament_minutes": 93
-  },
-  {
-    "player_id": 5105854,
-    "player_name": "Braden Smith",
-    "team_id": 2509,
-    "team_name": "Purdue Boilermakers",
-    "games_played": 3,
-    "tournament_points": 54,
-    "tournament_minutes": 107
+    "tournament_minutes": 136
   },
   {
     "player_id": 4848625,
@@ -214,6 +232,15 @@
     "games_played": 2,
     "tournament_points": 53,
     "tournament_minutes": 79
+  },
+  {
+    "player_id": 4432737,
+    "player_name": "Jaden Bradley",
+    "team_id": 12,
+    "team_name": "Arizona Wildcats",
+    "games_played": 4,
+    "tournament_points": 53,
+    "tournament_minutes": 134
   },
   {
     "player_id": 4703912,
@@ -259,15 +286,6 @@
     "games_played": 3,
     "tournament_points": 50,
     "tournament_minutes": 92
-  },
-  {
-    "player_id": 5041953,
-    "player_name": "Koa Peat",
-    "team_id": 12,
-    "team_name": "Arizona Wildcats",
-    "games_played": 3,
-    "tournament_points": 50,
-    "tournament_minutes": 90
   },
   {
     "player_id": 5106262,
@@ -396,6 +414,15 @@
     "tournament_minutes": 103
   },
   {
+    "player_id": 5174973,
+    "player_name": "Oscar Cluff",
+    "team_id": 2509,
+    "team_name": "Purdue Boilermakers",
+    "games_played": 4,
+    "tournament_points": 42,
+    "tournament_minutes": 122
+  },
+  {
     "player_id": 4897768,
     "player_name": "Bryce Harris",
     "team_id": 47,
@@ -412,6 +439,15 @@
     "games_played": 2,
     "tournament_points": 40,
     "tournament_minutes": 73
+  },
+  {
+    "player_id": 5174954,
+    "player_name": "Motiejus Krivas",
+    "team_id": 12,
+    "team_name": "Arizona Wildcats",
+    "games_played": 4,
+    "tournament_points": 40,
+    "tournament_minutes": 112
   },
   {
     "player_id": 4432182,
@@ -432,13 +468,13 @@
     "tournament_minutes": 71
   },
   {
-    "player_id": 4432737,
-    "player_name": "Jaden Bradley",
-    "team_id": 12,
-    "team_name": "Arizona Wildcats",
-    "games_played": 3,
+    "player_id": 5175591,
+    "player_name": "C.J. Cox",
+    "team_id": 2509,
+    "team_name": "Purdue Boilermakers",
+    "games_played": 4,
     "tournament_points": 39,
-    "tournament_minutes": 95
+    "tournament_minutes": 100
   },
   {
     "player_id": 5105546,
@@ -475,15 +511,6 @@
     "games_played": 4,
     "tournament_points": 38,
     "tournament_minutes": 73
-  },
-  {
-    "player_id": 5311896,
-    "player_name": "Ivan Kharchenkov",
-    "team_id": 12,
-    "team_name": "Arizona Wildcats",
-    "games_played": 3,
-    "tournament_points": 38,
-    "tournament_minutes": 98
   },
   {
     "player_id": 5176727,
@@ -639,15 +666,6 @@
     "tournament_minutes": 72
   },
   {
-    "player_id": 5174954,
-    "player_name": "Motiejus Krivas",
-    "team_id": 12,
-    "team_name": "Arizona Wildcats",
-    "games_played": 3,
-    "tournament_points": 34,
-    "tournament_minutes": 77
-  },
-  {
     "player_id": 5105836,
     "player_name": "Roddy Gayle Jr.",
     "team_id": 130,
@@ -720,6 +738,15 @@
     "tournament_minutes": 62
   },
   {
+    "player_id": 5105555,
+    "player_name": "Tobe Awaka",
+    "team_id": 12,
+    "team_name": "Arizona Wildcats",
+    "games_played": 4,
+    "tournament_points": 33,
+    "tournament_minutes": 66
+  },
+  {
     "player_id": 4712845,
     "player_name": "Isaac McKneely",
     "team_id": 97,
@@ -745,15 +772,6 @@
     "games_played": 2,
     "tournament_points": 32,
     "tournament_minutes": 59
-  },
-  {
-    "player_id": 5175591,
-    "player_name": "C.J. Cox",
-    "team_id": 2509,
-    "team_name": "Purdue Boilermakers",
-    "games_played": 3,
-    "tournament_points": 32,
-    "tournament_minutes": 74
   },
   {
     "player_id": 5176280,
@@ -900,15 +918,6 @@
     "tournament_minutes": 54
   },
   {
-    "player_id": 5105555,
-    "player_name": "Tobe Awaka",
-    "team_id": 12,
-    "team_name": "Arizona Wildcats",
-    "games_played": 3,
-    "tournament_points": 29,
-    "tournament_minutes": 55
-  },
-  {
     "player_id": 5105486,
     "player_name": "Chendall Weaver",
     "team_id": 251,
@@ -979,15 +988,6 @@
     "games_played": 2,
     "tournament_points": 28,
     "tournament_minutes": 59
-  },
-  {
-    "player_id": 5174973,
-    "player_name": "Oscar Cluff",
-    "team_id": 2509,
-    "team_name": "Purdue Boilermakers",
-    "games_played": 3,
-    "tournament_points": 28,
-    "tournament_minutes": 83
   },
   {
     "player_id": 5079838,
@@ -1303,6 +1303,15 @@
     "games_played": 2,
     "tournament_points": 22,
     "tournament_minutes": 61
+  },
+  {
+    "player_id": 5108141,
+    "player_name": "Anthony Dell'Orso",
+    "team_id": 12,
+    "team_name": "Arizona Wildcats",
+    "games_played": 4,
+    "tournament_points": 22,
+    "tournament_minutes": 62
   },
   {
     "player_id": 4937074,
@@ -1627,15 +1636,6 @@
     "games_played": 2,
     "tournament_points": 19,
     "tournament_minutes": 55
-  },
-  {
-    "player_id": 5108141,
-    "player_name": "Anthony Dell'Orso",
-    "team_id": 12,
-    "team_name": "Arizona Wildcats",
-    "games_played": 3,
-    "tournament_points": 19,
-    "tournament_minutes": 53
   },
   {
     "player_id": 5316220,
@@ -2068,6 +2068,24 @@
     "games_played": 1,
     "tournament_points": 15,
     "tournament_minutes": 39
+  },
+  {
+    "player_id": 5312035,
+    "player_name": "Omer Mayer",
+    "team_id": 2509,
+    "team_name": "Purdue Boilermakers",
+    "games_played": 4,
+    "tournament_points": 15,
+    "tournament_minutes": 49
+  },
+  {
+    "player_id": 5101658,
+    "player_name": "Gicarri Harris",
+    "team_id": 2509,
+    "team_name": "Purdue Boilermakers",
+    "games_played": 4,
+    "tournament_points": 15,
+    "tournament_minutes": 60
   },
   {
     "player_id": 5105449,
@@ -2608,15 +2626,6 @@
     "games_played": 1,
     "tournament_points": 11,
     "tournament_minutes": 29
-  },
-  {
-    "player_id": 5312035,
-    "player_name": "Omer Mayer",
-    "team_id": 2509,
-    "team_name": "Purdue Boilermakers",
-    "games_played": 3,
-    "tournament_points": 11,
-    "tournament_minutes": 38
   },
   {
     "player_id": 5241495,
@@ -3375,15 +3384,6 @@
     "tournament_minutes": 26
   },
   {
-    "player_id": 5101658,
-    "player_name": "Gicarri Harris",
-    "team_id": 2509,
-    "team_name": "Purdue Boilermakers",
-    "games_played": 3,
-    "tournament_points": 7,
-    "tournament_minutes": 46
-  },
-  {
     "player_id": 5101849,
     "player_name": "Malachi Moreno",
     "team_id": 96,
@@ -3415,9 +3415,9 @@
     "player_name": "Dwayne Aristode",
     "team_id": 12,
     "team_name": "Arizona Wildcats",
-    "games_played": 3,
+    "games_played": 4,
     "tournament_points": 7,
-    "tournament_minutes": 24
+    "tournament_minutes": 25
   },
   {
     "player_id": 4684799,
@@ -4144,9 +4144,9 @@
     "player_name": "Daniel Jacobsen",
     "team_id": 2509,
     "team_name": "Purdue Boilermakers",
-    "games_played": 3,
+    "games_played": 4,
     "tournament_points": 4,
-    "tournament_minutes": 14
+    "tournament_minutes": 27
   },
   {
     "player_id": 5108059,
@@ -4216,7 +4216,7 @@
     "player_name": "Sidi Gueye",
     "team_id": 12,
     "team_name": "Arizona Wildcats",
-    "games_played": 3,
+    "games_played": 4,
     "tournament_points": 4,
     "tournament_minutes": 8
   },
@@ -4351,7 +4351,7 @@
     "player_name": "Liam Murphy",
     "team_id": 2509,
     "team_name": "Purdue Boilermakers",
-    "games_played": 3,
+    "games_played": 4,
     "tournament_points": 3,
     "tournament_minutes": 5
   },
@@ -4360,9 +4360,9 @@
     "player_name": "Jack Benter",
     "team_id": 2509,
     "team_name": "Purdue Boilermakers",
-    "games_played": 3,
+    "games_played": 4,
     "tournament_points": 3,
-    "tournament_minutes": 44
+    "tournament_minutes": 48
   },
   {
     "player_id": 4703169,
@@ -4819,7 +4819,7 @@
     "player_name": "Addison Arnold",
     "team_id": 12,
     "team_name": "Arizona Wildcats",
-    "games_played": 3,
+    "games_played": 4,
     "tournament_points": 2,
     "tournament_minutes": 4
   },
@@ -8320,7 +8320,7 @@
     "player_name": "Sam King",
     "team_id": 2509,
     "team_name": "Purdue Boilermakers",
-    "games_played": 3,
+    "games_played": 4,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -8329,7 +8329,7 @@
     "player_name": "Raleigh Burgess",
     "team_id": 2509,
     "team_name": "Purdue Boilermakers",
-    "games_played": 3,
+    "games_played": 4,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -8338,7 +8338,7 @@
     "player_name": "Jack Lusk",
     "team_id": 2509,
     "team_name": "Purdue Boilermakers",
-    "games_played": 3,
+    "games_played": 4,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -8347,7 +8347,7 @@
     "player_name": "Aaron Fine",
     "team_id": 2509,
     "team_name": "Purdue Boilermakers",
-    "games_played": 3,
+    "games_played": 4,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -8356,7 +8356,7 @@
     "player_name": "Jace Rayl",
     "team_id": 2509,
     "team_name": "Purdue Boilermakers",
-    "games_played": 3,
+    "games_played": 4,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -8365,7 +8365,7 @@
     "player_name": "Antione West Jr",
     "team_id": 2509,
     "team_name": "Purdue Boilermakers",
-    "games_played": 3,
+    "games_played": 4,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -9400,7 +9400,7 @@
     "player_name": "Sven Djopmo",
     "team_id": 12,
     "team_name": "Arizona Wildcats",
-    "games_played": 3,
+    "games_played": 4,
     "tournament_points": 0,
     "tournament_minutes": 2
   },
@@ -9409,7 +9409,7 @@
     "player_name": "Jackson Cook",
     "team_id": 12,
     "team_name": "Arizona Wildcats",
-    "games_played": 3,
+    "games_played": 4,
     "tournament_points": 0,
     "tournament_minutes": 1
   },
@@ -9418,7 +9418,7 @@
     "player_name": "Jackson Francois",
     "team_id": 12,
     "team_name": "Arizona Wildcats",
-    "games_played": 3,
+    "games_played": 4,
     "tournament_points": 0,
     "tournament_minutes": 1
   },
@@ -9427,7 +9427,7 @@
     "player_name": "Evan Nelson",
     "team_id": 12,
     "team_name": "Arizona Wildcats",
-    "games_played": 3,
+    "games_played": 4,
     "tournament_points": 0,
     "tournament_minutes": 4
   },
@@ -9436,7 +9436,7 @@
     "player_name": "Mabil Mawut",
     "team_id": 12,
     "team_name": "Arizona Wildcats",
-    "games_played": 3,
+    "games_played": 4,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -9445,7 +9445,7 @@
     "player_name": "Bryce James",
     "team_id": 12,
     "team_name": "Arizona Wildcats",
-    "games_played": 3,
+    "games_played": 4,
     "tournament_points": 0,
     "tournament_minutes": 0
   }

@@ -614,8 +614,8 @@
     "date": "20260328",
     "name": "Purdue Boilermakers at Arizona Wildcats",
     "short_name": "PUR VS ARIZ",
-    "completed": false,
-    "status": "Halftime",
+    "completed": true,
+    "status": "Final",
     "home_team_id": 12,
     "away_team_id": 2509
   },

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-29T01:59:16.020Z",
+  "generated_at": "2026-03-29T03:26:47.584Z",
   "year": 2026,
   "available": true,
   "source": "espn_bracket_page",
@@ -8,7 +8,7 @@
   "tournament_name": "Men's NCAA Tournament",
   "short_name": "NCAA",
   "teams_count": 68,
-  "matchups_count": 65,
+  "matchups_count": 66,
   "regions": [
     {
       "id": 1,
@@ -1949,18 +1949,18 @@
       "region_id": 1,
       "bracket_location": 3,
       "date": "2026-03-29T00:59:00Z",
-      "status_state": "in",
-      "status_desc": "Halftime",
-      "status_detail": "Halftime",
+      "status_state": "post",
+      "status_desc": "Final",
+      "status_detail": "Final",
       "location": "San Jose, CA",
-      "link": "/mens-college-basketball/game/_/gameId/401856575",
+      "link": "/mens-college-basketball/game/_/gameId/401856575/purdue-arizona",
       "competitor_one": {
         "team_id": 12,
         "team_name": "Arizona",
         "abbreviation": "ARIZ",
         "seed": 1,
-        "score": 31,
-        "winner": false,
+        "score": 79,
+        "winner": true,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/12.png"
       },
       "competitor_two": {
@@ -1968,7 +1968,7 @@
         "team_name": "Purdue",
         "abbreviation": "PUR",
         "seed": 2,
-        "score": 38,
+        "score": 64,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2509.png"
       }
@@ -2024,6 +2024,28 @@
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/356.png"
       }
+    },
+    {
+      "matchup_id": 401856599,
+      "round_id": 5,
+      "region_id": 1,
+      "bracket_location": 2,
+      "date": "2026-04-04T04:00:00Z",
+      "status_state": "pre",
+      "status_desc": "Scheduled",
+      "status_detail": "4/4 - TBD",
+      "location": "Indianapolis, IN",
+      "link": "/mens-college-basketball/game/_/gameId/401856599",
+      "competitor_one": {
+        "team_id": 12,
+        "team_name": "Arizona",
+        "abbreviation": "ARIZ",
+        "seed": 1,
+        "score": 0,
+        "winner": false,
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/12.png"
+      },
+      "competitor_two": null
     }
   ]
 }

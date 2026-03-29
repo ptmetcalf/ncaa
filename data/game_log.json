@@ -18728,5 +18728,325 @@
     "team_name": "Illinois Fighting Illini",
     "minutes": null,
     "points": 0
+  },
+  {
+    "event_id": 401856575,
+    "date": "20260328",
+    "player_id": 4897438,
+    "player_name": "Trey Kaufman-Renn",
+    "team_id": 2509,
+    "team_name": "Purdue Boilermakers",
+    "minutes": 24,
+    "points": 10
+  },
+  {
+    "event_id": 401856575,
+    "date": "20260328",
+    "player_id": 5174973,
+    "player_name": "Oscar Cluff",
+    "team_id": 2509,
+    "team_name": "Purdue Boilermakers",
+    "minutes": 39,
+    "points": 14
+  },
+  {
+    "event_id": 401856575,
+    "date": "20260328",
+    "player_id": 5175591,
+    "player_name": "C.J. Cox",
+    "team_id": 2509,
+    "team_name": "Purdue Boilermakers",
+    "minutes": 26,
+    "points": 7
+  },
+  {
+    "event_id": 401856575,
+    "date": "20260328",
+    "player_id": 5105854,
+    "player_name": "Braden Smith",
+    "team_id": 2509,
+    "team_name": "Purdue Boilermakers",
+    "minutes": 35,
+    "points": 13
+  },
+  {
+    "event_id": 401856575,
+    "date": "20260328",
+    "player_id": 5105853,
+    "player_name": "Fletcher Loyer",
+    "team_id": 2509,
+    "team_name": "Purdue Boilermakers",
+    "minutes": 34,
+    "points": 8
+  },
+  {
+    "event_id": 401856575,
+    "date": "20260328",
+    "player_id": 5144147,
+    "player_name": "Daniel Jacobsen",
+    "team_id": 2509,
+    "team_name": "Purdue Boilermakers",
+    "minutes": 13,
+    "points": 0
+  },
+  {
+    "event_id": 401856575,
+    "date": "20260328",
+    "player_id": 5312035,
+    "player_name": "Omer Mayer",
+    "team_id": 2509,
+    "team_name": "Purdue Boilermakers",
+    "minutes": 11,
+    "points": 4
+  },
+  {
+    "event_id": 401856575,
+    "date": "20260328",
+    "player_id": 5102618,
+    "player_name": "Jack Benter",
+    "team_id": 2509,
+    "team_name": "Purdue Boilermakers",
+    "minutes": 4,
+    "points": 0
+  },
+  {
+    "event_id": 401856575,
+    "date": "20260328",
+    "player_id": 5101658,
+    "player_name": "Gicarri Harris",
+    "team_id": 2509,
+    "team_name": "Purdue Boilermakers",
+    "minutes": 14,
+    "points": 8
+  },
+  {
+    "event_id": 401856575,
+    "date": "20260328",
+    "player_id": 5105856,
+    "player_name": "Sam King",
+    "team_id": 2509,
+    "team_name": "Purdue Boilermakers",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856575,
+    "date": "20260328",
+    "player_id": 5061582,
+    "player_name": "Raleigh Burgess",
+    "team_id": 2509,
+    "team_name": "Purdue Boilermakers",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856575,
+    "date": "20260328",
+    "player_id": 4702975,
+    "player_name": "Liam Murphy",
+    "team_id": 2509,
+    "team_name": "Purdue Boilermakers",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856575,
+    "date": "20260328",
+    "player_id": 5239504,
+    "player_name": "Jack Lusk",
+    "team_id": 2509,
+    "team_name": "Purdue Boilermakers",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856575,
+    "date": "20260328",
+    "player_id": 5239503,
+    "player_name": "Aaron Fine",
+    "team_id": 2509,
+    "team_name": "Purdue Boilermakers",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856575,
+    "date": "20260328",
+    "player_id": 5174804,
+    "player_name": "Jace Rayl",
+    "team_id": 2509,
+    "team_name": "Purdue Boilermakers",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856575,
+    "date": "20260328",
+    "player_id": 5144111,
+    "player_name": "Antione West Jr",
+    "team_id": 2509,
+    "team_name": "Purdue Boilermakers",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856575,
+    "date": "20260328",
+    "player_id": 5311896,
+    "player_name": "Ivan Kharchenkov",
+    "team_id": 12,
+    "team_name": "Arizona Wildcats",
+    "minutes": 38,
+    "points": 18
+  },
+  {
+    "event_id": 401856575,
+    "date": "20260328",
+    "player_id": 5041953,
+    "player_name": "Koa Peat",
+    "team_id": 12,
+    "team_name": "Arizona Wildcats",
+    "minutes": 34,
+    "points": 20
+  },
+  {
+    "event_id": 401856575,
+    "date": "20260328",
+    "player_id": 5174954,
+    "player_name": "Motiejus Krivas",
+    "team_id": 12,
+    "team_name": "Arizona Wildcats",
+    "minutes": 35,
+    "points": 6
+  },
+  {
+    "event_id": 401856575,
+    "date": "20260328",
+    "player_id": 5082206,
+    "player_name": "Brayden Burries",
+    "team_id": 12,
+    "team_name": "Arizona Wildcats",
+    "minutes": 33,
+    "points": 14
+  },
+  {
+    "event_id": 401856575,
+    "date": "20260328",
+    "player_id": 4432737,
+    "player_name": "Jaden Bradley",
+    "team_id": 12,
+    "team_name": "Arizona Wildcats",
+    "minutes": 39,
+    "points": 14
+  },
+  {
+    "event_id": 401856575,
+    "date": "20260328",
+    "player_id": 5186456,
+    "player_name": "Dwayne Aristode",
+    "team_id": 12,
+    "team_name": "Arizona Wildcats",
+    "minutes": 1,
+    "points": 0
+  },
+  {
+    "event_id": 401856575,
+    "date": "20260328",
+    "player_id": 5105555,
+    "player_name": "Tobe Awaka",
+    "team_id": 12,
+    "team_name": "Arizona Wildcats",
+    "minutes": 11,
+    "points": 4
+  },
+  {
+    "event_id": 401856575,
+    "date": "20260328",
+    "player_id": 5108141,
+    "player_name": "Anthony Dell'Orso",
+    "team_id": 12,
+    "team_name": "Arizona Wildcats",
+    "minutes": 9,
+    "points": 3
+  },
+  {
+    "event_id": 401856575,
+    "date": "20260328",
+    "player_id": 5311898,
+    "player_name": "Mabil Mawut",
+    "team_id": 12,
+    "team_name": "Arizona Wildcats",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856575,
+    "date": "20260328",
+    "player_id": 5311897,
+    "player_name": "Sidi Gueye",
+    "team_id": 12,
+    "team_name": "Arizona Wildcats",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856575,
+    "date": "20260328",
+    "player_id": 5239487,
+    "player_name": "Sven Djopmo",
+    "team_id": 12,
+    "team_name": "Arizona Wildcats",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856575,
+    "date": "20260328",
+    "player_id": 5174956,
+    "player_name": "Jackson Cook",
+    "team_id": 12,
+    "team_name": "Arizona Wildcats",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856575,
+    "date": "20260328",
+    "player_id": 5105542,
+    "player_name": "Jackson Francois",
+    "team_id": 12,
+    "team_name": "Arizona Wildcats",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856575,
+    "date": "20260328",
+    "player_id": 5082287,
+    "player_name": "Bryce James",
+    "team_id": 12,
+    "team_name": "Arizona Wildcats",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856575,
+    "date": "20260328",
+    "player_id": 4896359,
+    "player_name": "Addison Arnold",
+    "team_id": 12,
+    "team_name": "Arizona Wildcats",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856575,
+    "date": "20260328",
+    "player_id": 4702960,
+    "player_name": "Evan Nelson",
+    "team_id": 12,
+    "team_name": "Arizona Wildcats",
+    "minutes": null,
+    "points": 0
   }
 ]
