@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-28T23:28:41.393Z",
+  "generated_at": "2026-03-29T01:00:52.183Z",
   "year": 2026,
   "available": true,
   "source": "espn_bracket_page",
@@ -8,7 +8,7 @@
   "tournament_name": "Men's NCAA Tournament",
   "short_name": "NCAA",
   "teams_count": 68,
-  "matchups_count": 64,
+  "matchups_count": 65,
   "regions": [
     {
       "id": 1,
@@ -1919,17 +1919,17 @@
       "region_id": 1,
       "bracket_location": 2,
       "date": "2026-03-28T22:09:00Z",
-      "status_state": "in",
-      "status_desc": "Halftime",
-      "status_detail": "Halftime",
+      "status_state": "post",
+      "status_desc": "Final",
+      "status_detail": "Final",
       "location": "Houston, TX",
-      "link": "/mens-college-basketball/game/_/gameId/401856574",
+      "link": "/mens-college-basketball/game/_/gameId/401856574/iowa-illinois",
       "competitor_one": {
         "team_id": 2294,
         "team_name": "Iowa",
         "abbreviation": "IOWA",
         "seed": 9,
-        "score": 32,
+        "score": 59,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2294.png"
       },
@@ -1938,8 +1938,8 @@
         "team_name": "Illinois",
         "abbreviation": "ILL",
         "seed": 3,
-        "score": 28,
-        "winner": false,
+        "score": 71,
+        "winner": true,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/356.png"
       }
     },
@@ -1948,12 +1948,12 @@
       "round_id": 4,
       "region_id": 1,
       "bracket_location": 3,
-      "date": "2026-03-29T00:49:00Z",
-      "status_state": "pre",
-      "status_desc": "Scheduled",
-      "status_detail": "3/28 - 8:49 PM EDT",
+      "date": "2026-03-29T00:59:00Z",
+      "status_state": "in",
+      "status_desc": "In Progress",
+      "status_detail": "19:56 - 1st",
       "location": "San Jose, CA",
-      "link": "/mens-college-basketball/game/_/gameId/401856575/purdue-arizona",
+      "link": "/mens-college-basketball/game/_/gameId/401856575",
       "competitor_one": {
         "team_id": 12,
         "team_name": "Arizona",
@@ -2001,6 +2001,28 @@
         "score": 0,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2633.png"
+      }
+    },
+    {
+      "matchup_id": 401856598,
+      "round_id": 5,
+      "region_id": 1,
+      "bracket_location": 1,
+      "date": "2026-04-04T04:00:00Z",
+      "status_state": "pre",
+      "status_desc": "Scheduled",
+      "status_detail": "4/4 - TBD",
+      "location": "Indianapolis, IN",
+      "link": "/mens-college-basketball/game/_/gameId/401856598",
+      "competitor_one": null,
+      "competitor_two": {
+        "team_id": 356,
+        "team_name": "Illinois",
+        "abbreviation": "ILL",
+        "seed": 3,
+        "score": 0,
+        "winner": false,
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/356.png"
       }
     }
   ]

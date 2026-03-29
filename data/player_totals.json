@@ -18,6 +18,15 @@
     "tournament_minutes": 110
   },
   {
+    "player_id": 5241364,
+    "player_name": "Bennett Stirtz",
+    "team_id": 2294,
+    "team_name": "Iowa Hawkeyes",
+    "games_played": 4,
+    "tournament_points": 73,
+    "tournament_minutes": 160
+  },
+  {
     "player_id": 4432243,
     "player_name": "Tramon Mark",
     "team_id": 251,
@@ -25,6 +34,15 @@
     "games_played": 4,
     "tournament_points": 71,
     "tournament_minutes": 133
+  },
+  {
+    "player_id": 5254165,
+    "player_name": "Keaton Wagler",
+    "team_id": 356,
+    "team_name": "Illinois Fighting Illini",
+    "games_played": 4,
+    "tournament_points": 70,
+    "tournament_minutes": 139
   },
   {
     "player_id": 4917149,
@@ -88,6 +106,24 @@
     "games_played": 3,
     "tournament_points": 61,
     "tournament_minutes": 97
+  },
+  {
+    "player_id": 5175007,
+    "player_name": "Andrej Stojakovic",
+    "team_id": 356,
+    "team_name": "Illinois Fighting Illini",
+    "games_played": 4,
+    "tournament_points": 60,
+    "tournament_minutes": 101
+  },
+  {
+    "player_id": 5311832,
+    "player_name": "David Mirkovic",
+    "team_id": 356,
+    "team_name": "Illinois Fighting Illini",
+    "games_played": 4,
+    "tournament_points": 59,
+    "tournament_minutes": 124
   },
   {
     "player_id": 5061585,
@@ -216,15 +252,6 @@
     "tournament_minutes": 86
   },
   {
-    "player_id": 5311832,
-    "player_name": "David Mirkovic",
-    "team_id": 356,
-    "team_name": "Illinois Fighting Illini",
-    "games_played": 3,
-    "tournament_points": 50,
-    "tournament_minutes": 86
-  },
-  {
     "player_id": 4702484,
     "player_name": "Latrell Wrightsell",
     "team_id": 333,
@@ -261,13 +288,13 @@
     "tournament_minutes": 73
   },
   {
-    "player_id": 5241364,
-    "player_name": "Bennett Stirtz",
-    "team_id": 2294,
-    "team_name": "Iowa Hawkeyes",
-    "games_played": 3,
-    "tournament_points": 49,
-    "tournament_minutes": 120
+    "player_id": 5214642,
+    "player_name": "Tomislav Ivisic",
+    "team_id": 356,
+    "team_name": "Illinois Fighting Illini",
+    "games_played": 4,
+    "tournament_points": 48,
+    "tournament_minutes": 99
   },
   {
     "player_id": 5106254,
@@ -297,15 +324,6 @@
     "tournament_minutes": 134
   },
   {
-    "player_id": 5254165,
-    "player_name": "Keaton Wagler",
-    "team_id": 356,
-    "team_name": "Illinois Fighting Illini",
-    "games_played": 3,
-    "tournament_points": 45,
-    "tournament_minutes": 101
-  },
-  {
     "player_id": 4703396,
     "player_name": "Graham Ike",
     "team_id": 2250,
@@ -328,9 +346,9 @@
     "player_name": "Alvaro Folgueiras",
     "team_id": 2294,
     "team_name": "Iowa Hawkeyes",
-    "games_played": 3,
+    "games_played": 4,
     "tournament_points": 44,
-    "tournament_minutes": 67
+    "tournament_minutes": 76
   },
   {
     "player_id": 5248302,
@@ -364,15 +382,6 @@
     "player_name": "Aday Mara",
     "team_id": 130,
     "team_name": "Michigan Wolverines",
-    "games_played": 3,
-    "tournament_points": 43,
-    "tournament_minutes": 74
-  },
-  {
-    "player_id": 5175007,
-    "player_name": "Andrej Stojakovic",
-    "team_id": 356,
-    "team_name": "Illinois Fighting Illini",
     "games_played": 3,
     "tournament_points": 43,
     "tournament_minutes": 74
@@ -459,6 +468,15 @@
     "tournament_minutes": 95
   },
   {
+    "player_id": 5311842,
+    "player_name": "Tate Sage",
+    "team_id": 2294,
+    "team_name": "Iowa Hawkeyes",
+    "games_played": 4,
+    "tournament_points": 38,
+    "tournament_minutes": 73
+  },
+  {
     "player_id": 5311896,
     "player_name": "Ivan Kharchenkov",
     "team_id": 12,
@@ -484,6 +502,15 @@
     "games_played": 3,
     "tournament_points": 37,
     "tournament_minutes": 98
+  },
+  {
+    "player_id": 4873203,
+    "player_name": "Cooper Koch",
+    "team_id": 2294,
+    "team_name": "Iowa Hawkeyes",
+    "games_played": 4,
+    "tournament_points": 37,
+    "tournament_minutes": 142
   },
   {
     "player_id": 5037876,
@@ -547,15 +574,6 @@
     "games_played": 3,
     "tournament_points": 35,
     "tournament_minutes": 76
-  },
-  {
-    "player_id": 5214642,
-    "player_name": "Tomislav Ivisic",
-    "team_id": 356,
-    "team_name": "Illinois Fighting Illini",
-    "games_played": 3,
-    "tournament_points": 35,
-    "tournament_minutes": 72
   },
   {
     "player_id": 4873184,
@@ -648,6 +666,15 @@
     "tournament_minutes": 97
   },
   {
+    "player_id": 4684269,
+    "player_name": "Kylan Boswell",
+    "team_id": 356,
+    "team_name": "Illinois Fighting Illini",
+    "games_played": 4,
+    "tournament_points": 33,
+    "tournament_minutes": 117
+  },
+  {
     "player_id": 5106272,
     "player_name": "Milos Uzan",
     "team_id": 248,
@@ -673,6 +700,15 @@
     "games_played": 2,
     "tournament_points": 33,
     "tournament_minutes": 75
+  },
+  {
+    "player_id": 5241363,
+    "player_name": "Tavion Banks",
+    "team_id": 2294,
+    "team_name": "Iowa Hawkeyes",
+    "games_played": 4,
+    "tournament_points": 33,
+    "tournament_minutes": 96
   },
   {
     "player_id": 5080489,
@@ -720,6 +756,15 @@
     "tournament_minutes": 74
   },
   {
+    "player_id": 5176280,
+    "player_name": "Kael Combs",
+    "team_id": 2294,
+    "team_name": "Iowa Hawkeyes",
+    "games_played": 4,
+    "tournament_points": 32,
+    "tournament_minutes": 114
+  },
+  {
     "player_id": 5311846,
     "player_name": "Thijs De Ridder",
     "team_id": 258,
@@ -754,24 +799,6 @@
     "games_played": 3,
     "tournament_points": 31,
     "tournament_minutes": 75
-  },
-  {
-    "player_id": 4684269,
-    "player_name": "Kylan Boswell",
-    "team_id": 356,
-    "team_name": "Illinois Fighting Illini",
-    "games_played": 3,
-    "tournament_points": 31,
-    "tournament_minutes": 91
-  },
-  {
-    "player_id": 4873203,
-    "player_name": "Cooper Koch",
-    "team_id": 2294,
-    "team_name": "Iowa Hawkeyes",
-    "games_played": 3,
-    "tournament_points": 31,
-    "tournament_minutes": 103
   },
   {
     "player_id": 5105841,
@@ -963,24 +990,6 @@
     "tournament_minutes": 83
   },
   {
-    "player_id": 5241363,
-    "player_name": "Tavion Banks",
-    "team_id": 2294,
-    "team_name": "Iowa Hawkeyes",
-    "games_played": 3,
-    "tournament_points": 28,
-    "tournament_minutes": 71
-  },
-  {
-    "player_id": 5311842,
-    "player_name": "Tate Sage",
-    "team_id": 2294,
-    "team_name": "Iowa Hawkeyes",
-    "games_played": 3,
-    "tournament_points": 28,
-    "tournament_minutes": 55
-  },
-  {
     "player_id": 5079838,
     "player_name": "Blake Buchanan",
     "team_id": 66,
@@ -1042,15 +1051,6 @@
     "games_played": 3,
     "tournament_points": 27,
     "tournament_minutes": 80
-  },
-  {
-    "player_id": 5176280,
-    "player_name": "Kael Combs",
-    "team_id": 2294,
-    "team_name": "Iowa Hawkeyes",
-    "games_played": 3,
-    "tournament_points": 27,
-    "tournament_minutes": 90
   },
   {
     "player_id": 5107169,
@@ -1687,9 +1687,9 @@
     "player_name": "Ben Humrichous",
     "team_id": 356,
     "team_name": "Illinois Fighting Illini",
-    "games_played": 3,
+    "games_played": 4,
     "tournament_points": 18,
-    "tournament_minutes": 63
+    "tournament_minutes": 83
   },
   {
     "player_id": 5183875,
@@ -2196,6 +2196,15 @@
     "tournament_minutes": 24
   },
   {
+    "player_id": 5174665,
+    "player_name": "Zvonimir Ivisic",
+    "team_id": 356,
+    "team_name": "Illinois Fighting Illini",
+    "games_played": 4,
+    "tournament_points": 14,
+    "tournament_minutes": 62
+  },
+  {
     "player_id": 5176318,
     "player_name": "Kolton Mitchell",
     "team_id": 70,
@@ -2628,6 +2637,15 @@
     "tournament_minutes": 20
   },
   {
+    "player_id": 5176283,
+    "player_name": "Cam Manyawu",
+    "team_id": 2294,
+    "team_name": "Iowa Hawkeyes",
+    "games_played": 4,
+    "tournament_points": 11,
+    "tournament_minutes": 84
+  },
+  {
     "player_id": 5107144,
     "player_name": "Butta Johnson",
     "team_id": 228,
@@ -2770,15 +2788,6 @@
     "games_played": 2,
     "tournament_points": 10,
     "tournament_minutes": 29
-  },
-  {
-    "player_id": 5174665,
-    "player_name": "Zvonimir Ivisic",
-    "team_id": 356,
-    "team_name": "Illinois Fighting Illini",
-    "games_played": 3,
-    "tournament_points": 10,
-    "tournament_minutes": 51
   },
   {
     "player_id": 4683682,
@@ -2950,6 +2959,15 @@
     "games_played": 1,
     "tournament_points": 9,
     "tournament_minutes": 22
+  },
+  {
+    "player_id": 5176150,
+    "player_name": "Jake Davis",
+    "team_id": 356,
+    "team_name": "Illinois Fighting Illini",
+    "games_played": 4,
+    "tournament_points": 9,
+    "tournament_minutes": 57
   },
   {
     "player_id": 5101692,
@@ -3159,15 +3177,6 @@
     "tournament_minutes": 32
   },
   {
-    "player_id": 5176150,
-    "player_name": "Jake Davis",
-    "team_id": 356,
-    "team_name": "Illinois Fighting Illini",
-    "games_played": 3,
-    "tournament_points": 8,
-    "tournament_minutes": 44
-  },
-  {
     "player_id": 5313031,
     "player_name": "Dillan Shaw",
     "team_id": 2608,
@@ -3238,6 +3247,15 @@
     "games_played": 1,
     "tournament_points": 8,
     "tournament_minutes": 18
+  },
+  {
+    "player_id": 5241366,
+    "player_name": "Isaia Howard",
+    "team_id": 2294,
+    "team_name": "Iowa Hawkeyes",
+    "games_played": 4,
+    "tournament_points": 8,
+    "tournament_minutes": 52
   },
   {
     "player_id": 4699440,
@@ -3364,15 +3382,6 @@
     "games_played": 3,
     "tournament_points": 7,
     "tournament_minutes": 46
-  },
-  {
-    "player_id": 5176283,
-    "player_name": "Cam Manyawu",
-    "team_id": 2294,
-    "team_name": "Iowa Hawkeyes",
-    "games_played": 3,
-    "tournament_points": 7,
-    "tournament_minutes": 58
   },
   {
     "player_id": 5101849,
@@ -4018,7 +4027,7 @@
     "player_name": "Brandon Lee",
     "team_id": 356,
     "team_name": "Illinois Fighting Illini",
-    "games_played": 3,
+    "games_played": 4,
     "tournament_points": 4,
     "tournament_minutes": 5
   },
@@ -4365,15 +4374,6 @@
     "tournament_minutes": 6
   },
   {
-    "player_id": 5241366,
-    "player_name": "Isaia Howard",
-    "team_id": 2294,
-    "team_name": "Iowa Hawkeyes",
-    "games_played": 3,
-    "tournament_points": 3,
-    "tournament_minutes": 33
-  },
-  {
     "player_id": 4869781,
     "player_name": "Dallas Thomas",
     "team_id": 228,
@@ -4612,7 +4612,7 @@
     "player_name": "AJ Redd",
     "team_id": 356,
     "team_name": "Illinois Fighting Illini",
-    "games_played": 3,
+    "games_played": 4,
     "tournament_points": 2,
     "tournament_minutes": 4
   },
@@ -7285,7 +7285,7 @@
     "player_name": "Mihailo Petrovic",
     "team_id": 356,
     "team_name": "Illinois Fighting Illini",
-    "games_played": 3,
+    "games_played": 4,
     "tournament_points": 0,
     "tournament_minutes": 5
   },
@@ -7294,7 +7294,7 @@
     "player_name": "Blake Fagbemi",
     "team_id": 356,
     "team_name": "Illinois Fighting Illini",
-    "games_played": 3,
+    "games_played": 4,
     "tournament_points": 0,
     "tournament_minutes": 4
   },
@@ -7303,7 +7303,7 @@
     "player_name": "Jason Jakstys",
     "team_id": 356,
     "team_name": "Illinois Fighting Illini",
-    "games_played": 3,
+    "games_played": 4,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -7312,7 +7312,7 @@
     "player_name": "Ty Rodgers",
     "team_id": 356,
     "team_name": "Illinois Fighting Illini",
-    "games_played": 3,
+    "games_played": 4,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -8653,7 +8653,7 @@
     "player_name": "Trey Thompson",
     "team_id": 2294,
     "team_name": "Iowa Hawkeyes",
-    "games_played": 3,
+    "games_played": 4,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -8662,7 +8662,7 @@
     "player_name": "Joey Matteoni",
     "team_id": 2294,
     "team_name": "Iowa Hawkeyes",
-    "games_played": 3,
+    "games_played": 4,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -8671,7 +8671,7 @@
     "player_name": "Trevin Jirak",
     "team_id": 2294,
     "team_name": "Iowa Hawkeyes",
-    "games_played": 3,
+    "games_played": 4,
     "tournament_points": 0,
     "tournament_minutes": 3
   },
@@ -8680,7 +8680,7 @@
     "player_name": "Peyton McCollum",
     "team_id": 2294,
     "team_name": "Iowa Hawkeyes",
-    "games_played": 3,
+    "games_played": 4,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -8689,7 +8689,7 @@
     "player_name": "Jacob Koch",
     "team_id": 2294,
     "team_name": "Iowa Hawkeyes",
-    "games_played": 3,
+    "games_played": 4,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -8698,7 +8698,7 @@
     "player_name": "Brendan Hausen",
     "team_id": 2294,
     "team_name": "Iowa Hawkeyes",
-    "games_played": 3,
+    "games_played": 4,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
