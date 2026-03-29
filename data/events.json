@@ -634,8 +634,8 @@
     "date": "20260329",
     "name": "UConn Huskies at Duke Blue Devils",
     "short_name": "CONN VS DUKE",
-    "completed": false,
-    "status": "In Progress",
+    "completed": true,
+    "status": "Final",
     "home_team_id": 150,
     "away_team_id": 41
   }

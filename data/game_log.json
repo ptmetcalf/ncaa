@@ -19368,5 +19368,295 @@
     "team_name": "Michigan Wolverines",
     "minutes": null,
     "points": 0
+  },
+  {
+    "event_id": 401856577,
+    "date": "20260329",
+    "player_id": 4917149,
+    "player_name": "Alex Karaban",
+    "team_id": 41,
+    "team_name": "UConn Huskies",
+    "minutes": 38,
+    "points": 5
+  },
+  {
+    "event_id": 401856577,
+    "date": "20260329",
+    "player_id": 5105809,
+    "player_name": "Tarris Reed Jr.",
+    "team_id": 41,
+    "team_name": "UConn Huskies",
+    "minutes": 32,
+    "points": 26
+  },
+  {
+    "event_id": 401856577,
+    "date": "20260329",
+    "player_id": 5196916,
+    "player_name": "Braylon Mullins",
+    "team_id": 41,
+    "team_name": "UConn Huskies",
+    "minutes": 26,
+    "points": 10
+  },
+  {
+    "event_id": 401856577,
+    "date": "20260329",
+    "player_id": 5054083,
+    "player_name": "Silas Demary Jr.",
+    "team_id": 41,
+    "team_name": "UConn Huskies",
+    "minutes": 23,
+    "points": 11
+  },
+  {
+    "event_id": 401856577,
+    "date": "20260329",
+    "player_id": 4895737,
+    "player_name": "Solo Ball",
+    "team_id": 41,
+    "team_name": "UConn Huskies",
+    "minutes": 30,
+    "points": 10
+  },
+  {
+    "event_id": 401856577,
+    "date": "20260329",
+    "player_id": 4895753,
+    "player_name": "Jayden Ross",
+    "team_id": 41,
+    "team_name": "UConn Huskies",
+    "minutes": 21,
+    "points": 0
+  },
+  {
+    "event_id": 401856577,
+    "date": "20260329",
+    "player_id": 4685647,
+    "player_name": "Jaylin Stewart",
+    "team_id": 41,
+    "team_name": "UConn Huskies",
+    "minutes": 5,
+    "points": 0
+  },
+  {
+    "event_id": 401856577,
+    "date": "20260329",
+    "player_id": 5152763,
+    "player_name": "Eric Reibe",
+    "team_id": 41,
+    "team_name": "UConn Huskies",
+    "minutes": 7,
+    "points": 2
+  },
+  {
+    "event_id": 401856577,
+    "date": "20260329",
+    "player_id": 4683861,
+    "player_name": "Malachi Smith",
+    "team_id": 41,
+    "team_name": "UConn Huskies",
+    "minutes": 17,
+    "points": 9
+  },
+  {
+    "event_id": 401856577,
+    "date": "20260329",
+    "player_id": 5142624,
+    "player_name": "Jacob Ross",
+    "team_id": 41,
+    "team_name": "UConn Huskies",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856577,
+    "date": "20260329",
+    "player_id": 4703011,
+    "player_name": "Dwayne Koroma",
+    "team_id": 41,
+    "team_name": "UConn Huskies",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856577,
+    "date": "20260329",
+    "player_id": 5312036,
+    "player_name": "Rrezon Elezaj",
+    "team_id": 41,
+    "team_name": "UConn Huskies",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856577,
+    "date": "20260329",
+    "player_id": 5307570,
+    "player_name": "Uroš Paunovic",
+    "team_id": 41,
+    "team_name": "UConn Huskies",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856577,
+    "date": "20260329",
+    "player_id": 5248294,
+    "player_name": "Jacob Furphy",
+    "team_id": 41,
+    "team_name": "UConn Huskies",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856577,
+    "date": "20260329",
+    "player_id": 5241657,
+    "player_name": "Alec Millender",
+    "team_id": 41,
+    "team_name": "UConn Huskies",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856577,
+    "date": "20260329",
+    "player_id": 5105337,
+    "player_name": "Maliq Brown",
+    "team_id": 150,
+    "team_name": "Duke Blue Devils",
+    "minutes": 17,
+    "points": 0
+  },
+  {
+    "event_id": 401856577,
+    "date": "20260329",
+    "player_id": 5041935,
+    "player_name": "Cameron Boozer",
+    "team_id": 150,
+    "team_name": "Duke Blue Devils",
+    "minutes": 39,
+    "points": 27
+  },
+  {
+    "event_id": 401856577,
+    "date": "20260329",
+    "player_id": 5287474,
+    "player_name": "Dame Sarr",
+    "team_id": 150,
+    "team_name": "Duke Blue Devils",
+    "minutes": 28,
+    "points": 10
+  },
+  {
+    "event_id": 401856577,
+    "date": "20260329",
+    "player_id": 5061585,
+    "player_name": "Isaiah Evans",
+    "team_id": 150,
+    "team_name": "Duke Blue Devils",
+    "minutes": 29,
+    "points": 7
+  },
+  {
+    "event_id": 401856577,
+    "date": "20260329",
+    "player_id": 5041937,
+    "player_name": "Cayden Boozer",
+    "team_id": 150,
+    "team_name": "Duke Blue Devils",
+    "minutes": 28,
+    "points": 15
+  },
+  {
+    "event_id": 401856577,
+    "date": "20260329",
+    "player_id": 4873209,
+    "player_name": "Patrick Ngongba II",
+    "team_id": 150,
+    "team_name": "Duke Blue Devils",
+    "minutes": 22,
+    "points": 6
+  },
+  {
+    "event_id": 401856577,
+    "date": "20260329",
+    "player_id": 5144124,
+    "player_name": "Nikolas Khamenia",
+    "team_id": 150,
+    "team_name": "Duke Blue Devils",
+    "minutes": 22,
+    "points": 7
+  },
+  {
+    "event_id": 401856577,
+    "date": "20260329",
+    "player_id": 4873107,
+    "player_name": "Darren Harris",
+    "team_id": 150,
+    "team_name": "Duke Blue Devils",
+    "minutes": 1,
+    "points": 0
+  },
+  {
+    "event_id": 401856577,
+    "date": "20260329",
+    "player_id": 4711256,
+    "player_name": "Caleb Foster",
+    "team_id": 150,
+    "team_name": "Duke Blue Devils",
+    "minutes": 14,
+    "points": 0
+  },
+  {
+    "event_id": 401856577,
+    "date": "20260329",
+    "player_id": 5107141,
+    "player_name": "Ifeanyi Ufochukwu",
+    "team_id": 150,
+    "team_name": "Duke Blue Devils",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856577,
+    "date": "20260329",
+    "player_id": 5341547,
+    "player_name": "Brock Davis",
+    "team_id": 150,
+    "team_name": "Duke Blue Devils",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856577,
+    "date": "20260329",
+    "player_id": 5144150,
+    "player_name": "Sebastian Wilkins",
+    "team_id": 150,
+    "team_name": "Duke Blue Devils",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856577,
+    "date": "20260329",
+    "player_id": 4888720,
+    "player_name": "Jack Scott",
+    "team_id": 150,
+    "team_name": "Duke Blue Devils",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856577,
+    "date": "20260329",
+    "player_id": 4432321,
+    "player_name": "Cameron Sheffield",
+    "team_id": 150,
+    "team_name": "Duke Blue Devils",
+    "minutes": null,
+    "points": 0
   }
 ]
