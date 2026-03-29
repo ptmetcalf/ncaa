@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-29T01:00:52.183Z",
+  "generated_at": "2026-03-29T01:59:16.020Z",
   "year": 2026,
   "available": true,
   "source": "espn_bracket_page",
@@ -1950,8 +1950,8 @@
       "bracket_location": 3,
       "date": "2026-03-29T00:59:00Z",
       "status_state": "in",
-      "status_desc": "In Progress",
-      "status_detail": "19:56 - 1st",
+      "status_desc": "Halftime",
+      "status_detail": "Halftime",
       "location": "San Jose, CA",
       "link": "/mens-college-basketball/game/_/gameId/401856575",
       "competitor_one": {
@@ -1959,7 +1959,7 @@
         "team_name": "Arizona",
         "abbreviation": "ARIZ",
         "seed": 1,
-        "score": 0,
+        "score": 31,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/12.png"
       },
@@ -1968,7 +1968,7 @@
         "team_name": "Purdue",
         "abbreviation": "PUR",
         "seed": 2,
-        "score": 0,
+        "score": 38,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2509.png"
       }
