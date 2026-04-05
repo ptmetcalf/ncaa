@@ -9,6 +9,15 @@
     "tournament_minutes": 164
   },
   {
+    "player_id": 5175737,
+    "player_name": "Yaxel Lendeborg",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "games_played": 5,
+    "tournament_points": 95,
+    "tournament_minutes": 142
+  },
+  {
     "player_id": 5041935,
     "player_name": "Cameron Boozer",
     "team_id": 150,
@@ -45,13 +54,31 @@
     "tournament_minutes": 148
   },
   {
-    "player_id": 5175737,
-    "player_name": "Yaxel Lendeborg",
+    "player_id": 5041953,
+    "player_name": "Koa Peat",
+    "team_id": 12,
+    "team_name": "Arizona Wildcats",
+    "games_played": 5,
+    "tournament_points": 86,
+    "tournament_minutes": 155
+  },
+  {
+    "player_id": 5082206,
+    "player_name": "Brayden Burries",
+    "team_id": 12,
+    "team_name": "Arizona Wildcats",
+    "games_played": 5,
+    "tournament_points": 84,
+    "tournament_minutes": 159
+  },
+  {
+    "player_id": 5174983,
+    "player_name": "Aday Mara",
     "team_id": 130,
     "team_name": "Michigan Wolverines",
-    "games_played": 4,
-    "tournament_points": 84,
-    "tournament_minutes": 128
+    "games_played": 5,
+    "tournament_points": 80,
+    "tournament_minutes": 122
   },
   {
     "player_id": 4917149,
@@ -99,24 +126,6 @@
     "tournament_minutes": 133
   },
   {
-    "player_id": 5082206,
-    "player_name": "Brayden Burries",
-    "team_id": 12,
-    "team_name": "Arizona Wildcats",
-    "games_played": 4,
-    "tournament_points": 71,
-    "tournament_minutes": 121
-  },
-  {
-    "player_id": 5041953,
-    "player_name": "Koa Peat",
-    "team_id": 12,
-    "team_name": "Arizona Wildcats",
-    "games_played": 4,
-    "tournament_points": 70,
-    "tournament_minutes": 124
-  },
-  {
     "player_id": 5175007,
     "player_name": "Andrej Stojakovic",
     "team_id": 356,
@@ -135,6 +144,15 @@
     "tournament_minutes": 142
   },
   {
+    "player_id": 4432737,
+    "player_name": "Jaden Bradley",
+    "team_id": 12,
+    "team_name": "Arizona Wildcats",
+    "games_played": 5,
+    "tournament_points": 66,
+    "tournament_minutes": 159
+  },
+  {
     "player_id": 5061585,
     "player_name": "Isaiah Evans",
     "team_id": 150,
@@ -142,6 +160,15 @@
     "games_played": 4,
     "tournament_points": 65,
     "tournament_minutes": 124
+  },
+  {
+    "player_id": 4873153,
+    "player_name": "Morez Johnson Jr.",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "games_played": 5,
+    "tournament_points": 65,
+    "tournament_minutes": 125
   },
   {
     "player_id": 5311832,
@@ -180,6 +207,15 @@
     "tournament_minutes": 127
   },
   {
+    "player_id": 5041954,
+    "player_name": "Trey McKenney",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "games_played": 5,
+    "tournament_points": 63,
+    "tournament_minutes": 122
+  },
+  {
     "player_id": 4858604,
     "player_name": "Pryce Sandfort",
     "team_id": 158,
@@ -198,6 +234,15 @@
     "tournament_minutes": 154
   },
   {
+    "player_id": 5311896,
+    "player_name": "Ivan Kharchenkov",
+    "team_id": 12,
+    "team_name": "Arizona Wildcats",
+    "games_played": 5,
+    "tournament_points": 62,
+    "tournament_minutes": 165
+  },
+  {
     "player_id": 5041951,
     "player_name": "Meleek Thomas",
     "team_id": 8,
@@ -207,31 +252,13 @@
     "tournament_minutes": 108
   },
   {
-    "player_id": 5311896,
-    "player_name": "Ivan Kharchenkov",
-    "team_id": 12,
-    "team_name": "Arizona Wildcats",
-    "games_played": 4,
-    "tournament_points": 56,
-    "tournament_minutes": 136
-  },
-  {
-    "player_id": 4873153,
-    "player_name": "Morez Johnson Jr.",
+    "player_id": 4869764,
+    "player_name": "Elliot Cadeau",
     "team_id": 130,
     "team_name": "Michigan Wolverines",
-    "games_played": 4,
+    "games_played": 5,
     "tournament_points": 55,
-    "tournament_minutes": 100
-  },
-  {
-    "player_id": 5174983,
-    "player_name": "Aday Mara",
-    "team_id": 130,
-    "team_name": "Michigan Wolverines",
-    "games_played": 4,
-    "tournament_points": 54,
-    "tournament_minutes": 92
+    "tournament_minutes": 164
   },
   {
     "player_id": 4848625,
@@ -270,15 +297,6 @@
     "tournament_minutes": 79
   },
   {
-    "player_id": 4432737,
-    "player_name": "Jaden Bradley",
-    "team_id": 12,
-    "team_name": "Arizona Wildcats",
-    "games_played": 4,
-    "tournament_points": 53,
-    "tournament_minutes": 134
-  },
-  {
     "player_id": 4703912,
     "player_name": "Nate Heise",
     "team_id": 66,
@@ -315,6 +333,15 @@
     "tournament_minutes": 86
   },
   {
+    "player_id": 5174954,
+    "player_name": "Motiejus Krivas",
+    "team_id": 12,
+    "team_name": "Arizona Wildcats",
+    "games_played": 5,
+    "tournament_points": 51,
+    "tournament_minutes": 140
+  },
+  {
     "player_id": 5041937,
     "player_name": "Cayden Boozer",
     "team_id": 150,
@@ -322,6 +349,15 @@
     "games_played": 4,
     "tournament_points": 50,
     "tournament_minutes": 126
+  },
+  {
+    "player_id": 5105836,
+    "player_name": "Roddy Gayle Jr.",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "games_played": 5,
+    "tournament_points": 50,
+    "tournament_minutes": 122
   },
   {
     "player_id": 4702484,
@@ -349,15 +385,6 @@
     "games_played": 2,
     "tournament_points": 49,
     "tournament_minutes": 73
-  },
-  {
-    "player_id": 5041954,
-    "player_name": "Trey McKenney",
-    "team_id": 130,
-    "team_name": "Michigan Wolverines",
-    "games_played": 4,
-    "tournament_points": 47,
-    "tournament_minutes": 95
   },
   {
     "player_id": 5106254,
@@ -394,6 +421,15 @@
     "games_played": 2,
     "tournament_points": 44,
     "tournament_minutes": 75
+  },
+  {
+    "player_id": 4433138,
+    "player_name": "Nimari Burnett",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "games_played": 5,
+    "tournament_points": 44,
+    "tournament_minutes": 115
   },
   {
     "player_id": 5239571,
@@ -450,15 +486,6 @@
     "tournament_minutes": 103
   },
   {
-    "player_id": 4869764,
-    "player_name": "Elliot Cadeau",
-    "team_id": 130,
-    "team_name": "Michigan Wolverines",
-    "games_played": 4,
-    "tournament_points": 42,
-    "tournament_minutes": 131
-  },
-  {
     "player_id": 5174973,
     "player_name": "Oscar Cluff",
     "team_id": 2509,
@@ -466,15 +493,6 @@
     "games_played": 4,
     "tournament_points": 42,
     "tournament_minutes": 122
-  },
-  {
-    "player_id": 5105836,
-    "player_name": "Roddy Gayle Jr.",
-    "team_id": 130,
-    "team_name": "Michigan Wolverines",
-    "games_played": 4,
-    "tournament_points": 41,
-    "tournament_minutes": 92
   },
   {
     "player_id": 5164559,
@@ -495,6 +513,15 @@
     "tournament_minutes": 115
   },
   {
+    "player_id": 5105555,
+    "player_name": "Tobe Awaka",
+    "team_id": 12,
+    "team_name": "Arizona Wildcats",
+    "games_played": 5,
+    "tournament_points": 41,
+    "tournament_minutes": 83
+  },
+  {
     "player_id": 4897768,
     "player_name": "Bryce Harris",
     "team_id": 47,
@@ -511,15 +538,6 @@
     "games_played": 2,
     "tournament_points": 40,
     "tournament_minutes": 73
-  },
-  {
-    "player_id": 5174954,
-    "player_name": "Motiejus Krivas",
-    "team_id": 12,
-    "team_name": "Arizona Wildcats",
-    "games_played": 4,
-    "tournament_points": 40,
-    "tournament_minutes": 112
   },
   {
     "player_id": 4432182,
@@ -574,15 +592,6 @@
     "games_played": 3,
     "tournament_points": 38,
     "tournament_minutes": 98
-  },
-  {
-    "player_id": 4433138,
-    "player_name": "Nimari Burnett",
-    "team_id": 130,
-    "team_name": "Michigan Wolverines",
-    "games_played": 4,
-    "tournament_points": 38,
-    "tournament_minutes": 93
   },
   {
     "player_id": 5149077,
@@ -772,15 +781,6 @@
     "games_played": 2,
     "tournament_points": 33,
     "tournament_minutes": 62
-  },
-  {
-    "player_id": 5105555,
-    "player_name": "Tobe Awaka",
-    "team_id": 12,
-    "team_name": "Arizona Wildcats",
-    "games_played": 4,
-    "tournament_points": 33,
-    "tournament_minutes": 66
   },
   {
     "player_id": 4712845,
@@ -1161,6 +1161,15 @@
     "tournament_minutes": 37
   },
   {
+    "player_id": 5108141,
+    "player_name": "Anthony Dell'Orso",
+    "team_id": 12,
+    "team_name": "Arizona Wildcats",
+    "games_played": 5,
+    "tournament_points": 25,
+    "tournament_minutes": 79
+  },
+  {
     "player_id": 5105337,
     "player_name": "Maliq Brown",
     "team_id": 150,
@@ -1339,15 +1348,6 @@
     "games_played": 2,
     "tournament_points": 22,
     "tournament_minutes": 61
-  },
-  {
-    "player_id": 5108141,
-    "player_name": "Anthony Dell'Orso",
-    "team_id": 12,
-    "team_name": "Arizona Wildcats",
-    "games_played": 4,
-    "tournament_points": 22,
-    "tournament_minutes": 62
   },
   {
     "player_id": 4937074,
@@ -2821,9 +2821,9 @@
     "player_name": "Will Tschetter",
     "team_id": 130,
     "team_name": "Michigan Wolverines",
-    "games_played": 4,
+    "games_played": 5,
     "tournament_points": 10,
-    "tournament_minutes": 52
+    "tournament_minutes": 67
   },
   {
     "player_id": 4711258,
@@ -2959,6 +2959,15 @@
     "games_played": 2,
     "tournament_points": 10,
     "tournament_minutes": 21
+  },
+  {
+    "player_id": 5186456,
+    "player_name": "Dwayne Aristode",
+    "team_id": 12,
+    "team_name": "Arizona Wildcats",
+    "games_played": 5,
+    "tournament_points": 10,
+    "tournament_minutes": 35
   },
   {
     "player_id": 5177355,
@@ -3429,15 +3438,6 @@
     "tournament_minutes": 15
   },
   {
-    "player_id": 5186456,
-    "player_name": "Dwayne Aristode",
-    "team_id": 12,
-    "team_name": "Arizona Wildcats",
-    "games_played": 4,
-    "tournament_points": 7,
-    "tournament_minutes": 25
-  },
-  {
     "player_id": 4684799,
     "player_name": "Ven-Allen Lubin",
     "team_id": 152,
@@ -3784,9 +3784,9 @@
     "player_name": "Oscar Goodman",
     "team_id": 130,
     "team_name": "Michigan Wolverines",
-    "games_played": 4,
+    "games_played": 5,
     "tournament_points": 5,
-    "tournament_minutes": 7
+    "tournament_minutes": 8
   },
   {
     "player_id": 5144153,
@@ -4225,7 +4225,7 @@
     "player_name": "Sidi Gueye",
     "team_id": 12,
     "team_name": "Arizona Wildcats",
-    "games_played": 4,
+    "games_played": 5,
     "tournament_points": 4,
     "tournament_minutes": 8
   },
@@ -4261,9 +4261,9 @@
     "player_name": "Charlie May",
     "team_id": 130,
     "team_name": "Michigan Wolverines",
-    "games_played": 4,
+    "games_played": 5,
     "tournament_points": 3,
-    "tournament_minutes": 4
+    "tournament_minutes": 5
   },
   {
     "player_id": 5176731,
@@ -4549,9 +4549,9 @@
     "player_name": "Malick Kordel",
     "team_id": 130,
     "team_name": "Michigan Wolverines",
-    "games_played": 4,
+    "games_played": 5,
     "tournament_points": 2,
-    "tournament_minutes": 2
+    "tournament_minutes": 3
   },
   {
     "player_id": 5238204,
@@ -4828,9 +4828,9 @@
     "player_name": "Addison Arnold",
     "team_id": 12,
     "team_name": "Arizona Wildcats",
-    "games_played": 4,
+    "games_played": 5,
     "tournament_points": 2,
-    "tournament_minutes": 4
+    "tournament_minutes": 5
   },
   {
     "player_id": 5243100,
@@ -6610,16 +6610,16 @@
     "player_name": "Howard Eisley Jr.",
     "team_id": 130,
     "team_name": "Michigan Wolverines",
-    "games_played": 4,
+    "games_played": 5,
     "tournament_points": 0,
-    "tournament_minutes": 4
+    "tournament_minutes": 5
   },
   {
     "player_id": 5174787,
     "player_name": "Harrison Hochberg",
     "team_id": 130,
     "team_name": "Michigan Wolverines",
-    "games_played": 4,
+    "games_played": 5,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -6628,7 +6628,7 @@
     "player_name": "Ricky Liburd",
     "team_id": 130,
     "team_name": "Michigan Wolverines",
-    "games_played": 4,
+    "games_played": 5,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -6637,7 +6637,7 @@
     "player_name": "L.J. Cason",
     "team_id": 130,
     "team_name": "Michigan Wolverines",
-    "games_played": 4,
+    "games_played": 5,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -6646,7 +6646,7 @@
     "player_name": "Winters Grady",
     "team_id": 130,
     "team_name": "Michigan Wolverines",
-    "games_played": 4,
+    "games_played": 5,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -9400,43 +9400,43 @@
     "player_name": "Sven Djopmo",
     "team_id": 12,
     "team_name": "Arizona Wildcats",
-    "games_played": 4,
+    "games_played": 5,
     "tournament_points": 0,
-    "tournament_minutes": 2
+    "tournament_minutes": 3
   },
   {
     "player_id": 5174956,
     "player_name": "Jackson Cook",
     "team_id": 12,
     "team_name": "Arizona Wildcats",
-    "games_played": 4,
+    "games_played": 5,
     "tournament_points": 0,
-    "tournament_minutes": 1
+    "tournament_minutes": 2
   },
   {
     "player_id": 5105542,
     "player_name": "Jackson Francois",
     "team_id": 12,
     "team_name": "Arizona Wildcats",
-    "games_played": 4,
+    "games_played": 5,
     "tournament_points": 0,
-    "tournament_minutes": 1
+    "tournament_minutes": 2
   },
   {
     "player_id": 4702960,
     "player_name": "Evan Nelson",
     "team_id": 12,
     "team_name": "Arizona Wildcats",
-    "games_played": 4,
+    "games_played": 5,
     "tournament_points": 0,
-    "tournament_minutes": 4
+    "tournament_minutes": 5
   },
   {
     "player_id": 5311898,
     "player_name": "Mabil Mawut",
     "team_id": 12,
     "team_name": "Arizona Wildcats",
-    "games_played": 4,
+    "games_played": 5,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -9445,7 +9445,7 @@
     "player_name": "Bryce James",
     "team_id": 12,
     "team_name": "Arizona Wildcats",
-    "games_played": 4,
+    "games_played": 5,
     "tournament_points": 0,
     "tournament_minutes": 0
   }

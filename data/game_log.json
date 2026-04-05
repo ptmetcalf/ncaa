@@ -19948,5 +19948,325 @@
     "team_name": "UConn Huskies",
     "minutes": null,
     "points": 0
+  },
+  {
+    "event_id": 401856599,
+    "date": "20260404",
+    "player_id": 5175737,
+    "player_name": "Yaxel Lendeborg",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": 14,
+    "points": 11
+  },
+  {
+    "event_id": 401856599,
+    "date": "20260404",
+    "player_id": 4873153,
+    "player_name": "Morez Johnson Jr.",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": 25,
+    "points": 10
+  },
+  {
+    "event_id": 401856599,
+    "date": "20260404",
+    "player_id": 5174983,
+    "player_name": "Aday Mara",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": 30,
+    "points": 26
+  },
+  {
+    "event_id": 401856599,
+    "date": "20260404",
+    "player_id": 4869764,
+    "player_name": "Elliot Cadeau",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": 33,
+    "points": 13
+  },
+  {
+    "event_id": 401856599,
+    "date": "20260404",
+    "player_id": 4433138,
+    "player_name": "Nimari Burnett",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": 22,
+    "points": 6
+  },
+  {
+    "event_id": 401856599,
+    "date": "20260404",
+    "player_id": 5244505,
+    "player_name": "Oscar Goodman",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": 1,
+    "points": 0
+  },
+  {
+    "event_id": 401856599,
+    "date": "20260404",
+    "player_id": 4684596,
+    "player_name": "Will Tschetter",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": 15,
+    "points": 0
+  },
+  {
+    "event_id": 401856599,
+    "date": "20260404",
+    "player_id": 5311988,
+    "player_name": "Malick Kordel",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": 1,
+    "points": 0
+  },
+  {
+    "event_id": 401856599,
+    "date": "20260404",
+    "player_id": 5239559,
+    "player_name": "Howard Eisley Jr.",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": 1,
+    "points": 0
+  },
+  {
+    "event_id": 401856599,
+    "date": "20260404",
+    "player_id": 5106648,
+    "player_name": "Charlie May",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": 1,
+    "points": 0
+  },
+  {
+    "event_id": 401856599,
+    "date": "20260404",
+    "player_id": 5105836,
+    "player_name": "Roddy Gayle Jr.",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": 30,
+    "points": 9
+  },
+  {
+    "event_id": 401856599,
+    "date": "20260404",
+    "player_id": 5041954,
+    "player_name": "Trey McKenney",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": 27,
+    "points": 16
+  },
+  {
+    "event_id": 401856599,
+    "date": "20260404",
+    "player_id": 5174787,
+    "player_name": "Harrison Hochberg",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856599,
+    "date": "20260404",
+    "player_id": 5311987,
+    "player_name": "Ricky Liburd",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856599,
+    "date": "20260404",
+    "player_id": 5214641,
+    "player_name": "L.J. Cason",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856599,
+    "date": "20260404",
+    "player_id": 5174808,
+    "player_name": "Winters Grady",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856599,
+    "date": "20260404",
+    "player_id": 5311896,
+    "player_name": "Ivan Kharchenkov",
+    "team_id": 12,
+    "team_name": "Arizona Wildcats",
+    "minutes": 29,
+    "points": 6
+  },
+  {
+    "event_id": 401856599,
+    "date": "20260404",
+    "player_id": 5041953,
+    "player_name": "Koa Peat",
+    "team_id": 12,
+    "team_name": "Arizona Wildcats",
+    "minutes": 31,
+    "points": 16
+  },
+  {
+    "event_id": 401856599,
+    "date": "20260404",
+    "player_id": 5174954,
+    "player_name": "Motiejus Krivas",
+    "team_id": 12,
+    "team_name": "Arizona Wildcats",
+    "minutes": 28,
+    "points": 11
+  },
+  {
+    "event_id": 401856599,
+    "date": "20260404",
+    "player_id": 5082206,
+    "player_name": "Brayden Burries",
+    "team_id": 12,
+    "team_name": "Arizona Wildcats",
+    "minutes": 38,
+    "points": 13
+  },
+  {
+    "event_id": 401856599,
+    "date": "20260404",
+    "player_id": 4432737,
+    "player_name": "Jaden Bradley",
+    "team_id": 12,
+    "team_name": "Arizona Wildcats",
+    "minutes": 25,
+    "points": 13
+  },
+  {
+    "event_id": 401856599,
+    "date": "20260404",
+    "player_id": 5186456,
+    "player_name": "Dwayne Aristode",
+    "team_id": 12,
+    "team_name": "Arizona Wildcats",
+    "minutes": 10,
+    "points": 3
+  },
+  {
+    "event_id": 401856599,
+    "date": "20260404",
+    "player_id": 5105555,
+    "player_name": "Tobe Awaka",
+    "team_id": 12,
+    "team_name": "Arizona Wildcats",
+    "minutes": 17,
+    "points": 8
+  },
+  {
+    "event_id": 401856599,
+    "date": "20260404",
+    "player_id": 5239487,
+    "player_name": "Sven Djopmo",
+    "team_id": 12,
+    "team_name": "Arizona Wildcats",
+    "minutes": 1,
+    "points": 0
+  },
+  {
+    "event_id": 401856599,
+    "date": "20260404",
+    "player_id": 5174956,
+    "player_name": "Jackson Cook",
+    "team_id": 12,
+    "team_name": "Arizona Wildcats",
+    "minutes": 1,
+    "points": 0
+  },
+  {
+    "event_id": 401856599,
+    "date": "20260404",
+    "player_id": 5108141,
+    "player_name": "Anthony Dell'Orso",
+    "team_id": 12,
+    "team_name": "Arizona Wildcats",
+    "minutes": 17,
+    "points": 3
+  },
+  {
+    "event_id": 401856599,
+    "date": "20260404",
+    "player_id": 5105542,
+    "player_name": "Jackson Francois",
+    "team_id": 12,
+    "team_name": "Arizona Wildcats",
+    "minutes": 1,
+    "points": 0
+  },
+  {
+    "event_id": 401856599,
+    "date": "20260404",
+    "player_id": 4896359,
+    "player_name": "Addison Arnold",
+    "team_id": 12,
+    "team_name": "Arizona Wildcats",
+    "minutes": 1,
+    "points": 0
+  },
+  {
+    "event_id": 401856599,
+    "date": "20260404",
+    "player_id": 4702960,
+    "player_name": "Evan Nelson",
+    "team_id": 12,
+    "team_name": "Arizona Wildcats",
+    "minutes": 1,
+    "points": 0
+  },
+  {
+    "event_id": 401856599,
+    "date": "20260404",
+    "player_id": 5311898,
+    "player_name": "Mabil Mawut",
+    "team_id": 12,
+    "team_name": "Arizona Wildcats",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856599,
+    "date": "20260404",
+    "player_id": 5311897,
+    "player_name": "Sidi Gueye",
+    "team_id": 12,
+    "team_name": "Arizona Wildcats",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856599,
+    "date": "20260404",
+    "player_id": 5082287,
+    "player_name": "Bryce James",
+    "team_id": 12,
+    "team_name": "Arizona Wildcats",
+    "minutes": null,
+    "points": 0
   }
 ]

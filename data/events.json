@@ -654,8 +654,8 @@
     "date": "20260404",
     "name": "Michigan Wolverines at Arizona Wildcats",
     "short_name": "MICH VS ARIZ",
-    "completed": false,
-    "status": "In Progress",
+    "completed": true,
+    "status": "Final",
     "home_team_id": 12,
     "away_team_id": 130
   }
