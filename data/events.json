@@ -644,8 +644,8 @@
     "date": "20260404",
     "name": "Illinois Fighting Illini at UConn Huskies",
     "short_name": "ILL VS CONN",
-    "completed": false,
-    "status": "In Progress",
+    "completed": true,
+    "status": "Final",
     "home_team_id": 41,
     "away_team_id": 356
   },

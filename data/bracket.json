@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-04T23:29:08.490Z",
+  "generated_at": "2026-04-05T01:01:18.052Z",
   "year": 2026,
   "available": true,
   "source": "espn_bracket_page",
@@ -8,7 +8,7 @@
   "tournament_name": "Men's NCAA Tournament",
   "short_name": "NCAA",
   "teams_count": 68,
-  "matchups_count": 66,
+  "matchups_count": 67,
   "regions": [
     {
       "id": 1,
@@ -2009,18 +2009,18 @@
       "region_id": 1,
       "bracket_location": 1,
       "date": "2026-04-04T22:09:00Z",
-      "status_state": "in",
-      "status_desc": "In Progress",
-      "status_detail": "16:46 - 2nd",
+      "status_state": "post",
+      "status_desc": "Final",
+      "status_detail": "Final",
       "location": "Indianapolis, IN",
-      "link": "/mens-college-basketball/game/_/gameId/401856598",
+      "link": "/mens-college-basketball/game/_/gameId/401856598/illinois-uconn",
       "competitor_one": {
         "team_id": 41,
         "team_name": "UConn",
         "abbreviation": "CONN",
         "seed": 2,
-        "score": 44,
-        "winner": false,
+        "score": 71,
+        "winner": true,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/41.png"
       },
       "competitor_two": {
@@ -2028,7 +2028,7 @@
         "team_name": "Illinois",
         "abbreviation": "ILL",
         "seed": 3,
-        "score": 36,
+        "score": 62,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/356.png"
       }
@@ -2038,10 +2038,10 @@
       "round_id": 5,
       "region_id": 1,
       "bracket_location": 2,
-      "date": "2026-04-05T00:49:00Z",
+      "date": "2026-04-05T01:19:00Z",
       "status_state": "pre",
       "status_desc": "Scheduled",
-      "status_detail": "4/4 - 8:49 PM EDT",
+      "status_detail": "4/4 - 9:19 PM EDT",
       "location": "Indianapolis, IN",
       "link": "/mens-college-basketball/game/_/gameId/401856599/michigan-arizona",
       "competitor_one": {
@@ -2062,6 +2062,28 @@
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/130.png"
       }
+    },
+    {
+      "matchup_id": 401856600,
+      "round_id": 6,
+      "region_id": 1,
+      "bracket_location": 1,
+      "date": "2026-04-07T00:50:00Z",
+      "status_state": "pre",
+      "status_desc": "Scheduled",
+      "status_detail": "4/6 - 8:50 PM EDT",
+      "location": "Indianapolis, IN",
+      "link": "/mens-college-basketball/game/_/gameId/401856600",
+      "competitor_one": {
+        "team_id": 41,
+        "team_name": "UConn",
+        "abbreviation": "CONN",
+        "seed": 2,
+        "score": 0,
+        "winner": false,
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/41.png"
+      },
+      "competitor_two": null
     }
   ]
 }
