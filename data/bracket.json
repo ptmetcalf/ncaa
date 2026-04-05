@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-05T01:01:18.052Z",
+  "generated_at": "2026-04-05T01:59:26.075Z",
   "year": 2026,
   "available": true,
   "source": "espn_bracket_page",
@@ -2039,17 +2039,17 @@
       "region_id": 1,
       "bracket_location": 2,
       "date": "2026-04-05T01:19:00Z",
-      "status_state": "pre",
-      "status_desc": "Scheduled",
-      "status_detail": "4/4 - 9:19 PM EDT",
+      "status_state": "in",
+      "status_desc": "In Progress",
+      "status_detail": "6:56 - 1st",
       "location": "Indianapolis, IN",
-      "link": "/mens-college-basketball/game/_/gameId/401856599/michigan-arizona",
+      "link": "/mens-college-basketball/game/_/gameId/401856599",
       "competitor_one": {
         "team_id": 12,
         "team_name": "Arizona",
         "abbreviation": "ARIZ",
         "seed": 1,
-        "score": 0,
+        "score": 21,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/12.png"
       },
@@ -2058,7 +2058,7 @@
         "team_name": "Michigan",
         "abbreviation": "MICH",
         "seed": 1,
-        "score": 0,
+        "score": 28,
         "winner": false,
         "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/130.png"
       }
