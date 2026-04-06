@@ -658,5 +658,15 @@
     "status": "Final",
     "home_team_id": 12,
     "away_team_id": 130
+  },
+  {
+    "event_id": 401856600,
+    "date": "20260406",
+    "name": "UConn Huskies at Michigan Wolverines",
+    "short_name": "CONN VS MICH",
+    "completed": false,
+    "status": "Scheduled",
+    "home_team_id": 130,
+    "away_team_id": 41
   }
 ]
