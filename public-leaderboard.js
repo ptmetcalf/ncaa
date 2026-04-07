@@ -163,6 +163,14 @@ function buildTeamStatusMap() {
   return rows;
 }
 
+function isTeamStillRemaining(status) {
+  const normalized = String(status ?? "").trim();
+  if (!normalized) return true;
+  if (normalized.startsWith("Eliminated")) return false;
+  if (normalized === "Champion") return false;
+  return true;
+}
+
 function renderLeaderboard() {
   const totals = byIdMap(state.playerTotals, "player_id");
   const players = byIdMap(state.players, "player_id");
@@ -178,7 +186,7 @@ function renderLeaderboard() {
     const playersRemaining = ownerPicks.reduce((sum, pick) => {
       const player = players.get(Number(pick.player_id));
       const status = teamStatus.get(Number(player?.team_id ?? pick.team_id))?.status ?? "Alive";
-      return sum + (status.startsWith("Eliminated") ? 0 : 1);
+      return sum + (isTeamStillRemaining(status) ? 1 : 0);
     }, 0);
     return { owner, players: ownerPicks.length, playersRemaining, totalPts };
   });
