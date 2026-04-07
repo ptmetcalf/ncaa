@@ -664,8 +664,8 @@
     "date": "20260406",
     "name": "UConn Huskies at Michigan Wolverines",
     "short_name": "CONN VS MICH",
-    "completed": false,
-    "status": "Halftime",
+    "completed": true,
+    "status": "Final",
     "home_team_id": 130,
     "away_team_id": 41
   }

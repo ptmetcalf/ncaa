@@ -4,18 +4,27 @@
     "player_name": "Tarris Reed Jr.",
     "team_id": 41,
     "team_name": "UConn Huskies",
-    "games_played": 5,
-    "tournament_points": 104,
-    "tournament_minutes": 164
+    "games_played": 6,
+    "tournament_points": 117,
+    "tournament_minutes": 198
   },
   {
     "player_id": 5175737,
     "player_name": "Yaxel Lendeborg",
     "team_id": 130,
     "team_name": "Michigan Wolverines",
-    "games_played": 5,
-    "tournament_points": 95,
-    "tournament_minutes": 142
+    "games_played": 6,
+    "tournament_points": 108,
+    "tournament_minutes": 178
+  },
+  {
+    "player_id": 4917149,
+    "player_name": "Alex Karaban",
+    "team_id": 41,
+    "team_name": "UConn Huskies",
+    "games_played": 6,
+    "tournament_points": 97,
+    "tournament_minutes": 224
   },
   {
     "player_id": 5041935,
@@ -45,6 +54,15 @@
     "tournament_minutes": 107
   },
   {
+    "player_id": 5174983,
+    "player_name": "Aday Mara",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "games_played": 6,
+    "tournament_points": 88,
+    "tournament_minutes": 152
+  },
+  {
     "player_id": 5107968,
     "player_name": "Ja'Kobi Gillespie",
     "team_id": 2633,
@@ -72,22 +90,22 @@
     "tournament_minutes": 159
   },
   {
-    "player_id": 5174983,
-    "player_name": "Aday Mara",
+    "player_id": 4873153,
+    "player_name": "Morez Johnson Jr.",
     "team_id": 130,
     "team_name": "Michigan Wolverines",
-    "games_played": 5,
-    "tournament_points": 80,
-    "tournament_minutes": 122
+    "games_played": 6,
+    "tournament_points": 77,
+    "tournament_minutes": 153
   },
   {
-    "player_id": 4917149,
-    "player_name": "Alex Karaban",
-    "team_id": 41,
-    "team_name": "UConn Huskies",
-    "games_played": 5,
-    "tournament_points": 80,
-    "tournament_minutes": 184
+    "player_id": 4869764,
+    "player_name": "Elliot Cadeau",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "games_played": 6,
+    "tournament_points": 74,
+    "tournament_minutes": 194
   },
   {
     "player_id": 4897438,
@@ -97,6 +115,15 @@
     "games_played": 4,
     "tournament_points": 74,
     "tournament_minutes": 120
+  },
+  {
+    "player_id": 5196916,
+    "player_name": "Braylon Mullins",
+    "team_id": 41,
+    "team_name": "UConn Huskies",
+    "games_played": 6,
+    "tournament_points": 73,
+    "tournament_minutes": 190
   },
   {
     "player_id": 4873090,
@@ -115,6 +142,15 @@
     "games_played": 4,
     "tournament_points": 73,
     "tournament_minutes": 160
+  },
+  {
+    "player_id": 5041954,
+    "player_name": "Trey McKenney",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "games_played": 6,
+    "tournament_points": 72,
+    "tournament_minutes": 151
   },
   {
     "player_id": 4432243,
@@ -162,15 +198,6 @@
     "tournament_minutes": 124
   },
   {
-    "player_id": 4873153,
-    "player_name": "Morez Johnson Jr.",
-    "team_id": 130,
-    "team_name": "Michigan Wolverines",
-    "games_played": 5,
-    "tournament_points": 65,
-    "tournament_minutes": 125
-  },
-  {
     "player_id": 5311832,
     "player_name": "David Mirkovic",
     "team_id": 356,
@@ -207,15 +234,6 @@
     "tournament_minutes": 127
   },
   {
-    "player_id": 5041954,
-    "player_name": "Trey McKenney",
-    "team_id": 130,
-    "team_name": "Michigan Wolverines",
-    "games_played": 5,
-    "tournament_points": 63,
-    "tournament_minutes": 122
-  },
-  {
     "player_id": 4858604,
     "player_name": "Pryce Sandfort",
     "team_id": 158,
@@ -223,15 +241,6 @@
     "games_played": 3,
     "tournament_points": 63,
     "tournament_minutes": 109
-  },
-  {
-    "player_id": 5196916,
-    "player_name": "Braylon Mullins",
-    "team_id": 41,
-    "team_name": "UConn Huskies",
-    "games_played": 5,
-    "tournament_points": 62,
-    "tournament_minutes": 154
   },
   {
     "player_id": 5311896,
@@ -252,13 +261,22 @@
     "tournament_minutes": 108
   },
   {
-    "player_id": 4869764,
-    "player_name": "Elliot Cadeau",
+    "player_id": 4895737,
+    "player_name": "Solo Ball",
+    "team_id": 41,
+    "team_name": "UConn Huskies",
+    "games_played": 6,
+    "tournament_points": 55,
+    "tournament_minutes": 144
+  },
+  {
+    "player_id": 5105836,
+    "player_name": "Roddy Gayle Jr.",
     "team_id": 130,
     "team_name": "Michigan Wolverines",
-    "games_played": 5,
-    "tournament_points": 55,
-    "tournament_minutes": 164
+    "games_played": 6,
+    "tournament_points": 54,
+    "tournament_minutes": 147
   },
   {
     "player_id": 4848625,
@@ -351,15 +369,6 @@
     "tournament_minutes": 126
   },
   {
-    "player_id": 5105836,
-    "player_name": "Roddy Gayle Jr.",
-    "team_id": 130,
-    "team_name": "Michigan Wolverines",
-    "games_played": 5,
-    "tournament_points": 50,
-    "tournament_minutes": 122
-  },
-  {
     "player_id": 4702484,
     "player_name": "Latrell Wrightsell",
     "team_id": 333,
@@ -385,6 +394,15 @@
     "games_played": 2,
     "tournament_points": 49,
     "tournament_minutes": 73
+  },
+  {
+    "player_id": 4433138,
+    "player_name": "Nimari Burnett",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "games_played": 6,
+    "tournament_points": 48,
+    "tournament_minutes": 131
   },
   {
     "player_id": 5106254,
@@ -423,15 +441,6 @@
     "tournament_minutes": 75
   },
   {
-    "player_id": 4433138,
-    "player_name": "Nimari Burnett",
-    "team_id": 130,
-    "team_name": "Michigan Wolverines",
-    "games_played": 5,
-    "tournament_points": 44,
-    "tournament_minutes": 115
-  },
-  {
     "player_id": 5239571,
     "player_name": "Braden Frager",
     "team_id": 158,
@@ -439,15 +448,6 @@
     "games_played": 3,
     "tournament_points": 44,
     "tournament_minutes": 79
-  },
-  {
-    "player_id": 4895737,
-    "player_name": "Solo Ball",
-    "team_id": 41,
-    "team_name": "UConn Huskies",
-    "games_played": 5,
-    "tournament_points": 44,
-    "tournament_minutes": 128
   },
   {
     "player_id": 5177211,
@@ -1188,6 +1188,33 @@
     "tournament_minutes": 45
   },
   {
+    "player_id": 4683861,
+    "player_name": "Malachi Smith",
+    "team_id": 41,
+    "team_name": "UConn Huskies",
+    "games_played": 6,
+    "tournament_points": 24,
+    "tournament_minutes": 128
+  },
+  {
+    "player_id": 4895753,
+    "player_name": "Jayden Ross",
+    "team_id": 41,
+    "team_name": "UConn Huskies",
+    "games_played": 6,
+    "tournament_points": 24,
+    "tournament_minutes": 122
+  },
+  {
+    "player_id": 5054083,
+    "player_name": "Silas Demary Jr.",
+    "team_id": 41,
+    "team_name": "UConn Huskies",
+    "games_played": 6,
+    "tournament_points": 24,
+    "tournament_minutes": 119
+  },
+  {
     "player_id": 5236222,
     "player_name": "Preston Edmead",
     "team_id": 2275,
@@ -1323,15 +1350,6 @@
     "tournament_minutes": 32
   },
   {
-    "player_id": 5054083,
-    "player_name": "Silas Demary Jr.",
-    "team_id": 41,
-    "team_name": "UConn Huskies",
-    "games_played": 5,
-    "tournament_points": 22,
-    "tournament_minutes": 98
-  },
-  {
     "player_id": 5152656,
     "player_name": "Josiah Moseley",
     "team_id": 2641,
@@ -1447,15 +1465,6 @@
     "games_played": 1,
     "tournament_points": 21,
     "tournament_minutes": 36
-  },
-  {
-    "player_id": 4895753,
-    "player_name": "Jayden Ross",
-    "team_id": 41,
-    "team_name": "UConn Huskies",
-    "games_played": 5,
-    "tournament_points": 21,
-    "tournament_minutes": 103
   },
   {
     "player_id": 4432196,
@@ -1735,15 +1744,6 @@
     "games_played": 2,
     "tournament_points": 18,
     "tournament_minutes": 61
-  },
-  {
-    "player_id": 4683861,
-    "player_name": "Malachi Smith",
-    "team_id": 41,
-    "team_name": "UConn Huskies",
-    "games_played": 5,
-    "tournament_points": 18,
-    "tournament_minutes": 108
   },
   {
     "player_id": 4709141,
@@ -2821,9 +2821,9 @@
     "player_name": "Will Tschetter",
     "team_id": 130,
     "team_name": "Michigan Wolverines",
-    "games_played": 5,
+    "games_played": 6,
     "tournament_points": 10,
-    "tournament_minutes": 67
+    "tournament_minutes": 73
   },
   {
     "player_id": 4711258,
@@ -3397,9 +3397,9 @@
     "player_name": "Jaylin Stewart",
     "team_id": 41,
     "team_name": "UConn Huskies",
-    "games_played": 5,
+    "games_played": 6,
     "tournament_points": 7,
-    "tournament_minutes": 15
+    "tournament_minutes": 24
   },
   {
     "player_id": 5037881,
@@ -3613,9 +3613,9 @@
     "player_name": "Eric Reibe",
     "team_id": 41,
     "team_name": "UConn Huskies",
-    "games_played": 5,
+    "games_played": 6,
     "tournament_points": 6,
-    "tournament_minutes": 35
+    "tournament_minutes": 41
   },
   {
     "player_id": 5105537,
@@ -3784,7 +3784,7 @@
     "player_name": "Oscar Goodman",
     "team_id": 130,
     "team_name": "Michigan Wolverines",
-    "games_played": 5,
+    "games_played": 6,
     "tournament_points": 5,
     "tournament_minutes": 8
   },
@@ -4261,7 +4261,7 @@
     "player_name": "Charlie May",
     "team_id": 130,
     "team_name": "Michigan Wolverines",
-    "games_played": 5,
+    "games_played": 6,
     "tournament_points": 3,
     "tournament_minutes": 5
   },
@@ -4549,7 +4549,7 @@
     "player_name": "Malick Kordel",
     "team_id": 130,
     "team_name": "Michigan Wolverines",
-    "games_played": 5,
+    "games_played": 6,
     "tournament_points": 2,
     "tournament_minutes": 3
   },
@@ -4693,7 +4693,7 @@
     "player_name": "Alec Millender",
     "team_id": 41,
     "team_name": "UConn Huskies",
-    "games_played": 5,
+    "games_played": 6,
     "tournament_points": 2,
     "tournament_minutes": 8
   },
@@ -6610,7 +6610,7 @@
     "player_name": "Howard Eisley Jr.",
     "team_id": 130,
     "team_name": "Michigan Wolverines",
-    "games_played": 5,
+    "games_played": 6,
     "tournament_points": 0,
     "tournament_minutes": 5
   },
@@ -6619,7 +6619,7 @@
     "player_name": "Harrison Hochberg",
     "team_id": 130,
     "team_name": "Michigan Wolverines",
-    "games_played": 5,
+    "games_played": 6,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -6628,7 +6628,7 @@
     "player_name": "Ricky Liburd",
     "team_id": 130,
     "team_name": "Michigan Wolverines",
-    "games_played": 5,
+    "games_played": 6,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -6637,7 +6637,7 @@
     "player_name": "L.J. Cason",
     "team_id": 130,
     "team_name": "Michigan Wolverines",
-    "games_played": 5,
+    "games_played": 6,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -6646,7 +6646,7 @@
     "player_name": "Winters Grady",
     "team_id": 130,
     "team_name": "Michigan Wolverines",
-    "games_played": 5,
+    "games_played": 6,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -8068,7 +8068,7 @@
     "player_name": "Jacob Ross",
     "team_id": 41,
     "team_name": "UConn Huskies",
-    "games_played": 5,
+    "games_played": 6,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -8077,7 +8077,7 @@
     "player_name": "Dwayne Koroma",
     "team_id": 41,
     "team_name": "UConn Huskies",
-    "games_played": 5,
+    "games_played": 6,
     "tournament_points": 0,
     "tournament_minutes": 1
   },
@@ -8086,7 +8086,7 @@
     "player_name": "Rrezon Elezaj",
     "team_id": 41,
     "team_name": "UConn Huskies",
-    "games_played": 5,
+    "games_played": 6,
     "tournament_points": 0,
     "tournament_minutes": 0
   },
@@ -8095,7 +8095,7 @@
     "player_name": "Uroš Paunovic",
     "team_id": 41,
     "team_name": "UConn Huskies",
-    "games_played": 5,
+    "games_played": 6,
     "tournament_points": 0,
     "tournament_minutes": 1
   },
@@ -8104,7 +8104,7 @@
     "player_name": "Jacob Furphy",
     "team_id": 41,
     "team_name": "UConn Huskies",
-    "games_played": 5,
+    "games_played": 6,
     "tournament_points": 0,
     "tournament_minutes": 1
   },

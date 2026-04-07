@@ -20268,5 +20268,315 @@
     "team_name": "Arizona Wildcats",
     "minutes": null,
     "points": 0
+  },
+  {
+    "event_id": 401856600,
+    "date": "20260406",
+    "player_id": 4917149,
+    "player_name": "Alex Karaban",
+    "team_id": 41,
+    "team_name": "UConn Huskies",
+    "minutes": 40,
+    "points": 17
+  },
+  {
+    "event_id": 401856600,
+    "date": "20260406",
+    "player_id": 5105809,
+    "player_name": "Tarris Reed Jr.",
+    "team_id": 41,
+    "team_name": "UConn Huskies",
+    "minutes": 34,
+    "points": 13
+  },
+  {
+    "event_id": 401856600,
+    "date": "20260406",
+    "player_id": 5196916,
+    "player_name": "Braylon Mullins",
+    "team_id": 41,
+    "team_name": "UConn Huskies",
+    "minutes": 36,
+    "points": 11
+  },
+  {
+    "event_id": 401856600,
+    "date": "20260406",
+    "player_id": 5054083,
+    "player_name": "Silas Demary Jr.",
+    "team_id": 41,
+    "team_name": "UConn Huskies",
+    "minutes": 21,
+    "points": 2
+  },
+  {
+    "event_id": 401856600,
+    "date": "20260406",
+    "player_id": 4895737,
+    "player_name": "Solo Ball",
+    "team_id": 41,
+    "team_name": "UConn Huskies",
+    "minutes": 16,
+    "points": 11
+  },
+  {
+    "event_id": 401856600,
+    "date": "20260406",
+    "player_id": 4895753,
+    "player_name": "Jayden Ross",
+    "team_id": 41,
+    "team_name": "UConn Huskies",
+    "minutes": 19,
+    "points": 3
+  },
+  {
+    "event_id": 401856600,
+    "date": "20260406",
+    "player_id": 4685647,
+    "player_name": "Jaylin Stewart",
+    "team_id": 41,
+    "team_name": "UConn Huskies",
+    "minutes": 9,
+    "points": 0
+  },
+  {
+    "event_id": 401856600,
+    "date": "20260406",
+    "player_id": 5152763,
+    "player_name": "Eric Reibe",
+    "team_id": 41,
+    "team_name": "UConn Huskies",
+    "minutes": 6,
+    "points": 0
+  },
+  {
+    "event_id": 401856600,
+    "date": "20260406",
+    "player_id": 4683861,
+    "player_name": "Malachi Smith",
+    "team_id": 41,
+    "team_name": "UConn Huskies",
+    "minutes": 20,
+    "points": 6
+  },
+  {
+    "event_id": 401856600,
+    "date": "20260406",
+    "player_id": 5142624,
+    "player_name": "Jacob Ross",
+    "team_id": 41,
+    "team_name": "UConn Huskies",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856600,
+    "date": "20260406",
+    "player_id": 4703011,
+    "player_name": "Dwayne Koroma",
+    "team_id": 41,
+    "team_name": "UConn Huskies",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856600,
+    "date": "20260406",
+    "player_id": 5312036,
+    "player_name": "Rrezon Elezaj",
+    "team_id": 41,
+    "team_name": "UConn Huskies",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856600,
+    "date": "20260406",
+    "player_id": 5307570,
+    "player_name": "Uroš Paunovic",
+    "team_id": 41,
+    "team_name": "UConn Huskies",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856600,
+    "date": "20260406",
+    "player_id": 5248294,
+    "player_name": "Jacob Furphy",
+    "team_id": 41,
+    "team_name": "UConn Huskies",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856600,
+    "date": "20260406",
+    "player_id": 5241657,
+    "player_name": "Alec Millender",
+    "team_id": 41,
+    "team_name": "UConn Huskies",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856600,
+    "date": "20260406",
+    "player_id": 5175737,
+    "player_name": "Yaxel Lendeborg",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": 36,
+    "points": 13
+  },
+  {
+    "event_id": 401856600,
+    "date": "20260406",
+    "player_id": 4873153,
+    "player_name": "Morez Johnson Jr.",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": 28,
+    "points": 12
+  },
+  {
+    "event_id": 401856600,
+    "date": "20260406",
+    "player_id": 5174983,
+    "player_name": "Aday Mara",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": 30,
+    "points": 8
+  },
+  {
+    "event_id": 401856600,
+    "date": "20260406",
+    "player_id": 4869764,
+    "player_name": "Elliot Cadeau",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": 30,
+    "points": 19
+  },
+  {
+    "event_id": 401856600,
+    "date": "20260406",
+    "player_id": 4433138,
+    "player_name": "Nimari Burnett",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": 16,
+    "points": 4
+  },
+  {
+    "event_id": 401856600,
+    "date": "20260406",
+    "player_id": 4684596,
+    "player_name": "Will Tschetter",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": 6,
+    "points": 0
+  },
+  {
+    "event_id": 401856600,
+    "date": "20260406",
+    "player_id": 5105836,
+    "player_name": "Roddy Gayle Jr.",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": 25,
+    "points": 4
+  },
+  {
+    "event_id": 401856600,
+    "date": "20260406",
+    "player_id": 5041954,
+    "player_name": "Trey McKenney",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": 29,
+    "points": 9
+  },
+  {
+    "event_id": 401856600,
+    "date": "20260406",
+    "player_id": 5244505,
+    "player_name": "Oscar Goodman",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856600,
+    "date": "20260406",
+    "player_id": 5174787,
+    "player_name": "Harrison Hochberg",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856600,
+    "date": "20260406",
+    "player_id": 5311988,
+    "player_name": "Malick Kordel",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856600,
+    "date": "20260406",
+    "player_id": 5311987,
+    "player_name": "Ricky Liburd",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856600,
+    "date": "20260406",
+    "player_id": 5239559,
+    "player_name": "Howard Eisley Jr.",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856600,
+    "date": "20260406",
+    "player_id": 5214641,
+    "player_name": "L.J. Cason",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856600,
+    "date": "20260406",
+    "player_id": 5174808,
+    "player_name": "Winters Grady",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": null,
+    "points": 0
+  },
+  {
+    "event_id": 401856600,
+    "date": "20260406",
+    "player_id": 5106648,
+    "player_name": "Charlie May",
+    "team_id": 130,
+    "team_name": "Michigan Wolverines",
+    "minutes": null,
+    "points": 0
   }
 ]
