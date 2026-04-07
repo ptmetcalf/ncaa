@@ -54,10 +54,9 @@ function seedValue(playerOrTeam) {
 }
 
 function renderMetaLine() {
-  const liveUpdated = state.liveUpdatedAt ?? state.meta?.generated_at ?? null;
-  elements.metaLine.textContent = liveUpdated
-    ? `Standings updated: ${new Date(liveUpdated).toLocaleString()}`
-    : "Standings updated: pending";
+  const statsUpdated = state.meta?.generated_at ? new Date(state.meta.generated_at).toLocaleString() : "pending";
+  const liveUpdated = state.liveUpdatedAt ? new Date(state.liveUpdatedAt).toLocaleString() : "pending";
+  elements.metaLine.textContent = `Standings stats refresh: ${statsUpdated} | Live picks updated: ${liveUpdated}`;
 }
 
 function readAutoRefreshPreference() {
