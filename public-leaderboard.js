@@ -171,6 +171,14 @@ function isTeamStillRemaining(status) {
   return true;
 }
 
+function detailStatusLabel(status) {
+  const normalized = String(status ?? "").trim();
+  if (!normalized) return "Active";
+  if (normalized === "Champion") return "Champion";
+  if (normalized.startsWith("Eliminated")) return "Eliminated";
+  return "Active";
+}
+
 function renderLeaderboard() {
   const totals = byIdMap(state.playerTotals, "player_id");
   const players = byIdMap(state.players, "player_id");
@@ -264,10 +272,10 @@ function renderPickDetails() {
     ? rows.reduce((sum, row) => sum + (Number(row.tourn_pts) || 0), 0)
     : null;
   const selectedRemaining = state.selectedOwner
-    ? rows.filter((row) => !row.team_status.startsWith("Eliminated")).length
+    ? rows.filter((row) => isTeamStillRemaining(row.team_status)).length
     : null;
   const selectedEliminated = state.selectedOwner
-    ? rows.filter((row) => row.team_status.startsWith("Eliminated")).length
+    ? rows.filter((row) => !isTeamStillRemaining(row.team_status)).length
     : null;
 
   elements.detailSummary.textContent = state.selectedOwner
@@ -299,7 +307,7 @@ function renderPickDetails() {
           })}</td
         >
         <td data-label="Seed">${formatInt(row.team_seed)}</td>
-        <td data-label="Status">${row.team_status.startsWith("Eliminated") ? "Eliminated" : "Active"}</td>
+        <td data-label="Status">${detailStatusLabel(row.team_status)}</td>
         <td data-label="Tourn PTS">${formatNum(row.tourn_pts, 1)}</td>
         <td data-label="Tourn GP">${formatInt(row.tourn_gp)}</td>
       </tr>`
