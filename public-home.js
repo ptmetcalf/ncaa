@@ -272,10 +272,9 @@ function nextUpInfo(nextPickNo) {
 }
 
 function renderMetaLine() {
-  const liveUpdated = state.liveUpdatedAt ?? state.meta?.generated_at ?? null;
-  elements.metaLine.textContent = liveUpdated
-    ? `Live picks updated: ${new Date(liveUpdated).toLocaleString()}`
-    : "Live picks updated: pending";
+  const statsUpdated = state.meta?.generated_at ? new Date(state.meta.generated_at).toLocaleString() : "pending";
+  const liveUpdated = state.liveUpdatedAt ? new Date(state.liveUpdatedAt).toLocaleString() : "pending";
+  elements.metaLine.textContent = `Stats refresh: ${statsUpdated} | Live picks updated: ${liveUpdated}`;
 }
 
 function readAutoRefreshPreference() {
