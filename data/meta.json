@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-10T23:29:29.707Z",
+  "generated_at": "2026-04-11T00:56:24.585Z",
   "year": 2026,
   "season_type": 2,
   "team_source_mode": "auto",
@@ -20,7 +20,7 @@
     "20260320"
   ],
   "game_start": "20260317",
-  "game_end": "20260410",
+  "game_end": "20260411",
   "totals": {
     "teams": 68,
     "players": 1050,
