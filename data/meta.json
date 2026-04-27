@@ -1,18 +1,17 @@
 {
-  "generated_at": "2026-04-27T19:49:33.896Z",
+  "generated_at": "2026-04-27T20:40:32.728Z",
   "year": 2026,
   "season_type": 2,
   "team_source_mode": "auto",
-  "team_source": "team_file",
-  "team_source_detail": "config file",
-  "team_file": "/home/runner/work/ncaa/ncaa/config/teams.current.json",
+  "team_source": "official_bracket",
+  "team_source_detail": "ESPN bracket page (2025-26)",
+  "team_file": null,
   "bracket": {
-    "season": null,
-    "tournament_name": null,
-    "short_name": null,
-    "matchups": 0,
-    "teams": 0,
-    "error": "Marker not found: window['__espnfitt__']="
+    "season": "2025-26",
+    "tournament_name": "Men's NCAA Tournament",
+    "short_name": "NCAA",
+    "matchups": 67,
+    "teams": 68
   },
   "discover_dates": [
     "20260317",
@@ -24,8 +23,8 @@
   "game_end": "20260427",
   "totals": {
     "teams": 68,
-    "players": 1044,
-    "seeded_players": 1044,
+    "players": 1050,
+    "seeded_players": 1050,
     "events": 67,
     "final_events": 67,
     "game_log_rows": 2058,
